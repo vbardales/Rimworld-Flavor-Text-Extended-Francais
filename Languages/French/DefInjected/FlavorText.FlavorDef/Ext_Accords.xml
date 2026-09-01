@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Accords.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_RizAuxVermicelles.label>riz aux vermicelles</FlavorTextFR_RizAuxVermicelles.label>
+	<FlavorTextFR_RizAuxVermicelles.description>des vermicelles {1_adj} cassés court et colorés {2_plur} jusqu'au brun noisette, avant qu'on verse {0_coll} par-dessus et qu'on couvre d'eau. Du Liban à l'Égypte et jusqu'en Turquie, c'est le riz de tous les jours.</FlavorTextFR_RizAuxVermicelles.description>
+	<FlavorTextFR_TourteAuRiz.label>tourte au riz</FlavorTextFR_TourteAuRiz.label>
+	<FlavorTextFR_TourteAuRiz.description>{0_coll} cuit au bouillon, lié puis enfermé dans une pâte {1_adj} avec une poêlée {2_adj}. Une tourte salée qui tient au corps et se mange froide le lendemain, ce qui était tout son intérêt.</FlavorTextFR_TourteAuRiz.description>
+	<FlavorTextFR_TarteAuRiz.label>tarte au riz</FlavorTextFR_TarteAuRiz.label>
+	<FlavorTextFR_TarteAuRiz.description>un riz au lait très épais coulé dans un fond de pâte levée {1_adj}, puis passé au four jusqu'à ce que le dessus se craquelle. La spécialité de Verviers, qu'on y mange depuis des siècles.</FlavorTextFR_TarteAuRiz.description>
+	<FlavorTextFR_CroquettesDeRiz.label>croquettes de riz</FlavorTextFR_CroquettesDeRiz.label>
+	<FlavorTextFR_CroquettesDeRiz.description>{0_coll} cuit à l'excès pour qu'il colle, lié {2_plur} battus, façonné en bâtonnets, passé à la farine {1_adj} puis frit. Une façon d'écouler le fond de la marmite qui vaut mieux que son origine.</FlavorTextFR_CroquettesDeRiz.description>
+	<FlavorTextFR_RizPilafOrzo.label>riz pilaf à l'orzo</FlavorTextFR_RizPilafOrzo.label>
+	<FlavorTextFR_RizPilafOrzo.description>{0_coll} et de petites pâtes {1_adj} en grain de riz, nacrés ensemble avec {2_coll} avant d'être mouillés au bouillon. Deux féculents dans la même casserole, et deux textures à l'arrivée.</FlavorTextFR_RizPilafOrzo.description>
+	<FlavorTextFR_BrochettesMixtes.label>brochettes mixtes</FlavorTextFR_BrochettesMixtes.label>
+	<FlavorTextFR_BrochettesMixtes.description>des cubes {0_adj} et {1_adj} enfilés en alternance avec {2_coll}, sur des broches séparées : les deux viandes ne cuisent pas au même rythme, et le griller ensemble est la faute du débutant.</FlavorTextFR_BrochettesMixtes.description>
+	<FlavorTextFR_ChawarmaMixte.label>chawarma mixte</FlavorTextFR_ChawarmaMixte.label>
+	<FlavorTextFR_ChawarmaMixte.description>deux broches verticales côte à côte, l'une {0_adj}, l'autre {1_adj}, dont on racle les copeaux au fur et à mesure pour les rouler ensemble dans un pain {2_adj}. Le client qui hésite prend les deux.</FlavorTextFR_ChawarmaMixte.description>
+	<FlavorTextFR_Puchero.label>puchero</FlavorTextFR_Puchero.label>
+	<FlavorTextFR_Puchero.description>un pot où {0_coll} et {1_coll} cuisent ensemble des heures avec {2_coll} trempés. On sert le bouillon en premier, les pois et les légumes ensuite, les viandes en dernier — c'est un repas en trois services tiré d'une seule marmite.</FlavorTextFR_Puchero.description>
+	<FlavorTextFR_DoubleConsomme.label>double consommé</FlavorTextFR_DoubleConsomme.label>
+	<FlavorTextFR_DoubleConsomme.description>un fond {0_adj} déjà clarifié, remis à cuire sur {1_coll} et {2_coll} pour en extraire une seconde fois. Il faut deux marmites de départ pour un bol d'arrivée, et le résultat est limpide comme du thé.</FlavorTextFR_DoubleConsomme.description>
+	<FlavorTextFR_BiryaniMixte.label>biryani mixte</FlavorTextFR_BiryaniMixte.label>
+	<FlavorTextFR_BiryaniMixte.description>{2_coll} à moitié cuit posé en couches sur {0_coll} et {1_coll} marinées au yaourt, le tout scellé sous une pâte et fini à l'étouffée. On brise le couvercle à table.</FlavorTextFR_BiryaniMixte.description>
+	<FlavorTextFR_PainDeViandeMixte.label>pain de viande mixte</FlavorTextFR_PainDeViandeMixte.label>
+	<FlavorTextFR_PainDeViandeMixte.description>{0_coll} pour le goût, {1_coll} pour la tenue, {2_coll} pour lier le tout, façonnés en pain et cuits au four. Le mélange des deux viandes n'est pas une économie : la volaille seule s'assèche, le bœuf seul s'affaisse.</FlavorTextFR_PainDeViandeMixte.description>
+	<FlavorTextFR_GheeRice.label>ghee rice</FlavorTextFR_GheeRice.label>
+	<FlavorTextFR_GheeRice.description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières — cannelle, clou, cardamome, laurier — puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</FlavorTextFR_GheeRice.description>
+	<FlavorTextFR_Tahdig.label>tahdig</FlavorTextFR_Tahdig.label>
+	<FlavorTextFR_Tahdig.description>le fond de la marmite : {0_coll} mêlé {2_plur} et au safran, tassé dans {1_coll} fondu et laissé prendre à feu doux jusqu'à former une croûte dorée qu'on retourne d'un bloc sur le plat. C'est la part qu'on se dispute.</FlavorTextFR_Tahdig.description>
+	<FlavorTextFR_RizBeurreSoja.label>riz au beurre et au soja</FlavorTextFR_RizBeurreSoja.label>
+	<FlavorTextFR_RizBeurreSoja.description>une noix {1_adj} qui fond dans {0_coll} brûlant, un filet {2_adj}, rien d'autre. Se fait à une heure du matin, avec ce qui reste du cuiseur.</FlavorTextFR_RizBeurreSoja.description>
+	<FlavorTextFR_RizBeurreAil.label>riz au beurre et à l'ail</FlavorTextFR_RizBeurreAil.label>
+	<FlavorTextFR_RizBeurreAil.description>{2_coll} haché blondi dans {1_coll} mousseux, puis {0_coll} sauté dedans grain par grain. L'ail doit colorer sans brûler : passé le blond, il devient amer et le plat est perdu.</FlavorTextFR_RizBeurreAil.description>
+	<FlavorTextFR_TomKha.label>tom kha</FlavorTextFR_TomKha.label>
+	<FlavorTextFR_TomKha.description>un lait {0_adj} infusé de galanga, de citronnelle et de feuilles de combava, dans lequel pochent {1_coll} et {2_coll}. Le galanga n'est pas du gingembre et ne se remplace pas : c'est lui qui fait le plat.</FlavorTextFR_TomKha.description>
+	<FlavorTextFR_Moilee.label>moilee</FlavorTextFR_Moilee.label>
+	<FlavorTextFR_Moilee.description>un curry blanc du Kerala : {1_coll} pochée dans un lait {0_adj} au curcuma, avec {2_coll} ajoutées en fin de course pour qu'elles gardent leur tenue. Doux, presque pâle — le piment y est vert et discret.</FlavorTextFR_Moilee.description>
+	<FlavorTextFR_BoeufLaitDeCoco.label>bœuf au lait de coco</FlavorTextFR_BoeufLaitDeCoco.label>
+	<FlavorTextFR_BoeufLaitDeCoco.description>{1_coll} braisée très lentement dans un lait {0_adj} et une pâte {2_adj}, jusqu'à ce que le lait se casse et que l'huile remonte. À partir de là, la viande frit dans sa propre sauce.</FlavorTextFR_BoeufLaitDeCoco.description>
+	<FlavorTextFR_Haupia.label>haupia</FlavorTextFR_Haupia.label>
+	<FlavorTextFR_Haupia.description>un lait {0_adj} sucré {1_plur} et lié d'un amidon {2_adj}, versé en plaque et laissé prendre au froid, puis découpé en carrés qui se mangent à la main. Le dessert des lūʻau hawaïens.</FlavorTextFR_Haupia.description>
+	<FlavorTextFR_Cocada.label>cocada</FlavorTextFR_Cocada.label>
+	<FlavorTextFR_Cocada.description>{0_coll} râpée cuite {1_plur} et {2_plur} jusqu'à ce que la masse se détache du fond de la casserole, puis dressée à la cuillère en petits tas qui durcissent en refroidissant.</FlavorTextFR_Cocada.description>
+	<FlavorTextFR_PolSambol.label>pol sambol</FlavorTextFR_PolSambol.label>
+	<FlavorTextFR_PolSambol.description>{0_coll} fraîche râpée, pilée au mortier avec {1_coll} séchés, de l'oignon rouge et un jus {2_adj}. Cinglant, sec, servi à côté de tout au Sri Lanka. Se fait à la minute : râpée la veille, la coco rancit.</FlavorTextFR_PolSambol.description>
+	<FlavorTextFR_ChutneyDeCoco.label>chutney de coco</FlavorTextFR_ChutneyDeCoco.label>
+	<FlavorTextFR_ChutneyDeCoco.description>{0_coll} mixée avec {1_coll} grillés et un peu d'eau, puis réveillée d'un tempérage : des graines de moutarde et des feuilles de curry qu'on fait éclater dans l'huile brûlante et qu'on verse par-dessus. Accompagne le dosa.</FlavorTextFR_ChutneyDeCoco.description>
+	<FlavorTextFR_SaladeAgrumesFenouil.label>salade d'agrumes au fenouil</FlavorTextFR_SaladeAgrumesFenouil.label>
+	<FlavorTextFR_SaladeAgrumesFenouil.description>{0_coll} pelés à vif, en rondelles, avec du fenouil coupé à la mandoline, {2_coll} et {1_coll} noires. Une huile, du poivre, rien de plus : l'acidité du fruit tient lieu de vinaigre.</FlavorTextFR_SaladeAgrumesFenouil.description>
+	<FlavorTextFR_CitronConfit.label>citron confit</FlavorTextFR_CitronConfit.label>
+	<FlavorTextFR_CitronConfit.description>{0_coll} fendus en croix, bourrés de gros sel et tassés dans un bocal où ils rendent leur jus pendant un mois, {2_plur} et sous une couche d'huile {1_adj}. On n'emploie que l'écorce ; la pulpe se jette.</FlavorTextFR_CitronConfit.description>
+	<FlavorTextFR_Ponzu.label>ponzu</FlavorTextFR_Ponzu.label>
+	<FlavorTextFR_Ponzu.description>un jus {0_adj} mêlé {1_plur}, à du mirin et à un bouillon {2_adj} avec des copeaux de bonite, laissé reposer plusieurs jours avant d'être filtré. Sert à tremper autant qu'à assaisonner.</FlavorTextFR_Ponzu.description>
+	<FlavorTextFR_VinaigretteAgrumes.label>vinaigrette aux agrumes</FlavorTextFR_VinaigretteAgrumes.label>
+	<FlavorTextFR_VinaigretteAgrumes.description>un jus {0_adj} monté à l'huile {1_adj} sur une pointe {2_adj} qui empêche l'émulsion de retomber. Trois volumes d'huile pour un de jus, et on rectifie au goût du fruit.</FlavorTextFR_VinaigretteAgrumes.description>
+	<FlavorTextFR_PouletLaqueAgrumes.label>poulet laqué aux agrumes</FlavorTextFR_PouletLaqueAgrumes.label>
+	<FlavorTextFR_PouletLaqueAgrumes.description>{1_coll} rôtie et badigeonnée en fin de cuisson d'un mélange {2_adj} et de jus {0_adj} réduit, repassé au pinceau trois fois. Le glaçage brûle en un rien de temps : on ne le pose qu'à la toute fin.</FlavorTextFR_PouletLaqueAgrumes.description>
+
+</LanguageData>

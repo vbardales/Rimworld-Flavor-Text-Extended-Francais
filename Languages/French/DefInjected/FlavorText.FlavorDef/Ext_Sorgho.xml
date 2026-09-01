@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Sorgho.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_ToDeSorgho.label>tô de sorgho</FlavorTextFR_ToDeSorgho.label>
+	<FlavorTextFR_ToDeSorgho.description>une pâte {0_adj} battue à la spatule jusqu'à devenir lisse et ferme, servie avec une sauce {1_adj} filante. On en prélève une boulette à la main droite, on la creuse du pouce, on trempe.</FlavorTextFR_ToDeSorgho.description>
+	<FlavorTextFR_TuwoDawa.label>tuwo dawa</FlavorTextFR_TuwoDawa.label>
+	<FlavorTextFR_TuwoDawa.description>la version haoussa : une boule {0_adj} moulée à la louche, avec un miyan kuka de feuilles de baobab pilées et une sauce {2_adj}. Le baobab épaissit sans farine.</FlavorTextFR_TuwoDawa.description>
+	<FlavorTextFR_FuraDaNono.label>fura da nono</FlavorTextFR_FuraDaNono.label>
+	<FlavorTextFR_FuraDaNono.description>des boules {0_adj} cuit, pilées {2_plur} et au gingembre, écrasées dans {1_coll} fermenté des éleveurs peuls. Bue à la calebasse, elle tient lieu de repas entier sur la route.</FlavorTextFR_FuraDaNono.description>
+	<FlavorTextFR_OgiDeSorgho.label>ogi de sorgho</FlavorTextFR_OgiDeSorgho.label>
+	<FlavorTextFR_OgiDeSorgho.description>{0_coll} trempé trois jours, broyé, tamisé et laissé aigrir, puis cuit en bouillie lisse. Acide, {1_adj} et parfumé {2_plur} : le petit-déjeuner de la moitié de l'Afrique de l'Ouest.</FlavorTextFR_OgiDeSorgho.description>
+	<FlavorTextFR_Kisra.label>kisra</FlavorTextFR_Kisra.label>
+	<FlavorTextFR_Kisra.description>une pâte {0_adj} fermentée étalée en voile sur une plaque brûlante, si fine qu'elle cuit en dix secondes. Empilée par dizaines, elle sert d'assiette à un mullah {1_adj} et {2_adj}.</FlavorTextFR_Kisra.description>
+	<FlavorTextFR_AsidaDeSorgho.label>asida de sorgho</FlavorTextFR_AsidaDeSorgho.label>
+	<FlavorTextFR_AsidaDeSorgho.description>une pâte {0_adj} travaillée jusqu'à l'élasticité, creusée d'un puits au centre où l'on verse {1_coll} fondu et {2_coll}. Se mange des bords vers le milieu, à plusieurs, dans le même plat.</FlavorTextFR_AsidaDeSorgho.description>
+	<FlavorTextFR_InjeraDeSorgho.label>injera de sorgho</FlavorTextFR_InjeraDeSorgho.label>
+	<FlavorTextFR_InjeraDeSorgho.description>une pâte {0_adj} fermentée trois jours, versée en spirale sur la plaque et couverte : les bulles qui percent la surface forment les alvéoles. Chargée d'un misir wat {1_adj} et {2_adj}.</FlavorTextFR_InjeraDeSorgho.description>
+	<FlavorTextFR_GenfoDeSorgho.label>genfo de sorgho</FlavorTextFR_GenfoDeSorgho.label>
+	<FlavorTextFR_GenfoDeSorgho.description>une bouillie {0_adj} très épaisse moulée en dôme, creusée au centre et remplie de niter kibbeh — un beurre clarifié aux épices — et de berbéré {2_adj}. Le déjeuner des jeunes mères éthiopiennes.</FlavorTextFR_GenfoDeSorgho.description>
+	<FlavorTextFR_TingYaMabele.label>ting ya mabele</FlavorTextFR_TingYaMabele.label>
+	<FlavorTextFR_TingYaMabele.description>{0_coll} laissé fermenter plusieurs jours avant cuisson, d'où son acidité franche, servi avec {2_coll} et {1_coll} caillé. Le plat national du Botswana, mangé matin et soir.</FlavorTextFR_TingYaMabele.description>
+	<FlavorTextFR_JowarBhakri.label>jowar bhakri</FlavorTextFR_JowarBhakri.label>
+	<FlavorTextFR_JowarBhakri.description>une galette {0_adj} pétrie à l'eau brûlante et aplatie à la paume — sans gluten, elle se déchire à la moindre hésitation —, cuite à sec puis gonflée sur la flamme, avec un thecha {1_adj} et {2_adj} pilé.</FlavorTextFR_JowarBhakri.description>
+	<FlavorTextFR_JowarKhichdi.label>jowar khichdi</FlavorTextFR_JowarKhichdi.label>
+	<FlavorTextFR_JowarKhichdi.description>{0_coll} concassé et {1_coll} cuits ensemble jusqu'à se confondre, relevés d'un tempérage {2_adj} grillées dans le ghee. Le plat qu'on sert aux convalescents.</FlavorTextFR_JowarKhichdi.description>
+	<FlavorTextFR_JowarDosa.label>jowar dosa</FlavorTextFR_JowarDosa.label>
+	<FlavorTextFR_JowarDosa.description>une pâte {0_adj}, {1_adj} et {2_adj} fermentée une nuit, étalée en spirale sur la plaque et cuite jusqu'à croustiller aux bords.</FlavorTextFR_JowarDosa.description>
+	<FlavorTextFR_JowarThalipeeth.label>jowar thalipeeth</FlavorTextFR_JowarThalipeeth.label>
+	<FlavorTextFR_JowarThalipeeth.description>une galette épaisse de plusieurs farines mêlées, chargée {1_adj} crus et {2_adj}, aplatie directement dans la poêle avec les doigts mouillés et percée d'un trou au centre.</FlavorTextFR_JowarThalipeeth.description>
+	<FlavorTextFR_SusuBap.label>susu bap</FlavorTextFR_SusuBap.label>
+	<FlavorTextFR_SusuBap.description>{1_coll} cuit avec une poignée {0_adj} et {2_adj}, qui le teintent de rouge sombre. On en servait aux enfants le jour de leur premier anniversaire, pour éloigner le mauvais sort.</FlavorTextFR_SusuBap.description>
+	<FlavorTextFR_SusuBukkumi.label>susu-bukkumi</FlavorTextFR_SusuBukkumi.label>
+	<FlavorTextFR_SusuBukkumi.description>de petites galettes {0_adj} gluant poêlées puis pliées en demi-lune sur une pâte {1_adj} sucrés. Le sorgho leur donne une couleur rouille et un goût de noisette.</FlavorTextFR_SusuBukkumi.description>
+	<FlavorTextFR_SorghumGrainBowl.label>bol de sorgho</FlavorTextFR_SorghumGrainBowl.label>
+	<FlavorTextFR_SorghumGrainBowl.description>{0_coll} entier bouilli une heure jusqu'à éclater sans se défaire, mêlé {1_plur} rôtis et {2_plur} grillées. Il reste ferme sous la dent, contrairement à toutes les autres céréales.</FlavorTextFR_SorghumGrainBowl.description>
+	<FlavorTextFR_PoppedSorghum.label>sorgho soufflé</FlavorTextFR_PoppedSorghum.label>
+	<FlavorTextFR_PoppedSorghum.description>{0_coll} jeté par poignées dans une poêle brûlante : les grains éclatent en minuscules boules blanches, dix fois plus petites que du maïs soufflé, et bien plus tendres.</FlavorTextFR_PoppedSorghum.description>
+	<FlavorTextFR_SorghumSyrupBiscuits.label>biscuits au sirop de sorgho</FlavorTextFR_SorghumSyrupBiscuits.label>
+	<FlavorTextFR_SorghumSyrupBiscuits.description>des scones {2_adj} fendus brûlants et noyés {1_plur} de sorgho, sombre et amer sous la douceur. Le sirop et le grain viennent de la même plante, pressée ou battue.</FlavorTextFR_SorghumSyrupBiscuits.description>
+	<FlavorTextFR_SorghumMolassesCookies.label>biscuits à la mélasse de sorgho</FlavorTextFR_SorghumMolassesCookies.label>
+	<FlavorTextFR_SorghumMolassesCookies.description>une pâte {1_adj} de sorgho et {2_adj} moulu, cuite court pour rester moelleuse au centre et craquelée dessus.</FlavorTextFR_SorghumMolassesCookies.description>
+	<FlavorTextFR_SorghumPecanPie.label>tarte aux noix de pécan et au sorgho</FlavorTextFR_SorghumPecanPie.label>
+	<FlavorTextFR_SorghumPecanPie.description>{1_coll} noyées dans un appareil {2_adj} lié au sirop {0_adj}, moins écœurant que le sirop de maïs et bien plus profond. La tarte du Kentucky et du Tennessee.</FlavorTextFR_SorghumPecanPie.description>
+
+</LanguageData>

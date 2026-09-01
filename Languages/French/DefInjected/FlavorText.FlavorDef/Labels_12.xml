@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 12 : dernières soupes et sautés au wok.
+-->
+<LanguageData>
+
+	<FlavorText_Khoresh_2.label>khoresh</FlavorText_Khoresh_2.label>
+	<FlavorText_MeatRaw_Hotpot.label>fondue chinoise {0_plur}</FlavorText_MeatRaw_Hotpot.label>
+	<FlavorText_MeatRaw_Sukiyaki.label>sukiyaki {0_plur}</FlavorText_MeatRaw_Sukiyaki.label>
+	<FlavorText_ShabuShabu.label>shabu-shabu</FlavorText_ShabuShabu.label>
+	<FlavorText_EmaDatshi.label>ema datshi</FlavorText_EmaDatshi.label>
+	<FlavorText_SaagChhena.label>saag chhena</FlavorText_SaagChhena.label>
+	<FlavorText_ShishAndaaz.label>shish andaaz</FlavorText_ShishAndaaz.label>
+	<FlavorText_Oatmeal.label>porridge d'avoine</FlavorText_Oatmeal.label>
+	<FlavorText_OatmealWith_Ingredients.label>porridge d'avoine {1_plur}</FlavorText_OatmealWith_Ingredients.label>
+	<FlavorText_Caruru.label>caruru</FlavorText_Caruru.label>
+	<FlavorText_FrenchOnionSoup.label>soupe à l'oignon</FlavorText_FrenchOnionSoup.label>
+	<FlavorText_Snert.label>snert</FlavorText_Snert.label>
+	<FlavorText_PlantFoodRaw_Fungus_Soup.label>soupe {0_adj} et {1_adj}</FlavorText_PlantFoodRaw_Fungus_Soup.label>
+	<FlavorText_PlantFoodRaw_Stew.label>étuvée {0_adj}</FlavorText_PlantFoodRaw_Stew.label>
+	<FlavorText_BinteBilihuta.label>binte bilihuta</FlavorText_BinteBilihuta.label>
+	<FlavorText_DalBhat.label>dal bhat</FlavorText_DalBhat.label>
+	<FlavorText_CaldoVerde.label>caldo verde</FlavorText_CaldoVerde.label>
+	<FlavorText_CaldoVerde_2.label>caldo verde</FlavorText_CaldoVerde_2.label>
+	<FlavorText_Domoda.label>domoda</FlavorText_Domoda.label>
+	<FlavorText_SopSop.label>sop sop</FlavorText_SopSop.label>
+	<FlavorText_Pisto.label>pisto</FlavorText_Pisto.label>
+	<FlavorText_Pisto_2.label>pisto</FlavorText_Pisto_2.label>
+	<FlavorText_Pisto_3.label>pisto</FlavorText_Pisto_3.label>
+	<FlavorText_Achu.label>achu</FlavorText_Achu.label>
+	<FlavorText_Gazpacho.label>gaspacho</FlavorText_Gazpacho.label>
+	<FlavorText_Vegetable_Sambar.label>sambar {0_plur}</FlavorText_Vegetable_Sambar.label>
+	<FlavorText_Callaloo.label>callaloo</FlavorText_Callaloo.label>
+	<FlavorText_Chakalaka.label>chakalaka</FlavorText_Chakalaka.label>
+	<FlavorText_GroundnutSoup.label>soupe à l'arachide</FlavorText_GroundnutSoup.label>
+	<FlavorText_FreekehSoup.label>soupe de freekeh</FlavorText_FreekehSoup.label>
+
+	<!-- Sautés -->
+	<FlavorText_TempehOrek.label>tempeh orek</FlavorText_TempehOrek.label>
+	<FlavorText_Ingredients_Pancit.label>pancit {0_plur}</FlavorText_Ingredients_Pancit.label>
+	<FlavorText_Ingredients_PancitBihon.label>pancit bihon {0_plur}</FlavorText_Ingredients_PancitBihon.label>
+	<FlavorText_Ingredients_Ingredients_Curry.label>curry {0_adj} et {1_adj}</FlavorText_Ingredients_Ingredients_Curry.label>
+	<FlavorText_Thai_Ingredients_Curry.label>curry thaï {0_adj}</FlavorText_Thai_Ingredients_Curry.label>
+	<FlavorText_Onion_Jalfrezi.label>jalfrezi {0_plur}</FlavorText_Onion_Jalfrezi.label>
+	<FlavorText_MapoTofu.label>mapo tofu</FlavorText_MapoTofu.label>
+	<FlavorText_GalamPleePadNamPla.label>galam plee pad nam pla</FlavorText_GalamPleePadNamPla.label>
+	<!-- « sauté » est déjà pris par Ingredients_MeatRaw_Sautee : on prend « wok » ici -->
+	<FlavorText_Ingredients_PlantFoodRaw_StirFry.label>wok {0_adj} et {1_adj}</FlavorText_Ingredients_PlantFoodRaw_StirFry.label>
+	<FlavorText_Ingredients_Ingredients_StirFry.label>wok {0_adj} et {1_adj}</FlavorText_Ingredients_Ingredients_StirFry.label>
+	<FlavorText_Ingredients_ChowMein.label>chow mein {0_plur}</FlavorText_Ingredients_ChowMein.label>
+	<FlavorText_Ingredients_Fried_Rice.label>{2_coll} sauté {0_plur}</FlavorText_Ingredients_Fried_Rice.label>
+	<FlavorText_Ingredients_DrunkenNoodles.label>nouilles ivres {1_plur}</FlavorText_Ingredients_DrunkenNoodles.label>
+	<FlavorText_Fried_Ingredients_2.label>{0_coll} à la poêle</FlavorText_Fried_Ingredients_2.label>
+	<FlavorText_LoMein.label>lo mein</FlavorText_LoMein.label>
+	<FlavorText_Meat_Cow_ChowFun.label>chow fun {0_plur}</FlavorText_Meat_Cow_ChowFun.label>
+	<FlavorText_KhuaKling.label>khua kling</FlavorText_KhuaKling.label>
+	<FlavorText_PadPrikKing.label>pad prik king</FlavorText_PadPrikKing.label>
+	<FlavorText_PadPak.label>pad pak</FlavorText_PadPak.label>
+	<FlavorText_PadPakRuam.label>pad pak ruam</FlavorText_PadPakRuam.label>
+
+</LanguageData>

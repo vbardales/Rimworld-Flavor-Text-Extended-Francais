@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Rares.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_OilDown.label>oil down</FlavorTextFR_OilDown.label>
+	<FlavorTextFR_OilDown.description>{0_coll} en quartiers étouffé dans un lait {1_adj} avec {2_coll} salée, jusqu'à ce que le liquide soit entièrement bu et que l'huile seule reste au fond. C'est de là que vient le nom.</FlavorTextFR_OilDown.description>
+	<FlavorTextFR_UruAuLaitDeCoco.label>uru au lait de coco</FlavorTextFR_UruAuLaitDeCoco.label>
+	<FlavorTextFR_UruAuLaitDeCoco.description>{0_coll} pelé et mijoté dans un lait {1_adj} pressé à la main, avec {2_coll} et du thym. Cueilli vert il tient au couteau ; cueilli mûr il fond, et c'est un autre plat.</FlavorTextFR_UruAuLaitDeCoco.description>
+	<FlavorTextFR_UruRotiMorue.label>uru rôti à la morue</FlavorTextFR_UruRotiMorue.label>
+	<FlavorTextFR_UruRotiMorue.description>{0_coll} entier posé sur la braise jusqu'à ce que la peau charbonne de tous côtés, ouvert brûlant et servi avec {1_coll} salée dessalée, effeuillée {2_plur} cru et à l'huile.</FlavorTextFR_UruRotiMorue.description>
+	<FlavorTextFR_FritesDeFruitAPain.label>frites de fruit à pain</FlavorTextFR_FritesDeFruitAPain.label>
+	<FlavorTextFR_FritesDeFruitAPain.description>{0_coll} ferme taillé en bâtonnets, jeté deux fois {2_plur} bouillante comme une pomme de terre, et salé {1_plur} au piment dès la sortie.</FlavorTextFR_FritesDeFruitAPain.description>
+	<FlavorTextFR_CurryDeFruitAPain.label>curry de fruit à pain</FlavorTextFR_CurryDeFruitAPain.label>
+	<FlavorTextFR_CurryDeFruitAPain.description>{0_coll} en gros cubes mijoté avec {1_coll} trempés dans un masala grillé {2_plur} entières. Il boit la sauce comme rien d'autre, alors on en prépare le double.</FlavorTextFR_CurryDeFruitAPain.description>
+	<FlavorTextFR_BeignetsDeFruitAPain.label>beignets de fruit à pain</FlavorTextFR_BeignetsDeFruitAPain.label>
+	<FlavorTextFR_BeignetsDeFruitAPain.description>une purée {0_adj} mûr, liée {1_plur} et {2_plur} battus, laissée reposer puis lâchée à la cuillère dans la friture. Ils gonflent d'un coup et retombent aussitôt refroidis.</FlavorTextFR_BeignetsDeFruitAPain.description>
+	<FlavorTextFR_PoeAuFruitAPain.label>po'e au fruit à pain</FlavorTextFR_PoeAuFruitAPain.label>
+	<FlavorTextFR_PoeAuFruitAPain.description>une pâte {0_adj} bien mûr, {1_adj} et d'amidon, cuite au four polynésien jusqu'à devenir translucide et élastique, nappée d'un lait {2_adj} pressé froid.</FlavorTextFR_PoeAuFruitAPain.description>
+	<FlavorTextFR_Bougna.label>bougna</FlavorTextFR_Bougna.label>
+	<FlavorTextFR_Bougna.description>{0_coll} et {1_coll} empilés avec {2_coll} dans des feuilles de bananier ligotées, enfouis sur des pierres chauffées et recouverts de terre deux heures. On ouvre le paquet à table.</FlavorTextFR_Bougna.description>
+	<FlavorTextFR_VelouteFruitAPain.label>velouté de fruit à pain</FlavorTextFR_VelouteFruitAPain.label>
+	<FlavorTextFR_VelouteFruitAPain.description>une purée {0_adj} détendue {1_plur} et montée {2_plur}, muscadée. Sa texture est celle de la pomme de terre, en plus doux et légèrement sucré.</FlavorTextFR_VelouteFruitAPain.description>
+	<FlavorTextFR_FruitAPainAuxHaricots.label>fruit à pain aux haricots</FlavorTextFR_FruitAPainAuxHaricots.label>
+	<FlavorTextFR_FruitAPainAuxHaricots.description>{0_coll} en dés mijoté avec {1_coll} rouges et une sauce {2_adj} au piment végétal. Un seul arbre nourrit une maisonnée toute la saison, ce qui explique le nombre de recettes.</FlavorTextFR_FruitAPainAuxHaricots.description>
+	<FlavorTextFR_SoupeALOseille.label>soupe à l'oseille</FlavorTextFR_SoupeALOseille.label>
+	<FlavorTextFR_SoupeALOseille.description>{0_coll} jetée crue dans un bouillon {1_adj} au dernier moment, où elle fond en trente secondes et vire au kaki, puis liée {2_plur}. Cuite plus longtemps, elle perd toute son acidité.</FlavorTextFR_SoupeALOseille.description>
+	<FlavorTextFR_Schav.label>schav</FlavorTextFR_Schav.label>
+	<FlavorTextFR_Schav.description>{0_coll} bouillie brièvement puis refroidie, liée {1_plur} battus hors du feu et blanchie {2_plur}. Se sert glacée avec une pomme de terre chaude au fond du bol.</FlavorTextFR_Schav.description>
+	<FlavorTextFR_SaumonALOseille.label>saumon à l'oseille</FlavorTextFR_SaumonALOseille.label>
+	<FlavorTextFR_SaumonALOseille.description>un escalope {1_adj} saisie d'un seul côté et laissée rosée, nappée d'une sauce {2_adj} réduite au vin blanc où {0_coll} vient de fondre. L'acide de la feuille remplace le citron.</FlavorTextFR_SaumonALOseille.description>
+	<FlavorTextFR_OmeletteALOseille.label>omelette à l'oseille</FlavorTextFR_OmeletteALOseille.label>
+	<FlavorTextFR_OmeletteALOseille.description>{0_coll} tombée {2_plur} mousseux avant d'y verser {1_coll} battus. Elle rend beaucoup d'eau : on la fait tomber à part et on l'égoutte, sinon l'omelette ne prend pas.</FlavorTextFR_OmeletteALOseille.description>
+	<FlavorTextFR_BortschVert.label>bortsch vert</FlavorTextFR_BortschVert.label>
+	<FlavorTextFR_BortschVert.description>un bortsch sans betterave : {0_coll} donne l'acidité que la betterave donne ailleurs, avec {1_coll} en cubes et {2_coll} durs coupés en deux au moment de servir.</FlavorTextFR_BortschVert.description>
+	<FlavorTextFR_TarteALOseille.label>tarte à l'oseille</FlavorTextFR_TarteALOseille.label>
+	<FlavorTextFR_TarteALOseille.description>une pâte {1_adj} garnie {0_adj} étuvée et bien pressée, couverte {2_adj} frais. L'acidité tranche le gras de la pâte, ce qu'aucune herbe douce ne ferait.</FlavorTextFR_TarteALOseille.description>
+	<FlavorTextFR_PureeDOseille.label>purée d'oseille</FlavorTextFR_PureeDOseille.label>
+	<FlavorTextFR_PureeDOseille.description>{0_coll} fondue {1_plur} avec une échalote {2_adj} hachée, réduite jusqu'à ce qu'il ne reste presque rien. Deux grands paniers donnent un bol : c'est le prix de l'affaire.</FlavorTextFR_PureeDOseille.description>
+	<FlavorTextFR_PestoDOseille.label>pesto d'oseille</FlavorTextFR_PestoDOseille.label>
+	<FlavorTextFR_PestoDOseille.description>{0_coll} crue pilée avec {1_coll} grillées et une huile {2_adj}, sans ail. Il ne se garde pas : l'acide oxalique noircit tout en une heure, alors on le fait pour le repas.</FlavorTextFR_PestoDOseille.description>
+	<FlavorTextFR_SarmaALOseille.label>sarma à l'oseille</FlavorTextFR_SarmaALOseille.label>
+	<FlavorTextFR_SarmaALOseille.description>de grandes feuilles {0_adj} blanchies, roulées serré autour {1_adj} cru et {2_adj} hachée, rangées debout dans la marmite et cuites à couvert sous une assiette lestée.</FlavorTextFR_SarmaALOseille.description>
+	<FlavorTextFR_DindeAuxMarrons.label>dinde aux marrons</FlavorTextFR_DindeAuxMarrons.label>
+	<FlavorTextFR_DindeAuxMarrons.description>{1_coll} farcie {0_plur} entiers et à sa propre chair hachée, arrosée {2_plur} toutes les vingt minutes. Les marrons du fond confisent dans le jus et valent mieux que la volaille.</FlavorTextFR_DindeAuxMarrons.description>
+	<FlavorTextFR_PureeDeMarrons.label>purée de marrons</FlavorTextFR_PureeDeMarrons.label>
+	<FlavorTextFR_PureeDeMarrons.description>{0_coll} pochés {1_plur} avec une branche de céleri, passés au tamis puis montés {2_plur}. Le céleri ne se sent pas mais empêche la purée d'être écœurante.</FlavorTextFR_PureeDeMarrons.description>
+	<FlavorTextFR_SoupeChataignesPotiron.label>soupe châtaignes-potiron</FlavorTextFR_SoupeChataignesPotiron.label>
+	<FlavorTextFR_SoupeChataignesPotiron.description>{0_coll} et {1_coll} rôtis séparément avant d'être mixés ensemble, liés {2_plur}. Deux douceurs qui se ressemblent trop : il faut beaucoup de poivre pour les séparer.</FlavorTextFR_SoupeChataignesPotiron.description>
+	<FlavorTextFR_Castagnaccio.label>castagnaccio</FlavorTextFR_Castagnaccio.label>
+	<FlavorTextFR_Castagnaccio.description>une farine {0_adj} délayée à l'eau — ni œuf, ni sucre, ni levure — étalée très mince, arrosée d'une huile {1_adj} et semée {2_adj} secs et de romarin. Elle craquelle en cuisant, et c'est voulu.</FlavorTextFR_Castagnaccio.description>
+	<FlavorTextFR_MontBlanc.label>mont-blanc</FlavorTextFR_MontBlanc.label>
+	<FlavorTextFR_MontBlanc.description>une crème {0_adj} et {1_adj} poussée au travers d'une passoire en vermicelles, entassée sur une meringue et coiffée {2_adj} fouettée. Le désordre est la forme correcte.</FlavorTextFR_MontBlanc.description>
+	<FlavorTextFR_KuriGohan.label>kuri gohan</FlavorTextFR_KuriGohan.label>
+	<FlavorTextFR_KuriGohan.description>{1_coll} cuit avec {0_coll} épluchés crus, un trait {2_adj} et du saké, sans rien remuer. Plat d'automne qu'on fait le jour où les bogues s'ouvrent, et pas un autre.</FlavorTextFR_KuriGohan.description>
+	<FlavorTextFR_PorcBraiseChataignes.label>porc braisé aux châtaignes</FlavorTextFR_PorcBraiseChataignes.label>
+	<FlavorTextFR_PorcBraiseChataignes.description>{1_coll} braisée au caramel et {2_plur}, avec {0_coll} ajoutés à mi-cuisson pour qu'ils s'imprègnent sans se défaire. Ils boivent la sauce et deviennent le meilleur du plat.</FlavorTextFR_PorcBraiseChataignes.description>
+	<FlavorTextFR_ChataignesChouLard.label>châtaignes au chou et au lard</FlavorTextFR_ChataignesChouLard.label>
+	<FlavorTextFR_ChataignesChouLard.description>{1_coll} braisé une heure dans la graisse {2_adj} rendue, avec {0_coll} grillés et pelés à chaud. La châtaigne remplaçait le pain dans les montagnes, et le prouve encore.</FlavorTextFR_ChataignesChouLard.description>
+	<FlavorTextFR_MarronsGlaces.label>marrons glacés</FlavorTextFR_MarronsGlaces.label>
+	<FlavorTextFR_MarronsGlaces.description>{0_coll} entiers passés sept jours durant dans un sirop {1_adj} de plus en plus dense, vanillé et parfumé {2_plur}, puis séchés à l'étuve. Un seul se brise et la fournée est déclassée.</FlavorTextFR_MarronsGlaces.description>
+	<FlavorTextFR_PolentaDeChataigne.label>polenta de châtaigne</FlavorTextFR_PolentaDeChataigne.label>
+	<FlavorTextFR_PolentaDeChataigne.description>une farine {0_adj} coupée {2_plur} jaune, versée en pluie dans l'eau bouillante et tournée quarante minutes dans le même sens, puis servie {1_plur} frais.</FlavorTextFR_PolentaDeChataigne.description>
+	<FlavorTextFR_RisottoAuxChataignes.label>risotto aux châtaignes</FlavorTextFR_RisottoAuxChataignes.label>
+	<FlavorTextFR_RisottoAuxChataignes.description>{1_coll} mené au bouillon avec {2_coll} des bois, où l'on écrase la moitié {0_adj} pour lier et garde l'autre en morceaux. Deux textures d'un même ingrédient, ce qui suffit au plat.</FlavorTextFR_RisottoAuxChataignes.description>
+	<FlavorTextFR_SaladeCesar.label>salade César</FlavorTextFR_SaladeCesar.label>
+	<FlavorTextFR_SaladeCesar.description>des cœurs {0_adj} romaine gardés entiers, enrobés d'une sauce montée {2_plur} cru, {1_plur} vieux et anchois. Inventée à Tijuana un jour où il ne restait presque rien en cuisine.</FlavorTextFR_SaladeCesar.description>
+	<FlavorTextFR_LaitueBraiseePetitsPois.label>laitue braisée aux petits pois</FlavorTextFR_LaitueBraiseePetitsPois.label>
+	<FlavorTextFR_LaitueBraiseePetitsPois.description>{0_coll} coupée en quartiers et étouffée {2_plur} avec {1_coll} et de petits oignons, sans une goutte d'eau — la salade en rend bien assez toute seule.</FlavorTextFR_LaitueBraiseePetitsPois.description>
+	<FlavorTextFR_Ssambap.label>ssambap</FlavorTextFR_Ssambap.label>
+	<FlavorTextFR_Ssambap.description>une feuille {0_adj} tenue à plat dans la paume, une cuillère {1_adj}, un morceau {2_adj} grillée et une pointe de pâte fermentée, refermée en une bouchée qui doit tenir en un seul coup.</FlavorTextFR_Ssambap.description>
+	<FlavorTextFR_LaitueSauteeALAil.label>laitue sautée à l'ail</FlavorTextFR_LaitueSauteeALAil.label>
+	<FlavorTextFR_LaitueSauteeALAil.description>{0_coll} jetée dans un wok fumant {2_plur} et {1_plur} écrasé, remuée quarante secondes et pas une de plus. Elle doit rester croquante à la tige et fondue à la feuille.</FlavorTextFR_LaitueSauteeALAil.description>
+	<FlavorTextFR_WrapsLaituePoulet.label>wraps de laitue au poulet</FlavorTextFR_WrapsLaituePoulet.label>
+	<FlavorTextFR_WrapsLaituePoulet.description>{1_coll} hachée au couteau et sautée très sec, servie brûlante dans des coupes {0_adj} glacées, avec une huile {2_adj} et des cacahuètes concassées. Le contraste de température est le plat.</FlavorTextFR_WrapsLaituePoulet.description>
+	<FlavorTextFR_VelouteDeLaitue.label>velouté de laitue</FlavorTextFR_VelouteDeLaitue.label>
+	<FlavorTextFR_VelouteDeLaitue.description>{0_coll} montée en graine ou trop amère pour la salade, jetée dans un bouillon {1_adj} et mixée aussitôt, liée {2_plur}. La soupe des jardins de juillet, quand tout monte d'un coup.</FlavorTextFR_VelouteDeLaitue.description>
+	<FlavorTextFR_KinpiraRenkon.label>kinpira renkon</FlavorTextFR_KinpiraRenkon.label>
+	<FlavorTextFR_KinpiraRenkon.description>des rondelles {0_adj} trempées au vinaigre pour rester blanches, sautées vif puis laquées {1_plur} et au mirin, semées {2_adj} grillé. Les trous se remplissent de sauce.</FlavorTextFR_KinpiraRenkon.description>
+	<FlavorTextFR_RenkonTempura.label>renkon tempura</FlavorTextFR_RenkonTempura.label>
+	<FlavorTextFR_RenkonTempura.description>des tranches {0_adj} passées dans une pâte {1_adj} à peine mêlée à l'eau glacée, frites {2_plur} très chaude. La pâte doit rester grumeleuse : trop battue, elle devient une croûte.</FlavorTextFR_RenkonTempura.description>
+	<FlavorTextFR_SoupePorcLotus.label>soupe porc-lotus</FlavorTextFR_SoupePorcLotus.label>
+	<FlavorTextFR_SoupePorcLotus.description>des travers {1_adj} et des tronçons {0_adj} mijotés trois heures avec {2_coll} rouges, sans rien d'autre. Le rhizome devient farineux et sucré ; c'est une soupe qu'on boit pour se soigner.</FlavorTextFR_SoupePorcLotus.description>
+	<FlavorTextFR_LotusAigreDoux.label>racine de lotus aigre-douce</FlavorTextFR_LotusAigreDoux.label>
+	<FlavorTextFR_LotusAigreDoux.description>des rondelles {0_adj} sautées à feu vif dans un vinaigre {1_adj} {2_plur} séché et au poivre du Sichuan. Elles restent croquantes quoi qu'on fasse, ce qui est tout l'intérêt.</FlavorTextFR_LotusAigreDoux.description>
+	<FlavorTextFR_LotusRizGluant.label>racine de lotus au riz gluant</FlavorTextFR_LotusRizGluant.label>
+	<FlavorTextFR_LotusRizGluant.description>les trous {0_adj} bourrés un à un {1_plur} gluant à la baguette, le tronçon rebouché puis cuit des heures dans un sirop {2_adj} à l'osmanthus. Se tranche froid, en rondelles marbrées.</FlavorTextFR_LotusRizGluant.description>
+	<FlavorTextFR_SoupeSucreeGrainesLotus.label>soupe sucrée aux graines de lotus</FlavorTextFR_SoupeSucreeGrainesLotus.label>
+	<FlavorTextFR_SoupeSucreeGrainesLotus.description>{0_coll} dont on a retiré le germe vert — amer comme une écorce — pochées en sirop {1_adj} avec {2_coll} rouges. Se sert tiède, entre les plats plutôt qu'après.</FlavorTextFR_SoupeSucreeGrainesLotus.description>
+	<FlavorTextFR_CongeeGrainesLotus.label>congee aux graines de lotus</FlavorTextFR_CongeeGrainesLotus.label>
+	<FlavorTextFR_CongeeGrainesLotus.description>{1_coll} crevé dans dix fois son volume d'eau avec {0_coll} et quelques lamelles {2_adj}, remué de temps à autre pendant deux heures jusqu'à ne plus distinguer les grains.</FlavorTextFR_CongeeGrainesLotus.description>
+	<FlavorTextFR_LoMaiGai.label>lo mai gai</FlavorTextFR_LoMaiGai.label>
+	<FlavorTextFR_LoMaiGai.description>{1_coll} gluant et {2_coll} marinée enfermés dans une feuille {0_adj} séchée puis assouplie à l'eau chaude, ficelés et passés à la vapeur. La feuille ne se mange pas mais parfume tout.</FlavorTextFR_LoMaiGai.description>
+	<FlavorTextFR_SaladeRacineDeLotus.label>salade de racine de lotus</FlavorTextFR_SaladeRacineDeLotus.label>
+	<FlavorTextFR_SaladeRacineDeLotus.description>des rondelles {0_adj} blanchies trente secondes et jetées à l'eau glacée, mêlées {1_plur} en biseau et à une vinaigrette {2_plur}. Le dessin des trous est la moitié du plat.</FlavorTextFR_SaladeRacineDeLotus.description>
+	<FlavorTextFR_ViandeHumaineSechee.label>viande humaine séchée</FlavorTextFR_ViandeHumaineSechee.label>
+	<FlavorTextFR_ViandeHumaineSechee.description>{0_coll} taillée dans le sens de la fibre, saumurée {2_plur} et {1_plur}, puis séchée à l'air pendant plusieurs jours. Se conserve des mois et ne demande aucun combustible.</FlavorTextFR_ViandeHumaineSechee.description>
+	<FlavorTextFR_RagoutChairHumaine.label>ragoût de chair humaine</FlavorTextFR_RagoutChairHumaine.label>
+	<FlavorTextFR_RagoutChairHumaine.description>{0_coll} en cubes saisie puis mouillée {2_plur}, mijotée à couvert avec {1_coll} en gros morceaux. Cuisson longue, comme pour toute viande d'animal adulte et musclé.</FlavorTextFR_RagoutChairHumaine.description>
+	<FlavorTextFR_RotiChairHumaine.label>rôti de chair humaine</FlavorTextFR_RotiChairHumaine.label>
+	<FlavorTextFR_RotiChairHumaine.description>une pièce {0_adj} bardée {1_plur}, piquée {2_plur} et rôtie à four moyen. Elle est maigre et sèche vite : la barde n'est pas facultative.</FlavorTextFR_RotiChairHumaine.description>
+	<FlavorTextFR_BrochettesChairHumaine.label>brochettes de chair humaine</FlavorTextFR_BrochettesChairHumaine.label>
+	<FlavorTextFR_BrochettesChairHumaine.description>des cubes {0_adj} alternés avec {1_coll} et {2_coll} sur des tiges de métal, grillés à feu vif et retournés souvent. Cuisson courte, sinon la viande durcit.</FlavorTextFR_BrochettesChairHumaine.description>
+	<FlavorTextFR_SaucisseChairHumaine.label>saucisse de chair humaine</FlavorTextFR_SaucisseChairHumaine.label>
+	<FlavorTextFR_SaucisseChairHumaine.description>{0_coll} hachée grossièrement et remontée à un tiers {1_adj}, assaisonnée {2_plur} puis embossée. Sans l'apport de gras, la saucisse s'effrite à la cuisson.</FlavorTextFR_SaucisseChairHumaine.description>
+	<FlavorTextFR_TourteChairHumaine.label>tourte à la chair humaine</FlavorTextFR_TourteChairHumaine.label>
+	<FlavorTextFR_TourteChairHumaine.description>{0_coll} cuite à l'avance et refroidie, enfermée dans une pâte {1_adj} et {2_adj}, avec une cheminée pour laisser sortir la vapeur. Se mange aussi bien froide que chaude.</FlavorTextFR_TourteChairHumaine.description>
+	<FlavorTextFR_HachisChairHumaine.label>hachis de chair humaine</FlavorTextFR_HachisChairHumaine.label>
+	<FlavorTextFR_HachisChairHumaine.description>{0_coll} hachée et étalée au fond du plat, couverte d'une purée {1_adj} montée {2_plur} et gratinée. Manière courante d'employer les restes d'un rôti de la veille.</FlavorTextFR_HachisChairHumaine.description>
+	<FlavorTextFR_CurryChairHumaine.label>curry de chair humaine</FlavorTextFR_CurryChairHumaine.label>
+	<FlavorTextFR_CurryChairHumaine.description>{0_coll} mijotée dans un lait {2_adj} avec une pâte {1_adj} et d'épices grillées. Le gras du coco compense une viande qui n'en fournit pas beaucoup.</FlavorTextFR_CurryChairHumaine.description>
+	<FlavorTextFR_BoulettesChairHumaine.label>boulettes de chair humaine</FlavorTextFR_BoulettesChairHumaine.label>
+	<FlavorTextFR_BoulettesChairHumaine.description>{0_coll} hachée liée {1_plur} et à de la mie {2_adj} trempée, roulée à la main et pochée au bouillon. La mie retient l'eau et empêche la boulette de devenir sèche.</FlavorTextFR_BoulettesChairHumaine.description>
+	<FlavorTextFR_BouillonChairHumaine.label>bouillon de chair humaine</FlavorTextFR_BouillonChairHumaine.label>
+	<FlavorTextFR_BouillonChairHumaine.description>{1_coll} concassés et rôtis avant d'être mis à frémir avec les parures {0_adj} et {2_coll} de garniture, écumés régulièrement pendant six heures. On ne fait jamais bouillir.</FlavorTextFR_BouillonChairHumaine.description>
+	<FlavorTextFR_PateChairHumaine.label>pâté de chair humaine</FlavorTextFR_PateChairHumaine.label>
+	<FlavorTextFR_PateChairHumaine.description>{0_coll} et {1_coll} hachées ensemble, macérées {2_plur} une nuit puis cuites en terrine au bain-marie. Se laisse mûrir trois jours au froid avant d'être entamée.</FlavorTextFR_PateChairHumaine.description>
+	<FlavorTextFR_RizSauteChairHumaine.label>riz sauté à la chair humaine</FlavorTextFR_RizSauteChairHumaine.label>
+	<FlavorTextFR_RizSauteChairHumaine.description>{1_coll} de la veille, sec et détaché, sauté très vif avec {0_coll} en petits dés et {2_coll} brouillés. Le riz frais colle et rate le plat : il faut du froid.</FlavorTextFR_RizSauteChairHumaine.description>
+
+</LanguageData>

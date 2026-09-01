@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Durian.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_PulutDurian.label>pulut durian</FlavorTextFR_PulutDurian.label>
+	<FlavorTextFR_PulutDurian.description>{1_coll} gluant cuit à la vapeur et salé au lait {2_adj}, avec la chair {0_adj} posée dessus sans être mélangée. Le gras du coco et le sel tempèrent le fruit, qui autrement écrase tout.</FlavorTextFR_PulutDurian.description>
+	<FlavorTextFR_PengatDurian.label>pengat durian</FlavorTextFR_PengatDurian.label>
+	<FlavorTextFR_PengatDurian.description>la chair {0_adj} défaite dans un lait {1_adj} chaud sucré {2_plur} de palme, parfumé au pandan. Se mange tiède à la cuillère, entre la crème et la soupe.</FlavorTextFR_PengatDurian.description>
+	<FlavorTextFR_CendolDurian.label>cendol durian</FlavorTextFR_CendolDurian.label>
+	<FlavorTextFR_CendolDurian.description>des vermicelles verts de farine de riz au pandan, de la glace pilée, du lait {1_adj} et une cuillerée de chair {0_adj} par-dessus. On mélange tout avant de manger.</FlavorTextFR_CendolDurian.description>
+	<FlavorTextFR_EsDurian.label>es durian</FlavorTextFR_EsDurian.label>
+	<FlavorTextFR_EsDurian.description>de la glace pilée noyée de lait concentré {2_adj}, avec {0_coll} en morceaux et parfois du fromage râpé — l'accord indonésien qui déroute tout le monde et que personne ne remet en question là-bas.</FlavorTextFR_EsDurian.description>
+	<FlavorTextFR_DodolDurian.label>dodol durian</FlavorTextFR_DodolDurian.label>
+	<FlavorTextFR_DodolDurian.description>une pâte de farine {1_adj} gluant, {2_adj} de palme et chair {0_adj}, remuée sans arrêt six heures durant au chaudron jusqu'à devenir presque noire et se détacher des parois.</FlavorTextFR_DodolDurian.description>
+	<FlavorTextFR_DurianMochi.label>mochi au durian</FlavorTextFR_DurianMochi.label>
+	<FlavorTextFR_DurianMochi.description>une peau de pâte {1_adj} gluant fourrée de chair {0_adj} froide. La pâte contient l'odeur jusqu'à la première morsure, ce qui en fait une farce redoutable.</FlavorTextFR_DurianMochi.description>
+	<FlavorTextFR_BanhPiaSauRieng.label>bánh pía sầu riêng</FlavorTextFR_BanhPiaSauRieng.label>
+	<FlavorTextFR_BanhPiaSauRieng.description>un gâteau vietnamien à pâte feuilletée en spirale, fourré de pâte {0_adj} et d'un jaune {2_adj} salé au centre. Les couches se décollent une à une à la découpe.</FlavorTextFR_BanhPiaSauRieng.description>
+	<FlavorTextFR_DurianMooncake.label>gâteau de lune au durian</FlavorTextFR_DurianMooncake.label>
+	<FlavorTextFR_DurianMooncake.description>une pâte de neige non cuite moulée au sceau, fourrée de chair {0_adj} et d'une pâte {2_adj} sucrés. Se sert glacé, contrairement au gâteau de lune classique.</FlavorTextFR_DurianMooncake.description>
+	<FlavorTextFR_DurianMilleCrepes.label>mille-crêpes au durian</FlavorTextFR_DurianMilleCrepes.label>
+	<FlavorTextFR_DurianMilleCrepes.description>vingt crêpes très fines empilées, chacune séparée d'une couche de chair {0_adj} montée {2_plur}. Se tranche net et se mange glacé.</FlavorTextFR_DurianMilleCrepes.description>
+	<FlavorTextFR_DurianPuff.label>durian puff</FlavorTextFR_DurianPuff.label>
+	<FlavorTextFR_DurianPuff.description>de petits choux garnis d'une crème {0_adj} pure, servis froids. Vendus par boîtes réfrigérées à Singapour, et interdits dans le métro comme tout ce qui contient ce fruit.</FlavorTextFR_DurianPuff.description>
+	<FlavorTextFR_DurianCheesecake.label>cheesecake au durian</FlavorTextFR_DurianCheesecake.label>
+	<FlavorTextFR_DurianCheesecake.description>un appareil {1_adj} sans cuisson, chargé de chair {0_adj}, pris au froid une nuit entière. Le fromage arrondit le fruit et le rend abordable aux non-initiés.</FlavorTextFR_DurianCheesecake.description>
+	<FlavorTextFR_GateauAuDurian.label>gâteau au durian</FlavorTextFR_GateauAuDurian.label>
+	<FlavorTextFR_GateauAuDurian.description>une génoise très aérée où la chair {0_adj} est incorporée à la pâte crue. L'odeur envahit la cuisine pendant la cuisson et s'y installe pour la journée.</FlavorTextFR_GateauAuDurian.description>
+	<FlavorTextFR_GlaceAuDurian.label>glace au durian</FlavorTextFR_GlaceAuDurian.label>
+	<FlavorTextFR_GlaceAuDurian.description>une base {1_adj} et {2_adj} où le fruit passe cru, sans cuisson qui atténuerait son parfum. Le froid l'assagit un peu ; un peu seulement.</FlavorTextFR_GlaceAuDurian.description>
+	<FlavorTextFR_Tempoyak.label>tempoyak</FlavorTextFR_Tempoyak.label>
+	<FlavorTextFR_Tempoyak.description>la chair {0_adj} salée et laissée fermenter une semaine en jarre close, jusqu'à devenir acide et crémeuse. Ce n'est plus un fruit à ce stade : c'est un condiment, et il se garde des mois.</FlavorTextFR_Tempoyak.description>
+	<FlavorTextFR_SambalTempoyak.label>sambal tempoyak</FlavorTextFR_SambalTempoyak.label>
+	<FlavorTextFR_SambalTempoyak.description>{0_coll} fermenté pilé {1_plur} et {2_plur} au mortier, puis frit brièvement. L'acidité de la fermentation remplace le tamarin qu'on mettrait ailleurs.</FlavorTextFR_SambalTempoyak.description>
+	<FlavorTextFR_GulaiTempoyak.label>gulai tempoyak</FlavorTextFR_GulaiTempoyak.label>
+	<FlavorTextFR_GulaiTempoyak.description>un curry jaune monté sur lait {1_adj} et curcuma, acidifié {0_plur} fermenté plutôt qu'au tamarin. La sauce prend une texture épaisse qu'aucun autre acide ne donne.</FlavorTextFR_GulaiTempoyak.description>
+	<FlavorTextFR_IkanPatinTempoyak.label>ikan patin tempoyak</FlavorTextFR_IkanPatinTempoyak.label>
+	<FlavorTextFR_IkanPatinTempoyak.description>{1_coll} de rivière mijotée dans {0_coll} fermenté et {2_coll}, sans lait de coco. Le plat emblématique de Pahang et de Jambi, et la meilleure démonstration que ce fruit n'est pas qu'un dessert.</FlavorTextFR_IkanPatinTempoyak.description>
+
+</LanguageData>

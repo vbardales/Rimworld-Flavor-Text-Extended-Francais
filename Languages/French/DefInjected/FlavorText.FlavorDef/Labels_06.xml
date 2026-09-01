@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 06 : œufs sous toutes leurs formes, viandes braisées, charcuteries.
+
+  FT_Egg donne toujours « œufs de X » — masculin pluriel garanti. C'est la seule
+  catégorie fourre-tout où l'accord est sûr, d'où les participes accordés ici.
+-->
+<LanguageData>
+
+	<FlavorText_ChiliPaste.label>pâte de piment</FlavorText_ChiliPaste.label>
+	<FlavorText_Pikliz.label>pikliz</FlavorText_Pikliz.label>
+	<FlavorText_Corn_Pones.label>galettes {0_adj}</FlavorText_Corn_Pones.label>
+	<FlavorText_Irio.label>irio</FlavorText_Irio.label>
+	<FlavorText_Corn_Cheese.label>fromage {1_plur}</FlavorText_Corn_Cheese.label>
+	<FlavorText_Rice_Pudding.label>{2_coll} au lait</FlavorText_Rice_Pudding.label>
+	<FlavorText_Mashed_Potato.label>purée {1_adj}</FlavorText_Mashed_Potato.label>
+
+	<!-- Œufs -->
+	<FlavorText_Scrambled_Egg.label>{1_coll} brouillés</FlavorText_Scrambled_Egg.label>
+	<FlavorText_Egg_Bhurji.label>bhurji {0_plur}</FlavorText_Egg_Bhurji.label>
+	<FlavorText_Egg_Over-Easy.label>{0_coll} tournés à jaune coulant</FlavorText_Egg_Over-Easy.label>
+	<FlavorText_Egg_Over-Hard.label>{0_coll} tournés à jaune ferme</FlavorText_Egg_Over-Hard.label>
+	<FlavorText_Egg_Over-Medium.label>{0_coll} tournés à jaune crémeux</FlavorText_Egg_Over-Medium.label>
+	<FlavorText_Egg_InABasket.label>{0_coll} à la fenêtre</FlavorText_Egg_InABasket.label>
+	<FlavorText_PlantFoodRaw_Kuku.label>kuku {1_plur}</FlavorText_PlantFoodRaw_Kuku.label>
+	<FlavorText_AmericanOmlette.label>omelette américaine</FlavorText_AmericanOmlette.label>
+	<FlavorText_Basted_Egg.label>{0_coll} arrosés au beurre</FlavorText_Basted_Egg.label>
+	<FlavorText_BrooklynRicottaScramble.label>brouillade à la ricotta</FlavorText_BrooklynRicottaScramble.label>
+	<!-- « deviled eggs » a un équivalent français exact -->
+	<FlavorText_Deviled_Egg.label>{0_coll} mimosa</FlavorText_Deviled_Egg.label>
+	<FlavorText_EnqulalFirfir.label>enqulal firfir</FlavorText_EnqulalFirfir.label>
+	<FlavorText_FrenchOmlette.label>omelette française</FlavorText_FrenchOmlette.label>
+	<FlavorText_Fried_Egg.label>{0_coll} à la poêle</FlavorText_Fried_Egg.label>
+	<FlavorText_Hard-Boiled_Egg.label>{0_coll} durs</FlavorText_Hard-Boiled_Egg.label>
+	<FlavorText_NigerianEggStew.label>ragoût d'œufs nigérian</FlavorText_NigerianEggStew.label>
+	<FlavorText_Poached_Egg.label>{0_coll} pochés</FlavorText_Poached_Egg.label>
+	<FlavorText_Scrambled_Egg_3.label>{0_coll} brouillés</FlavorText_Scrambled_Egg_3.label>
+	<FlavorText_SteamedEggs.label>œufs à la vapeur</FlavorText_SteamedEggs.label>
+	<FlavorText_Strapatsada.label>strapatsáda</FlavorText_Strapatsada.label>
+	<FlavorText_Sunny-Side-Up_Egg.label>{0_coll} au plat</FlavorText_Sunny-Side-Up_Egg.label>
+	<FlavorText_Zarangollo.label>zarangollo</FlavorText_Zarangollo.label>
+	<FlavorText_Zarangollo_2.label>zarangollo</FlavorText_Zarangollo_2.label>
+
+	<!-- Légumes et céréales -->
+	<FlavorText_BabaGhanoush.label>baba ghanoush</FlavorText_BabaGhanoush.label>
+	<FlavorText_Nasaump.label>nasaump</FlavorText_Nasaump.label>
+	<FlavorText_JellyFungus.label>champignon gélatineux</FlavorText_JellyFungus.label>
+	<FlavorText_Black_Garlic.label>{0_coll} noir</FlavorText_Black_Garlic.label>
+	<FlavorText_BaconPancakes.label>pancakes au bacon</FlavorText_BaconPancakes.label>
+	<FlavorText_Gachas.label>gachas</FlavorText_Gachas.label>
+	<FlavorText_Skordalia_2.label>skordaliá</FlavorText_Skordalia_2.label>
+
+	<!-- Plats composés -->
+	<FlavorText_Ingredients_MeatRaw_Sautee.label>sauté {0_adj} et {1_adj}</FlavorText_Ingredients_MeatRaw_Sautee.label>
+	<FlavorText_Ingredients_Bauernfruhstuck.label>bauernfrühstück {0_plur}</FlavorText_Ingredients_Bauernfruhstuck.label>
+	<FlavorText_Ingredients_Buchimgae.label>buchimgae {0_plur}</FlavorText_Ingredients_Buchimgae.label>
+	<FlavorText_Ingredients_Esquites.label>esquites {0_plur}</FlavorText_Ingredients_Esquites.label>
+	<FlavorText_Ingredients_Frittata.label>frittata {0_plur}</FlavorText_Ingredients_Frittata.label>
+	<FlavorText_Ingredients_Omlette.label>omelette {0_plur}</FlavorText_Ingredients_Omlette.label>
+	<FlavorText_Ingredients_Stuffed_Fungus.label>{1_coll} farcis {0_adj}</FlavorText_Ingredients_Stuffed_Fungus.label>
+	<FlavorText_Ingredients_With_Fruit_Chutney.label>{0_coll} et chutney {1_adj}</FlavorText_Ingredients_With_Fruit_Chutney.label>
+	<FlavorText_Ingredients_Patina.label>patina {2_plur}</FlavorText_Ingredients_Patina.label>
+	<FlavorText_CharcuterieBoard.label>planche de charcuterie</FlavorText_CharcuterieBoard.label>
+	<FlavorText_Fried_Ingredients.label>{0_coll} à la poêle</FlavorText_Fried_Ingredients.label>
+	<FlavorText_Jumeok-Bap.label>jumeok-bap</FlavorText_Jumeok-Bap.label>
+	<FlavorText_Kush.label>kush</FlavorText_Kush.label>
+	<FlavorText_Norii.label>norii</FlavorText_Norii.label>
+	<FlavorText_Laulau.label>laulau</FlavorText_Laulau.label>
+
+	<!-- Viandes -->
+	<FlavorText_Corned_Meat_Cow_And_Cabbage.label>{0_coll} salée et {1_coll}</FlavorText_Corned_Meat_Cow_And_Cabbage.label>
+	<FlavorText_Estrogonoffe.label>estrogonofe</FlavorText_Estrogonoffe.label>
+	<FlavorText_JiggsDinner.label>Jiggs dinner</FlavorText_JiggsDinner.label>
+	<FlavorText_SteakTartare.label>steak tartare</FlavorText_SteakTartare.label>
+	<FlavorText_Gefilte_Meat_Fish.label>{0_coll} gefilte</FlavorText_Gefilte_Meat_Fish.label>
+	<FlavorText_Bobotie.label>bobotie</FlavorText_Bobotie.label>
+	<FlavorText_Yukhoe.label>yukhoe</FlavorText_Yukhoe.label>
+	<FlavorText_Sisig.label>sisig</FlavorText_Sisig.label>
+	<FlavorText_Trinxat.label>trinxat</FlavorText_Trinxat.label>
+	<FlavorText_Ceviche.label>ceviche</FlavorText_Ceviche.label>
+	<FlavorText_Cocktail_Meat_Seafood.label>cocktail {0_adj}</FlavorText_Cocktail_Meat_Seafood.label>
+	<FlavorText_TestiKebab.label>testi kebap</FlavorText_TestiKebab.label>
+	<FlavorText_MidyeDolma.label>midye dolma</FlavorText_MidyeDolma.label>
+	<FlavorText_MeatRaw_Fricasee.label>fricassée {0_adj}</FlavorText_MeatRaw_Fricasee.label>
+	<FlavorText_MeatRaw_Hotdish.label>hotdish {0_plur}</FlavorText_MeatRaw_Hotdish.label>
+	<FlavorText_MeatRaw_Mincemeat.label>hachis {0_adj}</FlavorText_MeatRaw_Mincemeat.label>
+	<FlavorText_MeatRaw_Paprikash.label>paprikash {0_plur}</FlavorText_MeatRaw_Paprikash.label>
+	<FlavorText_MeatRaw_Picadillo.label>picadillo {0_plur}</FlavorText_MeatRaw_Picadillo.label>
+	<FlavorText_MeatRaw_And_Fungus_SpudPies.label>tourtes {0_adj} et {1_adj} aux pommes de terre</FlavorText_MeatRaw_And_Fungus_SpudPies.label>
+	<!-- Les agrumes n'ont pas tous le même genre : on garde une tête nominale invariable -->
+	<FlavorText_MeatRaw_Stuffed_Citrus.label>farci {0_adj} et {1_adj}</FlavorText_MeatRaw_Stuffed_Citrus.label>
+	<FlavorText_MeatRaw_MeatRaw_BreakfastSausage.label>saucisse du matin {1_adj} et {0_adj}</FlavorText_MeatRaw_MeatRaw_BreakfastSausage.label>
+	<FlavorText_MeatRaw_BangersAndMash.label>saucisses {1_adj} et purée</FlavorText_MeatRaw_BangersAndMash.label>
+	<FlavorText_PlantFoodRaw_Stamppot.label>stamppot {1_plur}</FlavorText_PlantFoodRaw_Stamppot.label>
+	<FlavorText_BlackPudding.label>boudin noir</FlavorText_BlackPudding.label>
+	<FlavorText_Braised_MeatRaw.label>{0_coll} braisée</FlavorText_Braised_MeatRaw.label>
+	<FlavorText_Braised_MeatRaw_WithRum.label>{0_coll} braisée au rhum</FlavorText_Braised_MeatRaw_WithRum.label>
+	<FlavorText_ChristmasPudding.label>pouding de Noël</FlavorText_ChristmasPudding.label>
+	<FlavorText_Corned_MeatRaw.label>{0_coll} salée</FlavorText_Corned_MeatRaw.label>
+
+</LanguageData>

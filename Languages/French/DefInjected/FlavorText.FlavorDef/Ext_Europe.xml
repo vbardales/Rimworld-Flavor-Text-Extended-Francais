@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Europe.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_BacalhauABras.label>bacalhau à Brás</FlavorTextFR_BacalhauABras.label>
+	<FlavorTextFR_BacalhauABras.description>{0_coll} effeuillée, {1_coll} en allumettes frites, le tout lié {2_plur} battus jetés hors du feu et remués jusqu'à napper sans coaguler.</FlavorTextFR_BacalhauABras.description>
+	<FlavorTextFR_BacalhauComNatas.label>bacalhau com natas</FlavorTextFR_BacalhauComNatas.label>
+	<FlavorTextFR_BacalhauComNatas.description>{0_coll} dessalée et émiettée, mêlée {2_plur} fondus et noyée {1_plur}, gratinée jusqu'à ce que la surface se craquelle.</FlavorTextFR_BacalhauComNatas.description>
+	<FlavorTextFR_Francesinha.label>francesinha</FlavorTextFR_Francesinha.label>
+	<FlavorTextFR_Francesinha.description>un croque-monsieur de Porto poussé jusqu'à l'absurde : quatre viandes empilées, du fromage fondu par-dessus, et une sauce épaisse {2_adj} et à la tomate versée à ras bord de l'assiette.</FlavorTextFR_Francesinha.description>
+	<FlavorTextFR_Bifana.label>bifana</FlavorTextFR_Bifana.label>
+	<FlavorTextFR_Bifana.description>de fines escalopes {1_adj} mijotées {2_plur} et au vin blanc, empilées brûlantes dans un pain qui boit la sauce.</FlavorTextFR_Bifana.description>
+	<FlavorTextFR_CozidoAPortuguesa.label>cozido à portuguesa</FlavorTextFR_CozidoAPortuguesa.label>
+	<FlavorTextFR_CozidoAPortuguesa.description>tout ce que la maison possède en viandes et en charcuteries, bouilli avec {1_coll} et {2_coll} et servi sur un plat unique et démesuré.</FlavorTextFR_CozidoAPortuguesa.description>
+	<FlavorTextFR_ArrozDePato.label>arroz de pato</FlavorTextFR_ArrozDePato.label>
+	<FlavorTextFR_ArrozDePato.description>{0_coll} cuit dans le bouillon {1_adj} pochée, la chair effilochée mêlée dedans, des rondelles de chorizo posées dessus, et le tout gratiné au four.</FlavorTextFR_ArrozDePato.description>
+	<FlavorTextFR_Acorda.label>açorda</FlavorTextFR_Acorda.label>
+	<FlavorTextFR_Acorda.description>du pain rassis détrempé dans une eau bouillante {1_plur} et à la coriandre, battu jusqu'à devenir une bouillie, avec {2_coll} pochés dedans. Un plat de pauvreté alentejane devenu emblème.</FlavorTextFR_Acorda.description>
+	<FlavorTextFR_CataplanaDeMarisco.label>cataplana de marisco</FlavorTextFR_CataplanaDeMarisco.label>
+	<FlavorTextFR_CataplanaDeMarisco.description>{0_coll} et {2_coll} cuits ensemble dans un chaudron de cuivre à charnière, refermé hermétiquement — la vapeur ne s'échappe pas, et le plat se cuit dans son propre jus.</FlavorTextFR_CataplanaDeMarisco.description>
+	<FlavorTextFR_FrangoPiriPiri.label>frango piri-piri</FlavorTextFR_FrangoPiriPiri.label>
+	<FlavorTextFR_FrangoPiriPiri.description>{0_coll} ouverte en crapaudine et grillée au charbon, badigeonnée pendant toute la cuisson d'une huile {1_adj} minuscules et {2_adj}.</FlavorTextFR_FrangoPiriPiri.description>
+	<FlavorTextFR_Sauerbraten.label>sauerbraten</FlavorTextFR_Sauerbraten.label>
+	<FlavorTextFR_Sauerbraten.description>une pièce {0_adj} marinée au vinaigre une semaine entière, braisée, la sauce liée au pain d'épices émietté et adoucie {2_plur} séchées.</FlavorTextFR_Sauerbraten.description>
+	<FlavorTextFR_Rinderrouladen.label>rinderrouladen</FlavorTextFR_Rinderrouladen.label>
+	<FlavorTextFR_Rinderrouladen.description>de fines tranches {0_adj} tartinées de moutarde, roulées sur un cornichon et {2_coll}, maintenues par un pique et braisées deux heures.</FlavorTextFR_Rinderrouladen.description>
+	<FlavorTextFR_Schweinshaxe.label>schweinshaxe</FlavorTextFR_Schweinshaxe.label>
+	<FlavorTextFR_Schweinshaxe.description>un jarret entier rôti des heures, arrosé {2_plur} brune, jusqu'à ce que la couenne devienne une carapace qui craque sous le couteau.</FlavorTextFR_Schweinshaxe.description>
+	<FlavorTextFR_WienerSchnitzel.label>wiener schnitzel</FlavorTextFR_WienerSchnitzel.label>
+	<FlavorTextFR_WienerSchnitzel.description>une escalope {0_adj} battue jusqu'à la transparence, panée sans presser, et frite au beurre en secouant la poêle pour que la panure gonfle et se décolle de la viande.</FlavorTextFR_WienerSchnitzel.description>
+	<FlavorTextFR_KonigsbergerKlopse.label>königsberger klopse</FlavorTextFR_KonigsbergerKlopse.label>
+	<FlavorTextFR_KonigsbergerKlopse.description>des boulettes {0_adj} pochées dans un bouillon, servies sous une sauce blanche {1_adj} acidulée {2_plur} et relevée de câpres.</FlavorTextFR_KonigsbergerKlopse.description>
+	<FlavorTextFR_Maultaschen.label>maultaschen</FlavorTextFR_Maultaschen.label>
+	<FlavorTextFR_Maultaschen.description>de grands carrés de pâte farcis {1_plur} et {2_plur}. Les moines souabes y cachaient la viande pour la manger en carême : on les appelle encore « les attrape-Dieu ».</FlavorTextFR_Maultaschen.description>
+	<FlavorTextFR_Kasespatzle.label>käsespätzle</FlavorTextFR_Kasespatzle.label>
+	<FlavorTextFR_Kasespatzle.description>des spätzle râclés dans l'eau bouillante, montés en couches {1_plur} et coiffés {2_adj} frits jusqu'au brun sombre.</FlavorTextFR_Kasespatzle.description>
+	<FlavorTextFR_Kartoffelpuffer.label>kartoffelpuffer</FlavorTextFR_Kartoffelpuffer.label>
+	<FlavorTextFR_Kartoffelpuffer.description>{0_coll} râpées crues et pressées de leur eau, liées {1_plur}, frites en galettes fines et servies avec une compote {2_adj}. Le sucré face au salé, comme souvent en Rhénanie.</FlavorTextFR_Kartoffelpuffer.description>
+	<FlavorTextFR_HimmelUndErde.label>himmel und erde</FlavorTextFR_HimmelUndErde.label>
+	<FlavorTextFR_HimmelUndErde.description>« ciel et terre » : {1_coll} qui poussent en haut, {0_coll} qui poussent en bas, écrasées ensemble, avec du boudin poêlé et des oignons frits.</FlavorTextFR_HimmelUndErde.description>
+	<FlavorTextFR_GrunkohlMitPinkel.label>grünkohl mit pinkel</FlavorTextFR_GrunkohlMitPinkel.label>
+	<FlavorTextFR_GrunkohlMitPinkel.description>{0_coll} frisés cueillis après la première gelée — qui les adoucit — mijotés des heures avec une saucisse fumée {2_adj}.</FlavorTextFR_GrunkohlMitPinkel.description>
+	<FlavorTextFR_Tafelspitz.label>tafelspitz</FlavorTextFR_Tafelspitz.label>
+	<FlavorTextFR_Tafelspitz.description>une pièce {0_adj} pochée dans un bouillon de racines, servie avec une sauce {2_adj} au raifort et à la pomme. Le plat préféré de François-Joseph, dit-on, qui en mangeait tous les jours.</FlavorTextFR_Tafelspitz.description>
+	<FlavorTextFR_TirolerGrostl.label>tiroler gröstl</FlavorTextFR_TirolerGrostl.label>
+	<FlavorTextFR_TirolerGrostl.description>{0_coll} et {1_coll} de la veille sautées ensemble à la poêle jusqu'à accrocher, coiffées d'un œuf au plat et servies dans la poêle même.</FlavorTextFR_TirolerGrostl.description>
+	<FlavorTextFR_Semmelknodel.label>semmelknödel</FlavorTextFR_Semmelknodel.label>
+	<FlavorTextFR_Semmelknodel.description>du pain rassis trempé {1_plur} tiède, mêlé {2_plur} et au persil, roulé en boules et poché à l'eau frémissante. Une boule qui se défait est une boule trop travaillée.</FlavorTextFR_Semmelknodel.description>
+	<FlavorTextFR_Kottbullar.label>köttbullar</FlavorTextFR_Kottbullar.label>
+	<FlavorTextFR_Kottbullar.description>de petites boulettes {0_adj} roulées à la main, poêlées puis servies sous une sauce brune {1_adj}, avec une cuillerée de confiture {2_adj} rouges à côté.</FlavorTextFR_Kottbullar.description>
+	<FlavorTextFR_Gravlax.label>gravlax</FlavorTextFR_Gravlax.label>
+	<FlavorTextFR_Gravlax.description>un filet enfoui deux jours sous du sel, {1_coll} et beaucoup d'aneth, sous un poids. Le nom veut dire « saumon enterré » : on l'enfouissait autrefois vraiment dans le sable.</FlavorTextFR_Gravlax.description>
+	<FlavorTextFR_Smorrebrod.label>smørrebrød</FlavorTextFR_Smorrebrod.label>
+	<FlavorTextFR_Smorrebrod.description>une tranche de pain noir {0_adj} beurrée jusqu'aux bords, chargée de hareng mariné et {2_adj} crus. Se mange à la fourchette, jamais à la main, et jamais refermée.</FlavorTextFR_Smorrebrod.description>
+	<FlavorTextFR_Frikadeller.label>frikadeller</FlavorTextFR_Frikadeller.label>
+	<FlavorTextFR_Frikadeller.description>{0_coll} hachée deux fois, allégée de farine et {2_adj}, façonnée à la cuillère en galettes bombées et poêlée longuement au beurre.</FlavorTextFR_Frikadeller.description>
+	<FlavorTextFR_Lohikeitto.label>lohikeitto</FlavorTextFR_Lohikeitto.label>
+	<FlavorTextFR_Lohikeitto.description>une soupe finlandaise où {0_coll} n'est ajoutée qu'à la toute fin, dans un bouillon {1_adj} déjà crémé, et pochée hors du feu pour rester juste rosée.</FlavorTextFR_Lohikeitto.description>
+	<FlavorTextFR_Poronkaristys.label>poronkäristys</FlavorTextFR_Poronkaristys.label>
+	<FlavorTextFR_Poronkaristys.description>{0_coll} de renne rabotée en copeaux sur le bloc gelé, jetée dans la graisse brûlante et servie avec une purée et une cuillerée d'airelles. Un plat de Laponie, mangé l'hiver.</FlavorTextFR_Poronkaristys.description>
+	<FlavorTextFR_Artsoppa.label>ärtsoppa</FlavorTextFR_Artsoppa.label>
+	<FlavorTextFR_Artsoppa.description>{0_coll} jaunes cassés trempés une nuit et mijotés avec {1_coll} fumée, parfumés au thym et à la marjolaine. En Suède, on la mange le jeudi ; personne ne sait plus vraiment pourquoi.</FlavorTextFR_Artsoppa.description>
+	<FlavorTextFR_Plokkfiskur.label>plokkfiskur</FlavorTextFR_Plokkfiskur.label>
+	<FlavorTextFR_Plokkfiskur.description>les restes de poisson bouilli écrasés grossièrement avec {1_coll} et {2_coll}, réchauffés à la poêle. Islandais, et fait pour ne rien jeter dans un pays où rien ne pousse.</FlavorTextFR_Plokkfiskur.description>
+	<FlavorTextFR_Lapskaus.label>lapskaus</FlavorTextFR_Lapskaus.label>
+	<FlavorTextFR_Lapskaus.description>{0_coll} et les racines cuites si longtemps ensemble qu'on ne distingue plus rien. Un plat de marins, fait de salaisons et de ce qui se conservait à bord.</FlavorTextFR_Lapskaus.description>
+	<FlavorTextFR_Kjotsupa.label>kjötsúpa</FlavorTextFR_Kjotsupa.label>
+	<FlavorTextFR_Kjotsupa.description>{0_coll} sur l'os bouillie avec {1_coll} et {2_coll}, sans autre assaisonnement que le sel. La soupe islandaise de tous les jours, depuis mille ans.</FlavorTextFR_Kjotsupa.description>
+	<FlavorTextFR_SteakAndAlePie.label>steak and ale pie</FlavorTextFR_SteakAndAlePie.label>
+	<FlavorTextFR_SteakAndAlePie.description>{0_coll} braisée {1_plur} brune jusqu'à s'effilocher, enfermée sous un couvercle de pâte qui gonfle et brunit au four.</FlavorTextFR_SteakAndAlePie.description>
+	<FlavorTextFR_LancashireHotpot.label>lancashire hotpot</FlavorTextFR_LancashireHotpot.label>
+	<FlavorTextFR_LancashireHotpot.description>{0_coll} et {2_coll} en couches sous un toit de fines rondelles {1_adj} qui dorent et croustillent pendant que le dessous mijote.</FlavorTextFR_LancashireHotpot.description>
+	<FlavorTextFR_CullenSkink.label>cullen skink</FlavorTextFR_CullenSkink.label>
+	<FlavorTextFR_CullenSkink.description>de l'églefin fumé poché {2_plur}, effeuillé, remis dans son lait avec {1_coll} écrasées. Épais au point de tenir la cuillère debout.</FlavorTextFR_CullenSkink.description>
+	<FlavorTextFR_HaggisNeepsTatties.label>haggis, neeps and tatties</FlavorTextFR_HaggisNeepsTatties.label>
+	<FlavorTextFR_HaggisNeepsTatties.description>{0_coll} hachée avec {1_coll} et beaucoup de poivre, cuite dans une panse, servie avec des navets et des pommes de terre écrasés séparément. On le tranche d'un coup de couteau devant les convives.</FlavorTextFR_HaggisNeepsTatties.description>
+	<FlavorTextFR_CockALeekie.label>cock-a-leekie</FlavorTextFR_CockALeekie.label>
+	<FlavorTextFR_CockALeekie.description>une soupe écossaise {0_adj} et {1_adj}, avec des pruneaux entiers dedans. L'accord surprend, mais il est attesté depuis le XVIe siècle.</FlavorTextFR_CockALeekie.description>
+	<FlavorTextFR_FullEnglishBreakfast.label>full english breakfast</FlavorTextFR_FullEnglishBreakfast.label>
+	<FlavorTextFR_FullEnglishBreakfast.description>{0_coll}, {1_coll} sous toutes ses formes, {2_coll} à la tomate, champignons et pain frit, tout dans la même assiette. Un petit-déjeuner qui tient lieu de deux repas.</FlavorTextFR_FullEnglishBreakfast.description>
+	<FlavorTextFR_Kedgeree.label>kedgeree</FlavorTextFR_Kedgeree.label>
+	<FlavorTextFR_Kedgeree.description>{0_coll} au curry mêlé de poisson fumé effeuillé et d'œufs durs. Un khichdi indien rapporté par les Britanniques, devenu chez eux un plat de petit-déjeuner.</FlavorTextFR_Kedgeree.description>
+	<FlavorTextFR_BeefGuinnessStew.label>ragoût de bœuf à la Guinness</FlavorTextFR_BeefGuinnessStew.label>
+	<FlavorTextFR_BeefGuinnessStew.description>{0_coll} mijotée {1_plur} noire, dont l'amertume torréfiée se transforme en profondeur après trois heures, avec {2_coll} et carottes.</FlavorTextFR_BeefGuinnessStew.description>
+
+</LanguageData>

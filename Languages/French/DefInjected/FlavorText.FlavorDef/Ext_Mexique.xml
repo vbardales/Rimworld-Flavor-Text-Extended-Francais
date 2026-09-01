@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Mexique.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_MolePoblano.label>mole poblano</FlavorTextFR_MolePoblano.label>
+	<FlavorTextFR_MolePoblano.description>une sauce brun-noir où {0_coll} grillés, {1_coll} et une vingtaine d'autres choses sont broyés puis mijotés des heures, versée sur {2_coll}. Le chocolat ne la sucre pas : il l'épaissit et l'assombrit.</FlavorTextFR_MolePoblano.description>
+	<FlavorTextFR_CochinitaPibil.label>cochinita pibil</FlavorTextFR_CochinitaPibil.label>
+	<FlavorTextFR_CochinitaPibil.description>{0_coll} marinée {1_plur} amère et {2_plur} de rocou qui la teignent en orange, enveloppée de feuilles de bananier et cuite enterrée. « Pib » veut dire fosse.</FlavorTextFR_CochinitaPibil.description>
+	<FlavorTextFR_ChilesEnNogada.label>chiles en nogada</FlavorTextFR_ChilesEnNogada.label>
+	<FlavorTextFR_ChilesEnNogada.description>{0_coll} farcis {2_plur} hachée et de fruits, nappés d'une crème {1_adj} fraîches et grenés de grenade. Vert, blanc, rouge : le drapeau, servi en assiette.</FlavorTextFR_ChilesEnNogada.description>
+	<FlavorTextFR_Tinga.label>tinga</FlavorTextFR_Tinga.label>
+	<FlavorTextFR_Tinga.description>{0_coll} effilochée et mijotée dans une sauce {1_adj} fumée aux piments en adobo, avec {2_coll} en lamelles. Se sert sur une tostada, jamais dans une assiette.</FlavorTextFR_Tinga.description>
+	<FlavorTextFR_Quesadilla.label>quesadilla</FlavorTextFR_Quesadilla.label>
+	<FlavorTextFR_Quesadilla.description>une galette {0_adj} pliée sur {1_coll} et {2_coll}, saisie à sec jusqu'à ce que le fromage file quand on l'ouvre. À Mexico, on demande s'il faut y mettre du fromage ; le reste du pays trouve la question absurde.</FlavorTextFR_Quesadilla.description>
+	<FlavorTextFR_SopaDeLima.label>sopa de lima</FlavorTextFR_SopaDeLima.label>
+	<FlavorTextFR_SopaDeLima.description>un bouillon {0_adj} acidulé {1_plur}, garni de lanières {2_adj} frites qui ramollissent à mesure qu'on mange. Il faut donc manger vite.</FlavorTextFR_SopaDeLima.description>
+	<FlavorTextFR_Birria.label>birria</FlavorTextFR_Birria.label>
+	<FlavorTextFR_Birria.description>{0_coll} cuite à l'étouffée dans un adobo {1_adj} et {2_adj} jusqu'à se défiler. Le jus rendu se garde à part : on y trempe tout le reste.</FlavorTextFR_Birria.description>
+	<FlavorTextFR_Chilaquiles.label>chilaquiles</FlavorTextFR_Chilaquiles.label>
+	<FlavorTextFR_Chilaquiles.description>des galettes {0_adj} de la veille, coupées, frites, puis noyées de sauce {1_adj} juste assez longtemps pour s'attendrir sans se dissoudre, avec {2_coll} par-dessus. Le petit-déjeuner des lendemains difficiles.</FlavorTextFR_Chilaquiles.description>
+	<FlavorTextFR_Carnitas.label>carnitas</FlavorTextFR_Carnitas.label>
+	<FlavorTextFR_Carnitas.description>{0_coll} confite des heures {1_plur} avec {2_coll}, puis montée en température à la fin pour croustiller les bords. Tendre dedans, cassante dehors, dans le même morceau.</FlavorTextFR_Carnitas.description>
+
+</LanguageData>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Regions2.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Potjevleesch.label>potjevleesch</FlavorTextFR_Potjevleesch.label>
+	<FlavorTextFR_Potjevleesch.description>quatre viandes blanches empilées en terrine et cuites {2_plur} avec du vinaigre, puis prises en gelée au froid. Se mange froid, avec des frites chaudes : c'est tout l'intérêt.</FlavorTextFR_Potjevleesch.description>
+	<FlavorTextFR_Hochepot.label>hochepot</FlavorTextFR_Hochepot.label>
+	<FlavorTextFR_Hochepot.description>un pot-au-feu du Nord où l'on met les morceaux dont personne ne veut — queue, oreille, pied — avec {1_coll} et {2_coll}. « Hochepot » : le pot qu'on secoue.</FlavorTextFR_Hochepot.description>
+	<FlavorTextFR_Welsh.label>welsh</FlavorTextFR_Welsh.label>
+	<FlavorTextFR_Welsh.description>{0_coll} fondu {1_plur} et à la moutarde, coulé sur une tranche de pain et {2_coll}, puis gratiné. Un œuf au plat par-dessus si l'on veut le welsh complet.</FlavorTextFR_Welsh.description>
+	<FlavorTextFR_FlamicheAuxPoireaux.label>flamiche aux poireaux</FlavorTextFR_FlamicheAuxPoireaux.label>
+	<FlavorTextFR_FlamicheAuxPoireaux.description>{0_coll} fondus {2_plur} sans coloration, enfermés entre deux abaisses de pâte et cuits jusqu'à ce que le dessus dore. Picarde, et sans crème dans la version d'origine.</FlavorTextFR_FlamicheAuxPoireaux.description>
+	<FlavorTextFR_TarteAuMaroilles.label>tarte au maroilles</FlavorTextFR_TarteAuMaroilles.label>
+	<FlavorTextFR_TarteAuMaroilles.description>une pâte levée couverte {0_adj} en lamelles et {2_adj}, cuite jusqu'à ce que tout bouillonne. L'odeur porte à trois pièces ; le goût est plus doux qu'elle ne le laisse croire.</FlavorTextFR_TarteAuMaroilles.description>
+	<FlavorTextFR_HarengPommesALHuile.label>hareng pommes à l'huile</FlavorTextFR_HarengPommesALHuile.label>
+	<FlavorTextFR_HarengPommesALHuile.description>des filets fumés marinés {2_plur} avec oignon et laurier, sur {1_coll} tièdes coupées en rondelles, qui boivent l'huile parfumée.</FlavorTextFR_HarengPommesALHuile.description>
+	<FlavorTextFR_Caghuse.label>caghuse</FlavorTextFR_Caghuse.label>
+	<FlavorTextFR_Caghuse.description>une rouelle {0_adj} cuite à couvert sur un lit {1_adj}, sans une goutte d'eau — le jus vient de la viande et des oignons seuls. Se mange froide le lendemain.</FlavorTextFR_Caghuse.description>
+	<FlavorTextFR_PiedsSainteMenehould.label>pieds de porc Sainte-Menehould</FlavorTextFR_PiedsSainteMenehould.label>
+	<FlavorTextFR_PiedsSainteMenehould.description>des pieds pochés quarante heures, jusqu'à ce que les os deviennent tendres et se mangent, puis panés et grillés. Louis XVI en aurait mangé lors de sa fuite, ce qui l'aurait retardé.</FlavorTextFR_PiedsSainteMenehould.description>
+	<FlavorTextFR_AnguilleAuVert.label>anguille au vert</FlavorTextFR_AnguilleAuVert.label>
+	<FlavorTextFR_AnguilleAuVert.description>des tronçons pochés {2_plur} blanc dans une masse d'herbes vertes — oseille, cresson, épinard — jusqu'à ce que la sauce prenne leur couleur. Se sert froid.</FlavorTextFR_AnguilleAuVert.description>
+	<FlavorTextFR_SoleNormande.label>sole normande</FlavorTextFR_SoleNormande.label>
+	<FlavorTextFR_SoleNormande.description>{0_coll} pochée au cidre, garnie {1_plur} et de champignons, la sauce réduite et montée {2_plur}. Une des plus anciennes recettes bourgeoises encore servies.</FlavorTextFR_SoleNormande.description>
+	<FlavorTextFR_MarmiteDieppoise.label>marmite dieppoise</FlavorTextFR_MarmiteDieppoise.label>
+	<FlavorTextFR_MarmiteDieppoise.description>plusieurs poissons et {1_coll} pochés séparément puis réunis dans un bouillon crémé au cidre. Chaque chair a son temps de cuisson : les mélanger dès le début, c'est tout rater.</FlavorTextFR_MarmiteDieppoise.description>
+	<FlavorTextFR_MoulesALaCreme.label>moules à la crème</FlavorTextFR_MoulesALaCreme.label>
+	<FlavorTextFR_MoulesALaCreme.description>{0_coll} ouverte à feu vif {2_plur}, le jus rendu filtré du sable puis réduit et lié {1_plur}, et reversé dessus.</FlavorTextFR_MoulesALaCreme.description>
+	<FlavorTextFR_CanardALaRouennaise.label>canard à la rouennaise</FlavorTextFR_CanardALaRouennaise.label>
+	<FlavorTextFR_CanardALaRouennaise.description>une bête étouffée plutôt que saignée, pour garder son sang, rôtie saignante ; la carcasse est ensuite pressée et le jus obtenu lié au foie et {2_plur} rouge.</FlavorTextFR_CanardALaRouennaise.description>
+	<FlavorTextFR_BoudinNoirAuxPommes.label>boudin noir aux pommes</FlavorTextFR_BoudinNoirAuxPommes.label>
+	<FlavorTextFR_BoudinNoirAuxPommes.description>un boudin piqué à la fourchette et poêlé doucement — trop vif, il éclate —, avec {2_coll} caramélisées au beurre. Le sucre du fruit coupe le fer du sang.</FlavorTextFR_BoudinNoirAuxPommes.description>
+	<FlavorTextFR_CamembertRoti.label>camembert rôti</FlavorTextFR_CamembertRoti.label>
+	<FlavorTextFR_CamembertRoti.description>une boîte entière {0_adj} incisée en croix, piquée {2_plur} et passée au four dans son bois jusqu'à couler. On y trempe le pain jusqu'à ce qu'il n'en reste rien.</FlavorTextFR_CamembertRoti.description>
+	<FlavorTextFR_OmeletteMerePoulard.label>omelette de la Mère Poulard</FlavorTextFR_OmeletteMerePoulard.label>
+	<FlavorTextFR_OmeletteMerePoulard.description>{0_coll} battus très longtemps au fouet, jusqu'à mousser comme un soufflé, et cuits {1_plur} dans une poêle à long manche au-dessus d'un feu de bois. La recette exacte est restée secrète.</FlavorTextFR_OmeletteMerePoulard.description>
+	<FlavorTextFR_HomardALArmoricaine.label>homard à l'armoricaine</FlavorTextFR_HomardALArmoricaine.label>
+	<FlavorTextFR_HomardALArmoricaine.description>{0_coll} tronçonnée vivante et saisie dans sa carapace, flambée au cognac, mijotée {1_plur} et {2_plur} blanc, la sauce liée au corail. « Armoricaine » ou « américaine » : la querelle dure depuis un siècle.</FlavorTextFR_HomardALArmoricaine.description>
+	<FlavorTextFR_SaintJacquesBretonne.label>coquilles Saint-Jacques à la bretonne</FlavorTextFR_SaintJacquesBretonne.label>
+	<FlavorTextFR_SaintJacquesBretonne.description>{0_coll} remise dans sa coquille avec une persillade et de la chapelure {2_plur}, passée sous le gril deux minutes. Davantage et elle devient caoutchouteuse.</FlavorTextFR_SaintJacquesBretonne.description>
+	<FlavorTextFR_GaletteSaucisse.label>galette-saucisse</FlavorTextFR_GaletteSaucisse.label>
+	<FlavorTextFR_GaletteSaucisse.description>une saucisse grillée roulée dans une galette {0_adj} froide, sans rien d'autre — la moutarde est tolérée, le ketchup fait débat. Se mange debout, au stade ou au marché.</FlavorTextFR_GaletteSaucisse.description>
+	<FlavorTextFR_PalourdesFarcies.label>palourdes farcies</FlavorTextFR_PalourdesFarcies.label>
+	<FlavorTextFR_PalourdesFarcies.description>{0_coll} ouverte et recouverte d'un beurre travaillé {1_plur} et au persil, passée au four jusqu'à ce que le beurre bouillonne et déborde.</FlavorTextFR_PalourdesFarcies.description>
+	<FlavorTextFR_AraigneeDeMerFarcie.label>araignée de mer farcie</FlavorTextFR_AraigneeDeMerFarcie.label>
+	<FlavorTextFR_AraigneeDeMerFarcie.description>{0_coll} décortiquée patiemment, mêlée à son corail et à des jaunes {1_adj} durs, puis remise dans le coffre vidé. Une heure de travail pour dix minutes de repas.</FlavorTextFR_AraigneeDeMerFarcie.description>
+	<FlavorTextFR_SandreAuBeurreBlanc.label>sandre au beurre blanc</FlavorTextFR_SandreAuBeurreBlanc.label>
+	<FlavorTextFR_SandreAuBeurreBlanc.description>un poisson de rivière poché, servi sous une émulsion {2_adj} réduites au vin blanc où l'on incorpore {1_coll} froid morceau par morceau. La sauce tranche au premier excès de chaleur.</FlavorTextFR_SandreAuBeurreBlanc.description>
+	<FlavorTextFR_MogettesAuJambon.label>mogettes au jambon</FlavorTextFR_MogettesAuJambon.label>
+	<FlavorTextFR_MogettesAuJambon.description>{0_coll} blancs de Vendée cuits à l'eau frémissante avec {2_coll}, écrasés à moitié pour épaissir leur propre bouillon, et servis avec une tranche {1_adj}.</FlavorTextFR_MogettesAuJambon.description>
+	<FlavorTextFR_Rillettes.label>rillettes</FlavorTextFR_Rillettes.label>
+	<FlavorTextFR_Rillettes.description>{0_coll} cuite cinq heures dans {1_coll} jusqu'à se défaire, effilochée à la fourchette et non broyée, puis serrée en pot sous une couche de gras qui la conserve.</FlavorTextFR_Rillettes.description>
+	<FlavorTextFR_PateDePaques.label>pâté de Pâques</FlavorTextFR_PateDePaques.label>
+	<FlavorTextFR_PateDePaques.description>une farce {0_adj} enfermée dans une pâte, avec des œufs durs entiers alignés au centre pour qu'apparaisse un rond jaune à chaque tranche.</FlavorTextFR_PateDePaques.description>
+	<FlavorTextFR_PouletEnBarbouille.label>poulet en barbouille</FlavorTextFR_PouletEnBarbouille.label>
+	<FlavorTextFR_PouletEnBarbouille.description>{0_coll} mijotée au vin, la sauce liée au sang et au foie de la bête. « Barbouille » pour ce qu'elle laisse sur le menton de qui la mange.</FlavorTextFR_PouletEnBarbouille.description>
+	<FlavorTextFR_PouletAuxMorilles.label>poulet aux morilles</FlavorTextFR_PouletAuxMorilles.label>
+	<FlavorTextFR_PouletAuxMorilles.description>{0_coll} du Jura et {1_coll} séchées puis regonflées — leur eau de trempage, filtrée, vaut un fond —, la sauce enrichie {2_plur} de montagne.</FlavorTextFR_PouletAuxMorilles.description>
+	<FlavorTextFR_MorteauAuxLentilles.label>saucisse de Morteau aux lentilles</FlavorTextFR_MorteauAuxLentilles.label>
+	<FlavorTextFR_MorteauAuxLentilles.description>une saucisse fumée au bois de résineux, pochée sans jamais bouillir, sur {1_coll} mijotées {2_plur} piqués de clous de girofle.</FlavorTextFR_MorteauAuxLentilles.description>
+	<FlavorTextFR_MontDOrChaud.label>mont d'or chaud</FlavorTextFR_MontDOrChaud.label>
+	<FlavorTextFR_MontDOrChaud.description>une boîte {0_adj} entière percée, arrosée {1_plur} blanc et d'ail, passée au four dans son cercle d'épicéa jusqu'à devenir liquide. Se mange à la cuillère, avec {2_coll} en robe.</FlavorTextFR_MontDOrChaud.description>
+	<FlavorTextFR_PateLorrain.label>pâté lorrain</FlavorTextFR_PateLorrain.label>
+	<FlavorTextFR_PateLorrain.description>{0_coll} taillée au couteau et marinée deux jours {2_plur} blanc, enfermée dans un feuilletage étroit. Se mange tiède, jamais brûlant.</FlavorTextFR_PateLorrain.description>
+	<FlavorTextFR_PoteeLorraine.label>potée lorraine</FlavorTextFR_PoteeLorraine.label>
+	<FlavorTextFR_PoteeLorraine.description>{0_coll} et les racines de l'hiver mijotés avec {1_coll} fumée et salée. Le bouillon se sert d'abord sur du pain, les viandes ensuite.</FlavorTextFR_PoteeLorraine.description>
+	<FlavorTextFR_LapinALaMirabelle.label>lapin à la mirabelle</FlavorTextFR_LapinALaMirabelle.label>
+	<FlavorTextFR_LapinALaMirabelle.description>{0_coll} dorée {2_plur}, flambée à l'eau-de-vie et mijotée avec {1_coll} jaunes qui se défont et sucrent la sauce sans qu'on ajoute rien.</FlavorTextFR_LapinALaMirabelle.description>
+	<FlavorTextFR_QuenellesNantua.label>quenelles sauce Nantua</FlavorTextFR_QuenellesNantua.label>
+	<FlavorTextFR_QuenellesNantua.description>une farce {0_adj} montée {1_plur} et à la panade, façonnée à la cuillère et pochée, puis gonflée au four sous une sauce rose {2_adj} d'écrevisse.</FlavorTextFR_QuenellesNantua.description>
+	<FlavorTextFR_SaladeLyonnaise.label>salade lyonnaise</FlavorTextFR_SaladeLyonnaise.label>
+	<FlavorTextFR_SaladeLyonnaise.description>de la frisée amère, {2_coll} rissolés, des croûtons frottés d'ail et un œuf poché posé dessus. On perce le jaune et il devient la sauce.</FlavorTextFR_SaladeLyonnaise.description>
+	<FlavorTextFR_PoulardeDemiDeuil.label>poularde demi-deuil</FlavorTextFR_PoulardeDemiDeuil.label>
+	<FlavorTextFR_PoulardeDemiDeuil.description>une volaille sous la peau de laquelle on a glissé des lamelles noires {1_adj}, pochée entière dans un bouillon d'os. Le noir sur le blanc lui vaut son nom de demi-deuil.</FlavorTextFR_PoulardeDemiDeuil.description>
+	<FlavorTextFR_GrasDoubleLyonnais.label>gras-double à la lyonnaise</FlavorTextFR_GrasDoubleLyonnais.label>
+	<FlavorTextFR_GrasDoubleLyonnais.description>{0_coll} précuite, taillée en lanières et sautée {2_plur} jusqu'à croustiller sur les bords, avec {1_coll} blondis et un trait de vinaigre à la fin.</FlavorTextFR_GrasDoubleLyonnais.description>
+
+</LanguageData>

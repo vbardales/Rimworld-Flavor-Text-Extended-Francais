@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 08 : pâtes nutritives et salades.
+
+  Les « MealsPaste » sont volontairement industriels et peu appétissants dans l'original.
+  Le français garde ce registre : arôme, autolysat, globules, pâtée, substitut.
+-->
+<LanguageData>
+
+	<FlavorText_Condiment_Flavorant.label>arôme {0_adj}</FlavorText_Condiment_Flavorant.label>
+	<FlavorText_Condiment-Condiment_Stick.label>bâtonnet {0_adj} et {1_adj}</FlavorText_Condiment-Condiment_Stick.label>
+	<FlavorText_Condiment_And_Condiment_FlavorCube.label>cube de saveur {0_adj} et {1_adj}</FlavorText_Condiment_And_Condiment_FlavorCube.label>
+	<FlavorText_Blended_Corn.label>{0_coll} mixé</FlavorText_Blended_Corn.label>
+	<FlavorText_Curdled_Dairy.label>grumeaux {0_adj}</FlavorText_Curdled_Dairy.label>
+	<FlavorText_Cubed_Egg.label>{0_coll} en cubes</FlavorText_Cubed_Egg.label>
+	<FlavorText_Foods_CharcuterieBoard.label>planche apéritive {0_adj}</FlavorText_Foods_CharcuterieBoard.label>
+	<FlavorText_Foods_CubesOnAStick.label>cubes {0_adj} sur bâtonnet</FlavorText_Foods_CubesOnAStick.label>
+	<FlavorText_Foods_Pancakes.label>pancakes {0_adj}</FlavorText_Foods_Pancakes.label>
+	<FlavorText_Foods_Pancakes_2.label>pancakes {0_adj}</FlavorText_Foods_Pancakes_2.label>
+	<FlavorText_Foods_Pancakes_3.label>pancakes {0_adj}</FlavorText_Foods_Pancakes_3.label>
+	<FlavorText_Purified_Fruit.label>concentré purifié {0_adj}</FlavorText_Purified_Fruit.label>
+	<FlavorText_Fungus_Pulp.label>pulpe {0_adj}</FlavorText_Fungus_Pulp.label>
+	<FlavorText_Grain_Sponge.label>éponge {0_adj}</FlavorText_Grain_Sponge.label>
+	<FlavorText_Grain_StarchWith_Fruit_Glaze.label>amidon {0_adj} et glaçage {1_adj}</FlavorText_Grain_StarchWith_Fruit_Glaze.label>
+	<FlavorText_AnimalProductRaw_Drink.label>boisson {1_adj}</FlavorText_AnimalProductRaw_Drink.label>
+	<FlavorText_Meat_Insect_EggSaladSandwich.label>sandwich aux œufs {1_adj}</FlavorText_Meat_Insect_EggSaladSandwich.label>
+	<FlavorText_Autolyzed_Grain.label>autolysat {0_adj}</FlavorText_Autolyzed_Grain.label>
+
+	<!-- Rations reconstituées -->
+	<FlavorText_Ingredients_Bricks.label>briques {0_adj}</FlavorText_Ingredients_Bricks.label>
+	<FlavorText_Ingredients_Chow.label>pâtée {0_adj}</FlavorText_Ingredients_Chow.label>
+	<FlavorText_Ingredients_EggPowder.label>poudre d'œuf {0_adj}</FlavorText_Ingredients_EggPowder.label>
+	<FlavorText_Ingredients_Gel.label>gel alimentaire {0_adj}</FlavorText_Ingredients_Gel.label>
+	<FlavorText_Ingredients_Globules.label>globules {0_adj}</FlavorText_Ingredients_Globules.label>
+	<FlavorText_Ingredients_Goo.label>magma {0_adj}</FlavorText_Ingredients_Goo.label>
+	<FlavorText_Ingredients_Mash.label>mouliné {0_adj}</FlavorText_Ingredients_Mash.label>
+	<FlavorText_Ingredients_Mix.label>mélange {0_adj}</FlavorText_Ingredients_Mix.label>
+	<FlavorText_Ingredients_Parfait.label>parfait {0_adj}</FlavorText_Ingredients_Parfait.label>
+	<FlavorText_Ingredients_Pills.label>pilules {0_adj}</FlavorText_Ingredients_Pills.label>
+	<FlavorText_Ingredients_Wafers.label>gaufrettes {0_adj}</FlavorText_Ingredients_Wafers.label>
+	<FlavorText_Ingredients_And_Ingredients_Ingredients_Pills.label>pilules {0_adj}, {1_adj} et {2_adj}</FlavorText_Ingredients_And_Ingredients_Ingredients_Pills.label>
+	<FlavorText_Ingredients_And_Ingredients_Blend.label>mélange {0_adj} et {1_adj}</FlavorText_Ingredients_And_Ingredients_Blend.label>
+	<FlavorText_Ingredients_And_Ingredients_Dots.label>billes {0_adj} et {1_adj}</FlavorText_Ingredients_And_Ingredients_Dots.label>
+	<FlavorText_Ingredients_And_Ingredients_Pills.label>pilules {0_adj} et {1_adj}</FlavorText_Ingredients_And_Ingredients_Pills.label>
+	<FlavorText_Ingredients_And_Ingredients_SoupBlend.label>base de soupe {0_adj} et {1_adj}</FlavorText_Ingredients_And_Ingredients_SoupBlend.label>
+	<FlavorText_Ingredients_And_Ingredients_SoupMix.label>préparation pour soupe {0_adj} et {1_adj}</FlavorText_Ingredients_And_Ingredients_SoupMix.label>
+	<FlavorText_Ingredients-Coated_LeafyVeg.label>{1_coll} {0_plur}</FlavorText_Ingredients-Coated_LeafyVeg.label>
+	<FlavorText_Ingredients_SandwichSubstitute.label>substitut de sandwich {1_adj}</FlavorText_Ingredients_SandwichSubstitute.label>
+	<FlavorText_AssortedJuices.label>jus assortis</FlavorText_AssortedJuices.label>
+	<FlavorText_AssortedPastes.label>pâtes assorties</FlavorText_AssortedPastes.label>
+	<FlavorText_Combination_Ingredients.label>{1_coll} en assemblage</FlavorText_Combination_Ingredients.label>
+	<FlavorText_Cultured_Ingredients_Ingredients_Paste.label>pâte fermentée {0_adj} et {1_adj}</FlavorText_Cultured_Ingredients_Ingredients_Paste.label>
+	<FlavorText_Cultured_Ingredients_Paste.label>pâte fermentée {0_adj}</FlavorText_Cultured_Ingredients_Paste.label>
+	<FlavorText_Cultured_Ingredients_And_Ingredients_Paste.label>pâte de culture {0_adj} et {1_adj}</FlavorText_Cultured_Ingredients_And_Ingredients_Paste.label>
+	<FlavorText_Edible_Ingredients_Squares.label>carrés comestibles {0_adj}</FlavorText_Edible_Ingredients_Squares.label>
+	<FlavorText_Edible_Ingredients_Squares_2.label>carrés comestibles {0_adj}</FlavorText_Edible_Ingredients_Squares_2.label>
+	<FlavorText_Juiced_Ingredients.label>jus pressé {0_adj}</FlavorText_Juiced_Ingredients.label>
+	<FlavorText_Milled_Ingredients.label>mouture {0_adj}</FlavorText_Milled_Ingredients.label>
+	<FlavorText_LeafyVeg_Wafers.label>gaufrettes {0_adj}</FlavorText_LeafyVeg_Wafers.label>
+
+	<!-- « Soylent Green » est sorti en France sous le titre « Soleil vert » -->
+	<FlavorText_SoylentRed.label>soleil rouge</FlavorText_SoylentRed.label>
+	<FlavorText_SoylentGreen.label>soleil vert</FlavorText_SoylentGreen.label>
+	<FlavorText_SoylentYellow.label>soleil jaune</FlavorText_SoylentYellow.label>
+	<FlavorText_Spam.label>spam</FlavorText_Spam.label>
+
+	<!-- Viandes reconstituées -->
+	<FlavorText_Liquid_Meat_Seafood.label>{0_coll} liquide</FlavorText_Liquid_Meat_Seafood.label>
+	<FlavorText_MeatRaw_PlantFoodRaw_Rolls.label>rouleaux {0_adj} et {1_adj}</FlavorText_MeatRaw_PlantFoodRaw_Rolls.label>
+	<FlavorText_MeatRaw_Nuggets.label>nuggets {0_adj}</FlavorText_MeatRaw_Nuggets.label>
+	<FlavorText_MeatRaw_Smoothie.label>smoothie {0_adj}</FlavorText_MeatRaw_Smoothie.label>
+	<FlavorText_MeatRaw_Surprise.label>surprise {0_adj}</FlavorText_MeatRaw_Surprise.label>
+	<FlavorText_MeatRaw_CubesAndCream.label>cubes {0_adj} à la crème</FlavorText_MeatRaw_CubesAndCream.label>
+	<FlavorText_Denatured_MeatRaw.label>{0_coll} dénaturée</FlavorText_Denatured_MeatRaw.label>
+	<FlavorText_HappyAnimalGravy.label>sauce à l'animal heureux</FlavorText_HappyAnimalGravy.label>
+	<FlavorText_Predigested_MeatRaw.label>{0_coll} prédigérée</FlavorText_Predigested_MeatRaw.label>
+
+	<!-- Végétaux reconstitués -->
+	<FlavorText_PlantFoodRaw_Slushball.label>boule glacée {0_adj}</FlavorText_PlantFoodRaw_Slushball.label>
+	<FlavorText_AnimalProductRaw_CongealedSalad.label>salade en gelée {1_adj}</FlavorText_AnimalProductRaw_CongealedSalad.label>
+	<FlavorText_Compressed_PlantFoodRaw.label>comprimé {0_adj}</FlavorText_Compressed_PlantFoodRaw.label>
+	<FlavorText_HealthyPlantTray.label>plateau végétal santé</FlavorText_HealthyPlantTray.label>
+	<FlavorText_Powdered_PlantFoodRaw_Balls.label>boules de poudre {0_adj}</FlavorText_Powdered_PlantFoodRaw_Balls.label>
+	<FlavorText_Mushed_Potato.label>{0_coll} écrasées</FlavorText_Mushed_Potato.label>
+	<FlavorText_Rice_Gruel.label>gruau {0_adj}</FlavorText_Rice_Gruel.label>
+	<FlavorText_Sugar_Gel.label>gel sucré {0_adj}</FlavorText_Sugar_Gel.label>
+	<FlavorText_Vegetable_Paste.label>pâte {0_adj}</FlavorText_Vegetable_Paste.label>
+	<FlavorText_Masticated_Vegetable.label>bouillie mâchée {0_adj}</FlavorText_Masticated_Vegetable.label>
+
+	<!-- Salades -->
+	<FlavorText_FruitMacedonia.label>macédoine de fruits</FlavorText_FruitMacedonia.label>
+	<FlavorText_FruitSalad.label>salade de fruits</FlavorText_FruitSalad.label>
+	<FlavorText_PlantFoodRaw_Jelly.label>gelée {1_adj}</FlavorText_PlantFoodRaw_Jelly.label>
+	<FlavorText_Fungus_SaladWith_PlantFoodRaw.label>salade {2_adj} et {1_coll}</FlavorText_Fungus_SaladWith_PlantFoodRaw.label>
+	<FlavorText_Potato_SaladWith_PlantFoodRaw.label>salade {2_adj} et {1_coll}</FlavorText_Potato_SaladWith_PlantFoodRaw.label>
+	<FlavorText_RusticSalad.label>salade rustique</FlavorText_RusticSalad.label>
+	<FlavorText_WaldorfSalad.label>salade Waldorf</FlavorText_WaldorfSalad.label>
+	<FlavorText_ColdNoodleSalad.label>salade de nouilles froides</FlavorText_ColdNoodleSalad.label>
+	<FlavorText_Ingredients_PokeBowl.label>poke bowl {0_plur}</FlavorText_Ingredients_PokeBowl.label>
+
+</LanguageData>

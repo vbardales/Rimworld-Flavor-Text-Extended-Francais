@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 04 : confiseries, boissons, raviolis et beignets farcis.
+-->
+<LanguageData>
+
+	<!-- Confiseries -->
+	<FlavorText_Sugar_Candy.label>bonbons {0_adj}</FlavorText_Sugar_Candy.label>
+	<FlavorText_Dairy_Candy.label>caramels {1_plur}</FlavorText_Dairy_Candy.label>
+	<FlavorText_Fruit_Jam.label>confiture {1_adj}</FlavorText_Fruit_Jam.label>
+	<FlavorText_Fruit_Tanghulu.label>tanghulu {1_plur}</FlavorText_Fruit_Tanghulu.label>
+	<FlavorText_Citrus_TurkishDelight.label>loukoum {1_plur}</FlavorText_Citrus_TurkishDelight.label>
+	<!-- « ambroisie » seul serait confondu avec la boisson du jeu du même nom -->
+	<FlavorText_Ambrosia.label>salade ambroisie</FlavorText_Ambrosia.label>
+	<FlavorText_Candied_Citrus_Peel.label>écorces {1_adj} confites</FlavorText_Candied_Citrus_Peel.label>
+	<FlavorText_Candied_Nut.label>pralines {1_plur}</FlavorText_Candied_Nut.label>
+	<FlavorText_Chocolate-CoatedMarshmallowTreats.label>guimauves enrobées de chocolat</FlavorText_Chocolate-CoatedMarshmallowTreats.label>
+	<FlavorText_DragonsBeardCandy.label>barbe de dragon</FlavorText_DragonsBeardCandy.label>
+	<FlavorText_Khabisa.label>khabisa</FlavorText_Khabisa.label>
+	<FlavorText_Kutya.label>koutia</FlavorText_Kutya.label>
+	<FlavorText_Raggmunkar.label>raggmunkar</FlavorText_Raggmunkar.label>
+	<FlavorText_Savillum.label>savillum</FlavorText_Savillum.label>
+	<FlavorText_Tembleque.label>tembleque</FlavorText_Tembleque.label>
+	<FlavorText_Fruitcake.label>cake aux fruits</FlavorText_Fruitcake.label>
+	<FlavorText_Knafeh.label>knafeh</FlavorText_Knafeh.label>
+	<FlavorText_Asida.label>asida</FlavorText_Asida.label>
+
+	<!-- Boissons -->
+	<FlavorText_MuzluSut.label>muzlu süt</FlavorText_MuzluSut.label>
+	<FlavorText_Boza.label>boza</FlavorText_Boza.label>
+	<FlavorText_ChichaMorada.label>chicha morada</FlavorText_ChichaMorada.label>
+	<FlavorText_Salep.label>salep</FlavorText_Salep.label>
+	<FlavorText_Eggnog.label>lait de poule</FlavorText_Eggnog.label>
+	<FlavorText_Atole.label>atole</FlavorText_Atole.label>
+	<FlavorText_Horchata.label>horchata</FlavorText_Horchata.label>
+	<FlavorText_Ingredients_HealthDrink.label>boisson santé {0_adj}</FlavorText_Ingredients_HealthDrink.label>
+	<FlavorText_Ingredients_Juice.label>jus {0_adj}</FlavorText_Ingredients_Juice.label>
+	<FlavorText_Ingredients_Smoothie.label>smoothie {0_adj}</FlavorText_Ingredients_Smoothie.label>
+	<FlavorText_MulledWine.label>vin chaud</FlavorText_MulledWine.label>
+	<FlavorText_Boza_2.label>boza</FlavorText_Boza_2.label>
+	<FlavorText_ProteinShake.label>boisson protéinée</FlavorText_ProteinShake.label>
+	<FlavorText_Sungnyung.label>sungnyung</FlavorText_Sungnyung.label>
+
+	<!-- Chaussons, beignets farcis, croquettes -->
+	<FlavorText_LeafyVeg_Pies.label>tourtes {1_plur}</FlavorText_LeafyVeg_Pies.label>
+	<FlavorText_Kibbeh.label>kebbé</FlavorText_Kibbeh.label>
+	<FlavorText_Chickpea_Bonda.label>bonda {0_plur}</FlavorText_Chickpea_Bonda.label>
+	<FlavorText_Ingredients_Samosas.label>samosas {0_plur}</FlavorText_Ingredients_Samosas.label>
+	<FlavorText_Meat_Shellfish_Cakes.label>croquettes {0_adj}</FlavorText_Meat_Shellfish_Cakes.label>
+	<FlavorText_MeatRaw_PapaRellena.label>papa rellena {0_adj}</FlavorText_MeatRaw_PapaRellena.label>
+	<FlavorText_Mooncakes.label>gâteaux de lune</FlavorText_Mooncakes.label>
+	<FlavorText_Manapua.label>manapua</FlavorText_Manapua.label>
+	<FlavorText_Ingredients_Balls.label>boulettes {0_adj}</FlavorText_Ingredients_Balls.label>
+	<FlavorText_Dango_2.label>dango</FlavorText_Dango_2.label>
+	<FlavorText_PlantFoodRaw_Tsukemono.label>tsukemono {0_adj}</FlavorText_PlantFoodRaw_Tsukemono.label>
+	<FlavorText_Simit.label>simit</FlavorText_Simit.label>
+
+	<!-- Galettes de maïs et papillotes -->
+	<FlavorText_HuitlacocheTamales.label>tamales au huitlacoche</FlavorText_HuitlacocheTamales.label>
+	<FlavorText_Ingredients_Arepas.label>arepas {0_plur}</FlavorText_Ingredients_Arepas.label>
+	<FlavorText_Ingredients_Burek.label>burek {0_plur}</FlavorText_Ingredients_Burek.label>
+	<FlavorText_Ingredients_Enchiladas.label>enchiladas {0_plur}</FlavorText_Ingredients_Enchiladas.label>
+	<FlavorText_ArepasConQueso.label>arepas con queso</FlavorText_ArepasConQueso.label>
+	<FlavorText_MeatRaw_Tamales.label>tamales {0_plur}</FlavorText_MeatRaw_Tamales.label>
+	<FlavorText_Cholera.label>cholera</FlavorText_Cholera.label>
+	<FlavorText_GuanimesConBacalao.label>guanimes con bacalao</FlavorText_GuanimesConBacalao.label>
+	<FlavorText_Gamja-Ongsimi.label>gamja-ongsimi</FlavorText_Gamja-Ongsimi.label>
+	<FlavorText_MeatRaw_SoupDumplings.label>raviolis {1_adj} en bouillon</FlavorText_MeatRaw_SoupDumplings.label>
+	<FlavorText_PasutsTolma.label>pasuts tolma</FlavorText_PasutsTolma.label>
+	<FlavorText_Banana_Fufu.label>foufou {1_adj}</FlavorText_Banana_Fufu.label>
+	<FlavorText_Fufu.label>foufou</FlavorText_Fufu.label>
+	<FlavorText_Paniyaram.label>paniyaram</FlavorText_Paniyaram.label>
+	<FlavorText_Latke.label>latkes</FlavorText_Latke.label>
+	<FlavorText_PierogiLeniwe.label>pierogi leniwe</FlavorText_PierogiLeniwe.label>
+	<FlavorText_TamagoSushi.label>tamago sushi</FlavorText_TamagoSushi.label>
+	<FlavorText_ImamBayildi.label>İmam bayıldı</FlavorText_ImamBayildi.label>
+	<FlavorText_EnglishMuffins.label>muffins anglais</FlavorText_EnglishMuffins.label>
+	<FlavorText_Khinkali.label>khinkali</FlavorText_Khinkali.label>
+	<FlavorText_Potetball.label>potetball</FlavorText_Potetball.label>
+	<FlavorText_Puto.label>puto</FlavorText_Puto.label>
+	<FlavorText_Takoyaki.label>takoyaki</FlavorText_Takoyaki.label>
+	<FlavorText_Ingredients_Baozi.label>baozi {0_plur}</FlavorText_Ingredients_Baozi.label>
+	<FlavorText_Ingredients_ChorMuang.label>chor muang {0_plur}</FlavorText_Ingredients_ChorMuang.label>
+	<FlavorText_Ingredients_Dumplings.label>bouchées {0_plur}</FlavorText_Ingredients_Dumplings.label>
+	<FlavorText_Ingredients_Dumplings_2.label>bouchées {0_plur}</FlavorText_Ingredients_Dumplings_2.label>
+	<FlavorText_Ingredients_MomoWith_Ingredients_Achar.label>momos {0_plur} et achar {1_adj}</FlavorText_Ingredients_MomoWith_Ingredients_Achar.label>
+	<FlavorText_Ingredients_Pierogi.label>pierogi {0_plur}</FlavorText_Ingredients_Pierogi.label>
+	<FlavorText_Ingredients_Zongzi.label>zongzi {0_plur}</FlavorText_Ingredients_Zongzi.label>
+	<FlavorText_MeatRaw_Croquettes.label>croquettes {1_adj}</FlavorText_MeatRaw_Croquettes.label>
+	<FlavorText_MeatRaw_Jiaozi.label>jiaozi {1_plur}</FlavorText_MeatRaw_Jiaozi.label>
+	<FlavorText_Gimbap.label>gimbap</FlavorText_Gimbap.label>
+	<FlavorText_MercimekKoftesi.label>mercimek köftesi</FlavorText_MercimekKoftesi.label>
+	<FlavorText_Manti.label>manti</FlavorText_Manti.label>
+	<FlavorText_Meat_Pig_Gefillde.label>gefillde {0_plur}</FlavorText_Meat_Pig_Gefillde.label>
+
+</LanguageData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Chine.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_MapoDoufu.label>mapo doufu</FlavorTextFR_MapoDoufu.label>
+	<FlavorTextFR_MapoDoufu.description>des cubes de tofu {0_adj} glissés dans une sauce rouge de fèves fermentées, avec {2_coll} hachée et du poivre du Sichuan qui engourdit la langue avant que {1_coll} ne la brûlent.</FlavorTextFR_MapoDoufu.description>
+	<FlavorTextFR_CharSiu.label>char siu</FlavorTextFR_CharSiu.label>
+	<FlavorTextFR_CharSiu.description>des bandes {0_adj} laquées au miel et {2_plur}, suspendues à des crochets au-dessus du feu jusqu'à noircir sur les bords. Le nom veut dire « cuit à la fourche ».</FlavorTextFR_CharSiu.description>
+	<FlavorTextFR_Xiaolongbao.label>xiaolongbao</FlavorTextFR_Xiaolongbao.label>
+	<FlavorTextFR_Xiaolongbao.description>des raviolis plissés dix-huit fois, farcis {1_plur} et d'une gelée de bouillon qui redevient liquide à la vapeur. On les perce avant de mordre, sous peine de brûlure.</FlavorTextFR_Xiaolongbao.description>
+	<FlavorTextFR_GongBao.label>gong bao</FlavorTextFR_GongBao.label>
+	<FlavorTextFR_GongBao.description>{0_coll} en dés sautée si vite que le wok ne refroidit jamais, avec {2_coll} entiers laissés dans l'huile et {1_coll} ajoutées en dernier pour rester croquantes.</FlavorTextFR_GongBao.description>
+	<FlavorTextFR_HongshaoRou.label>hongshao rou</FlavorTextFR_HongshaoRou.label>
+	<FlavorTextFR_HongshaoRou.description>des cubes {0_adj} caramélisés dans {1_coll} fondu à sec avant d'être mijotés {2_plur}. Le sucre doit brunir sans amertume : quelques secondes séparent les deux.</FlavorTextFR_HongshaoRou.description>
+	<FlavorTextFR_DanDan.label>dan dan</FlavorTextFR_DanDan.label>
+	<FlavorTextFR_DanDan.description>des nouilles servies sur une flaque de pâte {1_adj} et d'huile {2_adj}, à mélanger soi-même. Le nom vient de la palanche des marchands ambulants qui les portaient.</FlavorTextFR_DanDan.description>
+	<FlavorTextFR_Wonton.label>wonton</FlavorTextFR_Wonton.label>
+	<FlavorTextFR_Wonton.description>des carrés de pâte si fine qu'on voit la farce {1_adj} au travers, refermés d'un pincement et pochés dans un bouillon {2_adj}. La queue de pâte flotte et ondule : c'est ce qui leur a donné leur nom.</FlavorTextFR_Wonton.description>
+	<FlavorTextFR_CanardLaque.label>canard laqué</FlavorTextFR_CanardLaque.label>
+	<FlavorTextFR_CanardLaque.description>une bête gonflée d'air pour décoller la peau de la chair, ébouillantée, laquée {1_plur} et séchée un jour au vent avant de rôtir. On sert la peau d'abord, dans de fines crêpes, et la viande après.</FlavorTextFR_CanardLaque.description>
+	<FlavorTextFR_RizCantonais.label>riz cantonais</FlavorTextFR_RizCantonais.label>
+	<FlavorTextFR_RizCantonais.description>{0_coll} de la veille, sec et détaché grain par grain, sauté à feu maximal {1_plur} et {2_plur}. Du riz frais colle et fait de la bouillie : il faut qu'il ait dormi.</FlavorTextFR_RizCantonais.description>
+	<FlavorTextFR_PouletNoixCajou.label>poulet aux noix de cajou</FlavorTextFR_PouletNoixCajou.label>
+	<FlavorTextFR_PouletNoixCajou.description>{0_coll} enrobée de fécule et blanchie à l'huile tiède avant le wok — c'est ce qui la garde tendre —, puis sautée {2_plur} avec {1_coll} grillées.</FlavorTextFR_PouletNoixCajou.description>
+
+</LanguageData>

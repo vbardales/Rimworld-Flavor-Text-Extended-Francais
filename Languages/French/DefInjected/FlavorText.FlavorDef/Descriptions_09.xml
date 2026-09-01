@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 09 : salades, sandwichs chauds et froids, en-cas.
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- Salades -->
+	<FlavorText_Ingredients_Salad.description>un saladier {0_adj} et {1_adj} taillés en dés, remués dans une vinaigrette simple.</FlavorText_Ingredients_Salad.description>
+	<FlavorText_Ingredients_Salad_2.description>une salade froide de la cuisine américaine : {1_coll} râpés, remués dans une sauce à la mayonnaise avec {0_coll}.</FlavorText_Ingredients_Salad_2.description>
+	<FlavorText_Ingredients_Szalot.description>une salade nourrissante {2_adj}, avec {1_coll} et {0_coll}, née de la Silésie polonaise.</FlavorText_Ingredients_Szalot.description>
+	<FlavorText_Fleischsalat.description>une salade froide allemande : des lanières {1_adj} remuées avec {0_coll} en dés et une sauce crémeuse à la mayonnaise.</FlavorText_Fleischsalat.description>
+	<FlavorText_NourishBowl.description>une salade montée sur une base {0_adj} froid, servie dans un bol à haut bord rempli à ras de morceaux {1_adj} et de légumes variés, sous une sauce crémeuse et relevée à base {2_adj}.</FlavorText_NourishBowl.description>
+	<FlavorText_Pickled_Ingredients.description>{0_coll} entiers, rapidement mis au vinaigre dans une saumure épicée.</FlavorText_Pickled_Ingredients.description>
+	<FlavorText_Kelp_Salad.description>une salade japonaise {0_adj} taillés en lanières et marinés dans une sauce {1_adj}.</FlavorText_Kelp_Salad.description>
+	<FlavorText_Esqueixada.description>une salade froide de la cuisine catalane, faite {0_adj} salée et {1_adj} en dés, servie froide dans une marinade au vinaigre et à l'huile d'olive, garnie d'éclats {2_adj}.</FlavorText_Esqueixada.description>
+	<FlavorText_MeatRaw_Salad.description>une garniture froide et grumeleuse {0_adj} effilochée, liée à la mayonnaise. On la trouve le plus souvent dans un sandwich, mais elle se mange aussi telle quelle. L'aneth et la moutarde en sont les épices principales.</FlavorText_MeatRaw_Salad.description>
+	<FlavorText_CandleSalad.description>une salade de fruits américaine d'autrefois, qui imite une bougie allumée : on plante {1_coll} entière au centre d'une rondelle {0_adj}. Le tout est dressé sur un lit de laitue, et se garnit d'une cerise et de mayonnaise, de fromage blanc ou de crème fouettée.</FlavorText_CandleSalad.description>
+	<FlavorText_PlantFoodRaw_Salad.description>un saladier {0_adj} hachés et {1_adj} râpés, remués dans une vinaigrette.</FlavorText_PlantFoodRaw_Salad.description>
+	<FlavorText_Sweet_Corn_Salad.description>{2_coll} dans une sauce sucrée {0_adj}, couvert {1_adj}.</FlavorText_Sweet_Corn_Salad.description>
+	<FlavorText_Sweet_Fungus_Salad.description>{2_coll} hachés dans une sauce sucrée, couverts {1_adj}.</FlavorText_Sweet_Fungus_Salad.description>
+	<FlavorText_FarmersSalad.description>{0_coll} et {1_coll} mêlés et taillés en dés, dans une sauce au fromage blanc.</FlavorText_FarmersSalad.description>
+	<FlavorText_Kisir.description>une salade froide turque, éclatante de couleurs, faite de grains {0_adj} concassés et précuits, auxquels on ajoute une pâte {1_adj}, une mélasse acidulée {2_adj} et des légumes variés — le plus souvent oignon, ail, concombre et petits cornichons.</FlavorText_Kisir.description>
+
+	<!-- Sandwichs chauds -->
+	<FlavorText_Lahmacun.description>la « pizza turque » : une galette fine de farine {0_adj}, couverte {1_adj} hachée et {2_adj}. Très répandue en Turquie, en Arménie et dans la plupart des pays du Proche-Orient.</FlavorText_Lahmacun.description>
+	<FlavorText_Ingredients_Pide.description>une galette turque en forme de barque, de farine {0_adj}, creusée d'un ovale au centre que l'on remplit {1_adj}.</FlavorText_Ingredients_Pide.description>
+	<FlavorText_GrilledCheese.description>un sandwich de fromage entre deux tranches de pain {1_adj}. Le tout est poêlé jusqu'à ce que le fromage fonde et que le pain croustille.</FlavorText_GrilledCheese.description>
+	<FlavorText_VadaPav.description>un beignet {1_adj} frit, glissé dans un petit pain {2_adj} avec un piment vert et un chutney {0_adj}. Un plat de rue très répandu en Inde.</FlavorText_VadaPav.description>
+	<FlavorText_BatataVada.description>une galette de purée {0_adj} enrobée d'une farine {1_adj}, frite en pleine huile et servie brûlante. Une restauration rapide végétarienne très répandue au Maharashtra.</FlavorText_BatataVada.description>
+	<FlavorText_DonutBurger.description>un incontournable de la cuisine américaine du XXIᵉ siècle, né de l'envie de croiser le donut du matin avec le burger classique. Celui-ci prend deux donuts {1_adj} sous un glaçage {2_adj}, entre lesquels on glisse une épaisse galette {0_adj} hachée.</FlavorText_DonutBurger.description>
+	<FlavorText_Durum.description>un wrap turc fait d'une galette « lavash » de farine {0_adj}. Des tranches {1_adj} sont empilées sur une broche verticale et grillées lentement ; on en racle les couches extérieures au couteau, au fur et à mesure, pour les rouler dans la lavash avec {2_coll} et d'autres légumes.</FlavorText_Durum.description>
+	<FlavorText_IslakBurger.description>un burger turc très répandu : une galette {1_adj} hachée trempée dans une sauce {2_adj} à l'ail avant d'être grillée. Servi sur un pain {0_adj}.</FlavorText_IslakBurger.description>
+	<FlavorText_Fungus_Burger.description>un burger où la galette de bœuf traditionnelle cède la place {1_plur} grillés, servis avec {0_coll} entre deux tranches de pain {2_adj}.</FlavorText_Fungus_Burger.description>
+	<FlavorText_Soy_Wrap.description>{1_coll} tranché et grillé, roulé avec {0_coll} et une sauce acidulée dans une galette {2_adj}.</FlavorText_Soy_Wrap.description>
+	<FlavorText_BalikEkmek.description>un sandwich turc : un morceau {0_adj} grillée servi sur un pain turc {1_adj}, couvert {2_adj} et d'autres légumes.</FlavorText_BalikEkmek.description>
+	<FlavorText_KofteEkmek.description>un sandwich turc : des boulettes {0_adj} grillées servies dans un petit pain {1_adj} avec des légumes et une sauce au yaourt.</FlavorText_KofteEkmek.description>
+	<FlavorText_Kokorec.description>une spécialité de rue turque : {0_coll} cuits sur la plaque et servis dans un demi ou un quart de miche de pain {1_adj}.</FlavorText_Kokorec.description>
+	<FlavorText_DonerKebab.description>un sandwich d'origine turque popularisé à Berlin-Ouest. Des tranches {0_adj} sont empilées sur une broche verticale et grillées lentement ; on en racle les couches extérieures au couteau, au fur et à mesure, pour les rouler dans une galette {1_adj} avec {2_coll} et d'autres légumes.</FlavorText_DonerKebab.description>
+	<FlavorText_Kumru.description>un sandwich turc sur un petit pain au levain {0_adj}, garni de sucuk — une saucisse {1_adj} relevée —, de fromage kasar et de tomate.</FlavorText_Kumru.description>
+
+	<!-- Sandwichs froids -->
+	<FlavorText_MarmaladeSandwich.description>un sandwich simple mais réconfortant : une marmelade {0_adj} entre deux tranches de pain frais {1_adj}. Mieux vaut en garder un sur soi, en cas d'urgence.</FlavorText_MarmaladeSandwich.description>
+	<FlavorText_Taquitos.description>un plat mexicain exporté dans toute la Vieille Terre : des tacos {0_adj} roulés serré en forme de cigare, farcis {1_adj} hachée et épicée. On les frit ou on les passe au four, et on les sert avec du guacamole, de la crème aigre ou de la salsa.</FlavorText_Taquitos.description>
+	<FlavorText_HuitlacocheQuesadillas.description>une tortilla {1_adj} repliée sur du fromage et du charbon du maïs. Le tout est poêlé jusqu'à ce qu'il croustille.</FlavorText_HuitlacocheQuesadillas.description>
+	<FlavorText_Egg_SaladSandwich.description>un sandwich garni {0_adj} en salade : {0_coll} durs grossièrement hachés et mêlés de mayonnaise, de moutarde et d'aneth. Servi sur du pain {2_adj}.</FlavorText_Egg_SaladSandwich.description>
+	<FlavorText_Egg_SaladSandwich_2.description>un sandwich garni {0_adj} en salade : {0_coll} durs grossièrement hachés et mêlés de mayonnaise, de moutarde et d'aneth. Servi sur du pain {1_adj}.</FlavorText_Egg_SaladSandwich_2.description>
+	<FlavorText_FrenchToast.description>un plat du petit-déjeuner : des tranches de pain {0_adj} trempées dans un mélange sucré {1_adj} et {2_adj}, puis poêlées jusqu'à former une croûte dorée et croustillante.</FlavorText_FrenchToast.description>
+	<FlavorText_Nut_ButterAndJellySandwich.description>un sandwich tout simple : un beurre {1_adj} et une gelée {2_adj} sur du pain {0_adj}.</FlavorText_Nut_ButterAndJellySandwich.description>
+	<FlavorText_Nut_ButterSandwich.description>un sandwich tout simple : un beurre {1_adj} sur du pain {0_adj}.</FlavorText_Nut_ButterSandwich.description>
+	<FlavorText_BanhMi.description>un sandwich vietnamien : une courte baguette de farine {0_adj} fendue en deux et garnie de poitrine {1_adj} et de légumes au vinaigre, dont {2_coll}.</FlavorText_BanhMi.description>
+	<FlavorText_CurriedEggSandwich.description>un croisement entre la salade {0_adj} britannique et {2_coll} de l'Inde, réunis en sandwich sur du pain {1_adj}.</FlavorText_CurriedEggSandwich.description>
+	<FlavorText_GoldenSops.description>un petit-déjeuner médiéval : du pain {0_adj} trempé dans un vin épicé {2_adj} et un lait {1_adj}.</FlavorText_GoldenSops.description>
+	<FlavorText_SloppyJoe.description>un sandwich américain fait d'un reste {1_adj} hachée, cuite dans une sauce {2_adj}, et servi sur un pain {0_adj} grillé.</FlavorText_SloppyJoe.description>
+	<FlavorText_Sphatlhou.description>une évolution du bunny chow sud-africain : on prend un quart de miche de pain {0_adj}, on en découpe le centre, on remplit le creux de frites {1_adj} et {2_adj}, puis on remet le couvercle pour manger le tout comme un sandwich. Les condiments habituels sont le ketchup, la sauce barbecue, la moutarde ou la sauce chili douce.</FlavorText_Sphatlhou.description>
+	<FlavorText_Tantuni.description>un wrap turc fait d'une galette « lavash » de farine {0_adj}, roulée sur une garniture {1_adj} taillée en julienne et poêlée, {2_adj} hachés, d'autres légumes et des épices.</FlavorText_Tantuni.description>
+	<FlavorText_Ingredients_Burger.description>{0_coll} et {1_coll} hachés, pressés en galettes et poêlés. Servis enveloppés {2_plur}.</FlavorText_Ingredients_Burger.description>
+	<FlavorText_Ingredients_Burger_2.description>{0_coll} hachés, pressés en galettes et poêlés. Servis sous une sauce {1_adj} et enveloppés {2_plur}.</FlavorText_Ingredients_Burger_2.description>
+	<FlavorText_Ingredients_Rolls.description>de fines crêpes {0_adj}, roulées et mangées à la main.</FlavorText_Ingredients_Rolls.description>
+	<FlavorText_Ingredients_Tacos.description>un mélange épicé {0_adj}, mangé dans une tortilla {1_adj} repliée.</FlavorText_Ingredients_Tacos.description>
+	<FlavorText_Ingredients_Wrap.description>{0_coll} poêlés, roulés dans une fine tortilla {1_adj}.</FlavorText_Ingredients_Wrap.description>
+	<FlavorText_Ingredients_Wrap_2.description>{0_coll} revenus à la poêle, roulés dans une tortilla mince {1_adj}.</FlavorText_Ingredients_Wrap_2.description>
+	<FlavorText_MeatRaw_Sandwich.description>{1_coll} taillée en tranches très fines, posée entre deux tranches de pain {2_adj}, avec une épaisse couche {0_adj}.</FlavorText_MeatRaw_Sandwich.description>
+	<FlavorText_Cheese_Sandwich.description>un sandwich rapide : une tranche {1_adj} entre deux tranches de pain {2_adj}, avec {1_coll} en condiment.</FlavorText_Cheese_Sandwich.description>
+	<FlavorText_BreakfastSandwich.description>un sandwich tout simple monté autour d'un {1_sing} au plat, couvert {0_adj} et glissé entre deux tranches de pain {2_adj}.</FlavorText_BreakfastSandwich.description>
+	<FlavorText_CheeseSandwich.description>un sandwich rapide : une tranche de fromage frais entre deux tranches de pain {2_adj}, avec {0_coll} en condiment.</FlavorText_CheeseSandwich.description>
+
+	<!-- Calembour sur les Beatles dans l'original ; on en prend un autre, plus lisible en français -->
+	<FlavorText_BabyYouCanChiveMyCar.description>un burger {0_adj} fourré à la feta, glissé entre deux pains {1_adj} et généreusement nappé d'une sauce à la crème aigre et à la ciboulette. Des cornichons à l'aneth frits font les roues de ce burger-mobile.</FlavorText_BabyYouCanChiveMyCar.description>
+	<FlavorText_HotDogs.description>une purée {0_adj} liée puis façonnée en saucisses, pochées et fumées. Servies dans un petit pain {1_adj} fendu.</FlavorText_HotDogs.description>
+	<FlavorText_ReubenSandwich.description>{0_coll} salée empilée haut entre deux tranches de pain {1_adj}, servie chaude avec du gruyère fondu, une sauce russe et de la choucroute.</FlavorText_ReubenSandwich.description>
+	<FlavorText_MeatRaw_Burritos.description>{0_coll} épicée et {2_coll}, servis dans une tortilla {1_adj}.</FlavorText_MeatRaw_Burritos.description>
+	<FlavorText_MeatRaw_HuitlacocheTacos.description>le charbon qui pousse sur les épis {1_adj}, poêlé avec {0_coll} et servi dans une tortilla {1_adj}.</FlavorText_MeatRaw_HuitlacocheTacos.description>
+	<FlavorText_MeatRaw_PicadilloTacos.description>{0_coll} hachée revenue avec {2_coll} taillés très fin, servie dans une tortilla {1_adj}.</FlavorText_MeatRaw_PicadilloTacos.description>
+	<FlavorText_Burger.description>une galette {1_adj} hachée dans un pain {2_adj} fendu, avec {0_coll} en condiment.</FlavorText_Burger.description>
+	<FlavorText_Croissant_Ingredients_Sandwich.description>un sandwich monté sur un croissant feuilleté plutôt que sur du pain. Celui-ci prend un croissant {0_adj} et {2_coll} pour garniture.</FlavorText_Croissant_Ingredients_Sandwich.description>
+	<FlavorText_Flautas.description>des tacos {0_adj} roulés en forme de cigare, farcis {1_adj} hachée et épicée. On les frit ou on les passe au four, et on les sert avec du guacamole, de la crème aigre ou de la salsa.</FlavorText_Flautas.description>
+
+	<!-- En-cas -->
+	<FlavorText_Milkshake.description>de la crème glacée passée au mixeur avec {0_coll}, pour une boisson épaisse et sucrée.</FlavorText_Milkshake.description>
+	<FlavorText_Fruit_CrackSeed.description>un en-cas né en Chine et passé à Hawaï. Le crack seed emploie {0_coll} conservés par séchage dans un mélange de sel, de sucre et de réglisse.</FlavorText_Fruit_CrackSeed.description>
+	<FlavorText_Fruit_Pops.description>{0_coll} mixés avec {1_coll} et congelés autour d'un bâtonnet qui sert de manche.</FlavorText_Fruit_Pops.description>
+	<FlavorText_CrackerJacks.description>du popcorn caramélisé mêlé {0_plur} salés. Traditionnellement servi en sachet, avec un petit cadeau caché dedans.</FlavorText_CrackerJacks.description>
+	<FlavorText_CottonCandy.description>un sirop {0_adj} chauffé puis versé dans une machine spéciale qui le file en écheveaux de soie. Souvent coloré et parfumé de mille façons.</FlavorText_CottonCandy.description>
+	<FlavorText_Muhammara.description>un dip syrien obtenu en mixant {0_coll} rôtis avec {1_coll}, de la mélasse de grenade, de la chapelure et un mélange d'épices. Se sert avec du pain, ou en sauce pour des viandes et des légumes grillés.</FlavorText_Muhammara.description>
+	<FlavorText_MeatRaw_CocktailSausages.description>de minuscules saucisses {0_adj} et {1_adj}, servies sur une assiette avec des cure-dents.</FlavorText_MeatRaw_CocktailSausages.description>
+	<FlavorText_BuzluBadem.description>des amandes pelées servies sur de la glace pilée, qui leur donne un goût plus doux et une texture tendre.</FlavorText_BuzluBadem.description>
+	<FlavorText_BoqueronesEnVinagre.description>une « tapa » hispanique, faite de filets {0_adj} marinés au vinaigre, à l'ail, au persil et à l'huile d'olive. L'acidité cuit {0_coll} sans aucune chaleur. Se sert volontiers avec une bière, un verre de vin ou un soda.</FlavorText_BoqueronesEnVinagre.description>
+	<FlavorText_Harissa.description>une purée de piment du Maghreb, obtenue en mixant {0_coll} et {1_coll} avec un mélange d'épices et de l'huile d'olive.</FlavorText_Harissa.description>
+	<FlavorText_DhanaDal.description>un rafraîchisseur d'haleine : on dégage {0_coll} de leur enveloppe et on les torréfie au sel.</FlavorText_DhanaDal.description>
+	<FlavorText_Popcorn.description>des grains {0_adj} séchés, frits ou soufflés à l'air brûlant : l'amidon qu'ils contiennent gonfle et éclate en un en-cas tout léger.</FlavorText_Popcorn.description>
+	<FlavorText_CheesePoofs.description>des boules soufflées {1_adj}, poudrées d'une poudre au fromage.</FlavorText_CheesePoofs.description>
+	<FlavorText_Nachos.description>des chips {1_adj} nappées d'une sauce au fromage légèrement relevée, mangées à la main.</FlavorText_Nachos.description>
+
+</LanguageData>

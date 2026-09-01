@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 01 : repas pour bébé, cuissons au four, pains et tourtes.
+
+  Rappel des slots (voir Patches/Inflections_FR.xml) :
+    {N_plur} forme « à »  : aux baies / au riz / à la viande de bœuf
+    {N_coll} forme nue    : baies / riz / viande de bœuf
+    {N_sing} singulier    : baie / riz / œuf de poule
+    {N_adj}  forme « de » : de baies / de riz / de bœuf / d'oignon
+
+  Règle de réécriture : quand la catégorie du slot est fourre-tout (Ingredients,
+  PlantFoodRaw, Vegetable, Fruit), le genre est inconnu — la tête du nom doit être un
+  substantif français et l'ingrédient un complément. Quand elle est déterminée
+  (Egg = masculin pluriel, MeatRaw = « viande de X » féminin singulier, Milk = masculin
+  singulier), l'accord est sûr et on peut écrire du français naturel.
+-->
+<LanguageData>
+
+	<!-- Repas pour bébé -->
+	<FlavorText_Scrambled_Egg_2.label>{0_coll} brouillés</FlavorText_Scrambled_Egg_2.label>
+	<FlavorText_Ingredients_Ingredients_Mash.label>mouliné {0_adj} et {1_adj}</FlavorText_Ingredients_Ingredients_Mash.label>
+	<FlavorText_Ingredients_Ingredients_Mash_2.label>mouliné {0_adj} et {1_adj}</FlavorText_Ingredients_Ingredients_Mash_2.label>
+	<FlavorText_Ingredients_Mash_2.label>mouliné {0_adj}</FlavorText_Ingredients_Mash_2.label>
+	<FlavorText_Milk_Bottle.label>biberon {0_adj}</FlavorText_Milk_Bottle.label>
+	<FlavorText_PlantFoodRaw_Puree.label>purée {0_adj}</FlavorText_PlantFoodRaw_Puree.label>
+
+	<!-- Pâtisseries et desserts au four -->
+	<FlavorText_FairyBread.label>tartine des fées</FlavorText_FairyBread.label>
+	<FlavorText_Ingredients_Muffins.label>muffins {1_plur}</FlavorText_Ingredients_Muffins.label>
+	<FlavorText_Ingredients_Muffins_2.label>muffins {1_plur}</FlavorText_Ingredients_Muffins_2.label>
+	<FlavorText_Spice_SwirlToast.label>brioche marbrée {2_plur}</FlavorText_Spice_SwirlToast.label>
+	<FlavorText_Beigli.label>beigli</FlavorText_Beigli.label>
+	<FlavorText_StarBread.label>pain étoilé</FlavorText_StarBread.label>
+	<FlavorText_ThreeKingsCake.label>galette des Rois</FlavorText_ThreeKingsCake.label>
+	<FlavorText_Ingredients_Pie.label>tourte {0_plur}</FlavorText_Ingredients_Pie.label>
+	<FlavorText_Ingredients_Tart.label>tarte {0_plur}</FlavorText_Ingredients_Tart.label>
+	<FlavorText_BostonBun.label>brioche de Boston</FlavorText_BostonBun.label>
+
+	<!-- Chaussons, tourtes fourrées, pizzas -->
+	<FlavorText_Ingredients_Empanadas.label>empanadas {0_plur}</FlavorText_Ingredients_Empanadas.label>
+	<FlavorText_Ingredients_Paratha.label>paratha {0_plur}</FlavorText_Ingredients_Paratha.label>
+	<FlavorText_Calzone.label>calzone</FlavorText_Calzone.label>
+	<FlavorText_CornishPasty.label>chausson cornouaillais</FlavorText_CornishPasty.label>
+	<FlavorText_Dairy_Lasagna.label>lasagnes {2_plur}</FlavorText_Dairy_Lasagna.label>
+	<FlavorText_Casabe.label>casabe</FlavorText_Casabe.label>
+	<FlavorText_Boyoz.label>boyoz</FlavorText_Boyoz.label>
+	<FlavorText_Gozleme.label>gözleme</FlavorText_Gozleme.label>
+	<FlavorText_ToastWithJam.label>tartine de confiture</FlavorText_ToastWithJam.label>
+	<FlavorText_Pizza.label>pizza</FlavorText_Pizza.label>
+	<FlavorText_Bhakri.label>bhakri</FlavorText_Bhakri.label>
+	<FlavorText_Lefse.label>lefse</FlavorText_Lefse.label>
+	<FlavorText_RotiWith_Ingredients_Curry.label>roti au curry {0_adj}</FlavorText_RotiWith_Ingredients_Curry.label>
+
+	<!-- Plats au four -->
+	<FlavorText_Bulz.label>bulz</FlavorText_Bulz.label>
+	<FlavorText_Laplap.label>laplap</FlavorText_Laplap.label>
+	<FlavorText_BroodjeHagelslag.label>broodje hagelslag</FlavorText_BroodjeHagelslag.label>
+	<FlavorText_PlantFoodRaw_Cornbread.label>pain de maïs {1_plur}</FlavorText_PlantFoodRaw_Cornbread.label>
+	<FlavorText_Funeral_Potato.label>{2_coll} des funérailles</FlavorText_Funeral_Potato.label>
+	<FlavorText_MamaligaInPaturi.label>mămăligă în pături</FlavorText_MamaligaInPaturi.label>
+	<FlavorText_YorkshirePudding.label>pudding du Yorkshire</FlavorText_YorkshirePudding.label>
+	<FlavorText_MushroomCups.label>cassolettes de champignons</FlavorText_MushroomCups.label>
+	<FlavorText_Shirred_Egg.label>{0_coll} en cocotte</FlavorText_Shirred_Egg.label>
+
+	<!-- Pains et tartines -->
+	<FlavorText_Grain_Bread.label>pain {0_adj}</FlavorText_Grain_Bread.label>
+	<FlavorText_Fruit_Bread.label>pain {1_plur}</FlavorText_Fruit_Bread.label>
+	<FlavorText_Avocado_Toast.label>tartine {1_plur}</FlavorText_Avocado_Toast.label>
+	<FlavorText_Bean_OnToast.label>{1_coll} sur toast</FlavorText_Bean_OnToast.label>
+	<FlavorText_Bean_OnToast_2.label>{1_coll} sur toast</FlavorText_Bean_OnToast_2.label>
+	<FlavorText_Egg_Benedict.label>{1_coll} Bénédicte</FlavorText_Egg_Benedict.label>
+	<FlavorText_Bagels.label>bagels</FlavorText_Bagels.label>
+	<FlavorText_ButteredToast.label>tartine beurrée</FlavorText_ButteredToast.label>
+	<FlavorText_Challah.label>challah</FlavorText_Challah.label>
+	<FlavorText_CinnamonRaisinToast.label>pain aux raisins et à la cannelle</FlavorText_CinnamonRaisinToast.label>
+	<FlavorText_DeepDishPizza.label>pizza à pâte épaisse</FlavorText_DeepDishPizza.label>
+	<FlavorText_Empado.label>empadão</FlavorText_Empado.label>
+	<FlavorText_LaffahBread.label>pain laffa</FlavorText_LaffahBread.label>
+	<FlavorText_Langos.label>lángos</FlavorText_Langos.label>
+	<FlavorText_NeopolitanPizza.label>pizza napolitaine</FlavorText_NeopolitanPizza.label>
+	<FlavorText_NewYorkStylePizza.label>pizza new-yorkaise</FlavorText_NewYorkStylePizza.label>
+	<FlavorText_PoFrancs.label>pão francês</FlavorText_PoFrancs.label>
+	<FlavorText_Pastiera.label>pastiera</FlavorText_Pastiera.label>
+	<FlavorText_Sourdough_Grain_Bread.label>pain {0_adj} au levain</FlavorText_Sourdough_Grain_Bread.label>
+	<FlavorText_Toast.label>pain grillé</FlavorText_Toast.label>
+	<FlavorText_Tourtire.label>tourtière</FlavorText_Tourtire.label>
+	<FlavorText_Vatrushka.label>vatrouchka</FlavorText_Vatrushka.label>
+
+	<!-- Gratins et cocottes -->
+	<FlavorText_Ingredients_Bake.label>plat {0_adj} au four</FlavorText_Ingredients_Bake.label>
+	<FlavorText_Ingredients_Casserole.label>cocotte {0_adj}</FlavorText_Ingredients_Casserole.label>
+	<FlavorText_Ingredients_Casserole_3.label>cocotte {0_adj}</FlavorText_Ingredients_Casserole_3.label>
+	<FlavorText_Ingredients_Quiche.label>quiche {0_plur}</FlavorText_Ingredients_Quiche.label>
+	<FlavorText_Ingredients_AuGratin.label>gratin {1_adj}</FlavorText_Ingredients_AuGratin.label>
+	<FlavorText_Baked_Ingredients.label>{0_coll} au four</FlavorText_Baked_Ingredients.label>
+	<FlavorText_Kumpir.label>kumpir</FlavorText_Kumpir.label>
+	<FlavorText_PommesBoulangere.label>pommes boulangère</FlavorText_PommesBoulangere.label>
+
+	<!-- Plats de viande et de poisson au four -->
+	<FlavorText_Meat_Cow_Wellington.label>bœuf Wellington</FlavorText_Meat_Cow_Wellington.label>
+	<FlavorText_Eggplant_Moussaka.label>moussaka {2_plur}</FlavorText_Eggplant_Moussaka.label>
+	<FlavorText_JanssonsFrestelse.label>tentation de Jansson</FlavorText_JanssonsFrestelse.label>
+	<FlavorText_BiscuitsAndGravy.label>scones à la sauce blanche</FlavorText_BiscuitsAndGravy.label>
+	<FlavorText_RappiePie.label>râpure</FlavorText_RappiePie.label>
+	<FlavorText_Meat_Seafood_SushiBake.label>gratin de sushi {0_adj}</FlavorText_Meat_Seafood_SushiBake.label>
+	<FlavorText_MeatRaw_ShepherdsPie.label>hachis parmentier {0_adj}</FlavorText_MeatRaw_ShepherdsPie.label>
+	<FlavorText_Toad-In-The-Hole.label>crapaud dans son trou</FlavorText_Toad-In-The-Hole.label>
+
+	<!-- Légumes au four -->
+	<FlavorText_Glazed_PlantFoodRaw.label>{0_coll} au sirop</FlavorText_Glazed_PlantFoodRaw.label>
+	<FlavorText_Baked_Potato.label>{0_coll} en robe des champs</FlavorText_Baked_Potato.label>
+	<FlavorText_Tombet.label>tombet</FlavorText_Tombet.label>
+	<FlavorText_Spice_Bread.label>pain d'épices</FlavorText_Spice_Bread.label>
+
+</LanguageData>

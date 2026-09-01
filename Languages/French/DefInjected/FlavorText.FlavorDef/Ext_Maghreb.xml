@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Maghreb.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_TajinePruneaux.label>tajine {0_adj} aux pruneaux</FlavorTextFR_TajinePruneaux.label>
+	<FlavorTextFR_TajinePruneaux.description>{0_coll} cuite des heures dans un plat conique qui renvoie la vapeur vers le fond, avec {1_coll} confits et {2_coll}. Le sucré et le salé ne se disputent pas, ici.</FlavorTextFR_TajinePruneaux.description>
+	<FlavorTextFR_TajineOlivesCitron.label>tajine {0_adj} aux olives et citron confit</FlavorTextFR_TajineOlivesCitron.label>
+	<FlavorTextFR_TajineOlivesCitron.description>{0_coll} mijotée {1_plur} et {2_plur} confit au sel pendant des mois. On n'utilise que l'écorce ; la pulpe est trop amère.</FlavorTextFR_TajineOlivesCitron.description>
+	<FlavorTextFR_Harira.label>harira</FlavorTextFR_Harira.label>
+	<FlavorTextFR_Harira.description>une soupe épaisse {0_adj}, {1_adj} et {2_adj}, liée d'un levain de farine fermentée. C'est elle qui rompt le jeûne, chaque soir du mois.</FlavorTextFR_Harira.description>
+	<FlavorTextFR_Pastilla.label>pastilla</FlavorTextFR_Pastilla.label>
+	<FlavorTextFR_Pastilla.description>{0_coll} effilochée et {1_coll} grillées enfermées dans des feuilles de brick, le tout saupoudré de sucre et de cannelle par-dessus. Un plat salé qui se sert sous une couche sucrée, et personne ne s'en étonne.</FlavorTextFR_Pastilla.description>
+	<FlavorTextFR_Mechoui.label>méchoui</FlavorTextFR_Mechoui.label>
+	<FlavorTextFR_Mechoui.description>une bête entière badigeonnée {1_adj} et {2_adj}, tournée au-dessus des braises une demi-journée. Se mange à la main ; la première épaule revient à l'invité.</FlavorTextFR_Mechoui.description>
+	<FlavorTextFR_Zaalouk.label>zaalouk</FlavorTextFR_Zaalouk.label>
+	<FlavorTextFR_Zaalouk.description>{0_coll} brûlées puis pelées, écrasées {1_plur} et {2_plur} jusqu'à ce que l'eau soit entièrement partie. Se sert froid, avec du pain, avant tout le reste.</FlavorTextFR_Zaalouk.description>
+	<FlavorTextFR_Briouates.label>briouates</FlavorTextFR_Briouates.label>
+	<FlavorTextFR_Briouates.description>des triangles de brick fourrés {1_plur} pilées, frits puis plongés brûlants dans le miel froid. Le choc des températures fait le croustillant.</FlavorTextFR_Briouates.description>
+	<FlavorTextFR_Chakchouka.label>chakchouka</FlavorTextFR_Chakchouka.label>
+	<FlavorTextFR_Chakchouka.description>{0_coll} et {1_coll} réduits en sauce épaisse, dans laquelle on creuse des nids pour {2_coll}, couverts jusqu'à ce que le blanc prenne et pas plus.</FlavorTextFR_Chakchouka.description>
+	<FlavorTextFR_Rfissa.label>rfissa</FlavorTextFR_Rfissa.label>
+	<FlavorTextFR_Rfissa.description>{0_coll} et {1_coll} servies sur des crêpes déchirées à la main, qui boivent tout le bouillon {2_adj}. On la prépare pour les jeunes mères.</FlavorTextFR_Rfissa.description>
+	<FlavorTextFR_Amlou.label>amlou</FlavorTextFR_Amlou.label>
+	<FlavorTextFR_Amlou.description>{0_coll} torréfiées et broyées jusqu'à rendre leur huile, mêlées {1_plur} et {2_plur} en une pâte lourde et brune. Se mange à la cuillère, sans honte.</FlavorTextFR_Amlou.description>
+	<FlavorTextFR_TheALaMenthe.label>thé à la menthe</FlavorTextFR_TheALaMenthe.label>
+	<FlavorTextFR_TheALaMenthe.description>{0_coll} vert, une poignée de menthe, et bien plus {1_adj} qu'on ne veut l'admettre. Versé de haut pour faire la mousse, et trois fois plutôt qu'une.</FlavorTextFR_TheALaMenthe.description>
+	<FlavorTextFR_CouscousRoyal.label>couscous royal</FlavorTextFR_CouscousRoyal.label>
+	<FlavorTextFR_CouscousRoyal.description>de la semoule roulée à la main et cuite trois fois à la vapeur du bouillon, servie {1_plur} et {2_plur}. La graine ne touche jamais l'eau.</FlavorTextFR_CouscousRoyal.description>
+	<FlavorTextFR_Loubia.label>loubia</FlavorTextFR_Loubia.label>
+	<FlavorTextFR_Loubia.description>{0_coll} blancs mijotés {1_plur}, {2_plur} et beaucoup d'huile, jusqu'à ce que la sauce épaississe d'elle-même. Un plat de rue, mangé debout au bol.</FlavorTextFR_Loubia.description>
+	<FlavorTextFR_KeftaMkaouara.label>kefta mkaouara</FlavorTextFR_KeftaMkaouara.label>
+	<FlavorTextFR_KeftaMkaouara.description>des boulettes {0_adj} hachée pochées dans une sauce {1_adj}, avec {2_coll} cassés dessus à la fin. Arrive au tajine, encore en train de cuire.</FlavorTextFR_KeftaMkaouara.description>
+	<FlavorTextFR_Seffa.label>seffa</FlavorTextFR_Seffa.label>
+	<FlavorTextFR_Seffa.description>de la semoule vapeur montée en cône, striée de cannelle et de sucre glace, couronnée {1_plur} frites, {2_plur} servi à part et froid.</FlavorTextFR_Seffa.description>
+	<FlavorTextFR_Maakouda.label>maâkouda</FlavorTextFR_Maakouda.label>
+	<FlavorTextFR_Maakouda.description>des galettes {0_adj} écrasées, liées {1_plur} et safranées {2_plur}, frites jusqu'au doré. Se glissent dans un pain, avec de la harissa.</FlavorTextFR_Maakouda.description>
+	<FlavorTextFR_Msemen.label>msemen</FlavorTextFR_Msemen.label>
+	<FlavorTextFR_Msemen.description>une pâte étirée jusqu'à la transparence sur un plan huilé, badigeonnée {1_plur} et de semoule, pliée en carré et repliée encore, puis cuite à sec. Les feuillets se comptent à la déchirure.</FlavorTextFR_Msemen.description>
+
+</LanguageData>

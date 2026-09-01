@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Classiques.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_SteakAuPoivre.label>steak au poivre</FlavorTextFR_SteakAuPoivre.label>
+	<FlavorTextFR_SteakAuPoivre.description>une pièce {0_adj} pressée dans le poivre concassé avant d'être saisie, la poêle déglacée au cognac et montée {2_plur}. Le poivre doit être écrasé, jamais moulu.</FlavorTextFR_SteakAuPoivre.description>
+	<FlavorTextFR_EntrecoteBordelaise.label>entrecôte bordelaise</FlavorTextFR_EntrecoteBordelaise.label>
+	<FlavorTextFR_EntrecoteBordelaise.description>{0_coll} grillée sur sarments, nappée d'une réduction {1_adj} rouge et d'échalote, avec des rondelles de moelle pochées posées dessus au dernier moment.</FlavorTextFR_EntrecoteBordelaise.description>
+	<FlavorTextFR_BavetteEchalote.label>bavette à l'échalote</FlavorTextFR_BavetteEchalote.label>
+	<FlavorTextFR_BavetteEchalote.description>{0_coll} saisie très vite et servie saignante — cuite davantage, elle devient inmangeable —, couverte {1_adj} fondues {2_plur} et au vinaigre.</FlavorTextFR_BavetteEchalote.description>
+	<FlavorTextFR_TournedosRossini.label>tournedos Rossini</FlavorTextFR_TournedosRossini.label>
+	<FlavorTextFR_TournedosRossini.description>un médaillon {0_adj} sur croûton, coiffé d'une escalope {1_adj} poêlée et de lamelles {2_adj}, le tout arrosé d'une sauce au madère. Attribué au compositeur, qui l'aurait exigé de son cuisinier.</FlavorTextFR_TournedosRossini.description>
+	<FlavorTextFR_BoeufMode.label>bœuf mode</FlavorTextFR_BoeufMode.label>
+	<FlavorTextFR_BoeufMode.description>une pièce {0_adj} lardée et bardée, braisée entière avec {1_coll} et {2_coll} et un pied de veau qui fait prendre le jus en gelée une fois froid.</FlavorTextFR_BoeufMode.description>
+	<FlavorTextFR_BoeufMiroton.label>bœuf miroton</FlavorTextFR_BoeufMiroton.label>
+	<FlavorTextFR_BoeufMiroton.description>les restes {0_adj} du pot-au-feu, tranchés et réchauffés dans une sauce {1_adj} au vinaigre et à la moutarde. Un plat né de l'économie, resté par goût.</FlavorTextFR_BoeufMiroton.description>
+	<FlavorTextFR_LangueSaucePiquante.label>langue sauce piquante</FlavorTextFR_LangueSaucePiquante.label>
+	<FlavorTextFR_LangueSaucePiquante.description>{0_coll} pochée des heures puis pelée à chaud — froide, la peau ne vient plus —, servie sous une sauce {1_adj} au vinaigre et aux cornichons.</FlavorTextFR_LangueSaucePiquante.description>
+	<FlavorTextFR_TeteDeVeauGribiche.label>tête de veau sauce gribiche</FlavorTextFR_TeteDeVeauGribiche.label>
+	<FlavorTextFR_TeteDeVeauGribiche.description>{0_coll} roulée et pochée au blanc, servie tiède avec une sauce montée sur des jaunes {1_adj} durs, relevée de câpres et d'herbes. Se mange ou ne se mange pas ; il n'y a pas d'entre-deux.</FlavorTextFR_TeteDeVeauGribiche.description>
+	<FlavorTextFR_TripesModeDeCaen.label>tripes à la mode de Caen</FlavorTextFR_TripesModeDeCaen.label>
+	<FlavorTextFR_TripesModeDeCaen.description>{0_coll} et un pied de bœuf enfermés dans une tripière scellée à la pâte, avec {1_coll} et {2_coll}, et laissés au four dix heures durant.</FlavorTextFR_TripesModeDeCaen.description>
+	<FlavorTextFR_TriplesLyonnaises.label>tablier de sapeur</FlavorTextFR_TriplesLyonnaises.label>
+	<FlavorTextFR_TriplesLyonnaises.description>un morceau {0_adj} mariné au vin blanc, pané {1_plur} et à la chapelure, puis grillé. Le nom vient d'un maréchal lyonnais, sapeur du génie dans sa jeunesse.</FlavorTextFR_TriplesLyonnaises.description>
+	<FlavorTextFR_PiedsEtPaquets.label>pieds et paquets</FlavorTextFR_PiedsEtPaquets.label>
+	<FlavorTextFR_PiedsEtPaquets.description>des carrés {0_adj} farcis {2_plur}, d'ail et de persil, cousus un à un, et mijotés {1_plur} avec des pieds d'agneau. Marseille et Sisteron s'en disputent l'origine.</FlavorTextFR_PiedsEtPaquets.description>
+	<FlavorTextFR_RognonsMoutarde.label>rognons à la moutarde</FlavorTextFR_RognonsMoutarde.label>
+	<FlavorTextFR_RognonsMoutarde.description>{0_coll} dégraissée, tranchée et saisie à feu vif quelques secondes seulement, la sauce liée {1_plur} et {2_plur} hors du feu — la moutarde bouillie tourne amère.</FlavorTextFR_RognonsMoutarde.description>
+	<FlavorTextFR_FoieDeVeauPersille.label>foie de veau persillé</FlavorTextFR_FoieDeVeauPersille.label>
+	<FlavorTextFR_FoieDeVeauPersille.description>une tranche {0_adj} poêlée {2_plur} noisette, une minute par face, puis jetée {1_plur} et au persil hachés menu.</FlavorTextFR_FoieDeVeauPersille.description>
+	<FlavorTextFR_RisDeVeauAuxMorilles.label>ris de veau aux morilles</FlavorTextFR_RisDeVeauAuxMorilles.label>
+	<FlavorTextFR_RisDeVeauAuxMorilles.description>{0_coll} dégorgée, blanchie, pressée sous un poids une nuit, puis dorée au beurre et servie avec {1_coll} et une sauce {2_adj}.</FlavorTextFR_RisDeVeauAuxMorilles.description>
+	<FlavorTextFR_AndouilletteFrites.label>andouillette-frites</FlavorTextFR_AndouilletteFrites.label>
+	<FlavorTextFR_AndouilletteFrites.description>une andouillette grillée jusqu'à ce que la peau éclate, avec {1_coll} en bâtonnets et une cuillerée de moutarde. On l'aime ou on quitte la table.</FlavorTextFR_AndouilletteFrites.description>
+	<FlavorTextFR_PetitSaleAuxLentilles.label>petit salé aux lentilles</FlavorTextFR_PetitSaleAuxLentilles.label>
+	<FlavorTextFR_PetitSaleAuxLentilles.description>{0_coll} salée au gros sel puis dessalée une nuit, mijotée avec {1_coll} et {2_coll}. Les lentilles ne se salent jamais avant la fin, sinon elles restent dures.</FlavorTextFR_PetitSaleAuxLentilles.description>
+	<FlavorTextFR_PaletteALaDiable.label>palette à la diable</FlavorTextFR_PaletteALaDiable.label>
+	<FlavorTextFR_PaletteALaDiable.description>{0_coll} fumée pochée, badigeonnée {1_plur} et à la chapelure, puis passée au gril jusqu'à croûter. « À la diable » signifie simplement : moutardé et brûlant.</FlavorTextFR_PaletteALaDiable.description>
+	<FlavorTextFR_JambonChablisienne.label>jambon à la chablisienne</FlavorTextFR_JambonChablisienne.label>
+	<FlavorTextFR_JambonChablisienne.description>des tranches épaisses {0_adj} nappées d'une réduction {1_adj} blanc et d'échalote, montée {2_plur}, puis glacées sous le gril.</FlavorTextFR_JambonChablisienne.description>
+	<FlavorTextFR_PouletRoti.label>poulet rôti</FlavorTextFR_PouletRoti.label>
+	<FlavorTextFR_PouletRoti.description>une bête entière frottée {1_plur} et {2_plur}, rôtie en la retournant sur chaque cuisse avant de finir sur le dos. Le jus qui coule de la carcasse à la découpe vaut la sauce.</FlavorTextFR_PouletRoti.description>
+	<FlavorTextFR_PouletBasquaise.label>poulet basquaise</FlavorTextFR_PouletBasquaise.label>
+	<FlavorTextFR_PouletBasquaise.description>{0_coll} dorée puis mijotée dans une fondue {1_adj} et {2_adj} relevée au piment d'Espelette, qui pique juste assez pour qu'on le remarque.</FlavorTextFR_PouletBasquaise.description>
+	<FlavorTextFR_PouletChasseur.label>poulet chasseur</FlavorTextFR_PouletChasseur.label>
+	<FlavorTextFR_PouletChasseur.description>{0_coll} sautée puis mijotée {1_plur}, {2_plur} et à l'estragon, dans une sauce déglacée au vin blanc.</FlavorTextFR_PouletChasseur.description>
+	<FlavorTextFR_PouletALEstragon.label>poulet à l'estragon</FlavorTextFR_PouletALEstragon.label>
+	<FlavorTextFR_PouletALEstragon.description>{0_coll} pochée au vin blanc, la sauce réduite et liée {1_plur}, parfumée {2_plur} ajoutées en deux fois : à la cuisson, puis crues à la fin.</FlavorTextFR_PouletALEstragon.description>
+	<FlavorTextFR_PouletValleeDAuge.label>poulet vallée d'Auge</FlavorTextFR_PouletValleeDAuge.label>
+	<FlavorTextFR_PouletValleeDAuge.description>{0_coll} flambée au calvados, mijotée au cidre avec {1_coll} revenues au beurre, la sauce finie {2_plur} épaisse.</FlavorTextFR_PouletValleeDAuge.description>
+	<FlavorTextFR_CoqAuRiesling.label>coq au riesling</FlavorTextFR_CoqAuRiesling.label>
+	<FlavorTextFR_CoqAuRiesling.description>la version alsacienne, au vin blanc : {0_coll} mijotée {1_plur} sec, la sauce liée {2_plur}. Se sert avec des nouilles, jamais avec des pommes de terre.</FlavorTextFR_CoqAuRiesling.description>
+	<FlavorTextFR_CanardALOrange.label>canard à l'orange</FlavorTextFR_CanardALOrange.label>
+	<FlavorTextFR_CanardALOrange.description>{0_coll} rôtie, servie sous une sauce bigarade : un caramel {2_adj} décuit au vinaigre, allongé du jus {1_adj} amères et du fond de rôtissage.</FlavorTextFR_CanardALOrange.description>
+	<FlavorTextFR_CanardAuxNavets.label>canard aux navets</FlavorTextFR_CanardAuxNavets.label>
+	<FlavorTextFR_CanardAuxNavets.description>{0_coll} braisée avec {1_coll} glacés dans la graisse rendue et {2_coll} entiers. Le navet boit le gras du canard : c'est tout l'accord.</FlavorTextFR_CanardAuxNavets.description>
+	<FlavorTextFR_CanardAuxOlives.label>canard aux olives</FlavorTextFR_CanardAuxOlives.label>
+	<FlavorTextFR_CanardAuxOlives.description>{0_coll} braisée dans un fond {2_adj}, avec {1_coll} blanchies pour ôter leur sel avant d'être ajoutées.</FlavorTextFR_CanardAuxOlives.description>
+	<FlavorTextFR_NavarinDAgneau.label>navarin {0_adj}</FlavorTextFR_NavarinDAgneau.label>
+	<FlavorTextFR_NavarinDAgneau.description>{0_coll} saisie puis singée d'un peu de farine, braisée avec {1_coll} et {2_coll} taillés en gousses. Le nom viendrait du navet, ou de la bataille — les deux versions circulent.</FlavorTextFR_NavarinDAgneau.description>
+	<FlavorTextFR_GigotDAgneau.label>gigot {0_adj}</FlavorTextFR_GigotDAgneau.label>
+	<FlavorTextFR_GigotDAgneau.description>une cuisse entière piquée {1_plur} et rôtie, arrosée {2_plur} toutes les dix minutes. Se découpe parallèlement à l'os, en tranches fines.</FlavorTextFR_GigotDAgneau.description>
+	<FlavorTextFR_AgneauDeSeptHeures.label>agneau de sept heures</FlavorTextFR_AgneauDeSeptHeures.label>
+	<FlavorTextFR_AgneauDeSeptHeures.description>une épaule cuite si longtemps et si doucement {1_plur} et {2_plur} qu'elle se mange à la cuillère. On l'appelle aussi « à la cuiller », pour cette raison exacte.</FlavorTextFR_AgneauDeSeptHeures.description>
+	<FlavorTextFR_CivetDeLapin.label>civet {0_adj}</FlavorTextFR_CivetDeLapin.label>
+	<FlavorTextFR_CivetDeLapin.description>{0_coll} marinée puis braisée {1_plur}, la sauce liée au sang de la bête hors du feu. C'est ce qui distingue un civet d'un simple ragoût.</FlavorTextFR_CivetDeLapin.description>
+	<FlavorTextFR_LapinAuxPruneaux.label>lapin aux pruneaux</FlavorTextFR_LapinAuxPruneaux.label>
+	<FlavorTextFR_LapinAuxPruneaux.description>{0_coll} mijotée {2_plur} avec {1_coll} séchés et regonflés, qui se défont en fin de cuisson et sucrent la sauce d'eux-mêmes.</FlavorTextFR_LapinAuxPruneaux.description>
+	<FlavorTextFR_SauceGrandVeneur.label>{0_coll} grand veneur</FlavorTextFR_SauceGrandVeneur.label>
+	<FlavorTextFR_SauceGrandVeneur.description>une pièce de gibier servie sous une poivrade montée {2_plur} et adoucie d'une cuillerée de gelée {1_adj}. La sauce du grand veneur, l'officier chargé des chasses royales.</FlavorTextFR_SauceGrandVeneur.description>
+	<FlavorTextFR_CaillesAuxRaisins.label>cailles aux raisins</FlavorTextFR_CaillesAuxRaisins.label>
+	<FlavorTextFR_CaillesAuxRaisins.description>de petits oiseaux bardés et rôtis vite, déglacés au verjus, avec {1_coll} pelés et chauffés {2_plur} juste avant de servir.</FlavorTextFR_CaillesAuxRaisins.description>
+
+</LanguageData>

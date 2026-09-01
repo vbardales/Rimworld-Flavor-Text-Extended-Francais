@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 02 : pains levantins, beignets, fritures, desserts au four.
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- Pains levantins -->
+	<FlavorText_JerusalemBagels.description>une variante des ka'ak, née à Jérusalem sur la Vieille Terre : un anneau généreusement couvert d'une couche {1_adj} sucrée {2_plur}, cuit au four plutôt que poché, d'où une mie légère et une croûte franche. On le garnit volontiers de za'atar, d'huile d'olive, de labneh, de houmous ou de fromage.</FlavorText_JerusalemBagels.description>
+	<FlavorText_Kaak.description>un pain en anneau répandu dans tout le Proche-Orient de la Vieille Terre, reconnaissable à son levain : une pâte fermentée {2_adj}. On le façonne en couronne et on le cuit au four plutôt que de le pocher, avant de le couvrir d'une épaisse couche {1_adj}. On le garnit de za'atar, de fromage, de labneh, d'œufs, de falafel ou de pâte de dattes.</FlavorText_Kaak.description>
+	<FlavorText_Spanakopita.description>une tourte salée grecque : des feuilles de pâte filo {0_adj} superposées, fourrées {1_adj} et de feta.</FlavorText_Spanakopita.description>
+	<FlavorText_Condiment_Garnish.description>une garniture parfumée, faite {0_adj} mêlés à une sauce {1_adj}.</FlavorText_Condiment_Garnish.description>
+	<FlavorText_Condiment_Spread.description>une pâte à tartiner obtenue en mixant {0_coll} avec {1_coll} et {2_coll}.</FlavorText_Condiment_Spread.description>
+	<FlavorText_Toasted_Condiment.description>un condiment amélioré, obtenu en passant {0_coll} à la poêle sèche jusqu'à légère coloration, le temps que les arômes se libèrent.</FlavorText_Toasted_Condiment.description>
+
+	<!-- Beignets sucrés -->
+	<FlavorText_Potato_Donuts.description>un gâteau frit de pâte sucrée {2_adj}, sous un glaçage {1_adj}.</FlavorText_Potato_Donuts.description>
+	<FlavorText_Fruit_Fritters.description>un beignet sucré et bosselé, fait d'une pâte {1_adj} chargée de morceaux {2_adj}.</FlavorText_Fruit_Fritters.description>
+	<FlavorText_Donuts.description>des beignets sucrés de pâte {1_adj}, frits en pleine huile puis glacés {2_plur}.</FlavorText_Donuts.description>
+	<FlavorText_FishFingersAndCustard.description>des bâtonnets {0_adj} panés et frits, servis avec un grand bol de crème anglaise à la vanille.</FlavorText_FishFingersAndCustard.description>
+
+	<!-- Fritures salées -->
+	<FlavorText_Acaraj.description>un beignet croustillant venu des Yoruba d'Afrique et très répandu au Brésil. Une pâte {0_adj} crus, moulue à la meule, salée, poivrée et mêlée {1_adj} en dés, façonnée à la taille d'une paume puis frite.</FlavorText_Acaraj.description>
+	<FlavorText_Akara.description>un beignet croustillant venu des Yoruba d'Afrique et très répandu au Brésil. Une pâte {0_adj} crus, moulue à la meule, salée, poivrée et mêlée d'oignon haché, façonnée à la taille d'une paume puis frite.</FlavorText_Akara.description>
+	<FlavorText_KalamarTava.description>une friture de rue turque : des anneaux {0_adj} passés à la pâte à frire et jetés en huile bouillante.</FlavorText_KalamarTava.description>
+	<FlavorText_Chili_Poppers.description>{0_coll} entiers évidés, farcis de fromage, panés et frits.</FlavorText_Chili_Poppers.description>
+	<FlavorText_Pastel.description>un chausson brésilien, salé ou sucré, vendu dans la rue. Une pâte {0_adj} est abaissée en cercle ou en carré, repliée sur une farce {1_adj} hachée, et les bords sont pincés. On le plonge ensuite dans une huile assez profonde pour l'immerger, jusqu'à ce qu'il soit doré et craquant.</FlavorText_Pastel.description>
+	<FlavorText_CornDogs.description>une purée {0_adj} liée puis façonnée en saucisses, pochées et fumées. Le tout est enrobé d'une pâte à la semoule de maïs et frit sur son bâtonnet.</FlavorText_CornDogs.description>
+	<FlavorText_MidyeTava.description>une friture de rue turque : des bouchées {0_adj} panées et frites, servies en brochette avec une sauce tarator au yaourt.</FlavorText_MidyeTava.description>
+	<FlavorText_MeatRaw_And_MeatRaw_CornDogs.description>une saucisse {1_adj} et {0_adj}, enrobée d'une pâte {2_adj} et frite sur son bâtonnet.</FlavorText_MeatRaw_And_MeatRaw_CornDogs.description>
+	<FlavorText_Brik.description>la version nord-africaine du börek : une feuille de pâte {0_adj} pliée en portefeuille sur un {1_sing} entier et {2_coll} hachés, puis frite.</FlavorText_Brik.description>
+	<FlavorText_Citrus_MeatRaw.description>un plat sino-américain : de petits morceaux {0_adj} panés et frits, puis enrobés d'une sauce sucrée {1_adj}.</FlavorText_Citrus_MeatRaw.description>
+	<FlavorText_GeneralTsos_Meat_Poultry.description>un plat sino-américain : de petits morceaux {0_adj} panés et frits, puis enrobés d'une sauce au soja sucrée et pimentée.</FlavorText_GeneralTsos_Meat_Poultry.description>
+	<FlavorText_Crispy_Soy.description>{0_coll} frit en pleine huile, à l'extérieur léger et craquant. Boit la saveur de n'importe quelle sauce.</FlavorText_Crispy_Soy.description>
+	<FlavorText_Malakoffs.description>des boules de fromage compact enrobées d'une pâte {0_adj} et frites en pleine huile jusqu'à ce qu'elles croustillent.</FlavorText_Malakoffs.description>
+	<FlavorText_Falafel.description>des beignets d'origine égyptienne, faits d'une pâte {0_adj} grossièrement moulus et très épicée, frite en pleine huile.</FlavorText_Falafel.description>
+	<FlavorText_Hushpuppies.description>une petite boule salée de pâte à la semoule de maïs, frite en pleine huile. On la sert le plus souvent en accompagnement des fruits de mer et des autres fritures.</FlavorText_Hushpuppies.description>
+	<FlavorText_PigsInABlanket.description>des saucisses {2_adj} roulées dans une couverture de pâte feuilletée {0_adj}.</FlavorText_PigsInABlanket.description>
+	<FlavorText_SausageAndPancakesOnAStick.description>une variante du corn dog où la pâte à la semoule de maïs cède la place à une pâte à pancakes {0_adj}. À l'intérieur, une saucisse {2_adj}.</FlavorText_SausageAndPancakesOnAStick.description>
+	<FlavorText_Ingredients_Ingredients_Fritters.description>un hachis fin {0_adj} et {1_adj}, lié d'une pâte {2_adj} et jeté à la cuillère dans l'huile bouillante.</FlavorText_Ingredients_Ingredients_Fritters.description>
+	<FlavorText_Ingredients_Chips.description>des tranches très fines {0_adj}, frites jusqu'à ce qu'elles cassent net.</FlavorText_Ingredients_Chips.description>
+	<FlavorText_Ingredients_LoadedFries.description>des bâtonnets {2_adj} frits, noyés {1_plur} et couronnés {0_adj}.</FlavorText_Ingredients_LoadedFries.description>
+	<FlavorText_Ingredients_Tempura.description>des morceaux {0_adj} frits à la japonaise dans une pâte {1_adj} très légère.</FlavorText_Ingredients_Tempura.description>
+	<FlavorText_RockyMountainOysters.description>des testicules {0_adj} panés et frits, ainsi nommés d'après les montagnes Rocheuses de l'ouest américain et canadien, où ils étaient le sous-produit de la castration des veaux. Se servent en entrée, avec une sauce.</FlavorText_RockyMountainOysters.description>
+	<FlavorText_Salchipapa.description>un plat de rue sud-américain : des saucisses {0_adj} taillées en rondelles et poêlées, mêlées à des frites.</FlavorText_Salchipapa.description>
+	<FlavorText_Meat_Fish_Fillets.description>des filets {0_adj} passés à la chapelure et frits jusqu'à ce qu'ils croustillent.</FlavorText_Meat_Fish_Fillets.description>
+	<FlavorText_FishAndChips.description>un plat britannique {0_adj} panée et frite, servie avec des frites {1_adj}.</FlavorText_FishAndChips.description>
+	<FlavorText_Tonkatsu.description>des côtelettes {0_adj} panées au panko et frites en pleine huile.</FlavorText_Tonkatsu.description>
+	<FlavorText_PoulFri.description>{0_coll} frite à la haïtienne : pilons ou cuisses marinés dans du jus de citron et un mélange d'oignon, de poivron, de persil, d'ail et de vinaigre de cidre.</FlavorText_PoulFri.description>
+	<FlavorText_MeatRaw_ScotchEgg.description>un {2_sing} dur enfermé dans une chair à saucisse {1_adj} et {0_adj}, puis pané et frit.</FlavorText_MeatRaw_ScotchEgg.description>
+
+	<!-- MeatRaw donne toujours « viande de X », féminin singulier : l'accord est sûr. -->
+	<FlavorText_Fried_MeatRaw.description>des morceaux {0_adj} panés dans une farine {2_adj} et frits.</FlavorText_Fried_MeatRaw.description>
+	<FlavorText_Fried_MeatRaw_2.description>des filets {0_adj} roulés dans la chapelure et frits jusqu'au croustillant.</FlavorText_Fried_MeatRaw_2.description>
+	<FlavorText_Poutine.description>des bâtonnets {1_adj} frits, couverts de fromage en grains et d'une sauce brune {0_adj}.</FlavorText_Poutine.description>
+	<FlavorText_SpiceBag.description>un plat irlandais d'inspiration chinoise : des chips {1_adj} et {0_coll}, les unes et les autres frites puis secouées au sel et {2_plur}.</FlavorText_SpiceBag.description>
+
+	<!-- Desserts au four -->
+	<FlavorText_PanDeRegla.description>une brioche philippine de pâte {0_adj} enroulée autour d'un pudding de pain. La garniture mêle du pain rassis émietté, {1_coll}, {2_coll} et du sucre, le tout teint en rouge ou en rose vif. Le nom prête à rire et n'est pas très délicat : « regla » désigne ici les règles.</FlavorText_PanDeRegla.description>
+	<FlavorText_Champurradas.description>un biscuit du petit-déjeuner guatémaltèque, qu'on trempe dans le café. Fait d'une farine {0_adj}, {1_adj} et {2_adj}, souvent semé de graines de sésame.</FlavorText_Champurradas.description>
+	<FlavorText_Fruit_DutchBaby.description>une crêpe épaisse et soufflée, très chargée {0_plur}, servie {1_plur}.</FlavorText_Fruit_DutchBaby.description>
+	<FlavorText_Fruit_Souffle.description>un dessert délicat : des blancs {0_adj} montés en neige et incorporés à une crème pâtissière. Couronné {2_adj}.</FlavorText_Fruit_Souffle.description>
+	<FlavorText_Baklava.description>un dessert turc célèbre : de nombreuses feuilles de pâte filo {0_adj} imbibées d'un sirop {1_adj} et semées d'un hachis {2_adj}.</FlavorText_Baklava.description>
+	<FlavorText_CreamPuffs.description>une pâtisserie française : des boules de pâte à choux cuites au four puis garnies {0_adj}.</FlavorText_CreamPuffs.description>
+	<FlavorText_Croissant.description>une viennoiserie feuilletée française, obtenue en pliant plusieurs fois une pâte levée autour d'une plaque {1_adj}.</FlavorText_Croissant.description>
+	<FlavorText_Fruit_BrownBetty.description>un dessert américain : des couches {0_adj} alternées avec de la chapelure sucrée, cuites au four dans un plat creux.</FlavorText_Fruit_BrownBetty.description>
+	<FlavorText_Fruit_Buckle.description>un gâteau d'une seule couche : on couvre une pâte {2_adj} {0_plur}, qui s'enfoncent dans l'appareil pendant la cuisson.</FlavorText_Fruit_Buckle.description>
+	<FlavorText_Fruit_Cobbler.description>un dessert en cocotte : une garniture {0_adj} couverte de grosses cuillerées de pâte à scone {2_adj}, puis passée au four.</FlavorText_Fruit_Cobbler.description>
+	<FlavorText_Fruit_Crisp.description>un dessert {0_adj} sucrés, sous une croûte craquante {2_adj}, passé au four.</FlavorText_Fruit_Crisp.description>
+	<FlavorText_Fruit_Crumble.description>un dessert proche du croustillant : une garniture {2_adj} sucrée, couverte d'une croûte craquante {0_adj} et passée au four.</FlavorText_Fruit_Crumble.description>
+	<FlavorText_Baumkuchen.description>un gâteau né dans l'ancienne Allemagne, cuit à la broche plutôt qu'au moule. La broche est un gros cylindre de métal tournant au-dessus d'une flamme, sur lequel on applique la pâte {0_adj} couche après couche : à la coupe, le gâteau montre des cernes d'arbre.</FlavorText_Baumkuchen.description>
+	<FlavorText_Pfeffernsse.description>de petits biscuits de Noël allemands, gros comme une noix et très épicés {1_plur}. On les poudre de sucre glace et on les enferme plusieurs semaines dans une boîte hermétique : ils s'attendrissent pendant que leurs arômes {1_adj} se développent.</FlavorText_Pfeffernsse.description>
+	<FlavorText_Pfeffernsse_2.description>de petits biscuits de Noël allemands, gros comme une noix et très épicés {1_plur}. On les poudre de sucre glace et on les enferme plusieurs semaines dans une boîte hermétique : ils s'attendrissent pendant que leurs arômes {1_adj} se développent.</FlavorText_Pfeffernsse_2.description>
+	<FlavorText_Revani.description>un dessert de rue turc : une pâte à la semoule {0_adj} cuite en plaque, puis imbibée d'un sirop {1_adj}.</FlavorText_Revani.description>
+	<FlavorText_Scones.description>un pain brioché {0_adj}, dense et plat, enrichi {1_adj}, cuit en grand disque puis coupé en parts triangulaires. On le sert traditionnellement avec de la crème caillée.</FlavorText_Scones.description>
+	<FlavorText_Scones_2.description>un pain brioché {0_adj}, dense et plat, enrichi {2_adj} et garni {1_adj}, cuit en grand disque puis coupé en parts triangulaires. On le sert traditionnellement avec de la crème caillée.</FlavorText_Scones_2.description>
+	<FlavorText_Sekerpare.description>un dessert turc en forme de petit biscuit rond, fait d'une semoule {0_adj} et d'une farine {0_adj}, imbibé d'un sirop {2_adj} et coiffé {1_adj}.</FlavorText_Sekerpare.description>
+	<FlavorText_Stollen.description>un pain aux fruits allemand de Noël, garni {1_adj} confits et d'une pâte d'amandes faite d'une farine {2_adj}, dispersés dans une pâte levée {0_adj}.</FlavorText_Stollen.description>
+	<FlavorText_SugarCookies.description>de simples sablés {1_adj}, couverts d'un glaçage coloré.</FlavorText_SugarCookies.description>
+	<FlavorText_Ingredients_Casserole_2.description>présent sous une forme ou une autre à peu près partout sur la Vieille Terre, le gratin se fait de n'importe quoi rangé en couches dans un plat creux et passé au four. Celui-ci part d'un velouté {0_adj}, couvert {1_adj} émiettés et d'une fine couche {2_adj}.</FlavorText_Ingredients_Casserole_2.description>
+	<FlavorText_Ingredients_Flan.description>à ne pas confondre avec le flan de leche : une tarte britannique {2_plur}, cuite avec des morceaux {0_adj} sur un fond de pâte ou de génoise {1_adj}.</FlavorText_Ingredients_Flan.description>
+	<FlavorText_Ingredients_Fruit_Crisp.description>un gratin sucré {1_adj} et {2_adj} mêlés, sous une croûte craquante {0_adj}.</FlavorText_Ingredients_Fruit_Crisp.description>
+	<FlavorText_PanDulce.description>un terme qui couvre toute une famille de viennoiseries mexicaines, mangées le matin ou le soir, faites d'une farine {0_adj}, {1_adj} et {2_adj}.</FlavorText_PanDulce.description>
+	<FlavorText_SeoritaBread.description>une brioche philippine de farine {0_adj} et {1_adj}, fourrée d'un mélange de chapelure, de beurre et {2_adj} non raffiné.</FlavorText_SeoritaBread.description>
+
+	<!-- Douceurs frites et boissons -->
+	<FlavorText_HalkaTatlisi.description>un dessert turc frit : une pâte à la semoule {0_adj} et à l'amidon, plongée dans un sirop {1_adj}.</FlavorText_HalkaTatlisi.description>
+	<FlavorText_Lokma.description>un dessert turc : de la pâte {0_adj} frite en petites boules, trempée dans un sirop {1_adj} et {2_adj}.</FlavorText_Lokma.description>
+	<FlavorText_PisangGoreng.description>des tranches {0_adj} enrobées d'une pâte {1_adj} légère et frites. L'extérieur croustille, l'intérieur reste sucré et fondant.</FlavorText_PisangGoreng.description>
+	<FlavorText_Beignets.description>une pâtisserie française : de la pâte à choux coupée en carrés et frite en pleine huile.</FlavorText_Beignets.description>
+	<FlavorText_Champurrado.description>une boisson mexicaine épaisse et onctueuse {1_plur}, à base de semoule de maïs — l'un des nombreux « atole » que l'on boit chauds. On peut la sucrer, l'allonger de lait, y ajouter un œuf, de la cannelle ou de l'anis.</FlavorText_Champurrado.description>
+	<FlavorText_Fruit_Fruit_Smoothie.description>un mélange {1_adj} et {2_adj} passé au mixeur avec {0_coll}, pour une boisson lisse et rafraîchissante.</FlavorText_Fruit_Fruit_Smoothie.description>
+	<FlavorText_BanhPhuThe.description>un dessert vietnamien : une pâte {0_adj} enveloppant une garniture {1_adj} sucrée {2_plur}. Traditionnellement, le marié l'offre à la mariée.</FlavorText_BanhPhuThe.description>
+	<FlavorText_Macarons.description>un biscuit délicat et aérien : on monte {0_coll} en meringue et on y incorpore une farine {1_adj} et {2_coll}. La pâte est dressée en ronds et cuite jusqu'à ce qu'elle gonfle et forme une coque lisse. On l'assemble par deux, avec une crème au beurre entre les coques.</FlavorText_Macarons.description>
+
+</LanguageData>

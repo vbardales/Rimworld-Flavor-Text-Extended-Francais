@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 08 : pâtes nutritives, rations reconstituées, salades.
+  Convention de slots : voir Descriptions_01.xml.
+
+  Registre : ce lot est celui du distributeur à pâte nutritive. L'original tient un
+  ton clinique et industriel — extrusion, centrifugeuse, électrolytes, viscosité —
+  qui fait tout le sel de la chose. On le garde tel quel plutôt que de l'appétir.
+-->
+<LanguageData>
+
+	<!-- Pâtes et extraits -->
+	<FlavorText_Condiment_Flavorant.description>un extrait {0_adj} raffiné et purifié, enfermé dans de petites capsules d'amidon solubles. Ça a le goût {0_adj}, à peu près.</FlavorText_Condiment_Flavorant.description>
+	<FlavorText_Condiment_And_Condiment_FlavorCube.description>un mélange {0_adj} et {1_adj} moulus, comprimé en cube commode, à dissoudre dans l'eau ou à écraser directement sur les aliments.</FlavorText_Condiment_And_Condiment_FlavorCube.description>
+	<FlavorText_Blended_Corn.description>{0_coll} passé longuement au mixeur, pour que les grains se digèrent sans effort.</FlavorText_Blended_Corn.description>
+	<FlavorText_Curdled_Dairy.description>{0_coll} filtré et purifié, puis coagulé afin de simplifier la digestion.</FlavorText_Curdled_Dairy.description>
+	<FlavorText_Cubed_Egg.description>{0_coll} durs comprimés en cubes faciles à manger et à empiler.</FlavorText_Cubed_Egg.description>
+	<FlavorText_Foods_CharcuterieBoard.description>un assortiment de pâtes nutritives raffinées, pressées en rondelles et dressées avec élégance. La planche s'ouvre sur un monticule de copeaux {0_adj} taillés fin, se poursuit par un boudin {1_adj} conservé au sel, et s'achève sur une série de tranches {2_adj} assaisonnées et grillées jusqu'à raffermissement.</FlavorText_Foods_CharcuterieBoard.description>
+	<FlavorText_Foods_CubesOnAStick.description>une pâte {0_adj} coagulée, découpée en cubes de deux centimètres d'arête et piquée sur des brochettes de bambou.</FlavorText_Foods_CubesOnAStick.description>
+	<FlavorText_Foods_Pancakes.description>une pâte {0_adj} bien homogénéisée, extrudée en disques et cuite sur plaque.</FlavorText_Foods_Pancakes.description>
+	<FlavorText_Foods_Pancakes_2.description>une pâte {0_adj} et {1_adj} bien homogénéisée, extrudée en disques et cuite sur plaque.</FlavorText_Foods_Pancakes_2.description>
+	<FlavorText_Foods_Pancakes_3.description>une pâte {0_adj} et {1_adj} bien homogénéisée, extrudée en disques et cuite sur plaque. Servie sous une purée {2_adj}.</FlavorText_Foods_Pancakes_3.description>
+	<FlavorText_Purified_Fruit.description>une pâte moulée à la forme {0_adj}, faite d'une purée {0_adj}. Pour éviter les intoxications et améliorer le goût, on passe le tout à la centrifugeuse afin d'en retirer pépins, pulpe et particules. Le résultat est réaromatisé pour retrouver le goût {0_adj}, sans la couleur ni la texture.</FlavorText_Purified_Fruit.description>
+	<FlavorText_Fungus_Pulp.description>un bol {0_adj} broyés et déchiquetés, cuits dans une eau enrichie en vitamines pour un rendement nutritif maximal.</FlavorText_Fungus_Pulp.description>
+	<FlavorText_Grain_Sponge.description>une préparation aérée de pâte {0_adj}, fermentée dans le processeur à nutriments jusqu'à ce que l'essentiel de l'amidon soit prédigéré et qu'une éponge légère se forme. On l'extrude directement dans un bol et on la mange à la cuillère.</FlavorText_Grain_Sponge.description>
+	<FlavorText_Grain_StarchWith_Fruit_Glaze.description>des nodules {0_adj} enrobés d'un glaçage sucré {1_adj}.</FlavorText_Grain_StarchWith_Fruit_Glaze.description>
+	<FlavorText_AnimalProductRaw_Drink.description>une boisson épaisse obtenue en mêlant un gruau fermenté {0_adj} à un reste {1_adj}. On la boit à la grosse paille, sans quoi elle bouche tout.</FlavorText_AnimalProductRaw_Drink.description>
+	<FlavorText_Meat_Insect_EggSaladSandwich.description>des œufs prélevés dans les ovaires {1_adj}, mis en saumure et servis sur une tranche de pain raffiné {0_adj}.</FlavorText_Meat_Insect_EggSaladSandwich.description>
+	<FlavorText_Autolyzed_Grain.description>un mélange nourrissant de farines {0_adj} et {1_adj}, additionnées d'eau et d'électrolytes puis laissées à s'hydrater. On obtient une pâte plus épaisse, et les arômes ont le temps de se développer. À manger à la fourchette : elle glisse de la cuillère.</FlavorText_Autolyzed_Grain.description>
+
+	<!-- Rations reconstituées -->
+	<FlavorText_Ingredients_Bricks.description>{0_coll} pilés, {1_coll} déchiquetés et {2_coll} enrichis, comprimés en brique pour un repas rapide et commode.</FlavorText_Ingredients_Bricks.description>
+	<FlavorText_Ingredients_Chow.description>un repas simple, apprécié pour sa portabilité : des grains séchés {0_adj} mêlés à des billes {1_adj} et à une poignée de croustillants {2_adj} à mâcher. Pour un repas plus consistant, on verse de l'eau dessus et on mange à la cuillère.</FlavorText_Ingredients_Chow.description>
+	<FlavorText_Ingredients_EggPowder.description>une trouvaille commode : {1_coll} en poudre tamisés avec {0_coll}. Il suffit de réhydrater au robinet pour obtenir une boisson épaisse et rassasiante.</FlavorText_Ingredients_EggPowder.description>
+	<FlavorText_Ingredients_Gel.description>{0_coll} sous forme gélifiée, conditionnés en tube qu'on aspire en passant d'une tâche à l'autre.</FlavorText_Ingredients_Gel.description>
+	<FlavorText_Ingredients_Globules.description>de grosses sphères molles de pâte {0_adj}, enfermées dans une pellicule de cellulose transparente. On les mange en perçant la pellicule d'un coup de dent et en aspirant le liquide.</FlavorText_Ingredients_Globules.description>
+	<FlavorText_Ingredients_Goo.description>une boisson savoureuse obtenue en gélifiant {0_coll} et en les poudrant {1_plur}.</FlavorText_Ingredients_Goo.description>
+	<FlavorText_Ingredients_Mash.description>{0_coll} moulus et travaillés en machine jusqu'à former une masse homogène.</FlavorText_Ingredients_Mash.description>
+	<FlavorText_Ingredients_Mix.description>un monticule de pâte {0_adj}, piqué de morceaux {1_adj} pour le goût.</FlavorText_Ingredients_Mix.description>
+	<FlavorText_Ingredients_Parfait.description>des couches alternées {0_adj} purifiés et de pâte {1_adj}, couvertes de miettes déshydratées {2_adj}. Se mange à la cuillère.</FlavorText_Ingredients_Parfait.description>
+	<FlavorText_Ingredients_Pills.description>de grosses gélules nutritives remplies d'une purée {0_adj} additionnée de compléments vitaminés. Les capsules trop grosses peuvent se mâcher.</FlavorText_Ingredients_Pills.description>
+	<FlavorText_Ingredients_Wafers.description>des biscuits secs obtenus en déshydratant la pâte nutritive {0_adj} ordinaire. Le résultat est cassant et facile à mâcher.</FlavorText_Ingredients_Wafers.description>
+	<FlavorText_Ingredients_And_Ingredients_Ingredients_Pills.description>de grosses gélules nutritives remplies d'une purée {0_adj} et {1_adj}, mêlée à une pâte {2_adj} et à des compléments vitaminés. Les capsules trop grosses peuvent se mâcher.</FlavorText_Ingredients_And_Ingredients_Ingredients_Pills.description>
+	<FlavorText_Ingredients_And_Ingredients_Blend.description>un smoothie dense obtenu en mixant partiellement {0_coll} avec un peu {1_adj}.</FlavorText_Ingredients_And_Ingredients_Blend.description>
+	<FlavorText_Ingredients_And_Ingredients_Dots.description>de petites gouttes séchées de pâte {0_adj} et {1_adj}, passées rapidement au four jusqu'à légère coloration. Se mangent au sachet, comme des céréales avec un liquide, ou en garniture d'un plat plus élaboré.</FlavorText_Ingredients_And_Ingredients_Dots.description>
+	<FlavorText_Ingredients_And_Ingredients_Pills.description>de grosses gélules nutritives remplies d'une purée {0_adj} et {1_adj} additionnée de compléments vitaminés. Les capsules trop grosses peuvent se mâcher.</FlavorText_Ingredients_And_Ingredients_Pills.description>
+	<FlavorText_Ingredients_And_Ingredients_SoupBlend.description>une soupe élémentaire, obtenue en délayant à l'eau une pâte {0_adj} et {1_adj}.</FlavorText_Ingredients_And_Ingredients_SoupBlend.description>
+	<FlavorText_Ingredients_And_Ingredients_SoupMix.description>une soupe riche, obtenue en délayant à l'eau une pâte {0_adj} et {1_adj}, puis en l'infusant d'une essence {2_adj}.</FlavorText_Ingredients_And_Ingredients_SoupMix.description>
+	<FlavorText_Ingredients_SandwichSubstitute.description>un substitut très nourrissant du sandwich terrien : des gaufrettes aromatisées {0_plur} enfermant un cœur souple {1_adj} et {2_adj} mixés.</FlavorText_Ingredients_SandwichSubstitute.description>
+	<FlavorText_AssortedJuices.description>une version moins visqueuse de la pâte nutritive ordinaire : plusieurs jus alimentaires servis dans des gobelets standards. De gauche à droite : jus {0_adj}, jus {1_adj} et jus {2_adj}.</FlavorText_AssortedJuices.description>
+	<FlavorText_AssortedPastes.description>un plateau qui présente plusieurs choix nutritifs : {0_adj} émulsionnés, des cubes {1_adj} aux couleurs vives dans un gobelet, et des gélules protéinées aromatisées {2_plur}.</FlavorText_AssortedPastes.description>
+	<FlavorText_Combination_Ingredients.description>un grand plateau dont l'espace est réparti à parts égales entre une pâte {0_adj}, une pâte {1_adj} et une pâte {2_adj}, étalées en rectangles.</FlavorText_Combination_Ingredients.description>
+	<FlavorText_Cultured_Ingredients_Ingredients_Paste.description>une version améliorée de la pâte nutritive ordinaire : on fait d'abord fermenter la pâte {0_adj} et {1_adj} quelques jours dans une cuve à part. Le résultat pétille et fait du bien à la flore intestinale.</FlavorText_Cultured_Ingredients_Ingredients_Paste.description>
+	<FlavorText_Cultured_Ingredients_Paste.description>une version améliorée de la pâte nutritive ordinaire : on fait d'abord fermenter la pâte {0_adj} quelques jours dans une cuve à part. Le résultat pétille et fait du bien à la flore intestinale.</FlavorText_Cultured_Ingredients_Paste.description>
+	<FlavorText_Cultured_Ingredients_And_Ingredients_Paste.description>une version améliorée de la pâte nutritive ordinaire : on fait d'abord fermenter la pâte {0_adj} et {1_adj} quelques jours dans une cuve à part. Le résultat pétille et fait du bien à la flore intestinale ; celui-ci est relevé d'un trait d'extrait {2_adj}.</FlavorText_Cultured_Ingredients_And_Ingredients_Paste.description>
+	<FlavorText_Edible_Ingredients_Squares.description>des crackers faits d'un mélange de pâtes {0_adj}, {1_adj} et {2_adj}, découpés en carrés et croustillés par la résistance chauffante fixée à la sortie du distributeur.</FlavorText_Edible_Ingredients_Squares.description>
+	<FlavorText_Edible_Ingredients_Squares_2.description>des crackers faits d'un mélange de pâtes {0_adj} et {1_adj}, découpés en carrés et croustillés par la résistance chauffante fixée à la sortie du distributeur.</FlavorText_Edible_Ingredients_Squares_2.description>
+	<FlavorText_Juiced_Ingredients.description>{0_coll} mixés puis finement tamisés pour en retirer les solides. À la distribution, le convive choisit la viscosité qui convient à sa déglutition.</FlavorText_Juiced_Ingredients.description>
+	<FlavorText_Milled_Ingredients.description>{0_coll} séchés et moulus avec {1_coll}, pour une céréale croquante qu'on mange au sachet, en marchant.</FlavorText_Milled_Ingredients.description>
+	<FlavorText_LeafyVeg_Wafers.description>des feuilles {0_adj} écrasées en pâte, mises en forme de fines gaufrettes et déshydratées.</FlavorText_LeafyVeg_Wafers.description>
+
+	<!-- « Soylent Green » est sorti en France sous le titre « Soleil vert » -->
+	<FlavorText_SoylentRed.description>des gaufrettes rougeâtres et cassantes, faites d'une purée {0_adj}.</FlavorText_SoylentRed.description>
+	<FlavorText_SoylentGreen.description>un substitut de viande ordinaire, fait d'ingrédients non humains.</FlavorText_SoylentGreen.description>
+	<FlavorText_SoylentYellow.description>des gaufrettes jaunâtres et cassantes, faites d'une purée {0_adj}.</FlavorText_SoylentYellow.description>
+	<FlavorText_Spam.description>une viande de sandwich obtenue en agglomérant {0_coll} et du jambon à la colle alimentaire.</FlavorText_Spam.description>
+
+	<!-- Viandes reconstituées -->
+	<FlavorText_Liquid_Meat_Seafood.description>{0_coll} entière liquéfiée aux enzymes, pour ne pas boucher le distributeur à pâte.</FlavorText_Liquid_Meat_Seafood.description>
+	<FlavorText_MeatRaw_PlantFoodRaw_Rolls.description>un dressage plaisant : une feuille de purée {0_adj} couverte d'une couche {1_adj}, roulée puis tranchée en tronçons.</FlavorText_MeatRaw_PlantFoodRaw_Rolls.description>
+	<FlavorText_MeatRaw_Nuggets.description>des nuggets de pâte de viande, faits {0_adj} et de tissu conjonctif {1_adj}.</FlavorText_MeatRaw_Nuggets.description>
+	<FlavorText_MeatRaw_Smoothie.description>une boisson crémeuse obtenue en mixant longuement {0_coll} en dés avec {1_coll} et {2_coll}.</FlavorText_MeatRaw_Smoothie.description>
+	<FlavorText_MeatRaw_Surprise.description>{0_coll} hachée et mixée avec {1_coll}, une tête {2_adj} et divers autres organes.</FlavorText_MeatRaw_Surprise.description>
+	<FlavorText_MeatRaw_CubesAndCream.description>une friandise savoureuse : de la crème fouettée dressée à la poche sur des cubes {0_adj} bouillie.</FlavorText_MeatRaw_CubesAndCream.description>
+	<FlavorText_Denatured_MeatRaw.description>des tranches {0_adj} et {1_coll} fouettés, soumis à un procédé chimique sans chaleur qui dénature les protéines et simule la cuisson. Consomme moins d'énergie qu'une cuisson classique.</FlavorText_Denatured_MeatRaw.description>
+	<FlavorText_HappyAnimalGravy.description>une sauce grumeleuse faite des parures {0_adj} et {1_adj}, dans un liquide {2_adj}.</FlavorText_HappyAnimalGravy.description>
+	<FlavorText_Predigested_MeatRaw.description>{0_coll} baignée dans une solution enzymatique qui amorce la digestion.</FlavorText_Predigested_MeatRaw.description>
+
+	<!-- Végétaux reconstitués -->
+	<FlavorText_PlantFoodRaw_Slushball.description>une friandise d'été : {2_coll} congelés et rasés, avec des morceaux {0_adj} et un extrait {1_adj}.</FlavorText_PlantFoodRaw_Slushball.description>
+	<FlavorText_AnimalProductRaw_CongealedSalad.description>une salade en gelée nourrissante, obtenue en émulsionnant {1_coll} avec {2_coll} fouettés. On y incorpore des billes de purée {0_adj} avant que le mélange ne prenne.</FlavorText_AnimalProductRaw_CongealedSalad.description>
+	<FlavorText_Compressed_PlantFoodRaw.description>{0_coll} crus entiers, soumis à plusieurs centaines d'atmosphères pour en chasser l'eau et produire un bâtonnet dense et élastique, qu'on mange en marchant.</FlavorText_Compressed_PlantFoodRaw.description>
+	<FlavorText_HealthyPlantTray.description>des cubes souples de purée épaissie {0_adj}, {1_adj} et {2_adj}, chacun coloré vivement pour signaler sa haute valeur nutritive.</FlavorText_HealthyPlantTray.description>
+
+	<!--
+		L'original écrit ici « powdered {2_coll} » alors que la def n'a que deux slots :
+		second placeholder mort du mod, après le {1-sing} des labels. On retombe sur {0}.
+	-->
+	<FlavorText_Powdered_PlantFoodRaw_Balls.description>des billes parfaitement sphériques {1_adj} coagulés, poudrées d'une poudre {0_adj}.</FlavorText_Powdered_PlantFoodRaw_Balls.description>
+
+	<FlavorText_Mushed_Potato.description>proche de la purée {0_adj}, mais d'une consistance plus singulière, assez proche de la colle.</FlavorText_Mushed_Potato.description>
+	<FlavorText_Rice_Gruel.description>{0_coll} pulvérisé et délayé dans l'eau.</FlavorText_Rice_Gruel.description>
+	<FlavorText_Sugar_Gel.description>une dosette souple de gel aromatisé {0_plur}, à boire directement au tube.</FlavorText_Sugar_Gel.description>
+	<FlavorText_Vegetable_Paste.description>{0_coll} mixés jusqu'au lisse et distribués en monticule.</FlavorText_Vegetable_Paste.description>
+	<FlavorText_Masticated_Vegetable.description>un mélange {0_adj} et {1_adj} taillés très fin, mâché artificiellement et additionné d'enzymes digestives, pour un repas qu'on prend en marchant.</FlavorText_Masticated_Vegetable.description>
+
+	<!-- Salades -->
+	<FlavorText_FruitMacedonia.description>une salade de petits morceaux {0_adj} et {1_adj} frais. Un dessert courant en Grèce, en Roumanie, en Espagne, en France, en Italie et en Amérique du Sud.</FlavorText_FruitMacedonia.description>
+	<FlavorText_FruitSalad.description>{0_coll}, {1_coll} et {2_coll} taillés en bouchées et mêlés ensemble.</FlavorText_FruitSalad.description>
+	<FlavorText_PlantFoodRaw_Jelly.description>{1_coll} en dés pris dans une gelée {0_adj} et moulés en grande couronne.</FlavorText_PlantFoodRaw_Jelly.description>
+	<FlavorText_Fungus_SaladWith_PlantFoodRaw.description>un mélange {2_adj} taillés, remués avec {1_coll} en fines tranches et une sauce crémeuse à la ranch.</FlavorText_Fungus_SaladWith_PlantFoodRaw.description>
+	<FlavorText_Potato_SaladWith_PlantFoodRaw.description>{2_coll} bouillis et taillés en dés, mêlés {1_adj} hachés et d'une sauce à la mayonnaise.</FlavorText_Potato_SaladWith_PlantFoodRaw.description>
+	<FlavorText_RusticSalad.description>{0_coll} hachés et {1_coll} de plusieurs sortes, réunis dans un grand saladier avec une vinaigrette fruitée.</FlavorText_RusticSalad.description>
+	<FlavorText_WaldorfSalad.description>une salade fraîche née à New York sur la Vieille Terre : {0_coll} en dés, {1_coll} coupés en deux et {2_coll} en dés, le tout remué dans une sauce à la mayonnaise ou à la crème aigre.</FlavorText_WaldorfSalad.description>
+	<FlavorText_ColdNoodleSalad.description>un incontournable vietnamien : des nouilles froides {0_adj} remuées avec {1_coll} et {2_coll} taillés en lanières, dans une sauce au soja, au vinaigre {0_adj} et à l'huile de sésame.</FlavorText_ColdNoodleSalad.description>
+	<FlavorText_Ingredients_PokeBowl.description>{0_coll} et {1_coll} taillés en dés, remués avec {2_coll}. Né au Japon et fait de poisson cru, le poke s'est répandu dans le monde entier et a pris mille formes.</FlavorText_Ingredients_PokeBowl.description>
+
+</LanguageData>

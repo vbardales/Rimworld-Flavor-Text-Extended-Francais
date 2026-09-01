@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 03 : desserts, glaces, confiseries.
+-->
+<LanguageData>
+
+	<FlavorText_Lapsi.label>lapsi</FlavorText_Lapsi.label>
+	<FlavorText_FrogInThePond.label>grenouille dans l'étang</FlavorText_FrogInThePond.label>
+	<FlavorText_Fruit_Newtons.label>biscuits fourrés {0_plur}</FlavorText_Fruit_Newtons.label>
+	<FlavorText_Twinkies.label>Twinkies</FlavorText_Twinkies.label>
+	<FlavorText_Ingredients_Fondue.label>fondue {0_plur}</FlavorText_Ingredients_Fondue.label>
+	<FlavorText_TapiocaPudding.label>pouding au tapioca</FlavorText_TapiocaPudding.label>
+	<FlavorText_Marzipan.label>pâte d'amande</FlavorText_Marzipan.label>
+
+	<!-- Produits laitiers et œufs : catégorie mixte, on garde une tête nominale -->
+	<FlavorText_AnimalProductRaw_Junket.label>caillé {0_adj}</FlavorText_AnimalProductRaw_Junket.label>
+	<FlavorText_AnimalProductRaw_PowerBar.label>barre énergétique {1_plur}</FlavorText_AnimalProductRaw_PowerBar.label>
+	<FlavorText_Potato_Pancakes.label>galettes {1_plur}</FlavorText_Potato_Pancakes.label>
+	<FlavorText_Preserved_AnimalProductRaw.label>conserve {0_adj}</FlavorText_Preserved_AnimalProductRaw.label>
+
+	<!-- Fruits -->
+	<FlavorText_TarteTatin.label>tarte Tatin</FlavorText_TarteTatin.label>
+	<FlavorText_BananaSplit.label>banana split</FlavorText_BananaSplit.label>
+	<FlavorText_PlatanosEnMole.label>plátanos en mole</FlavorText_PlatanosEnMole.label>
+	<FlavorText_Tostones.label>tostones</FlavorText_Tostones.label>
+	<FlavorText_SagoPudding.label>pouding au sagou</FlavorText_SagoPudding.label>
+	<FlavorText_NanaimoBars.label>barres de Nanaimo</FlavorText_NanaimoBars.label>
+	<FlavorText_Citrus_Marmalade.label>marmelade {0_adj}</FlavorText_Citrus_Marmalade.label>
+	<FlavorText_Halo-Halo.label>halo-halo</FlavorText_Halo-Halo.label>
+
+	<!-- Crèmes et glaces -->
+	<FlavorText_Affogato.label>affogato</FlavorText_Affogato.label>
+	<FlavorText_Dairy_Pavlova.label>pavlova {0_plur}</FlavorText_Dairy_Pavlova.label>
+	<FlavorText_Fruit_Yogurt.label>yaourt {1_plur}</FlavorText_Fruit_Yogurt.label>
+	<FlavorText_Fruit_Gelato.label>gelato {2_plur}</FlavorText_Fruit_Gelato.label>
+	<FlavorText_AlooKaHalwa.label>aloo ka halwa</FlavorText_AlooKaHalwa.label>
+	<FlavorText_Cornflakes.label>cornflakes</FlavorText_Cornflakes.label>
+	<FlavorText_CremeBrulee.label>crème brûlée</FlavorText_CremeBrulee.label>
+	<FlavorText_Dondurma.label>dondurma</FlavorText_Dondurma.label>
+	<FlavorText_Flan.label>flan</FlavorText_Flan.label>
+	<FlavorText_FrootLoops.label>froot loops</FlavorText_FrootLoops.label>
+	<FlavorText_Gelato.label>gelato</FlavorText_Gelato.label>
+	<FlavorText_Globi.label>globi</FlavorText_Globi.label>
+	<FlavorText_HuitlacocheIceCream.label>glace au huitlacoche</FlavorText_HuitlacocheIceCream.label>
+	<FlavorText_IceCream.label>crème glacée</FlavorText_IceCream.label>
+	<FlavorText_Kheer.label>kheer</FlavorText_Kheer.label>
+	<FlavorText_Kvfjordkake.label>Kvæfjordkake</FlavorText_Kvfjordkake.label>
+	<FlavorText_MississippiMudPie.label>Mississippi mud pie</FlavorText_MississippiMudPie.label>
+	<FlavorText_SutiPolo.label>suti polo</FlavorText_SutiPolo.label>
+	<FlavorText_Tartufo.label>tartufo</FlavorText_Tartufo.label>
+	<FlavorText_Tiramisu.label>tiramisu</FlavorText_Tiramisu.label>
+	<FlavorText_Yogurt.label>yaourt</FlavorText_Yogurt.label>
+	<FlavorText_Kakigori_3.label>kakigōri</FlavorText_Kakigori_3.label>
+	<FlavorText_Kakigori.label>kakigōri</FlavorText_Kakigori.label>
+	<FlavorText_Kakigori_2.label>kakigōri</FlavorText_Kakigori_2.label>
+
+	<!-- Meringues, confitures, confiseries -->
+	<FlavorText_Fruit_MeringuePie.label>tarte meringuée {1_plur}</FlavorText_Fruit_MeringuePie.label>
+	<FlavorText_Meringue.label>meringue</FlavorText_Meringue.label>
+	<FlavorText_BiciBici.label>bici bici</FlavorText_BiciBici.label>
+	<FlavorText_Fruit_Candy.label>bonbons {0_plur}</FlavorText_Fruit_Candy.label>
+	<FlavorText_Fruit_Jello.label>gelée {0_plur}</FlavorText_Fruit_Jello.label>
+	<FlavorText_Fruit_Mousse.label>mousse {0_plur}</FlavorText_Fruit_Mousse.label>
+	<FlavorText_Fruit_Preserves.label>confiture {0_adj}</FlavorText_Fruit_Preserves.label>
+	<FlavorText_Rodgrod.label>rødgrød</FlavorText_Rodgrod.label>
+	<FlavorText_Fruit_Pudding.label>pouding {0_adj}</FlavorText_Fruit_Pudding.label>
+	<FlavorText_Sugar-Coated_Fruit.label>{0_coll} {1_plur}</FlavorText_Sugar-Coated_Fruit.label>
+
+	<!-- Gâteaux et biscuits -->
+	<FlavorText_Fruit_Cake.label>gâteau {2_plur}</FlavorText_Fruit_Cake.label>
+	<FlavorText_Nut_Halva.label>halva {2_plur}</FlavorText_Nut_Halva.label>
+	<FlavorText_Nut_Pismaniye.label>pişmaniye {2_plur}</FlavorText_Nut_Pismaniye.label>
+	<FlavorText_CantoneseCustardBuns.label>brioches cantonaises à la crème</FlavorText_CantoneseCustardBuns.label>
+	<FlavorText_CantoneseCustardBuns_2.label>brioches cantonaises à la crème</FlavorText_CantoneseCustardBuns_2.label>
+	<FlavorText_JammyDodgers.label>Jammy Dodgers</FlavorText_JammyDodgers.label>
+	<FlavorText_Mersu.label>mersu</FlavorText_Mersu.label>
+	<FlavorText_Pancakes.label>pancakes</FlavorText_Pancakes.label>
+	<FlavorText_PoudingChmeur.label>pouding chômeur</FlavorText_PoudingChmeur.label>
+	<FlavorText_ThumbprintCookies.label>sablés à la confiture</FlavorText_ThumbprintCookies.label>
+	<FlavorText_Ashure.label>achouré</FlavorText_Ashure.label>
+	<FlavorText_Churchkhela.label>tchourtchkhela</FlavorText_Churchkhela.label>
+	<FlavorText_Macun.label>macun</FlavorText_Macun.label>
+
+	<!-- Desserts génériques -->
+	<FlavorText_Ingredients_HandPies.label>chaussons {0_plur}</FlavorText_Ingredients_HandPies.label>
+	<FlavorText_Ingredients_Pudding.label>pouding {0_adj}</FlavorText_Ingredients_Pudding.label>
+	<FlavorText_Ingredients_ShavedIce.label>glace pilée {0_plur}</FlavorText_Ingredients_ShavedIce.label>
+	<FlavorText_Ingredients_And_Ingredients_In_Sugar_Syrup.label>{1_coll} et {0_coll} au sirop {2_adj}</FlavorText_Ingredients_And_Ingredients_In_Sugar_Syrup.label>
+	<FlavorText_JellyBeans.label>bonbons gélifiés</FlavorText_JellyBeans.label>
+	<FlavorText_JellyBeans_2.label>bonbons gélifiés</FlavorText_JellyBeans_2.label>
+	<FlavorText_MeatRaw_MincemeatPudding.label>pouding {0_adj} aux fruits</FlavorText_MeatRaw_MincemeatPudding.label>
+	<FlavorText_VratKaHalwa.label>vrat ka halwa</FlavorText_VratKaHalwa.label>
+	<FlavorText_Nut_Chikki.label>chikki {0_plur}</FlavorText_Nut_Chikki.label>
+	<FlavorText_WatergateSalad.label>salade Watergate</FlavorText_WatergateSalad.label>
+	<FlavorText_PlantFoodRaw_Sticky_Rice.label>{0_coll} gluant {2_plur}</FlavorText_PlantFoodRaw_Sticky_Rice.label>
+	<FlavorText_MochiPancakes.label>pancakes au mochi</FlavorText_MochiPancakes.label>
+	<FlavorText_MyanmarFloatingRiceBalls.label>boulettes de riz flottantes birmanes</FlavorText_MyanmarFloatingRiceBalls.label>
+	<FlavorText_KabakTatlisi.label>kabak tatlısı</FlavorText_KabakTatlisi.label>
+
+</LanguageData>

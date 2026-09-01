@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Japon.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Nikuman.label>nikuman</FlavorTextFR_Nikuman.label>
+	<FlavorTextFR_Nikuman.description>une brioche {0_adj} cuite à la vapeur, fourrée {1_plur} hachée et {2_plur}, si blanche et si molle qu'on la reconnaît au toucher. Se vend l'hiver au comptoir des épiceries de nuit.</FlavorTextFR_Nikuman.description>
+	<FlavorTextFR_Udon.label>udon</FlavorTextFR_Udon.label>
+	<FlavorTextFR_Udon.description>des nouilles épaisses et molles, pétries au pied sous une toile, dans un bouillon clair {1_adj}. La texture compte plus que le goût, et elle est délibérée.</FlavorTextFR_Udon.description>
+	<FlavorTextFR_Soba.label>soba</FlavorTextFR_Soba.label>
+	<FlavorTextFR_Soba.description>des nouilles {0_adj} grises, servies froides sur une claie avec une sauce {1_adj} à part. L'eau de cuisson se boit à la fin, allongée dans le reste de sauce.</FlavorTextFR_Soba.description>
+	<FlavorTextFR_AgedashiDofu.label>agedashi dofu</FlavorTextFR_AgedashiDofu.label>
+	<FlavorTextFR_AgedashiDofu.description>des cubes de tofu {0_adj} roulés dans la fécule et frits, posés dans un bouillon tiède {1_adj}. La croûte tient juste le temps d'arriver à table.</FlavorTextFR_AgedashiDofu.description>
+	<FlavorTextFR_Oyakodon.label>oyakodon</FlavorTextFR_Oyakodon.label>
+	<FlavorTextFR_Oyakodon.description>{1_coll} et {2_coll} liés à peine dans un bouillon sucré-salé, versés sur {0_coll}. Le nom signifie « parent et enfant » ; personne n'a jamais prétendu que c'était délicat.</FlavorTextFR_Oyakodon.description>
+	<FlavorTextFR_Gyudon.label>gyudon</FlavorTextFR_Gyudon.label>
+	<FlavorTextFR_Gyudon.description>{1_coll} tranchée au rasoir et mijotée {2_plur} dans un bouillon sucré, servie sur {0_coll}. Le repas le plus rapide qu'on puisse manger assis.</FlavorTextFR_Gyudon.description>
+	<FlavorTextFR_Katsudon.label>katsudon</FlavorTextFR_Katsudon.label>
+	<FlavorTextFR_Katsudon.description>une côte {1_adj} panée et frite, retrempée dans un bouillon {2_adj} qui ramollit exprès la panure, posée sur {0_coll}. On en mange la veille d'un examen : « katsu » veut aussi dire vaincre.</FlavorTextFR_Katsudon.description>
+	<FlavorTextFR_Onigiri.label>onigiri</FlavorTextFR_Onigiri.label>
+	<FlavorTextFR_Onigiri.description>{0_coll} pressé en triangle à mains salées et mouillées, fourré {2_adj}, ceinturé {1_plur}. Se garde une journée entière dans une poche.</FlavorTextFR_Onigiri.description>
+	<FlavorTextFR_Okonomiyaki.label>okonomiyaki</FlavorTextFR_Okonomiyaki.label>
+	<FlavorTextFR_Okonomiyaki.description>une galette épaisse où {1_coll} émincés tiennent à peine ensemble {0_plur} et {2_plur}, cuite sur la plaque devant soi. Le nom veut dire « grillé comme il te plaît ».</FlavorTextFR_Okonomiyaki.description>
+	<FlavorTextFR_Chawanmushi.label>chawanmushi</FlavorTextFR_Chawanmushi.label>
+	<FlavorTextFR_Chawanmushi.description>un flan salé {0_adj} cuit à la vapeur douce, si peu pris qu'on le mange à la cuillère, avec {1_coll} et {2_coll} cachés au fond. Trop chaud, il se crible de bulles et se gâche.</FlavorTextFR_Chawanmushi.description>
+	<FlavorTextFR_Nikujaga.label>nikujaga</FlavorTextFR_Nikujaga.label>
+	<FlavorTextFR_Nikujaga.description>{0_coll} et {1_coll} mijotées {2_plur} et au sucre, à couvert tombant, jusqu'à ce qu'il ne reste presque plus de liquide. Le plat qu'on cite quand on parle de cuisine de mère.</FlavorTextFR_Nikujaga.description>
+	<FlavorTextFR_Chikuzenni.label>chikuzenni</FlavorTextFR_Chikuzenni.label>
+	<FlavorTextFR_Chikuzenni.description>{0_coll} et {1_coll} taillées en biseau, saisies à l'huile puis mijotées à sec avec {2_coll}, jusqu'à ce que le liquide ait entièrement disparu dans les légumes.</FlavorTextFR_Chikuzenni.description>
+	<FlavorTextFR_Nanbanzuke.label>nanbanzuke</FlavorTextFR_Nanbanzuke.label>
+	<FlavorTextFR_Nanbanzuke.description>{0_coll} frite puis marinée chaude dans un vinaigre sucré {1_plur} et {2_plur}. « Nanban » désigne les Portugais, à qui l'on doit le procédé.</FlavorTextFR_Nanbanzuke.description>
+	<FlavorTextFR_Tonjiru.label>tonjiru</FlavorTextFR_Tonjiru.label>
+	<FlavorTextFR_Tonjiru.description>une soupe {2_adj} fermenté chargée {0_adj} et de racines, {1_coll} comprises. Plus nourrissante que la soupe miso ordinaire, et servie quand il gèle.</FlavorTextFR_Tonjiru.description>
+	<FlavorTextFR_Karaage.label>karaage</FlavorTextFR_Karaage.label>
+	<FlavorTextFR_Karaage.description>{0_coll} marinée {1_plur} et {2_plur}, roulée dans la fécule et frite deux fois. La fécule donne une croûte fine et cassante, très différente de la panure.</FlavorTextFR_Karaage.description>
+	<FlavorTextFR_Korokke.label>korokke</FlavorTextFR_Korokke.label>
+	<FlavorTextFR_Korokke.description>une purée {0_adj} mêlée {2_plur} hachée, panée à la chapelure grossière et frite. Descendante lointaine de la croquette française, arrivée par bateau au siècle dernier.</FlavorTextFR_Korokke.description>
+	<FlavorTextFR_Chirashi.label>chirashi</FlavorTextFR_Chirashi.label>
+	<FlavorTextFR_Chirashi.description>{0_coll} vinaigré étalé au fond d'un bol, « éparpillé » {1_plur} crue en tranches et de lanières d'omelette. Toute la difficulté du sushi, sans le geste du sushi.</FlavorTextFR_Chirashi.description>
+	<FlavorTextFR_Ochazuke.label>ochazuke</FlavorTextFR_Ochazuke.label>
+	<FlavorTextFR_Ochazuke.description>{1_coll} brûlant versé sur du riz froid, avec {2_coll} émietté. Le repas de fin de soirée, ou de fin de restes — les deux reviennent souvent au même.</FlavorTextFR_Ochazuke.description>
+	<FlavorTextFR_Dorayaki.label>dorayaki</FlavorTextFR_Dorayaki.label>
+	<FlavorTextFR_Dorayaki.description>deux petites crêpes épaisses {2_plur} et au miel, refermées sur une pâte sucrée {1_adj}. Le nom vient du gong qu'elles imitent.</FlavorTextFR_Dorayaki.description>
+	<FlavorTextFR_Anmitsu.label>anmitsu</FlavorTextFR_Anmitsu.label>
+	<FlavorTextFR_Anmitsu.description>des cubes de gelée {1_adj} — ferme, à peine sucrée — avec une pâte {0_adj} et un sirop noir {2_adj} versé à table. Le dessert d'été, servi glacé.</FlavorTextFR_Anmitsu.description>
+
+</LanguageData>

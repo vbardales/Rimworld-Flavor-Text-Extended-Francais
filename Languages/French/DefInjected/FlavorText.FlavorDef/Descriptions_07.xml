@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 07 : hachis, pommes de terre, riz, céréales, pâtes, gelées.
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- Suite des viandes -->
+	<FlavorText_Meatloaf.description>{2_coll}, {1_coll} et {0_coll} hachées, mêlées et façonnées en un gros pain. Souvent fait pour écouler les restes.</FlavorText_Meatloaf.description>
+	<FlavorText_MincemeatPie.description>une tourte sucrée d'origine anglaise, garnie d'un mélange {2_adj}, de graisse de rognon {0_adj} et d'épices.</FlavorText_MincemeatPie.description>
+	<FlavorText_Picadillo.description>un hachis traditionnel dans beaucoup de pays d'Amérique latine, fait {0_adj} hachée, {1_adj} et {2_adj} séchés.</FlavorText_Picadillo.description>
+	<FlavorText_PyttIPanna.description>un plat suédois dont le nom signifie « des petits morceaux dans une poêle », né du besoin d'écouler les restes. Proche du hachis, mais avec des morceaux {0_adj} et {1_adj} en dés.</FlavorText_PyttIPanna.description>
+	<FlavorText_PyttIPanna_2.description>un plat suédois dont le nom signifie « des petits morceaux dans une poêle », né du besoin d'écouler les restes. Proche du hachis, mais avec des morceaux {0_adj} et {1_adj} en dés. Celui-ci est couronné {2_adj} au vinaigre, en tranches.</FlavorText_PyttIPanna_2.description>
+	<FlavorText_SwedishMeatballs.description>{0_coll} hachée roulée en boulettes, servie sur une purée {2_adj} avec une confiture {1_adj}.</FlavorText_SwedishMeatballs.description>
+	<FlavorText_MeatRaw_Stroganoff_2.description>des lanières {0_adj} cuites dans une sauce à la crème aigre.</FlavorText_MeatRaw_Stroganoff_2.description>
+	<FlavorText_Murtabak.description>une crêpe feuilletée cuite à la poêle, née au Yémen mais répandue dans tout le Proche-Orient et en Asie du Sud. Le murtabak connaît mille variantes ; celui-ci est fourré {1_adj} et {0_adj}.</FlavorText_Murtabak.description>
+	<FlavorText_Fried_Ingredients_With_MeatRaw.description>un mélange {0_adj} et {1_adj} en dés, revenu ensemble à feu moyen.</FlavorText_Fried_Ingredients_With_MeatRaw.description>
+
+	<!-- Pommes de terre -->
+	<FlavorText_Colcannon.description>un plat irlandais tout simple : une purée {1_adj} mêlée {2_adj} hachés.</FlavorText_Colcannon.description>
+	<FlavorText_PotatosObrien.description>des morceaux {1_adj} rissolés à la poêle, mêlés {2_adj} et {0_adj}.</FlavorText_PotatosObrien.description>
+	<FlavorText_PlantFoodRaw_Stoemp.description>un plat paysan flamand {1_adj} et {0_adj} écrasés ensemble.</FlavorText_PlantFoodRaw_Stoemp.description>
+	<FlavorText_PlantFoodRaw_WooltonPie.description>une tourte toute simple {2_adj}, {1_adj} et {0_adj} en dés, cuite en plat sous une abaisse de pâte {2_adj}.</FlavorText_PlantFoodRaw_WooltonPie.description>
+	<FlavorText_BatataHarra.description>un plat de légumes libanais : {0_coll}, {1_coll}, de la coriandre et de l'ail, tous revenus ensemble à l'huile d'olive.</FlavorText_BatataHarra.description>
+	<FlavorText_BombayPotatoes.description>un plat indien {0_adj} taillés en cubes, précuits à l'eau puis revenus et relevés d'une poudre {1_adj}, {2_adj} et de diverses épices.</FlavorText_BombayPotatoes.description>
+	<FlavorText_BubbleAndSqueak.description>un plat britannique fait {0_adj} et {1_adj} déjà cuits, mêlés et poêlés ensemble.</FlavorText_BubbleAndSqueak.description>
+	<FlavorText_Clapshot.description>une purée écossaise traditionnelle {0_adj} et {1_adj} bouillis, relevée de ciboulette et de beurre.</FlavorText_Clapshot.description>
+	<FlavorText_HashBrowns.description>{0_coll} râpés, tassés en galette mince et poêlés jusqu'à ce qu'ils croustillent.</FlavorText_HashBrowns.description>
+	<FlavorText_HasselbackPotatoes.description>une version améliorée de la pomme de terre au four : on entaille {0_coll} entiers presque jusqu'au bout, on éventaille les tranches pour former des crêtes, et on passe au four. Le résultat est très croustillant, et se relève volontiers de beurre, d'huile, d'ail et d'herbes.</FlavorText_HasselbackPotatoes.description>
+	<FlavorText_SwedishDill_Potato.description>de petites pièces {0_adj} bouillies entières jusqu'à tendreté, poêlées au beurre, puis finies d'une sauce à la crème et de beaucoup d'aneth.</FlavorText_SwedishDill_Potato.description>
+	<FlavorText_Skordalia.description>un dip grec traditionnel {1_adj}, monté sur une base {0_adj}.</FlavorText_Skordalia.description>
+
+	<!-- Riz et céréales -->
+	<FlavorText_BaioDeDois.description>un plat brésilien {0_adj} et {1_adj}, cuits dans un bouillon de légumes et parfumés à l'ail et à la coriandre.</FlavorText_BaioDeDois.description>
+	<FlavorText_BaioDeDois_2.description>un plat brésilien {0_adj} et {1_adj}, cuits dans un bouillon {2_adj}. Des tranches {2_adj} revenues à part avec de l'ail et de la coriandre sont mêlées {0_plur} et {1_plur} au moment de servir.</FlavorText_BaioDeDois_2.description>
+	<FlavorText_BanhXeo.description>une crêpe {0_adj} croustillante, fourrée {1_adj} et servie avec {2_coll} et une sauce de poisson à l'ail pour tremper. Un plat de rue très répandu au Vietnam.</FlavorText_BanhXeo.description>
+	<FlavorText_KhanumKrok.description>de petites crêpes {0_adj} et {1_adj} cuites dans une grande plaque à alvéoles. On prépare deux pâtes, l'une salée, l'autre sucrée d'un sirop {2_adj} ; chaque khanom krok assemble une moitié salée et une moitié sucrée pour former une boule.</FlavorText_KhanumKrok.description>
+	<FlavorText_Dambou.description>un plat nigérien proche du couscous, servi dans les fêtes, au goût terreux et poivré que lui donnent les feuilles de moringa. La base est un couscous {0_adj}, complété au gré du cuisinier : sauce d'arachide, morceaux de viande épicée, oignons, haricots.</FlavorText_Dambou.description>
+	<FlavorText_Edamame.description>{0_coll} récoltés avant maturité, cuits à l'eau ou à la vapeur, servis entiers dans leur cosse avec du sel ou d'autres épices.</FlavorText_Edamame.description>
+	<FlavorText_BrunedeKartofler.description>de petites pièces {1_adj} caramélisées dans un sucre {0_adj}.</FlavorText_BrunedeKartofler.description>
+	<FlavorText_Roasted_Vegetable.description>{0_coll} entiers rôtis au four jusqu'à caraméliser et devenir fondants.</FlavorText_Roasted_Vegetable.description>
+	<FlavorText_VegetableMacedonia.description>une salade de petits morceaux {0_adj} et {1_adj} frais. On la trouve en Grèce, en Roumanie, en Espagne, en France, en Italie et en Amérique du Sud.</FlavorText_VegetableMacedonia.description>
+	<FlavorText_Yachaejeon.description>une galette coréenne très répandue dans la rue, faite de légumes variés — {0_coll} et {1_coll} émincés fin — liés par une pâte {2_adj}. Se sert avec une sauce au soja et au sésame.</FlavorText_Yachaejeon.description>
+	<FlavorText_BunnyChow.description>un plat de rue très répandu dans l'Afrique du Sud du XXIᵉ siècle : une miche entière de pain {0_adj} évidée et remplie d'un curry épais {1_adj} et {2_adj}.</FlavorText_BunnyChow.description>
+	<FlavorText_Croffle.description>une variante de la gaufre, faite avec une pâte à croissant. On pose une plaque de beurre entière sur une couche de pâte {0_adj}, puis on plie et replie jusqu'à obtenir des dizaines de feuillets. Le tout cuit dans un gaufrier qui imprime ses alvéoles profondes.</FlavorText_Croffle.description>
+
+	<!-- Pâtes -->
+	<FlavorText_Champorado.description>un pouding philippin sucré {1_adj}, fait de riz gluant {0_adj}. Il tient lieu de repas ou d'en-cas, et se garnit volontiers de lait concentré sucré ou de petits poissons séchés et salés, les « tuyo ».</FlavorText_Champorado.description>
+	<FlavorText_LeafyVeg_Ravioli.description>une pâte farcie italienne : des coussins de pâte plate garnis de ricotta et {0_adj}.</FlavorText_LeafyVeg_Ravioli.description>
+	<FlavorText_BuddhaBowl.description>une salade montée sur une base {0_adj} froid, servie dans un bol à haut bord rempli à ras de morceaux {1_adj} et de légumes variés, sous une sauce crémeuse et relevée à base {2_adj}.</FlavorText_BuddhaBowl.description>
+	<FlavorText_FideoSoup.description>une soupe mexicaine rapide et savoureuse, à base de vermicelles {0_adj} torréfiés, mijotés dans une sauce {1_adj}, à l'ail et à l'oignon.</FlavorText_FideoSoup.description>
+	<FlavorText_Ingredients_PancitCanton.description>un terme général qui recouvre plusieurs plats de nouilles traditionnels des Philippines, faits de grosses nouilles {1_adj}. Celui-ci fait sauter {0_coll} avec des légumes variés. Une sauce acidulée {2_adj} lui donne le profil aigre qui le caractérise.</FlavorText_Ingredients_PancitCanton.description>
+	<FlavorText_Succotash.description>un plat de légumes amérindien, fait pour l'essentiel {1_adj} doux et {0_adj}.</FlavorText_Succotash.description>
+	<FlavorText_ArrozConMaiz.description>{1_coll} et {0_coll} cuits ensemble dans une seule marmite.</FlavorText_ArrozConMaiz.description>
+	<FlavorText_Omurice.description>une omelette {0_adj} pliée avec soin, au cœur encore coulant, posée sur un lit {1_adj}.</FlavorText_Omurice.description>
+	<FlavorText_DiriDjondjon.description>{1_coll} cuit avec un champignon {0_adj} appelé djondjon, qui donne au plat entier sa couleur gris-noir.</FlavorText_DiriDjondjon.description>
+	<FlavorText_Bap.description>un plat coréen élémentaire : {0_coll} cuit avec {1_coll} jusqu'à absorption complète de l'eau. Il existe autant de bap que d'ingrédients qu'on peut y ajouter.</FlavorText_Bap.description>
+	<FlavorText_ButterNoodles.description>un plat tout simple de nouilles {0_adj} nappées de beurre froid.</FlavorText_ButterNoodles.description>
+	<FlavorText_CacioEPepe.description>un plat de pâtes du Latium, fait de longues nouilles fines {0_adj}. La sauce se monte en versant un peu d'eau de cuisson brûlante sur du pecorino romano râpé et du poivre noir, jusqu'à ce que tout fonde et devienne lisse.</FlavorText_CacioEPepe.description>
+	<FlavorText_Polenta.description>un plat italien féculent {0_adj} bouilli, servi soit crémeux, soit ferme.</FlavorText_Polenta.description>
+	<FlavorText_Spatzle.description>une pâte fraîche {1_adj} d'Europe centrale, obtenue en passant une pâte liquide {0_adj} au travers d'une grille directement dans l'eau bouillante, ce qui forme de petits grumeaux irréguliers.</FlavorText_Spatzle.description>
+	<FlavorText_Ingredients_Noodles.description>un plat tout simple {0_adj} moulus, étirés en nouilles fines et pochés à l'eau.</FlavorText_Ingredients_Noodles.description>
+	<FlavorText_Ingredients_Orzotto.description>un plat italien proche du risotto, fait {1_adj} taillés en pâtes de la taille d'un grain de riz, les orzo. On les cuit dans une sauce {2_adj} jusqu'à ce qu'ils deviennent crémeux, puis on couvre {0_adj} rôtis.</FlavorText_Ingredients_Orzotto.description>
+	<FlavorText_Ingredients_Pilaf.description>un plat que l'on trouve dans le monde entier, reconnaissable à ses grains {2_adj} bien détachés, obtenus en les cuisant dans un bouillon {0_adj}. Celui-ci est servi avec {1_coll} caramélisés.</FlavorText_Ingredients_Pilaf.description>
+	<FlavorText_Ingredients_Risotto.description>{1_coll} cuit dans un bouillon {0_adj} jusqu'à devenir crémeux. Souvent fini au beurre ou au parmesan.</FlavorText_Ingredients_Risotto.description>
+	<FlavorText_Ingredients_Spaghetti.description>des nouilles {0_adj} moulus, remuées avec {1_coll} et servies sous une purée {2_adj}.</FlavorText_Ingredients_Spaghetti.description>
+	<FlavorText_Ingredients_With_Ingredients_Noodles.description>des nouilles torsadées {1_adj}, servies dans une sauce fine {0_adj} bouillis.</FlavorText_Ingredients_With_Ingredients_Noodles.description>
+	<FlavorText_Couscous.description>un plat originaire d'Afrique du Nord : de petits grains roulés {1_adj}, cuits à la vapeur et servis avec un ragoût {0_adj}.</FlavorText_Couscous.description>
+	<FlavorText_Pesto.description>un plat de pâtes italien : une sauce d'herbes montée avec des feuilles {0_adj} et {2_coll}, servie sur des nouilles {1_adj}.</FlavorText_Pesto.description>
+	<FlavorText_MadrasLentils.description>{0_coll} et {1_coll} mijotés longuement dans une sauce crémeuse {2_adj}. Né dans le nord de l'Inde, le plat en porte les épices : ail, gingembre, cumin, coriandre, paprika. Se sert souvent sur du riz.</FlavorText_MadrasLentils.description>
+	<FlavorText_CincinnatiChili.description>un plat de fusion inspiré de la cuisine méditerranéenne et passé dans la culture américaine : des spaghettis {2_adj} couverts d'une sauce chili {0_adj} et {1_adj}.</FlavorText_CincinnatiChili.description>
+	<FlavorText_Carbonara.description>un plat de pâtes italien fait d'une charcuterie grasse {0_adj}, de fromage à pâte dure, d'œufs et de poivre noir.</FlavorText_Carbonara.description>
+	<FlavorText_TavukPilav.description>un plat turc {1_adj} cuit dans un bouillon {0_adj} avec {2_coll} et d'autres légumes, jusqu'à absorption complète de l'eau. Servi avec un morceau {0_adj}.</FlavorText_TavukPilav.description>
+	<FlavorText_Jambalaya.description>un plat de riz né aux États-Unis du croisement d'influences africaines, espagnoles et françaises, fait pour l'essentiel {0_adj} et {2_adj}, mêlés {1_plur} et à des épices.</FlavorText_Jambalaya.description>
+	<FlavorText_MeatRaw_Tortellini.description>une pâte farcie italienne : de la pâte repliée en anneau autour d'une farce {0_adj} hachée.</FlavorText_MeatRaw_Tortellini.description>
+	<FlavorText_FurikakeGohan.description>un bol {2_adj} et {1_adj} brouillés et sucrés, couvert d'éclats {0_adj} gélifiés qui fondent à la chaleur {2_adj} et forment une sauce.</FlavorText_FurikakeGohan.description>
+	<FlavorText_Hash.description>un plat élémentaire {0_adj} hachés, {2_adj} et {1_adj} revenus à la poêle.</FlavorText_Hash.description>
+	<FlavorText_SwedishSausageStroganoff.description>une adaptation suédoise du stroganoff russe, montée sur des saucisses {0_adj} plutôt que sur du bœuf. On les tranche et on les cuit avec des oignons jaunes dans une sauce {1_adj}, servie sur des nouilles {2_adj}.</FlavorText_SwedishSausageStroganoff.description>
+	<FlavorText_MeatRaw_Stroganoff.description>des lanières {0_adj} cuites dans une sauce à la crème aigre, servies sur des nouilles {2_adj}.</FlavorText_MeatRaw_Stroganoff.description>
+	<FlavorText_Potato_Masala.description>{0_coll} bouillis et taillés en dés, relevés d'épices et d'herbes revenues à l'huile, servis sur {1_coll} cuit à la vapeur. Le plat vient du sous-continent indien.</FlavorText_Potato_Masala.description>
+	<FlavorText_JollofRice.description>un plat de riz d'Afrique de l'Ouest, préparé en général {0_plur}, {1_plur}, aux piments, aux oignons et aux épices, parfois avec d'autres légumes ou de la viande, le tout dans une seule marmite.</FlavorText_JollofRice.description>
+	<FlavorText_LocoMoco.description>un plat de la cuisine hawaïenne contemporaine : {0_coll}, couvert d'une galette {1_adj} hachée et d'une sauce brune, avec un {2_sing} au plat par-dessus.</FlavorText_LocoMoco.description>
+	<FlavorText_Maqluba.description>une forme de pilaf née au Levant : des couches {2_adj} tranchés et frits, d'autres légumes, {1_adj} et {0_adj}, noyées dans un fond {0_adj} épicé à la cannelle, à la cardamome verte, au laurier, au piment de la Jamaïque, au curcuma, au poivre et au sel. Le nom signifie « à l'envers » : on retourne la marmite sur le plat avant de servir.</FlavorText_Maqluba.description>
+	<FlavorText_LolliCon_Bean.description>un plat de pâtes rustique de Sicile : des pâtes {1_adj} cuites avec {0_coll} et {2_coll} jusqu'à ce que le tout forme une sauce crémeuse.</FlavorText_LolliCon_Bean.description>
+	<FlavorText_MeatRaw_Freekeh.description>un plat de céréales libanais très souple d'emploi, fait de grains verts {0_adj} grillés puis frottés, ce qui leur donne un goût fumé, une note de noisette et une mâche prononcée. Le cuisinier y a ajouté {1_coll} grillée et {2_coll} rôtis, pour en faire un vrai repas.</FlavorText_MeatRaw_Freekeh.description>
+	<FlavorText_MacaroniAndCheese.description>des pâtes en tubes coudés, faites d'une semoule {0_adj}, cuites avec {1_coll} et une sauce au cheddar.</FlavorText_MacaroniAndCheese.description>
+	<FlavorText_Mesfouf.description>un couscous souple d'emploi, très répandu en Algérie et en Tunisie, souvent servi pendant le ramadan. La base est toujours faite de petits grains roulés d'une farine {0_adj} avec du beurre ou de l'huile d'olive, mais la garniture varie : celle-ci fait la part belle {1_plur} et {2_plur}.</FlavorText_Mesfouf.description>
+	<FlavorText_SpaghettiAndMeatballs.description>un plat né en Italie : de longues nouilles fines {0_adj} couvertes d'une sauce {1_adj} et de boulettes {2_adj} roulées à la main et assaisonnées.</FlavorText_SpaghettiAndMeatballs.description>
+
+	<!-- Pâtes à tartiner et gelées -->
+	<FlavorText_AnimalProductRaw_Chunks.description>{0_coll} pris en morceaux de la taille d'une bouchée, liés {1_plur}.</FlavorText_AnimalProductRaw_Chunks.description>
+	<FlavorText_AnimalProductRaw_Gel.description>une gelée transparente {0_adj}, piquée de morceaux {1_adj} et {2_adj} disposés de façon festive.</FlavorText_AnimalProductRaw_Gel.description>
+	<FlavorText_Jellied_AnimalProductRaw.description>{0_coll} pris en gelée et moulés dans une forme engageante.</FlavorText_Jellied_AnimalProductRaw.description>
+	<FlavorText_SteamedRefried_Bean.description>une purée {0_adj} bien revenue à l'huile, puis passée à la vapeur pour lui rendre son humidité.</FlavorText_SteamedRefried_Bean.description>
+
+</LanguageData>

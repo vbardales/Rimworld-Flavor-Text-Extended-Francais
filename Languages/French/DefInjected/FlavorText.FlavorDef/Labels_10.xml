@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 10 : en-cas et soupes.
+-->
+<LanguageData>
+
+	<!-- En-cas -->
+	<FlavorText_NachosAndSalsa.label>nachos et salsa</FlavorText_NachosAndSalsa.label>
+	<FlavorText_PizzaRolls.label>roulés pizza</FlavorText_PizzaRolls.label>
+	<FlavorText_SpanishOmelette.label>tortilla espagnole</FlavorText_SpanishOmelette.label>
+	<FlavorText_Escalivada.label>escalivada</FlavorText_Escalivada.label>
+	<FlavorText_Fruit_GummySnacks.label>bonbons gélifiés {0_plur}</FlavorText_Fruit_GummySnacks.label>
+	<FlavorText_TrailMix.label>mélange du randonneur</FlavorText_TrailMix.label>
+	<FlavorText_Pretzel.label>bretzel</FlavorText_Pretzel.label>
+	<FlavorText_Ingredients_Popcorn.label>popcorn {0_plur}</FlavorText_Ingredients_Popcorn.label>
+	<FlavorText_Ingredients_PowerBar.label>barre énergétique {0_plur}</FlavorText_Ingredients_PowerBar.label>
+	<FlavorText_Ingredients_With_Ingredients_Dip.label>{0_coll} et sauce {1_adj}</FlavorText_Ingredients_With_Ingredients_Dip.label>
+	<FlavorText_PlantFoodRaw_ChipsAndDip.label>chips {2_adj} et sauce</FlavorText_PlantFoodRaw_ChipsAndDip.label>
+	<FlavorText_Dried_Ingredients.label>conserve sèche {0_adj}</FlavorText_Dried_Ingredients.label>
+	<FlavorText_Instant_Ingredients_Ramen.label>ramen instantané {0_plur}</FlavorText_Instant_Ingredients_Ramen.label>
+	<FlavorText_MeatRaw_Jerky.label>viande séchée {0_adj}</FlavorText_MeatRaw_Jerky.label>
+	<FlavorText_DinoNuggets.label>nuggets dinosaures</FlavorText_DinoNuggets.label>
+	<FlavorText_GranolaBar.label>barre de granola</FlavorText_GranolaBar.label>
+	<FlavorText_PlantFoodRaw_Chips.label>chips {0_adj}</FlavorText_PlantFoodRaw_Chips.label>
+	<FlavorText_ProteinBar.label>barre protéinée</FlavorText_ProteinBar.label>
+	<FlavorText_Rice_Crackers.label>crackers {0_adj}</FlavorText_Rice_Crackers.label>
+	<FlavorText_Rice_KrispiesTreats.label>carrés soufflés {0_plur}</FlavorText_Rice_KrispiesTreats.label>
+	<FlavorText_Mukhwas.label>mukhwas</FlavorText_Mukhwas.label>
+	<FlavorText_KettleCorn.label>popcorn sucré</FlavorText_KettleCorn.label>
+
+	<!-- Soupes sucrées -->
+	<FlavorText_GinataangMais.label>ginataang mais</FlavorText_GinataangMais.label>
+	<FlavorText_Ingredients_TongSui.label>tong sui {0_plur}</FlavorText_Ingredients_TongSui.label>
+	<FlavorText_SnowFungusSoup.label>soupe au champignon des neiges</FlavorText_SnowFungusSoup.label>
+	<FlavorText_Poi.label>poi</FlavorText_Poi.label>
+
+	<!-- Ragoûts servis sur féculent -->
+	<FlavorText_EbaWith_Ingredients_Stew.label>eba et ragoût {0_adj}</FlavorText_EbaWith_Ingredients_Stew.label>
+	<FlavorText_UgaliAnd_Ingredients_Stew.label>ugali et ragoût {0_adj}</FlavorText_UgaliAnd_Ingredients_Stew.label>
+	<FlavorText_RagdaPattice.label>ragda pattice</FlavorText_RagdaPattice.label>
+	<FlavorText_Tikourbabine.label>tikourbabine</FlavorText_Tikourbabine.label>
+	<FlavorText_Sujebi.label>sujebi</FlavorText_Sujebi.label>
+	<FlavorText_Etouffee.label>étouffée</FlavorText_Etouffee.label>
+	<FlavorText_MeatRaw_Ramen.label>ramen {0_plur}</FlavorText_MeatRaw_Ramen.label>
+	<FlavorText_Rendang.label>rendang</FlavorText_Rendang.label>
+
+	<!-- Soupes -->
+	<FlavorText_AnimalProductRaw_Grits.label>gruau de maïs {0_adj}</FlavorText_AnimalProductRaw_Grits.label>
+	<FlavorText_AnimalProductRaw_Porridge.label>porridge {0_adj}</FlavorText_AnimalProductRaw_Porridge.label>
+	<FlavorText_Bazin.label>bazin</FlavorText_Bazin.label>
+	<FlavorText_Feijoada.label>feijoada</FlavorText_Feijoada.label>
+	<FlavorText_Gising-Gising.label>gising-gising</FlavorText_Gising-Gising.label>
+	<FlavorText_Potaje.label>potaje</FlavorText_Potaje.label>
+	<FlavorText_PinkSoup.label>soupe rose</FlavorText_PinkSoup.label>
+	<FlavorText_Piperade.label>pipérade</FlavorText_Piperade.label>
+	<FlavorText_Lablabi.label>lablabi</FlavorText_Lablabi.label>
+	<FlavorText_Condiment_Reduction.label>réduction {0_adj}</FlavorText_Condiment_Reduction.label>
+	<FlavorText_Condiment_Condiment_Sauce.label>sauce {0_adj} et {1_adj}</FlavorText_Condiment_Condiment_Sauce.label>
+	<FlavorText_Condiment_Dressing.label>vinaigrette {0_adj}</FlavorText_Condiment_Dressing.label>
+	<FlavorText_Tocana.label>tocană</FlavorText_Tocana.label>
+	<FlavorText_Menemen.label>menemen</FlavorText_Menemen.label>
+	<!-- L'orthographe levantine, pour la distinguer de la chakchouka maghrébine du mod -->
+	<FlavorText_Shakshuka.label>shakshuka</FlavorText_Shakshuka.label>
+	<FlavorText_UovaAlPurgatorio.label>uova al purgatorio</FlavorText_UovaAlPurgatorio.label>
+	<FlavorText_ConfitByaldi.label>confit byaldi</FlavorText_ConfitByaldi.label>
+	<FlavorText_Ratatouille.label>ratatouille</FlavorText_Ratatouille.label>
+	<FlavorText_BagaraBaingan.label>bagara baingan</FlavorText_BagaraBaingan.label>
+	<FlavorText_Fungus_Stew.label>étuvée {0_adj}</FlavorText_Fungus_Stew.label>
+	<FlavorText_Tourin.label>tourin</FlavorText_Tourin.label>
+	<FlavorText_Ingredients_Thukpa.label>thukpa {2_plur}</FlavorText_Ingredients_Thukpa.label>
+	<FlavorText_AjoBlanco.label>ajoblanco</FlavorText_AjoBlanco.label>
+	<FlavorText_Zanzarelli.label>zanzarelli</FlavorText_Zanzarelli.label>
+	<FlavorText_Ingredients_Bisque.label>bisque {0_adj}</FlavorText_Ingredients_Bisque.label>
+	<FlavorText_Ingredients_Bouillon.label>bouillon {0_adj}</FlavorText_Ingredients_Bouillon.label>
+	<FlavorText_Ingredients_Chowder.label>chaudrée {0_adj}</FlavorText_Ingredients_Chowder.label>
+	<FlavorText_Ingredients_Chowder_2.label>chaudrée {0_adj}</FlavorText_Ingredients_Chowder_2.label>
+	<FlavorText_Ingredients_Congee.label>congee {0_plur}</FlavorText_Ingredients_Congee.label>
+	<FlavorText_Ingredients_Curry.label>curry {0_adj}</FlavorText_Ingredients_Curry.label>
+	<FlavorText_Ingredients_Fricot.label>fricot {0_plur}</FlavorText_Ingredients_Fricot.label>
+	<FlavorText_Ingredients_Jjigae.label>jjigae {0_plur}</FlavorText_Ingredients_Jjigae.label>
+	<FlavorText_Ingredients_Korma.label>korma {0_plur}</FlavorText_Ingredients_Korma.label>
+	<FlavorText_Ingredients_NoodleSoup.label>soupe de nouilles {0_plur}</FlavorText_Ingredients_NoodleSoup.label>
+	<FlavorText_Ingredients_Ph.label>phở {0_plur}</FlavorText_Ingredients_Ph.label>
+	<FlavorText_Ingredients_Pottage.label>potage {0_adj}</FlavorText_Ingredients_Pottage.label>
+	<FlavorText_Ingredients_Ragout.label>ragoût {0_adj}</FlavorText_Ingredients_Ragout.label>
+	<FlavorText_Ingredients_TikkaMasala.label>tikka masala {0_plur}</FlavorText_Ingredients_TikkaMasala.label>
+	<FlavorText_Coddle.label>coddle</FlavorText_Coddle.label>
+	<FlavorText_CreamOf_Ingredients_Soup.label>velouté {0_adj}</FlavorText_CreamOf_Ingredients_Soup.label>
+	<FlavorText_HotAndSour_Ingredients_Soup.label>soupe aigre-piquante {0_plur}</FlavorText_HotAndSour_Ingredients_Soup.label>
+	<FlavorText_Jjim.label>jjim</FlavorText_Jjim.label>
+	<FlavorText_MinestroneSoup.label>soupe minestrone</FlavorText_MinestroneSoup.label>
+	<FlavorText_MisoSoup.label>soupe miso</FlavorText_MisoSoup.label>
+	<FlavorText_MulliganStew.label>ragoût mulligan</FlavorText_MulliganStew.label>
+	<FlavorText_Miyeok-Guk.label>miyeok-guk</FlavorText_Miyeok-Guk.label>
+
+</LanguageData>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Mangue.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Aamras.label>aamras</FlavorTextFR_Aamras.label>
+	<FlavorTextFR_Aamras.description>la pulpe {0_adj} pressée à la main plutôt que mixée — le fouet oxyde et ternit la couleur —, à peine {1_plur} et parfumée au cardamome et au safran.</FlavorTextFR_Aamras.description>
+	<FlavorTextFR_AamrasPuri.label>aamras puri</FlavorTextFR_AamrasPuri.label>
+	<FlavorTextFR_AamrasPuri.description>la purée {0_adj} servie avec des puri gonflés brûlants, qu'on déchire pour y tremper. Sucré et salé dans la même bouchée : un repas entier au Gujarat pendant la saison.</FlavorTextFR_AamrasPuri.description>
+	<FlavorTextFR_MangoLassi.label>mango lassi</FlavorTextFR_MangoLassi.label>
+	<FlavorTextFR_MangoLassi.description>{0_coll} battue {1_plur} et {2_plur} jusqu'à mousser, servie glacée. L'acidité du yaourt empêche le fruit d'écœurer.</FlavorTextFR_MangoLassi.description>
+	<FlavorTextFR_MangoShrikhand.label>mango shrikhand</FlavorTextFR_MangoShrikhand.label>
+	<FlavorTextFR_MangoShrikhand.description>{1_coll} suspendu une nuit dans une mousseline jusqu'à perdre tout son petit-lait, mêlé à la pulpe {0_adj} et parsemé {2_adj} effilées.</FlavorTextFR_MangoShrikhand.description>
+	<FlavorTextFR_MangoKulfi.label>mango kulfi</FlavorTextFR_MangoKulfi.label>
+	<FlavorTextFR_MangoKulfi.description>{1_coll} réduit de moitié puis chargé de pulpe {0_adj} et {2_adj}, gelé dans des cônes de métal sans être battu. Il fond lentement, ce qui laisse le temps d'en profiter.</FlavorTextFR_MangoKulfi.description>
+	<FlavorTextFR_MangoPhirni.label>mango phirni</FlavorTextFR_MangoPhirni.label>
+	<FlavorTextFR_MangoPhirni.description>{1_coll} broyé grossièrement avant cuisson — c'est ce qui distingue le phirni du kheer — cuit {2_plur} jusqu'à épaissir, puis refroidi en coupelles de terre avec la purée {0_adj}.</FlavorTextFR_MangoPhirni.description>
+	<FlavorTextFR_MangoStickyRice.label>mango sticky rice</FlavorTextFR_MangoStickyRice.label>
+	<FlavorTextFR_MangoStickyRice.description>{1_coll} gluant trempé une nuit, cuit à la vapeur puis noyé de lait {2_adj} salé et sucré, avec {0_coll} tranchée à côté. La crème salée versée par-dessus au dernier moment est ce que les imitations oublient.</FlavorTextFR_MangoStickyRice.description>
+	<FlavorTextFR_CheXoai.label>chè xoài</FlavorTextFR_CheXoai.label>
+	<FlavorTextFR_CheXoai.description>des dés {0_adj} dans un lait {1_adj} sucré, avec des perles de tapioca et de la glace pilée. Se boit à la paille large autant qu'il se mange à la cuillère.</FlavorTextFR_CheXoai.description>
+	<FlavorTextFR_MangoPomeloSago.label>mango pomelo sago</FlavorTextFR_MangoPomeloSago.label>
+	<FlavorTextFR_MangoPomeloSago.description>une purée {0_adj} allongée {1_plur}, avec des perles de sagou et des vésicules {2_adj} détachées une à une. L'amertume du pomélo empêche l'ensemble de tourner au sirop.</FlavorTextFR_MangoPomeloSago.description>
+	<FlavorTextFR_MangoPudding.label>mango pudding</FlavorTextFR_MangoPudding.label>
+	<FlavorTextFR_MangoPudding.description>une crème prise {2_plur} et {1_plur} évaporé, démoulée tremblante, avec des dés {0_adj} frais dessus. Le dessert de fin de dim sum cantonais.</FlavorTextFR_MangoPudding.description>
+	<FlavorTextFR_MangoFloat.label>mango float</FlavorTextFR_MangoFloat.label>
+	<FlavorTextFR_MangoFloat.description>des couches alternées de biscuits graham, {1_adj} fouettée au lait concentré et {0_adj} en lamelles, prises une nuit au froid. Les biscuits ramollissent et deviennent gâteau.</FlavorTextFR_MangoFloat.description>
+	<FlavorTextFR_MangoBingsu.label>mango bingsu</FlavorTextFR_MangoBingsu.label>
+	<FlavorTextFR_MangoBingsu.description>une montagne de {1_coll} congelé et rasé en flocons — pas de glace pilée, du lait gelé — couverte {0_plur} et d'une cuillerée de pâte {2_adj} sucrés.</FlavorTextFR_MangoBingsu.description>
+	<FlavorTextFR_MangoCheesecake.label>cheesecake à la mangue</FlavorTextFR_MangoCheesecake.label>
+	<FlavorTextFR_MangoCheesecake.description>un appareil {1_adj} et {2_adj} sous un miroir {0_adj}. Le fruit doit être très mûr : une mangue ferme rend de l'eau et fait couler le miroir.</FlavorTextFR_MangoCheesecake.description>
+	<FlavorTextFR_MangoPavlova.label>pavlova à la mangue</FlavorTextFR_MangoPavlova.label>
+	<FlavorTextFR_MangoPavlova.description>une meringue {1_adj} séchée des heures à four très doux, craquante dehors et guimauve dedans, couverte {2_plur} fouettée et {0_plur}. Se monte à la dernière minute.</FlavorTextFR_MangoPavlova.description>
+	<FlavorTextFR_MousseDeManga.label>mousse de manga</FlavorTextFR_MousseDeManga.label>
+	<FlavorTextFR_MousseDeManga.description>la pulpe {0_adj} montée {1_plur} fouettée, sans gélatine — la fibre du fruit suffit à tenir si la mangue est assez mûre. Se sert en verre, bien froide.</FlavorTextFR_MousseDeManga.description>
+	<FlavorTextFR_Mangonada.label>mangonada</FlavorTextFR_Mangonada.label>
+	<FlavorTextFR_Mangonada.description>{0_coll} glacée, du chamoy acide et salé, {2_coll} vert et une pluie de poudre {1_adj}, avec un bâton de tamarin planté dedans. Sucré, salé, acide et piquant en une seule gorgée.</FlavorTextFR_Mangonada.description>
+	<FlavorTextFR_MangoChutney.label>chutney de mangue</FlavorTextFR_MangoChutney.label>
+	<FlavorTextFR_MangoChutney.description>{0_coll} vertes confites au vinaigre {1_plur} et {2_plur}, jusqu'à devenir translucides et ambrées. Se garde un an et s'améliore les premiers mois.</FlavorTextFR_MangoChutney.description>
+	<FlavorTextFR_AamKaAchar.label>aam ka achar</FlavorTextFR_AamKaAchar.label>
+	<FlavorTextFR_AamKaAchar.description>des morceaux {0_adj} verte salés et séchés au soleil, puis noyés dans une huile de moutarde chargée {1_plur} et d'épices. Rien n'est cuit : c'est le soleil et le sel qui font tout, en quelques semaines.</FlavorTextFR_AamKaAchar.description>
+	<FlavorTextFR_MangoChow.label>mango chow</FlavorTextFR_MangoChow.label>
+	<FlavorTextFR_MangoChow.description>{0_coll} verte en quartiers, secouée dans du sel, {1_coll} écrasés, {2_coll} et du chadon beni. Se mange dans le sachet même, à Trinidad, au bord de la route.</FlavorTextFR_MangoChow.description>
+	<FlavorTextFR_SambalMangga.label>sambal mangga</FlavorTextFR_SambalMangga.label>
+	<FlavorTextFR_SambalMangga.description>{0_coll} verte râpée pilée {1_plur} et {2_plur} au mortier, avec de la pâte de crevette. L'acidité du fruit remplace le tamarin et rend le sambal plus vif.</FlavorTextFR_SambalMangga.description>
+	<FlavorTextFR_RougailMangue.label>rougail mangue</FlavorTextFR_RougailMangue.label>
+	<FlavorTextFR_RougailMangue.description>{0_coll} verte écrasée au sel {1_plur} et {2_plur}, servie crue à côté du cari. À la Réunion, aucun repas n'arrive sans son rougail.</FlavorTextFR_RougailMangue.description>
+	<FlavorTextFR_AchardDeMangue.label>achard de mangue</FlavorTextFR_AchardDeMangue.label>
+	<FlavorTextFR_AchardDeMangue.description>{0_coll} verte et {1_coll} en fine julienne, blanchies puis marinées {2_plur} au curcuma et à la moutarde. Le condiment mauricien, croquant et jaune vif.</FlavorTextFR_AchardDeMangue.description>
+	<FlavorTextFR_GoiXoai.label>gỏi xoài</FlavorTextFR_GoiXoai.label>
+	<FlavorTextFR_GoiXoai.description>{0_coll} verte en julienne, {2_coll} séchée effilochée, {1_coll} concassées et une sauce de poisson au citron vert. Le croquant tient de la mangue, pas de la salade.</FlavorTextFR_GoiXoai.description>
+	<FlavorTextFR_MangoDal.label>mango dal</FlavorTextFR_MangoDal.label>
+	<FlavorTextFR_MangoDal.description>{1_coll} cuits jusqu'à se défaire avec {0_coll} verte en morceaux, qui remplace le tamarin comme acide. Un tempérage {2_adj} grillées versé brûlant à la fin.</FlavorTextFR_MangoDal.description>
+	<FlavorTextFR_RawMangoCurry.label>curry de mangue verte</FlavorTextFR_RawMangoCurry.label>
+	<FlavorTextFR_RawMangoCurry.description>{0_coll} verte mijotée dans un lait {1_adj} monté au curcuma et aux graines de moutarde. Le fruit garde sa tenue et son acidité : ce n'est pas un dessert malgré le sucre qu'il contient.</FlavorTextFR_RawMangoCurry.description>
+	<FlavorTextFR_MangoChickenCurry.label>curry de poulet à la mangue</FlavorTextFR_MangoChickenCurry.label>
+	<FlavorTextFR_MangoChickenCurry.description>{1_coll} mijotée dans une sauce où {0_coll} mûre fond et sucre le curry, tandis que quelques morceaux verts gardés entiers apportent l'acide.</FlavorTextFR_MangoChickenCurry.description>
+	<FlavorTextFR_CevicheMangue.label>ceviche à la mangue</FlavorTextFR_CevicheMangue.label>
+	<FlavorTextFR_CevicheMangue.description>{1_coll} crue raidie par l'acide {2_adj}, avec {0_coll} en dés et de la coriandre. Le sucre du fruit arrondit le citron sans l'annuler.</FlavorTextFR_CevicheMangue.description>
+	<FlavorTextFR_TartareThonMangue.label>tartare de thon à la mangue</FlavorTextFR_TartareThonMangue.label>
+	<FlavorTextFR_TartareThonMangue.description>{1_coll} taillée au couteau en dés réguliers, mêlée {0_plur} de la même taille, huile {2_adj} et soja. Coupé au robot, le poisson devient une pâte : c'est tout ce qu'il faut éviter.</FlavorTextFR_TartareThonMangue.description>
+	<FlavorTextFR_PokeSaumonMangue.label>poke saumon-mangue</FlavorTextFR_PokeSaumonMangue.label>
+	<FlavorTextFR_PokeSaumonMangue.description>{2_coll} vinaigré tiède au fond du bol, {1_coll} crue marinée au soja, {0_coll} en cubes et de l'oignon nouveau. Le riz doit être tiède et le poisson froid.</FlavorTextFR_PokeSaumonMangue.description>
+
+</LanguageData>

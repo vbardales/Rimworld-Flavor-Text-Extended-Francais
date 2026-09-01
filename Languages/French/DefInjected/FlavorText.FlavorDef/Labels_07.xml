@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 07 : plats mijotés, pommes de terre, pâtes et riz.
+-->
+<LanguageData>
+
+	<FlavorText_Meatloaf.label>pain de viande</FlavorText_Meatloaf.label>
+	<FlavorText_MincemeatPie.label>tourte au hachis</FlavorText_MincemeatPie.label>
+	<FlavorText_Picadillo.label>picadillo</FlavorText_Picadillo.label>
+	<FlavorText_PyttIPanna.label>pytt i panna</FlavorText_PyttIPanna.label>
+	<FlavorText_PyttIPanna_2.label>pytt i panna</FlavorText_PyttIPanna_2.label>
+	<FlavorText_SwedishMeatballs.label>boulettes suédoises</FlavorText_SwedishMeatballs.label>
+	<FlavorText_MeatRaw_Stroganoff_2.label>stroganoff {0_adj}</FlavorText_MeatRaw_Stroganoff_2.label>
+	<FlavorText_Murtabak.label>murtabak</FlavorText_Murtabak.label>
+	<FlavorText_Fried_Ingredients_With_MeatRaw.label>{1_coll} et {0_coll} à la poêle</FlavorText_Fried_Ingredients_With_MeatRaw.label>
+
+	<!-- Pommes de terre -->
+	<FlavorText_Colcannon.label>colcannon</FlavorText_Colcannon.label>
+	<FlavorText_PotatosObrien.label>pommes de terre O'Brien</FlavorText_PotatosObrien.label>
+	<FlavorText_PlantFoodRaw_Stoemp.label>stoemp {0_plur}</FlavorText_PlantFoodRaw_Stoemp.label>
+	<FlavorText_PlantFoodRaw_WooltonPie.label>tourte Woolton {1_plur}</FlavorText_PlantFoodRaw_WooltonPie.label>
+	<FlavorText_BatataHarra.label>batata harra</FlavorText_BatataHarra.label>
+	<FlavorText_BombayPotatoes.label>pommes de terre de Bombay</FlavorText_BombayPotatoes.label>
+	<FlavorText_BubbleAndSqueak.label>bubble and squeak</FlavorText_BubbleAndSqueak.label>
+	<FlavorText_Clapshot.label>clapshot</FlavorText_Clapshot.label>
+	<FlavorText_HashBrowns.label>pommes de terre rissolées</FlavorText_HashBrowns.label>
+	<FlavorText_HasselbackPotatoes.label>pommes de terre Hasselback</FlavorText_HasselbackPotatoes.label>
+	<FlavorText_SwedishDill_Potato.label>{0_coll} à l'aneth</FlavorText_SwedishDill_Potato.label>
+	<FlavorText_Skordalia.label>skordaliá</FlavorText_Skordalia.label>
+
+	<!-- Riz et céréales -->
+	<FlavorText_BaioDeDois.label>baião de dois</FlavorText_BaioDeDois.label>
+	<FlavorText_BaioDeDois_2.label>baião de dois</FlavorText_BaioDeDois_2.label>
+	<FlavorText_BanhXeo.label>bánh xèo</FlavorText_BanhXeo.label>
+	<FlavorText_KhanumKrok.label>khanom krok</FlavorText_KhanumKrok.label>
+	<FlavorText_Dambou.label>dambou</FlavorText_Dambou.label>
+	<FlavorText_Edamame.label>edamame</FlavorText_Edamame.label>
+	<FlavorText_BrunedeKartofler.label>brunede kartofler</FlavorText_BrunedeKartofler.label>
+	<FlavorText_Roasted_Vegetable.label>{0_coll} à la braise</FlavorText_Roasted_Vegetable.label>
+	<FlavorText_VegetableMacedonia.label>macédoine de légumes</FlavorText_VegetableMacedonia.label>
+	<FlavorText_Yachaejeon.label>yachaejeon</FlavorText_Yachaejeon.label>
+	<FlavorText_BunnyChow.label>bunny chow</FlavorText_BunnyChow.label>
+	<FlavorText_Croffle.label>croffle</FlavorText_Croffle.label>
+
+	<!-- Pâtes -->
+	<FlavorText_Ingredients-FilledPastaShells.label>conchiglioni farcis {1_adj}</FlavorText_Ingredients-FilledPastaShells.label>
+	<FlavorText_Champorado.label>champorado</FlavorText_Champorado.label>
+	<FlavorText_LeafyVeg_Ravioli.label>raviolis {0_plur}</FlavorText_LeafyVeg_Ravioli.label>
+	<FlavorText_BuddhaBowl.label>Buddha bowl</FlavorText_BuddhaBowl.label>
+	<FlavorText_FideoSoup.label>soupe de fideos</FlavorText_FideoSoup.label>
+	<FlavorText_Ingredients_PancitCanton.label>pancit canton {0_plur}</FlavorText_Ingredients_PancitCanton.label>
+	<FlavorText_Succotash.label>succotash</FlavorText_Succotash.label>
+	<FlavorText_ArrozConMaiz.label>arroz con maíz</FlavorText_ArrozConMaiz.label>
+	<FlavorText_Cou-Cou.label>cou-cou</FlavorText_Cou-Cou.label>
+	<FlavorText_Omurice.label>omurice</FlavorText_Omurice.label>
+	<FlavorText_DiriDjondjon.label>diri djon djon</FlavorText_DiriDjondjon.label>
+	<FlavorText_Bap.label>bap</FlavorText_Bap.label>
+	<FlavorText_ButterNoodles.label>nouilles au beurre</FlavorText_ButterNoodles.label>
+	<FlavorText_CacioEPepe.label>cacio e pepe</FlavorText_CacioEPepe.label>
+	<FlavorText_Polenta.label>polenta</FlavorText_Polenta.label>
+	<FlavorText_Spatzle.label>spätzle</FlavorText_Spatzle.label>
+	<FlavorText_Ingredients_Noodles.label>nouilles {0_plur}</FlavorText_Ingredients_Noodles.label>
+	<FlavorText_Ingredients_Orzotto.label>orzotto {0_plur}</FlavorText_Ingredients_Orzotto.label>
+	<FlavorText_Ingredients_Pilaf.label>pilaf {0_plur}</FlavorText_Ingredients_Pilaf.label>
+	<FlavorText_Ingredients_Risotto.label>risotto {0_plur}</FlavorText_Ingredients_Risotto.label>
+	<FlavorText_Ingredients_Spaghetti.label>spaghettis {0_plur}</FlavorText_Ingredients_Spaghetti.label>
+	<FlavorText_Ingredients_With_Ingredients_Noodles.label>{0_coll} et nouilles {1_adj}</FlavorText_Ingredients_With_Ingredients_Noodles.label>
+	<FlavorText_Couscous.label>couscous</FlavorText_Couscous.label>
+	<FlavorText_Pesto.label>pesto</FlavorText_Pesto.label>
+	<FlavorText_MadrasLentils.label>lentilles de Madras</FlavorText_MadrasLentils.label>
+	<FlavorText_CincinnatiChili.label>chili de Cincinnati</FlavorText_CincinnatiChili.label>
+	<FlavorText_Carbonara.label>carbonara</FlavorText_Carbonara.label>
+	<FlavorText_TavukPilav.label>tavuk pilav</FlavorText_TavukPilav.label>
+	<FlavorText_Jambalaya.label>jambalaya</FlavorText_Jambalaya.label>
+	<FlavorText_MeatRaw_Tortellini.label>tortellini {0_plur}</FlavorText_MeatRaw_Tortellini.label>
+	<FlavorText_FurikakeGohan.label>furikake gohan</FlavorText_FurikakeGohan.label>
+	<FlavorText_Hash.label>hachis rissolé</FlavorText_Hash.label>
+	<FlavorText_SwedishSausageStroganoff.label>stroganoff de saucisse suédois</FlavorText_SwedishSausageStroganoff.label>
+	<FlavorText_MeatRaw_Stroganoff.label>stroganoff {0_adj}</FlavorText_MeatRaw_Stroganoff.label>
+	<FlavorText_Potato_Masala.label>masala {0_plur}</FlavorText_Potato_Masala.label>
+	<FlavorText_JollofRice.label>riz jollof</FlavorText_JollofRice.label>
+	<FlavorText_LocoMoco.label>loco moco</FlavorText_LocoMoco.label>
+	<FlavorText_Maqluba.label>maqluba</FlavorText_Maqluba.label>
+	<FlavorText_LolliCon_Bean.label>lolli {2_plur}</FlavorText_LolliCon_Bean.label>
+	<FlavorText_MeatRaw_Freekeh.label>freekeh {1_plur}</FlavorText_MeatRaw_Freekeh.label>
+	<FlavorText_MacaroniAndCheese.label>macaronis au fromage</FlavorText_MacaroniAndCheese.label>
+	<FlavorText_Mesfouf.label>mesfouf</FlavorText_Mesfouf.label>
+	<FlavorText_SpaghettiAndMeatballs.label>spaghettis aux boulettes</FlavorText_SpaghettiAndMeatballs.label>
+
+	<!-- Pâtes à tartiner et gelées -->
+	<FlavorText_AnimalProductRaw_Chunks.label>morceaux {0_adj}</FlavorText_AnimalProductRaw_Chunks.label>
+	<FlavorText_AnimalProductRaw_Gel.label>gel {0_adj}</FlavorText_AnimalProductRaw_Gel.label>
+	<FlavorText_Jellied_AnimalProductRaw.label>gelée {0_adj}</FlavorText_Jellied_AnimalProductRaw.label>
+	<FlavorText_SteamedRefried_Bean.label>{0_coll} refrits à la vapeur</FlavorText_SteamedRefried_Bean.label>
+
+</LanguageData>

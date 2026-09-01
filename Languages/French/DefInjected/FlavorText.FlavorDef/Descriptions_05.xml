@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 05 : bouchées vapeur, rouleaux, grillades, plats ordinaires.
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- Bouchées vapeur et rouleaux -->
+	<FlavorText_Shumai.description>un petit ravioli né du dim sum chinois : une farce {0_adj} et {1_adj} hachés, dans une fine pâte {2_adj} traitée au kansui.</FlavorText_Shumai.description>
+	<FlavorText_Meat_Seafood_Sushi.description>{2_coll} vinaigré et sucré, moulé autour d'une garniture {0_adj} crus soigneusement choisis et {1_adj} — une affaire de goût et de texture avant tout.</FlavorText_Meat_Seafood_Sushi.description>
+	<FlavorText_MeatRaw_Lumpia.description>le nom couvre plusieurs rouleaux de printemps de Chine, d'Indonésie et des Philippines. Ceux-ci sont faits d'une feuille de pâte {2_adj} fine comme du papier, enroulée sur une garniture {0_adj} et {1_adj}.</FlavorText_MeatRaw_Lumpia.description>
+	<FlavorText_MeatRaw_Sarma.description>une farce {2_adj} et {0_adj} hachée, roulée dans des feuilles {1_adj} comestibles et cuite au bouillon dans une grande marmite.</FlavorText_MeatRaw_Sarma.description>
+	<FlavorText_MeatRaw_Wontons.description>un ravioli {0_adj} enfermée dans une pâte {2_adj} et poché au bouillon. Servi ici avec une sauce sucrée pour tremper.</FlavorText_MeatRaw_Wontons.description>
+	<FlavorText_Tsampa.description>une pâte glutineuse d'origine tibétaine, faite d'une farine {1_adj} grillée. On la travaille du bout des doigts dans {2_coll} beurré pour former une petite boulette qui s'avale d'un coup.</FlavorText_Tsampa.description>
+	<FlavorText_PlantFoodRaw_SpringRolls.description>une garniture {1_adj} et {0_adj}, enroulée dans une galette {2_adj} très fine.</FlavorText_PlantFoodRaw_SpringRolls.description>
+	<FlavorText_Rice_Balls.description>{0_coll} cuit à la vapeur puis pressé en boules, qui se mangent à la main.</FlavorText_Rice_Balls.description>
+	<FlavorText_Bean_Mochi.description>des boules souples de pâte {0_adj} pilé et sucré, adoucies {1_plur} et refermées sur une garniture {2_adj}.</FlavorText_Bean_Mochi.description>
+	<FlavorText_Dango.description>une quenelle japonaise faite d'une farine {0_adj} et d'une farine {1_adj}. On les roule en boules et on les sert en brochette. Celui-ci vient avec un sirop {2_adj}.</FlavorText_Dango.description>
+	<FlavorText_Dolma.description>un plat farci associé à la cuisine ottomane : une pièce {2_adj} entière, évidée et garnie d'une farce {0_adj} et {1_adj}.</FlavorText_Dolma.description>
+	<FlavorText_Dolma_2.description>un plat farci associé à la cuisine ottomane : des abats {2_adj} garnis d'une farce {0_adj} et {1_adj}.</FlavorText_Dolma_2.description>
+	<FlavorText_Dosa.description>une crêpe fine et salée de la cuisine indienne, faite d'une pâte fermentée {1_adj} moulus et {0_adj}.</FlavorText_Dosa.description>
+	<FlavorText_Idli.description>un petit gâteau de riz salé, originaire du sud de l'Inde. On cuit à la vapeur une pâte fermentée {0_adj} décortiqués et {1_adj}.</FlavorText_Idli.description>
+	<FlavorText_Jeungpyeon.description>un tteok coréen {0_adj}, reconnaissable à sa pâte montée à l'alcool {1_adj} avant d'être cuite à la vapeur.</FlavorText_Jeungpyeon.description>
+	<FlavorText_Tteok.description>un terme générique pour toute une famille de gâteaux coréens {0_adj} — cuits à la vapeur, poêlés ou passés au four.</FlavorText_Tteok.description>
+	<FlavorText_SarimsakliKofte.description>un plat turc savoureux : des quenelles {0_adj} servies dans une sauce riche et très aillée {1_adj} et à la pâte de piment.</FlavorText_SarimsakliKofte.description>
+
+	<!-- Grillades -->
+	<FlavorText_Currywurst.description>un plat germanique : une saucisse {0_adj} grillée, tranchée en bouchées et noyée sous un ketchup {1_adj} relevé d'un mélange d'épices à curry.</FlavorText_Currywurst.description>
+	<FlavorText_Kastane.description>{0_coll} tout juste grillés sur le gril.</FlavorText_Kastane.description>
+	<FlavorText_CigKofte.description>une entrée crue de Turquie et d'Arménie, faite {0_adj} moulus, {1_adj} et d'une pâte {2_adj}, serrée dans la main pour former un boudin marqué de l'empreinte des doigts. On la faisait à la viande crue ; depuis une loi sanitaire, les versions végétariennes et véganes dominent.</FlavorText_CigKofte.description>
+	<FlavorText_Misir.description>des épis {0_adj} frais, grillés entiers dans leur spathe.</FlavorText_Misir.description>
+	<FlavorText_Elote.description>{2_coll} grillé, généreusement enduit de mayonnaise et d'une crème aigre acidulée. Se mange au mieux avec du piment.</FlavorText_Elote.description>
+	<FlavorText_Ingredients_Roast.description>une pièce {0_adj} couverte {1_adj} et de morceaux {2_adj}, grillée à la flamme vive jusqu'à ce qu'elle soit tendre.</FlavorText_Ingredients_Roast.description>
+	<FlavorText_MeatRaw_KoreanBBQ.description>des morceaux {2_adj} et {1_adj} cuits à même une grande plaque de métal bombée, avec {0_coll}. La plaque descend d'un usage de l'armée mongole, qui cuisait sur ses grands boucliers ronds.</FlavorText_MeatRaw_KoreanBBQ.description>
+	<FlavorText_Barbecued_Ingredients.description>une pièce {0_adj} entière, grillée à la flamme vive du barbecue jusqu'à prendre un peu de noir.</FlavorText_Barbecued_Ingredients.description>
+	<FlavorText_Roasted_Ingredients_And_Ingredients.description>un mélange {0_adj} entiers et {1_adj}, rangé dans une barquette d'aluminium jetable et grillé au barbecue jusqu'à caraméliser.</FlavorText_Roasted_Ingredients_And_Ingredients.description>
+	<FlavorText_Cevapi.description>une saucisse de rue balkanique, faite d'un mélange {0_adj} et {1_adj} hachées, relevé de sel, de poivre, de paprika et d'ail.</FlavorText_Cevapi.description>
+	<FlavorText_HamburgerSteak.description>des galettes {0_adj} hachée, grillées et servies sous une sauce brune {1_adj}.</FlavorText_HamburgerSteak.description>
+	<FlavorText_JapaneseHamburgerSteak.description>la version japonaise du steak haché. {0_coll} et {1_coll} sont hachées ensemble et grillées, puis nappées d'une sauce salée.</FlavorText_JapaneseHamburgerSteak.description>
+	<FlavorText_SalisburySteak.description>des galettes {0_adj} hachée, grillées et nappées d'une sauce brune {1_adj} et {2_adj}.</FlavorText_SalisburySteak.description>
+	<FlavorText_Steak.description>une pièce entière {0_adj} saisie des deux côtés jusqu'à former une croûte, l'intérieur restant à peine cuit.</FlavorText_Steak.description>
+	<FlavorText_Bulgogi.description>un plat coréen : de fines tranches {0_adj} marinées dans une sauce au soja, puis grillées.</FlavorText_Bulgogi.description>
+	<FlavorText_Pastirma.description>une charcuterie ottomane {0_adj}, qui connaît mille variantes : on presse et on sèche {0_coll} pendant un mois. Le mélange d'épices traditionnel réunit carvi, paprika, fenugrec bleu, fenugrec, poivre noir, piment de la Jamaïque, cumin, cayenne, sel et ail écrasé.</FlavorText_Pastirma.description>
+	<FlavorText_TurkishKofte.description>des boulettes grillées et aplaties {0_adj} hachée, {1_adj}, d'ail et de persil.</FlavorText_TurkishKofte.description>
+	<FlavorText_Meat_Insect_EggsOnAStick.description>des œufs prélevés dans les ovaires {0_adj} adulte, enfilés sur une brochette et rôtis à la flamme. L'extérieur est fibreux, mais le cœur reste souple, d'une texture proche du fromage frais.</FlavorText_Meat_Insect_EggsOnAStick.description>
+	<FlavorText_GrubsOnAStick.description>des larves {0_adj} au stade nymphal, enfilées sur une brochette et rôties à la flamme jusqu'à ce que l'exosquelette chitineux craque sous la dent.</FlavorText_GrubsOnAStick.description>
+	<FlavorText_Bacon.description>{0_coll} grasse taillée en tranches très fines et cuite à la poêle jusqu'à ce qu'elle croustille.</FlavorText_Bacon.description>
+	<FlavorText_Meat_Pig_Chorizo.description>une saucisse {0_adj} relevée {1_plur}. La version ibérique d'origine est fermentée, fumée et séchée ; d'autres se font fraîches.</FlavorText_Meat_Pig_Chorizo.description>
+	<FlavorText_Buldak.description>littéralement « poulet de feu » : un poulet grillé coréen très répandu, défini par sa sauce complexe et brûlante — pâte {1_adj} fermentée, {1_coll} moulus, piments coréens, ail, gingembre, fond {0_adj}, sirop de riz et sauce soja. On trempe les cuisses {0_adj} dans la sauce avant de les griller à feu vif.</FlavorText_Buldak.description>
+	<FlavorText_Yakitori.description>des brochettes japonaises {0_adj}, laquées d'une sauce au soja et au poisson, cuites au charbon de bois. On alterne volontiers les morceaux {0_adj} avec de la ciboule.</FlavorText_Yakitori.description>
+	<FlavorText_Grilled_Meat_Seafood.description>{0_coll} entière cuite à la plancha avec du romarin et du thym.</FlavorText_Grilled_Meat_Seafood.description>
+	<FlavorText_Smoked_Meat_Seafood.description>des morceaux {0_adj} cuits longuement au-dessus d'un bois qui se consume lentement, pour qu'ils prennent le goût de l'essence employée.</FlavorText_Smoked_Meat_Seafood.description>
+	<FlavorText_MeatRaw_Vegetable_ShishKebab.description>des morceaux {0_adj} marinée alternés avec des tranches {1_adj} sur des brochettes, grillés à la flamme vive.</FlavorText_MeatRaw_Vegetable_ShishKebab.description>
+	<FlavorText_Barbecued_MeatRaw.description>{0_coll} trempée dans une marinade {1_adj} et cuite à la flamme vive, pour une croûte croustillante et parfumée sur un intérieur resté juteux.</FlavorText_Barbecued_MeatRaw.description>
+	<FlavorText_Jerk_MeatRaw.description>un plat jamaïcain extrêmement relevé : {0_coll} marinée dans une préparation {1_plur} forts, {2_plur} et à d'autres épices, puis grillée.</FlavorText_Jerk_MeatRaw.description>
+	<FlavorText_PullusFusilis.description>une recette de la Rome antique : un poulet entier farci {0_adj} hachés et {2_adj}.</FlavorText_PullusFusilis.description>
+	<FlavorText_Teriyaki_MeatRaw.description>{0_coll} marinée dans une sauce acidulée {1_adj}, puis grillée.</FlavorText_Teriyaki_MeatRaw.description>
+
+	<!-- Ordinaires -->
+	<FlavorText_MudCookies.description>un disque d'argile séchée, qu'on mange dans les moments désespérés pour calmer l'estomac. Si ce texte s'affiche, c'est qu'il y a un problème. Merci de le signaler.</FlavorText_MudCookies.description>
+	<FlavorText_FondantPotatoes.description>des cylindres épais taillés {0_adj}, colorés puis arrosés de beurre au thym et passés une demi-heure au four. Le résultat est fondant et moelleux, bien au-delà de ce que laissait présager un procédé aussi simple.</FlavorText_FondantPotatoes.description>
+	<FlavorText_FondantPotatoes_2.description>des cylindres épais taillés {0_adj}, colorés puis arrosés d'un fond {1_adj} au thym, et passés une demi-heure au four dans leur bouillon. Le résultat est fondant et moelleux, bien au-delà de ce que laissait présager un procédé aussi simple.</FlavorText_FondantPotatoes_2.description>
+	<FlavorText_Meat_Poultry_AndWaffles.description>{0_coll} panée et frite, posée sur d'épaisses gaufres de pâte {1_adj} cuites entre deux plaques gaufrées, ce qui les rend particulièrement croustillantes.</FlavorText_Meat_Poultry_AndWaffles.description>
+	<FlavorText_PlateLunch.description>une assiette composée née de la cuisine hawaïenne de la Vieille Terre : plusieurs grosses cuillerées {1_adj} nature et une salade de macaronis {2_adj}. Le tout est couronné d'un morceau {0_adj} pané et frit.</FlavorText_PlateLunch.description>
+	<FlavorText_PlateLunch_2.description>une assiette composée née de la cuisine hawaïenne de la Vieille Terre : plusieurs grosses cuillerées {1_adj} nature, un poke {0_adj} dans sa marinade, et un pouding {2_adj}.</FlavorText_PlateLunch_2.description>
+	<FlavorText_Crepes.description>une crêpe très fine, faite d'une farine {0_adj} détrempée {1_plur} entiers et {2_plur} en une pâte liquide, étalée sur une plaque plate puis roulée.</FlavorText_Crepes.description>
+	<FlavorText_MeatRaw_MeatRaw_Sausage.description>{1_coll} et {0_coll} hachées, poussées dans des boyaux à saucisse.</FlavorText_MeatRaw_MeatRaw_Sausage.description>
+	<FlavorText_MeatRaw_PotRoast.description>{0_coll} cuite très lentement en cocotte avec {1_coll}, des heures durant, jusqu'à ce qu'elle se défasse à la fourchette.</FlavorText_MeatRaw_PotRoast.description>
+	<FlavorText_MeatRaw_Sausage.description>{0_coll} hachée, liée {1_plur} et poussée dans un boyau à saucisse.</FlavorText_MeatRaw_Sausage.description>
+	<FlavorText_MeatRaw_Stuffed_Fungus.description>de gros {2_coll} dont on a retiré le pied, le chapeau farci d'une chair à saucisse {1_adj} et {0_adj} émiettée.</FlavorText_MeatRaw_Stuffed_Fungus.description>
+	<FlavorText_MeatRaw_MeatRaw_SausageWithGravy.description>une saucisse {1_adj} et {0_adj}, nappée d'une sauce brune.</FlavorText_MeatRaw_MeatRaw_SausageWithGravy.description>
+	<FlavorText_MeatRaw_MeatRaw_SummerSausage.description>{1_coll} et {0_coll} hachées, sucrées {2_plur} et poussées dans des boyaux à saucisse.</FlavorText_MeatRaw_MeatRaw_SummerSausage.description>
+	<FlavorText_GarbagePlate_2.description>un plat américain qui doit son nom à son allure de tas d'ordures : on charge une assiette {1_adj} frits, puis on couvre {0_adj} hachée, d'oignons et soit d'une sauce chili, soit de ketchup et de moutarde.</FlavorText_GarbagePlate_2.description>
+	<FlavorText_GarbagePlate.description>un plat américain qui doit son nom à son allure de tas d'ordures : on charge une assiette {1_adj} frits et d'une salade de macaronis {2_adj}, puis on couvre {0_adj} hachée, d'oignons en dés et soit d'une sauce chili, soit de ketchup et de moutarde.</FlavorText_GarbagePlate.description>
+	<FlavorText_Pickles.description>{0_coll} frais fermentés un certain temps en saumure ou au vinaigre, souvent avec de l'aneth et des graines de moutarde. Ils gardent le croquant du concombre tout en prenant une acidité marquée.</FlavorText_Pickles.description>
+	<FlavorText_Vegetable_Achar.description>une conserve {0_adj} en saumure, au vinaigre {1_adj}, aux huiles alimentaires et à tout un jeu d'épices sud-asiatiques.</FlavorText_Vegetable_Achar.description>
+	<FlavorText_BreakfastBurrito.description>un incontournable américain inspiré de la cuisine mexicaine, souvent mangé au petit-déjeuner : {1_coll} brouillés, poêlés avec {0_coll} et roulés dans une tortilla {2_adj}.</FlavorText_BreakfastBurrito.description>
+	<FlavorText_Musakhan.description>un plat palestinien : {0_coll} rôtie au four avec de l'oignon, du sumac, du piment de la Jamaïque et du safran, servie sur un pain « taboon » {1_adj} et couverte {2_adj} frits.</FlavorText_Musakhan.description>
+	<FlavorText_ChipsWithGuacamole.description>une purée {0_adj} relevée de coriandre, de citron vert et de sel, servie en dip épais avec un bol de chips de tortilla {1_adj} frites.</FlavorText_ChipsWithGuacamole.description>
+	<FlavorText_Guacamole.description>une purée {0_adj} relevée de coriandre, de citron vert et de sel, servie en dip épais.</FlavorText_Guacamole.description>
+
+	<!-- Le label anglais écrivait {1-sing} au lieu de {1_sing} : placeholder mort, corrigé côté label. -->
+	<FlavorText_AnimalProductRaw_Cups.description>{0_coll} pochés et servis dans une petite cassolette.</FlavorText_AnimalProductRaw_Cups.description>
+	<FlavorText_AnimalProductRaw_Pate.description>une pâte lisse obtenue en passant {0_coll} et {1_coll} au tamis, en les cuisant puis en les moulant pour les trancher.</FlavorText_AnimalProductRaw_Pate.description>
+	<FlavorText_BoxtyWith_PlantFoodRaw.description>un reste de purée {2_adj} mêlé {2_plur} crus et râpés, servi avec {0_coll} et {1_coll}.</FlavorText_BoxtyWith_PlantFoodRaw.description>
+	<FlavorText_Alloco.description>{0_coll} bien mûres, coupées en rondelles ou en cubes et frites. Le plat vient d'Afrique de l'Ouest, mais s'est répandu partout où on les récolte, en en-cas rapide ou en accompagnement.</FlavorText_Alloco.description>
+	<FlavorText_MoinMoin.description>aussi écrit moi-moi : un pouding cuit à la vapeur ou à l'eau, fait {0_adj} et {1_adj}, avec des piments rouges frais et un mélange d'épices. On le plie traditionnellement en cône dans des feuilles d'ewe eran ou de bananier. Il vient des Yoruba d'Afrique de l'Ouest.</FlavorText_MoinMoin.description>
+	<FlavorText_MoinMoin_2.description>aussi écrit moi-moi : un pouding cuit à la vapeur ou à l'eau, fait {0_adj} et {1_adj}, avec {2_coll}, des piments rouges frais et un mélange d'épices. On le plie traditionnellement en cône dans des feuilles d'ewe eran ou de bananier. Il vient des Yoruba d'Afrique de l'Ouest.</FlavorText_MoinMoin_2.description>
+	<FlavorText_Coleslaw.description>{0_coll} finement émincé, remué dans une vinaigrette et servi en accompagnement.</FlavorText_Coleslaw.description>
+	<FlavorText_Kimchi.description>un accompagnement coréen traditionnel : {0_coll} salé puis fermenté, assaisonné d'une poudre {1_adj}.</FlavorText_Kimchi.description>
+	<FlavorText_Hutspot.description>un plat {2_adj}, {0_adj} et {1_adj} bouillis puis écrasés ensemble, de longue tradition dans la cuisine néerlandaise.</FlavorText_Hutspot.description>
+	<FlavorText_Vegetable_WithHummus.description>{1_coll} taillés en bâtonnets, servis avec un dip levantin {0_adj} finement mixés et de pâte de sésame.</FlavorText_Vegetable_WithHummus.description>
+
+</LanguageData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Levant.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Souvlaki.label>souvláki</FlavorTextFR_Souvlaki.label>
+	<FlavorTextFR_Souvlaki.description>des cubes {0_adj} marinés à l'huile, {1_plur} et {2_plur}, enfilés sur de petites broches et grillés vite. Le nom veut simplement dire « petite brochette ».</FlavorTextFR_Souvlaki.description>
+	<FlavorTextFR_Tzatziki.label>tzatzíki</FlavorTextFR_Tzatziki.label>
+	<FlavorTextFR_Tzatziki.description>{0_coll} égoutté une nuit dans un linge, mêlé {1_plur} râpés et pressés — sinon l'eau ruine tout — et {2_plur} cru.</FlavorTextFR_Tzatziki.description>
+	<FlavorTextFR_Houmous.label>houmous</FlavorTextFR_Houmous.label>
+	<FlavorTextFR_Houmous.description>{0_coll} cuits jusqu'à s'écraser sous le doigt, broyés avec une pâte {1_adj}, {2_plur} et de l'eau glacée qui les fait blanchir et gonfler.</FlavorTextFR_Houmous.description>
+	<FlavorTextFR_Fattouche.label>fattouche</FlavorTextFR_Fattouche.label>
+	<FlavorTextFR_Fattouche.description>du pain plat rassis, grillé et brisé à la main, jeté sur {1_coll} et {2_coll} avec du sumac. Se sert au dernier moment : le pain doit encore craquer.</FlavorTextFR_Fattouche.description>
+	<FlavorTextFR_Moujadara.label>moujadara</FlavorTextFR_Moujadara.label>
+	<FlavorTextFR_Moujadara.description>{0_coll} et {1_coll} cuits ensemble, couverts {2_adj} frits jusqu'au brun presque noir. Ce presque-brûlé est le plat entier ; sans lui il ne reste que des lentilles.</FlavorTextFR_Moujadara.description>
+	<FlavorTextFR_Taboule.label>taboulé</FlavorTextFR_Taboule.label>
+	<FlavorTextFR_Taboule.description>une montagne d'herbes hachées au couteau, {1_coll} en dés, et juste une poignée de boulgour. La version où la semoule domine est une invention d'ailleurs.</FlavorTextFR_Taboule.description>
+	<FlavorTextFR_Avgolemono.label>avgolémono</FlavorTextFR_Avgolemono.label>
+	<FlavorTextFR_Avgolemono.description>{0_coll} battus {1_plur} et détendus louche à louche avec le bouillon brûlant avant d'y retourner. Versés d'un coup, ils coagulent et le plat est perdu.</FlavorTextFR_Avgolemono.description>
+	<FlavorTextFR_Stifado.label>stifádo</FlavorTextFR_Stifado.label>
+	<FlavorTextFR_Stifado.description>{0_coll} braisée avec autant {1_adj} entiers que de viande, {2_plur} et à la cannelle. Les oignons ne sont pas un aromate, ici : ils sont la moitié du plat.</FlavorTextFR_Stifado.description>
+	<FlavorTextFR_Labne.label>labné</FlavorTextFR_Labne.label>
+	<FlavorTextFR_Labne.description>{0_coll} salé et suspendu dans un linge un jour entier, jusqu'à devenir tartinable, creusé d'un puits d'huile {1_adj} et saupoudré {2_adj}.</FlavorTextFR_Labne.description>
+	<FlavorTextFR_ChichTaouk.label>chich taouk</FlavorTextFR_ChichTaouk.label>
+	<FlavorTextFR_ChichTaouk.description>{0_coll} marinée {1_plur} et {2_plur}, grillée en brochettes et servie avec une émulsion d'ail si dense qu'elle se tient à la cuillère.</FlavorTextFR_ChichTaouk.description>
+
+</LanguageData>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Inde.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Dal.label>dal</FlavorTextFR_Dal.label>
+	<FlavorTextFR_Dal.description>{0_coll} cuits jusqu'à se défaire, puis réveillés d'un tempérage : {1_coll} et {2_coll} frits une poignée de secondes dans le beurre brûlant et versés dessus, encore grésillants.</FlavorTextFR_Dal.description>
+	<FlavorTextFR_Biryani.label>biryani</FlavorTextFR_Biryani.label>
+	<FlavorTextFR_Biryani.description>{0_coll} à moitié cuit et {1_coll} marinée montés en couches, scellés sous un couvercle luté à la pâte, et finis à l'étouffée. On ne remue jamais : chaque couche doit rester distincte à l'ouverture.</FlavorTextFR_Biryani.description>
+	<FlavorTextFR_ButterChicken.label>butter chicken</FlavorTextFR_ButterChicken.label>
+	<FlavorTextFR_ButterChicken.description>{0_coll} passée d'abord au four brûlant, puis remise dans une sauce {1_adj} montée {2_plur} et à la crème. Inventé pour récupérer les restes de la veille, devenu le plat le plus commandé du pays.</FlavorTextFR_ButterChicken.description>
+	<FlavorTextFR_Samosa.label>samosa</FlavorTextFR_Samosa.label>
+	<FlavorTextFR_Samosa.description>des triangles de pâte {0_adj} fourrés {1_plur} écrasées et {2_plur}, soudés à l'eau et frits doucement pour que la croûte reste bullée plutôt que lisse.</FlavorTextFR_Samosa.description>
+	<FlavorTextFR_Raita.label>raïta</FlavorTextFR_Raita.label>
+	<FlavorTextFR_Raita.description>{0_coll} battu avec {1_coll} râpés et {2_coll} torréfiés au sec. Ce n'est pas un accompagnement : c'est l'extincteur du repas.</FlavorTextFR_Raita.description>
+	<FlavorTextFR_PalakPaneer.label>palak paneer</FlavorTextFR_PalakPaneer.label>
+	<FlavorTextFR_PalakPaneer.description>{0_coll} blanchies puis broyées en une purée verte tenue courte pour ne pas brunir, où l'on pose des cubes {1_adj} frais qui ne fondent pas.</FlavorTextFR_PalakPaneer.description>
+	<FlavorTextFR_ChanaMasala.label>chana masala</FlavorTextFR_ChanaMasala.label>
+	<FlavorTextFR_ChanaMasala.description>{0_coll} mijotés dans un fond {2_adj} longuement roussis et {1_adj}, acidulé au tamarin et à l'amchoor. La sauce doit coller aux pois, pas les baigner.</FlavorTextFR_ChanaMasala.description>
+	<FlavorTextFR_Vindaloo.label>vindaloo</FlavorTextFR_Vindaloo.label>
+	<FlavorTextFR_Vindaloo.description>{0_coll} marinée au vinaigre {2_adj} et {1_plur}, héritage portugais de Goa. Le nom vient de « vinha d'alhos » — vin et ail — et non du mot pomme de terre, malgré les apparences.</FlavorTextFR_Vindaloo.description>
+	<FlavorTextFR_RoganJosh.label>rogan josh</FlavorTextFR_RoganJosh.label>
+	<FlavorTextFR_RoganJosh.description>{0_coll} braisée {1_plur} et {2_plur} du Cachemire, qui donnent une couleur écarlate sans presque aucun feu. Le rouge et le piquant ne vont pas toujours ensemble.</FlavorTextFR_RoganJosh.description>
+	<FlavorTextFR_Tandoori.label>tandoori {0_adj}</FlavorTextFR_Tandoori.label>
+	<FlavorTextFR_Tandoori.description>{0_coll} incisée jusqu'à l'os, marinée une nuit {1_plur} et {2_plur}, puis plaquée contre la paroi d'un four d'argile chauffé au rouge. Le yaourt tient la marinade collée et attendrit la chair.</FlavorTextFR_Tandoori.description>
+	<FlavorTextFR_Pakora.label>pakora</FlavorTextFR_Pakora.label>
+	<FlavorTextFR_Pakora.description>{1_coll} enrobés d'une pâte {0_adj} relevée {2_plur} et frits en amas irréguliers. Sans gluten par accident, croustillants par construction.</FlavorTextFR_Pakora.description>
+	<FlavorTextFR_GulabJamun.label>gulab jamun</FlavorTextFR_GulabJamun.label>
+	<FlavorTextFR_GulabJamun.description>{0_coll} réduit des heures jusqu'à devenir une pâte solide, roulé en boules, frit très doucement, et laissé s'imbiber d'un sirop {1_adj} parfumé à la rose. Il faut qu'elles coulent quand on mord.</FlavorTextFR_GulabJamun.description>
+	<FlavorTextFR_Chutney.label>chutney {0_adj}</FlavorTextFR_Chutney.label>
+	<FlavorTextFR_Chutney.description>{0_coll} cuits {1_plur}, au vinaigre et {2_plur} jusqu'à confire. Se garde des mois et s'améliore les premières semaines.</FlavorTextFR_Chutney.description>
+
+</LanguageData>

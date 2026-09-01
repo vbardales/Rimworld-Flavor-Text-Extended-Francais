@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 03 : desserts, crèmes, glaces, confiseries, gâteaux.
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- Suite des desserts au four -->
+	<FlavorText_Lapsi.description>un entremets indien fait d'une farine {0_adj} et de beurre clarifié, avec {1_coll}, {2_coll} et d'autres fruits secs.</FlavorText_Lapsi.description>
+	<FlavorText_FrogInThePond.description>un dessert australien de la Vieille Terre : une gelée {1_adj} rouge et verte, au centre de laquelle on a enfoncé une grenouille {0_adj} dont seuls les yeux dépassent.</FlavorText_FrogInThePond.description>
+	<FlavorText_Fruit_Newtons.description>un biscuit de goûter classique en Amérique du Nord : une pâte {1_adj} enroulée autour d'une garniture dense {0_adj}. On les faisait aux figues à l'origine ; on les fait aujourd'hui à peu près à tous les fruits.</FlavorText_Fruit_Newtons.description>
+	<FlavorText_Twinkies.description>un antique gâteau jaune fourré d'une crème légère, en forme de bûchette, assez petit pour se manger à la main.</FlavorText_Twinkies.description>
+	<FlavorText_Ingredients_Fondue.description>de petits morceaux {0_adj}, trempés un à un dans un caquelon de fromage fondu au vin {2_adj}.</FlavorText_Ingredients_Fondue.description>
+	<FlavorText_TapiocaPudding.description>un dessert de perles d'amidon {1_adj}, cuites avec {0_coll} et {2_coll} jusqu'à former un pouding épais.</FlavorText_TapiocaPudding.description>
+	<FlavorText_Marzipan.description>une confiserie faite pour l'essentiel d'une poudre {0_adj} et {1_adj}. Se mange telle quelle, se sculpte et se colore, ou entre dans la composition d'autres desserts.</FlavorText_Marzipan.description>
+
+	<!-- Produits laitiers et œufs : catégorie mixte, on garde une tête nominale -->
+	<FlavorText_AnimalProductRaw_Junket.description>un entremets gélifié, fait {1_adj} sucrés et {0_adj}.</FlavorText_AnimalProductRaw_Junket.description>
+	<FlavorText_AnimalProductRaw_PowerBar.description>une barre compacte {0_adj} séchés, piquée {1_adj}. Un repas rapide, sans aucune préparation.</FlavorText_AnimalProductRaw_PowerBar.description>
+	<FlavorText_Potato_Pancakes.description>une farine {1_adj} détrempée avec {0_coll} en une pâte, cuite à la poêle en disques plats.</FlavorText_Potato_Pancakes.description>
+	<FlavorText_Preserved_AnimalProductRaw.description>une conserve {0_adj} au sirop épais {1_adj}, stérilisée en bocal fermé à l'eau bouillante.</FlavorText_Preserved_AnimalProductRaw.description>
+
+	<!-- Fruits -->
+	<FlavorText_TarteTatin.description>une tarte française « à l'envers » : on fait caraméliser {0_coll} au beurre et {2_plur} à même le moule, on couvre de pâte et on passe au four.</FlavorText_TarteTatin.description>
+	<FlavorText_BananaSplit.description>plusieurs boules de glace alignées le long d'une {0_sing} fendue dans la longueur.</FlavorText_BananaSplit.description>
+	<FlavorText_PlatanosEnMole.description>un dessert guatémaltèque : {0_coll} frites entières, nappées d'un mole {2_adj} et {1_adj}.</FlavorText_PlatanosEnMole.description>
+	<FlavorText_Tostones.description>des rondelles de plantain frites deux fois, courantes dans les cuisines d'Amérique latine et des Caraïbes.</FlavorText_Tostones.description>
+	<FlavorText_SagoPudding.description>un pouding sucré d'Asie du Sud-Est, traditionnellement fait d'un amidon tiré du tronc du palmier, mais préparé ici avec des perles {0_adj}. On les cuit dans un lait {2_adj} sucré, pour un résultat proche du pouding au tapioca.</FlavorText_SagoPudding.description>
+	<FlavorText_NanaimoBars.description>un dessert typique de l'ancien Canada, remarquable en ce qu'il ne demande aucune cuisson. Une couche {2_adj} émiettés forme le fond, qu'on laisse prendre au froid ; on la couvre d'une crème {1_adj}, on refroidit à nouveau, puis on nappe d'une épaisse ganache {0_adj}.</FlavorText_NanaimoBars.description>
+	<FlavorText_Citrus_Marmalade.description>une gelée épaisse faite de pulpe et d'écorces {0_adj}.</FlavorText_Citrus_Marmalade.description>
+
+	<!-- Crèmes et glaces -->
+	<FlavorText_Affogato.description>un dessert italien : une boule de gelato à la vanille noyée sous un espresso brûlant.</FlavorText_Affogato.description>
+	<FlavorText_Dairy_Pavlova.description>un gâteau rond de meringue cuite, couvert {2_adj} et de crème fouettée.</FlavorText_Dairy_Pavlova.description>
+	<FlavorText_Fruit_Yogurt.description>{0_coll} fermenté par des bactéries jusqu'à devenir épais et acidulé, additionné {1_adj} pour le goût et le sucre.</FlavorText_Fruit_Yogurt.description>
+	<FlavorText_Fruit_Gelato.description>un dessert riche {0_adj} et de crème, sucré {1_plur}, glacé en tournant sans arrêt pour obtenir une texture lisse. Parfumé {2_plur}.</FlavorText_Fruit_Gelato.description>
+	<FlavorText_AlooKaHalwa.description>un entremets épais originaire de l'Uttar Pradesh, en Inde, fait d'une purée {2_adj} sucrée et cuite jusqu'à ce qu'elle tienne à la cuillère.</FlavorText_AlooKaHalwa.description>
+	<FlavorText_Cornflakes.description>des pétales de pâte {2_adj} grillés, servis dans un bol {0_adj}.</FlavorText_Cornflakes.description>
+	<FlavorText_CremeBrulee.description>une crème prise {0_adj} et {1_adj}, cuite au four puis poudrée de sucre et passée au chalumeau pour former une croûte caramélisée qui craque sous la cuillère.</FlavorText_CremeBrulee.description>
+	<FlavorText_Dondurma.description>une glace turque réputée pour son épaisseur et sa résistance à la fonte, qu'elle doit à l'ajout d'un amidon {2_adj}.</FlavorText_Dondurma.description>
+	<FlavorText_Flan.description>le « flan de leche », ou crème caramel : un entremets espagnol {0_adj} pris au moule et nappé d'un caramel clair {2_adj}.</FlavorText_Flan.description>
+	<FlavorText_FrootLoops.description>des céréales de semoule de maïs parfumées à un extrait {1_adj}. On verse dessus une grande quantité {0_adj} avant de les manger.</FlavorText_FrootLoops.description>
+	<FlavorText_Gelato.description>un dessert riche {0_adj} sucré et de crème, adouci {1_plur} et tourné pendant la prise au froid pour obtenir une texture lisse.</FlavorText_Gelato.description>
+	<FlavorText_Globi.description>des boules de ricotta et de farine {1_adj} frites en pleine huile, empilées et poudrées {2_adj}. Le dessert est ancien : on le trouve déjà dans les archives romaines, servi pendant les fêtes de Saturne.</FlavorText_Globi.description>
+	<FlavorText_HuitlacocheIceCream.description>une glace sombre et déroutante, parfumée au champignon qui pousse sur les épis de maïs.</FlavorText_HuitlacocheIceCream.description>
+	<FlavorText_IceCream.description>une crème grasse sucrée {2_plur}, glacée en tournant pour obtenir une texture lisse.</FlavorText_IceCream.description>
+	<FlavorText_Kheer.description>un pouding obtenu en faisant bouillir {2_coll} dans {0_coll} sucré.</FlavorText_Kheer.description>
+	<FlavorText_Kvfjordkake.description>un gâteau norvégien souvent tenu pour le gâteau national du pays, et connu dans tous les pays nordiques de la Vieille Terre. Une génoise légère, une crème fouettée {0_adj}, une seconde génoise, puis une meringue par-dessus. Le tout est semé d'amandes effilées, et s'accompagne volontiers de fraises, de myrtilles ou de framboises.</FlavorText_Kvfjordkake.description>
+	<FlavorText_MississippiMudPie.description>une tarte dense {1_adj}, garnie d'une crème {1_adj} et de crème fouettée, sur un fond de biscuits {1_adj} écrasés.</FlavorText_MississippiMudPie.description>
+	<FlavorText_SutiPolo.description>un pouding {2_adj} bouillis dans {0_coll}, couvert {1_adj} séchés.</FlavorText_SutiPolo.description>
+	<FlavorText_Tartufo.description>un dessert italien : un gelato à la vanille et un gelato {2_adj} enroulés autour d'un cœur {1_adj}, le tout enfermé dans une coque {1_adj}.</FlavorText_Tartufo.description>
+	<FlavorText_Tiramisu.description>un dessert italien : des biscuits {2_adj} imbibés d'une liqueur {1_adj}, alternés avec une crème fouettée au mascarpone, et poudrés {1_plur}.</FlavorText_Tiramisu.description>
+	<FlavorText_Yogurt.description>{0_coll} fermenté par des bactéries jusqu'à devenir épais et acidulé.</FlavorText_Yogurt.description>
+	<FlavorText_Kakigori_3.description>un dessert japonais de glace rasée, parfumé d'un sirop sucré {0_adj}. Sa texture est très légère, en copeaux fins comme de la neige fraîche, et il se mange à la cuillère.</FlavorText_Kakigori_3.description>
+	<FlavorText_Kakigori.description>un dessert japonais de glace rasée, sucré {2_plur} et parfumé d'un sirop {0_adj} avec des morceaux {1_adj}. Sa texture est très légère, en copeaux fins comme de la neige fraîche, et il se mange à la cuillère.</FlavorText_Kakigori.description>
+	<FlavorText_Kakigori_2.description>un dessert japonais de glace rasée, sucré {1_plur} et parfumé d'un sirop {0_adj}. Sa texture est très légère, en copeaux fins comme de la neige fraîche, et il se mange à la cuillère.</FlavorText_Kakigori_2.description>
+
+	<!-- Meringues, confitures, confiseries -->
+	<FlavorText_Fruit_MeringuePie.description>une tarte riche garnie d'une crème {1_adj}, couronnée d'une quantité déraisonnable de meringue {0_adj}.</FlavorText_Fruit_MeringuePie.description>
+	<FlavorText_Meringue.description>une confiserie délicate : des blancs {0_adj} montés en neige, sucrés {1_plur} et cuits jusqu'à légère coloration.</FlavorText_Meringue.description>
+	<FlavorText_BiciBici.description>de la glace pilée turque, parfumée d'un sirop {0_adj}.</FlavorText_BiciBici.description>
+	<FlavorText_Fruit_Candy.description>des bonbons durs obtenus en cuisant {1_coll} jusqu'au grand cassé, puis parfumés d'un extrait {0_adj}.</FlavorText_Fruit_Candy.description>
+	<FlavorText_Fruit_Jello.description>une suspension gélifiée à base {1_adj}, parfumée d'un extrait {0_adj}.</FlavorText_Fruit_Jello.description>
+	<FlavorText_Fruit_Mousse.description>une purée {0_adj} incorporée à des blancs {1_adj} montés bien fermes, servie glacée.</FlavorText_Fruit_Mousse.description>
+	<FlavorText_Fruit_Preserves.description>une pâte épaisse {0_adj}, longuement cuite au sucre pour se conserver.</FlavorText_Fruit_Preserves.description>
+	<FlavorText_Rodgrod.description>un entremets sucré {0_plur} variées, épaissi d'un amidon {1_adj}.</FlavorText_Rodgrod.description>
+	<FlavorText_Fruit_Pudding.description>un pouding épais fait {1_adj}, généreusement parfumé {0_plur}.</FlavorText_Fruit_Pudding.description>
+
+	<!-- Gâteaux et biscuits -->
+	<FlavorText_Fruit_Cake.description>un gâteau à longue histoire et à mille variantes. Celui-ci est parfumé {2_plur}, mêlées à une pâte de farine {0_adj} et {1_adj}. On verse l'appareil dans un moule et on cuit jusqu'à ce que le cœur soit pris.</FlavorText_Fruit_Cake.description>
+	<FlavorText_Nut_Halva.description>une confiserie du Proche-Orient qui se fait d'à peu près tout, mais repose en général sur une pâte épaisse {0_adj} et de beurre, cuite en bloc pour une texture allant du mousseux au fondant. Celle-ci est parfumée {2_plur}.</FlavorText_Nut_Halva.description>
+	<FlavorText_Nut_Pismaniye.description>un dessert turc : une farine {0_adj} torréfiée au beurre, étirée en fils aussi fins que de la barbe à papa, et couverte d'une poudre {2_adj}.</FlavorText_Nut_Pismaniye.description>
+	<FlavorText_CantoneseCustardBuns.description>des brioches {0_adj} cuites à la vapeur, fourrées d'une crème épaisse {1_adj}. On les trouve au dim sum, parmi les petits plats.</FlavorText_CantoneseCustardBuns.description>
+	<FlavorText_CantoneseCustardBuns_2.description>des brioches {0_adj} cuites à la vapeur, fourrées d'une crème épaisse {1_adj} et {2_adj}. On les trouve au dim sum, parmi les petits plats.</FlavorText_CantoneseCustardBuns_2.description>
+	<FlavorText_JammyDodgers.description>un biscuit britannique classique : deux sablés {0_adj} assemblés autour d'une confiture {1_adj}.</FlavorText_JammyDodgers.description>
+	<FlavorText_Mersu.description>un dessert royal de l'antique Mésopotamie : une pâte {0_adj} fourrée {1_adj} et {2_adj} hachés.</FlavorText_Mersu.description>
+	<FlavorText_Pancakes.description>de petites crêpes épaisses et sucrées, de farine {0_adj}, cuites à la grande poêle ou sur une plaque.</FlavorText_Pancakes.description>
+	<FlavorText_PoudingChmeur.description>littéralement le pouding du chômeur : il naît au Québec, sur la Vieille Terre, dans les années de vaches maigres. Une pâte à gâteau toute simple, à la farine {0_adj}, noyée sous une sauce {1_adj} juste avant de servir.</FlavorText_PoudingChmeur.description>
+	<FlavorText_ThumbprintCookies.description>des sablés au sucre {0_adj}, creusés d'un puits au pouce dans chaque boule de pâte crue, rempli d'une bonne cuillerée de confiture {1_adj} avant cuisson.</FlavorText_ThumbprintCookies.description>
+	<FlavorText_Ashure.description>un pouding sucré répandu au Proche-Orient, en Arménie et dans les Balkans, qui demande traditionnellement au moins sept ingrédients. Ici la base est faite {0_adj}, bouillie avec du sucre, {2_adj} séchés et un mélange d'épices, en ajoutant {1_coll} entiers pour la texture. Un zeste de citron, d'orange ou de lime réveille l'ensemble, et l'on sert couvert de fruits secs, de fruits à coque et d'épices.</FlavorText_Ashure.description>
+	<FlavorText_Churchkhela.description>{1_coll} concassés, enfilés sur un fil qu'on trempe et retrempe dans un moût {0_adj} épaissi, jusqu'à former une gaine souple comme une confiserie.</FlavorText_Churchkhela.description>
+	<FlavorText_Macun.description>une pâte de caramel turque très colorée, faite d'une mélasse {0_adj} et parfumée de fruits ou d'herbes variés.</FlavorText_Macun.description>
+
+	<!-- Desserts génériques -->
+	<FlavorText_Ingredients_HandPies.description>une garniture {0_adj} sucrés et taillés en dés, enfermée dans une pâte {1_adj} moulue, puis frite et poudrée de sucre glace.</FlavorText_Ingredients_HandPies.description>
+	<FlavorText_Ingredients_Pudding.description>{0_coll} et {1_coll} battus en pâte et cuits à la vapeur. Se mange à la cuillère.</FlavorText_Ingredients_Pudding.description>
+	<FlavorText_Ingredients_ShavedIce.description>de la glace rasée en poudre, sucrée et arrosée d'un extrait {0_adj}.</FlavorText_Ingredients_ShavedIce.description>
+	<FlavorText_Ingredients_And_Ingredients_In_Sugar_Syrup.description>une conserve {1_adj} et {0_adj} dans un sirop épais {2_adj}.</FlavorText_Ingredients_And_Ingredients_In_Sugar_Syrup.description>
+	<FlavorText_JellyBeans.description>une confiserie {1_adj} moulée en petits haricots, glacée pour qu'ils ne collent pas entre eux. Ceux-ci sont parfumés d'un extrait {0_adj} et teints à la couleur de l'ingrédient d'origine.</FlavorText_JellyBeans.description>
+	<FlavorText_JellyBeans_2.description>une confiserie {2_adj} moulée en petits haricots, glacée pour qu'ils ne collent pas entre eux. Ceux-ci mêlent deux parfums, {1_adj} et {0_adj}.</FlavorText_JellyBeans_2.description>
+	<FlavorText_MeatRaw_MincemeatPudding.description>{0_coll} hachée très fin et {2_coll} séchés, battus en pâte et cuits à la vapeur. Se mange à la cuillère.</FlavorText_MeatRaw_MincemeatPudding.description>
+	<FlavorText_VratKaHalwa.description>un dessert rapide et sans difficulté : une farine {1_adj} torréfiée à la poêle dans du beurre clarifié, avec un sucrant.</FlavorText_VratKaHalwa.description>
+	<FlavorText_Nut_Chikki.description>une confiserie indienne traditionnelle, cassante sous la dent, faite {0_adj} et {1_adj}.</FlavorText_Nut_Chikki.description>
+	<FlavorText_WatergateSalad.description>un dessert de l'ancienne Amérique : une base de crème {0_adj}, foisonnée avec {2_coll} concassés, une crème fouettée {1_adj} et de petits marshmallows.</FlavorText_WatergateSalad.description>
+	<FlavorText_PlantFoodRaw_Sticky_Rice.description>{0_coll} gluant et sucré, cuit dans une sauce {1_adj} et couvert {2_adj} frais.</FlavorText_PlantFoodRaw_Sticky_Rice.description>
+	<FlavorText_MochiPancakes.description>des pancakes souples et élastiques, faits d'une farine gluante {0_adj} et {1_adj} : le mochi japonais croisé avec le pancake américain.</FlavorText_MochiPancakes.description>
+	<FlavorText_MyanmarFloatingRiceBalls.description>un dessert traditionnel du nouvel an birman. Une farine gluante {0_adj} est fourrée de morceaux de sucre {1_adj} puis pochée à l'eau, avant d'être garnie de copeaux frais {2_adj}.</FlavorText_MyanmarFloatingRiceBalls.description>
+	<FlavorText_KabakTatlisi.description>un dessert d'origine turque, sur la Vieille Terre : on cuit {0_coll} au four avec {1_coll} jusqu'à ce qu'ils fondent dans leur propre jus. On couvre ensuite {2_adj} et de bâtons de cannelle ou de clous de girofle.</FlavorText_KabakTatlisi.description>
+
+</LanguageData>

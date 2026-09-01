@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Classiques2.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_ParmentierDeCanard.label>parmentier {0_adj}</FlavorTextFR_ParmentierDeCanard.label>
+	<FlavorTextFR_ParmentierDeCanard.description>{0_coll} confite effilochée sous une purée {1_adj} montée {2_plur}, gratinée jusqu'à ce que la croûte craque sous la cuillère.</FlavorTextFR_ParmentierDeCanard.description>
+	<FlavorTextFR_SteakFrites.label>steak-frites</FlavorTextFR_SteakFrites.label>
+	<FlavorTextFR_SteakFrites.description>{0_coll} saisie une minute par face, avec {1_coll} taillées en bâtonnets et frites deux fois {2_plur} — une première à basse température pour les cuire, une seconde très chaude pour les dorer.</FlavorTextFR_SteakFrites.description>
+	<FlavorTextFR_BoeufCarottes.label>bœuf carottes</FlavorTextFR_BoeufCarottes.label>
+	<FlavorTextFR_BoeufCarottes.description>du jarret {0_adj} et son os mijotés trois heures avec {1_coll} en rondelles épaisses, sans rien d'autre. La moelle fond et lie le jus toute seule.</FlavorTextFR_BoeufCarottes.description>
+	<FlavorTextFR_SaucissePuree.label>saucisse-purée</FlavorTextFR_SaucissePuree.label>
+	<FlavorTextFR_SaucissePuree.description>une saucisse pochée puis dorée, sur une purée {1_adj} passée au tamis et détendue {2_plur} chaud. Le plat de cantine dont personne ne se plaint.</FlavorTextFR_SaucissePuree.description>
+	<FlavorTextFR_JambonALOs.label>jambon à l'os</FlavorTextFR_JambonALOs.label>
+	<FlavorTextFR_JambonALOs.description>une pièce entière {0_adj} cuite sur son os et tranchée devant vous. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</FlavorTextFR_JambonALOs.description>
+	<FlavorTextFR_PouletALaCreme.label>poulet à la crème</FlavorTextFR_PouletALaCreme.label>
+	<FlavorTextFR_PouletALaCreme.description>{0_coll} pochée puis nappée d'une sauce montée {1_plur} et parsemée {2_adj} sautés à part pour qu'ils ne rendent pas leur eau dans la sauce.</FlavorTextFR_PouletALaCreme.description>
+	<FlavorTextFR_PouletGastonGerard.label>poulet Gaston Gérard</FlavorTextFR_PouletGastonGerard.label>
+	<FlavorTextFR_PouletGastonGerard.description>{0_coll} gratinée sous une sauce {1_adj} et {2_adj}. La légende dit que l'épouse du maire de Dijon renversa la boîte de paprika sur le plat et improvisa le reste.</FlavorTextFR_PouletGastonGerard.description>
+	<FlavorTextFR_FricasseeDeVolaille.label>fricassée à l'ancienne {0_adj}</FlavorTextFR_FricasseeDeVolaille.label>
+	<FlavorTextFR_FricasseeDeVolaille.description>{0_coll} revenue {1_plur} sans coloration, mouillée à hauteur, la sauce liée en fin de cuisson à des jaunes {2_adj} qu'il ne faut plus laisser bouillir.</FlavorTextFR_FricasseeDeVolaille.description>
+	<FlavorTextFR_MagretDeCanard.label>magret {0_adj}</FlavorTextFR_MagretDeCanard.label>
+	<FlavorTextFR_MagretDeCanard.description>un filet {0_adj} dont la peau, quadrillée au couteau, est posée à froid dans la poêle et rend {1_coll} lentement avant que la chair ne cuise. Servi rosé, avec une réduction {2_adj}.</FlavorTextFR_MagretDeCanard.description>
+	<FlavorTextFR_SourisDAgneau.label>souris {0_adj}</FlavorTextFR_SourisDAgneau.label>
+	<FlavorTextFR_SourisDAgneau.description>le petit muscle du jarret, braisé si longtemps qu'il se détache de l'os en glissant. Une souris par convive, jamais moins.</FlavorTextFR_SourisDAgneau.description>
+	<FlavorTextFR_CotelettesDAgneau.label>côtelettes {0_adj}</FlavorTextFR_CotelettesDAgneau.label>
+	<FlavorTextFR_CotelettesDAgneau.description>des côtes premières grillées deux minutes par face, frottées {1_plur} et finies {2_plur}. Se mangent à la main par l'os, une fois la fourchette abandonnée.</FlavorTextFR_CotelettesDAgneau.description>
+	<FlavorTextFR_LapinChasseur.label>lapin chasseur</FlavorTextFR_LapinChasseur.label>
+	<FlavorTextFR_LapinChasseur.description>{0_coll} découpée aux jointures et sautée, puis mijotée {1_plur} et {2_plur}, déglacée au vin blanc et relevée d'estragon.</FlavorTextFR_LapinChasseur.description>
+	<FlavorTextFR_CivetDeLievre.label>civet de lièvre</FlavorTextFR_CivetDeLievre.label>
+	<FlavorTextFR_CivetDeLievre.description>{0_coll} de gibier marinée trois jours, braisée avec {1_coll} entiers, la sauce liée au sang et au foie broyés. Plus noire et plus forte que celle du lapin domestique.</FlavorTextFR_CivetDeLievre.description>
+	<FlavorTextFR_CivetDeSanglier.label>civet de sanglier</FlavorTextFR_CivetDeSanglier.label>
+	<FlavorTextFR_CivetDeSanglier.description>{0_coll} de bête noire marinée une semaine {1_plur} et au genièvre, braisée jusqu'à s'effilocher, la sauce liée au sang.</FlavorTextFR_CivetDeSanglier.description>
+	<FlavorTextFR_FaisanAuxChoux.label>faisan aux choux</FlavorTextFR_FaisanAuxChoux.label>
+	<FlavorTextFR_FaisanAuxChoux.description>un vieil oiseau, trop coriace pour le rôti, braisé enfoui dans {1_coll} et {2_coll} fumée jusqu'à céder. Le chou prend tout le goût du gibier.</FlavorTextFR_FaisanAuxChoux.description>
+	<FlavorTextFR_EscalopeNormande.label>escalope normande</FlavorTextFR_EscalopeNormande.label>
+	<FlavorTextFR_EscalopeNormande.description>une escalope {0_adj} poêlée, déglacée au cidre, avec {1_coll} revenues au beurre et une sauce {2_adj}.</FlavorTextFR_EscalopeNormande.description>
+	<FlavorTextFR_VeauMarengo.label>veau Marengo</FlavorTextFR_VeauMarengo.label>
+	<FlavorTextFR_VeauMarengo.description>{0_coll} en cubes rissolés puis mijotés {1_plur} et {2_plur}. Improvisé, dit-on, le soir de la bataille, avec ce que le cuisinier de Bonaparte put trouver aux alentours.</FlavorTextFR_VeauMarengo.description>
+	<FlavorTextFR_VeauOrloff.label>veau Orloff</FlavorTextFR_VeauOrloff.label>
+	<FlavorTextFR_VeauOrloff.description>un rôti {0_adj} tranché puis reconstitué, chaque tranche séparée d'une purée {2_adj} et d'oignon, le tout nappé {1_plur} et gratiné. Créé pour un prince russe en poste à Paris.</FlavorTextFR_VeauOrloff.description>
+	<FlavorTextFR_PaupiettesDeVeau.label>paupiettes {0_adj}</FlavorTextFR_PaupiettesDeVeau.label>
+	<FlavorTextFR_PaupiettesDeVeau.description>de fines escalopes {0_adj} roulées sur une farce {1_adj}, ficelées et braisées avec {2_coll}. On les appelait « alouettes sans tête » avant qu'on n'y regarde de plus près.</FlavorTextFR_PaupiettesDeVeau.description>
+	<FlavorTextFR_TomatesFarcies.label>tomates farcies</FlavorTextFR_TomatesFarcies.label>
+	<FlavorTextFR_TomatesFarcies.description>{0_coll} évidées, salées et retournées pour dégorger, farcies {1_plur} hachée et {2_plur}, cuites au four sur un lit de riz qui boit le jus.</FlavorTextFR_TomatesFarcies.description>
+	<FlavorTextFR_CourgettesFarcies.label>courgettes farcies</FlavorTextFR_CourgettesFarcies.label>
+	<FlavorTextFR_CourgettesFarcies.description>{0_coll} fendues et creusées, la chair retirée hachée avec {1_coll} et remise dedans, le tout gratiné {2_plur}.</FlavorTextFR_CourgettesFarcies.description>
+	<FlavorTextFR_PoivronsFarcis.label>poivrons farcis</FlavorTextFR_PoivronsFarcis.label>
+	<FlavorTextFR_PoivronsFarcis.description>{0_coll} décapités et vidés de leurs graines, remplis {1_plur} et {2_plur} à moitié cuit — il gonflera au four et tendra la peau.</FlavorTextFR_PoivronsFarcis.description>
+	<FlavorTextFR_ChouFarci.label>chou farci</FlavorTextFR_ChouFarci.label>
+	<FlavorTextFR_ChouFarci.description>un chou entier blanchi, ouvert feuille à feuille, garni {1_plur} entre chaque étage puis refermé dans un linge et poché des heures. On le tranche en parts, comme un gâteau.</FlavorTextFR_ChouFarci.description>
+	<FlavorTextFR_PetitsFarcisNicois.label>petits farcis niçois</FlavorTextFR_PetitsFarcisNicois.label>
+	<FlavorTextFR_PetitsFarcisNicois.description>un assortiment de petits légumes — {0_coll}, {1_coll} et leurs fleurs — évidés et farcis, serrés dans un plat et cuits ensemble à l'huile d'olive. Se mangent tièdes.</FlavorTextFR_PetitsFarcisNicois.description>
+	<FlavorTextFR_GratinDeChouFleur.label>gratin de chou-fleur</FlavorTextFR_GratinDeChouFleur.label>
+	<FlavorTextFR_GratinDeChouFleur.description>{0_coll} blanchis à l'eau salée, égouttés longuement, puis nappés d'une béchamel {1_adj} et gratinés {2_plur}. Mal égoutté, le gratin rend son eau et se défait.</FlavorTextFR_GratinDeChouFleur.description>
+	<FlavorTextFR_GratinDePoireaux.label>gratin de poireaux</FlavorTextFR_GratinDePoireaux.label>
+	<FlavorTextFR_GratinDePoireaux.description>{0_coll} fendus en quatre et lavés jusqu'au dernier grain de sable, fondus au beurre puis noyés {1_plur} et gratinés {2_plur}.</FlavorTextFR_GratinDePoireaux.description>
+	<FlavorTextFR_EndivesAuJambon.label>endives au jambon</FlavorTextFR_EndivesAuJambon.label>
+	<FlavorTextFR_EndivesAuJambon.description>{0_coll} braisées au beurre avec une pincée de sucre pour couper l'amertume, roulées {1_plur}, nappées de béchamel et gratinées {2_plur}.</FlavorTextFR_EndivesAuJambon.description>
+	<FlavorTextFR_OeufsCocotte.label>œufs cocotte</FlavorTextFR_OeufsCocotte.label>
+	<FlavorTextFR_OeufsCocotte.description>{0_coll} cassés dans des ramequins beurrés sur un lit {2_adj}, une cuillerée {1_adj} par-dessus, cuits au bain-marie jusqu'à ce que le blanc prenne et que le jaune reste liquide.</FlavorTextFR_OeufsCocotte.description>
+	<FlavorTextFR_OmeletteFinesHerbes.label>omelette aux fines herbes</FlavorTextFR_OmeletteFinesHerbes.label>
+	<FlavorTextFR_OmeletteFinesHerbes.description>{0_coll} battus à peine, versés {2_plur} mousseux et remués vite, roulés baveux au centre. Persil, cerfeuil, ciboulette et estragon : quatre herbes, ni plus ni moins.</FlavorTextFR_OmeletteFinesHerbes.description>
+	<FlavorTextFR_OmeletteAuxChampignons.label>omelette aux champignons</FlavorTextFR_OmeletteAuxChampignons.label>
+	<FlavorTextFR_OmeletteAuxChampignons.description>{1_coll} sautés à part jusqu'à ce que toute leur eau soit partie, glissés dans {0_coll} au moment de rouler l'omelette.</FlavorTextFR_OmeletteAuxChampignons.description>
+	<FlavorTextFR_CroqueMadame.label>croque-madame</FlavorTextFR_CroqueMadame.label>
+	<FlavorTextFR_CroqueMadame.description>un croque-monsieur coiffé d'un œuf au plat, dont le jaune percé fait office de sauce. Le chapeau lui vaut son nom.</FlavorTextFR_CroqueMadame.description>
+	<FlavorTextFR_QuicheAuxPoireaux.label>quiche aux poireaux</FlavorTextFR_QuicheAuxPoireaux.label>
+	<FlavorTextFR_QuicheAuxPoireaux.description>{0_coll} fondus à l'étouffée jusqu'à devenir presque transparents, liés {1_plur} battus {2_plur}, dans une pâte cuite à blanc d'avance.</FlavorTextFR_QuicheAuxPoireaux.description>
+	<FlavorTextFR_TarteALOignon.label>tarte à l'oignon</FlavorTextFR_TarteALOignon.label>
+	<FlavorTextFR_TarteALOignon.description>{0_coll} compotés une heure sans prendre couleur, mêlés {2_plur} fumée et étalés sur une pâte brisée. Alsacienne ou lyonnaise selon la main qui l'a faite.</FlavorTextFR_TarteALOignon.description>
+	<FlavorTextFR_PateEnCroute.label>pâté en croûte</FlavorTextFR_PateEnCroute.label>
+	<FlavorTextFR_PateEnCroute.description>une farce {0_adj} et {2_adj} montée en terrine de pâte, cuite avec une cheminée, puis coulée à la gelée par ce trou une fois refroidie. Se tranche net, froid, jamais tiède.</FlavorTextFR_PateEnCroute.description>
+	<FlavorTextFR_VolAuVent.label>vol-au-vent</FlavorTextFR_VolAuVent.label>
+	<FlavorTextFR_VolAuVent.description>une croûte feuilletée si légère qu'elle s'envolerait — d'où le nom —, remplie {1_adj} et {2_adj} en sauce blanche, et recoiffée de son chapeau.</FlavorTextFR_VolAuVent.description>
+	<FlavorTextFR_SouffleAuFromage.label>soufflé au fromage</FlavorTextFR_SouffleAuFromage.label>
+	<FlavorTextFR_SouffleAuFromage.description>une béchamel {2_adj} enrichie {0_plur} et de jaunes, allégée de blancs montés incorporés à la spatule. On n'ouvre pas le four, et on ne fait pas attendre les convives : c'est le soufflé qui commande.</FlavorTextFR_SouffleAuFromage.description>
+	<FlavorTextFR_GaletteComplete.label>galette complète</FlavorTextFR_GaletteComplete.label>
+	<FlavorTextFR_GaletteComplete.description>une galette {0_adj} garnie {2_plur}, {1_plur} et de fromage, les quatre coins rabattus en carré autour du jaune resté entier.</FlavorTextFR_GaletteComplete.description>
+	<FlavorTextFR_FicellePicarde.label>ficelle picarde</FlavorTextFR_FicellePicarde.label>
+	<FlavorTextFR_FicellePicarde.description>une crêpe garnie {1_plur} et d'une duxelles {2_adj}, roulée, nappée de crème et gratinée. Le nom vient de sa forme, longue et fine.</FlavorTextFR_FicellePicarde.description>
+
+</LanguageData>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 06 : condiments, œufs, plats composés, viandes.
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- Condiments, féculents -->
+	<FlavorText_ChiliPaste.description>une pâte épaisse {0_adj} pur. À ne pas manger telle quelle.</FlavorText_ChiliPaste.description>
+	<FlavorText_Pikliz.description>un condiment mariné de la cuisine haïtienne, servi en accompagnement d'un autre plat : un émincé {0_adj}, {1_adj} et d'autres légumes, conservé au vinaigre.</FlavorText_Pikliz.description>
+	<FlavorText_Corn_Pones.description>un pain de maïs élémentaire de la cuisine américaine : une pâte {0_adj} cuite à la poêle.</FlavorText_Corn_Pones.description>
+	<FlavorText_Irio.description>un plat kényan {2_adj}, {0_adj} et {1_adj} écrasés ensemble.</FlavorText_Irio.description>
+	<FlavorText_Corn_Cheese.description>une cassolette {1_adj} dans une sauce crémeuse au fromage, née de l'influence américaine sur la cuisine coréenne.</FlavorText_Corn_Cheese.description>
+	<FlavorText_Rice_Pudding.description>{2_coll} cuit dans une crème {0_adj}.</FlavorText_Rice_Pudding.description>
+	<FlavorText_Mashed_Potato.description>{1_coll} bien écrasés et travaillés au beurre et à la crème.</FlavorText_Mashed_Potato.description>
+
+	<!-- Œufs -->
+	<FlavorText_Scrambled_Egg.description>{1_coll} battus avec {0_coll} ou de la crème jusqu'à consistance lisse, puis cuits dans une poêle basse.</FlavorText_Scrambled_Egg.description>
+	<FlavorText_Egg_Bhurji.description>un plat de rue indien très répandu : {0_coll} brouillés avec tout un jeu d'aromates, dont {1_coll}.</FlavorText_Egg_Bhurji.description>
+	<FlavorText_Egg_InABasket.description>un {0_sing} cassé dans le trou découpé au centre d'une tranche de pain {1_adj}, cuit à la poêle jusqu'à ce que le jaune soit encore coulant.</FlavorText_Egg_InABasket.description>
+	<FlavorText_PlantFoodRaw_Kuku.description>un plat iranien {0_adj} fouettés, dans lesquels on incorpore {1_coll} et {2_coll}, cuit à la poêle en une grande galette.</FlavorText_PlantFoodRaw_Kuku.description>
+	<FlavorText_AmericanOmlette.description>{0_coll} brouillés et cuits jusqu'à prise, puis repliés sur une garniture {1_adj} hachés.</FlavorText_AmericanOmlette.description>
+	<FlavorText_Basted_Egg.description>{0_coll} entiers cuits à la poêle et arrosés de beurre à la cuillère.</FlavorText_Basted_Egg.description>
+	<FlavorText_BrooklynRicottaScramble.description>{0_coll} cuits en brouillade souple avec de la ricotta, souvent servis sur une tranche de pain au levain.</FlavorText_BrooklynRicottaScramble.description>
+
+	<!-- « deviled eggs » a un équivalent français exact -->
+	<FlavorText_Deviled_Egg.description>{0_coll} durs coupés en deux, les jaunes prélevés puis mêlés à de la mayonnaise et à des épices, et repoussés à la poche dans le creux des blancs.</FlavorText_Deviled_Egg.description>
+	<FlavorText_EnqulalFirfir.description>{0_coll} brouillés à l'éthiopienne, avec du concentré de tomate et {1_coll} frais en tranches.</FlavorText_EnqulalFirfir.description>
+	<FlavorText_FrenchOmlette.description>{0_coll} fouettés au beurre et cuits très vite, pour garder un cœur baveux.</FlavorText_FrenchOmlette.description>
+	<FlavorText_Fried_Egg.description>{0_coll} cassés dans la poêle et cuits sur le plat.</FlavorText_Fried_Egg.description>
+	<FlavorText_NigerianEggStew.description>une forme d'œufs brouillés de la cuisine nigériane. {1_coll} et {2_coll} sont mixés en pâte et versés dans la poêle, où on les fait revenir avec de l'oignon et de l'ail en dés. On laisse réduire, on ajoute la poudre de curry et le paprika fumé, puis les œufs battus, et on cuit jusqu'à ce que tout soit sec. Se sert volontiers sur des ignames rôties, des pommes de terre ou du pain.</FlavorText_NigerianEggStew.description>
+	<FlavorText_Poached_Egg.description>{0_coll} entiers cassés dans l'eau frémissante et cuits jusqu'à ce que le blanc prenne, le jaune restant coulant.</FlavorText_Poached_Egg.description>
+	<FlavorText_Scrambled_Egg_3.description>{0_coll} cuits à la poêle en remuant sans arrêt.</FlavorText_Scrambled_Egg_3.description>
+	<FlavorText_SteamedEggs.description>{0_coll} battus et cuits à la vapeur, pour une texture légère et soufflée.</FlavorText_SteamedEggs.description>
+	<FlavorText_Strapatsada.description>un plat grec simple et très répandu : {0_coll} brouillés avec {1_coll} frais en dés et de l'huile d'olive. La feta est facultative.</FlavorText_Strapatsada.description>
+	<FlavorText_Zarangollo.description>un plat espagnol traditionnel : {0_coll} brouillés avec {1_coll} revenus, servis chauds ou froids.</FlavorText_Zarangollo.description>
+	<FlavorText_Zarangollo_2.description>un plat espagnol traditionnel : {0_coll} brouillés avec {1_coll} revenus et {2_coll} en dés, servis chauds ou froids.</FlavorText_Zarangollo_2.description>
+
+	<!-- Légumes et céréales -->
+	<FlavorText_BabaGhanoush.description>un dip levantin fait pour l'essentiel {0_adj}, souvent servi en entrée.</FlavorText_BabaGhanoush.description>
+	<FlavorText_Nasaump.description>un plat {1_adj} séchés et {0_adj} sauvages, mijoté dans un pot de terre sur un feu de bois et mangé comme une bouillie.</FlavorText_Nasaump.description>
+	<FlavorText_JellyFungus.description>un cœur {0_adj} gélatineux qui retient un assemblage artistique de bras {1_adj}. A tendance à laisser tomber des morceaux de gelée {0_adj} par terre pendant qu'on mange.</FlavorText_JellyFungus.description>
+	<FlavorText_Black_Garlic.description>des gousses {0_adj} entières, caramélisées très lentement à basse température pendant plusieurs jours, jusqu'à devenir entièrement noires. Elles semblent brûlées, mais leur goût est doux et leur texture élastique.</FlavorText_Black_Garlic.description>
+	<FlavorText_BaconPancakes.description>on fait des pancakes au bacon. On prend du bacon, et on le met dans un pancake.</FlavorText_BaconPancakes.description>
+	<FlavorText_Gachas.description>une bouillie paysanne du sud de l'Espagne, faite d'une farine {0_adj}, d'ail, de paprika, d'huile d'olive et de sel.</FlavorText_Gachas.description>
+	<FlavorText_Skordalia_2.description>un dip grec traditionnel {1_adj}, monté sur une base de pain {0_adj} rassis et trempé.</FlavorText_Skordalia_2.description>
+
+	<!-- Plats composés -->
+	<FlavorText_Ingredients_MeatRaw_Sautee.description>un morceau {1_adj} sauté dans un fond d'huile avec {0_coll}, en remuant à feu assez vif.</FlavorText_Ingredients_MeatRaw_Sautee.description>
+	<FlavorText_Ingredients_Bauernfruhstuck.description>un plat chaud {2_adj} revenus, {0_adj} et {1_adj} brouillés.</FlavorText_Ingredients_Bauernfruhstuck.description>
+	<FlavorText_Ingredients_Buchimgae.description>une galette coréenne, faite d'une pâte {0_adj} et {1_adj} détrempés {2_plur}.</FlavorText_Ingredients_Buchimgae.description>
+	<FlavorText_Ingredients_Esquites.description>une cassolette {1_adj} couverte {0_adj}.</FlavorText_Ingredients_Esquites.description>
+	<FlavorText_Ingredients_Frittata.description>une omelette au four {2_adj} battus, enrichie {0_adj} et {1_adj} frais, cuite à la grande poêle puis finie au four.</FlavorText_Ingredients_Frittata.description>
+	<FlavorText_Ingredients_Omlette.description>{1_coll} cuits en disque mince à la poêle, puis repliés sur une garniture {0_adj}.</FlavorText_Ingredients_Omlette.description>
+	<FlavorText_Ingredients_Stuffed_Fungus.description>de gros {1_coll} dont on a retiré le pied, les chapeaux farcis {0_adj}.</FlavorText_Ingredients_Stuffed_Fungus.description>
+	<FlavorText_Ingredients_With_Fruit_Chutney.description>{0_coll} frais servis avec un bol de chutney {1_adj} pour tremper.</FlavorText_Ingredients_With_Fruit_Chutney.description>
+	<FlavorText_Ingredients_Patina.description>un terme fourre-tout pour toutes sortes de plats romains cuits à la grande poêle. Celui-ci réunit {2_coll} cuits avec {1_coll} dans leur propre jus, liés d'un appareil {0_adj}.</FlavorText_Ingredients_Patina.description>
+	<FlavorText_CharcuterieBoard.description>un plateau de viandes tranchées, de fromages, de fruits à coque et de fruits, dont les variations sont sans fin. Celui-ci présente {0_coll} frais aux côtés de fines tranches {1_adj} et de saucissons {2_adj}.</FlavorText_CharcuterieBoard.description>
+	<FlavorText_Fried_Ingredients.description>{0_coll} cuits à la poêle basse, à feu moyen.</FlavorText_Fried_Ingredients.description>
+	<FlavorText_Kush.description>un plat né de la cuisine des esclaves américains : des morceaux de pain de maïs de la veille, revenus avec {2_coll} et un reste de fond {0_adj}.</FlavorText_Kush.description>
+	<FlavorText_Norii.description>{0_coll} séchés et assaisonnés, mangés en en-cas.</FlavorText_Norii.description>
+	<FlavorText_Laulau.description>un plat né en Polynésie : {1_coll} hachés, enveloppés de feuilles {0_adj} et rôtis à la flamme.</FlavorText_Laulau.description>
+
+	<!-- Viandes -->
+	<FlavorText_Corned_Meat_Cow_And_Cabbage.description>la version irlando-américaine du lard {1_plur}, où le lard cède la place à {0_coll} salée, moins chère.</FlavorText_Corned_Meat_Cow_And_Cabbage.description>
+	<FlavorText_Estrogonoffe.description>une variante du stroganoff dans sa version brésilienne, reconnaissable à la présence {1_adj}. {0_coll} en cubes est saisie à la poêle pendant que l'oignon et l'ail reviennent à côté. On réunit le tout, puis on mijote avec une pâte {1_adj} et {2_coll} jusqu'à obtenir une sauce épaisse.</FlavorText_Estrogonoffe.description>
+	<FlavorText_JiggsDinner.description>{0_coll} salée bouillie avec {1_coll} et un assortiment de légumes-racines. On la mangeait le dimanche à midi dans certaines régions du Canada.</FlavorText_JiggsDinner.description>
+	<FlavorText_SteakTartare.description>{0_coll} crue de première qualité, hachée à la minute et mêlée d'oignon, d'épices et de sauce Worcestershire, présentée sous un jaune {1_adj} cru.</FlavorText_SteakTartare.description>
+	<FlavorText_Gefilte_Meat_Fish.description>un plat fait d'un appareil poché {0_adj} désarêtée et hachée, garni d'une rondelle {1_adj} cuite.</FlavorText_Gefilte_Meat_Fish.description>
+	<FlavorText_Bobotie.description>un gratin sud-africain : {0_coll} hachée au fond du plat, montée en curry avec du concentré de tomate, {2_coll} et un acide — citron ou vinaigre. On verse par-dessus une omelette {1_adj} et on passe au four jusqu'à ce qu'une croûte brune se forme.</FlavorText_Bobotie.description>
+	<FlavorText_Yukhoe.description>un plat coréen raffiné : {0_coll} crue taillée en fines lanières, assaisonnée de sel, de sucre, d'huile de sésame, de poivre et d'ail, servie avec {1_coll} en garniture.</FlavorText_Yukhoe.description>
+	<FlavorText_Sisig.description>un plat philippin fait d'oreilles, de joues et de poitrine {0_adj}, revenues avec des foies {1_adj} et un mélange d'épices. Servi avec un citron calamansi.</FlavorText_Sisig.description>
+	<FlavorText_Trinxat.description>un plat des Pyrénées, fait {1_adj}, {2_adj} et {0_adj}, assez proche du bubble and squeak britannique.</FlavorText_Trinxat.description>
+	<FlavorText_Ceviche.description>le plat national du Pérou : {0_coll} marinée dans un jus {1_adj} et des assaisonnements, servie froide. L'acidité cuit {0_coll} sans qu'aucune chaleur intervienne.</FlavorText_Ceviche.description>
+	<FlavorText_Cocktail_Meat_Seafood.description>{0_coll} cuite et disposée avec soin autour d'une coupelle de sauce {1_adj}. Se sert le plus souvent en entrée.</FlavorText_Cocktail_Meat_Seafood.description>
+	<FlavorText_TestiKebab.description>un plat turc : de petits cubes de viande {0_adj} cuits très lentement dans un pot de terre scellé, avec {1_coll}, {2_coll}, du beurre, d'autres légumes et des épices.</FlavorText_TestiKebab.description>
+	<FlavorText_MidyeDolma.description>une spécialité de rue turque : {0_coll} servis dans leur demi-coquille avec {1_coll} relevés, arrosés d'un jus {2_adj} fraîchement pressé et garnis de rondelles {2_adj}.</FlavorText_MidyeDolma.description>
+	<FlavorText_MeatRaw_Fricasee.description>{0_coll} colorée au beurre, puis braisée au fond de sauce jusqu'à ce que celle-ci nappe.</FlavorText_MeatRaw_Fricasee.description>
+	<FlavorText_MeatRaw_Hotdish.description>un gratin du Haut-Midwest américain : {0_coll} couverte {2_adj} et relevée d'un velouté {1_adj} en conserve.</FlavorText_MeatRaw_Hotdish.description>
+	<FlavorText_MeatRaw_Mincemeat.description>{0_coll} et sa graisse {0_adj} hachées très fin, mêlées {1_plur}, servies en garniture ou telles quelles.</FlavorText_MeatRaw_Mincemeat.description>
+	<FlavorText_MeatRaw_Paprikash.description>un plat réconfortant hongrois : {0_coll} longuement mijotée dans un roux très chargé en paprika, fini à la crème aigre.</FlavorText_MeatRaw_Paprikash.description>
+	<FlavorText_MeatRaw_Picadillo.description>{0_coll} hachée revenue avec {1_coll} taillés très fin.</FlavorText_MeatRaw_Picadillo.description>
+	<FlavorText_MeatRaw_And_Fungus_SpudPies.description>de gros {1_coll} dont on a retiré le pied, les chapeaux garnis {0_adj} hachée et d'une purée {2_adj}, puis passés au four.</FlavorText_MeatRaw_And_Fungus_SpudPies.description>
+	<FlavorText_MeatRaw_Stuffed_Citrus.description>une pièce {1_adj} entière, évidée et farcie de morceaux {0_adj} cuits avec {2_coll} hachés dans un bouillon dashi. Historiquement, un plat de l'aristocratie japonaise pendant les fêtes lunaires.</FlavorText_MeatRaw_Stuffed_Citrus.description>
+	<FlavorText_MeatRaw_MeatRaw_BreakfastSausage.description>{1_coll} et {0_coll} hachées, mêlées {2_plur} séchés et poussées dans des boyaux à saucisse.</FlavorText_MeatRaw_MeatRaw_BreakfastSausage.description>
+	<FlavorText_MeatRaw_BangersAndMash.description>une saucisse {1_adj} et {0_adj}, servie sur une purée {2_adj}.</FlavorText_MeatRaw_BangersAndMash.description>
+	<FlavorText_PlantFoodRaw_Stamppot.description>un plat néerlandais traditionnel : une purée {2_adj} écrasés avec {1_coll}, garnie {0_adj}.</FlavorText_PlantFoodRaw_Stamppot.description>
+	<FlavorText_BlackPudding.description>une saucisse d'origine britannique et irlandaise, faite {0_adj} et de sang, avec {1_coll} pour la charge.</FlavorText_BlackPudding.description>
+	<FlavorText_Braised_MeatRaw.description>{0_coll} saisie à la poêle et arrosée de son propre jus.</FlavorText_Braised_MeatRaw.description>
+	<FlavorText_Braised_MeatRaw_WithRum.description>une tranche {0_adj} cuite dans un rhum {2_adj}.</FlavorText_Braised_MeatRaw_WithRum.description>
+	<FlavorText_ChristmasPudding.description>un pouding sucré {2_adj} séchés et de mie de pain {1_adj}, lié d'une graisse de rognon {0_adj}. On le cuit à l'eau, à la vapeur ou au four jusqu'à ce qu'il tienne comme un gâteau.</FlavorText_ChristmasPudding.description>
+	<FlavorText_Corned_MeatRaw.description>un morceau {0_adj} salé au gros sel — les « corns » qui lui donnent son nom — et parfumé de grains {1_adj}.</FlavorText_Corned_MeatRaw.description>
+
+</LanguageData>

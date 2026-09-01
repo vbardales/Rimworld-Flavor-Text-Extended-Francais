@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Perou.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_LomoSaltado.label>lomo saltado</FlavorTextFR_LomoSaltado.label>
+	<FlavorTextFR_LomoSaltado.description>{0_coll} sautée au wok à feu brutal {2_plur}, déglacée au vinaigre et à la sauce de soja, puis mêlée {1_plur} frites. Un plat chinois passé par les Andes, et resté.</FlavorTextFR_LomoSaltado.description>
+	<FlavorTextFR_AjiDeGallina.label>ají de gallina</FlavorTextFR_AjiDeGallina.label>
+	<FlavorTextFR_AjiDeGallina.description>{0_coll} bouillie puis effilochée à la main, dans une sauce jaune épaissie de mie et {2_adj} broyées, colorée {1_plur} doux. Le piment est là pour la couleur autant que pour le feu.</FlavorTextFR_AjiDeGallina.description>
+	<FlavorTextFR_CausaLimena.label>causa limeña</FlavorTextFR_CausaLimena.label>
+	<FlavorTextFR_CausaLimena.description>une purée {0_adj} jaunes, pétrie {1_plur} et au piment jusqu'à devenir malléable comme de la pâte, montée en couches {2_plur}. Se mange froide, tranchée net.</FlavorTextFR_CausaLimena.description>
+	<FlavorTextFR_Anticuchos.label>anticuchos</FlavorTextFR_Anticuchos.label>
+	<FlavorTextFR_Anticuchos.description>{0_coll} marinée au vinaigre, {1_plur} et {2_plur}, enfilée sur des broches et grillée au charbon dans la rue. Née de ce que les maîtres ne mangeaient pas.</FlavorTextFR_Anticuchos.description>
+	<FlavorTextFR_PapaHuancaina.label>papa a la huancaína</FlavorTextFR_PapaHuancaina.label>
+	<FlavorTextFR_PapaHuancaina.description>{0_coll} bouillies et froides, noyées sous une sauce {1_adj} frais et {2_adj} jaune passée jusqu'à devenir soyeuse. Une entrée, jamais un plat.</FlavorTextFR_PapaHuancaina.description>
+	<FlavorTextFR_RocotoRelleno.label>rocoto relleno</FlavorTextFR_RocotoRelleno.label>
+	<FlavorTextFR_RocotoRelleno.description>{0_coll} évidés et blanchis trois fois pour ôter l'essentiel du feu, farcis {1_plur} hachée, coiffés {2_plur} et passés au four. Trois fois, et ça pique encore.</FlavorTextFR_RocotoRelleno.description>
+	<FlavorTextFR_ChupeDeCamarones.label>chupe de camarones</FlavorTextFR_ChupeDeCamarones.label>
+	<FlavorTextFR_ChupeDeCamarones.description>une soupe épaisse {0_adj}, {1_adj} et {2_adj}, où l'on casse un œuf entier au dernier moment. Les têtes des crevettes font le bouillon et ne se jettent jamais.</FlavorTextFR_ChupeDeCamarones.description>
+	<FlavorTextFR_ArrozConPollo.label>arroz con pollo</FlavorTextFR_ArrozConPollo.label>
+	<FlavorTextFR_ArrozConPollo.description>{0_coll} cuit dans le bouillon {1_adj} et une purée de coriandre qui le teint en vert profond, avec {2_coll}. La couleur déroute d'abord, puis manque quand elle n'y est pas.</FlavorTextFR_ArrozConPollo.description>
+	<FlavorTextFR_Pachamanca.label>pachamanca</FlavorTextFR_Pachamanca.label>
+	<FlavorTextFR_Pachamanca.description>{0_coll}, {1_coll} et {2_coll} enfouis dans un trou tapissé de pierres chauffées au feu, recouverts de terre, et laissés cuire des heures. Le nom veut dire « marmite de la terre » ; ce n'est pas une image.</FlavorTextFR_Pachamanca.description>
+	<FlavorTextFR_SopaDeQuinua.label>sopa de quinua</FlavorTextFR_SopaDeQuinua.label>
+	<FlavorTextFR_SopaDeQuinua.description>{0_coll} rincé longuement — sa saponine est amère — puis mijoté {1_plur} jusqu'à ouvrir ses germes en spirale, {2_plur} fondu dedans.</FlavorTextFR_SopaDeQuinua.description>
+	<FlavorTextFR_TacuTacu.label>tacu tacu</FlavorTextFR_TacuTacu.label>
+	<FlavorTextFR_TacuTacu.description>{0_coll} et {1_coll} de la veille écrasés ensemble et poêlés en une galette dorée sur les deux faces, {2_plur} revenus dedans. Un plat né des restes, devenu une institution.</FlavorTextFR_TacuTacu.description>
+	<FlavorTextFR_SecoDeCordero.label>seco {0_adj}</FlavorTextFR_SecoDeCordero.label>
+	<FlavorTextFR_SecoDeCordero.description>{0_coll} braisée dans une purée {1_adj} et {2_plur} fermentée, jusqu'à ce que la sauce devienne vert sombre. On l'appelle « sec » alors qu'il baigne : personne ne sait pourquoi.</FlavorTextFR_SecoDeCordero.description>
+	<FlavorTextFR_Picarones.label>picarones</FlavorTextFR_Picarones.label>
+	<FlavorTextFR_Picarones.description>des anneaux de pâte {0_adj} et de patate douce, façonnés à la main d'un geste tournant, frits et noyés d'un sirop {2_adj} roux. Le successeur colonial d'un beignet plus ancien.</FlavorTextFR_Picarones.description>
+	<FlavorTextFR_SuspiroLimena.label>suspiro a la limeña</FlavorTextFR_SuspiroLimena.label>
+	<FlavorTextFR_SuspiroLimena.description>{0_coll} réduit {2_plur} pendant une heure jusqu'au caramel, lié de jaunes {1_adj}, et coiffé d'une meringue au porto. Nommé d'après un soupir, pour sa douceur et sa brièveté.</FlavorTextFR_SuspiroLimena.description>
+
+</LanguageData>

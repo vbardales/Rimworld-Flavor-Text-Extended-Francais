@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Boissons.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Doujiang.label>doujiang</FlavorTextFR_Doujiang.label>
+	<FlavorTextFR_Doujiang.description>{0_coll} trempés une nuit, broyés {1_plur} puis filtrés au linge et portés à ébullition — crus, ils sont indigestes. Se boit brûlant au petit matin, sucré {2_plur} ou au contraire salé au vinaigre.</FlavorTextFR_Doujiang.description>
+	<FlavorTextFR_LaitDeSojaNoir.label>lait de soja noir</FlavorTextFR_LaitDeSojaNoir.label>
+	<FlavorTextFR_LaitDeSojaNoir.description>{0_coll} noirs torréfiés avant d'être broyés {1_plur}, ce qui donne une boisson d'un gris violacé, plus ronde que le soja jaune, relevée {2_plur} noir grillé.</FlavorTextFR_LaitDeSojaNoir.description>
+	<FlavorTextFR_SattuSharbat.label>sattu sharbat</FlavorTextFR_SattuSharbat.label>
+	<FlavorTextFR_SattuSharbat.description>une farine {0_adj} grillés, délayée {1_plur} froide avec un jus {2_adj}, du sel noir et du cumin. La boisson des étés du Bihar : elle nourrit autant qu'elle désaltère, et ne demande aucune cuisson.</FlavorTextFR_SattuSharbat.description>
+	<FlavorTextFR_BoissonHaricotMungo.label>boisson au haricot mungo</FlavorTextFR_BoissonHaricotMungo.label>
+	<FlavorTextFR_BoissonHaricotMungo.description>{0_coll} mungo cuits à l'excès puis passés, allongés {1_plur} et parfumés {2_plur} frais. On la boit glacée pendant les canicules, pour ses vertus rafraîchissantes autant que pour son goût.</FlavorTextFR_BoissonHaricotMungo.description>
+	<FlavorTextFR_PoCha.label>po cha</FlavorTextFR_PoCha.label>
+	<FlavorTextFR_PoCha.description>une brique {1_adj} bouillie des heures {2_plur}, puis barattée dans un tube de bois avec {0_coll} de yak et beaucoup de sel. Ce n'est pas une infusion mais un bouillon gras : à quatre mille mètres, c'est ce qui tient debout.</FlavorTextFR_PoCha.description>
+	<FlavorTextFR_CafeAuBeurre.label>café au beurre</FlavorTextFR_CafeAuBeurre.label>
+	<FlavorTextFR_CafeAuBeurre.description>{1_coll} serré allongé {2_plur} chaude, dans lequel on fait fondre une noix {0_adj} en fouettant jusqu'à l'émulsion. Sans le fouet, le gras remonte en flaque et la boisson est immonde.</FlavorTextFR_CafeAuBeurre.description>
+	<FlavorTextFR_GrogAuBeurre.label>grog au beurre</FlavorTextFR_GrogAuBeurre.label>
+	<FlavorTextFR_GrogAuBeurre.description>{1_coll} allongé d'eau bouillante sur {2_coll} et des épices, avec une noix {0_adj} qui fond en surface et forme un disque luisant. On le sert dans une chope, jamais dans un verre : la chaleur ne tiendrait pas.</FlavorTextFR_GrogAuBeurre.description>
+	<FlavorTextFR_ChocolatChaudAuBeurre.label>chocolat chaud au beurre</FlavorTextFR_ChocolatChaudAuBeurre.label>
+	<FlavorTextFR_ChocolatChaudAuBeurre.description>{1_coll} fondu {2_plur} bouillante plutôt qu'au lait, monté d'une noix {0_adj} au fouet. Plus amer et plus dense qu'au lait, et c'est ainsi qu'on le buvait avant que la vache s'en mêle.</FlavorTextFR_ChocolatChaudAuBeurre.description>
+	<FlavorTextFR_EauDeCoco.label>eau de coco</FlavorTextFR_EauDeCoco.label>
+	<FlavorTextFR_EauDeCoco.description>une noix {0_adj} jeune décalottée à la machette, dont on boit l'eau à la paille avant d'en racler la chair gélatineuse à la cuillère. Allongée {1_plur} glacée et d'un trait {2_adj}.</FlavorTextFR_EauDeCoco.description>
+	<FlavorTextFR_BukoShake.label>buko shake</FlavorTextFR_BukoShake.label>
+	<FlavorTextFR_BukoShake.description>la chair tendre d'une noix {0_adj} jeune, celle qui se racle à la cuillère, passée au mixeur avec sa propre eau, {1_coll} glacée et {2_coll}. Aux Philippines, on la vend au bord de la route dans la coque même.</FlavorTextFR_BukoShake.description>
+	<FlavorTextFR_CocoAnanas.label>rafraîchissement coco-ananas</FlavorTextFR_CocoAnanas.label>
+	<FlavorTextFR_CocoAnanas.description>l'eau et la chair d'une noix {0_adj} mixées avec {2_coll} bien mûr et allongées {1_plur}, sur beaucoup de glace pilée. Aucune crème n'y entre : c'est le fruit qui donne l'onctuosité.</FlavorTextFR_CocoAnanas.description>
+	<FlavorTextFR_PunchCocoRhum.label>punch coco au rhum</FlavorTextFR_PunchCocoRhum.label>
+	<FlavorTextFR_PunchCocoRhum.description>l'eau d'une noix {0_adj} versée sur {1_coll} et un sirop {2_adj}, servie dans la coque avec une paille. Se boit trop facilement, ce qui est tout le problème.</FlavorTextFR_PunchCocoRhum.description>
+
+</LanguageData>

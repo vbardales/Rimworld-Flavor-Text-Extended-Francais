@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Asperge.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_AspergesHollandaise.label>asperges sauce hollandaise</FlavorTextFR_AspergesHollandaise.label>
+	<FlavorTextFR_AspergesHollandaise.description>{0_coll} pochées al dente, nappées d'une émulsion de jaunes {1_adj} montée {2_plur} clarifié au bain-marie. La sauce tranche si elle dépasse soixante-cinq degrés : elle se fait au dernier moment ou pas du tout.</FlavorTextFR_AspergesHollandaise.description>
+	<FlavorTextFR_AspergesMousseline.label>asperges sauce mousseline</FlavorTextFR_AspergesMousseline.label>
+	<FlavorTextFR_AspergesMousseline.description>la même hollandaise, allégée d'un tiers {2_adj} fouettée incorporée hors du feu. Elle double de volume et perd son mordant : c'est la version des dimanches.</FlavorTextFR_AspergesMousseline.description>
+	<FlavorTextFR_AspergesFlamande.label>asperges à la flamande</FlavorTextFR_AspergesFlamande.label>
+	<FlavorTextFR_AspergesFlamande.description>{0_coll} blanches servies avec un œuf dur écrasé à la fourchette dans du beurre fondu, du persil et une râpure de muscade. Chacun mélange sa sauce dans son assiette.</FlavorTextFR_AspergesFlamande.description>
+	<FlavorTextFR_VelouteDAsperges.label>velouté d'asperges</FlavorTextFR_VelouteDAsperges.label>
+	<FlavorTextFR_VelouteDAsperges.description>les épluchures et les parties fibreuses bouillies à part pour le fond, les pointes réservées et ajoutées entières à la fin. {2_coll} lient sans farine, {1_coll} adoucit l'amertume.</FlavorTextFR_VelouteDAsperges.description>
+	<FlavorTextFR_FlanDAsperges.label>flan d'asperges</FlavorTextFR_FlanDAsperges.label>
+	<FlavorTextFR_FlanDAsperges.description>une purée {0_adj} liée {1_plur} et {2_plur}, cuite au bain-marie en ramequins jusqu'à prendre sans bulles. Se démoule tiède, tremblant.</FlavorTextFR_FlanDAsperges.description>
+	<FlavorTextFR_GratinDAsperges.label>gratin d'asperges</FlavorTextFR_GratinDAsperges.label>
+	<FlavorTextFR_GratinDAsperges.description>{0_coll} égouttées longuement puis rangées serrées sous une béchamel {1_adj} et {2_plur}, passées au four jusqu'à ce que la surface cloque.</FlavorTextFR_GratinDAsperges.description>
+	<FlavorTextFR_TarteAuxAsperges.label>tarte aux asperges</FlavorTextFR_TarteAuxAsperges.label>
+	<FlavorTextFR_TarteAuxAsperges.description>{0_coll} rangées en rayons sur un fond précuit, entre elles une crème {2_adj}. Les pointes vers le centre, les talons vers le bord : c'est la seule façon que chaque part en ait une.</FlavorTextFR_TarteAuxAsperges.description>
+	<FlavorTextFR_AspergesJambonGratinees.label>asperges au jambon gratinées</FlavorTextFR_AspergesJambonGratinees.label>
+	<FlavorTextFR_AspergesJambonGratinees.description>des bottes {0_adj} roulées deux par deux dans une tranche {1_adj}, nappées et gratinées {2_plur}. Le cousin printanier des endives au jambon.</FlavorTextFR_AspergesJambonGratinees.description>
+	<FlavorTextFR_AsparagiAllaMilanese.label>asparagi alla milanese</FlavorTextFR_AsparagiAllaMilanese.label>
+	<FlavorTextFR_AsparagiAllaMilanese.description>{0_coll} couchées sous un œuf au plat cuit au beurre noisette, {2_coll} râpé par-dessus. On perce le jaune et on y trempe les pointes.</FlavorTextFR_AsparagiAllaMilanese.description>
+	<FlavorTextFR_AsparagiAllaParmigiana.label>asparagi alla parmigiana</FlavorTextFR_AsparagiAllaParmigiana.label>
+	<FlavorTextFR_AsparagiAllaParmigiana.description>{0_coll} rangées en couches alternées {1_plur} râpé et {2_plur} fondu, gratinées jusqu'à ce que le fromage forme une croûte dorée aux bords du plat.</FlavorTextFR_AsparagiAllaParmigiana.description>
+	<FlavorTextFR_RisottoAgliAsparagi.label>risotto agli asparagi</FlavorTextFR_RisottoAgliAsparagi.label>
+	<FlavorTextFR_RisottoAgliAsparagi.description>{1_coll} mouillé du bouillon tiré des épluchures {0_adj}, les tiges fondues dedans et les pointes gardées croquantes pour la fin, le tout lié {2_plur}.</FlavorTextFR_RisottoAgliAsparagi.description>
+	<FlavorTextFR_FrittataDiAsparagi.label>frittata di asparagi</FlavorTextFR_FrittataDiAsparagi.label>
+	<FlavorTextFR_FrittataDiAsparagi.description>{0_coll} tronçonnées et poêlées {2_plur} nouveaux, noyées {1_plur} battus et cuites à feu doux jusqu'à ce que le centre soit à peine pris.</FlavorTextFR_FrittataDiAsparagi.description>
+	<FlavorTextFR_PastaAgliAsparagi.label>pasta agli asparagi</FlavorTextFR_PastaAgliAsparagi.label>
+	<FlavorTextFR_PastaAgliAsparagi.description>les tiges {0_adj} fondues {2_plur} jusqu'à se défaire en crème, les pointes ajoutées entières deux minutes avant la fin. L'eau de cuisson lie le tout.</FlavorTextFR_PastaAgliAsparagi.description>
+	<FlavorTextFR_SpargelMitKartoffeln.label>spargel mit kartoffeln</FlavorTextFR_SpargelMitKartoffeln.label>
+	<FlavorTextFR_SpargelMitKartoffeln.description>{0_coll} blanches épluchées jusqu'au pied et cuites dans une eau sucrée et salée, avec {1_coll} nouvelles et {2_coll} fondu. En Allemagne, la saison ouvre et ferme à date fixe et rien d'autre ne se mange entre les deux.</FlavorTextFR_SpargelMitKartoffeln.description>
+	<FlavorTextFR_RevueltoDeEsparragos.label>revuelto de espárragos trigueros</FlavorTextFR_RevueltoDeEsparragos.label>
+	<FlavorTextFR_RevueltoDeEsparragos.description>des asperges sauvages, fines et amères, sautées {2_plur} d'olive puis brouillées {1_plur} à peine pris. Se ramassent au bord des chemins andalous au printemps.</FlavorTextFR_RevueltoDeEsparragos.description>
+	<FlavorTextFR_AsparagusTempura.label>tempura d'asperges</FlavorTextFR_AsparagusTempura.label>
+	<FlavorTextFR_AsparagusTempura.description>{0_coll} entières trempées dans une pâte {1_adj} glacée et à peine mélangée, frites trente secondes {2_plur}. La pointe reste verte et croquante sous la croûte.</FlavorTextFR_AsparagusTempura.description>
+	<FlavorTextFR_AsparagusNikumaki.label>asparagus nikumaki</FlavorTextFR_AsparagusNikumaki.label>
+	<FlavorTextFR_AsparagusNikumaki.description>{0_coll} enroulées une à une dans une lamelle {1_adj} très fine, saisies à la poêle jusqu'à ce que la viande scelle, puis laquées {2_plur} et au mirin.</FlavorTextFR_AsparagusNikumaki.description>
+
+</LanguageData>

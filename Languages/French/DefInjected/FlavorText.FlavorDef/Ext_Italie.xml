@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Italie.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_RisiEBisi.label>risi e bisi</FlavorTextFR_RisiEBisi.label>
+	<FlavorTextFR_RisiEBisi.description>{0_coll} et {1_coll} cuits ensemble, entre la soupe et le risotto — assez liquide pour la cuillère, trop épais pour le bol. Les cosses servent au bouillon, rien ne se perd.</FlavorTextFR_RisiEBisi.description>
+	<FlavorTextFR_Gnocchi.label>gnocchi</FlavorTextFR_Gnocchi.label>
+	<FlavorTextFR_Gnocchi.description>{0_coll} écrasées encore chaudes et liées d'aussi peu de farine que possible, roulées, striées à la fourchette. Ils sont cuits quand ils remontent.</FlavorTextFR_Gnocchi.description>
+	<FlavorTextFR_OssoBuco.label>osso-buco</FlavorTextFR_OssoBuco.label>
+	<FlavorTextFR_OssoBuco.description>des tranches de jarret braisées {1_plur} et {2_plur}, l'os laissé au centre. La moelle qu'il contient est la raison d'être du plat.</FlavorTextFR_OssoBuco.description>
+	<FlavorTextFR_Parmigiana.label>parmigiana {0_adj}</FlavorTextFR_Parmigiana.label>
+	<FlavorTextFR_Parmigiana.description>{0_coll} en tranches dégorgées au sel puis frites, montées en couches {1_plur} et {2_plur}, et gratinées. Le sel enlève l'amertume ; sans lui le plat est immangeable.</FlavorTextFR_Parmigiana.description>
+	<FlavorTextFR_Caponata.label>caponata</FlavorTextFR_Caponata.label>
+	<FlavorTextFR_Caponata.description>{0_coll} frites à part, réunies {1_plur} fondus et {2_plur}, puis aigres-douces au vinaigre et au sucre. Se mange froide, le lendemain, quand l'acidité s'est rangée.</FlavorTextFR_Caponata.description>
+	<FlavorTextFR_Minestrone.label>minestrone</FlavorTextFR_Minestrone.label>
+	<FlavorTextFR_Minestrone.description>une soupe de fond de garde-manger : {0_coll}, {1_coll} et {2_coll} mijotés sans recette fixe. Meilleure le lendemain, ce qui arrange tout le monde.</FlavorTextFR_Minestrone.description>
+	<FlavorTextFR_Ribollita.label>ribollita</FlavorTextFR_Ribollita.label>
+	<FlavorTextFR_Ribollita.description>littéralement « rebouillie » : la soupe {0_adj} et {1_adj} de la veille, épaissie de pain rassis et remise sur le feu jusqu'à ne plus couler.</FlavorTextFR_Ribollita.description>
+	<FlavorTextFR_PannaCotta.label>panna cotta</FlavorTextFR_PannaCotta.label>
+	<FlavorTextFR_PannaCotta.description>{0_coll} à peine chauffée {1_plur}, prise au froid tout juste assez pour tenir, et nappée d'un coulis {2_adj}. Elle doit trembler quand on pose l'assiette.</FlavorTextFR_PannaCotta.description>
+	<FlavorTextFR_Cannoli.label>cannoli</FlavorTextFR_Cannoli.label>
+	<FlavorTextFR_Cannoli.description>des tubes de pâte frits autour d'un roseau, garnis {1_plur} sucrée et {2_plur} au dernier moment. Fourrés d'avance, ils ramollissent et ne valent plus rien.</FlavorTextFR_Cannoli.description>
+	<FlavorTextFR_Focaccia.label>focaccia</FlavorTextFR_Focaccia.label>
+	<FlavorTextFR_Focaccia.description>une pâte très hydratée creusée du bout des doigts, noyée d'huile {1_adj} et salée en gros grains. Les trous retiennent l'huile : ils ne sont pas décoratifs.</FlavorTextFR_Focaccia.description>
+	<FlavorTextFR_Arancini.label>arancini</FlavorTextFR_Arancini.label>
+	<FlavorTextFR_Arancini.description>un reste de risotto froid serré en boule autour d'un cœur {2_adj}, roulé dans une chapelure {1_adj} et frit. Le nom veut dire « petites oranges », d'après la couleur qu'elles prennent en sortant de l'huile.</FlavorTextFR_Arancini.description>
+	<FlavorTextFR_Caprese.label>caprese</FlavorTextFR_Caprese.label>
+	<FlavorTextFR_Caprese.description>{0_coll} et {1_coll} en tranches alternées, huile, sel, feuilles vertes. Rien d'autre, et surtout pas de vinaigre.</FlavorTextFR_Caprese.description>
+	<FlavorTextFR_Saltimbocca.label>saltimbocca</FlavorTextFR_Saltimbocca.label>
+	<FlavorTextFR_Saltimbocca.description>une escalope {0_adj} aplatie, une feuille de sauge et une tranche {1_adj} fixées dessus, saisies une minute par face. Le nom dit « saute en bouche ».</FlavorTextFR_Saltimbocca.description>
+	<FlavorTextFR_VitelloTonnato.label>vitello tonnato</FlavorTextFR_VitelloTonnato.label>
+	<FlavorTextFR_VitelloTonnato.description>{0_coll} pochée, refroidie, tranchée au plus fin, et nappée d'une sauce froide {1_adj} montée {2_plur}. L'accord paraît absurde jusqu'à la première bouchée.</FlavorTextFR_VitelloTonnato.description>
+	<FlavorTextFR_Panzanella.label>panzanella</FlavorTextFR_Panzanella.label>
+	<FlavorTextFR_Panzanella.description>du pain dur trempé puis pressé, mêlé {1_plur} et {2_plur}. Un plat inventé pour ne rien jeter, devenu un plat qu'on réclame.</FlavorTextFR_Panzanella.description>
+	<FlavorTextFR_BagnaCauda.label>bagna cauda</FlavorTextFR_BagnaCauda.label>
+	<FlavorTextFR_BagnaCauda.description>{0_coll} fondus {2_plur} avec beaucoup {1_adj}, tenus tièdes sur une flamme. On y trempe les légumes crus ; l'odeur tient trois jours dans la pièce.</FlavorTextFR_BagnaCauda.description>
+	<FlavorTextFR_FrittoMisto.label>fritto misto</FlavorTextFR_FrittoMisto.label>
+	<FlavorTextFR_FrittoMisto.description>{0_coll} roulée dans la farine, jetée dans l'huile brûlante et sortie aussitôt, servie {2_plur}. Se mange debout, dans du papier, avant d'avoir refroidi.</FlavorTextFR_FrittoMisto.description>
+	<FlavorTextFR_Polpette.label>polpette</FlavorTextFR_Polpette.label>
+	<FlavorTextFR_Polpette.description>{0_coll} hachée et allégée de mie trempée, roulée en boulettes et finie de cuire dans une sauce {2_adj}.</FlavorTextFR_Polpette.description>
+	<FlavorTextFR_CotolettaMilanese.label>cotoletta alla milanese</FlavorTextFR_CotolettaMilanese.label>
+	<FlavorTextFR_CotolettaMilanese.description>une côte {0_adj} laissée sur son os, passée {2_plur} puis à la chapelure, et cuite au beurre clarifié. Milan et Vienne se disputent l'antériorité depuis deux siècles.</FlavorTextFR_CotolettaMilanese.description>
+	<FlavorTextFR_Amatriciana.label>amatriciana</FlavorTextFR_Amatriciana.label>
+	<FlavorTextFR_Amatriciana.description>{2_coll} rendue lentement jusqu'à devenir translucide, {1_coll} ajoutées à la graisse obtenue, et les pâtes finies dedans.</FlavorTextFR_Amatriciana.description>
+	<FlavorTextFR_Zabaione.label>zabaione</FlavorTextFR_Zabaione.label>
+	<FlavorTextFR_Zabaione.description>des jaunes {0_adj} fouettés {1_plur} et {2_plur} au bain-marie, jusqu'à tripler de volume. Une seconde de trop et c'est une omelette sucrée.</FlavorTextFR_Zabaione.description>
+
+</LanguageData>

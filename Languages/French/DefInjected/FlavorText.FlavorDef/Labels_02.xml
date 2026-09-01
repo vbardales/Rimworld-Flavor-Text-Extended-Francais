@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 02 : condiments, fritures, pâtisseries et desserts.
+  Convention des slots : {N_plur} « aux baies », {N_coll} « baies »,
+  {N_sing} « baie », {N_adj} « de baies ».
+-->
+<LanguageData>
+
+	<!-- Pains levantins -->
+	<FlavorText_JerusalemBagels.label>bagels de Jérusalem</FlavorText_JerusalemBagels.label>
+	<FlavorText_Kaak.label>ka'ak</FlavorText_Kaak.label>
+	<FlavorText_Spanakopita.label>spanakopita</FlavorText_Spanakopita.label>
+
+	<!-- Condiments : catégorie fourre-tout, genre inconnu — tout doit rester invariable -->
+	<FlavorText_Condiment_Garnish.label>garniture {0_adj}</FlavorText_Condiment_Garnish.label>
+	<FlavorText_Condiment_Spread.label>tartinade {0_adj}</FlavorText_Condiment_Spread.label>
+	<FlavorText_Toasted_Condiment.label>{0_sing} à la poêle</FlavorText_Toasted_Condiment.label>
+
+	<!-- Beignets sucrés -->
+	<FlavorText_Potato_Donuts.label>donuts {2_plur}</FlavorText_Potato_Donuts.label>
+	<FlavorText_Fruit_Fritters.label>beignets {2_plur}</FlavorText_Fruit_Fritters.label>
+	<FlavorText_Donuts.label>donuts</FlavorText_Donuts.label>
+	<FlavorText_FishFingersAndCustard.label>bâtonnets de poisson à la crème anglaise</FlavorText_FishFingersAndCustard.label>
+
+	<!-- Fritures salées -->
+	<FlavorText_Acaraj.label>acarajé</FlavorText_Acaraj.label>
+	<FlavorText_Akara.label>akara</FlavorText_Akara.label>
+	<FlavorText_KalamarTava.label>kalamar tava</FlavorText_KalamarTava.label>
+	<FlavorText_Chili_Poppers.label>{0_coll} farcis panés</FlavorText_Chili_Poppers.label>
+	<FlavorText_Pastel.label>pastel</FlavorText_Pastel.label>
+	<FlavorText_CornDogs.label>corn dogs</FlavorText_CornDogs.label>
+	<FlavorText_MidyeTava.label>midye tava</FlavorText_MidyeTava.label>
+	<FlavorText_MeatRaw_And_MeatRaw_CornDogs.label>corn dogs {1_adj} et {0_adj}</FlavorText_MeatRaw_And_MeatRaw_CornDogs.label>
+	<FlavorText_Brik.label>brik</FlavorText_Brik.label>
+	<FlavorText_Citrus_MeatRaw.label>{0_coll} {1_plur}</FlavorText_Citrus_MeatRaw.label>
+	<FlavorText_GeneralTsos_Meat_Poultry.label>{0_coll} du général Tso</FlavorText_GeneralTsos_Meat_Poultry.label>
+	<FlavorText_Crispy_Soy.label>croustillant {0_adj}</FlavorText_Crispy_Soy.label>
+	<FlavorText_Deep-Fried_Fungus.label>{1_coll} en friture</FlavorText_Deep-Fried_Fungus.label>
+	<FlavorText_Malakoffs.label>malakoffs</FlavorText_Malakoffs.label>
+	<FlavorText_Falafel.label>falafel</FlavorText_Falafel.label>
+	<FlavorText_Hushpuppies.label>hushpuppies</FlavorText_Hushpuppies.label>
+	<FlavorText_PigsInABlanket.label>saucisses en robe de pâte</FlavorText_PigsInABlanket.label>
+	<FlavorText_SausageAndPancakesOnAStick.label>saucisse et pancakes sur bâtonnet</FlavorText_SausageAndPancakesOnAStick.label>
+	<FlavorText_Ingredients_Ingredients_Fritters.label>beignets {0_adj} et {1_adj}</FlavorText_Ingredients_Ingredients_Fritters.label>
+	<FlavorText_Ingredients_Chips.label>chips {0_adj}</FlavorText_Ingredients_Chips.label>
+	<FlavorText_Ingredients_LoadedFries.label>frites garnies {0_adj}</FlavorText_Ingredients_LoadedFries.label>
+	<FlavorText_Ingredients_Tempura.label>tempura {0_adj}</FlavorText_Ingredients_Tempura.label>
+	<FlavorText_Ingredients-Coated_Ingredients_Strips.label>aiguillettes {1_adj} panées {0_plur}</FlavorText_Ingredients-Coated_Ingredients_Strips.label>
+	<FlavorText_RockyMountainOysters.label>huîtres des Rocheuses</FlavorText_RockyMountainOysters.label>
+	<FlavorText_Salchipapa.label>salchipapa</FlavorText_Salchipapa.label>
+	<FlavorText_Meat_Fish_Fillets.label>filets {0_adj}</FlavorText_Meat_Fish_Fillets.label>
+	<FlavorText_FishAndChips.label>fish and chips</FlavorText_FishAndChips.label>
+	<FlavorText_Tonkatsu.label>tonkatsu</FlavorText_Tonkatsu.label>
+	<FlavorText_PoulFri.label>poul fri</FlavorText_PoulFri.label>
+	<FlavorText_MeatRaw_ScotchEgg.label>œuf écossais {1_adj}</FlavorText_MeatRaw_ScotchEgg.label>
+	<!-- MeatRaw donne toujours « viande de X », féminin singulier : l'accord est sûr. -->
+	<FlavorText_Fried_MeatRaw.label>{0_coll} panée et frite</FlavorText_Fried_MeatRaw.label>
+	<FlavorText_Fried_MeatRaw_2.label>{0_coll} frite</FlavorText_Fried_MeatRaw_2.label>
+	<FlavorText_Poutine.label>poutine</FlavorText_Poutine.label>
+	<FlavorText_SpiceBag.label>spice bag</FlavorText_SpiceBag.label>
+
+	<!-- Desserts au four -->
+	<FlavorText_PanDeRegla.label>pan de regla</FlavorText_PanDeRegla.label>
+	<FlavorText_Champurradas.label>champurradas</FlavorText_Champurradas.label>
+	<FlavorText_Fruit_DutchBaby.label>crêpe soufflée {1_plur}</FlavorText_Fruit_DutchBaby.label>
+	<FlavorText_Fruit_Souffle.label>soufflé {2_plur}</FlavorText_Fruit_Souffle.label>
+	<FlavorText_Baklava.label>baklava</FlavorText_Baklava.label>
+	<FlavorText_CreamPuffs.label>choux à la crème</FlavorText_CreamPuffs.label>
+	<FlavorText_Croissant.label>croissant</FlavorText_Croissant.label>
+	<FlavorText_Fruit_BrownBetty.label>Brown Betty {0_plur}</FlavorText_Fruit_BrownBetty.label>
+	<FlavorText_Fruit_Buckle.label>gâteau fondant {0_plur}</FlavorText_Fruit_Buckle.label>
+	<FlavorText_Fruit_Cobbler.label>croustade {0_plur}</FlavorText_Fruit_Cobbler.label>
+	<FlavorText_Fruit_Crisp.label>croustillant {0_plur}</FlavorText_Fruit_Crisp.label>
+	<FlavorText_Fruit_Crumble.label>crumble {2_plur}</FlavorText_Fruit_Crumble.label>
+	<FlavorText_Baumkuchen.label>Baumkuchen</FlavorText_Baumkuchen.label>
+	<FlavorText_Pfeffernsse.label>pfeffernüsse</FlavorText_Pfeffernsse.label>
+	<FlavorText_Pfeffernsse_2.label>pfeffernüsse</FlavorText_Pfeffernsse_2.label>
+	<FlavorText_Revani.label>revani</FlavorText_Revani.label>
+	<FlavorText_Scones.label>scones</FlavorText_Scones.label>
+	<FlavorText_Scones_2.label>scones</FlavorText_Scones_2.label>
+	<FlavorText_Sekerpare.label>şekerpare</FlavorText_Sekerpare.label>
+	<FlavorText_Stollen.label>stollen</FlavorText_Stollen.label>
+	<FlavorText_SugarCookies.label>sablés au sucre</FlavorText_SugarCookies.label>
+	<FlavorText_Ingredients_Casserole_2.label>gratin sucré {0_adj}</FlavorText_Ingredients_Casserole_2.label>
+	<FlavorText_Ingredients_Flan.label>flan {0_adj}</FlavorText_Ingredients_Flan.label>
+	<FlavorText_Ingredients_Fruit_Crisp.label>croustillant {1_adj} et {2_adj}</FlavorText_Ingredients_Fruit_Crisp.label>
+	<FlavorText_PanDulce.label>pan dulce</FlavorText_PanDulce.label>
+	<FlavorText_SeoritaBread.label>pain señorita</FlavorText_SeoritaBread.label>
+
+	<!-- Douceurs frites et boissons -->
+	<FlavorText_HalkaTatlisi.label>halka tatlısı</FlavorText_HalkaTatlisi.label>
+	<FlavorText_Lokma.label>lokma</FlavorText_Lokma.label>
+	<FlavorText_PisangGoreng.label>pisang goreng</FlavorText_PisangGoreng.label>
+	<FlavorText_Deep-FriedIceCream.label>glace frite</FlavorText_Deep-FriedIceCream.label>
+	<FlavorText_Beignets.label>beignets</FlavorText_Beignets.label>
+	<FlavorText_Champurrado.label>champurrado</FlavorText_Champurrado.label>
+	<FlavorText_Fruit_Fruit_Smoothie.label>smoothie {1_adj} et {2_adj}</FlavorText_Fruit_Fruit_Smoothie.label>
+	<FlavorText_BanhPhuThe.label>bánh phu thê</FlavorText_BanhPhuThe.label>
+	<FlavorText_Macarons.label>macarons</FlavorText_Macarons.label>
+	<FlavorText_Eight-Treasure_Rice.label>{1_coll} aux huit trésors</FlavorText_Eight-Treasure_Rice.label>
+
+</LanguageData>

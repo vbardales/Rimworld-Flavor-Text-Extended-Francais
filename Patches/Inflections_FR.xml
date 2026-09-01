@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Inflexions françaises des ingrédients, pour Flavor Text.
+
+  Flavor Text donne 4 formes à chaque ingrédient. En anglais ce sont pluriel /
+  collectif / singulier / adjectival. En français le 4e slot ne peut pas porter un
+  adjectif : « rôti » s'accorde, la substitution de texte ne le sait pas. Il porte
+  donc un COMPLÉMENT PRÉPOSITIONNEL, élision comprise — « de bœuf », « d'oignon » —
+  et les noms de plats sont écrits à tête nominale : « rôti {0_adj} ».
+
+  Les viandes et les œufs sont générés par _tools/geninflections.js depuis les
+  traductions officielles de RimWorld (Data/<Extension>/Languages/French*.tar).
+  Ne pas éditer à la main : relancer le générateur.
+-->
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/FlavorText.ThingInflectionsData[defName="Core"]/dictionary</xpath>
+		<value>
+			<dictionary>
+				<li>
+					<key>RawBerries</key>
+					<value>
+						<li>aux baies</li>
+						<li>baies</li>
+						<li>baie</li>
+						<li>de baies</li>
+					</value>
+				</li>
+				<li>
+					<key>RawRice</key>
+					<value>
+						<li>au riz</li>
+						<li>riz</li>
+						<li>riz</li>
+						<li>de riz</li>
+					</value>
+				</li>
+				<li>
+					<key>RawAgave</key>
+					<value>
+						<li>aux fruits d'agave</li>
+						<li>fruits d'agave</li>
+						<li>fruit d'agave</li>
+						<li>d'agave</li>
+					</value>
+				</li>
+				<li>
+					<key>RawPotatoes</key>
+					<value>
+						<li>aux pommes de terre</li>
+						<li>pommes de terre</li>
+						<li>pomme de terre</li>
+						<li>de pommes de terre</li>
+					</value>
+				</li>
+				<li>
+					<key>RawCorn</key>
+					<value>
+						<li>au maïs</li>
+						<li>maïs</li>
+						<li>maïs</li>
+						<li>de maïs</li>
+					</value>
+				</li>
+				<li>
+					<key>RawFungus</key>
+					<value>
+						<li>aux champignons</li>
+						<li>champignons</li>
+						<li>champignon</li>
+						<li>de champignons</li>
+					</value>
+				</li>
+				<li>
+					<key>RawHops</key>
+					<value>
+						<li>au houblon</li>
+						<li>houblon</li>
+						<li>houblon</li>
+						<li>de houblon</li>
+					</value>
+				</li>
+				<li>
+					<key>InsectJelly</key>
+					<value>
+						<li>à la gelée d'insecte</li>
+						<li>gelée d'insecte</li>
+						<li>gelée d'insecte</li>
+						<li>de gelée d'insecte</li>
+					</value>
+				</li>
+				<li>
+					<key>Milk</key>
+					<value>
+						<li>au lait</li>
+						<li>lait</li>
+						<li>lait</li>
+						<li>de lait</li>
+					</value>
+				</li>
+				<li>
+					<key>Beer</key>
+					<value>
+						<li>à la bière</li>
+						<li>bière</li>
+						<li>bière</li>
+						<li>de bière</li>
+					</value>
+				</li>
+				<li>
+					<key>Chocolate</key>
+					<value>
+						<li>au chocolat</li>
+						<li>chocolat</li>
+						<li>chocolat</li>
+						<li>de chocolat</li>
+					</value>
+				</li>
+				<li>
+					<key>Ambrosia</key>
+					<value>
+						<li>à l'ambroisie</li>
+						<li>ambroisie</li>
+						<li>ambroisie</li>
+						<li>d'ambroisie</li>
+					</value>
+				</li>
+				<li>
+					<key>Hay</key>
+					<value>
+						<li>au foin</li>
+						<li>foin</li>
+						<li>foin</li>
+						<li>de foin</li>
+					</value>
+				</li>
+				<li>
+					<key>Kibble</key>
+					<value>
+						<li>aux croquettes</li>
+						<li>croquettes</li>
+						<li>croquette</li>
+						<li>de croquettes</li>
+					</value>
+				</li>
+				<li>
+					<key>Pemmican</key>
+					<value>
+						<li>au pemmican</li>
+						<li>pemmican</li>
+						<li>pemmican</li>
+						<li>de pemmican</li>
+					</value>
+				</li>
+				<li>
+					<key>Wort</key>
+					<value>
+						<li>au moût</li>
+						<li>moût</li>
+						<li>moût</li>
+						<li>de moût</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Human</key>
+					<value>
+						<li>à la chair humaine</li>
+						<li>chair humaine</li>
+						<li>chair humaine</li>
+						<li>de chair humaine</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Megaspider</key>
+					<value>
+						<li>à la chair d'insecte</li>
+						<li>chair d'insecte</li>
+						<li>chair d'insecte</li>
+						<li>d'insecte</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Boomalope</key>
+					<value>
+						<li>à la viande explosive</li>
+						<li>viande explosive</li>
+						<li>viande explosive</li>
+						<li>de boomalope</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Bear_Grizzly</key>
+					<value>
+						<li>à la viande d'ours</li>
+						<li>viande d'ours</li>
+						<li>viande d'ours</li>
+						<li>d'ours</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Cassowary</key>
+					<value>
+						<li>à la viande d'oiseau</li>
+						<li>viande d'oiseau</li>
+						<li>viande d'oiseau</li>
+						<li>d'oiseau</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Cougar</key>
+					<value>
+						<li>à la viande de cougar</li>
+						<li>viande de cougar</li>
+						<li>viande de cougar</li>
+						<li>de cougar</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Lynx</key>
+					<value>
+						<li>à la viande de lynx</li>
+						<li>viande de lynx</li>
+						<li>viande de lynx</li>
+						<li>de lynx</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Cat</key>
+					<value>
+						<li>à la viande de chat</li>
+						<li>viande de chat</li>
+						<li>viande de chat</li>
+						<li>de chat</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_YorkshireTerrier</key>
+					<value>
+						<li>à la viande de yorkshire terrier</li>
+						<li>viande de yorkshire terrier</li>
+						<li>viande de yorkshire terrier</li>
+						<li>de yorkshire terrier</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_GuineaPig</key>
+					<value>
+						<li>à la viande de cobaye</li>
+						<li>viande de cobaye</li>
+						<li>viande de cobaye</li>
+						<li>de cobaye</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_LabradorRetriever</key>
+					<value>
+						<li>à la viande de labrador</li>
+						<li>viande de labrador</li>
+						<li>viande de labrador</li>
+						<li>de labrador</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Husky</key>
+					<value>
+						<li>à la viande de husky</li>
+						<li>viande de husky</li>
+						<li>viande de husky</li>
+						<li>de husky</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Monkey</key>
+					<value>
+						<li>à la viande de singe</li>
+						<li>viande de singe</li>
+						<li>viande de singe</li>
+						<li>de singe</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Chicken</key>
+					<value>
+						<li>à la viande de poulet</li>
+						<li>viande de poulet</li>
+						<li>viande de poulet</li>
+						<li>de poulet</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Duck</key>
+					<value>
+						<li>à la viande de canard</li>
+						<li>viande de canard</li>
+						<li>viande de canard</li>
+						<li>de canard</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Turkey</key>
+					<value>
+						<li>à la viande de dinde</li>
+						<li>viande de dinde</li>
+						<li>viande de dinde</li>
+						<li>de dinde</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Cow</key>
+					<value>
+						<li>à la viande de bœuf</li>
+						<li>viande de bœuf</li>
+						<li>viande de bœuf</li>
+						<li>de bœuf</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Muffalo</key>
+					<value>
+						<li>à la viande de muffalo</li>
+						<li>viande de muffalo</li>
+						<li>viande de muffalo</li>
+						<li>de muffalo</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Bison</key>
+					<value>
+						<li>à la viande de bison</li>
+						<li>viande de bison</li>
+						<li>viande de bison</li>
+						<li>de bison</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Dromedary</key>
+					<value>
+						<li>à la viande de dromadaire</li>
+						<li>viande de dromadaire</li>
+						<li>viande de dromadaire</li>
+						<li>de dromadaire</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Goat</key>
+					<value>
+						<li>à la viande de chèvre</li>
+						<li>viande de chèvre</li>
+						<li>viande de chèvre</li>
+						<li>de chèvre</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Elk</key>
+					<value>
+						<li>à la viande de wapiti</li>
+						<li>viande de wapiti</li>
+						<li>viande de wapiti</li>
+						<li>de wapiti</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Yak</key>
+					<value>
+						<li>à la viande de yak</li>
+						<li>viande de yak</li>
+						<li>viande de yak</li>
+						<li>de yak</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Caribou</key>
+					<value>
+						<li>à la viande de caribou</li>
+						<li>viande de caribou</li>
+						<li>viande de caribou</li>
+						<li>de caribou</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Horse</key>
+					<value>
+						<li>à la viande de cheval</li>
+						<li>viande de cheval</li>
+						<li>viande de cheval</li>
+						<li>de cheval</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Donkey</key>
+					<value>
+						<li>à la viande d'âne</li>
+						<li>viande d'âne</li>
+						<li>viande d'âne</li>
+						<li>d'âne</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Elephant</key>
+					<value>
+						<li>à la viande d'éléphant</li>
+						<li>viande d'éléphant</li>
+						<li>viande d'éléphant</li>
+						<li>d'éléphant</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Rhinoceros</key>
+					<value>
+						<li>à la viande de rhinocéros</li>
+						<li>viande de rhinocéros</li>
+						<li>viande de rhinocéros</li>
+						<li>de rhinocéros</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Hare</key>
+					<value>
+						<li>à la viande de lièvre</li>
+						<li>viande de lièvre</li>
+						<li>viande de lièvre</li>
+						<li>de lièvre</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Thrumbo</key>
+					<value>
+						<li>à la viande de thrumbo</li>
+						<li>viande de thrumbo</li>
+						<li>viande de thrumbo</li>
+						<li>de thrumbo</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Cobra</key>
+					<value>
+						<li>à la viande de cobra</li>
+						<li>viande de cobra</li>
+						<li>viande de cobra</li>
+						<li>de cobra</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Tortoise</key>
+					<value>
+						<li>à la viande de tortue</li>
+						<li>viande de tortue</li>
+						<li>viande de tortue</li>
+						<li>de tortue</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Alphabeaver</key>
+					<value>
+						<li>à la viande d'alphacastor</li>
+						<li>viande d'alphacastor</li>
+						<li>viande d'alphacastor</li>
+						<li>d'alphacastor</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Pig</key>
+					<value>
+						<li>à la viande de porc</li>
+						<li>viande de porc</li>
+						<li>viande de porc</li>
+						<li>de porc</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Ibex</key>
+					<value>
+						<li>à la viande de bouquetin</li>
+						<li>viande de bouquetin</li>
+						<li>viande de bouquetin</li>
+						<li>de bouquetin</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Deer</key>
+					<value>
+						<li>à la viande de cerf</li>
+						<li>viande de cerf</li>
+						<li>viande de cerf</li>
+						<li>de cerf</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Gazelle</key>
+					<value>
+						<li>à la viande de gazelle</li>
+						<li>viande de gazelle</li>
+						<li>viande de gazelle</li>
+						<li>de gazelle</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Chinchilla</key>
+					<value>
+						<li>à la viande de chinchilla</li>
+						<li>viande de chinchilla</li>
+						<li>viande de chinchilla</li>
+						<li>de chinchilla</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Sheep</key>
+					<value>
+						<li>à la viande de mouton</li>
+						<li>viande de mouton</li>
+						<li>viande de mouton</li>
+						<li>de mouton</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Alpaca</key>
+					<value>
+						<li>à la viande d'alpaga</li>
+						<li>viande d'alpaga</li>
+						<li>viande d'alpaga</li>
+						<li>d'alpaga</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Megasloth</key>
+					<value>
+						<li>à la viande de mégathérium</li>
+						<li>viande de mégathérium</li>
+						<li>viande de mégathérium</li>
+						<li>de mégathérium</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Capybara</key>
+					<value>
+						<li>à la viande de capybara</li>
+						<li>viande de capybara</li>
+						<li>viande de capybara</li>
+						<li>de capybara</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Squirrel</key>
+					<value>
+						<li>à la viande d'écureuil</li>
+						<li>viande d'écureuil</li>
+						<li>viande d'écureuil</li>
+						<li>d'écureuil</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Rat</key>
+					<value>
+						<li>à la viande de rat</li>
+						<li>viande de rat</li>
+						<li>viande de rat</li>
+						<li>de rat</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Boomrat</key>
+					<value>
+						<li>à la viande de rataboum</li>
+						<li>viande de rataboum</li>
+						<li>viande de rataboum</li>
+						<li>de rataboum</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Raccoon</key>
+					<value>
+						<li>à la viande de raton laveur</li>
+						<li>viande de raton laveur</li>
+						<li>viande de raton laveur</li>
+						<li>de raton laveur</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Iguana</key>
+					<value>
+						<li>à la viande d'iguane</li>
+						<li>viande d'iguane</li>
+						<li>viande d'iguane</li>
+						<li>d'iguane</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Warg</key>
+					<value>
+						<li>à la viande de warg</li>
+						<li>viande de warg</li>
+						<li>viande de warg</li>
+						<li>de warg</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Wolf_Timber</key>
+					<value>
+						<li>à la viande de loup</li>
+						<li>viande de loup</li>
+						<li>viande de loup</li>
+						<li>de loup</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Fox_Fennec</key>
+					<value>
+						<li>à la viande de fennec</li>
+						<li>viande de fennec</li>
+						<li>viande de fennec</li>
+						<li>de fennec</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Dryad_Basic</key>
+					<value>
+						<li>à la viande de dryade immature</li>
+						<li>viande de dryade immature</li>
+						<li>viande de dryade immature</li>
+						<li>de dryade immature</li>
+					</value>
+				</li>
+				<li>
+					<key>EggCassowaryFertilized</key>
+					<value>
+						<li>aux œufs de casoar</li>
+						<li>œufs de casoar</li>
+						<li>œuf de casoar</li>
+						<li>d'œufs de casoar</li>
+					</value>
+				</li>
+				<li>
+					<key>EggCassowaryUnfertilized</key>
+					<value>
+						<li>aux œufs de casoar</li>
+						<li>œufs de casoar</li>
+						<li>œuf de casoar</li>
+						<li>d'œufs de casoar</li>
+					</value>
+				</li>
+				<li>
+					<key>EggChickenFertilized</key>
+					<value>
+						<li>aux œufs de poule</li>
+						<li>œufs de poule</li>
+						<li>œuf de poule</li>
+						<li>d'œufs de poule</li>
+					</value>
+				</li>
+				<li>
+					<key>EggChickenUnfertilized</key>
+					<value>
+						<li>aux œufs de poule</li>
+						<li>œufs de poule</li>
+						<li>œuf de poule</li>
+						<li>d'œufs de poule</li>
+					</value>
+				</li>
+				<li>
+					<key>EggCobraFertilized</key>
+					<value>
+						<li>aux œufs de cobra</li>
+						<li>œufs de cobra</li>
+						<li>œuf de cobra</li>
+						<li>d'œufs de cobra</li>
+					</value>
+				</li>
+				<li>
+					<key>EggCobraUnfertilized</key>
+					<value>
+						<li>aux œufs de cobra</li>
+						<li>œufs de cobra</li>
+						<li>œuf de cobra</li>
+						<li>d'œufs de cobra</li>
+					</value>
+				</li>
+				<li>
+					<key>EggDuckFertilized</key>
+					<value>
+						<li>aux œufs de canard</li>
+						<li>œufs de canard</li>
+						<li>œuf de canard</li>
+						<li>d'œufs de canard</li>
+					</value>
+				</li>
+				<li>
+					<key>EggDuckUnfertilized</key>
+					<value>
+						<li>aux œufs de canard</li>
+						<li>œufs de canard</li>
+						<li>œuf de canard</li>
+						<li>d'œufs de canard</li>
+					</value>
+				</li>
+				<li>
+					<key>EggEmuFertilized</key>
+					<value>
+						<li>aux œufs d'émeu</li>
+						<li>œufs d'émeu</li>
+						<li>œuf d'émeu</li>
+						<li>d'œufs d'émeu</li>
+					</value>
+				</li>
+				<li>
+					<key>EggEmuUnfertilized</key>
+					<value>
+						<li>aux œufs d'émeu</li>
+						<li>œufs d'émeu</li>
+						<li>œuf d'émeu</li>
+						<li>d'œufs d'émeu</li>
+					</value>
+				</li>
+				<li>
+					<key>EggGooseFertilized</key>
+					<value>
+						<li>aux œufs d'oie</li>
+						<li>œufs d'oie</li>
+						<li>œuf d'oie</li>
+						<li>d'œufs d'oie</li>
+					</value>
+				</li>
+				<li>
+					<key>EggGooseUnfertilized</key>
+					<value>
+						<li>aux œufs d'oie</li>
+						<li>œufs d'oie</li>
+						<li>œuf d'oie</li>
+						<li>d'œufs d'oie</li>
+					</value>
+				</li>
+				<li>
+					<key>EggIguanaFertilized</key>
+					<value>
+						<li>aux œufs d'iguane</li>
+						<li>œufs d'iguane</li>
+						<li>œuf d'iguane</li>
+						<li>d'œufs d'iguane</li>
+					</value>
+				</li>
+				<li>
+					<key>EggIguanaUnfertilized</key>
+					<value>
+						<li>aux œufs d'iguane</li>
+						<li>œufs d'iguane</li>
+						<li>œuf d'iguane</li>
+						<li>d'œufs d'iguane</li>
+					</value>
+				</li>
+				<li>
+					<key>EggOstrichFertilized</key>
+					<value>
+						<li>aux œufs d'autruche</li>
+						<li>œufs d'autruche</li>
+						<li>œuf d'autruche</li>
+						<li>d'œufs d'autruche</li>
+					</value>
+				</li>
+				<li>
+					<key>EggOstrichUnfertilized</key>
+					<value>
+						<li>aux œufs d'autruche</li>
+						<li>œufs d'autruche</li>
+						<li>œuf d'autruche</li>
+						<li>d'œufs d'autruche</li>
+					</value>
+				</li>
+				<li>
+					<key>EggTortoiseFertilized</key>
+					<value>
+						<li>aux œufs de tortue</li>
+						<li>œufs de tortue</li>
+						<li>œuf de tortue</li>
+						<li>d'œufs de tortue</li>
+					</value>
+				</li>
+				<li>
+					<key>EggTortoiseUnfertilized</key>
+					<value>
+						<li>aux œufs de tortue</li>
+						<li>œufs de tortue</li>
+						<li>œuf de tortue</li>
+						<li>d'œufs de tortue</li>
+					</value>
+				</li>
+				<li>
+					<key>EggTurkeyFertilized</key>
+					<value>
+						<li>aux œufs de dinde</li>
+						<li>œufs de dinde</li>
+						<li>œuf de dinde</li>
+						<li>d'œufs de dinde</li>
+					</value>
+				</li>
+				<li>
+					<key>EggTurkeyUnfertilized</key>
+					<value>
+						<li>aux œufs de dinde</li>
+						<li>œufs de dinde</li>
+						<li>œuf de dinde</li>
+						<li>d'œufs de dinde</li>
+					</value>
+				</li>
+			</dictionary>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/FlavorText.ThingInflectionsData[defName="Biotech"]/dictionary</xpath>
+		<value>
+			<dictionary>
+				<li>
+					<key>RawToxipotato</key>
+					<value>
+						<li>aux toxipatates</li>
+						<li>toxipatates</li>
+						<li>toxipatate</li>
+						<li>de toxipatates</li>
+					</value>
+				</li>
+				<li>
+					<key>HemogenPack</key>
+					<value>
+						<li>aux packs d'hémogène</li>
+						<li>packs d'hémogène</li>
+						<li>pack d'hémogène</li>
+						<li>d'hémogène</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_WasteRat</key>
+					<value>
+						<li>à la viande de toxirat</li>
+						<li>viande de toxirat</li>
+						<li>viande de toxirat</li>
+						<li>de toxirat</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Toxalope</key>
+					<value>
+						<li>à la viande de toxilope</li>
+						<li>viande de toxilope</li>
+						<li>viande de toxilope</li>
+						<li>de toxilope</li>
+					</value>
+				</li>
+			</dictionary>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/FlavorText.ThingInflectionsData[defName="Anomaly"]/dictionary</xpath>
+		<value>
+			<dictionary>
+				<li>
+					<key>Meat_Twisted</key>
+					<value>
+						<li>à la viande difforme</li>
+						<li>viande difforme</li>
+						<li>viande difforme</li>
+						<li>de viande difforme</li>
+					</value>
+				</li>
+			</dictionary>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/FlavorText.ThingInflectionsData[defName="Odyssey"]/dictionary</xpath>
+		<value>
+			<dictionary>
+				<li>
+					<key>Meat_BogHound</key>
+					<value>
+						<li>à la viande de chien des marais</li>
+						<li>viande de chien des marais</li>
+						<li>viande de chien des marais</li>
+						<li>de chien des marais</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_MonitorLizard</key>
+					<value>
+						<li>à la viande de varan</li>
+						<li>viande de varan</li>
+						<li>viande de varan</li>
+						<li>de varan</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_PrairieDog</key>
+					<value>
+						<li>à la viande de chien de prairie</li>
+						<li>viande de chien de prairie</li>
+						<li>viande de chien de prairie</li>
+						<li>de chien de prairie</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Porcupine</key>
+					<value>
+						<li>à la viande de porc-épic</li>
+						<li>viande de porc-épic</li>
+						<li>viande de porc-épic</li>
+						<li>de porc-épic</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Mastodon</key>
+					<value>
+						<li>à la viande de mastodonte</li>
+						<li>viande de mastodonte</li>
+						<li>viande de mastodonte</li>
+						<li>de mastodonte</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Cat_Scimitar</key>
+					<value>
+						<li>à la viande de chat-cimeterre</li>
+						<li>viande de chat-cimeterre</li>
+						<li>viande de chat-cimeterre</li>
+						<li>de chat-cimeterre</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Wolverine</key>
+					<value>
+						<li>à la viande de glouton</li>
+						<li>viande de glouton</li>
+						<li>viande de glouton</li>
+						<li>de glouton</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Wolf_Great</key>
+					<value>
+						<li>à la viande de loup géant</li>
+						<li>viande de loup géant</li>
+						<li>viande de loup géant</li>
+						<li>de loup géant</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Moose</key>
+					<value>
+						<li>à la viande d'élan</li>
+						<li>viande d'élan</li>
+						<li>viande d'élan</li>
+						<li>d'élan</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_AlphaThrumbo</key>
+					<value>
+						<li>à la viande de thrumbo alpha</li>
+						<li>viande de thrumbo alpha</li>
+						<li>viande de thrumbo alpha</li>
+						<li>de thrumbo alpha</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Muskox</key>
+					<value>
+						<li>à la viande de bœuf musqué</li>
+						<li>viande de bœuf musqué</li>
+						<li>viande de bœuf musqué</li>
+						<li>de bœuf musqué</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Tiger</key>
+					<value>
+						<li>à la viande de tigre</li>
+						<li>viande de tigre</li>
+						<li>viande de tigre</li>
+						<li>de tigre</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Mink</key>
+					<value>
+						<li>à la viande de vison</li>
+						<li>viande de vison</li>
+						<li>viande de vison</li>
+						<li>de vison</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Gorilla</key>
+					<value>
+						<li>à la viande de gorille</li>
+						<li>viande de gorille</li>
+						<li>viande de gorille</li>
+						<li>de gorille</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Badger</key>
+					<value>
+						<li>à la viande de blaireau</li>
+						<li>viande de blaireau</li>
+						<li>viande de blaireau</li>
+						<li>de blaireau</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Panda</key>
+					<value>
+						<li>à la viande de panda</li>
+						<li>viande de panda</li>
+						<li>viande de panda</li>
+						<li>de panda</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Hippo</key>
+					<value>
+						<li>à la viande d'hippopotame</li>
+						<li>viande d'hippopotame</li>
+						<li>viande d'hippopotame</li>
+						<li>d'hippopotame</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Megavole</key>
+					<value>
+						<li>à la viande de campagnol géant</li>
+						<li>viande de campagnol géant</li>
+						<li>viande de campagnol géant</li>
+						<li>de campagnol géant</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Armadillo</key>
+					<value>
+						<li>à la viande de tatou</li>
+						<li>viande de tatou</li>
+						<li>viande de tatou</li>
+						<li>de tatou</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Alligator</key>
+					<value>
+						<li>à la viande d'alligator</li>
+						<li>viande d'alligator</li>
+						<li>viande d'alligator</li>
+						<li>d'alligator</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Bullfrog</key>
+					<value>
+						<li>à la viande de ouaouaron</li>
+						<li>viande de ouaouaron</li>
+						<li>viande de ouaouaron</li>
+						<li>de ouaouaron</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_ColossusToad</key>
+					<value>
+						<li>à la viande de crapaud colosse</li>
+						<li>viande de crapaud colosse</li>
+						<li>viande de crapaud colosse</li>
+						<li>de crapaud colosse</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_LavaSnail</key>
+					<value>
+						<li>à la viande d'escargot de lave</li>
+						<li>viande d'escargot de lave</li>
+						<li>viande d'escargot de lave</li>
+						<li>d'escargot de lave</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Walrus</key>
+					<value>
+						<li>à la viande de morse</li>
+						<li>viande de morse</li>
+						<li>viande de morse</li>
+						<li>de morse</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_SeaLion</key>
+					<value>
+						<li>à la viande de lion de mer</li>
+						<li>viande de lion de mer</li>
+						<li>viande de lion de mer</li>
+						<li>de lion de mer</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Seal</key>
+					<value>
+						<li>à la viande de phoque</li>
+						<li>viande de phoque</li>
+						<li>viande de phoque</li>
+						<li>de phoque</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_HermitCrab</key>
+					<value>
+						<li>à la viande de bernard-l'ermite</li>
+						<li>viande de bernard-l'ermite</li>
+						<li>viande de bernard-l'ermite</li>
+						<li>de bernard-l'ermite</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_StoneCrab</key>
+					<value>
+						<li>à la viande de crabe rouge</li>
+						<li>viande de crabe rouge</li>
+						<li>viande de crabe rouge</li>
+						<li>de crabe rouge</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_SeaTurtle</key>
+					<value>
+						<li>à la viande de tortue de mer</li>
+						<li>viande de tortue de mer</li>
+						<li>viande de tortue de mer</li>
+						<li>de tortue de mer</li>
+					</value>
+				</li>
+				<li>
+					<key>Meat_Otter</key>
+					<value>
+						<li>à la viande de loutre</li>
+						<li>viande de loutre</li>
+						<li>viande de loutre</li>
+						<li>de loutre</li>
+					</value>
+				</li>
+				<li>
+					<key>EggAlligatorFertilized</key>
+					<value>
+						<li>aux œufs d'alligator</li>
+						<li>œufs d'alligator</li>
+						<li>œuf d'alligator</li>
+						<li>d'œufs d'alligator</li>
+					</value>
+				</li>
+				<li>
+					<key>EggAlligatorUnfertilized</key>
+					<value>
+						<li>aux œufs d'alligator</li>
+						<li>œufs d'alligator</li>
+						<li>œuf d'alligator</li>
+						<li>d'œufs d'alligator</li>
+					</value>
+				</li>
+				<li>
+					<key>EggBluebirdFertilized</key>
+					<value>
+						<li>aux œufs de merlebleu</li>
+						<li>œufs de merlebleu</li>
+						<li>œuf de merlebleu</li>
+						<li>d'œufs de merlebleu</li>
+					</value>
+				</li>
+				<li>
+					<key>EggBluebirdUnfertilized</key>
+					<value>
+						<li>aux œufs de merlebleu</li>
+						<li>œufs de merlebleu</li>
+						<li>œuf de merlebleu</li>
+						<li>d'œufs de merlebleu</li>
+					</value>
+				</li>
+				<li>
+					<key>EggCrowFertilized</key>
+					<value>
+						<li>aux œufs de corbeau</li>
+						<li>œufs de corbeau</li>
+						<li>œuf de corbeau</li>
+						<li>d'œufs de corbeau</li>
+					</value>
+				</li>
+				<li>
+					<key>EggCrowUnfertilized</key>
+					<value>
+						<li>aux œufs de corbeau</li>
+						<li>œufs de corbeau</li>
+						<li>œuf de corbeau</li>
+						<li>d'œufs de corbeau</li>
+					</value>
+				</li>
+				<li>
+					<key>EggFlamingoFertilized</key>
+					<value>
+						<li>aux œufs de flamant rose</li>
+						<li>œufs de flamant rose</li>
+						<li>œuf de flamant rose</li>
+						<li>d'œufs de flamant rose</li>
+					</value>
+				</li>
+				<li>
+					<key>EggFlamingoUnfertilized</key>
+					<value>
+						<li>aux œufs de flamant rose</li>
+						<li>œufs de flamant rose</li>
+						<li>œuf de flamant rose</li>
+						<li>d'œufs de flamant rose</li>
+					</value>
+				</li>
+				<li>
+					<key>EggHeronFertilized</key>
+					<value>
+						<li>aux œufs de héron</li>
+						<li>œufs de héron</li>
+						<li>œuf de héron</li>
+						<li>d'œufs de héron</li>
+					</value>
+				</li>
+				<li>
+					<key>EggHeronUnfertilized</key>
+					<value>
+						<li>aux œufs de héron</li>
+						<li>œufs de héron</li>
+						<li>œuf de héron</li>
+						<li>d'œufs de héron</li>
+					</value>
+				</li>
+				<li>
+					<key>EggMacawFertilized</key>
+					<value>
+						<li>aux œufs d'ara</li>
+						<li>œufs d'ara</li>
+						<li>œuf d'ara</li>
+						<li>d'œufs d'ara</li>
+					</value>
+				</li>
+				<li>
+					<key>EggMacawUnfertilized</key>
+					<value>
+						<li>aux œufs d'ara</li>
+						<li>œufs d'ara</li>
+						<li>œuf d'ara</li>
+						<li>d'œufs d'ara</li>
+					</value>
+				</li>
+				<li>
+					<key>EggMonitorLizardFertilized</key>
+					<value>
+						<li>aux œufs de varan</li>
+						<li>œufs de varan</li>
+						<li>œuf de varan</li>
+						<li>d'œufs de varan</li>
+					</value>
+				</li>
+				<li>
+					<key>EggMonitorLizardUnfertilized</key>
+					<value>
+						<li>aux œufs de varan</li>
+						<li>œufs de varan</li>
+						<li>œuf de varan</li>
+						<li>d'œufs de varan</li>
+					</value>
+				</li>
+				<li>
+					<key>EggPeacockFertilized</key>
+					<value>
+						<li>aux œufs de paon</li>
+						<li>œufs de paon</li>
+						<li>œuf de paon</li>
+						<li>d'œufs de paon</li>
+					</value>
+				</li>
+				<li>
+					<key>EggPeacockUnfertilized</key>
+					<value>
+						<li>aux œufs de paon</li>
+						<li>œufs de paon</li>
+						<li>œuf de paon</li>
+						<li>d'œufs de paon</li>
+					</value>
+				</li>
+				<li>
+					<key>EggPenguinFertilized</key>
+					<value>
+						<li>aux œufs de manchot</li>
+						<li>œufs de manchot</li>
+						<li>œuf de manchot</li>
+						<li>d'œufs de manchot</li>
+					</value>
+				</li>
+				<li>
+					<key>EggPenguinUnfertilized</key>
+					<value>
+						<li>aux œufs de manchot</li>
+						<li>œufs de manchot</li>
+						<li>œuf de manchot</li>
+						<li>d'œufs de manchot</li>
+					</value>
+				</li>
+				<li>
+					<key>EggQuailFertilized</key>
+					<value>
+						<li>aux œufs de caille</li>
+						<li>œufs de caille</li>
+						<li>œuf de caille</li>
+						<li>d'œufs de caille</li>
+					</value>
+				</li>
+				<li>
+					<key>EggQuailUnfertilized</key>
+					<value>
+						<li>aux œufs de caille</li>
+						<li>œufs de caille</li>
+						<li>œuf de caille</li>
+						<li>d'œufs de caille</li>
+					</value>
+				</li>
+				<li>
+					<key>EggSeaTurtleFertilized</key>
+					<value>
+						<li>aux œufs de tortue de mer</li>
+						<li>œufs de tortue de mer</li>
+						<li>œuf de tortue de mer</li>
+						<li>d'œufs de tortue de mer</li>
+					</value>
+				</li>
+				<li>
+					<key>EggSeaTurtleUnfertilized</key>
+					<value>
+						<li>aux œufs de tortue de mer</li>
+						<li>œufs de tortue de mer</li>
+						<li>œuf de tortue de mer</li>
+						<li>d'œufs de tortue de mer</li>
+					</value>
+				</li>
+				<li>
+					<key>EggSparrowFertilized</key>
+					<value>
+						<li>aux œufs de moineau</li>
+						<li>œufs de moineau</li>
+						<li>œuf de moineau</li>
+						<li>d'œufs de moineau</li>
+					</value>
+				</li>
+				<li>
+					<key>EggSparrowUnfertilized</key>
+					<value>
+						<li>aux œufs de moineau</li>
+						<li>œufs de moineau</li>
+						<li>œuf de moineau</li>
+						<li>d'œufs de moineau</li>
+					</value>
+				</li>
+				<li>
+					<key>EggSwanFertilized</key>
+					<value>
+						<li>aux œufs de cygne</li>
+						<li>œufs de cygne</li>
+						<li>œuf de cygne</li>
+						<li>d'œufs de cygne</li>
+					</value>
+				</li>
+				<li>
+					<key>EggSwanUnfertilized</key>
+					<value>
+						<li>aux œufs de cygne</li>
+						<li>œufs de cygne</li>
+						<li>œuf de cygne</li>
+						<li>d'œufs de cygne</li>
+					</value>
+				</li>
+				<li>
+					<key>EggVultureFertilized</key>
+					<value>
+						<li>aux œufs de vautour</li>
+						<li>œufs de vautour</li>
+						<li>œuf de vautour</li>
+						<li>d'œufs de vautour</li>
+					</value>
+				</li>
+				<li>
+					<key>EggVultureUnfertilized</key>
+					<value>
+						<li>aux œufs de vautour</li>
+						<li>œufs de vautour</li>
+						<li>œuf de vautour</li>
+						<li>d'œufs de vautour</li>
+					</value>
+				</li>
+			</dictionary>
+		</value>
+	</Operation>
+
+</Patch>

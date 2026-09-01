@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 13 : les defName qui contiennent un TIRET.
+
+  Ces vingt-sept defs avaient échappé aux douze premiers lots pour une raison
+  purement technique : mes outils filtraient les clés sur \w+, qui ne reconnaît pas
+  le tiret. Pot-Au-Feu, Egg_Over-Easy, Halo-Halo, Yakisoba-Pan et compagnie étaient
+  donc invisibles à l'extraction comme au contrôle. Les regex sont corrigées en
+  [\w-]+ dans _tools/checkdesc.js et _tools/lotsdesc.js.
+
+  Le tiret est bien un caractère légal dans un nom d'élément XML : ces clés
+  fonctionnent, elles n'étaient simplement pas listées.
+
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- Fritures et cuissons -->
+	<FlavorText_Deep-Fried_Fungus.description>{1_coll} enrobés d'une pâte {0_adj} et frits en pleine huile jusqu'à ce qu'ils croustillent.</FlavorText_Deep-Fried_Fungus.description>
+	<FlavorText_Deep-FriedIceCream.description>des boules de glace enrobées de pâte à frire et plongées très brièvement dans l'huile. La pâte fait isolant : la glace n'a pas le temps de fondre.</FlavorText_Deep-FriedIceCream.description>
+	<FlavorText_Toad-In-The-Hole.description>des saucisses {0_adj} cuites au four dans un plat rempli de pâte à pudding du Yorkshire. Très britannique.</FlavorText_Toad-In-The-Hole.description>
+	<FlavorText_Ingredients-Coated_LeafyVeg.description>des feuilles délicates {1_adj} enrobées d'une coque de pâte {0_adj} à prise rapide. Un en-cas simple et facile à emporter.</FlavorText_Ingredients-Coated_LeafyVeg.description>
+	<FlavorText_Ingredients-Coated_Ingredients_Strips.description>des lanières {1_adj} enrobées {0_adj} émiettés et frites en pleine huile.</FlavorText_Ingredients-Coated_Ingredients_Strips.description>
+	<FlavorText_SugarFromAnimals-Sing-Glazed_Fungus.description>le plat préféré de l'empereur Claude : des tranches {0_adj} revenues au garum avec des herbes et du poivre, puis laquées {1_plur}.</FlavorText_SugarFromAnimals-Sing-Glazed_Fungus.description>
+	<FlavorText_Ingredients-FilledPastaShells.description>d'énormes demi-coquilles de pâtes {0_adj}, remplies à ras bord {1_adj} crémeux et passées au four en gratin.</FlavorText_Ingredients-FilledPastaShells.description>
+
+	<!-- Riz et céréales -->
+	<FlavorText_Eight-Treasure_Rice.description>un pouding ferme {1_adj}, couvert {0_adj} séchés de plusieurs sortes.</FlavorText_Eight-Treasure_Rice.description>
+	<FlavorText_Cou-Cou.description>aussi appelé fungie, le cou-cou est un plat bon marché de semoule de maïs et {1_adj}. Il fait partie des plats nationaux de plusieurs îles des Caraïbes.</FlavorText_Cou-Cou.description>
+	<FlavorText_Jumeok-Bap.description>littéralement « riz du poing » : ces boulettes viennent de la cuisine coréenne et se retrouvent couramment dans les repas emportés. On fait sauter {1_coll} à grain court dans une sauce soja sucrée, on y mêle {0_coll} taillés très fin, puis on serre le tout dans le poing. Se mangent telles quelles, ou roulées dans des graines de sésame ou des paillettes d'algue.</FlavorText_Jumeok-Bap.description>
+	<FlavorText_Yakisoba-Pan.description>à la fois un sandwich et un plat de pâtes : le yakisoba-pan glisse dans un pain {0_adj} une bonne portion de nouilles {0_adj} sautées avec {1_coll}.</FlavorText_Yakisoba-Pan.description>
+	<FlavorText_Yakisoba-Pan_2.description>à la fois un sandwich et un plat de pâtes : le yakisoba-pan glisse dans un pain {0_adj} une bonne portion de nouilles {0_adj} sautées avec {1_coll} et {2_coll}.</FlavorText_Yakisoba-Pan_2.description>
+
+	<!-- Soupes et ragoûts -->
+	<FlavorText_Gamja-Ongsimi.description>des quenelles coréennes {2_adj} étirées à la main, dans un bouillon {0_adj} avec {1_coll}.</FlavorText_Gamja-Ongsimi.description>
+	<FlavorText_Miyeok-Guk.description>une soupe coréenne sans piment, dont l'ingrédient principal est le miyeok, c'est-à-dire {0_coll}.</FlavorText_Miyeok-Guk.description>
+	<FlavorText_Pot-Au-Feu.description>un ragoût paysan français, fait traditionnellement de la viande et des légumes les moins chers qu'on trouvait l'hiver. {0_coll} et {1_coll} composent celui-ci : on les fait bouillir doucement, parfois une journée entière, jusqu'à ce que le bouillon prenne une texture gélatineuse. On l'assaisonne d'ail, de girofle, de céleri, de persil, de thym et de laurier. Le bouillon se sert d'abord, les ingrédients solides ensuite.</FlavorText_Pot-Au-Feu.description>
+	<FlavorText_Gising-Gising.description>un ragoût de légumes philippin bien relevé : {0_coll} hachés dans un lait {1_adj}, avec une bonne quantité de pâte {2_adj} — d'où son nom, qui signifie « réveille-toi, réveille-toi ».</FlavorText_Gising-Gising.description>
+
+	<!-- Douceurs -->
+	<FlavorText_Sugar-Coated_Fruit.description>{0_coll} entiers, enrobés d'une coque sucrée {1_adj}.</FlavorText_Sugar-Coated_Fruit.description>
+	<FlavorText_Fruit_Kool-AidPickles.description>un en-cas d'enfance né aux États-Unis de la Vieille Terre : on reprend {0_coll} déjà mis au vinaigre et on les remet à mariner dans un soda très sucré parfumé {1_plur}.</FlavorText_Fruit_Kool-AidPickles.description>
+	<FlavorText_Halo-Halo.description>un dessert philippin monté d'un grand assortiment de garnitures — ici {1_coll} et {2_coll}. La glace pilée en forme la base, sur laquelle on verse un lait concentré {0_adj}.</FlavorText_Halo-Halo.description>
+	<FlavorText_Chocolate-CoatedMarshmallowTreats.description>des guimauves souples trempées {1_plur} fondu et laissées refroidir.</FlavorText_Chocolate-CoatedMarshmallowTreats.description>
+	<FlavorText_Condiment-Condiment_Stick.description>une paille moulée dans une poudre {0_adj} et {1_adj}, liée d'une purée {2_adj}. Quand on aspire la pâte nutritive au travers, chaque gorgée se charge des deux goûts à la fois.</FlavorText_Condiment-Condiment_Stick.description>
+
+	<!-- Œufs : les cuissons américaines, rendues par les termes français correspondants -->
+	<FlavorText_Soft-Boiled_Egg.description>trois minutes dans l'eau bouillante, pas une de plus : le blanc prend à peine, le jaune reste entièrement liquide. On décalotte {0_coll} et on les mange à la petite cuillère, dans le coquetier, avec des mouillettes.</FlavorText_Soft-Boiled_Egg.description>
+	<FlavorText_Hard-Boiled_Egg.description>neuf minutes dans l'eau bouillante, puis un passage à l'eau glacée pour arrêter la cuisson et décoller la coquille. Le jaune est entièrement pris. Se mangent entiers, poudrés d'épices, ou hachés en salade {0_adj}.</FlavorText_Hard-Boiled_Egg.description>
+	<FlavorText_Egg_Over-Easy.description>{0_coll} cassés dans la poêle et cuits d'un côté, puis retournés et à peine saisis de l'autre, juste le temps que l'extérieur du jaune prenne.</FlavorText_Egg_Over-Easy.description>
+	<FlavorText_Egg_Over-Medium.description>{0_coll} cassés dans la poêle et cuits d'un côté, puis retournés et cuits de l'autre jusqu'à ce que le jaune soit à peine pris, encore crémeux.</FlavorText_Egg_Over-Medium.description>
+	<FlavorText_Egg_Over-Hard.description>{0_coll} cassés dans la poêle et cuits d'un côté, puis retournés et cuits de l'autre jusqu'à ce que le jaune soit entièrement pris.</FlavorText_Egg_Over-Hard.description>
+	<FlavorText_Sunny-Side-Up_Egg.description>{0_coll} cassés dans la poêle et cuits d'un seul côté. Le jaune reste liquide et brillant, et c'est cette allure qui donne son nom au plat.</FlavorText_Sunny-Side-Up_Egg.description>
+
+</LanguageData>

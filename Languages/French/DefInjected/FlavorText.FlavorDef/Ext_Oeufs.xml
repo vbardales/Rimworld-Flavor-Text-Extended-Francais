@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Oeufs.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_OeufMollet.label>{0_coll} mollets</FlavorTextFR_OeufMollet.label>
+	<FlavorTextFR_OeufMollet.description>six minutes exactement dans l'eau frémissante, puis l'eau glacée. Le blanc est ferme, le jaune encore coulant. C'est la seule des trois cuissons en coquille qui s'écale : elle demande de la patience et des œufs qui ne soient pas de la veille.</FlavorTextFR_OeufMollet.description>
+
+</LanguageData>

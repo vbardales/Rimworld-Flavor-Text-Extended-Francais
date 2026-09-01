@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_ChataigneDEau.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_PorcVapeurChataigneDEau.label>porc vapeur aux châtaignes d'eau</FlavorTextFR_PorcVapeurChataigneDEau.label>
+	<FlavorTextFR_PorcVapeurChataigneDEau.description>{1_coll} hachée au couteau et travaillée dans un seul sens jusqu'à devenir élastique, {0_coll} en petits dés dedans, le tout étalé en galette et cuit à la vapeur sur le riz.</FlavorTextFR_PorcVapeurChataigneDEau.description>
+	<FlavorTextFR_JiaoziPorcChataigneDEau.label>raviolis porc et châtaignes d'eau</FlavorTextFR_JiaoziPorcChataigneDEau.label>
+	<FlavorTextFR_JiaoziPorcChataigneDEau.description>une farce {1_adj} où {0_coll} hachées apportent le croquant que la viande seule ne donne jamais, enfermée dans des disques de pâte plissés à la main.</FlavorTextFR_JiaoziPorcChataigneDEau.description>
+	<FlavorTextFR_JiaoziCrevettesChataigneDEau.label>raviolis crevettes et châtaignes d'eau</FlavorTextFR_JiaoziCrevettesChataigneDEau.label>
+	<FlavorTextFR_JiaoziCrevettesChataigneDEau.description>{1_coll} laissée en gros morceaux plutôt que broyée, mêlée {0_plur} en dés. Deux textures qui craquent, chacune à sa façon.</FlavorTextFR_JiaoziCrevettesChataigneDEau.description>
+	<FlavorTextFR_SiuMaiChataigneDEau.label>siu mai aux châtaignes d'eau</FlavorTextFR_SiuMaiChataigneDEau.label>
+	<FlavorTextFR_SiuMaiChataigneDEau.description>{1_coll} et {2_coll} ensemble dans une pâte jaune ouverte en corolle, {0_coll} hachées dedans. Cuits en panier de bambou empilé, et servis en premier au dim sum.</FlavorTextFR_SiuMaiChataigneDEau.description>
+	<FlavorTextFR_RouleauxChataigneDEau.label>rouleaux de printemps aux châtaignes d'eau</FlavorTextFR_RouleauxChataigneDEau.label>
+	<FlavorTextFR_RouleauxChataigneDEau.description>{2_coll} et {0_coll} émincés, roulés serré dans une feuille de pâte et frits jusqu'au brun doré. Le croquant vient de l'intérieur autant que de la croûte.</FlavorTextFR_RouleauxChataigneDEau.description>
+	<FlavorTextFR_MooGooGaiPan.label>moo goo gai pan</FlavorTextFR_MooGooGaiPan.label>
+	<FlavorTextFR_MooGooGaiPan.description>{1_coll} en lamelles blanchies à l'huile tiède, sautée {2_plur} et {0_plur} dans une sauce claire à peine liée. Un plat cantonais devenu l'emblème des restaurants sino-américains.</FlavorTextFR_MooGooGaiPan.description>
+	<FlavorTextFR_PouletCajouChataigneDEau.label>poulet aux noix de cajou et châtaignes d'eau</FlavorTextFR_PouletCajouChataigneDEau.label>
+	<FlavorTextFR_PouletCajouChataigneDEau.description>{1_coll} en dés sautée à feu maximal avec {2_coll} grillées à part et {0_coll}. Trois croquants de dureté différente dans la même bouchée.</FlavorTextFR_PouletCajouChataigneDEau.description>
+	<FlavorTextFR_BoeufChataigneDEau.label>bœuf aux châtaignes d'eau</FlavorTextFR_BoeufChataigneDEau.label>
+	<FlavorTextFR_BoeufChataigneDEau.description>{1_coll} tranchée contre le fil et attendrie à la fécule, sautée {2_plur} blanchi et {0_plur} dans une sauce aux huîtres.</FlavorTextFR_BoeufChataigneDEau.description>
+	<FlavorTextFR_CrevettesChataigneDEau.label>crevettes aux châtaignes d'eau</FlavorTextFR_CrevettesChataigneDEau.label>
+	<FlavorTextFR_CrevettesChataigneDEau.description>{1_coll} saumurée au bicarbonate pour rester ferme, sautée quelques secondes {2_plur} et {0_plur}, dans une sauce à peine liée.</FlavorTextFR_CrevettesChataigneDEau.description>
+	<FlavorTextFR_LegumesSautesChataigneDEau.label>légumes sautés aux châtaignes d'eau</FlavorTextFR_LegumesSautesChataigneDEau.label>
+	<FlavorTextFR_LegumesSautesChataigneDEau.description>{1_coll} jetés dans le wok par ordre de fermeté, {0_coll} en dernier pour ne rien perdre de leur croquant, le tout laqué {2_plur}.</FlavorTextFR_LegumesSautesChataigneDEau.description>
+	<FlavorTextFR_ChapChyeChataigneDEau.label>chap chye aux châtaignes d'eau</FlavorTextFR_ChapChyeChataigneDEau.label>
+	<FlavorTextFR_ChapChyeChataigneDEau.description>{1_coll} mijoté longuement avec des vermicelles de soja, {2_coll} noirs réhydratés et {0_coll}. Un plat peranakan qu'on refait chaque jour avec ce qui reste.</FlavorTextFR_ChapChyeChataigneDEau.description>
+	<FlavorTextFR_TofuChataigneDEau.label>tofu aux châtaignes d'eau</FlavorTextFR_TofuChataigneDEau.label>
+	<FlavorTextFR_TofuChataigneDEau.description>des cubes de tofu {1_adj} dorés sur toutes leurs faces, sautés {2_plur} et {0_plur} dans une sauce brune. Le tofu est mou, la châtaigne d'eau croque : c'est tout le principe.</FlavorTextFR_TofuChataigneDEau.description>
+	<FlavorTextFR_BaconChataigneDEau.label>châtaignes d'eau au bacon</FlavorTextFR_BaconChataigneDEau.label>
+	<FlavorTextFR_BaconChataigneDEau.description>{0_coll} entières enroulées dans une bande {1_adj}, piquées et rôties dans un sirop {2_adj} et de soja jusqu'à ce que le lard croustille. L'amuse-bouche des années soixante, jamais démodé.</FlavorTextFR_BaconChataigneDEau.description>
+	<FlavorTextFR_DipEpinardsChataigneDEau.label>dip épinards et châtaignes d'eau</FlavorTextFR_DipEpinardsChataigneDEau.label>
+	<FlavorTextFR_DipEpinardsChataigneDEau.description>{1_coll} hachés et pressés de leur eau, mêlés {2_plur} frais et {0_plur} en dés. Se sert froid, et le croquant est la seule chose qui empêche l'ensemble d'être mou.</FlavorTextFR_DipEpinardsChataigneDEau.description>
+	<FlavorTextFR_WrapsLaitueChataigneDEau.label>feuilles de laitue au poulet et châtaignes d'eau</FlavorTextFR_WrapsLaitueChataigneDEau.label>
+	<FlavorTextFR_WrapsLaitueChataigneDEau.description>{1_coll} hachée et sautée {0_plur} et à la sauce hoisin, servie brûlante dans des feuilles {2_adj} glacées qu'on referme à la main.</FlavorTextFR_WrapsLaitueChataigneDEau.description>
+	<FlavorTextFR_MaTaiGo.label>ma tai go</FlavorTextFR_MaTaiGo.label>
+	<FlavorTextFR_MaTaiGo.description>une pâte de fécule {0_adj} et de sucre candi, cuite à la vapeur en plaque translucide et ambrée, avec des dés entiers dedans. Se mange tiède, ou retranché et poêlé le lendemain.</FlavorTextFR_MaTaiGo.description>
+	<FlavorTextFR_TubTimKrob.label>tub tim krob</FlavorTextFR_TubTimKrob.label>
+	<FlavorTextFR_TubTimKrob.description>des dés {0_adj} teints en rouge et enrobés de fécule de tapioca, pochés jusqu'à devenir translucides, servis sur glace pilée dans un lait {1_adj} sucré. « Rubis croquants » : ils en ont l'aspect exact.</FlavorTextFR_TubTimKrob.description>
+	<FlavorTextFR_CheCuNang.label>chè củ năng</FlavorTextFR_CheCuNang.label>
+	<FlavorTextFR_CheCuNang.description>{0_coll} et {2_coll} pochées dans un sirop parfumé au pandan, servies tièdes dans un lait {1_adj}. Une soupe sucrée que l'on donne aux malades autant qu'aux enfants.</FlavorTextFR_CheCuNang.description>
+	<FlavorTextFR_SoupeCanneChataigneDEau.label>soupe de canne à sucre et châtaignes d'eau</FlavorTextFR_SoupeCanneChataigneDEau.label>
+	<FlavorTextFR_SoupeCanneChataigneDEau.description>des tronçons de canne, {0_coll} et {2_coll} bouillis une heure, la soupe filtrée et bue tiède. Un remède cantonais contre la chaleur autant qu'un dessert.</FlavorTextFR_SoupeCanneChataigneDEau.description>
+	<FlavorTextFR_SoupePorcChataigneDEau.label>soupe de porc aux châtaignes d'eau</FlavorTextFR_SoupePorcChataigneDEau.label>
+	<FlavorTextFR_SoupePorcChataigneDEau.description>des côtes {1_adj} blanchies puis mijotées trois heures avec {0_coll} et {2_coll}, sans autre assaisonnement que le sel. Le bouillon reste clair et sucré tout seul.</FlavorTextFR_SoupePorcChataigneDEau.description>
+
+</LanguageData>

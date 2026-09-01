@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 10 : en-cas, soupes sucrées, ragoûts sur féculent, soupes.
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- En-cas -->
+	<FlavorText_NachosAndSalsa.description>des chips {1_adj} nappées d'une sauce {2_adj} en dés, à la coriandre et à l'oignon, puis couvertes de fromage râpé.</FlavorText_NachosAndSalsa.description>
+	<FlavorText_PizzaRolls.description>le génie américain dans toute sa splendeur : la pizza refondue en petits rouleaux scellés, qui se mangent un par un.</FlavorText_PizzaRolls.description>
+	<FlavorText_SpanishOmelette.description>une omelette espagnole proche de la frittata, faite {0_adj} entiers, de morceaux {1_adj} et {2_adj} en dés. On la cuit à la poêle, à l'huile d'olive, en une grande galette, qu'on découpe ensuite en parts triangulaires.</FlavorText_SpanishOmelette.description>
+	<FlavorText_Escalivada.description>un plat ou une entrée traditionnelle de Catalogne. {0_coll}, {1_coll} et {2_coll} entiers sont brûlés à la flamme, puis pelés et taillés en lanières. On les sert à part ou mêlés, arrosés d'huile d'olive, d'ail et de vinaigre de xérès.</FlavorText_Escalivada.description>
+	<FlavorText_Fruit_GummySnacks.description>des gommes de gélatine et de sucre, parfumées {0_plur} et moulées en petits thrumbos de la taille d'une bouchée.</FlavorText_Fruit_GummySnacks.description>
+	<FlavorText_TrailMix.description>un en-cas de marche vite fait : {1_coll} salés mêlés {0_plur} séchés.</FlavorText_TrailMix.description>
+	<FlavorText_Pretzel.description>un pain répandu dans toute l'Europe : une pâte {0_adj} roulée en long boudin fin et nouée en bretzel. On la trempe dans une solution alcaline de bicarbonate ou de soude avant cuisson, d'où sa croûte sombre au goût prononcé.</FlavorText_Pretzel.description>
+	<FlavorText_Ingredients_Popcorn.description>du popcorn enrobé d'une poudre {0_adj} et d'un mélange d'épices fines.</FlavorText_Ingredients_Popcorn.description>
+	<FlavorText_Ingredients_PowerBar.description>un en-cas « sain » en forme de barre, fait {0_adj} entiers mêlés à une poudre {1_adj} et à des morceaux {2_adj}.</FlavorText_Ingredients_PowerBar.description>
+	<FlavorText_Ingredients_With_Ingredients_Dip.description>{0_coll} frais disposés avec soin autour d'une coupelle de sauce {1_adj}.</FlavorText_Ingredients_With_Ingredients_Dip.description>
+	<FlavorText_PlantFoodRaw_ChipsAndDip.description>des chips {2_adj} servies avec une sauce obtenue en mixant {0_coll} avec {1_coll} en dés.</FlavorText_PlantFoodRaw_ChipsAndDip.description>
+	<FlavorText_Dried_Ingredients.description>{0_coll} passés au déshydrateur, pour un en-cas léger et transportable qu'on mange en marchant.</FlavorText_Dried_Ingredients.description>
+	<FlavorText_Instant_Ingredients_Ramen.description>des nouilles japonaises {1_adj} pochées à l'eau alcaline, puis lyophilisées pour être réhydratées plus tard. Celui-ci vient avec un sachet de poudre {0_adj} pour le goût.</FlavorText_Instant_Ingredients_Ramen.description>
+	<FlavorText_MeatRaw_Jerky.description>{0_coll} largement frottée d'épices et séchée au fumoir.</FlavorText_MeatRaw_Jerky.description>
+	<FlavorText_DinoNuggets.description>des morceaux panés de viandes effilochées d'origine incertaine, moulés en caricatures de reptiles disparus de la Vieille Terre.</FlavorText_DinoNuggets.description>
+	<FlavorText_GranolaBar.description>{0_coll} aplatis et grillés, mêlés {1_plur} et pressés en barre transportable.</FlavorText_GranolaBar.description>
+	<FlavorText_PlantFoodRaw_Chips.description>des tranches très fines {0_adj}, frites en pleine huile jusqu'à devenir légères et cassantes.</FlavorText_PlantFoodRaw_Chips.description>
+	<FlavorText_ProteinBar.description>une barre énergétique dense, faite {0_adj} et {1_adj} finement moulus. On peut y ajouter du sucre pour la rendre mangeable.</FlavorText_ProteinBar.description>
+	<FlavorText_Rice_Crackers.description>une pâte {0_adj} abaissée très fin et passée quelques secondes à l'air brûlant, ce qui fait gonfler {0_coll} en un cracker tout léger.</FlavorText_Rice_Crackers.description>
+	<FlavorText_Rice_KrispiesTreats.description>un en-cas américain : des grains {0_adj} soufflés mêlés à de la guimauve et cuits en une grande plaque, qu'on découpe ensuite en carrés.</FlavorText_Rice_KrispiesTreats.description>
+	<FlavorText_Mukhwas.description>moins un plat qu'un rafraîchisseur d'haleine : un mélange {0_adj} et {1_adj}. On le prend en Inde après les repas, pour aider à la digestion.</FlavorText_Mukhwas.description>
+	<FlavorText_KettleCorn.description>du popcorn enrobé d'une épaisse sauce au caramel, laissé durcir jusqu'à devenir craquant sous la dent.</FlavorText_KettleCorn.description>
+
+	<!-- Soupes sucrées -->
+	<FlavorText_GinataangMais.description>une bouillie sucrée philippine : on cuit {1_coll} gluant presque à point, puis on ajoute un lait {0_adj}, du sucre et {2_coll}.</FlavorText_GinataangMais.description>
+	<FlavorText_Ingredients_TongSui.description>une soupe sucrée {0_adj}, servie froide.</FlavorText_Ingredients_TongSui.description>
+	<FlavorText_SnowFungusSoup.description>une soupe de dessert faite au champignon des neiges, dont la chair est gélatineuse.</FlavorText_SnowFungusSoup.description>
+	<FlavorText_Poi.description>un aliment de base de l'alimentation polynésienne, obtenu en écrasant au pilon {0_coll} cuits, sur une planche de bois.</FlavorText_Poi.description>
+
+	<!-- Ragoûts servis sur féculent -->
+	<FlavorText_EbaWith_Ingredients_Stew.description>un aliment de base du Nigeria, du Togo et du Bénin : une pâte féculente de farine {1_adj} râpée et séchée. On la mange avec les doigts, roulée en petite boule, et elle est servie ici avec un riche ragoût {0_adj} pour saucer.</FlavorText_EbaWith_Ingredients_Stew.description>
+	<FlavorText_UgaliAnd_Ingredients_Stew.description>une pâte ferme de semoule de maïs, servie avec des morceaux {2_adj}, qu'on trempe dans un ragoût {0_adj} avant de les manger.</FlavorText_UgaliAnd_Ingredients_Stew.description>
+	<FlavorText_RagdaPattice.description>un plat de rue très répandu en Inde : des galettes {0_adj} épicées et frites, posées sur un curry crémeux {1_adj} et {2_adj}.</FlavorText_RagdaPattice.description>
+	<FlavorText_Tikourbabine.description>un plat berbère de quenelles de semoule parfumées d'un mélange d'herbes et d'épices, servies avec {1_coll} et un bouillon {2_adj}.</FlavorText_Tikourbabine.description>
+	<FlavorText_Sujebi.description>une soupe traditionnelle coréenne : des lambeaux de pâte {1_adj} déchirés grossièrement à la main, mijotés avec {2_coll} dans un bouillon {0_adj} pendant des heures.</FlavorText_Sujebi.description>
+	<FlavorText_Etouffee.description>un plat cajun {0_adj}, mijotée dans une sauce montée sur un roux blanc ou blond, servie sur {1_coll}.</FlavorText_Etouffee.description>
+	<FlavorText_MeatRaw_Ramen.description>des nouilles {2_adj} servies dans un bouillon riche {0_adj}, relevé d'une sauce fermentée {1_adj}. On y ajoute toutes sortes de garnitures.</FlavorText_MeatRaw_Ramen.description>
+	<FlavorText_Rendang.description>un plat {0_adj} cuit très lentement, répandu dans toute l'Indonésie : on braise {0_coll} dans un lait {1_adj} et des épices jusqu'à ce que l'huile se sépare du lait, si bien que le plat finit par frire dans sa propre sauce et se couvre d'un glaçage épais.</FlavorText_Rendang.description>
+
+	<!-- Soupes -->
+	<FlavorText_AnimalProductRaw_Grits.description>une bouillie faite {1_adj} séchés et grossièrement moulus, dans laquelle on incorpore {0_coll}.</FlavorText_AnimalProductRaw_Grits.description>
+	<FlavorText_AnimalProductRaw_Porridge.description>un plat simple de bouillie {0_adj}, relevée {1_plur}.</FlavorText_AnimalProductRaw_Porridge.description>
+	<FlavorText_Bazin.description>l'antique plat national de la Libye terrestre : un monticule de pain sans levain {0_adj}, servi dans un ragoût {1_adj} avec des morceaux {2_adj}. L'ail, le cumin, la coriandre, le paprika et la cannelle en font l'assaisonnement.</FlavorText_Bazin.description>
+	<FlavorText_Feijoada.description>le plat national de l'antique civilisation brésilienne : {0_coll} cuits très lentement avec des morceaux {1_adj}. Il s'accompagne de mille façons — le plus souvent riz, chou vert, farine de manioc grillée et oranges.</FlavorText_Feijoada.description>
+	<FlavorText_Potaje.description>un ragoût réconfortant très espagnol : {0_coll} cuits avec {1_coll} et {2_coll} en dés. Simple, mais nourrissant.</FlavorText_Potaje.description>
+	<FlavorText_PinkSoup.description>une soupe froide d'origine lituanienne, cousine du bortsch, montée sur une base {0_adj} et de kéfir — un yaourt liquide fermenté — d'où sa couleur rose pastel. Ce bol est couvert {2_adj} en dés.</FlavorText_PinkSoup.description>
+	<FlavorText_Piperade.description>un ragoût basque et gascon fait {0_adj} et {1_adj}, doucement relevé {2_plur}. On peut y ajouter de l'œuf, de l'ail ou du jambon.</FlavorText_Piperade.description>
+	<FlavorText_Lablabi.description>un plat tunisien traditionnel {0_adj} dans un bouillon clair à l'ail et au cumin, versé sur des morceaux de pain rassis {1_adj}.</FlavorText_Lablabi.description>
+	<FlavorText_Condiment_Reduction.description>un condiment de haute tenue, obtenu en faisant réduire {0_coll} à la casserole jusqu'à épaississement.</FlavorText_Condiment_Reduction.description>
+	<FlavorText_Condiment_Condiment_Sauce.description>une sauce riche obtenue en émulsionnant {0_coll} dans un fond {1_adj}.</FlavorText_Condiment_Condiment_Sauce.description>
+	<FlavorText_Condiment_Dressing.description>une vinaigrette complexe : on relève une sauce {0_adj} d'un mélange {1_adj} et {2_adj} revenus à la poêle.</FlavorText_Condiment_Dressing.description>
+	<FlavorText_Tocana.description>un ragoût éthiopien et érythréen préparé avec {0_coll}, {2_coll} et du niter kibbeh, un beurre clarifié aux épices.</FlavorText_Tocana.description>
+	<FlavorText_Menemen.description>un plat traditionnel turc très répandu, cuit à l'huile d'olive, qui réunit {0_coll}, {1_coll}, {2_coll} et des épices comme le poivre noir et le piment rouge moulus.</FlavorText_Menemen.description>
+
+	<!-- L'orthographe levantine, pour la distinguer de la chakchouka maghrébine du mod -->
+	<FlavorText_Shakshuka.description>un petit-déjeuner tout simple : {2_coll}, {1_coll} et {0_coll} pochés doucement dans une grande poêle. Très répandu au Proche-Orient et en Afrique du Nord.</FlavorText_Shakshuka.description>
+	<FlavorText_UovaAlPurgatorio.description>un petit-déjeuner italien {0_adj} pochés doucement dans une sauce relevée {1_adj}.</FlavorText_UovaAlPurgatorio.description>
+	<FlavorText_ConfitByaldi.description>une variante élégante de la ratatouille. On étale au fond d'un plat une réduction épaisse {2_adj}, qu'on couvre de tranches {0_adj}, {1_adj} et {2_adj} en alternance. Après plusieurs heures de cuisson, on dresse la réduction {2_adj} en petit monticule sur l'assiette, puis on y superpose les tranches de légumes. Un filet de vinaigrette balsamique achève le tout.</FlavorText_ConfitByaldi.description>
+	<FlavorText_Ratatouille.description>un plat provençal de légumes mijotés, né à Nice. Les recettes et les temps de cuisson varient beaucoup, mais toutes tournent autour de légumes en tranches et d'herbes vertes du pays — ciboulette, fenouil. Ici, {0_coll} et {1_coll} ont été réunis {2_plur} pour former la base.</FlavorText_Ratatouille.description>
+	<FlavorText_BagaraBaingan.description>un plat végétarien d'Hyderabad, en Inde. De jeunes {0_coll} sont frits dans une huile {2_adj} brûlante, pendant qu'on monte un curry avec une pâte {1_adj} et {2_coll} moulus, des oignons frits, des feuilles de curry, du gingembre, de l'ail et du garam masala. Quand {0_coll} ont cloqué, on les ajoute au curry pour finir la cuisson.</FlavorText_BagaraBaingan.description>
+	<FlavorText_Fungus_Stew.description>une soupe nourrissante {0_adj}, mijotée longuement sur le feu.</FlavorText_Fungus_Stew.description>
+	<FlavorText_Tourin.description>une soupe française {0_adj}, liée à la farine et {1_plur}.</FlavorText_Tourin.description>
+	<FlavorText_Ingredients_Thukpa.description>une soupe tibétaine de nouilles {0_adj}, servie dans un bouillon {2_adj} avec {1_coll} et des légumes variés. Le gingembre et l'ail en sont les aromates principaux ; on peut y ajouter du cumin, du curcuma ou du piment moulu.</FlavorText_Ingredients_Thukpa.description>
+	<FlavorText_AjoBlanco.description>le « gaspacho blanc » : une soupe froide espagnole d'origine arabe. On fait tremper une nuit du pain rassis {0_adj}, puis on le mixe avec {1_coll} et {2_coll} écrasés, de l'huile d'olive, du sel et du vinaigre. Se garnit traditionnellement de raisins ou de melon en tranches.</FlavorText_AjoBlanco.description>
+	<FlavorText_Zanzarelli.description>une soupe médiévale, ancêtre de la stracciatella italienne. Le cuisinier monte une pâte à quenelles avec de la chapelure {0_adj} rassise, du parmesan et {1_coll}, puis la verse dans une eau bouillante infusée de safran, de cannelle, de girofle et de poivre noir.</FlavorText_Zanzarelli.description>
+	<FlavorText_Ingredients_Bisque.description>une soupe lisse d'origine française, faite d'un bouillon {0_adj} passé au chinois et lié {1_plur}.</FlavorText_Ingredients_Bisque.description>
+	<FlavorText_Ingredients_Bouillon.description>un bouillon tout simple, obtenu en faisant cuire {0_coll} dans une marmite pendant quelques heures.</FlavorText_Ingredients_Bouillon.description>
+	<FlavorText_Ingredients_Chowder.description>une soupe montée sur une base {0_adj} et liée {1_plur}.</FlavorText_Ingredients_Chowder.description>
+	<FlavorText_Ingredients_Chowder_2.description>une soupe montée sur une base {0_adj}, liée {2_plur} et chargée de morceaux {1_adj}.</FlavorText_Ingredients_Chowder_2.description>
+	<FlavorText_Ingredients_Congee.description>une bouillie {1_adj} presque aussi ancienne que la culture {1_adj} elle-même. Sa consistance va de l'eau trouble à la cuillerée qui tient, et elle est couverte {0_adj} séchés.</FlavorText_Ingredients_Congee.description>
+	<FlavorText_Ingredients_Curry.description>{0_coll} cuits dans une sauce crémeuse très chargée {2_plur} et en d'autres épices.</FlavorText_Ingredients_Curry.description>
+	<FlavorText_Ingredients_Fricot.description>le ragoût fondamental de la cuisine acadienne : {2_coll} et {1_coll}, avec ou sans viande selon ce dont on dispose. Celui-ci contient {0_coll}. La sarriette lui donne son goût poivré et terreux caractéristique.</FlavorText_Ingredients_Fricot.description>
+	<FlavorText_Ingredients_Jjigae.description>une soupe coréenne incontournable, montée sur une base fermentée {1_adj} avec {0_coll}. Il en existe d'innombrables variantes.</FlavorText_Ingredients_Jjigae.description>
+	<FlavorText_Ingredients_Korma.description>un plat né dans le sous-continent indien : {1_coll} et {0_coll} braisés au yaourt et aux épices, ce qui produit une sauce épaisse.</FlavorText_Ingredients_Korma.description>
+	<FlavorText_Ingredients_NoodleSoup.description>une soupe toute simple : des nouilles {1_adj} cuites dans un bouillon {0_adj}.</FlavorText_Ingredients_NoodleSoup.description>
+	<FlavorText_Ingredients_Ph.description>un bouillon très épicé tiré d'os et de parures {1_adj}, servi avec des nouilles {2_adj}, {0_coll} et des herbes.</FlavorText_Ingredients_Ph.description>
+	<FlavorText_Ingredients_Pottage.description>un ragoût épais {0_adj} et {1_adj}, ceux dont les paysans disposaient. On le gardait sur le feu plusieurs jours de suite, en y puisant et en y remettant des ingrédients au fur et à mesure. Celui-ci est enrichi de morceaux {2_adj}.</FlavorText_Ingredients_Pottage.description>
+	<FlavorText_Ingredients_Ragout.description>un ragoût français {0_adj} et {1_adj}, cuits très lentement à feu doux et servis en plat principal.</FlavorText_Ingredients_Ragout.description>
+	<FlavorText_Ingredients_TikkaMasala.description>un plat de morceaux {0_adj} marinés et rôtis, dans une sauce au yaourt et {2_plur}.</FlavorText_Ingredients_TikkaMasala.description>
+	<FlavorText_Coddle.description>un ragoût irlandais qu'on fait souvent pour écouler les restes. Celui-ci réunit surtout une saucisse {1_adj} et du bacon, avec {2_coll} en gros morceaux et {0_coll}.</FlavorText_Coddle.description>
+	<FlavorText_CreamOf_Ingredients_Soup.description>un fond {0_adj} enrichi de crème épaisse.</FlavorText_CreamOf_Ingredients_Soup.description>
+	<FlavorText_HotAndSour_Ingredients_Soup.description>un plat chinois répandu dans toute l'Asie : {1_coll} mijotés dans un bouillon {0_adj} avec un acidifiant, le vinaigre le plus souvent.</FlavorText_HotAndSour_Ingredients_Soup.description>
+	<FlavorText_Jjim.description>le nom couvre toute une famille de plats coréens, obtenus en cuisant {0_coll} à la vapeur ou à l'eau dans une soupe {1_adj}, avec des morceaux {2_adj}.</FlavorText_Jjim.description>
+	<FlavorText_MinestroneSoup.description>une soupe italienne {0_adj} cuits très lentement avec {1_coll}, {2_coll} et des légumes variés.</FlavorText_MinestroneSoup.description>
+	<FlavorText_MisoSoup.description>une soupe savoureuse obtenue en portant à ébullition un bouillon {1_adj} et d'algues avec {2_coll} spécialement fermenté par un aspergillus. Cette soupe toute simple est servie avec {0_coll}.</FlavorText_MisoSoup.description>
+	<FlavorText_MulliganStew.description>un ragoût fait de bouts de tout et de n'importe quel ingrédient disponible, né dans les campements de vagabonds américains. Celui-ci réunit {0_coll}, {1_coll} et {2_coll}.</FlavorText_MulliganStew.description>
+
+</LanguageData>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_SucreSale.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_ConfitDOignons.label>confit d'oignons</FlavorTextFR_ConfitDOignons.label>
+	<FlavorTextFR_ConfitDOignons.description>{0_coll} émincés fondus deux heures à couvert, puis découverts et laissés caraméliser {1_plur} et {2_plur} rouge jusqu'à devenir presque noirs et sirupeux.</FlavorTextFR_ConfitDOignons.description>
+	<FlavorTextFR_TatinDOignons.label>tatin d'oignons</FlavorTextFR_TatinDOignons.label>
+	<FlavorTextFR_TatinDOignons.description>{0_coll} coupés en deux, posés face plate dans un caramel {1_adj} au vinaigre, couverts de pâte et retournés après cuisson. Le principe de la tarte aux pommes, appliqué au salé.</FlavorTextFR_TatinDOignons.description>
+	<FlavorTextFR_CipollineAgrodolce.label>cipolline in agrodolce</FlavorTextFR_CipollineAgrodolce.label>
+	<FlavorTextFR_CipollineAgrodolce.description>de petits {0_coll} entiers glacés au vinaigre balsamique et {1_plur}, avec du laurier. Se mangent froids, et se gardent une semaine en gagnant à chaque jour.</FlavorTextFR_CipollineAgrodolce.description>
+	<FlavorTextFR_ConfitureOignonsLard.label>confiture d'oignons au lard</FlavorTextFR_ConfitureOignonsLard.label>
+	<FlavorTextFR_ConfitureOignonsLard.description>{2_coll} rendue lentement, {0_coll} compotés dans sa graisse {1_plur} roux et le vinaigre de cidre. Se tartine sur un burger ou sur du pain grillé, indifféremment.</FlavorTextFR_ConfitureOignonsLard.description>
+	<FlavorTextFR_ConfitureTomatesVertes.label>confiture de tomates vertes</FlavorTextFR_ConfitureTomatesVertes.label>
+	<FlavorTextFR_ConfitureTomatesVertes.description>{0_coll} qui n'ont pas mûri avant les gelées, tranchées et macérées {1_plur} une nuit, puis cuites {2_plur} jusqu'à devenir translucides. Rien ne se perd au potager.</FlavorTextFR_ConfitureTomatesVertes.description>
+	<FlavorTextFR_Ketchup.label>ketchup</FlavorTextFR_Ketchup.label>
+	<FlavorTextFR_Ketchup.description>{0_coll} réduites des heures {2_plur}, du vinaigre, {1_coll} et un sachet d'épices entières retiré à la fin. Le mot vient d'une saumure de poisson chinoise, et il n'y avait pas de tomate dedans.</FlavorTextFR_Ketchup.description>
+	<FlavorTextFR_ChutneyTomateDatte.label>chutney tomate-datte</FlavorTextFR_ChutneyTomateDatte.label>
+	<FlavorTextFR_ChutneyTomateDatte.description>{0_coll} et {2_coll} mijotées {1_plur} de palme et aux cinq épices bengalies, jusqu'à napper. Se sert en fin de repas, avant le dessert, pour nettoyer la bouche.</FlavorTextFR_ChutneyTomateDatte.description>
+	<FlavorTextFR_TatinDeTomates.label>tatin de tomates</FlavorTextFR_TatinDeTomates.label>
+	<FlavorTextFR_TatinDeTomates.description>{0_coll} confites dans un caramel {1_adj} et {2_adj}, serrées côte à côte sous une abaisse et retournées tièdes. Le sucre ne les rend pas sucrées : il les concentre.</FlavorTextFR_TatinDeTomates.description>
+	<FlavorTextFR_BoeufTeriyaki.label>bœuf teriyaki</FlavorTextFR_BoeufTeriyaki.label>
+	<FlavorTextFR_BoeufTeriyaki.description>{0_coll} tranchée fine et saisie, puis laquée d'une réduction {2_adj}, de mirin et {1_adj} passée trois fois au pinceau. Le brillant est le but, pas la sauce.</FlavorTextFR_BoeufTeriyaki.description>
+	<FlavorTextFR_BoeufALOrange.label>bœuf à l'orange</FlavorTextFR_BoeufALOrange.label>
+	<FlavorTextFR_BoeufALOrange.description>des lanières {0_adj} enrobées de fécule et frites croustillantes, sautées dans un sirop {1_adj} au vinaigre et aux écorces {2_adj} séchées. La croûte doit tenir sous la sauce.</FlavorTextFR_BoeufALOrange.description>
+	<FlavorTextFR_CarbonnadeCassonade.label>carbonnade à la cassonade</FlavorTextFR_CarbonnadeCassonade.label>
+	<FlavorTextFR_CarbonnadeCassonade.description>{0_coll} braisée {2_plur} brune, adoucie {1_plur} brune et d'une tranche de pain d'épices moutardé qui se dissout et lie la sauce. L'amertume de la bière et le sucre se tiennent en équilibre.</FlavorTextFR_CarbonnadeCassonade.description>
+	<FlavorTextFR_BoeufAuxPruneaux.label>bœuf aux pruneaux</FlavorTextFR_BoeufAuxPruneaux.label>
+	<FlavorTextFR_BoeufAuxPruneaux.description>{0_coll} braisée avec {2_coll} séchés qui se défont en fin de cuisson et sucrent le jus d'eux-mêmes. On n'ajoute {1_coll} qu'à la toute fin, et très peu.</FlavorTextFR_BoeufAuxPruneaux.description>
+	<FlavorTextFR_BrisketSucreBrun.label>brisket au sucre brun</FlavorTextFR_BrisketSucreBrun.label>
+	<FlavorTextFR_BrisketSucreBrun.description>une poitrine {0_adj} frottée {1_plur} roux, {2_plur} et paprika fumé, puis fumée douze heures. Le sucre forme l'écorce noire qu'on appelle bark, et qui est le meilleur morceau.</FlavorTextFR_BrisketSucreBrun.description>
+	<FlavorTextFR_CarottesVichy.label>carottes Vichy</FlavorTextFR_CarottesVichy.label>
+	<FlavorTextFR_CarottesVichy.description>{0_coll} en rondelles cuites à découvert dans juste assez d'eau, {1_plur} et {2_plur}, jusqu'à ce que le liquide s'évapore et laisse un glaçage brillant.</FlavorTextFR_CarottesVichy.description>
+	<FlavorTextFR_Rotkohl.label>rotkohl</FlavorTextFR_Rotkohl.label>
+	<FlavorTextFR_Rotkohl.description>{0_coll} rouge émincé et braisé une heure avec {2_coll} râpées, du vinaigre et {1_coll}, plus un clou de girofle. L'acide garde la couleur ; sans lui, le chou vire au bleu.</FlavorTextFR_Rotkohl.description>
+	<FlavorTextFR_BetteravesAigresDouces.label>betteraves aigres-douces</FlavorTextFR_BetteravesAigresDouces.label>
+	<FlavorTextFR_BetteravesAigresDouces.description>{0_coll} cuites en robe puis marinées dans un vinaigre {1_adj} aux graines de moutarde et à l'aneth. Prennent une semaine à s'équilibrer et se gardent des mois.</FlavorTextFR_BetteravesAigresDouces.description>
+	<FlavorTextFR_DaigakuImo.label>daigaku imo</FlavorTextFR_DaigakuImo.label>
+	<FlavorTextFR_DaigakuImo.description>des morceaux de patate douce frits puis enrobés d'un caramel {1_adj} au soja, semés {2_plur} noir. « Patate d'université » : les étudiants tokyoïtes les achetaient pour trois fois rien.</FlavorTextFR_DaigakuImo.description>
+	<FlavorTextFR_ZuccaInAgrodolce.label>zucca in agrodolce</FlavorTextFR_ZuccaInAgrodolce.label>
+	<FlavorTextFR_ZuccaInAgrodolce.description>des tranches {0_adj} frites puis marinées à chaud dans un vinaigre {1_adj} avec de la menthe et de l'ail. Se mange froid le lendemain ; le jour même, c'est trop violent.</FlavorTextFR_ZuccaInAgrodolce.description>
+	<FlavorTextFR_Takuan.label>takuan</FlavorTextFR_Takuan.label>
+	<FlavorTextFR_Takuan.description>un daikon séché au soleil plusieurs semaines jusqu'à plier, puis enfoui dans du son de riz {1_plur} et au sel. Jaune vif, craquant, et bruyant à mâcher.</FlavorTextFR_Takuan.description>
+	<FlavorTextFR_PicklesSucresConcombre.label>pickles sucrés de concombre</FlavorTextFR_PicklesSucresConcombre.label>
+	<FlavorTextFR_PicklesSucresConcombre.description>{0_coll} et {2_coll} tranchés fin, dégorgés au gros sel puis ébouillantés dans un vinaigre {1_adj} au curcuma et aux graines de moutarde.</FlavorTextFR_PicklesSucresConcombre.description>
+	<FlavorTextFR_PorcAigreDoux.label>porc aigre-doux</FlavorTextFR_PorcAigreDoux.label>
+	<FlavorTextFR_PorcAigreDoux.description>{0_coll} enrobée de fécule et frite deux fois, jetée au dernier moment dans une sauce {1_adj} au vinaigre avec {2_coll}. Mélangée trop tôt, la panure s'effondre.</FlavorTextFR_PorcAigreDoux.description>
+	<FlavorTextFR_AchardsDeLegumes.label>achards de légumes</FlavorTextFR_AchardsDeLegumes.label>
+	<FlavorTextFR_AchardsDeLegumes.description>{0_coll} taillés en fine julienne, blanchis puis noyés dans une huile au curcuma, au gingembre et au vinaigre, avec juste assez {1_adj} pour arrondir l'acide. Se bonifient trois jours durant.</FlavorTextFR_AchardsDeLegumes.description>
+	<FlavorTextFR_JambonGlaceAuMiel.label>jambon glacé au miel</FlavorTextFR_JambonGlaceAuMiel.label>
+	<FlavorTextFR_JambonGlaceAuMiel.description>une pièce {0_adj} quadrillée au couteau et piquée de clous de girofle, badigeonnée {1_plur} et {2_plur} toutes les vingt minutes jusqu'à former une croûte ambrée.</FlavorTextFR_JambonGlaceAuMiel.description>
+	<FlavorTextFR_PouletMielAil.label>poulet au miel et à l'ail</FlavorTextFR_PouletMielAil.label>
+	<FlavorTextFR_PouletMielAil.description>{0_coll} saisie puis mijotée dans {1_coll}, {2_coll} écrasé et un trait de vinaigre, jusqu'à ce que la sauce réduise et colle à la chair.</FlavorTextFR_PouletMielAil.description>
+	<FlavorTextFR_SaumonMisoMiel.label>saumon glacé au miso et au miel</FlavorTextFR_SaumonMisoMiel.label>
+	<FlavorTextFR_SaumonMisoMiel.description>{0_coll} marinée une nuit dans une pâte {1_adj} fermenté et {2_adj}, puis passée sous le gril. Le sucre du miso brûle vite : on surveille sans quitter la salamandre.</FlavorTextFR_SaumonMisoMiel.description>
+	<FlavorTextFR_TajineTfaya.label>tajine tfaya</FlavorTextFR_TajineTfaya.label>
+	<FlavorTextFR_TajineTfaya.description>{2_coll} mijotée au safran, couverte d'une tfaya — {0_coll} compotés des heures {1_plur} secs, à la cannelle et au miel, jusqu'au brun sombre.</FlavorTextFR_TajineTfaya.description>
+	<FlavorTextFR_Mrouzia.label>mrouzia</FlavorTextFR_Mrouzia.label>
+	<FlavorTextFR_Mrouzia.description>{0_coll} confite au ras el hanout et au smen, noyée {1_plur} et chargée {2_adj} frites. Le miel et le sel conservaient la viande des semaines après la fête du sacrifice.</FlavorTextFR_Mrouzia.description>
+	<FlavorTextFR_KhoreshBeh.label>khoresh-e beh</FlavorTextFR_KhoreshBeh.label>
+	<FlavorTextFR_KhoreshBeh.description>{0_coll} braisée avec des coings en quartiers, dont la chair dure fond en une heure et parfume tout, acidulée au verjus et sucrée d'un peu de miel.</FlavorTextFR_KhoreshBeh.description>
+	<FlavorTextFR_PorcCidrePommes.label>porc au cidre et aux pommes</FlavorTextFR_PorcCidrePommes.label>
+	<FlavorTextFR_PorcCidrePommes.description>un rôti {0_adj} braisé {2_plur} avec {1_coll} en quartiers, dont la moitié se défait en compote et l'autre tient. Le jus réduit devient sirupeux tout seul.</FlavorTextFR_PorcCidrePommes.description>
+
+</LanguageData>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 12 : fondues, soupes, sautés au wok. Dernier lot.
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- Fondues et soupes -->
+	<FlavorText_Khoresh_2.description>une famille de ragoûts persans reconnaissables à leur profil acidulé, qu'ils doivent {1_plur} acides. Celui-ci fait mijoter {0_coll} dans le mélange « advieh » : curcuma, cannelle, cardamome, girofle, pétales de rose, cumin et gingembre.</FlavorText_Khoresh_2.description>
+	<FlavorText_MeatRaw_Hotpot.description>un bouillon qu'on garde frémissant sur un réchaud posé à table, accompagné d'un assortiment de tranches très fines {2_adj}, {1_adj} et {0_adj}, que chacun cuit une à une dans le bouillon avant de les repêcher et de les manger.</FlavorText_MeatRaw_Hotpot.description>
+	<FlavorText_MeatRaw_Sukiyaki.description>une soupe japonaise chargée {0_adj}, {1_adj} en dés et {2_adj}, dans une sauce soja sucrée, servie sur un petit réchaud qui la maintient chaude pendant le repas. Un bol d'œuf cru battu l'accompagne d'ordinaire : on y trempe chaque bouchée avant de la manger.</FlavorText_MeatRaw_Sukiyaki.description>
+	<FlavorText_ShabuShabu.description>un bouillon qu'on garde frémissant sur un réchaud posé à table, accompagné d'un assortiment de tranches très fines {0_adj}, {1_adj} et de légumes variés, avec une sauce {2_adj}. « Shabu shabu » est une onomatopée : c'est le bruit des ingrédients qu'on agite brièvement dans le bouillon pour les cuire, avant de les tremper dans la sauce.</FlavorText_ShabuShabu.description>
+	<FlavorText_EmaDatshi.description>un ragoût brûlant {2_adj} forts et de fromage, reconnu comme le plat national du Bhoutan.</FlavorText_EmaDatshi.description>
+	<FlavorText_SaagChhena.description>un plat pendjabi de feuilles vertes {2_adj} réduites en purée, mangé avec {1_coll} et servi avec des morceaux de fromage chhena, le tout relevé d'épices.</FlavorText_SaagChhena.description>
+	<FlavorText_ShishAndaaz.description>un ragoût épicé qu'on prépare souvent pour le nouvel an persan : {0_coll} hachée cuite avec une pâte acidulée {2_adj} et des oignons frits, couverte {1_adj} frits. Se sert volontiers avec du riz.</FlavorText_ShishAndaaz.description>
+	<FlavorText_Oatmeal.description>{0_coll} concassés, trempés à l'eau puis cuits jusqu'à former une bouillie épaisse.</FlavorText_Oatmeal.description>
+	<FlavorText_OatmealWith_Ingredients.description>{0_coll} concassés, trempés à l'eau puis cuits jusqu'à former une bouillie épaisse, couverte {1_adj} pour le goût.</FlavorText_OatmealWith_Ingredients.description>
+	<FlavorText_Caruru.description>un ragoût brésilien {0_adj}, fait {1_adj} séchés et {2_adj}. On torréfie {2_coll} à la poêle, on y ajoute {0_coll} frais taillés très fin : la cuisson attendrit le gombo et casse son mucilage. On verse ensuite un fond épais mixé {1_plur}, {2_plur}, à la coriandre, à l'ail et à la ciboule, et on cuit jusqu'à obtenir une purée grumeleuse.</FlavorText_Caruru.description>
+	<FlavorText_FrenchOnionSoup.description>une soupe {0_adj} doucement revenus puis cuits au bouillon, servie avec des croûtons {2_adj} ou une grande tranche de pain {2_adj} couverte de fromage, qui flotte en surface.</FlavorText_FrenchOnionSoup.description>
+	<FlavorText_Snert.description>une soupe épaisse de pois cassés, venue des Pays-Bas de la Vieille Terre : {0_coll} cuits avec de la poitrine {1_adj} et des saucisses {1_adj}, des légumes variés dont {2_coll}, et garnie de feuilles {2_adj}.</FlavorText_Snert.description>
+	<FlavorText_PlantFoodRaw_Fungus_Soup.description>un ragoût riche {1_adj} avec des morceaux {0_adj}.</FlavorText_PlantFoodRaw_Fungus_Soup.description>
+	<FlavorText_PlantFoodRaw_Stew.description>une soupe nourrissante {0_adj}, mijotée longuement sur le feu.</FlavorText_PlantFoodRaw_Stew.description>
+	<FlavorText_BinteBilihuta.description>une soupe indonésienne {1_adj} qu'on verse au bol, parfumée {2_plur}, {0_plur}, aux épices et au jus de citron vert.</FlavorText_BinteBilihuta.description>
+	<FlavorText_DalBhat.description>{1_coll} cuit à la vapeur, couvert d'un ragoût {2_adj} et {0_adj}.</FlavorText_DalBhat.description>
+	<FlavorText_CaldoVerde.description>une soupe qui a fait le succès du Portugal de la Vieille Terre, montée sur une purée {0_adj}. On la cuit avec {1_coll} et d'autres feuilles vertes, de l'huile d'olive, du poivre noir, du sel, de l'oignon et de l'ail.</FlavorText_CaldoVerde.description>
+	<FlavorText_CaldoVerde_2.description>une soupe qui a fait le succès du Portugal de la Vieille Terre, montée sur une purée {0_adj}. On la cuit avec {1_coll} et d'autres feuilles vertes, de l'huile d'olive, du poivre noir, du sel, de l'oignon et de l'ail. Ce bol est servi avec des tranches de « paio », une saucisse {2_adj} qu'on a fait bouillir avec les pommes de terre.</FlavorText_CaldoVerde_2.description>
+	<FlavorText_Domoda.description>un ragoût lisse monté sur {1_coll}, préparé au vinaigre et {1_plur}, puis lié à la farine. La domoda est l'une des recettes emblématiques de la gastronomie sénégalaise, et cette portion est largement servie {0_plur}.</FlavorText_Domoda.description>
+	<FlavorText_SopSop.description>un ragoût nourrissant né dans l'archipel du détroit de Torrès, au nord de l'Australie de la Vieille Terre. {1_coll} en sont l'ingrédient clé, et complètent le goût {0_adj}. Le cuisinier y a ajouté {2_coll} pour la richesse.</FlavorText_SopSop.description>
+	<FlavorText_Pisto.description>un ragoût de légumes espagnol, fait {0_adj} et {1_adj}, couronné d'une tranche croustillante de pain {2_adj} et servi tiède, en entrée ou en accompagnement d'un autre plat.</FlavorText_Pisto.description>
+	<FlavorText_Pisto_2.description>un ragoût de légumes espagnol, fait {0_adj} et {1_adj}, servi tiède, en entrée ou en accompagnement d'un autre plat.</FlavorText_Pisto_2.description>
+	<FlavorText_Pisto_3.description>un ragoût de légumes espagnol, fait {0_adj} et {1_adj}, couvert {2_adj} frits et servi tiède, en entrée ou en accompagnement d'un autre plat.</FlavorText_Pisto_3.description>
+	<FlavorText_Achu.description>une soupe d'un jaune tranché, venue de l'antique Cameroun. On fait bouillir des morceaux {1_adj} et des tripes avec du sel et des piments antillais, puis on mixe le tout avec une huile {2_adj}, de la poudre de calcaire et un mélange d'épices : muscade de calebasse, oignon sauvage, pebe. Cette soupe se sert toujours avec {0_coll} pilés.</FlavorText_Achu.description>
+	<FlavorText_Gazpacho.description>une soupe froide espagnole faite {0_adj}, {1_adj} et de pain rassis {2_adj} passés au mixeur. On la sert volontiers l'été.</FlavorText_Gazpacho.description>
+	<FlavorText_Vegetable_Sambar.description>une soupe végétarienne du sud de l'Inde, montée sur {1_coll}, parfumée au tamarin, {0_plur} et à un mélange d'épices très aromatique dont {2_coll}.</FlavorText_Vegetable_Sambar.description>
+	<FlavorText_Callaloo.description>un ragoût de feuilles {1_adj} et {0_adj}, répandu dans beaucoup de pays des Caraïbes.</FlavorText_Callaloo.description>
+	<FlavorText_Chakalaka.description>un condiment de légumes sud-africain monté sur {1_coll} et {2_coll}, avec {0_coll} et d'autres légumes. En général relevé.</FlavorText_Chakalaka.description>
+	<FlavorText_GroundnutSoup.description>une soupe faite {1_adj} et {0_adj}. C'est un incontournable de la cuisine africaine, mais on la mange aussi en Asie de l'Est, aux États-Unis et ailleurs dans le monde.</FlavorText_GroundnutSoup.description>
+	<FlavorText_FreekehSoup.description>un plat de céréales souple d'emploi, fait de grains verts {0_adj} grillés puis frottés, ce qui leur donne un goût fumé, une note de noisette et une mâche prononcée. On les ajoute à une soupe avec {1_coll}, {2_coll} en dés et le mélange libanais « baharat » : piment de la Jamaïque, poivre noir, cannelle, girofle, coriandre, cumin et muscade.</FlavorText_FreekehSoup.description>
+
+	<!-- Sautés -->
+	<FlavorText_TempehOrek.description>un sauté indonésien de galettes fermentées {0_adj}, {1_adj} et {2_adj}.</FlavorText_TempehOrek.description>
+	<FlavorText_Ingredients_Pancit.description>un terme général qui recouvre plusieurs plats de nouilles traditionnels des Philippines. Celui-ci fait sauter des nouilles {1_adj} avec {0_coll} et des légumes variés. Une sauce acidulée {2_adj} lui donne le profil aigre qui le caractérise.</FlavorText_Ingredients_Pancit.description>
+	<FlavorText_Ingredients_PancitBihon.description>un terme général qui recouvre plusieurs plats de nouilles traditionnels des Philippines, faits ici de fines nouilles {2_adj}. Celui-ci fait sauter {0_coll} avec des légumes variés. Une sauce acidulée {1_adj} lui donne le profil aigre qui le caractérise.</FlavorText_Ingredients_PancitBihon.description>
+	<FlavorText_Ingredients_Ingredients_Curry.description>un mélange {0_adj} et {2_adj}, taillés menu et sautés à feu vif au wok. On ajoute en fin de cuisson un curry monté sur {1_coll}.</FlavorText_Ingredients_Ingredients_Curry.description>
+	<FlavorText_Thai_Ingredients_Curry.description>{0_coll} sautés au wok, servis dans un curry au lait {1_adj}, parfumé le plus souvent de pâte de crevette, de piments, d'oignon, d'ail, de citronnelle, de galanga et de racine de coriandre.</FlavorText_Thai_Ingredients_Curry.description>
+	<FlavorText_Onion_Jalfrezi.description>un curry sauté né au Bengale et répandu dans toute l'Asie du Sud. Celui-ci se limite à une base {0_adj} et {1_adj}, cuite avec {2_coll} verts. On y ajoute d'ordinaire des viandes et des légumes sautés.</FlavorText_Onion_Jalfrezi.description>
+	<FlavorText_MapoTofu.description>{0_coll} souple, brièvement revenu dans une pâte {2_adj}, une huile de piment et {1_coll} hachée. Le poivre du Sichuan lui donne cette brûlure engourdissante qui en fait l'un des sommets de la cuisine relevée.</FlavorText_MapoTofu.description>
+	<FlavorText_GalamPleePadNamPla.description>un plat thaïlandais {0_adj} sautés à l'ail et à la sauce de poisson.</FlavorText_GalamPleePadNamPla.description>
+
+	<!-- « sauté » est déjà pris par Ingredients_MeatRaw_Sautee : on prend « wok » ici -->
+	<FlavorText_Ingredients_PlantFoodRaw_StirFry.description>un mélange {0_adj} et {1_adj}, jetés au wok à feu vif dans l'ordre de leur temps de cuisson. Le procédé préserve les vitamines et concentre les saveurs, mais il faut remuer sans arrêt pour ne rien brûler.</FlavorText_Ingredients_PlantFoodRaw_StirFry.description>
+	<FlavorText_Ingredients_Ingredients_StirFry.description>un mélange {0_adj} et {1_adj}, jetés au wok à feu vif dans l'ordre de leur temps de cuisson. Le procédé préserve les vitamines et concentre les saveurs, mais il faut remuer sans arrêt pour ne rien brûler.</FlavorText_Ingredients_Ingredients_StirFry.description>
+	<FlavorText_Ingredients_ChowMein.description>un plat chinois souple d'emploi : {0_coll} sautés avec des nouilles rondes {1_adj}. On y met peu de sauce, si bien que le résultat reste sec et un peu croustillant.</FlavorText_Ingredients_ChowMein.description>
+	<FlavorText_Ingredients_Fried_Rice.description>{0_coll} et {1_coll} sautés au wok avec {2_coll}.</FlavorText_Ingredients_Fried_Rice.description>
+	<FlavorText_Ingredients_DrunkenNoodles.description>aussi appelées pad kee mao, venues de la cuisine thaïlandaise : {1_coll} et {0_coll} sautés à la sauce soja, servis sur de larges nouilles {2_adj}.</FlavorText_Ingredients_DrunkenNoodles.description>
+	<FlavorText_Fried_Ingredients_2.description>un sauté rapide de morceaux {0_adj} croustillants. Le feu vif préserve les vitamines et concentre les saveurs, mais il faut remuer sans arrêt pour ne rien brûler.</FlavorText_Fried_Ingredients_2.description>
+	<FlavorText_LoMein.description>un plat chinois souple d'emploi : des nouilles {2_adj} cuites à la vapeur ou à l'eau, remuées avec {0_coll} et {1_coll} sautés et une sauce soja épaisse.</FlavorText_LoMein.description>
+	<FlavorText_Meat_Cow_ChowFun.description>un plat chinois reconnaissable à ses larges nouilles {2_adj}, remuées avec de fines tranches {0_adj} et {1_adj} sautées et une sauce soja.</FlavorText_Meat_Cow_ChowFun.description>
+	<FlavorText_KhuaKling.description>un curry sec thaïlandais {0_adj} hachée, sautée aux épices.</FlavorText_KhuaKling.description>
+	<FlavorText_PadPrikKing.description>un curry sec thaïlandais de jeunes gousses {1_adj} sautées avec des morceaux {0_adj} et {2_adj}.</FlavorText_PadPrikKing.description>
+	<FlavorText_PadPak.description>un plat thaïlandais {0_adj} et {1_adj} sautés, remués dans une sauce à l'huître et au soja avec de l'ail.</FlavorText_PadPak.description>
+	<FlavorText_PadPakRuam.description>un plat thaïlandais {0_adj}, {1_adj} et {2_adj} sautés, remués dans une sauce à l'huître et au soja avec de l'ail.</FlavorText_PadPakRuam.description>
+
+</LanguageData>

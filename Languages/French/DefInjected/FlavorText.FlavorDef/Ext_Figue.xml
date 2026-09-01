@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Figue.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_TarteAuxFigues.label>tarte aux figues</FlavorTextFR_TarteAuxFigues.label>
+	<FlavorTextFR_TarteAuxFigues.description>{0_coll} fendues en croix et posées debout sur une crème {2_adj}, qui boit leur jus pendant la cuisson et empêche la pâte de détremper.</FlavorTextFR_TarteAuxFigues.description>
+	<FlavorTextFR_CrostataDiFichi.label>crostata di fichi</FlavorTextFR_CrostataDiFichi.label>
+	<FlavorTextFR_CrostataDiFichi.description>une pâte sablée {2_plur} croisée en treillis sur une couche épaisse de confiture {0_adj}. Se mange froide, le lendemain, quand la pâte a bu un peu du fruit.</FlavorTextFR_CrostataDiFichi.description>
+	<FlavorTextFR_FiguesRotiesAuMiel.label>figues rôties au miel</FlavorTextFR_FiguesRotiesAuMiel.label>
+	<FlavorTextFR_FiguesRotiesAuMiel.description>{0_coll} entaillées en croix, une noix {2_adj} et une cuillerée {1_adj} au creux, passées dix minutes à four brûlant jusqu'à ce qu'elles s'ouvrent comme des fleurs.</FlavorTextFR_FiguesRotiesAuMiel.description>
+	<FlavorTextFR_FiguesPocheesVinRouge.label>figues pochées au vin rouge</FlavorTextFR_FiguesPocheesVinRouge.label>
+	<FlavorTextFR_FiguesPocheesVinRouge.description>{0_coll} frémies dans {1_coll} rouge sucré {2_plur} et à la badiane, puis laissées refroidir dedans une nuit — c'est en refroidissant qu'elles prennent la couleur jusqu'au cœur.</FlavorTextFR_FiguesPocheesVinRouge.description>
+	<FlavorTextFR_ConfitureDeFigues.label>confiture de figues</FlavorTextFR_ConfitureDeFigues.label>
+	<FlavorTextFR_ConfitureDeFigues.description>{0_coll} coupées en quatre, macérées une nuit {1_plur}, puis cuites court avec {2_coll} qui apporte la pectine et empêche que tout tourne au sirop.</FlavorTextFR_ConfitureDeFigues.description>
+	<FlavorTextFR_PainDeFigues.label>pain de figues</FlavorTextFR_PainDeFigues.label>
+	<FlavorTextFR_PainDeFigues.description>{0_coll} sèches pilées au mortier avec {1_coll} et {2_coll}, pressées en bloc et séchées. Se garde tout l'hiver et se tranche au couteau, comme un fromage.</FlavorTextFR_PainDeFigues.description>
+	<FlavorTextFR_IncirTatlisi.label>incir tatlısı</FlavorTextFR_IncirTatlisi.label>
+	<FlavorTextFR_IncirTatlisi.description>{0_coll} sèches regonflées dans un sirop, chacune fourrée d'un cerneau {1_adj}, servies sous une cuillerée de kaymak — une crème épaissie si dense qu'elle se coupe.</FlavorTextFR_IncirTatlisi.description>
+	<FlavorTextFR_IncirUyutmasi.label>incir uyutması</FlavorTextFR_IncirUyutmasi.label>
+	<FlavorTextFR_IncirUyutmasi.description>des figues sèches écrasées dans {1_coll} tiède, laissées reposer quelques heures : leur enzyme fait prendre le lait toute seule, sans présure ni gélifiant. « Endormir la figue », dit le nom.</FlavorTextFR_IncirUyutmasi.description>
+	<FlavorTextFR_AnjeerHalwa.label>anjeer halwa</FlavorTextFR_AnjeerHalwa.label>
+	<FlavorTextFR_AnjeerHalwa.description>{0_coll} trempées puis broyées, cuites au ghee {1_plur} réduit jusqu'à ce que la masse se décolle de la casserole et brille.</FlavorTextFR_AnjeerHalwa.description>
+	<FlavorTextFR_AnjeerBarfi.label>anjeer barfi</FlavorTextFR_AnjeerBarfi.label>
+	<FlavorTextFR_AnjeerBarfi.description>une pâte {0_adj} et {1_adj} roulée en boudin, refroidie, puis tranchée en losanges. Assez ferme pour voyager, ce qui en fait le cadeau de fête par excellence.</FlavorTextFR_AnjeerBarfi.description>
+	<FlavorTextFR_CheesecakeAuxFigues.label>cheesecake aux figues</FlavorTextFR_CheesecakeAuxFigues.label>
+	<FlavorTextFR_CheesecakeAuxFigues.description>un appareil {1_adj} et {2_adj} sous des quartiers {0_adj} rangés en rosace, laqués de leur propre sirop réduit.</FlavorTextFR_CheesecakeAuxFigues.description>
+	<FlavorTextFR_GelatoAiFichi.label>gelato ai fichi</FlavorTextFR_GelatoAiFichi.label>
+	<FlavorTextFR_GelatoAiFichi.description>{0_coll} mûres à point passées crues dans une base {1_adj} peu foisonnée. Les grains restent perceptibles sous la dent, et c'est ce qu'on cherche.</FlavorTextFR_GelatoAiFichi.description>
+	<FlavorTextFR_FocacciaAuxFigues.label>focaccia aux figues</FlavorTextFR_FocacciaAuxFigues.label>
+	<FlavorTextFR_FocacciaAuxFigues.description>{0_coll} enfoncées dans la pâte creusée aux doigts, avec du romarin, de l'huile {2_adj} et du gros sel. Le sucre du fruit caramélise au contact de la plaque.</FlavorTextFR_FocacciaAuxFigues.description>
+	<FlavorTextFR_PizzaFiguesProsciutto.label>pizza figues et prosciutto</FlavorTextFR_PizzaFiguesProsciutto.label>
+	<FlavorTextFR_PizzaFiguesProsciutto.description>une pâte blanche sans tomate, {0_coll} rôties dessus, et {2_coll} cru déposé à la sortie du four seulement — cuit, il durcit et perd tout.</FlavorTextFR_PizzaFiguesProsciutto.description>
+	<FlavorTextFR_ProsciuttoEFichi.label>prosciutto e fichi</FlavorTextFR_ProsciuttoEFichi.label>
+	<FlavorTextFR_ProsciuttoEFichi.description>{0_coll} ouvertes en quatre sans les détacher, une tranche {1_adj} cru posée dessus, un filet d'huile. Rien de plus : c'est l'accord entier du salé et du sucré en deux ingrédients.</FlavorTextFR_ProsciuttoEFichi.description>
+	<FlavorTextFR_SaladeFiguesChevre.label>salade de figues au chèvre</FlavorTextFR_SaladeFiguesChevre.label>
+	<FlavorTextFR_SaladeFiguesChevre.description>{0_coll} tièdes sur un lit {2_adj} poivrées, avec {1_coll} frais émietté et une vinaigrette au vinaigre balsamique réduit.</FlavorTextFR_SaladeFiguesChevre.description>
+	<FlavorTextFR_FiguesAuRoquefort.label>figues au roquefort</FlavorTextFR_FiguesAuRoquefort.label>
+	<FlavorTextFR_FiguesAuRoquefort.description>{0_coll} farcies d'un bleu écrasé {2_plur} concassées, passées deux minutes sous le gril. Le sucre du fruit est la seule chose qui tienne tête à ce fromage.</FlavorTextFR_FiguesAuRoquefort.description>
+	<FlavorTextFR_FoieGrasAuxFigues.label>foie gras aux figues</FlavorTextFR_FoieGrasAuxFigues.label>
+	<FlavorTextFR_FoieGrasAuxFigues.description>une escalope {1_adj} saisie trente secondes par face dans une poêle brûlante et sèche, déglacée {2_plur} doux, avec {0_coll} juste tiédies.</FlavorTextFR_FoieGrasAuxFigues.description>
+	<FlavorTextFR_MagretAuxFigues.label>magret de canard aux figues</FlavorTextFR_MagretAuxFigues.label>
+	<FlavorTextFR_MagretAuxFigues.description>{1_coll} cuite côté peau jusqu'à rendre sa graisse, {0_coll} caramélisées dedans, et la poêle déglacée {2_plur} rouge réduit en sirop.</FlavorTextFR_MagretAuxFigues.description>
+	<FlavorTextFR_AgneauAuxFigues.label>agneau aux figues</FlavorTextFR_AgneauAuxFigues.label>
+	<FlavorTextFR_AgneauAuxFigues.description>une épaule {1_adj} braisée lentement {2_plur} fondus, {0_coll} ajoutées la dernière demi-heure pour ne pas se défaire complètement.</FlavorTextFR_AgneauAuxFigues.description>
+	<FlavorTextFR_TajineAgneauFigues.label>tajine d'agneau aux figues</FlavorTextFR_TajineAgneauFigues.label>
+	<FlavorTextFR_TajineAgneauFigues.description>{1_coll} mijotée au safran, au gingembre et à la cannelle, {0_coll} sèches regonflées ajoutées à la fin avec des amandes grillées.</FlavorTextFR_TajineAgneauFigues.description>
+	<FlavorTextFR_PorcAuxFigues.label>porc aux figues</FlavorTextFR_PorcAuxFigues.label>
+	<FlavorTextFR_PorcAuxFigues.description>un filet {1_adj} rôti rosé, la poêle déglacée et montée {2_plur}, avec {0_coll} poêlées à part au beurre.</FlavorTextFR_PorcAuxFigues.description>
+	<FlavorTextFR_ChutneyDeFigues.label>chutney de figues</FlavorTextFR_ChutneyDeFigues.label>
+	<FlavorTextFR_ChutneyDeFigues.description>{0_coll} et {1_coll} rouges confits au vinaigre {2_plur}, jusqu'à ce que la préparation nappe la cuillère. Se sert avec les fromages affinés et les viandes froides.</FlavorTextFR_ChutneyDeFigues.description>
+	<FlavorTextFR_ReductionFiguesBalsamique.label>réduction de figues au balsamique</FlavorTextFR_ReductionFiguesBalsamique.label>
+	<FlavorTextFR_ReductionFiguesBalsamique.description>{0_coll} fondues dans un vinaigre vieilli et {2_coll}, réduites jusqu'au sirop noir et brillant. Un trait suffit ; deux, et le plat n'est plus qu'un dessert.</FlavorTextFR_ReductionFiguesBalsamique.description>
+
+</LanguageData>

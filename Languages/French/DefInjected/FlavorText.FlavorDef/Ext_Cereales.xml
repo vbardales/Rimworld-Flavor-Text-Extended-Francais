@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Cereales.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_PorridgeDAmarante.label>porridge d'amarante</FlavorTextFR_PorridgeDAmarante.label>
+	<FlavorTextFR_PorridgeDAmarante.description>{0_coll} crevé à petit feu {1_plur} jusqu'à ce que les grains éclatent et libèrent leur mucilage, garni {2_adj} concassés. Il épaissit énormément en refroidissant.</FlavorTextFR_PorridgeDAmarante.description>
+	<FlavorTextFR_Alegria.label>alegría</FlavorTextFR_Alegria.label>
+	<FlavorTextFR_Alegria.description>{0_coll} soufflé grain à grain sur une plaque brûlante, aggloméré {1_plur} chaud avec {2_plur} grillées et pressé en barre. Le nom veut dire « joie », et se vend depuis la Conquête.</FlavorTextFR_Alegria.description>
+	<FlavorTextFR_RajgiraRoti.label>rajgira roti</FlavorTextFR_RajgiraRoti.label>
+	<FlavorTextFR_RajgiraRoti.description>une farine {0_adj}, qui ne contient pas de gluten, liée par {2_coll} et une purée {1_adj} écrasée chaude — sans quoi la galette se déchire au rouleau. Se cuit à sec puis se badigeonne.</FlavorTextFR_RajgiraRoti.description>
+	<FlavorTextFR_AtoleDAmarante.label>atole d'amarante</FlavorTextFR_AtoleDAmarante.label>
+	<FlavorTextFR_AtoleDAmarante.description>une boisson épaisse {0_adj} et {1_adj} délayés à l'eau, fouettée {2_plur} et à la cannelle jusqu'à mousser. Se boit brûlante, au petit matin, avant le travail aux champs.</FlavorTextFR_AtoleDAmarante.description>
+	<FlavorTextFR_PilafDAmarante.label>pilaf d'amarante</FlavorTextFR_PilafDAmarante.label>
+	<FlavorTextFR_PilafDAmarante.description>{0_coll} torréfié à sec avant d'être mouillé au bouillon, avec une fondue {2_adj} et {1_coll} poêlés. Le grain reste minuscule mais craque sous la dent, ce que le riz ne fait pas.</FlavorTextFR_PilafDAmarante.description>
+	<FlavorTextFR_RajgiraLadoo.label>rajgira ladoo</FlavorTextFR_RajgiraLadoo.label>
+	<FlavorTextFR_RajgiraLadoo.description>{0_coll} soufflé roulé en boules à la main dans un sirop {1_adj} au petit cassé et {2_plur} clarifié. On les forme brûlantes : refroidies, elles ne tiennent plus.</FlavorTextFR_RajgiraLadoo.description>
+	<FlavorTextFR_OrzottoChampignons.label>orzotto aux champignons</FlavorTextFR_OrzottoChampignons.label>
+	<FlavorTextFR_OrzottoChampignons.description>{0_coll} perlé mouillé louche après louche comme un risotto, lié {2_plur} râpé hors du feu, avec une poêlée {1_adj}. Il tient la cuisson bien mieux que le riz et pardonne les distractions.</FlavorTextFR_OrzottoChampignons.description>
+	<FlavorTextFR_SoupeBoeufOrge.label>soupe bœuf-orge</FlavorTextFR_SoupeBoeufOrge.label>
+	<FlavorTextFR_SoupeBoeufOrge.description>un bouillon tiré {1_adj} à l'os pendant trois heures, épaissi {0_plur} perlé et chargé {2_adj} en gros dés. L'orge continue de gonfler dans la marmite : la soupe du lendemain est une potée.</FlavorTextFR_SoupeBoeufOrge.description>
+	<FlavorTextFR_ScotchBroth.label>scotch broth</FlavorTextFR_ScotchBroth.label>
+	<FlavorTextFR_ScotchBroth.description>{1_coll} au collier mijotée avec {0_coll} perlé, {2_coll} jaune et du poireau, écumée souvent. Se mange le premier jour en bouillon, le second à la fourchette.</FlavorTextFR_ScotchBroth.description>
+	<FlavorTextFR_Krupnik.label>krupnik</FlavorTextFR_Krupnik.label>
+	<FlavorTextFR_Krupnik.description>une soupe paysanne {0_adj} perlé, {2_adj} en cubes et {1_adj} séchés réhydratés, dont on garde l'eau de trempage — c'est elle qui porte tout le goût.</FlavorTextFR_Krupnik.description>
+	<FlavorTextFR_OrgeAuTheBeurre.label>orge au thé beurré</FlavorTextFR_OrgeAuTheBeurre.label>
+	<FlavorTextFR_OrgeAuTheBeurre.description>une farine {0_adj} grillé, pétrie du bout des doigts dans un bol {1_plur} salé battu {2_plur}. Se mange sans couverts, en roulant la pâte contre la paroi. Tient une journée de marche.</FlavorTextFR_OrgeAuTheBeurre.description>
+	<FlavorTextFR_SaladeOrgeFeta.label>salade d'orge à la feta</FlavorTextFR_SaladeOrgeFeta.label>
+	<FlavorTextFR_SaladeOrgeFeta.description>{0_coll} perlé cuit puis rafraîchi net, mêlé {2_plur} en dés, {1_plur} émietté et beaucoup d'herbes. Il faut l'assaisonner tiède : froid, il ne prend plus rien.</FlavorTextFR_SaladeOrgeFeta.description>
+	<FlavorTextFR_Boribap.label>boribap</FlavorTextFR_Boribap.label>
+	<FlavorTextFR_Boribap.description>{1_coll} cuit avec {0_coll} pressé et {2_coll} trempés, dans la même eau. C'était la nourriture des années maigres, et c'est devenu une commande de restaurant.</FlavorTextFR_Boribap.description>
+	<FlavorTextFR_OrgeAuLait.label>orge au lait</FlavorTextFR_OrgeAuLait.label>
+	<FlavorTextFR_OrgeAuLait.description>{0_coll} mondé cuit une heure {1_plur} avec un bâton de cannelle et à peine {2_adj}. Plus rustique que le riz au lait, et bien plus nourrissant.</FlavorTextFR_OrgeAuLait.description>
+	<FlavorTextFR_BannockDOrge.label>bannock d'orge</FlavorTextFR_BannockDOrge.label>
+	<FlavorTextFR_BannockDOrge.description>une galette épaisse {0_adj}, cuite sur une pierre chaude ou à même la plaque, pétrie {2_plur} caillé et {1_plur}. Sans levure : elle lève par le lait aigre seul.</FlavorTextFR_BannockDOrge.description>
+	<FlavorTextFR_OrgeAuxPoireaux.label>orge aux poireaux</FlavorTextFR_OrgeAuxPoireaux.label>
+	<FlavorTextFR_OrgeAuxPoireaux.description>{0_coll} perlé étuvé au bouillon avec une fondue {1_adj} menés très doucement, monté {2_plur} en fin de cuisson. Le blanc et le vert vont ensemble, contrairement à l'habitude.</FlavorTextFR_OrgeAuxPoireaux.description>
+	<FlavorTextFR_QuinottoChampignons.label>quinotto aux champignons</FlavorTextFR_QuinottoChampignons.label>
+	<FlavorTextFR_QuinottoChampignons.description>{0_coll} rincé longuement pour ôter sa saponine amère, puis mené comme un risotto avec {1_coll} et lié {2_plur}. Le germe se détache en anneau : c'est le signe qu'il est cuit.</FlavorTextFR_QuinottoChampignons.description>
+	<FlavorTextFR_SaladeQuinoaGrenade.label>salade quinoa-grenade</FlavorTextFR_SaladeQuinoaGrenade.label>
+	<FlavorTextFR_SaladeQuinoaGrenade.description>{0_coll} refroidi à plat, mêlé aux graines {1_adj} et {2_plur} ciselées, avec un filet de mélasse acidulée. Les grains éclatent au milieu de quelque chose qui ne croque pas : c'est tout l'intérêt.</FlavorTextFR_SaladeQuinoaGrenade.description>
+	<FlavorTextFR_QuinoaChaufa.label>quinoa chaufa</FlavorTextFR_QuinoaChaufa.label>
+	<FlavorTextFR_QuinoaChaufa.description>{0_coll} sauté au wok très chaud avec une omelette {1_adj} taillée en lanières, du gingembre et {2_coll}. Le riz sauté cantonais passé aux Andes, avec la céréale du lieu.</FlavorTextFR_QuinoaChaufa.description>
+	<FlavorTextFR_ChiliQuinoaHaricots.label>chili quinoa-haricots</FlavorTextFR_ChiliQuinoaHaricots.label>
+	<FlavorTextFR_ChiliQuinoaHaricots.description>{1_coll} noirs et {0_coll} mijotés ensemble une heure {2_plur} et au cumin. Le quinoa épaissit le jus sans qu'on ait besoin de farine ni de réduction.</FlavorTextFR_ChiliQuinoaHaricots.description>
+	<FlavorTextFR_PoivronsFarcisQuinoa.label>poivrons farcis au quinoa</FlavorTextFR_PoivronsFarcisQuinoa.label>
+	<FlavorTextFR_PoivronsFarcisQuinoa.description>{1_coll} évidés et blanchis, garnis {0_adj} lié d'une concassée {2_adj}, puis passés au four jusqu'à ce que la peau se ride. On les sert dans leur jus de cuisson.</FlavorTextFR_PoivronsFarcisQuinoa.description>
+	<FlavorTextFR_QuinoaAuLait.label>quinoa au lait</FlavorTextFR_QuinoaAuLait.label>
+	<FlavorTextFR_QuinoaAuLait.description>{0_coll} cuit {1_plur} à la cannelle et à peine {2_adj}, jusqu'à ce que chaque grain déroule son germe. Se mange tiède, au bol, comme on le fait à La Paz au petit jour.</FlavorTextFR_QuinoaAuLait.description>
+	<FlavorTextFR_GalettesDeQuinoa.label>galettes de quinoa</FlavorTextFR_GalettesDeQuinoa.label>
+	<FlavorTextFR_GalettesDeQuinoa.description>{0_coll} cuit puis lié {1_plur} battus et {2_plur} râpées, façonné à la cuillère et saisi des deux côtés. Elles se tiennent mal chaudes : on les laisse reposer avant de retourner.</FlavorTextFR_GalettesDeQuinoa.description>
+	<FlavorTextFR_TaboulehDeQuinoa.label>tabbouleh de quinoa</FlavorTextFR_TaboulehDeQuinoa.label>
+	<FlavorTextFR_TaboulehDeQuinoa.description>beaucoup plus de persil que {0_adj}, avec {2_coll} épépinées en tout petits dés et le jus {1_adj}. La céréale est ici l'assaisonnement de l'herbe, jamais l'inverse.</FlavorTextFR_TaboulehDeQuinoa.description>
+	<FlavorTextFR_SaladeQuinoaAvocat.label>salade quinoa-avocat</FlavorTextFR_SaladeQuinoaAvocat.label>
+	<FlavorTextFR_SaladeQuinoaAvocat.description>{0_coll} froid, {1_coll} taillé au dernier moment et une vinaigrette {2_plur} vert et à la coriandre. L'avocat s'écrase un peu contre les grains, et c'est ce qui lie la salade.</FlavorTextFR_SaladeQuinoaAvocat.description>
+	<FlavorTextFR_ToSauceGombo.label>tô sauce gombo</FlavorTextFR_ToSauceGombo.label>
+	<FlavorTextFR_ToSauceGombo.description>une pâte ferme {0_adj} travaillée à la spatule contre la paroi de la marmite, trempée dans une sauce {1_adj} filante montée {2_plur}. On mange à la main, en creusant la boule.</FlavorTextFR_ToSauceGombo.description>
+	<FlavorTextFR_ToSauceArachide.label>tô sauce arachide</FlavorTextFR_ToSauceArachide.label>
+	<FlavorTextFR_ToSauceArachide.description>la même pâte {0_adj}, trempée cette fois dans une sauce {1_adj} pilées longuement cuite {2_plur}, jusqu'à ce que l'huile remonte en surface. C'est le signe qu'elle est prête.</FlavorTextFR_ToSauceArachide.description>
+	<FlavorTextFR_Thiakry.label>thiakry</FlavorTextFR_Thiakry.label>
+	<FlavorTextFR_Thiakry.description>une semoule {0_adj} roulée à la main puis cuite à la vapeur trois fois, noyée {1_plur} sucré {2_plur} et à la fleur d'oranger. Se sert glacé, en fin de repas.</FlavorTextFR_Thiakry.description>
+	<FlavorTextFR_KambuKoozh.label>kambu koozh</FlavorTextFR_KambuKoozh.label>
+	<FlavorTextFR_KambuKoozh.description>une bouillie {0_adj} concassé laissée aigrir une nuit entière, allongée {1_plur} battu et salée, bue à même le bol avec {2_coll} cru et un piment. Se prend avant le lever du jour, contre la chaleur qui vient.</FlavorTextFR_KambuKoozh.description>
+	<FlavorTextFR_RagiDosa.label>ragi dosa</FlavorTextFR_RagiDosa.label>
+	<FlavorTextFR_RagiDosa.description>une pâte {0_adj}, {1_adj} et {2_adj} noires trempées, fermentée une nuit puis étalée en voile sur une plaque brûlante. Elle est presque noire, et beaucoup plus fine qu'elle n'en a l'air.</FlavorTextFR_RagiDosa.description>
+	<FlavorTextFR_BajraKhichdi.label>bajra khichdi</FlavorTextFR_BajraKhichdi.label>
+	<FlavorTextFR_BajraKhichdi.description>{0_coll} concassé au mortier et cuit à l'étouffée avec {1_coll} fendues, arrosé {2_plur} clarifié au service. Plat d'hiver du désert, où l'on mange gras parce qu'il gèle la nuit.</FlavorTextFR_BajraKhichdi.description>
+	<FlavorTextFR_XiaomiZhou.label>xiaomi zhou</FlavorTextFR_XiaomiZhou.label>
+	<FlavorTextFR_XiaomiZhou.description>{0_coll} crevé une heure dans beaucoup d'eau avec {1_coll} en cubes qui se défait, et {2_coll} rouges entières. Une pellicule jaune se forme en surface : c'est la partie qu'on donne aux malades.</FlavorTextFR_XiaomiZhou.description>
+	<FlavorTextFR_BajraRoti.label>bajra roti</FlavorTextFR_BajraRoti.label>
+	<FlavorTextFR_BajraRoti.description>une galette épaisse {0_adj}, pétrie à l'eau chaude avec {1_coll} hachées, tapotée entre les paumes faute de pouvoir la rouler, et cuite à même la braise avant d'être frottée {2_plur}.</FlavorTextFR_BajraRoti.description>
+	<FlavorTextFR_PilafDeMil.label>pilaf de mil aux légumes</FlavorTextFR_PilafDeMil.label>
+	<FlavorTextFR_PilafDeMil.description>{0_coll} grillé à sec jusqu'à sentir la noisette, puis gonflé au bouillon avec {1_coll} taillés menu et une fondue {2_adj}. Il double de volume et boit deux fois son poids.</FlavorTextFR_PilafDeMil.description>
+
+</LanguageData>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 11 : soupes et ragoûts de viande.
+-->
+<LanguageData>
+
+	<FlavorText_Afang.label>afang</FlavorText_Afang.label>
+	<FlavorText_GhormehSabzi.label>ghormeh sabzi</FlavorText_GhormehSabzi.label>
+	<FlavorText_Luau.label>lū'au</FlavorText_Luau.label>
+	<FlavorText_Luau_2.label>lū'au</FlavorText_Luau_2.label>
+	<FlavorText_ChanaSaag.label>chana saag</FlavorText_ChanaSaag.label>
+	<FlavorText_Saag.label>saag</FlavorText_Saag.label>
+	<FlavorText_DalTadka.label>dal tadka</FlavorText_DalTadka.label>
+	<FlavorText_Chairo.label>chairo</FlavorText_Chairo.label>
+	<FlavorText_Gomguk.label>gomguk</FlavorText_Gomguk.label>
+	<FlavorText_Hulatang.label>hulatang</FlavorText_Hulatang.label>
+	<FlavorText_RawonSoup.label>rawon</FlavorText_RawonSoup.label>
+	<!-- « carbonade flamande » est réservé au plat que le mod ajoute, avec sa bière -->
+	<FlavorText_Flemish_Plum_Stew.label>ragoût flamand {1_plur}</FlavorText_Flemish_Plum_Stew.label>
+	<FlavorText_FlemishStew.label>ragoût flamand</FlavorText_FlemishStew.label>
+	<FlavorText_Nilaga.label>nilaga</FlavorText_Nilaga.label>
+	<FlavorText_Pepperpot.label>pepperpot</FlavorText_Pepperpot.label>
+
+	<!-- Poissons et fruits de mer -->
+	<FlavorText_Meat_Fish_Amok.label>amok {0_adj}</FlavorText_Meat_Fish_Amok.label>
+	<FlavorText_BalikCorbasi.label>balık çorbası</FlavorText_BalikCorbasi.label>
+	<FlavorText_Brudet.label>brudet</FlavorText_Brudet.label>
+	<FlavorText_Meat_Fish_Waterzooi.label>waterzooï {0_adj}</FlavorText_Meat_Fish_Waterzooi.label>
+
+	<!-- Ragoûts -->
+	<FlavorText_Daube.label>daube</FlavorText_Daube.label>
+	<FlavorText_IrishStew.label>ragoût irlandais</FlavorText_IrishStew.label>
+	<FlavorText_Pichelsteiner.label>Pichelsteiner</FlavorText_Pichelsteiner.label>
+	<FlavorText_Maafe.label>maafé</FlavorText_Maafe.label>
+	<FlavorText_Wat.label>wat</FlavorText_Wat.label>
+	<FlavorText_Meat_Insect_EggSoup.label>soupe aux œufs {0_adj}</FlavorText_Meat_Insect_EggSoup.label>
+	<FlavorText_Meat_Insect_Soup.label>soupe {0_adj}</FlavorText_Meat_Insect_Soup.label>
+	<FlavorText_Meat_Insect_Soup_2.label>soupe {0_adj}</FlavorText_Meat_Insect_Soup_2.label>
+	<FlavorText_Tuhu.label>tuh'u</FlavorText_Tuhu.label>
+	<FlavorText_Meat_Poultry_EggDropSoup.label>soupe aux œufs filés {0_adj}</FlavorText_Meat_Poultry_EggDropSoup.label>
+	<FlavorText_Ajiaco.label>ajiaco</FlavorText_Ajiaco.label>
+	<FlavorText_Galinhada.label>galinhada</FlavorText_Galinhada.label>
+	<FlavorText_Galinhada_2.label>galinhada</FlavorText_Galinhada_2.label>
+	<FlavorText_Koldil_Meat_Poultry.label>koldil {0_adj}</FlavorText_Koldil_Meat_Poultry.label>
+	<FlavorText_TomYum.label>tom yum</FlavorText_TomYum.label>
+	<FlavorText_HerbsAndStewed_Meat_Rabbit.label>{0_coll} en civet aux herbes</FlavorText_HerbsAndStewed_Meat_Rabbit.label>
+	<FlavorText_Meat_Seafood_Boillabaisse.label>bouillabaisse {0_adj}</FlavorText_Meat_Seafood_Boillabaisse.label>
+	<FlavorText_Moqueca.label>moqueca</FlavorText_Moqueca.label>
+	<FlavorText_Pinakbet.label>pinakbet</FlavorText_Pinakbet.label>
+	<FlavorText_Pinakbet_2.label>pinakbet</FlavorText_Pinakbet_2.label>
+	<FlavorText_Saimin.label>saimin</FlavorText_Saimin.label>
+	<FlavorText_Farikal.label>fårikål</FlavorText_Farikal.label>
+	<FlavorText_LungFungSoup.label>soupe lung fung</FlavorText_LungFungSoup.label>
+
+	<!-- Ragoûts génériques -->
+	<FlavorText_MeatRaw_Bourguignon.label>bourguignon {0_adj}</FlavorText_MeatRaw_Bourguignon.label>
+	<FlavorText_MeatRaw_Consomme.label>consommé {0_adj}</FlavorText_MeatRaw_Consomme.label>
+	<FlavorText_MeatRaw_Consomme_2.label>consommé {0_adj}</FlavorText_MeatRaw_Consomme_2.label>
+	<FlavorText_MeatRaw_Jeongol.label>jeongol {0_plur}</FlavorText_MeatRaw_Jeongol.label>
+	<FlavorText_MeatRaw_Maraq.label>maraq {0_plur}</FlavorText_MeatRaw_Maraq.label>
+	<FlavorText_MeatRaw_NoodleSoup.label>soupe de nouilles {0_plur}</FlavorText_MeatRaw_NoodleSoup.label>
+	<FlavorText_MeatRaw_Pozole.label>pozole {0_plur}</FlavorText_MeatRaw_Pozole.label>
+	<FlavorText_MeatRaw_RopaVieja.label>ropa vieja {0_plur}</FlavorText_MeatRaw_RopaVieja.label>
+	<FlavorText_MeatRaw_Sinigang.label>sinigang {0_plur}</FlavorText_MeatRaw_Sinigang.label>
+	<FlavorText_MeatRaw_Tagine.label>tajine {0_adj}</FlavorText_MeatRaw_Tagine.label>
+	<FlavorText_BoilUp.label>boil up</FlavorText_BoilUp.label>
+	<FlavorText_Booyah.label>booyah</FlavorText_Booyah.label>
+	<FlavorText_CantoneseSeafoodSoup.label>soupe cantonaise aux fruits de mer</FlavorText_CantoneseSeafoodSoup.label>
+	<FlavorText_Cassoulet.label>cassoulet</FlavorText_Cassoulet.label>
+	<FlavorText_Chorba.label>chorba</FlavorText_Chorba.label>
+	<FlavorText_Cocido.label>cocido</FlavorText_Cocido.label>
+	<FlavorText_CreamStew.label>ragoût à la crème</FlavorText_CreamStew.label>
+	<FlavorText_Goulash.label>goulasch</FlavorText_Goulash.label>
+	<FlavorText_Gumbo.label>gumbo</FlavorText_Gumbo.label>
+	<FlavorText_Hachee.label>hachée</FlavorText_Hachee.label>
+	<FlavorText_Kalops.label>kalops</FlavorText_Kalops.label>
+	<FlavorText_Kalops_2.label>kalops</FlavorText_Kalops_2.label>
+	<FlavorText_KigHaFarz.label>kig ha farz</FlavorText_KigHaFarz.label>
+	<FlavorText_PalaverSauce.label>sauce palaver</FlavorText_PalaverSauce.label>
+	<FlavorText_Peppersoup.label>peppersoup</FlavorText_Peppersoup.label>
+	<FlavorText_Pot-Au-Feu.label>pot-au-feu</FlavorText_Pot-Au-Feu.label>
+	<FlavorText_Saloona.label>saloona</FlavorText_Saloona.label>
+	<FlavorText_Saltah.label>saltah</FlavorText_Saltah.label>
+	<FlavorText_StewPeas.label>ragoût de pois</FlavorText_StewPeas.label>
+	<FlavorText_Stracciatella.label>stracciatella</FlavorText_Stracciatella.label>
+	<FlavorText_Tongseng.label>tongseng</FlavorText_Tongseng.label>
+	<FlavorText_WontonSoup.label>soupe de wontons</FlavorText_WontonSoup.label>
+	<FlavorText_Xarem.label>xarém</FlavorText_Xarem.label>
+	<FlavorText_Yuvarlakia.label>yuvarlákia</FlavorText_Yuvarlakia.label>
+	<FlavorText_Chili.label>chili</FlavorText_Chili.label>
+	<FlavorText_Beet_Borscht.label>bortsch {2_plur}</FlavorText_Beet_Borscht.label>
+	<FlavorText_KhoreshKarafs.label>khoresh karafs</FlavorText_KhoreshKarafs.label>
+	<FlavorText_Khoresh.label>khoresh</FlavorText_Khoresh.label>
+
+</LanguageData>

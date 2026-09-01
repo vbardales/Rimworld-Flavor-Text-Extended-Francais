@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_FigueDeBarbarie.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_ConfitureFigueBarbarie.label>confiture de figues de Barbarie</FlavorTextFR_ConfitureFigueBarbarie.label>
+	<FlavorTextFR_ConfitureFigueBarbarie.description>{0_coll} épluchées avec des gants — les glochides sont invisibles et s'enfoncent seuls —, cuites {1_plur} et parfumées {2_plur}. Les pépins se retirent au tamis ou se gardent, selon la patience.</FlavorTextFR_ConfitureFigueBarbarie.description>
+	<FlavorTextFR_QuesoDeTuna.label>queso de tuna</FlavorTextFR_QuesoDeTuna.label>
+	<FlavorTextFR_QuesoDeTuna.description>la pulpe {0_adj} réduite des heures jusqu'à devenir une pâte brune assez ferme pour se trancher, chargée {1_plur}. Malgré son nom, il n'y a pas de fromage dedans : c'est la forme du bloc qui l'a baptisé.</FlavorTextFR_QuesoDeTuna.description>
+	<FlavorTextFR_ChutneyFigueBarbarie.label>chutney de figues de Barbarie</FlavorTextFR_ChutneyFigueBarbarie.label>
+	<FlavorTextFR_ChutneyFigueBarbarie.description>{0_coll} confites au vinaigre {2_plur} et {1_plur}, jusqu'à ce que le doux et l'acide s'équilibrent. Se garde des mois et s'améliore les premières semaines.</FlavorTextFR_ChutneyFigueBarbarie.description>
+	<FlavorTextFR_GranitaFichiIndia.label>granita ai fichi d'India</FlavorTextFR_GranitaFichiIndia.label>
+	<FlavorTextFR_GranitaFichiIndia.description>le jus {0_adj} filtré, sucré et acidulé {2_plur}, pris au froid et gratté à la fourchette toutes les demi-heures pour rester en cristaux. Se mange en Sicile au petit-déjeuner, avec une brioche.</FlavorTextFR_GranitaFichiIndia.description>
+	<FlavorTextFR_GelatoFicoIndia.label>gelato al fico d'India</FlavorTextFR_GelatoFicoIndia.label>
+	<FlavorTextFR_GelatoFicoIndia.description>une base {1_adj} peu foisonnée où la pulpe {0_adj} donne un rose profond qui ne vient d'aucun colorant. Plus dense qu'une glace, servi à la spatule.</FlavorTextFR_GelatoFicoIndia.description>
+	<FlavorTextFR_NieveDeTuna.label>nieve de tuna</FlavorTextFR_NieveDeTuna.label>
+	<FlavorTextFR_NieveDeTuna.description>une glace battue à la main dans un seau de bois entouré de glace et de sel, comme sur les places mexicaines. La pulpe {0_adj} et {1_coll}, rien d'autre.</FlavorTextFR_NieveDeTuna.description>
+	<FlavorTextFR_TarteFigueBarbarie.label>tarte à la figue de Barbarie</FlavorTextFR_TarteFigueBarbarie.label>
+	<FlavorTextFR_TarteFigueBarbarie.description>un fond sablé {2_plur} garni d'une gelée {0_adj} prise, dont la couleur passe du magenta au grenat en refroidissant.</FlavorTextFR_TarteFigueBarbarie.description>
+	<FlavorTextFR_CheesecakeFigueBarbarie.label>cheesecake à la figue de Barbarie</FlavorTextFR_CheesecakeFigueBarbarie.label>
+	<FlavorTextFR_CheesecakeFigueBarbarie.description>un appareil {1_adj} et {2_adj} nappé d'un miroir {0_adj}. L'acidité du fruit tranche le gras du fromage, ce que les fruits rouges font moins nettement.</FlavorTextFR_CheesecakeFigueBarbarie.description>
+	<FlavorTextFR_FigueBarbarieYaourtPistaches.label>figues de Barbarie au yaourt et aux pistaches</FlavorTextFR_FigueBarbarieYaourtPistaches.label>
+	<FlavorTextFR_FigueBarbarieYaourtPistaches.description>{0_coll} pelées et tranchées sur {1_coll} égoutté, arrosées de miel et parsemées {2_adj} concassées. Le dessert de fin d'été, du Maghreb au Levant.</FlavorTextFR_FigueBarbarieYaourtPistaches.description>
+	<FlavorTextFR_Colonche.label>colonche</FlavorTextFR_Colonche.label>
+	<FlavorTextFR_Colonche.description>le jus {0_adj} rouges laissé fermenter quelques jours dans une jarre de terre. Une boisson préhispanique, encore vendue dans les marchés du centre du Mexique.</FlavorTextFR_Colonche.description>
+	<FlavorTextFR_SalsaDeTuna.label>salsa de tuna</FlavorTextFR_SalsaDeTuna.label>
+	<FlavorTextFR_SalsaDeTuna.description>{0_coll} en dés, {1_coll} hachés fin et {2_coll} rouge, avec du citron vert et de la coriandre. Le sucre du fruit éteint le piment sans le masquer.</FlavorTextFR_SalsaDeTuna.description>
+	<FlavorTextFR_SaladeNopalesTuna.label>salade de nopales et tuna</FlavorTextFR_SaladeNopalesTuna.label>
+	<FlavorTextFR_SaladeNopalesTuna.description>les raquettes du cactus épépinées, blanchies pour ôter leur bave, coupées en lanières, et le fruit du même cactus en dés — avec {1_coll} et {2_coll}. La plante entière dans une seule assiette.</FlavorTextFR_SaladeNopalesTuna.description>
+	<FlavorTextFR_SaladeFigueBarbarieFeta.label>salade de figues de Barbarie à la feta</FlavorTextFR_SaladeFigueBarbarieFeta.label>
+	<FlavorTextFR_SaladeFigueBarbarieFeta.description>{0_coll} en quartiers sur un lit {2_adj} amères, avec {1_coll} émietté, de la menthe et un filet d'huile. Le sucré du fruit contre le salé du fromage.</FlavorTextFR_SaladeFigueBarbarieFeta.description>
+	<FlavorTextFR_CevicheFigueBarbarie.label>ceviche à la figue de Barbarie</FlavorTextFR_CevicheFigueBarbarie.label>
+	<FlavorTextFR_CevicheFigueBarbarie.description>{1_coll} crue cuite par l'acide {2_adj}, avec {0_coll} en dés qui apportent le sucre et la couleur. Une invention récente des côtes du Pacifique mexicain.</FlavorTextFR_CevicheFigueBarbarie.description>
+	<FlavorTextFR_PouletFigueBarbarie.label>poulet glacé à la figue de Barbarie</FlavorTextFR_PouletFigueBarbarie.label>
+	<FlavorTextFR_PouletFigueBarbarie.description>{1_coll} grillée et laquée d'un sirop {0_adj} relevé {2_plur} fumés. Le glaçage est appliqué en fin de cuisson seulement : le sucre du fruit brûle vite.</FlavorTextFR_PouletFigueBarbarie.description>
+
+</LanguageData>

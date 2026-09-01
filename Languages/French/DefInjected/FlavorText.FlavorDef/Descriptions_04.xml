@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 04 : confiseries, boissons, chaussons, raviolis, papillotes.
+  Convention de slots : voir Descriptions_01.xml.
+-->
+<LanguageData>
+
+	<!-- Confiseries -->
+	<FlavorText_Sugar_Candy.description>un sirop {0_adj} cuit jusqu'à pouvoir être façonné en confiseries tendres ou dures. Sans doute pas très bon pour la santé.</FlavorText_Sugar_Candy.description>
+	<FlavorText_Dairy_Candy.description>un caramel tendre fait d'un sucre {0_adj} et {1_adj}. On le porte à ébullition dans un grand chaudron jusqu'au stade où le sucre, en refroidissant, devient ferme mais reste souple sous la dent.</FlavorText_Dairy_Candy.description>
+	<FlavorText_Fruit_Jam.description>{1_coll} mêlés à un sucre {0_adj} et cuits jusqu'à prendre en gelée. À l'origine, un procédé de conservation.</FlavorText_Fruit_Jam.description>
+	<FlavorText_Fruit_Tanghulu.description>des morceaux {1_adj} enfilés sur une brochette de bambou, trempée dans un sirop {0_adj} bouillant. {0_coll} refroidit d'un coup et forme une coque claire et dure, qui casse comme du verre sous la dent. Ce dessert vient de la Chine de la Vieille Terre.</FlavorText_Fruit_Tanghulu.description>
+	<FlavorText_Citrus_TurkishDelight.description>aussi appelé lokum, une famille de confiseries turques obtenue en ajoutant {1_coll} à un gel {0_adj} et d'amidon.</FlavorText_Citrus_TurkishDelight.description>
+
+	<!-- « ambroisie » seul serait confondu avec la boisson du jeu du même nom -->
+	<FlavorText_Ambrosia.description>une salade sucrée née dans le sud-ouest de la Fédération canado-américaine. Les mini-marshmallows en sont l'élément clé, avec {1_coll}, le tout lié par une crème fouettée à base {1_adj}.</FlavorText_Ambrosia.description>
+	<FlavorText_Candied_Citrus_Peel.description>de fines lanières d'écorce {1_adj} pochées dans un sirop {0_adj} jusqu'à saturation. On les laisse sécher, puis on les roule dans un sucre {0_adj}.</FlavorText_Candied_Citrus_Peel.description>
+	<FlavorText_Candied_Nut.description>{1_coll} roulés dans un caramel {0_adj}, puis refroidis jusqu'à ce qu'une coque craquante se forme.</FlavorText_Candied_Nut.description>
+	<FlavorText_DragonsBeardCandy.description>une confiserie chinoise : un sucre {0_adj} étiré à la main en écheveaux fins comme des cheveux, enroulés autour d'une garniture {1_adj}.</FlavorText_DragonsBeardCandy.description>
+	<FlavorText_Khabisa.description>un dessert libanais à la consistance gélifiée, qu'il doit à l'ajout de mastic aromatique. {0_coll} et un amidon {2_adj} sont délayés à l'eau et cuits jusqu'à épaississement, puis on ajoute {1_coll}, de l'eau de fleur d'oranger et des grains de mastic moulu.</FlavorText_Khabisa.description>
+	<FlavorText_Kutya.description>un plat {2_adj} bouillis et {1_adj} séchés, imbibés d'une sauce sucrée {0_adj}.</FlavorText_Kutya.description>
+	<FlavorText_Raggmunkar.description>{2_coll} râpés et cuits à la poêle en crêpe mince, servis avec une confiture {1_adj}.</FlavorText_Raggmunkar.description>
+	<FlavorText_Savillum.description>l'ancêtre romain du cheesecake : une croûte {2_adj} garnie de n'importe quel fromage et sucrée {0_plur}. Une bonne pincée de graines de pavot achève le tout.</FlavorText_Savillum.description>
+	<FlavorText_Tembleque.description>un entremets portoricain, obtenu en cuisant une crème {1_adj}, un lait {1_adj}, du sel, de la fécule de maïs et {0_coll}, puis garni de cannelle moulue.</FlavorText_Tembleque.description>
+	<FlavorText_Fruitcake.description>un gâteau dense {1_adj} confits, {2_adj} et d'épices, éventuellement imbibé d'alcool.</FlavorText_Fruitcake.description>
+	<FlavorText_Knafeh.description>un dessert arabe : de fins vermicelles de pâte {0_adj} frits, alternés avec du fromage et imbibés d'un sirop {1_adj}.</FlavorText_Knafeh.description>
+	<FlavorText_Asida.description>un plat arabe : une farine {0_adj} versée dans l'eau bouillante et travaillée en boule de pâte, servie avec du beurre clarifié et {2_coll}.</FlavorText_Asida.description>
+
+	<!-- Boissons -->
+	<FlavorText_MuzluSut.description>une boisson turque crémeuse et rafraîchissante, obtenue en mixant {0_coll} avec {1_coll} et du sucre.</FlavorText_MuzluSut.description>
+	<FlavorText_Boza.description>une boisson turque à base {0_adj} fermentés et {1_adj}, mixés avec du sucre. Souvent poudrée de cannelle.</FlavorText_Boza.description>
+	<FlavorText_ChichaMorada.description>une boisson péruvienne : {0_coll} violet bouilli dans l'eau avec des écorces {2_adj} et des morceaux {1_adj}, une pincée de cannelle et quelques clous de girofle.</FlavorText_ChichaMorada.description>
+	<FlavorText_Salep.description>une boisson d'hiver turque {0_adj}, épaissie d'un amidon {1_adj}. Souvent poudrée de sucre glace et de cannelle.</FlavorText_Salep.description>
+	<FlavorText_Eggnog.description>{0_coll} crus fouettés et incorporés à de la crème épaisse, relevés {2_plur}. À l'origine un moyen d'écouler le surplus {0_adj} ; aujourd'hui une boisson de fête.</FlavorText_Eggnog.description>
+	<FlavorText_Atole.description>une boisson chaude traditionnelle d'origine mexicaine, à base d'une farine de masa {1_adj}. L'atole se parfume de vanille, de cannelle ou de goyave.</FlavorText_Atole.description>
+	<FlavorText_Horchata.description>une boisson rafraîchissante {1_adj} trempés et moulus, sucrée à volonté {0_plur}.</FlavorText_Horchata.description>
+	<FlavorText_Ingredients_HealthDrink.description>un mélange rapide {0_adj} et d'un jus {1_adj}.</FlavorText_Ingredients_HealthDrink.description>
+	<FlavorText_Ingredients_Juice.description>une râpure {0_adj} pressée fermement jusqu'à la dernière goutte.</FlavorText_Ingredients_Juice.description>
+	<FlavorText_Ingredients_Smoothie.description>un mélange {0_adj}, {1_adj} et {2_adj} passé au mixeur.</FlavorText_Ingredients_Smoothie.description>
+	<FlavorText_MulledWine.description>un vin {0_adj} parfumé {1_plur}, avec un mélange d'épices à vin chaud : cannelle, girofle, badiane, piment de la Jamaïque.</FlavorText_MulledWine.description>
+	<FlavorText_Boza_2.description>une boisson sucrée d'Asie centrale, faite {0_adj} maltés. Épaisse, très légèrement alcoolisée. Se sert souvent sucrée, avec des épices ou des fruits par-dessus.</FlavorText_Boza_2.description>
+	<FlavorText_ProteinShake.description>un shake épais obtenu en mixant {0_coll} avec {1_coll} crus.</FlavorText_ProteinShake.description>
+	<FlavorText_Sungnyung.description>une boisson coréenne obtenue en faisant bouillir {0_coll} grillé resté collé au fond de la marmite.</FlavorText_Sungnyung.description>
+
+	<!-- Chaussons, beignets farcis, croquettes -->
+	<FlavorText_LeafyVeg_Pies.description>de petites tourtes triangulaires libanaises, de pâte {0_adj}, farcies {1_adj}, d'oignon, de pignons et d'épices.</FlavorText_LeafyVeg_Pies.description>
+	<FlavorText_Kibbeh.description>une préparation du Proche-Orient : des quenelles en forme de ballon, faites de grains {1_adj} concassés et précuits, mêlés {0_adj} hachée, d'herbes et d'épices du pays. Se sert bouillie, grillée, frite ou crue.</FlavorText_Kibbeh.description>
+	<FlavorText_Chickpea_Bonda.description>une boulette indienne de la taille d'une bouchée : une purée {1_adj} enrobée d'une pâte à la farine {0_adj} et frite en pleine huile.</FlavorText_Chickpea_Bonda.description>
+	<FlavorText_Ingredients_Samosas.description>un chausson frit d'Asie du Sud et de l'Ouest, en pâte {2_adj}, garni d'une farce salée {1_adj} hachés et parfumée {0_plur}.</FlavorText_Ingredients_Samosas.description>
+	<FlavorText_Meat_Shellfish_Cakes.description>des beignets {0_adj} effilochés, liés de chapelure et {1_adj}, puis frits jusqu'à ce qu'ils croustillent.</FlavorText_Meat_Shellfish_Cakes.description>
+	<FlavorText_MeatRaw_PapaRellena.description>des beignets de pâte {2_adj}, très répandus en Amérique latine, farcis {0_adj} assaisonnée et frits en pleine huile.</FlavorText_MeatRaw_PapaRellena.description>
+	<FlavorText_Mooncakes.description>une pâtisserie chinoise traditionnellement mangée à la fête de la mi-automne. Un {0_sing} salé est enveloppé d'une pâte sucrée {1_adj}, elle-même enfermée dans une fine croûte.</FlavorText_Mooncakes.description>
+	<FlavorText_Manapua.description>une brioche hawaïenne inspirée du baozi chinois : une pâte levée {1_adj} farcie {0_adj}, puis cuite à la vapeur ou frite.</FlavorText_Manapua.description>
+	<FlavorText_Ingredients_Balls.description>le plus élémentaire des plats : {0_coll} roulés à la main en boulettes, cuites à la vapeur ou grillées.</FlavorText_Ingredients_Balls.description>
+	<FlavorText_Dango_2.description>de petites boules de pâte {0_adj} pilé et sucré, alignées sur une brochette, grillées puis nappées d'un glaçage {1_adj} et {2_adj}.</FlavorText_Dango_2.description>
+	<FlavorText_PlantFoodRaw_Tsukemono.description>des pickles japonais {0_adj}, servis ici avec {1_coll}. Les tsukemono se prennent aussi à l'apéritif en otsumami, en accompagnement ou en garniture d'un repas, et comme service du kaiseki lors de la cérémonie du thé.</FlavorText_PlantFoodRaw_Tsukemono.description>
+	<FlavorText_Simit.description>une viennoiserie turque proche du bagel, couverte {1_adj}. On la mange au petit-déjeuner, souvent avec un verre de thé turc ou d'ayran.</FlavorText_Simit.description>
+
+	<!-- Galettes de maïs et papillotes -->
+	<FlavorText_HuitlacocheTamales.description>le champignon qui pousse sur les épis de maïs, épicé, enveloppé d'une pâte {0_adj} et cuit à la vapeur dans une spathe {0_adj}.</FlavorText_HuitlacocheTamales.description>
+	<FlavorText_Ingredients_Arepas.description>un pain sans levain mangé en Amérique du Sud depuis les temps précolombiens : une pâte de semoule de maïs précuite, façonnée en disques épais. On les cuit à la poêle, on les fend et on les garnit {0_adj} et {1_adj} moulus.</FlavorText_Ingredients_Arepas.description>
+	<FlavorText_Ingredients_Burek.description>une pâtisserie de la cuisine ottomane : une pâte {2_adj} fine et feuilletée, garnie {1_adj} et {0_adj}.</FlavorText_Ingredients_Burek.description>
+	<FlavorText_Ingredients_Enchiladas.description>une tortilla {1_adj} enroulée sur une garniture {0_adj} revenus, servie sous une sauce salée {2_plur}. Née de la cuisine de rue mexicaine, elle est aujourd'hui répandue partout.</FlavorText_Ingredients_Enchiladas.description>
+	<FlavorText_ArepasConQueso.description>un pain sans levain mangé en Amérique du Sud depuis les temps précolombiens : une pâte de semoule de maïs précuite, façonnée en disques épais, farcie de fromage et {0_adj}, puis cuite à la poêle.</FlavorText_ArepasConQueso.description>
+	<FlavorText_MeatRaw_Tamales.description>{0_coll} épicée et effilochée, enveloppée d'une pâte de masa {1_adj} et cuite à la vapeur dans une spathe de maïs.</FlavorText_MeatRaw_Tamales.description>
+	<FlavorText_Cholera.description>une tourte {2_adj} garnie {1_adj} en tranches et de fromage, originaire de Suisse.</FlavorText_Cholera.description>
+	<FlavorText_GuanimesConBacalao.description>des quenelles de semoule de maïs servies avec un ragoût {0_adj} salée et {1_adj}.</FlavorText_GuanimesConBacalao.description>
+	<FlavorText_MeatRaw_SoupDumplings.description>de gros raviolis vapeur chinois, remplis de bouillon, dont il existe mille variantes. On enferme une farce {1_adj} et une gelée {0_adj} dans une pâte {2_adj} ; à la vapeur, la gelée fond et devient soupe.</FlavorText_MeatRaw_SoupDumplings.description>
+	<FlavorText_PasutsTolma.description>des feuilles {0_adj} en saumure, farcies {1_adj}, {2_adj}, d'herbes et d'épices. Elles ont une place à part dans les maisons arméniennes, surtout à Noël et au nouvel an, où on les prépare pendant le jeûne qui précède les fêtes.</FlavorText_PasutsTolma.description>
+	<FlavorText_Banana_Fufu.description>{0_coll} bouillies et pilées, sucrées {1_plur}, travaillées en une boule de pâte lisse et élastique. Répandu dans toute l'Afrique de l'Ouest, où il accompagne le plus souvent une soupe.</FlavorText_Banana_Fufu.description>
+	<FlavorText_Fufu.description>{0_coll} bouillies et pilées, travaillées en une boule de pâte lisse et élastique. Répandu dans toute l'Afrique de l'Ouest, où il accompagne le plus souvent une soupe.</FlavorText_Fufu.description>
+	<FlavorText_Paniyaram.description>un plat indien : une pâte fermentée {2_adj} étuvé et {1_adj}, cuite à la vapeur dans un moule à alvéoles. Cette version gagne beaucoup à l'ajout {0_adj}.</FlavorText_Paniyaram.description>
+	<FlavorText_Latke.description>une galette {2_adj} et {1_adj}, d'origine juive, préparée traditionnellement pour Hanoucca.</FlavorText_Latke.description>
+	<FlavorText_PierogiLeniwe.description>les raviolis « paresseux » polonais : du fromage blanc, {0_coll} et une farine {2_adj}, pochés à l'eau légèrement salée. Se servent le plus souvent avec de la crème épaisse ou de la crème aigre.</FlavorText_PierogiLeniwe.description>
+	<FlavorText_TamagoSushi.description>une tranche d'omelette {0_adj} posée sur une motte {2_adj} sucré.</FlavorText_TamagoSushi.description>
+	<FlavorText_ImamBayildi.description>un plat ottoman : une {0_sing} entière farcie {1_adj}, d'ail et {2_plur}, puis mijotée à l'huile d'olive.</FlavorText_ImamBayildi.description>
+	<FlavorText_EnglishMuffins.description>un petit pain plat {0_adj}, levé à la levure et cuit sur plaque. Le beurre lui donne du moelleux et cette mie très ouverte, pleine de creux et d'alvéoles quand on le fend en deux.</FlavorText_EnglishMuffins.description>
+	<FlavorText_Khinkali.description>des raviolis géorgiens reconnaissables à leur nœud torsadé, en pâte {0_adj}. Ceux-ci sont farcis {1_adj} grossièrement hachée. Le nœud sert de poignée et se jette après avoir mangé le corps du ravioli.</FlavorText_Khinkali.description>
+	<FlavorText_Potetball.description>une quenelle norvégienne traditionnelle {1_adj} râpés, mêlés à une farine {0_adj}.</FlavorText_Potetball.description>
+	<FlavorText_Puto.description>un gâteau vapeur philippin {0_adj}, fait {0_adj} légèrement fermenté au préalable, ce qui lui donne son goût de levain.</FlavorText_Puto.description>
+	<FlavorText_Takoyaki.description>un en-cas japonais : des boules de pâte à la farine {0_adj} fourrées de morceaux {1_adj}, de gingembre mariné et de ciboule. On les cuit dans une plaque spéciale et on les nappe volontiers de sauce, de mayonnaise et de copeaux de bonite.</FlavorText_Takoyaki.description>
+	<FlavorText_Ingredients_Baozi.description>une brioche vapeur levée {1_adj}, courante dans plusieurs cuisines chinoises. Les garnitures et les préparations sont innombrables ; celles-ci sont fourrées {0_adj}.</FlavorText_Ingredients_Baozi.description>
+	<FlavorText_Ingredients_ChorMuang.description>les raviolis-fleurs thaïlandais : une pâte {2_adj} cuite à la vapeur, pincée en corolle, garnie {0_adj} et {1_adj}.</FlavorText_Ingredients_ChorMuang.description>
+	<FlavorText_Ingredients_Dumplings.description>un hachis {0_adj}, enrobé {1_adj} moulus et cuit à la poêle.</FlavorText_Ingredients_Dumplings.description>
+	<FlavorText_Ingredients_Dumplings_2.description>un hachis {0_adj} avec des morceaux {1_adj}, enveloppé d'une couche {2_adj} moulus et cuit à la vapeur en panier.</FlavorText_Ingredients_Dumplings_2.description>
+	<FlavorText_Ingredients_MomoWith_Ingredients_Achar.description>de petits raviolis {2_adj} farcis {0_adj}, servis avec une sauce appelée achar, faite {1_adj} en saumure.</FlavorText_Ingredients_MomoWith_Ingredients_Achar.description>
+	<FlavorText_Ingredients_Pierogi.description>des raviolis polonais : une pâte {2_adj} sans levain repliée sur une garniture {0_adj} et pochée à l'eau bouillante. Servis avec de la crème aigre.</FlavorText_Ingredients_Pierogi.description>
+	<FlavorText_Ingredients_Zongzi.description>un ravioli chinois traditionnel : {1_coll} gluant enroulé autour d'une garniture {0_adj}.</FlavorText_Ingredients_Zongzi.description>
+	<FlavorText_MeatRaw_Croquettes.description>une farce {0_adj} et {1_adj}, liée d'une purée {2_adj}, panée puis frite dans un grand chaudron d'huile jusqu'au croustillant.</FlavorText_MeatRaw_Croquettes.description>
+	<FlavorText_MeatRaw_Jiaozi.description>des raviolis de farine {2_adj} repliés sur une farce {1_adj} hachée et {0_adj}. Traditionnellement cuits à la vapeur en panier.</FlavorText_MeatRaw_Jiaozi.description>
+	<FlavorText_Gimbap.description>un plat coréen proche du sushi : une garniture {0_adj} frais et {1_adj} en saumure, roulée dans {2_coll}, puis dans une feuille de « gim » séchée et grillée. On tranche le rouleau en bouchées pour le service.</FlavorText_Gimbap.description>
+	<FlavorText_MercimekKoftesi.description>l'un des nombreux petits plats froids turcs que l'on appelle meze : une purée {0_adj} bouillis, mêlée à des grains {2_adj} concassés et précuits. On roule le tout à la main avec des oignons rôtis à l'huile d'olive, une pâte {1_adj}, du persil et des épices.</FlavorText_MercimekKoftesi.description>
+	<FlavorText_Manti.description>un ravioli turc {0_adj} hachée dans une pâte {1_adj}, servi sous une sauce au yaourt.</FlavorText_Manti.description>
+	<FlavorText_Meat_Pig_Gefillde.description>des quenelles norvégiennes {2_adj} et de farine {1_adj}, farcies d'un mélange de chair à saucisse {0_adj} et de foie.</FlavorText_Meat_Pig_Gefillde.description>
+
+</LanguageData>

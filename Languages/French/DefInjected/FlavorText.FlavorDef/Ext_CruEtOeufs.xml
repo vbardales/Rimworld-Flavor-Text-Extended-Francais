@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_CruEtOeufs.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Balut.label>balut</FlavorTextFR_Balut.label>
+	<FlavorTextFR_Balut.description>un œuf de cane couvé dix-huit jours, bouilli et mangé dans sa coquille. On boit d'abord le bouillon par le petit bout, puis on sale et on mange le reste. Se vend le soir, aux Philippines, au cri du marchand.</FlavorTextFR_Balut.description>
+	<FlavorTextFR_AdobongBalut.label>adobong balut</FlavorTextFR_AdobongBalut.label>
+	<FlavorTextFR_AdobongBalut.description>des baluts écalés puis mijotés dans un adobo {1_adj}, de vinaigre, {2_adj} et de laurier, jusqu'à ce que la sauce les enrobe.</FlavorTextFR_AdobongBalut.description>
+	<FlavorTextFR_BalutFrit.label>balut frit</FlavorTextFR_BalutFrit.label>
+	<FlavorTextFR_BalutFrit.description>des baluts écalés, enrobés d'une pâte {1_adj} orangée et frits {2_plur}. La coque croustille, l'intérieur reste coulant.</FlavorTextFR_BalutFrit.description>
+	<FlavorTextFR_HotVitLonXaoMe.label>hột vịt lộn xào me</FlavorTextFR_HotVitLonXaoMe.label>
+	<FlavorTextFR_HotVitLonXaoMe.description>des œufs couvés sautés dans une sauce au tamarin aigre-douce, avec {1_coll} concassées et {2_coll}. Se mange avec des feuilles de rau răm, dont l'amertume coupe le gras.</FlavorTextFR_HotVitLonXaoMe.description>
+	<FlavorTextFR_PongTiaKoon.label>pong tia koon</FlavorTextFR_PongTiaKoon.label>
+	<FlavorTextFR_PongTiaKoon.description>la version cambodgienne, grillée sur braises plutôt que bouillie, servie avec un trempette {1_adj}, de sel et de poivre de Kampot.</FlavorTextFR_PongTiaKoon.description>
+	<FlavorTextFR_CenturyEgg.label>œuf de cent ans</FlavorTextFR_CenturyEgg.label>
+	<FlavorTextFR_CenturyEgg.description>{0_coll} enfoui plusieurs semaines dans un mélange alcalin de cendre, de chaux et de sel : le blanc devient une gelée ambrée translucide, le jaune un cœur vert-noir crémeux. Servi en quartiers {2_plur} mariné.</FlavorTextFR_CenturyEgg.description>
+	<FlavorTextFR_TeaEggs.label>œufs au thé</FlavorTextFR_TeaEggs.label>
+	<FlavorTextFR_TeaEggs.description>{0_coll} durs dont on fêle la coquille sans la retirer, puis mijotés des heures dans {1_coll} noir, {2_coll} et de la badiane. Le liquide s'infiltre par les fêlures et dessine un marbrage brun.</FlavorTextFR_TeaEggs.description>
+	<FlavorTextFR_EggFooYoung.label>egg foo young</FlavorTextFR_EggFooYoung.label>
+	<FlavorTextFR_EggFooYoung.description>une omelette épaisse chargée {1_adj} et de pousses, frite en galette bombée et noyée d'une sauce brune {2_adj}. Née dans les cuisines sino-américaines, et jamais rentrée en Chine.</FlavorTextFR_EggFooYoung.description>
+	<FlavorTextFR_CarpaccioDeBoeuf.label>carpaccio de bœuf</FlavorTextFR_CarpaccioDeBoeuf.label>
+	<FlavorTextFR_CarpaccioDeBoeuf.description>{0_coll} raidie au froid puis tranchée à la limite du transparent, arrosée d'huile et {2_adj}, couverte de copeaux {1_adj}. Inventé à Venise pour une comtesse à qui l'on avait interdit la viande cuite.</FlavorTextFR_CarpaccioDeBoeuf.description>
+	<FlavorTextFR_Sashimi.label>sashimi</FlavorTextFR_Sashimi.label>
+	<FlavorTextFR_Sashimi.description>{0_coll} crue tranchée d'un seul geste tiré, jamais scié, sur un lit de radis en fils. Le couteau et l'angle de coupe font tout le plat ; il n'y a rien d'autre à faire.</FlavorTextFR_Sashimi.description>
+	<FlavorTextFR_Crudo.label>crudo</FlavorTextFR_Crudo.label>
+	<FlavorTextFR_Crudo.description>{0_coll} crue en fines lamelles, huile {1_adj}, sel en flocons et zeste {2_adj}. La version italienne du poisson cru : pas de marinade, juste un assaisonnement au dernier moment.</FlavorTextFR_Crudo.description>
+	<FlavorTextFR_Tiradito.label>tiradito</FlavorTextFR_Tiradito.label>
+	<FlavorTextFR_Tiradito.description>{0_coll} tranchée à la japonaise mais assaisonnée à la péruvienne : une sauce {1_adj} jaune et {2_adj} versée juste avant de servir, sans oignon ni macération.</FlavorTextFR_Tiradito.description>
+	<FlavorTextFR_Kitfo.label>kitfo</FlavorTextFR_Kitfo.label>
+	<FlavorTextFR_Kitfo.description>{0_coll} hachée au couteau et travaillée tiède dans un niter kibbeh — beurre clarifié aux épices — avec du mitmita {2_adj}. Servi cru, ou juste tiédi si on le demande « leb leb ».</FlavorTextFR_Kitfo.description>
+	<FlavorTextFR_GoredGored.label>gored gored</FlavorTextFR_GoredGored.label>
+	<FlavorTextFR_GoredGored.description>{0_coll} crue en cubes plutôt que hachée, roulée dans un beurre épicé et l'awaze. Le cousin en morceaux du kitfo, et le test de fraîcheur le plus impitoyable qui soit.</FlavorTextFR_GoredGored.description>
+	<FlavorTextFR_Mett.label>mett</FlavorTextFR_Mett.label>
+	<FlavorTextFR_Mett.description>{0_coll} crue hachée du jour, salée et poivrée, étalée sur du pain avec {1_coll} cru en rondelles. Se vend le matin et ne se garde pas jusqu'au soir.</FlavorTextFR_Mett.description>
+	<FlavorTextFR_Ikura.label>ikura</FlavorTextFR_Ikura.label>
+	<FlavorTextFR_Ikura.description>des œufs {1_adj} détachés de leur poche à l'eau tiède, marinés au soja et au saké, servis en monticule sur du riz ceinturé {2_plur}. Ils éclatent un par un sous la langue.</FlavorTextFR_Ikura.description>
+	<FlavorTextFR_RagoutViandeTordue.label>ragoût de viande tordue</FlavorTextFR_RagoutViandeTordue.label>
+	<FlavorTextFR_RagoutViandeTordue.description>{0_coll} braisée très longuement {1_plur} et {2_plur} : c'est une chair coriace, et rien de plus court ne l'attendrit.</FlavorTextFR_RagoutViandeTordue.description>
+	<FlavorTextFR_RotiViandeTordue.label>rôti de viande tordue</FlavorTextFR_RotiViandeTordue.label>
+	<FlavorTextFR_RotiViandeTordue.description>une pièce {0_adj} bardée {1_plur} et piquée {2_plur}, rôtie à couvert. Elle rend peu de jus et demande d'être arrosée souvent.</FlavorTextFR_RotiViandeTordue.description>
+	<FlavorTextFR_BrochettesViandeTordue.label>brochettes de viande tordue</FlavorTextFR_BrochettesViandeTordue.label>
+	<FlavorTextFR_BrochettesViandeTordue.description>des cubes {0_adj} marinés {1_plur} et {2_plur}, enfilés et grillés à feu vif. La marinade couvre l'essentiel de ce qu'il y a à couvrir.</FlavorTextFR_BrochettesViandeTordue.description>
+	<FlavorTextFR_SaucisseViandeTordue.label>saucisse de viande tordue</FlavorTextFR_SaucisseViandeTordue.label>
+	<FlavorTextFR_SaucisseViandeTordue.description>{0_coll} hachée deux fois, allongée de mie et fortement {2_plur}, embossée puis pochée. Le hachoir règle la question de la texture.</FlavorTextFR_SaucisseViandeTordue.description>
+	<FlavorTextFR_TourteViandeTordue.label>tourte à la viande tordue</FlavorTextFR_TourteViandeTordue.label>
+	<FlavorTextFR_TourteViandeTordue.description>{0_coll} braisée d'avance et enfermée sous une pâte {2_adj}. Ce qui est sous la croûte ne se voit plus, et c'est en partie l'intérêt.</FlavorTextFR_TourteViandeTordue.description>
+	<FlavorTextFR_CurryViandeTordue.label>curry de viande tordue</FlavorTextFR_CurryViandeTordue.label>
+	<FlavorTextFR_CurryViandeTordue.description>{0_coll} mijotée dans un lait {1_adj} et une pâte {2_adj}. Les épices tiennent bien sur cette chair, qui en absorbe plus que la normale.</FlavorTextFR_CurryViandeTordue.description>
+	<FlavorTextFR_JerkyViandeTordue.label>viande tordue séchée</FlavorTextFR_JerkyViandeTordue.label>
+	<FlavorTextFR_JerkyViandeTordue.description>des lanières {0_adj} marinées {2_plur} et {1_plur}, séchées à basse température jusqu'à devenir cassantes. Se garde longtemps, ce qui était la seule question.</FlavorTextFR_JerkyViandeTordue.description>
+	<FlavorTextFR_BoulettesViandeTordue.label>boulettes de viande tordue</FlavorTextFR_BoulettesViandeTordue.label>
+	<FlavorTextFR_BoulettesViandeTordue.description>{0_coll} hachée liée {1_plur}, roulée et finie de cuire dans une sauce {2_adj}. La forme ronde ne rappelle rien de particulier, et c'est voulu.</FlavorTextFR_BoulettesViandeTordue.description>
+	<FlavorTextFR_SoupeViandeTordue.label>soupe de viande tordue</FlavorTextFR_SoupeViandeTordue.label>
+	<FlavorTextFR_SoupeViandeTordue.description>{0_coll} et ses os mis à l'eau froide et montés doucement, avec {1_coll}. On écume beaucoup pendant la première heure.</FlavorTextFR_SoupeViandeTordue.description>
+	<FlavorTextFR_PorcAuSoda.label>porc laqué au soda</FlavorTextFR_PorcAuSoda.label>
+	<FlavorTextFR_PorcAuSoda.description>un jambon cuit lentement dans {0_coll} sucré, dont le sucre caramélise et l'acide attendrit. Une recette de cuisine de bidon, et personne n'a jamais expliqué pourquoi elle fonctionne.</FlavorTextFR_PorcAuSoda.description>
+	<FlavorTextFR_SorbetALaLimonade.label>sorbet à la limonade</FlavorTextFR_SorbetALaLimonade.label>
+	<FlavorTextFR_SorbetALaLimonade.description>{0_coll} turbiné avec {2_coll} pressé et un sirop {1_adj}, jusqu'à une glace granuleuse et mordante. Le plus simple des desserts d'une colonie qui n'a pas de vache.</FlavorTextFR_SorbetALaLimonade.description>
+
+</LanguageData>

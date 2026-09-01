@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Descriptions — lot 01 : repas pour bébé, cuissons au four, pains et tourtes.
+
+  Même convention de slots que les labels (voir Labels_01.xml) :
+    {N_plur} forme « à »  : aux baies / au riz / à la viande de bœuf
+    {N_coll} forme nue    : baies / riz / viande de bœuf
+    {N_sing} singulier    : baie / riz / œuf de poule
+    {N_adj}  forme « de » : de baies / de riz / d'oignon
+
+  Attention : l'anglais emploie {N_adj} comme un vrai adjectif (« {0_adj} flour »)
+  et {N_plur} comme un pluriel nu (« {1_plur} beaten »). En français ces deux formes
+  portent une préposition, donc l'ordre des mots change systématiquement :
+  « farine {0_adj} », et jamais {N_plur} en position de sujet.
+
+  Comme pour les labels, on évite tout accord en genre sur une catégorie fourre-tout :
+  la tête du groupe est un substantif français, l'ingrédient reste complément.
+-->
+<LanguageData>
+
+	<!-- Repas pour bébé -->
+	<FlavorText_Scrambled_Egg_2.description>{0_coll} bien battus et brouillés tout doucement à feu très bas, juste pris. Très faciles à digérer pour un nourrisson.</FlavorText_Scrambled_Egg_2.description>
+	<FlavorText_Ingredients_Ingredients_Mash.description>un petit pot {0_adj} et {1_adj} bien moulinés, pour les nourrissons.</FlavorText_Ingredients_Ingredients_Mash.description>
+	<FlavorText_Ingredients_Ingredients_Mash_2.description>un petit pot {0_adj}, {1_adj} et {2_adj} bien moulinés, pour les nourrissons.</FlavorText_Ingredients_Ingredients_Mash_2.description>
+	<FlavorText_Ingredients_Mash_2.description>un petit pot {0_adj} bien mouliné, pour les nourrissons.</FlavorText_Ingredients_Mash_2.description>
+	<FlavorText_Milk_Bottle.description>un biberon {0_adj} tiède, destiné aux nourrissons.</FlavorText_Milk_Bottle.description>
+	<FlavorText_PlantFoodRaw_Puree.description>une purée bien lisse {0_adj}, passée au tamis pour les nourrissons.</FlavorText_PlantFoodRaw_Puree.description>
+
+	<!-- Pâtisseries et desserts au four -->
+	<FlavorText_FairyBread.description>une friandise de goûter australienne : des vermicelles {2_adj} sur une tranche de pain {1_adj} beurrée.</FlavorText_FairyBread.description>
+	<FlavorText_Ingredients_Muffins.description>de petits gâteaux levés cuits dans une plaque à alvéoles, une par muffin. La pâte mêle une farine {0_adj} à un agent levant — bicarbonate le plus souvent — et {1_coll} pour la richesse.</FlavorText_Ingredients_Muffins.description>
+	<FlavorText_Ingredients_Muffins_2.description>de petits gâteaux levés cuits dans une plaque à alvéoles, une par muffin. La pâte mêle une farine {0_adj} à un agent levant comme le bicarbonate, avec {1_coll} et {2_coll} pour la richesse.</FlavorText_Ingredients_Muffins_2.description>
+	<FlavorText_Spice_SwirlToast.description>un pain de mie {0_adj} pétri {1_plur}. On l'étale en feuille, on le poudre {2_plur}, on le roule et on le laisse lever avant cuisson : à la coupe apparaît une spirale {2_adj}. Celui-ci a été grillé, puis nappé {1_adj}.</FlavorText_Spice_SwirlToast.description>
+	<FlavorText_Beigli.description>une brioche hongroise roulée sur une épaisse spirale {1_adj}, broyée au moulin à main.</FlavorText_Beigli.description>
+	<FlavorText_StarBread.description>un petit pain philippin, dense, reconnaissable à la couronne qui le coiffe. Sa pâte est faite {0_adj} et {1_adj}, et se poudre volontiers de sucre cristallisé.</FlavorText_StarBread.description>
+	<FlavorText_ThreeKingsCake.description>un gâteau servi pour l'Épiphanie, fait d'une pâte à brioche {0_adj} avec {1_coll} et {2_coll}. Une petite figurine y est cachée, et celui qui la trouve dans sa part est roi.</FlavorText_ThreeKingsCake.description>
+	<FlavorText_Ingredients_Pie.description>une tourte à la garniture {0_adj} sucrée, sous une croûte de pâte {1_adj}.</FlavorText_Ingredients_Pie.description>
+	<FlavorText_Ingredients_Tart.description>un fond de pâte sablée laissé à découvert, garni {0_adj} et passé au four.</FlavorText_Ingredients_Tart.description>
+	<FlavorText_BostonBun.description>aussi appelée Sally Lunn, la brioche de Boston vient de l'ancienne Australie et de la Nouvelle-Zélande, et accompagne le thé. La pâte associe {1_coll} et une purée {0_adj} passée au tamis, épicée de coriandre, cannelle, piment de la Jamaïque, gingembre, casse, muscade et girofle, puis couverte d'un épais glaçage {2_adj}.</FlavorText_BostonBun.description>
+
+	<!-- Chaussons, tourtes fourrées, pizzas -->
+	<FlavorText_Ingredients_Empanadas.description>un chausson mexicain, fait d'une farce {0_adj} enfermée dans une pâte au beurre et passée au four.</FlavorText_Ingredients_Empanadas.description>
+	<FlavorText_Ingredients_Paratha.description>une galette feuilletée très répandue en Inde, obtenue en pliant plusieurs fois une pâte {2_adj} avec du beurre clarifié. Celle-ci est fourrée d'une farce {0_adj} épicée.</FlavorText_Ingredients_Paratha.description>
+	<FlavorText_Calzone.description>un grand disque de pâte {2_adj} replié sur une garniture de fromage et {0_adj} en dés, puis cuit à four vif.</FlavorText_Calzone.description>
+	<FlavorText_CornishPasty.description>un chausson britannique traditionnel, garni de bavette {0_adj} et de dés {0_adj}.</FlavorText_CornishPasty.description>
+	<FlavorText_Dairy_Lasagna.description>un plat de pâtes au four venu d'Italie. De très larges bandes de pâte {0_adj} alternent avec une sauce {1_adj} et {2_coll}. Après cuisson, on le découpe en parts individuelles, presque comme un gâteau.</FlavorText_Dairy_Lasagna.description>
+	<FlavorText_Casabe.description>une grande galette très fine, sans levain, faite de racine amère {0_adj}. Les peuples arawak et caraïbe d'Amérique du Sud et des Antilles la préparaient bien avant l'arrivée des Européens.</FlavorText_Casabe.description>
+	<FlavorText_Boyoz.description>une pâtisserie turque née à Izmir, faite d'une farine {0_adj}, d'huile et d'une pâte {1_adj}, imbibée d'huile {1_adj} avant cuisson.</FlavorText_Boyoz.description>
+	<FlavorText_Gozleme.description>une galette turque de farine {0_adj} et de yaourt, fourrée {2_adj} et cuite sur une plaque bombée.</FlavorText_Gozleme.description>
+	<FlavorText_ToastWithJam.description>une tranche de pain {0_adj} grillée des deux côtés, largement tartinée d'une confiture {1_adj}.</FlavorText_ToastWithJam.description>
+	<FlavorText_Pizza.description>un grand disque de pâte {1_adj} couvert d'une sauce {2_adj} et de fromage, cuit brièvement à four très chaud.</FlavorText_Pizza.description>
+	<FlavorText_Bhakri.description>une galette ronde courante au Maharashtra, au Gujarat, au Rajasthan et au Karnataka. Elle se prépare avec une farine {0_adj} grossièrement moulue, et se fait aussi bien molle que cassante.</FlavorText_Bhakri.description>
+	<FlavorText_Lefse.description>une galette norvégienne moelleuse, faite d'une purée {0_adj} passée au presse-purée, de farine {1_adj} et de beurre, de crème, {2_adj} ou de saindoux.</FlavorText_Lefse.description>
+	<FlavorText_RotiWith_Ingredients_Curry.description>un curry épicé {0_adj}, mijoté avec {1_coll}. Une galette indienne de farine {2_adj} l'accompagne, pour saucer.</FlavorText_RotiWith_Ingredients_Curry.description>
+
+	<!-- Plats au four -->
+	<FlavorText_Bulz.description>un plat roumain de polenta {2_adj} et de fromage passés au four. Celui-ci est servi avec une garniture {0_adj} cuite à l'eau.</FlavorText_Bulz.description>
+	<FlavorText_Laplap.description>une pâte obtenue en râpant {0_coll}. On l'enveloppe de feuilles de bananier et on la cuit dans un four de pierres enterré, avec une crème {1_adj} fraîche.</FlavorText_Laplap.description>
+	<FlavorText_BroodjeHagelslag.description>un petit-déjeuner néerlandais : des vermicelles {0_adj} sur une tranche de pain {1_adj} beurrée.</FlavorText_BroodjeHagelslag.description>
+	<FlavorText_PlantFoodRaw_Cornbread.description>d'origine amérindienne, un pain sans levain fait pour l'essentiel de semoule de maïs. Cette version est enrichie {1_adj} en dés.</FlavorText_PlantFoodRaw_Cornbread.description>
+	<FlavorText_Funeral_Potato.description>un gratin {2_adj} en tranches cuites avec du fromage, couvert de pétales de maïs. Popularisé en Amérique, il tire son nom des repas qui suivent les enterrements.</FlavorText_Funeral_Potato.description>
+	<FlavorText_MamaligaInPaturi.description>un plat traditionnel du Maramureș, au nord de la Roumanie : de nombreuses couches de polenta {2_adj} alternées avec de la crème aigre, du beurre, du fromage et {1_coll}.</FlavorText_MamaligaInPaturi.description>
+	<FlavorText_YorkshirePudding.description>un pudding britannique cuit au four, fait d'une farine {2_adj}, {1_adj} et {0_adj}.</FlavorText_YorkshirePudding.description>
+	<FlavorText_MushroomCups.description>de gros {1_coll} dont on a retiré le pied, passés au four avec un {0_sing} entier cassé dans le chapeau.</FlavorText_MushroomCups.description>
+	<FlavorText_Shirred_Egg.description>{0_coll} entiers cassés dans des ramequins et cuits au four.</FlavorText_Shirred_Egg.description>
+
+	<!-- Pains et tartines -->
+	<FlavorText_Grain_Bread.description>une miche toute simple de pâte levée {0_adj}, cuite au four jusqu'à ce qu'une croûte dorée craque sous le doigt. Se sert tiède.</FlavorText_Grain_Bread.description>
+	<FlavorText_Fruit_Bread.description>un pain brioché de farine {0_adj} et {1_adj} râpés, à croûte souple et mie humide.</FlavorText_Fruit_Bread.description>
+	<FlavorText_Avocado_Toast.description>une tranche de pain {0_adj} couverte d'une moitié {1_adj} écrasée à la fourchette. Adorée des hipsters et des gourous du bien-être.</FlavorText_Avocado_Toast.description>
+	<FlavorText_Bean_OnToast.description>un classique britannique : une tranche de pain {0_adj} grillée, couverte {1_adj} en sauce tomate.</FlavorText_Bean_OnToast.description>
+	<FlavorText_Bean_OnToast_2.description>un classique britannique : une tranche de pain {0_adj} grillée, couverte d'une garniture {1_adj} longuement mijotée dans une sauce sucrée {2_adj}.</FlavorText_Bean_OnToast_2.description>
+	<FlavorText_Egg_Benedict.description>un muffin anglais {0_adj} coupé en deux, chaque moitié garnie d'une tranche de bacon et d'un {1_sing} poché, le tout nappé d'une hollandaise montée {1_plur}.</FlavorText_Egg_Benedict.description>
+	<FlavorText_Bagels.description>un pain en anneau à la mie élastique, né dans les communautés juives de Pologne sur la Vieille Terre avant de gagner toute la planète. Une farine {0_adj} fermente au froid douze heures ou plus, la pâte est brièvement pochée dans une eau au sirop de malt, puis cuite. D'où la croûte brune et l'intérieur dense.</FlavorText_Bagels.description>
+	<FlavorText_ButteredToast.description>du pain {0_adj} grillé, nappé de beurre fondu.</FlavorText_ButteredToast.description>
+	<FlavorText_Challah.description>une tresse de pain {0_adj} enrichie {1_adj}. On la sert aux fêtes juives.</FlavorText_Challah.description>
+	<FlavorText_CinnamonRaisinToast.description>du pain {0_adj} cuit avec une spirale de cannelle et de raisins secs, grillé puis nappé de beurre fondu.</FlavorText_CinnamonRaisinToast.description>
+	<FlavorText_DeepDishPizza.description>une pizza reconnaissable au moule à haut bord dans lequel elle cuit, venue de l'antique Chicago. Une pâte {0_adj} presque sablée tapisse le fond et les parois ; on la précuit avant de la remplir de mozzarella râpée et de la couvrir d'une sauce épaisse {2_adj} concassées, au basilic, au thym, à l'ail et à l'origan.</FlavorText_DeepDishPizza.description>
+	<FlavorText_Empado.description>une tourte salée brésilienne, proche du pot pie mais à la garniture plus sèche et à la pâte plus riche. Une garniture {1_adj} effilochée en fait la base, mêlée à beaucoup {2_adj}, dans une pâte grasse à la farine {0_adj}, parfois enrichie d'œufs.</FlavorText_Empado.description>
+	<FlavorText_LaffahBread.description>un pain irakien épais et souple, cuit dans un four d'argile bombé à très haute température. Proche du pita, mais sans poche. Sert à rouler un sandwich ou à saucer le houmous.</FlavorText_LaffahBread.description>
+	<FlavorText_Langos.description>une galette {0_adj} frite à la minute, très répandue en Hongrie, née des chutes de pâte du petit matin. Celle-ci est enrichie {1_adj} dans la pâte, et se mange nature ou frottée d'ail.</FlavorText_Langos.description>
+	<FlavorText_NeopolitanPizza.description>la pizza telle qu'on la fait à Naples : une croûte {0_adj} souple, une sauce {2_adj}, de larges tranches de mozzarella fraîche et des feuilles de basilic.</FlavorText_NeopolitanPizza.description>
+	<FlavorText_NewYorkStylePizza.description>une pizza à pâte fine, née à New York, simplement garnie d'une sauce {2_adj} et de mozzarella râpée. Le bord de la croûte {0_adj} est croustillant, le reste assez souple pour qu'on plie la part en deux et qu'on la mange à la main.</FlavorText_NewYorkStylePizza.description>
+	<FlavorText_PoFrancs.description>un petit pain très répandu dans l'ancien Brésil, fait de la combinaison la plus simple qui soit : farine {0_adj}, eau, levure, sel. Il tient dans la main, accompagne à peu près tout et sert de base au sandwich.</FlavorText_PoFrancs.description>
+	<FlavorText_Pastiera.description>une tarte napolitaine garnie {1_adj} et de ricotta dans une pâte {0_adj}, parfumée à la fleur d'oranger. On la mange à Pâques.</FlavorText_Pastiera.description>
+	<FlavorText_Sourdough_Grain_Bread.description>une miche fraîche de pâte {0_adj} ensemencée d'un levain naturel, d'où son acidité franche.</FlavorText_Sourdough_Grain_Bread.description>
+	<FlavorText_Toast.description>une tranche de pain {0_adj} grillée.</FlavorText_Toast.description>
+	<FlavorText_Tourtire.description>une tourte salée dont les archives situent l'origine au Québec, sur le continent nord-américain terrestre. Elle doit son nom au plat dans lequel on la cuisait. Celle-ci a une croûte {0_adj} et déborde {1_adj}.</FlavorText_Tourtire.description>
+	<FlavorText_Vatrushka.description>une pâtisserie d'Europe de l'Est : un disque de pâte {0_adj} creusé en son centre, garni d'un tvorog crémeux et {2_adj}.</FlavorText_Vatrushka.description>
+
+	<!-- Gratins et cocottes -->
+	<FlavorText_Ingredients_Bake.description>un gratin tout simple {0_adj}, nappé d'un velouté {1_adj} et passé au four jusqu'à ce qu'une croûte dorée se forme.</FlavorText_Ingredients_Bake.description>
+	<FlavorText_Ingredients_Casserole.description>un grand plat {0_adj} et {1_adj}, couvert d'une couche {2_adj} et passé au four.</FlavorText_Ingredients_Casserole.description>
+	<FlavorText_Ingredients_Casserole_3.description>un plat de terre bien rempli {0_adj} et {1_adj}, couvert d'une couche {2_adj} et cuit au four.</FlavorText_Ingredients_Casserole_3.description>
+	<FlavorText_Ingredients_Quiche.description>une tarte française : une croûte de pâte {2_adj} garnie d'un appareil salé et de morceaux {0_adj}.</FlavorText_Ingredients_Quiche.description>
+	<FlavorText_Ingredients_AuGratin.description>de fines couches {0_adj} et {1_adj} rangées dans un plat, couvertes de fromage râpé, puis cuites au four jusqu'à obtenir une croûte craquante.</FlavorText_Ingredients_AuGratin.description>
+	<FlavorText_Baked_Ingredients.description>des parts égales {0_adj} entier, cuites au four jusqu'à caraméliser, salées et poivrées à la sortie.</FlavorText_Baked_Ingredients.description>
+	<FlavorText_Kumpir.description>une spécialité turque : un gros tubercule {1_adj} cuit au four, fendu et garni ici {0_adj}.</FlavorText_Kumpir.description>
+	<FlavorText_PommesBoulangere.description>un plat de tranches {2_adj} et {1_adj}, cuites lentement au four dans un bouillon {0_adj}. Le dessous est fondant et beurré, le dessus léger et croustillant.</FlavorText_PommesBoulangere.description>
+
+	<!-- Plats de viande et de poisson au four -->
+	<FlavorText_Meat_Cow_Wellington.description>un plat d'origine anglaise : un filet {0_adj} enrobé de foie et {2_adj}, enfermé dans une pâte feuilletée.</FlavorText_Meat_Cow_Wellington.description>
+	<FlavorText_Eggplant_Moussaka.description>un plat proche des lasagnes : {2_coll} en couches alternées avec {0_coll} hachée. Courant dans les Balkans et au Proche-Orient, avec beaucoup de variantes.</FlavorText_Eggplant_Moussaka.description>
+	<FlavorText_JanssonsFrestelse.description>un gratin suédois traditionnel fait {2_adj}, {1_adj}, {0_adj} en saumure, de chapelure et de crème.</FlavorText_JanssonsFrestelse.description>
+	<FlavorText_BiscuitsAndGravy.description>des scones {2_adj} nappés d'une sauce blanche montée avec une chair à saucisse {0_adj}, de la graisse de bacon et du lait.</FlavorText_BiscuitsAndGravy.description>
+	<FlavorText_RappiePie.description>un gratin canadien fait pour l'essentiel {1_adj} râpés puis essorés dans un linge pour en chasser l'eau. On détend cette râpure avec le bouillon de cuisson {0_adj}, on la range dans un plat, on la couvre {0_adj} cuite, puis d'une nouvelle couche de râpure {1_adj}.</FlavorText_RappiePie.description>
+	<FlavorText_Meat_Seafood_SushiBake.description>un dérivé du maki japonais : on étale {2_coll} vinaigré et sucré au fond d'un plat, puis une couche {1_adj} effilochée et des morceaux {0_adj}. Le tout est nappé d'une sauce — mayonnaise au sriracha, le plus souvent — et passé au four.</FlavorText_Meat_Seafood_SushiBake.description>
+	<FlavorText_MeatRaw_ShepherdsPie.description>{0_coll} recouverte d'une purée {2_adj} et gratinée au four comme une tourte.</FlavorText_MeatRaw_ShepherdsPie.description>
+
+	<!-- Légumes au four -->
+	<FlavorText_Glazed_PlantFoodRaw.description>des quartiers {0_adj} passés au four sous un glaçage {1_adj}.</FlavorText_Glazed_PlantFoodRaw.description>
+	<FlavorText_Baked_Potato.description>des tubercules {0_adj} cuits entiers dans leur peau, fendus en deux et poudrés d'épices.</FlavorText_Baked_Potato.description>
+	<FlavorText_Tombet.description>un plat de légumes traditionnel de Majorque : des couches {0_adj}, {1_adj} et {2_adj} en tranches, préalablement frites à l'huile d'olive.</FlavorText_Tombet.description>
+	<FlavorText_Spice_Bread.description>une belle miche de pain au levain {0_adj}, nappée d'un beurre qu'on a fait fondre doucement {2_plur} et à d'autres épices.</FlavorText_Spice_Bread.description>
+
+</LanguageData>

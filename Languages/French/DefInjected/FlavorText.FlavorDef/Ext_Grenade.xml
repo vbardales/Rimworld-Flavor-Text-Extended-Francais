@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Grenade.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Fesenjan.label>fesenjan</FlavorTextFR_Fesenjan.label>
+	<FlavorTextFR_Fesenjan.description>{1_coll} broyées si finement qu'elles rendent leur huile, mijotées des heures {0_plur} jusqu'à ce que la sauce devienne presque noire. {2_coll} y cuit lentement. Le plat le plus ancien encore servi de la table persane.</FlavorTextFR_Fesenjan.description>
+	<FlavorTextFR_AsheAnar.label>ash-e anar</FlavorTextFR_AsheAnar.label>
+	<FlavorTextFR_AsheAnar.description>une soupe épaisse d'herbes hachées, {1_coll} et {2_coll}, acidulée au jus {0_adj} et parsemée de graines fraîches. Se prépare pour la nuit du solstice d'hiver.</FlavorTextFR_AsheAnar.description>
+	<FlavorTextFR_AnarBij.label>anar bij</FlavorTextFR_AnarBij.label>
+	<FlavorTextFR_AnarBij.description>{2_coll} longuement fondus, le jus {0_adj} versé dessus et réduit, puis {1_coll} cassés dedans et brouillés à peine. Un plat du nord de l'Iran, mangé au petit-déjeuner.</FlavorTextFR_AnarBij.description>
+	<FlavorTextFR_JeweledRice.label>riz aux joyaux</FlavorTextFR_JeweledRice.label>
+	<FlavorTextFR_JeweledRice.description>{1_coll} safrané monté en dôme, incrusté de graines {0_adj}, {2_adj} et d'écorces d'orange confites. Se prépare pour les mariages, et le nom n'est pas une image.</FlavorTextFR_JeweledRice.description>
+	<FlavorTextFR_MelasseDeGrenade.label>mélasse de grenade</FlavorTextFR_MelasseDeGrenade.label>
+	<FlavorTextFR_MelasseDeGrenade.description>le jus {0_adj} réduit des heures jusqu'au dixième de son volume, épais, noir et franchement acide. Dibs rumman en arabe, nar ekşisi en turc : le citron du Levant.</FlavorTextFR_MelasseDeGrenade.description>
+	<FlavorTextFR_Narsharab.label>narsharab</FlavorTextFR_Narsharab.label>
+	<FlavorTextFR_Narsharab.description>la mélasse azérie, montée {2_plur} et parfumée à la cannelle, au clou et au laurier. Se sert avec le poisson d'esturgeon grillé, et rien d'autre ne la remplace.</FlavorTextFR_Narsharab.description>
+	<FlavorTextFR_NarQovurma.label>nar qovurma</FlavorTextFR_NarQovurma.label>
+	<FlavorTextFR_NarQovurma.description>{1_coll} saisie puis mijotée {2_plur} dans le jus {0_adj}, qui l'attendrit et la teinte. Un plat de fête azerbaïdjanais, servi dans son plat de cuivre.</FlavorTextFR_NarQovurma.description>
+	<FlavorTextFR_BadrijaniGrenade.label>badrijani nigvzit à la grenade</FlavorTextFR_BadrijaniGrenade.label>
+	<FlavorTextFR_BadrijaniGrenade.description>des lanières {1_adj} frites, roulées sur une pâte {2_adj} à l'ail et au fenugrec bleu, semées de graines {0_adj}. Le rouge sur le violet : les Géorgiens y tiennent autant qu'au goût.</FlavorTextFR_BadrijaniGrenade.description>
+	<FlavorTextFR_SaladeGrenadeNoix.label>salade de grenade aux noix</FlavorTextFR_SaladeGrenadeNoix.label>
+	<FlavorTextFR_SaladeGrenadeNoix.description>des graines {0_adj}, {1_coll} concassées et {2_coll} rouge finement émincé, avec une masse d'herbes fraîches. Arménienne, et servie à toutes les tables de la région.</FlavorTextFR_SaladeGrenadeNoix.description>
+	<FlavorTextFR_FattoushGrenade.label>fattoush à la grenade</FlavorTextFR_FattoushGrenade.label>
+	<FlavorTextFR_FattoushGrenade.description>du pain plat frit et brisé, {2_coll} et des herbes, avec une vinaigrette au sumac et à la mélasse {0_adj}. Le pain doit encore craquer à l'arrivée en table.</FlavorTextFR_FattoushGrenade.description>
+	<FlavorTextFR_GavurdagiSalatasi.label>gavurdağı salatası</FlavorTextFR_GavurdagiSalatasi.label>
+	<FlavorTextFR_GavurdagiSalatasi.description>{1_coll} et oignon taillés très petit et réguliers, {2_coll} concassées, le tout lié à la mélasse {0_adj} et à l'huile. La taille des dés fait la réputation du cuisinier.</FlavorTextFR_GavurdagiSalatasi.description>
+	<FlavorTextFR_KisirGrenade.label>kısır à la grenade</FlavorTextFR_KisirGrenade.label>
+	<FlavorTextFR_KisirGrenade.description>du boulgour fin gonflé à l'eau chaude et travaillé à la main avec du concentré {2_adj}, du piment doux et la mélasse {0_adj}. Se sert dans des feuilles de laitue.</FlavorTextFR_KisirGrenade.description>
+	<FlavorTextFR_AuberginesTahiniGrenade.label>aubergines au tahini et à la grenade</FlavorTextFR_AuberginesTahiniGrenade.label>
+	<FlavorTextFR_AuberginesTahiniGrenade.description>{1_coll} rôties entières jusqu'à s'affaisser, ouvertes et nappées d'une crème {2_adj} au citron, semées de graines {0_adj} crues.</FlavorTextFR_AuberginesTahiniGrenade.description>
+	<FlavorTextFR_PoisChichesGrenade.label>pois chiches à la grenade</FlavorTextFR_PoisChichesGrenade.label>
+	<FlavorTextFR_PoisChichesGrenade.description>{1_coll} rôtis jusqu'à croustiller, servis sur une crème {2_adj} et arrosés de mélasse {0_adj}. Le sucré-acide contre l'amertume du sésame.</FlavorTextFR_PoisChichesGrenade.description>
+	<FlavorTextFR_SaladeFetaGrenade.label>salade de feta à la grenade</FlavorTextFR_SaladeFetaGrenade.label>
+	<FlavorTextFR_SaladeFetaGrenade.description>{2_coll} poivrées, {1_coll} en gros éclats et une pluie de graines {0_adj}, avec de l'huile et du sumac. Les graines craquent, le fromage sale, les feuilles amèrent.</FlavorTextFR_SaladeFetaGrenade.description>
+	<FlavorTextFR_PouletMelasseGrenade.label>poulet à la mélasse de grenade</FlavorTextFR_PouletMelasseGrenade.label>
+	<FlavorTextFR_PouletMelasseGrenade.description>{1_coll} laquée d'un mélange de mélasse {0_adj} et {2_adj}, rôtie jusqu'à ce que la peau devienne acajou. Le glaçage est passé trois fois pendant la cuisson.</FlavorTextFR_PouletMelasseGrenade.description>
+	<FlavorTextFR_TajineAgneauGrenade.label>tajine d'agneau à la grenade</FlavorTextFR_TajineAgneauGrenade.label>
+	<FlavorTextFR_TajineAgneauGrenade.description>{1_coll} mijotée au safran et à la cannelle, la sauce acidulée au jus {0_adj} et les graines fraîches semées au moment de servir seulement — cuites, elles perdent tout.</FlavorTextFR_TajineAgneauGrenade.description>
+	<FlavorTextFR_AnardanaChutney.label>anardana chutney</FlavorTextFR_AnardanaChutney.label>
+	<FlavorTextFR_AnardanaChutney.description>des graines {0_adj} sauvage séchées et moulues, broyées {1_plur} verts et à la coriandre. L'anardana remplace le tamarin dans tout le nord de l'Inde.</FlavorTextFR_AnardanaChutney.description>
+	<FlavorTextFR_AnardanaChicken.label>anardana chicken</FlavorTextFR_AnardanaChicken.label>
+	<FlavorTextFR_AnardanaChicken.description>{1_coll} marinée aux graines {0_adj} moulues, qui attendrissent la chair par leur acidité, puis mijotée aux épices sèches sans tomate ni yaourt.</FlavorTextFR_AnardanaChicken.description>
+	<FlavorTextFR_RaitaGrenade.label>raïta à la grenade</FlavorTextFR_RaitaGrenade.label>
+	<FlavorTextFR_RaitaGrenade.description>{1_coll} battu avec {2_coll} râpés et du cumin torréfié, semé de graines {0_adj} entières qui éclatent sous la dent.</FlavorTextFR_RaitaGrenade.description>
+	<FlavorTextFR_SaumonGlaceGrenade.label>saumon glacé à la grenade</FlavorTextFR_SaumonGlaceGrenade.label>
+	<FlavorTextFR_SaumonGlaceGrenade.description>{1_coll} rôtie côté peau et laquée d'une réduction {0_adj} sucrée, appliquée les deux dernières minutes pour ne pas brûler.</FlavorTextFR_SaumonGlaceGrenade.description>
+	<FlavorTextFR_ConfitureDeGrenade.label>confiture de grenade</FlavorTextFR_ConfitureDeGrenade.label>
+	<FlavorTextFR_ConfitureDeGrenade.description>les graines {0_adj} cuites {1_plur} avec un peu {2_adj} râpée, dont la pectine fait prendre une gelée que le fruit seul ne donnerait jamais.</FlavorTextFR_ConfitureDeGrenade.description>
+	<FlavorTextFR_SorbetGrenade.label>sorbet à la grenade</FlavorTextFR_SorbetGrenade.label>
+	<FlavorTextFR_SorbetGrenade.description>le jus {0_adj} pressé à la main, sucré et relevé {2_plur}, turbiné sans une goutte de lait. La couleur est celle du fruit, et elle ne pardonne aucune dilution.</FlavorTextFR_SorbetGrenade.description>
+	<FlavorTextFR_GelatoMelagrana.label>gelato alla melagrana</FlavorTextFR_GelatoMelagrana.label>
+	<FlavorTextFR_GelatoMelagrana.description>une base {1_adj} peu foisonnée où le jus {0_adj} donne un rose soutenu, avec quelques graines entières laissées dedans pour le croquant.</FlavorTextFR_GelatoMelagrana.description>
+	<FlavorTextFR_CheesecakeGrenade.label>cheesecake à la grenade</FlavorTextFR_CheesecakeGrenade.label>
+	<FlavorTextFR_CheesecakeGrenade.description>un appareil {1_adj} et {2_adj} sous un miroir {0_adj} constellé de graines entières. L'acidité du fruit tranche le gras mieux que le citron.</FlavorTextFR_CheesecakeGrenade.description>
+	<FlavorTextFR_PavlovaGrenade.label>pavlova à la grenade</FlavorTextFR_PavlovaGrenade.label>
+	<FlavorTextFR_PavlovaGrenade.description>une meringue {1_adj} craquante et guimauve, {2_coll} fouettée à peine sucrée, et une poignée de graines {0_adj} jetées dessus. Rouge sur blanc, et rien à ajouter.</FlavorTextFR_PavlovaGrenade.description>
+
+</LanguageData>

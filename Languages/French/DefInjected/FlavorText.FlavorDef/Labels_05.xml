@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 05 : raviolis vapeur, grillades, plats de tous les jours.
+-->
+<LanguageData>
+
+	<!-- Bouchées vapeur et rouleaux -->
+	<FlavorText_Shumai.label>shumai</FlavorText_Shumai.label>
+	<FlavorText_Meat_Seafood_Sushi.label>sushi {0_adj}</FlavorText_Meat_Seafood_Sushi.label>
+	<FlavorText_MeatRaw_Lumpia.label>lumpia {0_plur}</FlavorText_MeatRaw_Lumpia.label>
+	<FlavorText_MeatRaw_Sarma.label>sarma {0_plur}</FlavorText_MeatRaw_Sarma.label>
+	<FlavorText_MeatRaw_Wontons.label>wontons {0_plur}</FlavorText_MeatRaw_Wontons.label>
+	<FlavorText_Tsampa.label>tsampa</FlavorText_Tsampa.label>
+	<FlavorText_PlantFoodRaw_SpringRolls.label>rouleaux de printemps {1_plur}</FlavorText_PlantFoodRaw_SpringRolls.label>
+	<FlavorText_Rice_Balls.label>boulettes {0_adj}</FlavorText_Rice_Balls.label>
+	<FlavorText_Bean_Mochi.label>mochi {2_plur}</FlavorText_Bean_Mochi.label>
+	<FlavorText_Dango.label>dango</FlavorText_Dango.label>
+	<FlavorText_Dolma.label>dolma</FlavorText_Dolma.label>
+	<FlavorText_Dolma_2.label>dolma</FlavorText_Dolma_2.label>
+	<FlavorText_Dosa.label>dosa</FlavorText_Dosa.label>
+	<FlavorText_Idli.label>idli</FlavorText_Idli.label>
+	<FlavorText_Jeungpyeon.label>jeungpyeon</FlavorText_Jeungpyeon.label>
+	<FlavorText_Tteok.label>tteok</FlavorText_Tteok.label>
+	<FlavorText_SarimsakliKofte.label>sarımsaklı köfte</FlavorText_SarimsakliKofte.label>
+
+	<!-- Grillades -->
+	<FlavorText_Currywurst.label>currywurst</FlavorText_Currywurst.label>
+	<FlavorText_Kastane.label>kastane</FlavorText_Kastane.label>
+	<FlavorText_CigKofte.label>çiğ köfte</FlavorText_CigKofte.label>
+	<FlavorText_Misir.label>mısır</FlavorText_Misir.label>
+	<FlavorText_Elote.label>elote</FlavorText_Elote.label>
+	<FlavorText_Ingredients_Roast.label>rôti {0_adj}</FlavorText_Ingredients_Roast.label>
+	<FlavorText_MeatRaw_KoreanBBQ.label>barbecue coréen {2_plur}</FlavorText_MeatRaw_KoreanBBQ.label>
+	<FlavorText_Barbecued_Ingredients.label>{0_coll} au barbecue</FlavorText_Barbecued_Ingredients.label>
+	<FlavorText_Roasted_Ingredients_And_Ingredients.label>rôti {0_adj} et {1_adj}</FlavorText_Roasted_Ingredients_And_Ingredients.label>
+	<FlavorText_Cevapi.label>ćevapi</FlavorText_Cevapi.label>
+	<FlavorText_HamburgerSteak.label>steak haché</FlavorText_HamburgerSteak.label>
+	<FlavorText_JapaneseHamburgerSteak.label>steak haché à la japonaise</FlavorText_JapaneseHamburgerSteak.label>
+	<FlavorText_SalisburySteak.label>steak Salisbury</FlavorText_SalisburySteak.label>
+	<FlavorText_Steak.label>steak</FlavorText_Steak.label>
+	<FlavorText_Bulgogi.label>bulgogi</FlavorText_Bulgogi.label>
+	<FlavorText_Pastirma.label>pastırma</FlavorText_Pastirma.label>
+	<FlavorText_TurkishKofte.label>köfte turc</FlavorText_TurkishKofte.label>
+	<FlavorText_Meat_Insect_EggsOnAStick.label>œufs {0_adj} en brochette</FlavorText_Meat_Insect_EggsOnAStick.label>
+	<FlavorText_GrubsOnAStick.label>larves en brochette</FlavorText_GrubsOnAStick.label>
+	<FlavorText_Bacon.label>bacon</FlavorText_Bacon.label>
+	<FlavorText_Meat_Pig_Chorizo.label>chorizo {0_adj}</FlavorText_Meat_Pig_Chorizo.label>
+	<FlavorText_Buldak.label>buldak</FlavorText_Buldak.label>
+	<FlavorText_Yakitori.label>yakitori</FlavorText_Yakitori.label>
+	<!-- « au gril » et « au fumoir » plutôt que « grillée » / « fumée » : les viandes
+	     moddées peuvent échapper à nos inflexions, l'invariable est plus sûr ici. -->
+	<FlavorText_Grilled_Meat_Seafood.label>{0_coll} au gril</FlavorText_Grilled_Meat_Seafood.label>
+	<FlavorText_Smoked_Meat_Seafood.label>{0_coll} au fumoir</FlavorText_Smoked_Meat_Seafood.label>
+	<FlavorText_MeatRaw_Vegetable_ShishKebab.label>brochettes {0_adj} et {1_adj}</FlavorText_MeatRaw_Vegetable_ShishKebab.label>
+	<FlavorText_Barbecued_MeatRaw.label>{0_coll} au barbecue</FlavorText_Barbecued_MeatRaw.label>
+	<FlavorText_Jerk_MeatRaw.label>{0_coll} à la jamaïcaine</FlavorText_Jerk_MeatRaw.label>
+	<FlavorText_PullusFusilis.label>pullus fusilis</FlavorText_PullusFusilis.label>
+	<FlavorText_Teriyaki_MeatRaw.label>{0_coll} teriyaki</FlavorText_Teriyaki_MeatRaw.label>
+
+	<!-- Ordinaires -->
+	<FlavorText_MudCookies.label>galettes de terre</FlavorText_MudCookies.label>
+	<FlavorText_Soft-Boiled_Egg.label>{0_coll} à la coque</FlavorText_Soft-Boiled_Egg.label>
+	<FlavorText_FondantPotatoes.label>pommes fondantes</FlavorText_FondantPotatoes.label>
+	<FlavorText_FondantPotatoes_2.label>pommes fondantes</FlavorText_FondantPotatoes_2.label>
+	<FlavorText_Meat_Poultry_AndWaffles.label>{0_coll} et gaufres</FlavorText_Meat_Poultry_AndWaffles.label>
+	<FlavorText_PlateLunch.label>plate lunch</FlavorText_PlateLunch.label>
+	<FlavorText_PlateLunch_2.label>plate lunch</FlavorText_PlateLunch_2.label>
+	<FlavorText_Crepes.label>crêpes</FlavorText_Crepes.label>
+	<FlavorText_MeatRaw_MeatRaw_Sausage.label>saucisse {0_adj} et {1_adj}</FlavorText_MeatRaw_MeatRaw_Sausage.label>
+	<FlavorText_MeatRaw_PotRoast.label>braisé {0_adj} en cocotte</FlavorText_MeatRaw_PotRoast.label>
+	<FlavorText_MeatRaw_Sausage.label>saucisse {0_adj}</FlavorText_MeatRaw_Sausage.label>
+	<FlavorText_MeatRaw_Stuffed_Fungus.label>{2_coll} farcis {0_adj}</FlavorText_MeatRaw_Stuffed_Fungus.label>
+	<FlavorText_MeatRaw_MeatRaw_SausageWithGravy.label>saucisse {1_adj} et {0_adj} en sauce</FlavorText_MeatRaw_MeatRaw_SausageWithGravy.label>
+	<FlavorText_MeatRaw_MeatRaw_SummerSausage.label>saucisson {1_adj} et {0_adj}</FlavorText_MeatRaw_MeatRaw_SummerSausage.label>
+	<FlavorText_GarbagePlate_2.label>assiette poubelle</FlavorText_GarbagePlate_2.label>
+	<FlavorText_GarbagePlate.label>assiette poubelle</FlavorText_GarbagePlate.label>
+	<FlavorText_Pickles.label>pickles</FlavorText_Pickles.label>
+	<FlavorText_Vegetable_Achar.label>achar {0_adj}</FlavorText_Vegetable_Achar.label>
+	<FlavorText_BreakfastBurrito.label>burrito du matin</FlavorText_BreakfastBurrito.label>
+	<FlavorText_Musakhan.label>musakhan</FlavorText_Musakhan.label>
+	<FlavorText_ChipsWithGuacamole.label>chips et guacamole</FlavorText_ChipsWithGuacamole.label>
+	<FlavorText_Guacamole.label>guacamole</FlavorText_Guacamole.label>
+	<!-- L'anglais écrivait {1-sing} au lieu de {1_sing} : placeholder mort. Corrigé ici. -->
+	<FlavorText_SugarFromAnimals-Sing-Glazed_Fungus.label>{0_coll} glacés {1_plur}</FlavorText_SugarFromAnimals-Sing-Glazed_Fungus.label>
+	<FlavorText_AnimalProductRaw_Cups.label>cassolettes {0_adj}</FlavorText_AnimalProductRaw_Cups.label>
+	<FlavorText_AnimalProductRaw_Pate.label>pâté {0_adj}</FlavorText_AnimalProductRaw_Pate.label>
+	<FlavorText_BoxtyWith_PlantFoodRaw.label>boxty {1_plur}</FlavorText_BoxtyWith_PlantFoodRaw.label>
+	<FlavorText_Alloco.label>alloco</FlavorText_Alloco.label>
+	<FlavorText_MoinMoin.label>moin moin</FlavorText_MoinMoin.label>
+	<FlavorText_MoinMoin_2.label>moin moin</FlavorText_MoinMoin_2.label>
+	<FlavorText_Coleslaw.label>salade de chou</FlavorText_Coleslaw.label>
+	<FlavorText_Kimchi.label>kimchi</FlavorText_Kimchi.label>
+	<FlavorText_Hutspot.label>hutspot</FlavorText_Hutspot.label>
+	<FlavorText_Vegetable_WithHummus.label>{1_coll} et houmous</FlavorText_Vegetable_WithHummus.label>
+
+</LanguageData>

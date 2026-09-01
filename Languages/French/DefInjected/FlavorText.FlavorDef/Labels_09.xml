@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Noms de plats — lot 09 : salades, sandwichs, en-cas.
+-->
+<LanguageData>
+
+	<!-- Salades -->
+	<FlavorText_Ingredients_Salad.label>salade {0_adj}</FlavorText_Ingredients_Salad.label>
+	<FlavorText_Ingredients_Salad_2.label>salade {0_adj}</FlavorText_Ingredients_Salad_2.label>
+	<FlavorText_Ingredients_Szalot.label>szalot {1_plur}</FlavorText_Ingredients_Szalot.label>
+	<FlavorText_Fleischsalat.label>fleischsalat</FlavorText_Fleischsalat.label>
+	<FlavorText_NourishBowl.label>bol nourrissant</FlavorText_NourishBowl.label>
+	<FlavorText_Pickled_Ingredients.label>{0_coll} au vinaigre</FlavorText_Pickled_Ingredients.label>
+	<FlavorText_Kelp_Salad.label>salade {0_adj}</FlavorText_Kelp_Salad.label>
+	<FlavorText_Esqueixada.label>esqueixada</FlavorText_Esqueixada.label>
+	<FlavorText_MeatRaw_Salad.label>salade {0_adj}</FlavorText_MeatRaw_Salad.label>
+	<FlavorText_CandleSalad.label>salade chandelle</FlavorText_CandleSalad.label>
+	<FlavorText_PlantFoodRaw_Salad.label>salade {0_adj}</FlavorText_PlantFoodRaw_Salad.label>
+	<FlavorText_Sweet_Corn_Salad.label>salade sucrée {2_adj}</FlavorText_Sweet_Corn_Salad.label>
+	<FlavorText_Sweet_Fungus_Salad.label>salade sucrée {2_adj}</FlavorText_Sweet_Fungus_Salad.label>
+	<FlavorText_FarmersSalad.label>salade du fermier</FlavorText_FarmersSalad.label>
+	<FlavorText_Kisir.label>kısır</FlavorText_Kisir.label>
+
+	<!-- Sandwichs chauds -->
+	<FlavorText_Lahmacun.label>lahmacun</FlavorText_Lahmacun.label>
+	<FlavorText_Ingredients_Pide.label>pide {1_plur}</FlavorText_Ingredients_Pide.label>
+	<FlavorText_GrilledCheese.label>sandwich grillé au fromage</FlavorText_GrilledCheese.label>
+	<FlavorText_VadaPav.label>vada pav</FlavorText_VadaPav.label>
+	<FlavorText_BatataVada.label>batata vada</FlavorText_BatataVada.label>
+	<FlavorText_DonutBurger.label>burger au donut</FlavorText_DonutBurger.label>
+	<FlavorText_Durum.label>dürüm</FlavorText_Durum.label>
+	<FlavorText_IslakBurger.label>ıslak burger</FlavorText_IslakBurger.label>
+	<FlavorText_Fungus_Burger.label>burger {1_plur}</FlavorText_Fungus_Burger.label>
+	<FlavorText_Soy_Wrap.label>wrap {1_plur}</FlavorText_Soy_Wrap.label>
+	<FlavorText_BalikEkmek.label>balık ekmek</FlavorText_BalikEkmek.label>
+	<FlavorText_KofteEkmek.label>köfte ekmek</FlavorText_KofteEkmek.label>
+	<FlavorText_Kokorec.label>kokoreç</FlavorText_Kokorec.label>
+	<FlavorText_DonerKebab.label>döner kebab</FlavorText_DonerKebab.label>
+	<FlavorText_Yakisoba-Pan.label>yakisoba-pan</FlavorText_Yakisoba-Pan.label>
+	<FlavorText_Yakisoba-Pan_2.label>yakisoba-pan</FlavorText_Yakisoba-Pan_2.label>
+	<FlavorText_Kumru.label>kumru</FlavorText_Kumru.label>
+
+	<!-- Sandwichs froids -->
+	<FlavorText_MarmaladeSandwich.label>sandwich à la marmelade</FlavorText_MarmaladeSandwich.label>
+	<FlavorText_Taquitos.label>taquitos</FlavorText_Taquitos.label>
+	<FlavorText_HuitlacocheQuesadillas.label>quesadillas au huitlacoche</FlavorText_HuitlacocheQuesadillas.label>
+	<FlavorText_Egg_SaladSandwich.label>sandwich {0_plur} en salade</FlavorText_Egg_SaladSandwich.label>
+	<FlavorText_Egg_SaladSandwich_2.label>sandwich {0_plur} en salade</FlavorText_Egg_SaladSandwich_2.label>
+	<FlavorText_FrenchToast.label>pain perdu</FlavorText_FrenchToast.label>
+	<FlavorText_Nut_ButterAndJellySandwich.label>sandwich au beurre {1_adj} et à la confiture</FlavorText_Nut_ButterAndJellySandwich.label>
+	<FlavorText_Nut_ButterSandwich.label>sandwich au beurre {1_adj}</FlavorText_Nut_ButterSandwich.label>
+	<FlavorText_BanhMi.label>bánh mì</FlavorText_BanhMi.label>
+	<FlavorText_CurriedEggSandwich.label>sandwich aux œufs au curry</FlavorText_CurriedEggSandwich.label>
+	<FlavorText_GoldenSops.label>mouillettes dorées</FlavorText_GoldenSops.label>
+	<FlavorText_SloppyJoe.label>sloppy Joe</FlavorText_SloppyJoe.label>
+	<FlavorText_Sphatlhou.label>sphatlho</FlavorText_Sphatlhou.label>
+	<FlavorText_Tantuni.label>tantuni</FlavorText_Tantuni.label>
+	<FlavorText_Ingredients_Burger.label>burger {0_plur}</FlavorText_Ingredients_Burger.label>
+	<FlavorText_Ingredients_Burger_2.label>burger {0_plur}</FlavorText_Ingredients_Burger_2.label>
+	<FlavorText_Ingredients_Rolls.label>roulés {0_plur}</FlavorText_Ingredients_Rolls.label>
+	<FlavorText_Ingredients_Tacos.label>tacos {0_plur}</FlavorText_Ingredients_Tacos.label>
+	<FlavorText_Ingredients_Wrap.label>wrap {0_plur}</FlavorText_Ingredients_Wrap.label>
+	<FlavorText_Ingredients_Wrap_2.label>wrap {0_plur}</FlavorText_Ingredients_Wrap_2.label>
+	<FlavorText_MeatRaw_Sandwich.label>sandwich {1_plur}</FlavorText_MeatRaw_Sandwich.label>
+	<FlavorText_Cheese_Sandwich.label>sandwich {1_plur}</FlavorText_Cheese_Sandwich.label>
+	<FlavorText_BreakfastSandwich.label>sandwich du petit-déjeuner</FlavorText_BreakfastSandwich.label>
+	<FlavorText_CheeseSandwich.label>sandwich au fromage</FlavorText_CheeseSandwich.label>
+	<!-- Calembour sur les Beatles dans l'original ; on en prend un autre, plus lisible en français -->
+	<FlavorText_BabyYouCanChiveMyCar.label>Ciboulette, ma jolie</FlavorText_BabyYouCanChiveMyCar.label>
+	<FlavorText_HotDogs.label>hot-dogs</FlavorText_HotDogs.label>
+	<FlavorText_ReubenSandwich.label>sandwich Reuben</FlavorText_ReubenSandwich.label>
+	<FlavorText_MeatRaw_Burritos.label>burritos {0_plur}</FlavorText_MeatRaw_Burritos.label>
+	<FlavorText_MeatRaw_HuitlacocheTacos.label>tacos au huitlacoche {0_plur}</FlavorText_MeatRaw_HuitlacocheTacos.label>
+	<FlavorText_MeatRaw_PicadilloTacos.label>tacos picadillo {0_plur}</FlavorText_MeatRaw_PicadilloTacos.label>
+	<FlavorText_Burger.label>burger</FlavorText_Burger.label>
+	<FlavorText_Croissant_Ingredients_Sandwich.label>croissant garni {2_adj}</FlavorText_Croissant_Ingredients_Sandwich.label>
+	<FlavorText_Flautas.label>flautas</FlavorText_Flautas.label>
+
+	<!-- En-cas -->
+	<FlavorText_Milkshake.label>milkshake</FlavorText_Milkshake.label>
+	<FlavorText_Fruit_Kool-AidPickles.label>cornichons kool-aid {1_plur}</FlavorText_Fruit_Kool-AidPickles.label>
+	<FlavorText_Fruit_CrackSeed.label>crack seed {0_plur}</FlavorText_Fruit_CrackSeed.label>
+	<FlavorText_Fruit_Pops.label>esquimaux {0_plur}</FlavorText_Fruit_Pops.label>
+	<FlavorText_CrackerJacks.label>cracker jacks</FlavorText_CrackerJacks.label>
+	<FlavorText_CottonCandy.label>barbe à papa</FlavorText_CottonCandy.label>
+	<FlavorText_Muhammara.label>mouhammara</FlavorText_Muhammara.label>
+	<FlavorText_MeatRaw_CocktailSausages.label>saucisses cocktail {0_plur}</FlavorText_MeatRaw_CocktailSausages.label>
+	<FlavorText_BuzluBadem.label>buzlu badem</FlavorText_BuzluBadem.label>
+	<FlavorText_BoqueronesEnVinagre.label>boquerones en vinagre</FlavorText_BoqueronesEnVinagre.label>
+	<FlavorText_Harissa.label>harissa</FlavorText_Harissa.label>
+	<FlavorText_DhanaDal.label>dhana dal</FlavorText_DhanaDal.label>
+	<FlavorText_Popcorn.label>popcorn</FlavorText_Popcorn.label>
+	<FlavorText_CheesePoofs.label>soufflés au fromage</FlavorText_CheesePoofs.label>
+	<FlavorText_Nachos.label>nachos</FlavorText_Nachos.label>
+
+</LanguageData>

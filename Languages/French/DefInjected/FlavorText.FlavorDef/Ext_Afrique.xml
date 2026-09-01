@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Afrique.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Thieboudienne.label>thiéboudienne</FlavorTextFR_Thieboudienne.label>
+	<FlavorTextFR_Thieboudienne.description>{0_coll} farcie d'un hachis d'herbes et frite, mijotée {2_plur} avec des légumes, puis {1_coll} cuit dans ce bouillon rouge. Le plat national du Sénégal, et l'ancêtre du jambalaya.</FlavorTextFR_Thieboudienne.description>
+	<FlavorTextFR_Mafe.label>mafé</FlavorTextFR_Mafe.label>
+	<FlavorTextFR_Mafe.description>{1_coll} mijotée dans une pâte {0_adj} détendue au bouillon et {2_plur}, jusqu'à ce que l'huile de l'arachide remonte à la surface. C'est le signe que c'est prêt.</FlavorTextFR_Mafe.description>
+	<FlavorTextFR_Yassa.label>yassa {0_adj}</FlavorTextFR_Yassa.label>
+	<FlavorTextFR_Yassa.description>{0_coll} marinée une nuit {2_plur} puis grillée, servie sous une masse {1_adj} fondus dans leur propre eau. Il faut deux fois plus d'oignons qu'on ne le croit raisonnable.</FlavorTextFR_Yassa.description>
+	<FlavorTextFR_RizJollof.label>riz jollof aux poivrons</FlavorTextFR_RizJollof.label>
+	<FlavorTextFR_RizJollof.description>{0_coll} cuit à l'étouffée dans une base {1_adj} et {2_adj} réduite jusqu'au fond, si bien qu'il prend un léger goût de fumé au contact de la marmite. Le Nigeria et le Ghana s'en disputent la paternité, sans arbitre en vue.</FlavorTextFR_RizJollof.description>
+	<FlavorTextFR_Attieke.label>attiéké</FlavorTextFR_Attieke.label>
+	<FlavorTextFR_Attieke.description>{0_coll} râpé, fermenté, pressé puis cuit à la vapeur en une semoule acidulée, servie {1_plur} braisée et {2_plur} crus au citron.</FlavorTextFR_Attieke.description>
+	<FlavorTextFR_Ndole.label>ndolé</FlavorTextFR_Ndole.label>
+	<FlavorTextFR_Ndole.description>{0_coll} amères bouillies et rincées plusieurs fois pour ôter l'amertume, mêlées à une pâte {1_adj} et {2_plur}. Le plat de fête camerounais.</FlavorTextFR_Ndole.description>
+	<FlavorTextFR_DoroWat.label>doro wat</FlavorTextFR_DoroWat.label>
+	<FlavorTextFR_DoroWat.description>{1_coll} cuits à sec une heure entière avant qu'on ajoute la moindre graisse, puis un mélange {2_adj} et d'épices, et {0_coll}. Un œuf dur entier par convive, incisé pour prendre la sauce.</FlavorTextFR_DoroWat.description>
+	<FlavorTextFR_MisirWat.label>misir wat</FlavorTextFR_MisirWat.label>
+	<FlavorTextFR_MisirWat.description>{0_coll} rouges fondus dans un beurre épicé et un mélange {1_adj}, jusqu'à ne plus former qu'une purée sombre. Se mange sans couverts, pincé dans une galette spongieuse.</FlavorTextFR_MisirWat.description>
+	<FlavorTextFR_ChiliConCarne.label>chili con carne</FlavorTextFR_ChiliConCarne.label>
+	<FlavorTextFR_ChiliConCarne.description>{0_coll} et {1_coll} mijotés des heures dans une purée {2_adj} séchés réhydratés. Au Texas, ajouter les haricots est un sujet de brouille durable.</FlavorTextFR_ChiliConCarne.description>
+	<FlavorTextFR_ClamChowder.label>clam chowder</FlavorTextFR_ClamChowder.label>
+	<FlavorTextFR_ClamChowder.description>{0_coll} ouverte à la vapeur, son eau filtrée et gardée, avec {1_coll} et {2_coll}. Se sert dans une miche creusée, dont on mange les parois à la fin.</FlavorTextFR_ClamChowder.description>
+	<FlavorTextFR_BoudinCajun.label>boudin cajun</FlavorTextFR_BoudinCajun.label>
+	<FlavorTextFR_BoudinCajun.description>{0_coll} et abats cuits puis hachés {1_plur} et {2_plur}, embossés dans un boyau et réchauffés à la vapeur. Se mange en pressant le boyau pour en faire sortir la farce, qu'on ne mâche presque pas.</FlavorTextFR_BoudinCajun.description>
+	<FlavorTextFR_HoppinJohn.label>hoppin' john</FlavorTextFR_HoppinJohn.label>
+	<FlavorTextFR_HoppinJohn.description>{0_coll} et {1_coll} cuits dans une eau parfumée {2_plur} fumée. Se mange le premier jour de l'an : chaque grain compte pour une pièce de l'année à venir.</FlavorTextFR_HoppinJohn.description>
+
+</LanguageData>

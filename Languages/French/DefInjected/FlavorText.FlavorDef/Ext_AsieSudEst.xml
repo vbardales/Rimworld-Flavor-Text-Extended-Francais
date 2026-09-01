@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_AsieSudEst.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_GoiCuon.label>gỏi cuốn</FlavorTextFR_GoiCuon.label>
+	<FlavorTextFR_GoiCuon.description>des galettes {0_adj} trempées une seconde dans l'eau tiède, roulées serré sur {1_coll} et des herbes. On voit le rose à travers la feuille : c'est pour ça qu'on la roule dans ce sens.</FlavorTextFR_GoiCuon.description>
+	<FlavorTextFR_BoBun.label>bo bun</FlavorTextFR_BoBun.label>
+	<FlavorTextFR_BoBun.description>des vermicelles {0_adj} froids sous {1_coll} sautée brûlante, avec des herbes crues et une sauce claire sucrée-salée versée par-dessus. Le chaud et le froid dans le même bol, sans que ce soit un défaut.</FlavorTextFR_BoBun.description>
+	<FlavorTextFR_Nem.label>nem</FlavorTextFR_Nem.label>
+	<FlavorTextFR_Nem.description>des rouleaux fins farcis {1_plur} hachée et {2_plur} noirs réhydratés, frits deux fois. Se mangent enveloppés dans une feuille de salade, avec de la menthe.</FlavorTextFR_Nem.description>
+	<FlavorTextFR_PadThai.label>pad thaï</FlavorTextFR_PadThai.label>
+	<FlavorTextFR_PadThai.description>des nouilles {0_adj} sautées dans un caramel de tamarin, {2_coll} brouillés à l'écart puis rabattus dessus, {1_coll} concassées à la fin. Inventé dans les années trente pour économiser le riz en grain.</FlavorTextFR_PadThai.description>
+	<FlavorTextFR_TomYam.label>tom yam</FlavorTextFR_TomYam.label>
+	<FlavorTextFR_TomYam.description>un bouillon {0_adj} monté sur citronnelle, galanga et feuilles de combava, acidifié {2_plur} hors du feu et brûlé {1_plur}. Les aromates ne se mangent pas ; on les pousse sur le bord.</FlavorTextFR_TomYam.description>
+	<FlavorTextFR_CurryVert.label>curry vert</FlavorTextFR_CurryVert.label>
+	<FlavorTextFR_CurryVert.description>une pâte {2_adj} verts pilée puis frite dans la crème {1_adj} jusqu'à ce que l'huile se sépare et remonte, avec {0_coll}. Le vert est le plus fort des trois currys, malgré sa couleur douce.</FlavorTextFR_CurryVert.description>
+	<FlavorTextFR_Laap.label>laap</FlavorTextFR_Laap.label>
+	<FlavorTextFR_Laap.description>{0_coll} hachée menu, à peine saisie, assaisonnée {2_plur} et de {1_coll} grillé et pilé qui donne du grain et une odeur de noisette. Le plat national du Laos.</FlavorTextFR_Laap.description>
+	<FlavorTextFR_NasiGoreng.label>nasi goreng</FlavorTextFR_NasiGoreng.label>
+	<FlavorTextFR_NasiGoreng.description>{0_coll} sauté dans une pâte {2_adj} et une sauce de soja épaisse et sucrée, coiffé d'un œuf au plat aux bords dentelés de friture.</FlavorTextFR_NasiGoreng.description>
+	<FlavorTextFR_Satay.label>satay</FlavorTextFR_Satay.label>
+	<FlavorTextFR_Satay.description>de fines lanières {0_adj} marinées au curcuma et {2_plur}, grillées sur des braises éventées à la main, servies avec une sauce épaisse {1_adj}.</FlavorTextFR_Satay.description>
+
+</LanguageData>

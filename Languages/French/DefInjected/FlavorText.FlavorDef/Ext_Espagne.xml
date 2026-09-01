@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Traduction française des plats ajoutés par Flavor Text Extended.
+  Généré depuis FlavorDefs_FR_Espagne.xml par _tools/scinder.js — ne pas éditer à la main.
+
+  Ces textes étaient auparavant écrits en dur dans les defs, ce qui les affichait
+  en français quelle que soit la langue du jeu. Ils vivent maintenant ici, et les
+  defs portent l'anglais.
+-->
+<LanguageData>
+
+	<FlavorTextFR_Paella.label>paella</FlavorTextFR_Paella.label>
+	<FlavorTextFR_Paella.description>{0_coll} étalé en couche mince dans une poêle plus large que haute, jamais remué, avec {1_coll} et {2_coll}. La croûte dorée qui attache au fond s'appelle le socarrat et se dispute.</FlavorTextFR_Paella.description>
+	<FlavorTextFR_PanConTomate.label>pan con tomate</FlavorTextFR_PanConTomate.label>
+	<FlavorTextFR_PanConTomate.description>du pain grillé frotté {2_plur} cru puis {1_plur} coupées en deux, jusqu'à ce qu'il ne reste que la peau. Sel, huile, rien d'autre — et pourtant on en fait tout un art à Barcelone.</FlavorTextFR_PanConTomate.description>
+	<FlavorTextFR_PulpoGallega.label>pulpo a la gallega</FlavorTextFR_PulpoGallega.label>
+	<FlavorTextFR_PulpoGallega.description>{0_coll} trempée trois fois dans l'eau bouillante avant d'y rester — sinon la peau s'en va —, coupée aux ciseaux sur des rondelles {1_adj}, huile et paprika fumé.</FlavorTextFR_PulpoGallega.description>
+	<FlavorTextFR_Fabada.label>fabada</FlavorTextFR_Fabada.label>
+	<FlavorTextFR_Fabada.description>de gros haricots blancs mijotés {1_plur} fumée, jamais remués à la cuillère : on secoue la marmite d'un mouvement de poignet pour ne pas les briser.</FlavorTextFR_Fabada.description>
+	<FlavorTextFR_Churros.label>churros</FlavorTextFR_Churros.label>
+	<FlavorTextFR_Churros.description>une pâte {0_adj} poussée à travers une douille étoilée directement dans l'huile — les cannelures évitent qu'ils n'éclatent —, roulés {1_plur} et trempés dans {2_coll} épais.</FlavorTextFR_Churros.description>
+	<FlavorTextFR_PatatasBravas.label>patatas bravas</FlavorTextFR_PatatasBravas.label>
+	<FlavorTextFR_PatatasBravas.description>{0_coll} en cubes irréguliers frites deux fois, noyées d'une sauce {1_adj} et d'une émulsion {2_adj}. Se piquent au cure-dent, debout au bar.</FlavorTextFR_PatatasBravas.description>
+	<FlavorTextFR_Romesco.label>romesco</FlavorTextFR_Romesco.label>
+	<FlavorTextFR_Romesco.description>{0_coll} grillées, {1_coll} rôtis et {2_coll} séchés broyés au mortier avec du pain frit qui lie l'ensemble. Se mange sur des oignons doux cuits sous la cendre, à même la main.</FlavorTextFR_Romesco.description>
+	<FlavorTextFR_Salmorejo.label>salmorejo</FlavorTextFR_Salmorejo.label>
+	<FlavorTextFR_Salmorejo.description>{0_coll} broyés avec de la mie et montés à l'huile jusqu'à devenir une crème orange assez épaisse pour tenir, servie glacée avec {2_coll} durs émiettés. Plus dense que le gaspacho, dont il est le cousin de Cordoue.</FlavorTextFR_Salmorejo.description>
+	<FlavorTextFR_Fideua.label>fideuà</FlavorTextFR_Fideua.label>
+	<FlavorTextFR_Fideua.description>de courtes pâtes creuses grillées à sec puis cuites dans un fumet {1_adj}, qu'elles boivent en se dressant à la verticale. Née d'un mousse qui cachait le riz à son capitaine trop gourmand.</FlavorTextFR_Fideua.description>
+	<FlavorTextFR_Migas.label>migas</FlavorTextFR_Migas.label>
+	<FlavorTextFR_Migas.description>du pain dur humecté la veille, effrité et sauté longuement dans la graisse {1_adj} jusqu'à devenir doré et mobile, servi {2_plur}. Un déjeuner de berger, fait de ce qui restait.</FlavorTextFR_Migas.description>
+
+</LanguageData>
