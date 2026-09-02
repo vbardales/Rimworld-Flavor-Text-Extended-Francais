@@ -1,71 +1,66 @@
 # Attributions
 
-## Mods requis
+## Required mods
 
 **Flavor Text** (hekmo) — [Workshop 3245374432](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)
 **Flavor Text Extended** (nelim)
 
-Ce mod ne contient aucun plat et aucun fichier de ces deux mods. Il n'apporte que
-des textes français et une table de formes grammaticales.
+This mod contains no dish and no file from either of those two mods. All it adds is
+French text and a table of grammatical forms.
 
-## Pourquoi ce mod est séparé
+## Why this is a separate mod
 
-Flavor Text donne quatre formes à chaque ingrédient, et cette table vit dans une
-`Def`, pas dans un fichier de langue. RimWorld ne sait pas injecter de traduction
-dans un champ de type dictionnaire : la chose a été testée en jeu, par position et
-par handle, et les deux formes ont été rejetées — le compteur d'erreurs de
-traduction est passé de 3 à 5, et le plat visé est resté inchangé.
+Flavor Text gives four forms to every ingredient, and that table lives in a `Def`, not
+in a language file. RimWorld cannot inject a translation into a dictionary-typed field:
+this was tested in game, both by position and by handle, and both were rejected — the
+translation error count went from 3 to 5, and the targeted dish was left unchanged.
 
-Remplacer la table suppose donc un `PatchOperationReplace`, et un patch XML n'a
-aucun moyen de se conditionner à la langue du jeu. `Patches/Inflections_FR.xml`
-s'applique donc toujours. Dans une partie en anglais, un plat nommé
-« {0_adj} roast » afficherait « de bœuf roast ».
+Replacing the table therefore requires a `PatchOperationReplace`, and an XML patch has no
+way to gate itself on the game's language. `Patches/Inflections_FR.xml` is thus always
+applied. In an English game, a dish named "{0_adj} roast" would display "de bœuf roast".
 
-Séparer les deux mods est la seule façon de laisser chaque langue intacte.
+Splitting the two mods is the only way to leave each language intact.
 
-## Le remappage des quatre emplacements
+## Remapping the four slots
 
-L'anglais emploie pluriel, collectif, singulier et adjectif. Le quatrième ne peut
-pas être rendu en français : « rôti » s'accorde en genre et en nombre, et une
-substitution de texte ne le sait pas. Les quatre portent donc :
+English uses plural, collective, singular and adjective. The fourth cannot be rendered in
+French: *rôti* agrees in gender and number, and a text substitution does not know that.
+The four therefore carry:
 
-| emplacement | forme française | exemples |
+| slot | French form | examples |
 |---|---|---|
-| `{N_plur}` | forme « à » | aux baies, au riz, à la viande de bœuf |
-| `{N_coll}` | forme nue | baies, riz, viande de bœuf |
-| `{N_sing}` | singulier | baie, riz, œuf de poule |
-| `{N_adj}` | forme « de », élision comprise | de baies, d'oignon, de héron |
+| `{N_plur}` | "à" form | aux baies, au riz, à la viande de bœuf |
+| `{N_coll}` | bare form | baies, riz, viande de bœuf |
+| `{N_sing}` | singular | baie, riz, œuf de poule |
+| `{N_adj}` | "de" form, elision included | de baies, d'oignon, de héron |
 
-Les noms de plats sont réécrits à tête nominale — « rôti de bœuf » et non
-« rôti bœuf » — pour qu'aucun accord ne dépende d'un ingrédient inconnu. L'accord
-naturel n'est employé que là où la catégorie garantit le genre : `FT_Egg` donne
-toujours un masculin pluriel, `FT_MeatRaw` toujours « viande de X », féminin
-singulier.
+Dish names are rewritten head-noun first — *rôti de bœuf* rather than *rôti bœuf* — so
+that no agreement depends on an unknown ingredient. Natural agreement is used only where
+the category guarantees the gender: `FT_Egg` always yields a masculine plural,
+`FT_MeatRaw` always *viande de X*, feminine singular.
 
-Cent cinquante ingrédients sont couverts, sur les quatre extensions, générés depuis
-les traductions officielles du jeu par `_tools/geninflections.js` du mod anglais.
+A hundred and fifty ingredients are covered across the four expansions, generated from
+the game's official translations by `_tools/geninflections.js` in the English mod.
 
-## Assistance par IA
+## AI assistance
 
-Le contenu de ce mod a été produit avec l'assistance de Claude (Anthropic), sous
-direction et relecture humaines. Les décisions de conception — le remappage
-ci-dessus, la séparation des deux mods, les arbitrages de traduction — ont été
-prises et validées par l'auteur humain.
+The content of this mod was produced with the assistance of Claude (Anthropic), under
+human direction and review. The design decisions — the remapping above, splitting the two
+mods, the translation trade-offs — were made and approved by the human author.
 
-## Limites connues
+## Known limits
 
-- **Les accords en genre ne sont vérifiés par aucun outil.** Une faute d'accord est
-  du français valide pour la machine : ni le rapport de traduction de RimWorld ni les
-  vérificateurs de `_tools/` ne peuvent la voir. Elles n'apparaîtront qu'en jouant.
-- Trois noms de plats perdent volontairement un emplacement d'ingrédient, parce que
-  le français a un nom fixe là où l'anglais insérait la matière : bœuf Wellington,
-  pain d'épices, barre énergétique.
-- Deux descriptions signalent un écart au vérificateur, l'un et l'autre voulus :
-  « bubble and squeak » est un nom propre conservé, et `Powdered_PlantFoodRaw_Balls`
-  appelle dans l'original un emplacement `{2_coll}` que sa def ne possède pas — un
-  placeholder mort de Flavor Text, auquel la traduction française substitue `{0}`.
+- **No tool checks gender agreement.** A wrong agreement is valid French as far as a
+  machine is concerned: neither RimWorld's translation report nor the checkers in
+  `_tools/` can see it. They will only show up in play.
+- Three dish names deliberately lose an ingredient slot, because French has a fixed name
+  where English inserted the material: beef Wellington, gingerbread, energy bar.
+- Two descriptions raise a discrepancy with the checker, both intentional: "bubble and
+  squeak" is a proper name kept as is, and `Powdered_PlantFoodRaw_Balls` calls in the
+  original for a `{2_coll}` slot its def does not have — a dead placeholder in Flavor
+  Text, for which the French translation substitutes `{0}`.
 
 ## Licence
 
-MIT, voir `LICENSE`. Elle couvre les textes traduits et la table d'inflexions. Elle
-ne couvre ni Flavor Text ni Flavor Text Extended.
+MIT, see `LICENSE`. It covers the translated text and the inflection table. It covers
+neither Flavor Text nor Flavor Text Extended.
