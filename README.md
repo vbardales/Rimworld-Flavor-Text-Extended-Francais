@@ -1,113 +1,111 @@
 # Flavor Text Extended - Français
 
-Traduction française de [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)
-(hekmo) et de [Flavor Text Extended](https://github.com/vbardales/Rimworld-Flavor-Text-Extended).
+French translation of [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)
+by hekmo and of [Flavor Text Extended](https://github.com/vbardales/Rimworld-Flavor-Text-Extended).
 RimWorld 1.6.
 
-Ce mod ne contient aucun plat : uniquement des textes et des formes grammaticales.
+This mod contains no dishes: text and grammatical forms only.
 
-## À installer seulement si vous jouez en français
+## Install it only if you play in French
 
-Il lui faut les deux autres mods. Dans une partie en anglais, il produirait des formes
-françaises à l'intérieur de noms anglais — voir plus bas pourquoi il ne peut pas s'en
-empêcher.
+It needs both other mods. In an English game it would produce French forms inside English
+dish names — see below for why it cannot help doing so.
 
-## Ce qu'il traduit
+## What it translates
 
-Les 930 noms de plats de Flavor Text et leurs 930 descriptions. Les 896 plats de
-Flavor Text Extended, noms et descriptions. Les réglages du mod.
+The 930 dish names of Flavor Text and their 930 descriptions. The 896 dishes of Flavor
+Text Extended, names and descriptions. The mod's own settings.
 
-## Ce que votre colonie cultive décide de ce que vous voyez
+## What your colony grows decides what you see
 
-Un plat ne peut apparaître que si ses ingrédients existent dans la partie. Les 896 de
-Flavor Text Extended s'appuient sur un garde-manger plus large que celui du jeu de base —
-blé, fromage, beurre, crème, oignon, tomate, ail, piment — et une partie sans mod de
-cuisine n'en verra qu'une quarantaine.
+A dish can only appear if its ingredients exist in the game. The 896 of Flavor Text
+Extended lean on a wider pantry than vanilla keeps — wheat, cheese, butter, cream, onion,
+tomato, garlic, chilli — so a save with no cooking mods will see about forty of them.
 
-Cette traduction, elle, couvre tout : les 930 plats de hekmo et les 896, qu'ils se
-déclenchent ou non. Rien à installer de plus le jour où vous ajoutez un mod d'agriculture.
+This translation covers everything regardless: hekmo's 930 and the 896, whether they fire
+or not. Nothing more to install the day you add a farming mod.
 
-## La grammaire, qui est le vrai sujet
+## The grammar, which is the real subject
 
-Flavor Text donne quatre formes à chaque ingrédient. En anglais ce sont le pluriel, le
-collectif, le singulier et l'adjectif. En français le quatrième ne peut pas porter un
-adjectif : « rôti » s'accorde en genre et en nombre, et une substitution de texte ne sait
-pas le faire.
+Flavor Text gives every ingredient four forms. In English they are plural, collective,
+singular and adjectival. In French the fourth cannot carry an adjective: *rôti* agrees in
+gender and number, and text substitution does not know the gender of an ingredient.
 
-Les quatre emplacements sont donc remappés sur des formes qui **portent leur préposition** :
+The four slots are therefore remapped onto forms that **carry their own preposition**:
 
-| Emplacement | Rôle | Exemple |
+| Slot | Role | Example |
 |---|---|---|
-| `{N_plur}` | forme en « à » | aux baies, au riz, à la viande de bœuf |
-| `{N_coll}` | forme nue | baies, riz, viande de bœuf |
-| `{N_sing}` | singulier | baie, riz, œuf de poule |
-| `{N_adj}` | forme en « de », avec élision | de baies, d'oignon, de bœuf |
+| `{N_plur}` | the "à" form | aux baies, au riz, à la viande de bœuf |
+| `{N_coll}` | bare form | baies, riz, viande de bœuf |
+| `{N_sing}` | singular | baie, riz, œuf de poule |
+| `{N_adj}` | the "de" form, with elision | de baies, d'oignon, de bœuf |
 
-Les noms de plats sont réécrits à tête nominale — « rôti de bœuf » et non « rôti bœuf » —
-de sorte qu'aucun accord ne dépende d'un ingrédient inconnu. L'élision est traitée, y
-compris devant un h aspiré : « d'oignon », mais « de héron ».
+Dish names are rewritten with a noun head — *rôti de bœuf*, not *rôti bœuf* — so that no
+agreement ever depends on an unknown ingredient. Elision is handled, including before an
+aspirated h: *d'oignon*, but *de héron*.
 
-Cent cinquante ingrédients sont couverts, sur les quatre extensions, à partir des
-traductions officielles du jeu.
+One hundred and fifty ingredients are covered, across the four expansions, taken from the
+game's official French translations.
 
-## Pourquoi un mod séparé plutôt qu'un dossier `Languages/`
+## Why a separate mod rather than a `Languages/` folder
 
-Les inflexions vivent dans une def, pas dans un fichier de langue, et RimWorld ne sait pas
-injecter de traduction dans ce type de champ. Ce n'est pas une supposition : le test a été
-fait en jeu, sur un chemin indexé (`value.0`) puis sur un `[TranslationHandle]`. Les deux
-échouent, et le nombre d'erreurs de traduction augmente au lieu de diminuer.
+The inflections live in a def, not in a language file, and RimWorld cannot inject a
+translation into that kind of field. This is not an assumption: it was tested in game,
+first on an indexed path (`value.0`), then on a `[TranslationHandle]`. Both fail, and the
+translation error count goes up rather than down.
 
-Les remplacer suppose donc un `PatchOperation`, qui s'applique quelle que soit la langue du
-jeu. C'est aussi la raison pour laquelle ce mod ne peut pas être fusionné dans le mod
-anglais : il rendrait « de bœuf roast » à qui joue en anglais.
+Replacing them therefore takes a `PatchOperation`, which applies whatever language the game
+is running in. That is also why this mod cannot be folded into the English one: it would
+render *de bœuf roast* for anyone playing in English.
 
-Séparer les deux mods est la seule façon de laisser chaque langue intacte.
+Splitting the two mods is the only way to leave each language intact.
 
-## Arborescence
+## Layout
 
 ```
 Languages/French/DefInjected/FlavorText.FlavorDef/
-    Labels_01-12.xml, Descriptions_01-13.xml   les 930 plats de hekmo
-    Ext_*.xml  (42 fichiers)                    les 896 plats de Flavor Text Extended
-Languages/French/Keyed/Misc.xml                 les réglages
-Patches/Inflections_FR.xml                      la table d'inflexions, 150 ingrédients
+    Labels_01-12.xml, Descriptions_01-13.xml   hekmo's 930 dishes
+    Ext_*.xml  (42 files)                       the 896 of Flavor Text Extended
+Languages/French/Keyed/Misc.xml                 the settings
+Patches/Inflections_FR.xml                      the inflection table, 150 ingredients
 ```
 
-Un fichier `Ext_*.xml` par fichier de defs du mod anglais, même découpage et même nom, pour
-qu'un plat se retrouve des deux côtés sans avoir à chercher.
+One `Ext_*.xml` per defs file in the English mod, same split and same name, so that a dish
+can be found on both sides without hunting for it.
 
-## Une limite connue
+## A known limit
 
-La table d'inflexions couvre les ingrédients du jeu de base et des quatre extensions. Un
-ingrédient venu d'un autre mod n'y figure pas : Flavor Text retombe alors sur son propre
-mécanisme, et affiche la forme anglaise ou une forme brute. Il n'y a pas d'erreur en
-console — le plat s'affiche simplement moins bien.
+The inflection table covers the ingredients of the base game and the four expansions. An
+ingredient from another mod is not in it: Flavor Text then falls back on its own mechanism
+and shows the English form, or a raw one. There is no console error — the dish simply reads
+less well.
 
-## Crédits
+## Credits
 
-**Flavor Text** est de hekmo. Toute sa mécanique — la composition des noms, le choix d'une
-définition, l'inflexion des ingrédients — est son œuvre. Ce mod ne fait qu'y substituer du
-texte.
+**Flavor Text** is by hekmo. All of its machinery — how names are composed, how a
+definition is chosen, how ingredients inflect — is his work. This mod only substitutes text
+into it.
 
-Traduction produite avec l'assistance de Claude (Anthropic), sous direction et relecture
-humaines. Voir `ATTRIBUTION.md` pour le détail.
+Translation produced with the assistance of Claude (Anthropic), under human direction and
+review. See `ATTRIBUTION.md` for the detail.
 
 ## Licence
 
-MIT, voir `LICENSE`. Elle couvre les traductions et la table d'inflexions. Elle ne couvre
-pas Flavor Text, qui reste sous ses propres termes.
+MIT, see `LICENSE`. It covers the translations and the inflection table. It does not cover
+Flavor Text, which remains under its own terms.
 
 - - -
 
-## In English
+## En français
 
-French translation of Flavor Text (hekmo) and Flavor Text Extended. Contains no dishes:
-text and grammatical forms only.
+Traduction française de Flavor Text (hekmo) et de Flavor Text Extended. Aucun plat : que du
+texte et des formes grammaticales.
 
-**Install this only if you play in French.** It replaces the ingredient inflection table,
-which lives in a def rather than a language file, so the replacement applies in every
-language — RimWorld cannot make an XML patch conditional on the current one. In an English
-game it would produce French forms inside English dish names.
+**À installer seulement si vous jouez en français.** Il remplace la table d'inflexions des
+ingrédients, qui vit dans une def et non dans un fichier de langue : le remplacement
+s'applique donc quelle que soit la langue du jeu, RimWorld ne sachant pas conditionner un
+patch XML à la langue courante. Dans une partie en anglais, il produirait des formes
+françaises à l'intérieur de noms anglais.
 
-That constraint is also why this is a separate mod rather than a `Languages/` folder inside
-Flavor Text Extended.
+C'est aussi la raison pour laquelle il est un mod séparé, et non un dossier `Languages/`
+dans Flavor Text Extended.
