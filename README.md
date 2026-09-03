@@ -17,6 +17,16 @@ empêcher.
 Les 930 noms de plats de Flavor Text et leurs 930 descriptions. Les 896 plats de
 Flavor Text Extended, noms et descriptions. Les réglages du mod.
 
+## Ce que votre colonie cultive décide de ce que vous voyez
+
+Un plat ne peut apparaître que si ses ingrédients existent dans la partie. Les 896 de
+Flavor Text Extended s'appuient sur un garde-manger plus large que celui du jeu de base —
+blé, fromage, beurre, crème, oignon, tomate, ail, piment — et une partie sans mod de
+cuisine n'en verra qu'une quarantaine.
+
+Cette traduction, elle, couvre tout : les 930 plats de hekmo et les 896, qu'ils se
+déclenchent ou non. Rien à installer de plus le jour où vous ajoutez un mod d'agriculture.
+
 ## La grammaire, qui est le vrai sujet
 
 Flavor Text donne quatre formes à chaque ingrédient. En anglais ce sont le pluriel, le
