@@ -48,6 +48,7 @@ Traduction produite avec l'assistance de Claude (Anthropic), sous direction et r
 		<li>
 			<packageId>nelim.flavortextextended</packageId>
 			<displayName>Flavor Text Extended</displayName>
+			<downloadUrl>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
