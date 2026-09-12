@@ -12,10 +12,10 @@ showcase:     complete
 tested_on:
 workshop:
 remaining:
-  - defect: side-dish clauses stay English, so a meal over three ingredients reads "tarte aux baies with hachis parmentier de husky"
+  - defect: side-dish clauses stay English, so a meal over three ingredients reads "fricassée de bœuf with omelette aux baies"
   - defect: eleven of hekmo's fifteen inflection tables are untranslated, so a modded kitchen yields French dish names around English ingredients
   - unverified: gender agreement, which no checker can see — a wrong agreement is valid French to a machine
-  - unverified: the seventeen scenarios of _tools/FUNCTIONAL-SCENARIOS.md, none played, and its Group B is a draft naming dishes that cannot be cooked
+  - unverified: the nineteen scenarios of _tools/FUNCTIONAL-SCENARIOS.md, none played — they are written and buildable, scenario 15 being the one to run first
 session:      local_a70ab0cf-d4fa-4441-84d0-b0f6162123c2
 updated:      2026-09-12, the mod's own session
 ---
@@ -50,8 +50,8 @@ in-game evidence for that.
 
 - **`stage`** — `preTest`, matching this session's sidebar group. The content is finished: 1826 of
   1826 dishes carry both a name and a description, with no orphan handle and no untranslated def.
-  What is missing is not writing, it is the in-game check, and the document that would guide it is
-  still a draft.
+  What is missing is not writing, it is the in-game check: the scenarios that would guide it are
+  written and ready, and nobody has played them.
 - **`licence`** — `alive`, and this is where the two Flavor Text mods legitimately differ. The
   English mod writes its own 896 dishes and owes hekmo only the engine, so `original` defends
   itself there. This one **translates hekmo's 930 dishes**, name and description, indexed def by
@@ -87,18 +87,22 @@ in-game evidence for that.
 
 ## What was done on 2026-09-12
 
-- **`_tools/FUNCTIONAL-SCENARIOS.md` drafted**, seventeen in-game scenarios. Groups A, C, D and E
-  stand. **Group B does not**: three of its scenarios name ingredients that turn out not to be
-  cookable — hemogen packs sort into a category no dish has a slot for, and hops sort into no
-  category at all. It carries a DRAFT banner saying so.
-- Four things were established along the way, and they are worth more than the draft:
-  - **Ingredient categorisation reads the defName as well as the label**, read off the IL of
-    `CategoryUtility.ExtractNames`. The defName is split on underscores and camel case, so an
-    English keyword still matches in a French game. Translation does not break categorisation for
-    vanilla ingredients — the label is a net for opaque defNames only.
-  - **The English mod's `_tools/actifs.js` gives a ceiling, not a count of dishes a player can
-    see.** It never looks at `mealKinds`, and its edible-category filter misses meals entirely.
-  - Two gaps confirmed rather than suspected, both now in `remaining` above.
+- **`_tools/FUNCTIONAL-SCENARIOS.md` written**, nineteen in-game scenarios, every dish in them
+  picked from the 222 that can actually be cooked on the current profile.
+- **A dish needs two conditions, not one**, and the first draft of the document missed the second.
+  Its ingredient slots must be satisfiable, and one of its `mealKinds` must exist. Most of hekmo's
+  930 dishes declare a kind of cooking that only a cooking mod provides, and none is active here.
+  Of 729 dishes whose ingredients exist, 222 can name a meal. The first draft named three that
+  could not be cooked at all and was rewritten rather than patched.
+- **Ingredient categorisation reads the def's internal name as well as its label**, read off the
+  IL of `CategoryUtility.ExtractNames` rather than assumed. The internal name is split on
+  underscores and camel case, so an English keyword still matches in a French game: translation
+  does not drop vanilla ingredients out of their categories, and the label is a second chance for
+  opaque names only. Reported to the English mod's session, which confirmed the reading against
+  the IL itself, corrected both the comment and the code of its `actifs.js`, and saw its active
+  count go from 629 to 729. A fifth of the coverage was invisible to the measurement, not absent
+  from the mod.
+- Two gaps confirmed rather than suspected, both now in `remaining` above.
 
 ## Reference numbers
 
@@ -117,8 +121,8 @@ An output that departs from these is a question, not necessarily a fault.
 
 ## When to change these fields
 
-- `stage` goes to `done` when Group B of the scenarios is rebuilt on dishes that can actually be
-  cooked, and to `tested` once they have been played.
+- `stage` goes to `tested` once the scenarios have been played and the log read. Nothing in the
+  mod is waiting on development: the content is complete and the scenarios are written.
 - `tested_on` takes a date the day a real run happens. The game is never launched from a session;
   Virginie launches it, and the log is read afterwards.
 - `workshop` fills in the day an item exists, which also means a `PublishedFileId.txt` lands in
