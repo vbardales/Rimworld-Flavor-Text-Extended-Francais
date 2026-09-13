@@ -22,7 +22,12 @@ SOFTWARE.
 
 ---
 
-Cette licence couvre la traduction francaise et l'extension cuisine : les textes
-traduits, les formes grammaticales des ingredients et les defs ajoutees. Elle ne
-couvre pas Flavor Text (hekmo), dont ce mod ne contient aucun fichier et qui
-reste soumis a ses propres conditions.
+Scope of this notice
+
+This MIT notice applies only to original contributions for which nelim holds the
+necessary rights, including the local language-selection code and tooling. It does
+not grant a licence to Flavor Text, Flavor Text Extended, or third-party material.
+Translated source text remains derivative material: the notice does not establish
+upstream consent or remove any applicable upstream rights. No explicit permission
+for the underlying Flavor Text text has been established in this repository.
+This translation does not add dish definitions.

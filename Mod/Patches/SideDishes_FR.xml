@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Whole French sentences avoid gender agreement with unknown dish names.
+       The English grammar remains untouched in every non-French language. -->
+  <Operation Class="FlavorTextExtendedFR.PatchOperationFrench">
+    <patch Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RulePackDef[defName="FT_Tags"]/rulePack/rulesStrings</xpath>
+          <value>
+            <rulesStrings>
+              <li>hairy->Plat aux poils : </li>
+              <li>hairy->Poils au menu : </li>
+            </rulesStrings>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RulePackDef[defName="FT_SideDishLabels"]/rulePack/rulesStrings</xpath>
+          <value>
+            <rulesStrings>
+              <li>label(uses=1)->{0} et {1}</li>
+              <li>label(uses=1)->{0} avec {1}</li>
+              <li>label(p=0.5, uses=1)->{0}, avec un accompagnement : {1}</li>
+              <li>label(p=0.1, uses=1)->{0}, façon {1}</li>
+            </rulesStrings>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RulePackDef[defName="FT_SideDishDescriptions"]/rulePack/rulesStrings</xpath>
+          <value>
+            <rulesStrings>
+              <li>maindish(p=3)->{0} : {1}</li>
+              <li>maindish->Au menu, {0} : {1}</li>
+              <li>maindish->Voici le plat principal, {0} : {1}</li>
+              <li>maindish->La cuisine propose {0} : {1}</li>
+              <li>maindish->Une spécialité à découvrir, {0} : {1}</li>
+              <li>maindish->La recette du jour, {0} : {1}</li>
+              <li>maindish->La table accueille {0} : {1}</li>
+              <li>maindish->Pour ce repas, le choix se porte sur {0} : {1}</li>
+              <li>sidedish(p=3)->En accompagnement, {0} : {1}</li>
+              <li>sidedish->À côté, une autre préparation : {0}. En voici la description : {1}</li>
+              <li>sidedish->Le repas comprend aussi {0} : {1}</li>
+              <li>sidedish->Pour compléter le repas, {0} : {1}</li>
+              <li>sidedish->La cuisine ajoute {0} : {1}</li>
+              <li>sidedish->Une portion supplémentaire complète l'assiette, {0} : {1}</li>
+              <li>sidedish->Le service se poursuit avec {0} : {1}</li>
+              <li>sidedish->Pour varier les saveurs, {0} : {1}</li>
+              <li>sidedish(p=0.3)->Le cuisinier tente une association avec {0} : {1}</li>
+              <li>sidedish(p=0.1)->L'assiette déborde déjà, mais il reste une place pour {0} : {1}</li>
+            </rulesStrings>
+          </value>
+        </li>
+      </operations>
+    </patch>
+  </Operation>
+</Patch>

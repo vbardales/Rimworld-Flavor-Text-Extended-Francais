@@ -1,0 +1,1 @@
+PASS: installed fallback helper and bilingual resources; twelve accented/compound/aspirated-h/semivowel cases, no English pluralization or stem stripping, explicit forms preserved, unresolved markers detected.

@@ -1,0 +1,1 @@
+PASS: production settings bridge with UI doubles; existing backend, matching routes, no second state, input bounds and reveal/hide contract. No real UI or RIMMSQOL execution.

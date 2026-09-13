@@ -1,0 +1,10 @@
+Patch operations applied: 56
+Defs indexed: 13603
+MayRequire     FlavorText_Scrambled_Egg_2 depends on 'Ludeon.Rimworld.Biotech' - its translation must sit in a folder gated on the same mod  (Biotech\Languages\French\DefInjected\FlavorText.FlavorDef\Biotech.xml)
+MayRequire     FlavorText_Ingredients_Ingredients_Mash depends on 'Ludeon.Rimworld.Biotech' - its translation must sit in a folder gated on the same mod  (Biotech\Languages\French\DefInjected\FlavorText.FlavorDef\Biotech.xml)
+MayRequire     FlavorText_Ingredients_Ingredients_Mash_2 depends on 'Ludeon.Rimworld.Biotech' - its translation must sit in a folder gated on the same mod  (Biotech\Languages\French\DefInjected\FlavorText.FlavorDef\Biotech.xml)
+MayRequire     FlavorText_Ingredients_Mash_2 depends on 'Ludeon.Rimworld.Biotech' - its translation must sit in a folder gated on the same mod  (Biotech\Languages\French\DefInjected\FlavorText.FlavorDef\Biotech.xml)
+MayRequire     FlavorText_Milk_Bottle depends on 'Ludeon.Rimworld.Biotech' - its translation must sit in a folder gated on the same mod  (Biotech\Languages\French\DefInjected\FlavorText.FlavorDef\Biotech.xml)
+MayRequire     FlavorText_PlantFoodRaw_Puree depends on 'Ludeon.Rimworld.Biotech' - its translation must sit in a folder gated on the same mod  (Biotech\Languages\French\DefInjected\FlavorText.FlavorDef\Biotech.xml)
+
+Keys checked: 3652 - errors: 0

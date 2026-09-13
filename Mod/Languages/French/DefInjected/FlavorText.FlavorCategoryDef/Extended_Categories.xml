@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FT_Leek.label>Flavor Text : poireau</FT_Leek.label>
+  <FT_Shallot.label>Flavor Text : échalote</FT_Shallot.label>
+  <FT_Meat_Turtle.label>Flavor Text : viande de tortue</FT_Meat_Turtle.label>
+  <FT_Meat_Alligator.label>Flavor Text : viande d'alligator</FT_Meat_Alligator.label>
+  <FT_Meat_Iguana.label>Flavor Text : viande d'iguane</FT_Meat_Iguana.label>
+  <FT_Meat_Lizard.label>Flavor Text : viande de lézard</FT_Meat_Lizard.label>
+  <FT_Meat_Frog.label>Flavor Text : viande de grenouille</FT_Meat_Frog.label>
+</LanguageData>

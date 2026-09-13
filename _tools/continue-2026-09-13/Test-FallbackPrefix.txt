@@ -1,0 +1,1 @@
+PASS: production prefix with host doubles and shipped French keys; English bypass, French dispatch, reviewed forms preserved, category exclusion and empty label.

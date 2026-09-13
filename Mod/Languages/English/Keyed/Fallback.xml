@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FTFR_UnknownIngredient>ingredient</FTFR_UnknownIngredient>
+  <FTFR_FallbackA>with {0}</FTFR_FallbackA>
+  <FTFR_FallbackAElided>with {0}</FTFR_FallbackAElided>
+  <FTFR_FallbackDe>{0}</FTFR_FallbackDe>
+  <FTFR_FallbackDeElided>{0}</FTFR_FallbackDeElided>
+</LanguageData>

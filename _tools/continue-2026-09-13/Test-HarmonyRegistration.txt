@@ -1,0 +1,2 @@
+PASS: actual Harmony/Flavor Text/translation DLLs; exact target, one prefix after repeated registration, patched method invoked for French fallback and reviewed French/English forms using in-memory language fixtures and shipped keys. No Unity game, UI or player config execution.
+PASS: both actual meal methods accept exactly one scoped transpiler; actual French LanguageWorker plus wrapper preserves aspirated h and normal elision; English bypass. Full meal cooking is not executed.

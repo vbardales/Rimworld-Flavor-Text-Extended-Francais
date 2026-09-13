@@ -1,0 +1,1 @@
+PASS: 70 XML files; 1826 dishes with labels and descriptions; 4 patches applied in memory; 150 ingredients; 10 settings.

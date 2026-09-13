@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   Noms de plats — lot 01 : repas pour bébé, cuissons au four, pains et tourtes.
 
@@ -17,12 +17,12 @@
 <LanguageData>
 
 	<!-- Repas pour bébé -->
-	<FlavorText_Scrambled_Egg_2.label>{0_coll} brouillés</FlavorText_Scrambled_Egg_2.label>
-	<FlavorText_Ingredients_Ingredients_Mash.label>mouliné {0_adj} et {1_adj}</FlavorText_Ingredients_Ingredients_Mash.label>
-	<FlavorText_Ingredients_Ingredients_Mash_2.label>mouliné {0_adj} et {1_adj}</FlavorText_Ingredients_Ingredients_Mash_2.label>
-	<FlavorText_Ingredients_Mash_2.label>mouliné {0_adj}</FlavorText_Ingredients_Mash_2.label>
-	<FlavorText_Milk_Bottle.label>biberon {0_adj}</FlavorText_Milk_Bottle.label>
-	<FlavorText_PlantFoodRaw_Puree.label>purée {0_adj}</FlavorText_PlantFoodRaw_Puree.label>
+
+
+
+
+
+
 
 	<!-- Pâtisseries et desserts au four -->
 	<FlavorText_FairyBread.label>tartine des fées</FlavorText_FairyBread.label>

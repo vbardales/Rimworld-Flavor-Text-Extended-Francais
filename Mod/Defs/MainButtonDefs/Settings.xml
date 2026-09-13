@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MainButtonDef>
+    <defName>FTFR_Settings</defName>
+    <label>Flavor Text settings</label>
+    <description>Open the shared Flavor Text configuration.</description>
+    <workerClass>FlavorTextExtendedFR.SettingsButton</workerClass>
+    <buttonVisible>false</buttonVisible>
+    <validWithoutMap>true</validWithoutMap>
+    <canBeTutorDenied>false</canBeTutorDenied>
+    <order>9999</order>
+  </MainButtonDef>
+</Defs>

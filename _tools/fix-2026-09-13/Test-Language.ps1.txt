@@ -1,0 +1,1 @@
+PASS: language isolation, case handling, single invocation, failure and exception propagation.

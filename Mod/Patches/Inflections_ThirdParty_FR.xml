@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="FlavorTextExtendedFR.PatchOperationFrench">
+    <patch Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="OptimizationMeatsCSharpEdition"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>Meat_Cow</key>
+                <value>
+                  <li>à la viande de bœuf</li>
+                  <li>viande de bœuf</li>
+                  <li>morceau de viande de bœuf</li>
+                  <li>de bœuf</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="VGPVegetableGarden"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>Rawmushroom</key>
+                <value>
+                  <li>aux champignons</li>
+                  <li>champignons</li>
+                  <li>champignon</li>
+                  <li>de champignons</li>
+                </value>
+              </li>
+              <li>
+                <key>Rawbean</key>
+                <value>
+                  <li>aux haricots</li>
+                  <li>haricots</li>
+                  <li>haricot</li>
+                  <li>de haricots</li>
+                </value>
+              </li>
+              <li>
+                <key>Rawsnowbeet</key>
+                <value>
+                  <li>aux betteraves des neiges</li>
+                  <li>betteraves des neiges</li>
+                  <li>betterave des neiges</li>
+                  <li>de betteraves des neiges</li>
+                </value>
+              </li>
+              <li>
+                <key>RawOlive</key>
+                <value>
+                  <li>aux olives</li>
+                  <li>olives</li>
+                  <li>olive</li>
+                  <li>d'olives</li>
+                </value>
+              </li>
+              <li>
+                <key>Raworange</key>
+                <value>
+                  <li>aux oranges</li>
+                  <li>oranges</li>
+                  <li>orange</li>
+                  <li>d'oranges</li>
+                </value>
+              </li>
+              <li>
+                <key>RawRedLentil</key>
+                <value>
+                  <li>aux lentilles corail</li>
+                  <li>lentilles corail</li>
+                  <li>lentille corail</li>
+                  <li>de lentilles corail</li>
+                </value>
+              </li>
+              <li>
+                <key>Rawdate</key>
+                <value>
+                  <li>aux dattes</li>
+                  <li>dattes</li>
+                  <li>datte</li>
+                  <li>de dattes</li>
+                </value>
+              </li>
+              <li>
+                <key>RawCoconut</key>
+                <value>
+                  <li>à la noix de coco</li>
+                  <li>noix de coco</li>
+                  <li>noix de coco</li>
+                  <li>de noix de coco</li>
+                </value>
+              </li>
+              <li>
+                <key>Rawgooseberry</key>
+                <value>
+                  <li>aux groseilles à maquereau</li>
+                  <li>groseilles à maquereau</li>
+                  <li>groseille à maquereau</li>
+                  <li>de groseilles à maquereau</li>
+                </value>
+              </li>
+              <li>
+                <key>Rawcloudberry</key>
+                <value>
+                  <li>aux mûres arctiques</li>
+                  <li>mûres arctiques</li>
+                  <li>mûre arctique</li>
+                  <li>de mûres arctiques</li>
+                </value>
+              </li>
+              <li>
+                <key>Rawblueberry</key>
+                <value>
+                  <li>aux myrtilles</li>
+                  <li>myrtilles</li>
+                  <li>myrtille</li>
+                  <li>de myrtilles</li>
+                </value>
+              </li>
+              <li>
+                <key>Rawpeach</key>
+                <value>
+                  <li>aux pêches</li>
+                  <li>pêches</li>
+                  <li>pêche</li>
+                  <li>de pêches</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="VGPGardenGourmet"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>driedfruit</key>
+                <value>
+                  <li>aux fruits séchés</li>
+                  <li>fruits séchés</li>
+                  <li>fruit séché</li>
+                  <li>de fruits séchés</li>
+                </value>
+              </li>
+              <li>
+                <key>Flour</key>
+                <value>
+                  <li>à la farine</li>
+                  <li>farine</li>
+                  <li>portion de farine</li>
+                  <li>de farine</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="VanillaPlantsExpandedMorePlants"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>VCE_RawSunflower</key>
+                <value>
+                  <li>aux graines de tournesol</li>
+                  <li>graines de tournesol</li>
+                  <li>graine de tournesol</li>
+                  <li>de graines de tournesol</li>
+                </value>
+              </li>
+              <li>
+                <key>VCE_RawGarlic</key>
+                <value>
+                  <li>à l'ail</li>
+                  <li>ail</li>
+                  <li>gousse d'ail</li>
+                  <li>d'ail</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="VanillaCookingExpanded"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>VCE_RawSpices</key>
+                <value>
+                  <li>aux épices</li>
+                  <li>épices</li>
+                  <li>épice</li>
+                  <li>d'épices</li>
+                </value>
+              </li>
+              <li>
+                <key>VCE_InsectJellyPreserves</key>
+                <value>
+                  <li>aux conserves de gelée d'insecte</li>
+                  <li>conserves de gelée d'insecte</li>
+                  <li>conserve de gelée d'insecte</li>
+                  <li>de conserves de gelée d'insecte</li>
+                </value>
+              </li>
+              <li>
+                <key>VCE_Flour</key>
+                <value>
+                  <li>à la pâte</li>
+                  <li>pâte</li>
+                  <li>portion de pâte</li>
+                  <li>de pâte</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="RH2FactionVoid"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>Meat_RH_DF_Bone</key>
+                <value>
+                  <li>à la viande osseuse</li>
+                  <li>viande osseuse</li>
+                  <li>morceau de viande osseuse</li>
+                  <li>de viande osseuse</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="VVNewHarvest"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>VV_QuinoaSeeds</key>
+                <value>
+                  <li>au quinoa</li>
+                  <li>quinoa</li>
+                  <li>grain de quinoa</li>
+                  <li>de quinoa</li>
+                </value>
+              </li>
+              <li>
+                <key>VV_BroccoliFlorets</key>
+                <value>
+                  <li>aux fleurettes de brocoli</li>
+                  <li>fleurettes de brocoli</li>
+                  <li>fleurette de brocoli</li>
+                  <li>de brocoli</li>
+                </value>
+              </li>
+              <li>
+                <key>VV_NettleLeaves</key>
+                <value>
+                  <li>aux orties</li>
+                  <li>orties</li>
+                  <li>feuille d'ortie</li>
+                  <li>d'orties</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="RC2Core"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>RC2_RawJuniperBerries</key>
+                <value>
+                  <li>aux baies de genièvre</li>
+                  <li>baies de genièvre</li>
+                  <li>baie de genièvre</li>
+                  <li>de genièvre</li>
+                </value>
+              </li>
+              <li>
+                <key>RC2_Tofu</key>
+                <value>
+                  <li>au tofu</li>
+                  <li>tofu</li>
+                  <li>morceau de tofu</li>
+                  <li>de tofu</li>
+                </value>
+              </li>
+              <li>
+                <key>RC2_RawCherries</key>
+                <value>
+                  <li>aux cerises</li>
+                  <li>cerises</li>
+                  <li>cerise</li>
+                  <li>de cerises</li>
+                </value>
+              </li>
+              <li>
+                <key>RC2_Flour</key>
+                <value>
+                  <li>à la pâte</li>
+                  <li>pâte</li>
+                  <li>portion de pâte</li>
+                  <li>de pâte</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="KitsBrazilianCrops"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>KIT_Cashew</key>
+                <value>
+                  <li>aux pommes de cajou</li>
+                  <li>pommes de cajou</li>
+                  <li>pomme de cajou</li>
+                  <li>de pommes de cajou</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="MedievalOverhaul"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>DankPyon_RawMulberry</key>
+                <value>
+                  <li>aux mûres</li>
+                  <li>mûres</li>
+                  <li>mûre</li>
+                  <li>de mûres</li>
+                </value>
+              </li>
+              <li>
+                <key>DankPyon_RawPumpkins</key>
+                <value>
+                  <li>à la citrouille</li>
+                  <li>citrouille</li>
+                  <li>citrouille</li>
+                  <li>de citrouille</li>
+                </value>
+              </li>
+              <li>
+                <key>DankPyon_RawFlax</key>
+                <value>
+                  <li>au lin</li>
+                  <li>lin</li>
+                  <li>graine de lin</li>
+                  <li>de lin</li>
+                </value>
+              </li>
+              <li>
+                <key>DankPyon_Salt</key>
+                <value>
+                  <li>au sel</li>
+                  <li>sel</li>
+                  <li>pincée de sel</li>
+                  <li>de sel</li>
+                </value>
+              </li>
+              <li>
+                <key>DankPyon_EggConstrictorCaveFertilized</key>
+                <value>
+                  <li>aux œufs de constricteur des cavernes</li>
+                  <li>œufs de constricteur des cavernes</li>
+                  <li>œuf de constricteur des cavernes</li>
+                  <li>d'œufs de constricteur des cavernes</li>
+                </value>
+              </li>
+              <li>
+                <key>DankPyon_EggLargeCobraCaveFertilized</key>
+                <value>
+                  <li>aux œufs de cobra des cavernes</li>
+                  <li>œufs de cobra des cavernes</li>
+                  <li>œuf de cobra des cavernes</li>
+                  <li>d'œufs de cobra des cavernes</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.ThingInflectionsData[defName="TPSeaPlants"]/dictionary</xpath>
+          <value>
+            <dictionary>
+              <li>
+                <key>TP_EdibleSeaweed</key>
+                <value>
+                  <li>aux algues</li>
+                  <li>algues</li>
+                  <li>algue</li>
+                  <li>d'algues</li>
+                </value>
+              </li>
+            </dictionary>
+          </value>
+        </li>
+      </operations>
+    </patch>
+  </Operation>
+</Patch>

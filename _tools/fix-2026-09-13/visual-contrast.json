@@ -1,0 +1,27 @@
+[
+  {
+    "region": "title",
+    "minimumContrast": 6.77,
+    "passes": true
+  },
+  {
+    "region": "suffix",
+    "minimumContrast": 8.01,
+    "passes": true
+  },
+  {
+    "region": "tag",
+    "minimumContrast": 8.1,
+    "passes": true
+  },
+  {
+    "region": "summary",
+    "minimumContrast": 8.06,
+    "passes": true
+  },
+  {
+    "region": "badge",
+    "minimumContrast": 8.7,
+    "passes": true
+  }
+]

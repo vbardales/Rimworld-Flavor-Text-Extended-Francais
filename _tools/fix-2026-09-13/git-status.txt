@@ -1,0 +1,38 @@
+ M .gitignore
+ M ATTRIBUTION.md
+ M LICENSE
+ M Mod/ATTRIBUTION.md
+ M Mod/About/About.xml
+ M Mod/About/ModIcon.png
+ M Mod/About/Preview.png
+ M Mod/LICENSE
+ M Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_01.xml
+ M Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_01.xml
+ M Mod/Patches/Inflections_FR.xml
+ M README.md
+ M STATUS.md
+ M _tools/FUNCTIONAL-SCENARIOS.md
+?? .gitattributes
+?? Art/ModIcon-source.png
+?? Art/archive/
+?? Art/image-prompts.json
+?? Art/preview-palette.json
+?? Art/preview-template.html
+?? Art/preview.html
+?? CHANGELOG.md
+?? Mod/Assemblies/
+?? Mod/Biotech/
+?? Mod/CHANGELOG.md
+?? Mod/LoadFolders.xml
+?? Mod/Patches/Inflections_ThirdParty_FR.xml
+?? Mod/Patches/SideDishes_FR.xml
+?? Source/
+?? _tools/Build.ps1
+?? _tools/Extend-Inflections.ps1
+?? _tools/Render-Preview.ps1
+?? _tools/Test-Language.ps1
+?? _tools/Test-PatchLifecycle.ps1
+?? _tools/Test-Xml.ps1
+?? _tools/Tests/
+?? _tools/audit-2026-09-13/
+?? _tools/fix-2026-09-13/

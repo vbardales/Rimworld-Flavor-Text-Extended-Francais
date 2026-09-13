@@ -1,0 +1,484 @@
+Mono path[0] = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Initialize engine version: 2022.3.35f1 (011206c7a712)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.739 seconds
+- Finished resetting the current domain, in  0.003 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.765800 ms
+Command line arguments: -batchmode -nographics -savedatafolder=C:\Users\nelim\Documents\rimworld\FlavorText\FlavorTextExtendedFR\.build\smoke-fr-live -logFile C:\Users\nelim\Documents\rimworld\FlavorText\FlavorTextExtendedFR\.build\smoke-fr-live\Player.log
+RimWorld 1.6.4871 rev591
+Save data folder overridden to C:\Users\nelim\Documents\rimworld\FlavorText\FlavorTextExtendedFR\.build\smoke-fr-live
+ERROR: Shader Custom/Cutout shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutHair shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Plant cutout shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutComplex shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutComplexUI shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/ExpandingIconUI shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutComplexBlend shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutSkinOverlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutRecolor shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Wound shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/WoundSkin shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutSkinOverride shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutFlying shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutFlying01 shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/FirefoamOverlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutOverlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CutoutOverlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/TerrainEdge shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Transparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Transparent post light shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Plant transparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Mote shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Mote Pulse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Mote glow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Mote glow pulse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/WaterDepth shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Mote glow distorted shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Mote glow distort background shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Mote proximity scanner radius shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Gas rotating shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Terrain hard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Terrain fade shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Terrain fade rough shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Terrain water shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Terrain hard Linear burn shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Terrain fade Linear burn shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Terrain fade rough Linear burn shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Pollution Cloud shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/MapEdgeTerrain shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/Texture shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldTerrain' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WorldTerrain shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldTerrain' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/WorldOcean' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WorldOcean shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldOcean' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WorldOverlayCutout shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/WorldOverlayTransparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldOverlayTransparentLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WorldOverlayTransparentLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldOverlayTransparentLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/WorldOverlayTransparentLitPollution' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WorldOverlayTransparentLitPollution shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldOverlayTransparentLitPollution' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WorldOverlayAdditive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/WorldOverlayAdditiveTwoSided shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/PlanetGlow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Clouds' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Clouds shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Clouds' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/MetaOverlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/MetaOverlayDesaturated shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Solid Color shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Solid Color Behind shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Vertex Color shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/RitualStencil shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Invisible shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Silhouette shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Metalblood shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/CaveExitRope shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/BioferriteHarvester shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Gravship mask (texture masked) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Indoor mask (texture masked) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Indoor mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Gravship mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Vacuum overlay indoors shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Vacuum overlay particles shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Light overlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Sun shadow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Sun shadow fade shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Edge shadow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Shadow mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Roofed outdoor mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Fog of war shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Darkness shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Snow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Bioluminescent spore overlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Rain overlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Unlit additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Fog overlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Moving shades overlay shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Gravship blit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Gravship chroma key shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Gravship shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Gravship shadow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Gravship downwash shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Gravship distortion shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Gravship lens flare shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Mote glow flicker shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/TerrainCurtain shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader TextMeshPro/Mobile/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldIce' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WorldIce shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldIce' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/UngeneratedPlanetParts' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/UngeneratedPlanetParts shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/UngeneratedPlanetParts' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/Rivers' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Rivers shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Rivers' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/Roads' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Roads shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Roads' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Stars shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Sun shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldVertexColor' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WorldVertexColor shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldVertexColor' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/WorldVertexColorTransparent' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WorldVertexColorTransparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WorldVertexColorTransparent' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Created WorkshopItem for 3317177638 but there is no folder for it.
+Created WorkshopItem for 3317988732 but there is no folder for it.
+Created WorkshopItem for 2900944033 but there is no folder for it.
+Created WorkshopItem for 2959546951 but there is no folder for it.
+Mod Nelim's Food Court (prohibited) dependency (nelim.edengarden) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Nivarian DR dependency (keeptpa.NivarianRace) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimVore2 Drinkable Piss dependency (MamaHorseteeth.RimVore2ExtraVores) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimVore2 Edible Scat dependency (Nabber.RimVore2) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [B.E.P Race Ramake Addon]OnahoFairy dependency (bep.raceremake.core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RJW Sexpanded Corruption dependency (Vegapnk.rjw.genes) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 饺龙SA dependency (draconis.koelime) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod SizedApparel-Milira dependency (OTYOTY.SizedApparel) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 萌螈扩展之逸剑风云决功法 dependency (HenTaiLoliTeam.Axolotl) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Epona Weapons+ dependency (Epona.EponaDynasticRise) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+XML format error: List item found with name loadAfter that is not <li>, and which does not have a custom XML loader method, in <modDependencies><li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl><downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl></li><li><packageId>aRandomKiwi.RimThemes</packageId><displayName>RimThemes</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/1668983184</steamWorkshopUrl></li><loadAfter><li>brrainz.harmony&gt;</li><li>aRandomKiwi.RimThemes</li></loadAfter></modDependencies>
+Attempt to use string packageid to refer to field packageId in type Verse.ModMetaData+ModMetaDataInternal; xml tags are now case-sensitive. XML: <ModMetaData><name>Rimworld Medieval</name><author>Thale</author><supportedVersions><li>1.5</li><li>1.6</li></supportedVersions><packageid>Thale.RimworldMedieval</packageid><description></description><loadAfter><li>arandomkiwi.rimthemes</li></loadAfter><modDependencies><li><packageId>arandomkiwi.rimthemes</packageId><displayName>RimThemes</displayName><downloadUrl>https://github.com/aRandomKiwi/RimThemes/archive/refs/tags/2022.0.1.1.zip</downloadUrl></li></modDependencies></ModMetaData>
+Mod Rimhammer Smoking Guns and proper Shotguns has a dependency (sickboywi.theendtimes.dwarfs) with empty display name.
+Mod Rimhammer Smoking Guns and proper Shotguns dependency (sickboywi.theendtimes.dwarfs) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Rimhammer Smoking Guns and proper Shotguns has a dependency (sickboywi.theendtimes.empire) with empty display name.
+Mod Rimhammer Smoking Guns and proper Shotguns dependency (sickboywi.theendtimes.empire) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Rimhammer Smoking Guns and proper Shotguns has a dependency (swedishmask.propershotgunspatch) with empty display name.
+Mod Rimhammer Smoking Guns and proper Shotguns dependency (swedishmask.propershotgunspatch) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Rimhammer Smoking Guns and proper Shotguns has a dependency (vanillaexpanded.vwe) with empty display name.
+Mod Rimhammer Smoking Guns and proper Shotguns dependency (vanillaexpanded.vwe) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod NewRatkinVanillaFace dependency (Solaris.RatkinRaceMod) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod The Children Need To Play dependency (cyanobot.toddlers) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Milira SunLightGatheringTower Patch has a dependency (Ancot.MiliraRace) with empty display name.
+Mod Milira SunLightGatheringTower Patch dependency (Ancot.MiliraRace) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+XML error: <name>NewRatkinPlus</name> doesn't correspond to any field in type ModDependency. Context: <li><packageId>Solaris.RatkinRaceMod</packageId><name>NewRatkinPlus</name><steamWorkshopUrl>steam://url/CommunityFilePage/1578693166</steamWorkshopUrl></li>
+XML error: <name>Kurin, The Three Tailed Fox [Deluxe Edition]</name> doesn't correspond to any field in type ModDependency. Context: <li><packageId>Inoshishi3.KTTFDE</packageId><name>Kurin, The Three Tailed Fox [Deluxe Edition]</name><steamWorkshopUrl>steam://url/CommunityFilePage/2670355481</steamWorkshopUrl></li>
+Mod Replace Kurin's nun veil texture with NewRatkinPlus's sister veil has a dependency (Inoshishi3.KTTFDE) with empty display name.
+Mod Replace Kurin's nun veil texture with NewRatkinPlus's sister veil has a dependency (Solaris.RatkinRaceMod) with empty display name.
+Mod 机械师大礼包_演示 dependency (MF.ResearchRewardsFramework.V02) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Venture Framework dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Cuisine Story:Restaurant dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Cuisine Story:Restaurant dependency (rimdream.commerce.framework) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Cuisine Story:Restaurant dependency (rimdream.rimcuisine) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Simple Slavery Collars Child Patch dependency (TRIBeagle.simpleslaverycollars) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Animals Share Food dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [AI 1.6]渡鸦血脉扩展(Raven Bloodline Expansion) dependency (ZuoYao.RavenRace) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod BlueArchive-NewWorld dependency (Chezhou.ChezhouLib.lib) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Processor Quality Memory dependency (syrchalis.processor.framework) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Tasty Shields for Vanilla has a dependency (al9000.highmedieval) with empty display name.
+Mod Tasty Shields for Vanilla dependency (al9000.highmedieval) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Tasty Shields for Vanilla has a dependency (al9000.shiningarmor) with empty display name.
+Mod Tasty Shields for Vanilla dependency (al9000.shiningarmor) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimForceSurgeryKit EX dependency (rimforcedrug.ex) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 【索取猫】糖潮投影台 / [Gimme Cat] Sugar Riot Portrait Dresser dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (vanillaracesexpanded.genie) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (vanillaracesexpanded.lycanthrope) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (vanillaracesexpanded.waster) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (vanillaracesexpanded.saurid) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (vanillaracesexpanded.highmate) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (vanillaracesexpanded.archon) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (redmattis.betterprerequisites) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (cyanobot.cyanobotsgenes) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (vanillaracesexpanded.pigskin) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (redmattis.bigsmall.core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [RM] Fruity Faction dependency (redmattis.lamiasandothersnakes) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Ranks dependency (rockets.ranks) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Ranks dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Paniel: The Hidden Protocol dependency (kalospacer.AhnDemi.PanieltheAutomata) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Android tiers - TX Series (1.6 Port) dependency (erdelf.HumanoidAlienRaces) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Android tiers - TX Series (1.6 Port) dependency (Atlas.AndroidTiers) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Arsenal of Revolution dependency (Miriouki.CorsenalFork) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Custom Gas Types - Bloat dependency (Greg.CustomGasTypes) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod More Injuries: Organ Failure dependency (Th3Fr3d.ExtendedInjuries) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [ZA] Apparel dependency (Nals.RealisticBody) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [ZA] Apparel dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+XML error: <previewImages><li>Preview.png</li></previewImages> doesn't correspond to any field in type ModMetaDataInternal. Context: <ModMetaData><name>Improved 'real' realistic expert level names</name><author>COMRADEHAMPSTER</author><packageId>COMRADEHAMPSTER.RealisticExpertNames</packageId><supportedVersions><li>1.4</li><li>1.5</li><li>1.6</li></supportedVersions><description>This is a mod that gives realistic rank names based on skill level. - If a level 9 expert takes 4 hours to hunt, he is not an expert. (스킬 레벨별로 현실적인 등급명칭을 부여하는 모드입니다. - 9레벨 전문가가 사냥을 한다면서 4시간씩 잡아먹는다면 그는 전문가가 아닐겁니다. )</description><previewImages><li>Preview.png</li></previewImages></ModMetaData>
+Attempt to use string TargetVersion to refer to field targetVersion in type Verse.ModMetaData+ModMetaDataInternal; xml tags are now case-sensitive. XML: <ModMetaData><name>Tobe's Realistic Farming [TRF]</name><author>Tobe(totobrother)</author><description>
+  
+  Change system of rimworld farming.
+  Player should build a farm to grow plant.
+  Farm need water and compost or fertilizer to maintain!
+  Otherwise, your farm will be destroyed!
+  And add a lot kinds of plant and foods!
+  
+  </description><TargetVersion>0.17.1546</TargetVersion></ModMetaData>
+Mod 囚犯付费吃饭 (Prisoners Pay to Eat) dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod random meele animation patches has a dependency (co.uk.epicguru.meleeanimation) with empty display name.
+Mod random meele animation patches dependency (co.uk.epicguru.meleeanimation) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Android Tiers - TX Series - TX5 dependency (aRandomKiwi.AndroidTiersTXSerie) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Android Tiers - TX Series - TX5 dependency (Atlas.AndroidTiers) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Android Tiers - TX Series - TX5 - Human Body dependency (SineSwiper.XenobionicPatcher) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Android Tiers - TX Series - TX5 - Human Body dependency (NetzachSloth.AndroidTiersTXSeriesTX5) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Android Tiers - TX Series - TX5 - Human Body dependency (aRandomKiwi.AndroidTiersTXSerie) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Android Tiers - TX Series - TX5 - Human Body dependency (Atlas.AndroidTiers) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod BlueprintMaterials dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimElsen - Add-Ons dependency (hardrive360.rimelsen) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+XML error: <supportedLanguages><li>English</li><li>Spanish</li></supportedLanguages> doesn't correspond to any field in type ModMetaDataInternal. Context: <ModMetaData><name>VPE - Nexus Vol2</name><author>Grimwolf</author><supportedVersions><li>1.6</li></supportedVersions><packageId>Grimwolf.VPE2</packageId><description>Volumen 2 de Nexus-VPE</description><supportedLanguages><li>English</li><li>Spanish</li></supportedLanguages><modDependencies><li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName></li><li><packageId>VanillaExpanded.VPsycastsE</packageId><displayName>Vanilla Psycasts Expanded</displayName></li></modDependencies><loadAfter><li>Ludeon.RimWorld</li><li>Ludeon.RimWorld.Ideology</li><li>Ludeon.RimWorld.Biotech</li><li>Ludeon.RimWorld.Anomaly</li><li>brrainz.harmony</li><li>VanillaExpanded.VPsycastsE</li><li>OskarPotocki.VanillaFactionsExpanded.Core</li></loadAfter></ModMetaData>
+Mod VPE - Nexus Vol2 dependency (VanillaExpanded.VPsycastsE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod VPE - Nexus Vol2 dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Faction Territories + Vanilla Outposts: Vassal Destinations dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Vanilla Cover Reset 原版掩体效果重置 dependency (OskarPotocki.VanillaFactionsExpanded.Core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod WD OutpostAfterRaid dependency (tsa.worlddomination) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod WD OutpostAfterRaid dependency (oskarpotocki.vanillafactionsexpanded.core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod WD OutpostAfterRaid dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod World Domination dependency (vanillaexpanded.outposts) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod World Domination dependency (oskarpotocki.vanillafactionsexpanded.core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod World Domination dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod ClashOfRim Third-Party Compatibility dependency (AIRsLight.ClashOfRim) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 逆重飞船悬浮贸易 dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Anomaly Risk upgrade Remake dependency (OskarPotocki.VanillaFactionsExpanded.Core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Anomaly Risk upgrade Remake dependency (EBSG.Framework) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Anomaly Risk upgrade Remake dependency (RedMattis.BetterPrerequisites) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Gravship Conquest- RimSkyBlockDLC dependency (Yexiaoyang.RimSkyBlock) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RSB OwnedStation Abandon Fix dependency (YeXiaoYang978.RimSkyBlockHUHOdysseyDLC) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [PyRim] HBot dependency (hades3623.pyrim) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod VPE - Psycasters should practice (XP from Psycasting) dependency (vanillaexpanded.vpsycastse) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod VPE Lasting Skeletons dependency (vanillaexpanded.vpsycastse) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod HelpersAreNotAutonomousWeapons dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod DECO - Star Wars edition dependency (CheaterEater.DECO) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod VLE + EW2 Anima Wood Patch dependency (qq.expanded.woodwork) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod VLE + EW2 Anima Wood Patch dependency (VanillaExpanded.VExplorationE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Prosthetics Recipes Patch dependency (Awan.Chirurgie.Patch) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Prosthetics Recipes Patch dependency (NunahurAlShamikh.MedP) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Prosthetics Recipes Patch dependency (NunahurAlShamikh.MedMed) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Prosthetics Recipes Patch dependency (DankPyon.Medieval.Overhaul) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Don't Starve Food饥荒食物 dependency (VanillaExpanded.VPlantsEMore) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Don't Starve Food饥荒食物 dependency (VanillaExpanded.VPlantsE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Don't Starve Food饥荒食物 dependency (VanillaExpanded.VCookE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod True RPG Backpacks dependency (astryl.TrueRPGInventory) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Life Lessons - Medieval Overhaul Collection Patch dependency (GhostData.lifelessons) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Rocket's Ranks dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Wolfein Royalty Compatibility Patch dependency (MelonDove.WolfeinRace) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod MoeLotl Settlement Trade Faction Fix dependency (HenTaiLoliTeam.Axolotl) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod MoeLotl Settlement Trade Faction Fix dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Fantasy Xenotypes dependency (sarg.alphagenes) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Fantasy Xenotypes dependency (Neronix17.Outland.Genetics) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 边缘模拟经营框架商品管理增强 dependency (chezhou.Framework.RimSimManagementFramework) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+XML error: <modIcon>About/Preview</modIcon> doesn't correspond to any field in type ModMetaDataInternal. Context: <ModMetaData><packageId>ExoticMatter.AlterraFramework</packageId><name>Alterra Framework</name><author>ExoticMatter</author><modVersion>0.0.1</modVersion><description>Alterra Framework is a modding framework for RimWorld that provides materials and utilities for other mods developed by me and that may be used by other modders as well.</description><modIcon>About/Preview</modIcon><supportedVersions><li>1.6</li></supportedVersions><modDependencies><li><packageId>brrainz.harmony</packageId><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl><downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl></li></modDependencies><loadAfter><li>brrainz.harmony</li><li>CETeam.CombatExtended</li></loadAfter></ModMetaData>
+Mod Alterra Framework has a dependency (brrainz.harmony) with empty display name.
+Attempt to use string Supportedversions to refer to field supportedVersions in type Verse.ModMetaData+ModMetaDataInternal; xml tags are now case-sensitive. XML: <ModMetaData><name>Perspective Walls</name><author>Edward StoneHammer</author><Supportedversions><li>1.1</li><li>1.0</li></Supportedversions><packageId>edwardsh.perswalls</packageId><description>Wall pieces to give perspective and a fake feeling of height.</description></ModMetaData>
+Mod Milira Church Permit UI Fix dependency (Ancot.MiliraRace) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [PyRim] Dreams dependency (hades3623.pyrim) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod YaOpt × Kingfisher Compatibility Guard dependency (Vortex.Kingfisher) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod YaOpt × Kingfisher Compatibility Guard dependency (sz.yaopt) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod ！薇薇vivi叶月由罗cosplay dependency (gguake.race.vivi) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Pumpkin Library dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Odyssey Insects Spawn VFEI2 Creep dependency (OskarPotocki.VFE.Insectoid2) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Insects Ignore VFEI2 Creep Slowdown dependency (OskarPotocki.VFE.Insectoid2) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Body Mod Mix & Match dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Lever Series - Waste Management dependency (easonho90114.leverseries.core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Body Mod Mix & Match for FBV dependency (tiagocc0.FemaleBodyVariants) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Mechanoid Milk dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Sanguine Dining: Hemogen-Based Foods and Drinks dependency (kirabadartist.FermentationComp) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod AOTC Reimagined dependency (VanillaExpanded.BaseGeneration) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Ratkin Gene Expanded dependency (EoralMilk.PawnTextureOffsetAdjuster) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Drug Implant dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod BetterTeller dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod More Relic Quests has a dependency (Ludeon.RimWorld.Ideology) with empty display name.
+Mod Medieval Overhaul fixes dependency (DankPyon.Medieval.Overhaul) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Monolyn: HereditaryAbstinence ovum fertilization patch dependency (erdelf.HumanoidAlienRaces) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Bagi Faction 1.6 dependency (dvs.norandomrelations) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Bagi Faction 1.6 dependency (VanillaExpanded.VGeneticsE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Bagi Faction 1.6 dependency (oskarpotocki.vanillafactionsexpanded.core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Attempt to use string packageID to refer to field packageId in type Verse.ModMetaData+ModMetaDataInternal; xml tags are now case-sensitive. XML: <ModMetaData><name>Squirrel Variety Pack</name><author>SirTalis</author><packageID>sirtalis.squirrelpack</packageID><supportedVersions><li>1.3</li></supportedVersions><description>"I really like these little creatures. They bring a lot of joy to my life."
+--Bob Ross
+
+Adds several members of the squirrel family:
+
+	(North  American) Gray Squirrel: has several color variations. Can you catch the ultra-rare albino?
+
+	Pine Squirrel: found in temperate and boreal forests.
+
+	Douglas Squirrel: found in boreal forests.
+
+	Southwestern Red Squirrel: found in arid shrublands.
+
+	Groundhog: a member of the squirrel family, actually. Built in support for Rainbeau's Realistic Planets (can be found in the grasslands).
+
+	Flying Squirrel: sought after in the pet trade. Incredibly fast, owing to their ability to glide from tree to tree. Supports [XND] Nocturnal Animals for extra realism.
+
+Fully compatible with [XND] Nocturnal Animals, and Rainbeau's Realistic Planets (Continued).
+I recommend using a mod like Camera Plus to zoom in to see these small creatures in better detail.
+An integrated CE patch is in the works.
+	</description></ModMetaData>
+Mod Alwim Race  Mistletoe in the Misty Forest(Beta) dependency (OskarPotocki.VanillaFactionsExpanded.Core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod CE Balaclava style variety expanded (Deluxe Edition) dependency (ceteam.combatextendedarmors) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 【1.5】Fox Lamp Forked dependency (Mlie.AFSydailyFox) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Ferian Story FORKED (beta) dependency (mg.lansy.fork) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Raven Blood Gene (渡鸦之血基因) dependency (ZuoYao.RavenRace) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod LOCAL COPY SRTS Expanded Medieval Tweaks and Translation 1.3-1.6 dependency (shashlichnik.srtsexpanded) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod brewing iced coffee directly has a dependency (VanillaExpanded.VBrewE) with empty display name.
+Mod brewing iced coffee directly dependency (VanillaExpanded.VBrewE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Whiteglove's Hemokomori Xenotype dependency (vanillaracesexpanded.sanguophage) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Kaiser's Recipe Research Cleaner dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Wolfhaul Core Stones dependency (Wolf478.Kaiser.RecipeResearchCleaner) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Wolfhaul Addon Glass dependency (Wolf478.Wolfhaulcore.Stones) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Glass Patch for Rebuild dependency (ReBuild.COTR.DoorsAndCorners) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod HairLayerFix dependency (velc.HatsDisplaySelection) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod HairLayerFix dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod «Embellished Variety Expander» custom patches dependency (ATK.Anthrosonae) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod «Embellished Variety Expander» custom patches dependency (Teiwaz.GTGTraderCore) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod «Embellished Variety Expander» custom patches dependency (sarg.alphaanimals) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod «Embellished Variety Expander» custom patches dependency (VanillaExpanded.VPsycastsE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+XML format error: Raw text found inside a list element. Did you mean to surround it with list item <li> tags? <loadBefore><li>TSP.Isengriff.Storytime</li>'
+		<li>tsp.dankpyon.mo.texturereversion</li></loadBefore>
+Mod Modest Overhaul: a Medieval Overhaul Patch dependency (dankpyon.medieval.overhaul) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Ari's Cigars dependency (OskarPotocki.VanillaFactionsExpanded.Core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Ari's Cigars dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Ari's Cigars dependency (VanillaExpanded.VBrewE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+XML Verse.ModMetaData+ModMetaDataInternal defines the same field twice: supportedVersions.
+
+Field contents: 1.1.
+
+Whole XML:
+
+<ModMetaData><name>OokamiPlus</name><author>A-Tsuki, T-Valentine</author><supportedVersions><li>1.0</li></supportedVersions><supportedVersions><li>1.1</li></supportedVersions><packageId>ATsuki.TValentine.OokamiPlus</packageId><description>A legendary beast known in Folklore as Ookami.
+
+	</description></ModMetaData>
+XML Verse.ModMetaData+ModMetaDataInternal defines the same field twice: supportedVersions.
+
+Field contents: 1.1.
+
+Whole XML:
+
+<ModMetaData><name>Ookami</name><author>A-Tsuki, T-Valentine</author><supportedVersions><li>1.0</li></supportedVersions><supportedVersions><li>1.1</li></supportedVersions><packageId>ATsuki.TValentine.Ookami</packageId><description>A legendary beast known in Folklore as Ookami.</description></ModMetaData>
+Mod Darklings dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 行为研究 Behavior Research dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Awesome Inventory Enchantment dependency (NotooShabby.AwesomeInventory) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [MF]Chitose & Sayo Apparel dependency (fxz.myafufu) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [ZA] Touhou Apparel dependency (Butterfish.HairModdingPlus) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod [ZA] Touhou Apparel dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod patch of Moyo-From the depth and intimacy has a dependency (Nemonian.MY) with empty display name.
+Mod patch of Moyo-From the depth and intimacy dependency (Nemonian.MY) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod patch of Moyo-From the depth and intimacy has a dependency (LovelyDovey.Sex.WithRosaline) with empty display name.
+Mod patch of Moyo-From the depth and intimacy dependency (LovelyDovey.Sex.WithRosaline) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Time Stop Pocket Watch 时间怀表 dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimPoker - Multiplayer dependency (wowgag.RimPoker) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod VWE Throwing Knives Buff dependency (VanillaExpanded.VWE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Selective Butchery dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Mechanoid Baby dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Exception loading from System.Xml.XmlElement: System.MissingMethodException: Default constructor not found for type System.String
+  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic, System.Boolean wrapExceptions) [0x00076] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean wrapExceptions, System.Boolean skipCheckThis, System.Boolean fillCache) [0x00009] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Boolean wrapExceptions, System.Threading.StackCrawlMark& stackMark) [0x00027] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic, System.Boolean wrapExceptions) [0x00020] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Activator.CreateInstance (System.Type type) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.DirectXmlToObject.ObjectFromXml[T] (System.Xml.XmlNode xmlRoot, System.Boolean doPostLoad) [0x0045c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.DirectXmlToObject.ObjectFromXmlReflection[T] (System.Xml.XmlNode xmlRoot, System.Boolean doPostLoad) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.DirectXmlToObject.ObjectFromXml[T] (System.Xml.XmlNode xmlRoot, System.Boolean doPostLoad) [0x0060e] in <61e4173561894da49d210260257b5097>:0 
+Mod RimGiantess Addon dependency (rainna.giantmode) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Miho Archotech Mechanitor Armor dependency (miho.fortifiedoutremer) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Miho Archotech Mechanitor Armor dependency (aw.mech.helmets) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Sengoku Faction dependency (al9000.sengoku) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Royal Jelly Producer dependency (Taroe.TaoreModCore) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Arcane Arms dependency (OskarPotocki.VanillaFactionsExpanded.Core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod EM Tattoos and Piercings - Retexture dependency (Mlie.EMTattoosAndPiercings) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Wolfein Chocolate Delicacies-沃芬族巧克力佳肴 dependency (MelonDove.WolfeinRace) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Function Drinks Expanded dependency (Lenatuo.hormones) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Kenji Energy Drink Plus dependency (VanillaExpanded.VCookE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Overhaul food compat dependency (DankPyon.Medieval.Overhaul) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Attempt to use string targetversion to refer to field targetVersion in type Verse.ModMetaData+ModMetaDataInternal; xml tags are now case-sensitive. XML: <ModMetaData><name>Fermenting Cooks</name><author>Angelpichu</author><targetversion>0.16.0</targetversion><description>Changes filling and emptying fermenting barrels to cooking worktype.</description><url>http://steamcommunity.com/sharedfiles/filedetails/?id=831053627</url></ModMetaData>
+Mod Sewage Meal dependency (dubwise.dubsbadhygiene) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Ari's Distillery dependency (OskarPotocki.VanillaFactionsExpanded.Core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Ari's Distillery dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Ari's Distillery dependency (VanillaExpanded.VBrewE) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Multi Research Bench dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Even More Linkables - Additional Patches dependency (hobbes.bamba.evenmorelinkables16) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimPhysique dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Ceiling Loudspeakers dependency (Owlchemist.CeilingUtilities) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Thrumbo Extension - Lothurr Add-On dependency (OskarPotocki.VFE.Vikings) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Thrumbo Extension - Lothurr Add-On dependency (leafzxg.ThrumboExtension) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod VCE Dragonian cheese (Unofficial addon) dependency (vanillaexpanded.vcooke) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod VCE Dragonian cheese (Unofficial addon) dependency (vazrua.dragonianraceprime2.0) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 更多远古城市废墟高价值战利品 has a dependency (XMB.AncientUrbanrUins.MO) with empty display name.
+Mod 更多远古城市废墟高价值战利品 dependency (XMB.AncientUrbanrUins.MO) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod More Useful Materials Expansion dependency (CN.MoreUsefulMaterials) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Medieval Horse Plate Armour dependency (Owlchemist.AnimalGear.Equipment) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Life Lessons - Learning Information Display dependency (GhostData.lifelessons) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Life Lessons - Learning Information Display dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Life Lessons - Mods recipe patches dependency (GhostData.lifelessons) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Toddler Lick Filth Play dependency (cyanobot.toddlers) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimCuisine 2 Core - Comigo's Adequate Cooking Patch dependency (ComigoGames.Patches.VCESugarGrain) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimCuisine 2 Core - Comigo's Adequate Cooking Patch dependency (Mlie.RC2.Core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 帝国建筑扩展 has a dependency with invalid <packageId>: Saakra.Empire >= 0.0
+Mod Empire - Neolithic Buildings has a dependency with invalid <packageId>: Saakra.Empire >= 0.0
+Mod Gestatable Kraltech Militor Queen and Supreme Apocriton dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Gestatable Kraltech Militor Queen and Supreme Apocriton dependency (UnlimitedHugs.HugsLib) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Gestatable Kraltech Militor Queen and Supreme Apocriton dependency (OskarPotocki.VanillaFactionsExpanded.Core) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimTalk - Expand Toddlers dependency (cyanobot.toddlers) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimTalk - Expand Toddlers dependency (cj.rimtalk) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod 长江坏人 dependency (Resurrectionem.Ama) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod Voodoo Magic dependency (brrainz.harmony) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Mod RimWorld-Adventures: Val'Darohm has a dependency with invalid <packageId>: Nolabritt.RWA_Core
+Mod Empire Refactored: Cities & Fields dependency (Matathias.Empire.SupplyChain) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.

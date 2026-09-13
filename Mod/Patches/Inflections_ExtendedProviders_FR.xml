@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Reviewed forms for the optional New Harvest leek used by Extended recipes. -->
+<Patch>
+  <Operation Class="FlavorTextExtendedFR.PatchOperationFrench">
+    <patch Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <FlavorText.ThingInflectionsData>
+              <defName>FTFR_ExtendedNewHarvest</defName>
+              <packageID>VVenchov.VVNewHarvest</packageID>
+              <dictionary>
+                <li>
+                  <key>VV_Leeks</key>
+                  <value>
+                    <li>aux poireaux</li>
+                    <li>poireaux</li>
+                    <li>poireau</li>
+                    <li>de poireaux</li>
+                  </value>
+                </li>
+              </dictionary>
+            </FlavorText.ThingInflectionsData>
+            <FlavorText.ThingInflectionsData>
+              <defName>FTFR_Extended_dajian_chiteaditional_expanded</defName>
+              <packageID>dajian.chiteaditional.expanded</packageID>
+              <dictionary>
+                <li>
+                  <key>AiYe</key>
+                  <value>
+                    <li>aux feuilles d'armoise</li>
+                    <li>feuilles d'armoise</li>
+                    <li>feuille d'armoise</li>
+                    <li>de feuilles d'armoise</li>
+                  </value>
+                </li>
+                <li>
+                  <key>BaiGuoJiu</key>
+                  <value>
+                    <li>au vin de ginkgo</li>
+                    <li>vin de ginkgo</li>
+                    <li>goutte de vin de ginkgo</li>
+                    <li>de vin de ginkgo</li>
+                  </value>
+                </li>
+                <li>
+                  <key>BaiJiu</key>
+                  <value>
+                    <li>au baijiu</li>
+                    <li>baijiu</li>
+                    <li>goutte de baijiu</li>
+                    <li>de baijiu</li>
+                  </value>
+                </li>
+                <li>
+                  <key>HuangJiu</key>
+                  <value>
+                    <li>au vin de céréales</li>
+                    <li>vin de céréales</li>
+                    <li>goutte de vin de céréales</li>
+                    <li>de vin de céréales</li>
+                  </value>
+                </li>
+                <li>
+                  <key>LaJiao</key>
+                  <value>
+                    <li>aux piments</li>
+                    <li>piments</li>
+                    <li>piment</li>
+                    <li>de piments</li>
+                  </value>
+                </li>
+                <li>
+                  <key>MeiCai</key>
+                  <value>
+                    <li>aux feuilles de moutarde séchées</li>
+                    <li>feuilles de moutarde séchées</li>
+                    <li>feuille de moutarde séchée</li>
+                    <li>de feuilles de moutarde séchées</li>
+                  </value>
+                </li>
+                <li>
+                  <key>RawQingKe</key>
+                  <value>
+                    <li>à l'orge du Tibet</li>
+                    <li>orge du Tibet</li>
+                    <li>grain d'orge du Tibet</li>
+                    <li>d'orge du Tibet</li>
+                  </value>
+                </li>
+                <li>
+                  <key>RawZaJiaoShuiDao</key>
+                  <value>
+                    <li>au riz hybride</li>
+                    <li>riz hybride</li>
+                    <li>grain de riz hybride</li>
+                    <li>de riz hybride</li>
+                  </value>
+                </li>
+                <li>
+                  <key>SZ_ShiTouGan</key>
+                  <value>
+                    <li>aux mandarines</li>
+                    <li>mandarines</li>
+                    <li>mandarine</li>
+                    <li>de mandarines</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedJingMi</key>
+                  <value>
+                    <li>à la farine de riz</li>
+                    <li>farine de riz</li>
+                    <li>portion de farine de riz</li>
+                    <li>de farine de riz</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedQingKe</key>
+                  <value>
+                    <li>à la farine d'orge du Tibet</li>
+                    <li>farine d'orge du Tibet</li>
+                    <li>portion de farine d'orge du Tibet</li>
+                    <li>de farine d'orge du Tibet</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedRawMaize</key>
+                  <value>
+                    <li>au maïs séché</li>
+                    <li>maïs séché</li>
+                    <li>grain de maïs séché</li>
+                    <li>de maïs séché</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedRawMixture</key>
+                  <value>
+                    <li>aux légumes séchés</li>
+                    <li>légumes séchés</li>
+                    <li>portion de légumes séchés</li>
+                    <li>de légumes séchés</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedRawPotato</key>
+                  <value>
+                    <li>aux pommes de terre séchées</li>
+                    <li>pommes de terre séchées</li>
+                    <li>morceau de pomme de terre séchée</li>
+                    <li>de pommes de terre séchées</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedRawRice</key>
+                  <value>
+                    <li>à la farine de riz gluant</li>
+                    <li>farine de riz gluant</li>
+                    <li>portion de farine de riz gluant</li>
+                    <li>de farine de riz gluant</li>
+                  </value>
+                </li>
+                <li>
+                  <key>XiongHuangJiu</key>
+                  <value>
+                    <li>au vin de réalgar</li>
+                    <li>vin de réalgar</li>
+                    <li>goutte de vin de réalgar</li>
+                    <li>de vin de réalgar</li>
+                  </value>
+                </li>
+                <li>
+                  <key>YinXingGuo</key>
+                  <value>
+                    <li>aux noix de ginkgo</li>
+                    <li>noix de ginkgo</li>
+                    <li>noix de ginkgo</li>
+                    <li>de noix de ginkgo</li>
+                  </value>
+                </li>
+                <li>
+                  <key>RawDaBaiCai</key>
+                  <value>
+                    <li>au chou chinois</li>
+                    <li>chou chinois</li>
+                    <li>feuille de chou chinois</li>
+                    <li>de chou chinois</li>
+                  </value>
+                </li>
+                <li>
+                  <key>RawLianOu</key>
+                  <value>
+                    <li>au rhizome de lotus</li>
+                    <li>rhizome de lotus</li>
+                    <li>morceau de rhizome de lotus</li>
+                    <li>de rhizome de lotus</li>
+                  </value>
+                </li>
+                <li>
+                  <key>RawLvDou</key>
+                  <value>
+                    <li>aux haricots mungo</li>
+                    <li>haricots mungo</li>
+                    <li>haricot mungo</li>
+                    <li>de haricots mungo</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedFenTiao</key>
+                  <value>
+                    <li>aux vermicelles</li>
+                    <li>vermicelles</li>
+                    <li>vermicelle</li>
+                    <li>de vermicelles</li>
+                  </value>
+                </li>
+              </dictionary>
+            </FlavorText.ThingInflectionsData>
+            <FlavorText.ThingInflectionsData>
+              <defName>FTFR_Extended_dajian_chiteaditional_expanded_oldmode</defName>
+              <packageID>dajian.chiteaditional.expanded.oldmode</packageID>
+              <dictionary>
+                <li>
+                  <key>AiYe</key>
+                  <value>
+                    <li>aux feuilles d'armoise</li>
+                    <li>feuilles d'armoise</li>
+                    <li>feuille d'armoise</li>
+                    <li>de feuilles d'armoise</li>
+                  </value>
+                </li>
+                <li>
+                  <key>BaiGuoJiu</key>
+                  <value>
+                    <li>au vin de ginkgo</li>
+                    <li>vin de ginkgo</li>
+                    <li>goutte de vin de ginkgo</li>
+                    <li>de vin de ginkgo</li>
+                  </value>
+                </li>
+                <li>
+                  <key>BaiJiu</key>
+                  <value>
+                    <li>au baijiu</li>
+                    <li>baijiu</li>
+                    <li>goutte de baijiu</li>
+                    <li>de baijiu</li>
+                  </value>
+                </li>
+                <li>
+                  <key>HuangJiu</key>
+                  <value>
+                    <li>au vin de céréales</li>
+                    <li>vin de céréales</li>
+                    <li>goutte de vin de céréales</li>
+                    <li>de vin de céréales</li>
+                  </value>
+                </li>
+                <li>
+                  <key>LaJiao</key>
+                  <value>
+                    <li>aux piments</li>
+                    <li>piments</li>
+                    <li>piment</li>
+                    <li>de piments</li>
+                  </value>
+                </li>
+                <li>
+                  <key>MeiCai</key>
+                  <value>
+                    <li>aux feuilles de moutarde séchées</li>
+                    <li>feuilles de moutarde séchées</li>
+                    <li>feuille de moutarde séchée</li>
+                    <li>de feuilles de moutarde séchées</li>
+                  </value>
+                </li>
+                <li>
+                  <key>RawQingKe</key>
+                  <value>
+                    <li>à l'orge du Tibet</li>
+                    <li>orge du Tibet</li>
+                    <li>grain d'orge du Tibet</li>
+                    <li>d'orge du Tibet</li>
+                  </value>
+                </li>
+                <li>
+                  <key>RawZaJiaoShuiDao</key>
+                  <value>
+                    <li>au riz hybride</li>
+                    <li>riz hybride</li>
+                    <li>grain de riz hybride</li>
+                    <li>de riz hybride</li>
+                  </value>
+                </li>
+                <li>
+                  <key>SZ_ShiTouGan</key>
+                  <value>
+                    <li>aux mandarines</li>
+                    <li>mandarines</li>
+                    <li>mandarine</li>
+                    <li>de mandarines</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedJingMi</key>
+                  <value>
+                    <li>à la farine de riz</li>
+                    <li>farine de riz</li>
+                    <li>portion de farine de riz</li>
+                    <li>de farine de riz</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedQingKe</key>
+                  <value>
+                    <li>à la farine d'orge du Tibet</li>
+                    <li>farine d'orge du Tibet</li>
+                    <li>portion de farine d'orge du Tibet</li>
+                    <li>de farine d'orge du Tibet</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedRawMaize</key>
+                  <value>
+                    <li>au maïs séché</li>
+                    <li>maïs séché</li>
+                    <li>grain de maïs séché</li>
+                    <li>de maïs séché</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedRawMixture</key>
+                  <value>
+                    <li>aux légumes séchés</li>
+                    <li>légumes séchés</li>
+                    <li>portion de légumes séchés</li>
+                    <li>de légumes séchés</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedRawPotato</key>
+                  <value>
+                    <li>aux pommes de terre séchées</li>
+                    <li>pommes de terre séchées</li>
+                    <li>morceau de pomme de terre séchée</li>
+                    <li>de pommes de terre séchées</li>
+                  </value>
+                </li>
+                <li>
+                  <key>WorkedRawRice</key>
+                  <value>
+                    <li>à la farine de riz gluant</li>
+                    <li>farine de riz gluant</li>
+                    <li>portion de farine de riz gluant</li>
+                    <li>de farine de riz gluant</li>
+                  </value>
+                </li>
+                <li>
+                  <key>XiongHuangJiu</key>
+                  <value>
+                    <li>au vin de réalgar</li>
+                    <li>vin de réalgar</li>
+                    <li>goutte de vin de réalgar</li>
+                    <li>de vin de réalgar</li>
+                  </value>
+                </li>
+                <li>
+                  <key>YinXingGuo</key>
+                  <value>
+                    <li>aux noix de ginkgo</li>
+                    <li>noix de ginkgo</li>
+                    <li>noix de ginkgo</li>
+                    <li>de noix de ginkgo</li>
+                  </value>
+                </li>
+              </dictionary>
+            </FlavorText.ThingInflectionsData>
+            <FlavorText.ThingInflectionsData>
+              <defName>FTFR_Extended_daylight_rimlifeextrgmod</defName>
+              <packageID>daylight.rimlifeextrgmod</packageID>
+              <dictionary>
+                <li>
+                  <key>RLE_CheesNatureAfter</key>
+                  <value>
+                    <li>au fromage</li>
+                    <li>fromage</li>
+                    <li>morceau de fromage</li>
+                    <li>de fromage</li>
+                  </value>
+                </li>
+                <li>
+                  <key>RLE_CheesNatureAged</key>
+                  <value>
+                    <li>au fromage affiné</li>
+                    <li>fromage affiné</li>
+                    <li>morceau de fromage affiné</li>
+                    <li>de fromage affiné</li>
+                  </value>
+                </li>
+                <li>
+                  <key>RLE_DriedMeat</key>
+                  <value>
+                    <li>à la viande séchée</li>
+                    <li>viande séchée</li>
+                    <li>morceau de viande séchée</li>
+                    <li>de viande séchée</li>
+                  </value>
+                </li>
+              </dictionary>
+            </FlavorText.ThingInflectionsData>
+            <FlavorText.ThingInflectionsData>
+              <defName>FTFR_Extended_daylight_rlevvcultivationplus</defName>
+              <packageID>daylight.rlevvcultivationplus</packageID>
+              <dictionary>
+                <li>
+                  <key>RLE_DentCorn</key>
+                  <value>
+                    <li>au maïs denté</li>
+                    <li>maïs denté</li>
+                    <li>grain de maïs denté</li>
+                    <li>de maïs denté</li>
+                  </value>
+                </li>
+                <li>
+                  <key>VV_Chingensai</key>
+                  <value>
+                    <li>au pak-choï</li>
+                    <li>pak-choï</li>
+                    <li>feuille de pak-choï</li>
+                    <li>de pak-choï</li>
+                  </value>
+                </li>
+                <li>
+                  <key>VVOnion</key>
+                  <value>
+                    <li>aux oignons</li>
+                    <li>oignons</li>
+                    <li>oignon</li>
+                    <li>d'oignons</li>
+                  </value>
+                </li>
+                <li>
+                  <key>VVPaprika</key>
+                  <value>
+                    <li>aux poivrons</li>
+                    <li>poivrons</li>
+                    <li>poivron</li>
+                    <li>de poivrons</li>
+                  </value>
+                </li>
+                <li>
+                  <key>VVTomato</key>
+                  <value>
+                    <li>aux tomates</li>
+                    <li>tomates</li>
+                    <li>tomate</li>
+                    <li>de tomates</li>
+                  </value>
+                </li>
+              </dictionary>
+            </FlavorText.ThingInflectionsData>
+          </value>
+        </li>
+      </operations>
+    </patch>
+  </Operation>
+</Patch>

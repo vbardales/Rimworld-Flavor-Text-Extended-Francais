@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-  Inflexions françaises des ingrédients, pour Flavor Text.
-
-  Flavor Text donne 4 formes à chaque ingrédient. En anglais ce sont pluriel /
-  collectif / singulier / adjectival. En français le 4e slot ne peut pas porter un
-  adjectif : « rôti » s'accorde, la substitution de texte ne le sait pas. Il porte
-  donc un COMPLÉMENT PRÉPOSITIONNEL, élision comprise — « de bœuf », « d'oignon » —
-  et les noms de plats sont écrits à tête nominale : « rôti {0_adj} ».
-
-  Les viandes et les œufs sont générés par _tools/geninflections.js depuis les
-  traductions officielles de RimWorld (Data/<Extension>/Languages/French*.tar).
-  Ne pas éditer à la main : relancer le générateur.
--->
+<!-- French ingredient forms: a-form, collective, singular, de-form with elision.
+     Meat and egg entries were generated from the official French game labels.
+     The language wrapper prevents these forms from modifying other languages. -->
 <Patch>
+  <Operation Class="FlavorTextExtendedFR.PatchOperationFrench">
+    <patch Class="PatchOperationSequence">
+      <operations>
 
-	<Operation Class="PatchOperationReplace">
+	<li Class="PatchOperationReplace">
 		<xpath>Defs/FlavorText.ThingInflectionsData[defName="Core"]/dictionary</xpath>
 		<value>
 			<dictionary>
@@ -803,9 +796,9 @@
 				</li>
 			</dictionary>
 		</value>
-	</Operation>
+	</li>
 
-	<Operation Class="PatchOperationReplace">
+	<li Class="PatchOperationReplace">
 		<xpath>Defs/FlavorText.ThingInflectionsData[defName="Biotech"]/dictionary</xpath>
 		<value>
 			<dictionary>
@@ -847,9 +840,9 @@
 				</li>
 			</dictionary>
 		</value>
-	</Operation>
+	</li>
 
-	<Operation Class="PatchOperationReplace">
+	<li Class="PatchOperationReplace">
 		<xpath>Defs/FlavorText.ThingInflectionsData[defName="Anomaly"]/dictionary</xpath>
 		<value>
 			<dictionary>
@@ -864,9 +857,9 @@
 				</li>
 			</dictionary>
 		</value>
-	</Operation>
+	</li>
 
-	<Operation Class="PatchOperationReplace">
+	<li Class="PatchOperationReplace">
 		<xpath>Defs/FlavorText.ThingInflectionsData[defName="Odyssey"]/dictionary</xpath>
 		<value>
 			<dictionary>
@@ -1394,6 +1387,9 @@
 				</li>
 			</dictionary>
 		</value>
-	</Operation>
+	</li>
 
+      </operations>
+    </patch>
+  </Operation>
 </Patch>

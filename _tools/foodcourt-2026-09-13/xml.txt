@@ -1,0 +1,3 @@
+PASS: ten FoodCourt fields preserve source ingredient indices; four scoped Shenzhou entries; zongzi wrapper excluded.
+PASS: French-only optional VV_Leeks table and four reviewed forms.
+PASS: 82 XML files; 1831 dishes; 25 French-only patches applied in memory; 186 ingredients across 15 tables; 7 category overrides; 3 grammars; 10 upstream setting strings; Biotech gating; hidden bilingual shortcut.

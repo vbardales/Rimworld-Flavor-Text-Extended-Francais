@@ -1,0 +1,1 @@
+PASS: actual installed FlavorTextSettings and RimWorld Scribe primitive-field serialization; clean defaults, all five values saved/read at both valid cap boundaries, missing-field defaults. Unity FinalizeLoading, full game loading and UI are not executed.

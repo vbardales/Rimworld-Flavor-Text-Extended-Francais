@@ -1,66 +1,55 @@
-# Attributions
+# Attribution and rights
 
-## Required mods
+## Upstream works
 
-**Flavor Text** (hekmo) — [Workshop 3245374432](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)
-**Flavor Text Extended** (nelim)
+- **Flavor Text**, by hekmo: [Workshop 3245374432](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432).
+- **Flavor Text Extended**, by nelim: [source repository](https://github.com/vbardales/Rimworld-Flavor-Text-Extended).
 
-This mod contains no dish and no file from either of those two mods. All it adds is
-French text and a table of grammatical forms.
+This mod translates their dish names and descriptions. Although it does not distribute their
+original files, translated text is derived from those works. The absence of copied source files
+must not be interpreted as independent authorship or permission to redistribute translated text.
 
-## Why this is a separate mod
+## Permission status
 
-Flavor Text gives four forms to every ingredient, and that table lives in a `Def`, not
-in a language file. RimWorld cannot inject a translation into a dictionary-typed field:
-this was tested in game, both by position and by handle, and both were rejected — the
-translation error count went from 3 to 5, and the targeted dish was left unchanged.
+No explicit licence or permission for the underlying Flavor Text text has been established from
+the inspected installed README and About metadata (Flavor Text 0.3.6, RimWorld 1.6).
+This is an **unverified permission**, not a finding that the author has prohibited translation.
+The Workshop description and visible comment page were reviewed again on 2026-09-13; no explicit permission was found there. This was not an exhaustive historical
+comment search. Any later permission must be recorded with its exact source and scope.
 
-Replacing the table therefore requires a `PatchOperationReplace`, and an XML patch has no
-way to gate itself on the game's language. `Patches/Inflections_FR.xml` is thus always
-applied. In an English game, a dish named "{0_adj} roast" would display "de bœuf roast".
+The current repository is public and classified `silent` using the audit request's four-category
+vocabulary. Its name and description disclose the unofficial status. That disclosure is not
+consent and does not resolve the outstanding rights/visibility gate.
 
-Splitting the two mods is the only way to leave each language intact.
+The local MIT licence applies only to rights held by the contributor. It does not license
+Flavor Text or override rights in derivative translations. LICENSE and its distributed copy
+state that scope explicitly. No licence is invented for the upstream work.
 
-## Remapping the four slots
+## Contributions and technical references
 
-English uses plural, collective, singular and adjective. The fourth cannot be rendered in
-French: *rôti* agrees in gender and number, and a text substitution does not know that.
-The four therefore carry:
+- The original French translations remap ingredient slots to prepositional forms. Their 150
+  core/DLC entries were generated using the game's official French labels; those labels are
+  credited to Ludeon Studios and its French translation contributors.
+- The correction pass adds 36 reviewed forms for eleven predefined optional-mod tables,
+  and a compact French grammar for side dishes. Source identifiers remain the upstream IDs.
+- `Source/` contains locally written language selection, a shared-settings bridge and French
+  runtime corrections using Harmony. Harmony is required but not redistributed. Installed RimWorld 1.6
+  `PatchOperation`, `Prefs`, and `LanguageDatabase` behavior was inspected for interoperability;
+  no decompiled game or Flavor Text implementation is distributed.
+- Tests inspect installed dependency XML and compile against local game references.
+  Neither game assemblies nor Flavor Text.dll are copied into this mod.
 
-| slot | French form | examples |
-|---|---|---|
-| `{N_plur}` | "à" form | aux baies, au riz, à la viande de bœuf |
-| `{N_coll}` | bare form | baies, riz, viande de bœuf |
-| `{N_sing}` | singular | baie, riz, œuf de poule |
-| `{N_adj}` | "de" form, elision included | de baies, d'oignon, de héron |
+## AI assistance and images
 
-Dish names are rewritten head-noun first — *rôti de bœuf* rather than *rôti bœuf* — so
-that no agreement depends on an unknown ingredient. Natural agreement is used only where
-the category guarantees the gender: `FT_Egg` always yields a masculine plural,
-`FT_MeatRaw` always *viande de X*, feminine singular.
+Initial translation work used Claude (Anthropic), under human direction and review.
+The correction pass used Codex (OpenAI). A mascot icon candidate and a Preview candidate
+were produced with OpenAI's built-in image generation tool from the existing local artwork.
+The user preferred the original icon, which is retained and resized to 128x128. The final Preview uses a reproducible HTML overlay on the original illustration. Original artwork and superseded renders are preserved under `Art/`.
+No claim of third-party art permission is inferred from an image being present locally.
 
-A hundred and fifty ingredients are covered across the four expansions, generated from
-the game's official translations by `_tools/geninflections.js` in the English mod.
+## Validation limits
 
-## AI assistance
-
-The content of this mod was produced with the assistance of Claude (Anthropic), under
-human direction and review. The design decisions — the remapping above, splitting the two
-mods, the translation trade-offs — were made and approved by the human author.
-
-## Known limits
-
-- **No tool checks gender agreement.** A wrong agreement is valid French as far as a
-  machine is concerned: neither RimWorld's translation report nor the checkers in
-  `_tools/` can see it. They will only show up in play.
-- Three dish names deliberately lose an ingredient slot, because French has a fixed name
-  where English inserted the material: beef Wellington, gingerbread, energy bar.
-- Two descriptions raise a discrepancy with the checker, both intentional: "bubble and
-  squeak" is a proper name kept as is, and `Powdered_PlantFoodRaw_Balls` calls in the
-  original for a `{2_coll}` slot its def does not have — a dead placeholder in Flavor
-  Text, for which the French translation substitutes `{0}`.
-
-## Licence
-
-MIT, see `LICENSE`. It covers the translated text and the inflection table. It covers
-neither Flavor Text nor Flavor Text Extended.
+Historical dictionary-injection experiments were narrower than a full functional campaign.
+They must not be cited as proof of the current implementation. The language-aware XML patch
+replaces the previous unconditional patch and requires fresh in-game regression checks.
+Automated tests cannot certify natural French agreement or runtime UI layout.

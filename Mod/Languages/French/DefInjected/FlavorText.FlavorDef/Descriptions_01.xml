@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   Descriptions — lot 01 : repas pour bébé, cuissons au four, pains et tourtes.
 
@@ -19,12 +19,12 @@
 <LanguageData>
 
 	<!-- Repas pour bébé -->
-	<FlavorText_Scrambled_Egg_2.description>{0_coll} bien battus et brouillés tout doucement à feu très bas, juste pris. Très faciles à digérer pour un nourrisson.</FlavorText_Scrambled_Egg_2.description>
-	<FlavorText_Ingredients_Ingredients_Mash.description>un petit pot {0_adj} et {1_adj} bien moulinés, pour les nourrissons.</FlavorText_Ingredients_Ingredients_Mash.description>
-	<FlavorText_Ingredients_Ingredients_Mash_2.description>un petit pot {0_adj}, {1_adj} et {2_adj} bien moulinés, pour les nourrissons.</FlavorText_Ingredients_Ingredients_Mash_2.description>
-	<FlavorText_Ingredients_Mash_2.description>un petit pot {0_adj} bien mouliné, pour les nourrissons.</FlavorText_Ingredients_Mash_2.description>
-	<FlavorText_Milk_Bottle.description>un biberon {0_adj} tiède, destiné aux nourrissons.</FlavorText_Milk_Bottle.description>
-	<FlavorText_PlantFoodRaw_Puree.description>une purée bien lisse {0_adj}, passée au tamis pour les nourrissons.</FlavorText_PlantFoodRaw_Puree.description>
+
+
+
+
+
+
 
 	<!-- Pâtisseries et desserts au four -->
 	<FlavorText_FairyBread.description>une friandise de goûter australienne : des vermicelles {2_adj} sur une tranche de pain {1_adj} beurrée.</FlavorText_FairyBread.description>

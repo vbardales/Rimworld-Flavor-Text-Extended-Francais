@@ -1,0 +1,318 @@
+[
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\ATTRIBUTION.md",
+    "Hash": "490E73B0815C957C7429357582E81C2D6AFB899D231BDE3B57936D7D24655435"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\LICENSE",
+    "Hash": "43F11FAB2237ED54A28B033077C371943CC237DCE06161EEF5E3A3AEE810A0BE"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\About\\About.xml",
+    "Hash": "61DA966E2C760133C26A73DE64BE01A27A69B802F517608E63B65CDAE87DBF72"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\About\\ModIcon.png",
+    "Hash": "DF187D000B850B446A2DA99B963621684AC2628D68F9D9016BE52C8D631B9292"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\About\\Preview.png",
+    "Hash": "022948DCABD4BC7E1292BE0D8E3661ED8B0631539A218269D5E07EC8FDE38A15"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_01.xml",
+    "Hash": "A11C7A66FB30D51C49F114EEE95A0185C26202EF11E4748A45E53AA0012C14FB"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_02.xml",
+    "Hash": "8843E298324BC0841856B12A8EB50A44D5AF2C5CD67797AFAAA4301FDA6F12F2"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_03.xml",
+    "Hash": "37E9AA6EE06ACA960083216970F4B4F054699BE4B68496FB36854471332E86E2"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_04.xml",
+    "Hash": "182751583805633AED0E77EA177580E4FF18F264274B5F9855DD68DA3B710B34"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_05.xml",
+    "Hash": "13A17FAA48EA88028FE22A385B393DB60F238141860547CB60029ABE7E51442E"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_06.xml",
+    "Hash": "6C56D6CD27DE400B49E7535BEDFE47DE4CECA2A9D7285EECDF20F1B89B5E60EB"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_07.xml",
+    "Hash": "FE469B07563C8FAD180D5C5A95DCF14DAF39E855C95544BE6651C2ED3FA74843"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_08.xml",
+    "Hash": "1F462E5C41853C2A06CBCF8AE0587EC5C60CC21CE50A6772E3B3E54CD1BB3B61"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_09.xml",
+    "Hash": "C0BF1DDAE4F43A94C0F85F533010A674460B23719837AD28E6329A9D48C54995"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_10.xml",
+    "Hash": "6F85C6CA8CDA09F37B4E37D871E6638CF18B031E2521E4018747B0A92EE36EDD"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_11.xml",
+    "Hash": "4D63CAC6ADC8561591A49F31DC69FC35CA3B24C8460000AB1D18B1AE13FEE1FD"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_12.xml",
+    "Hash": "A55BCF95B10BB89E140B6102787A0809A7D3EE925B1E1A917C635B91243741C9"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Descriptions_13.xml",
+    "Hash": "AF7F1317E2EDD9D4BE26D3B4E9154E52A65B58B6108A94A71950BF98E0A70BC0"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Accords.xml",
+    "Hash": "FDF0DAC8A6EFE2DAF98B734E824530C8338957A5537C0F376CB517499667629F"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Accords2.xml",
+    "Hash": "673E8FFBF81416C79500BB13236548C5EB1B2CEE964CAD584E58E0A54B31CE62"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Accords3.xml",
+    "Hash": "C45B60B1C01B12E0BF9962641895350311C276CAF486E7A73C399B8CB25C36E5"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Afrique.xml",
+    "Hash": "CFEF3155ECFEE9E3E0185162F8955B9FAA06D43A2211B767041DDF560204EED9"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Artichaut.xml",
+    "Hash": "1329078390582B8AF841820411F4117BB21988EC0F2D6534542FE8719B1B0D0C"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_AsieSudEst.xml",
+    "Hash": "DC955B520BFE0AEDC632B34AE0D40BDF6AAFF2E3C029E6995FD7BDF6016C21FA"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Asperge.xml",
+    "Hash": "564E85C793BAA0FAB98F66183EC735F6F870F33F3DA1A3D25FD73E5A2DF3C5B3"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Boissons.xml",
+    "Hash": "3F2626F47C418FB85A4999FFE228978265D0968F492ADF45A3C178C6009D5BF3"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Cereales.xml",
+    "Hash": "518089FA8E736C6F8A09921E48F9529784E2A8F8D09C256F778C957AA3F6D4CF"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_ChataigneDEau.xml",
+    "Hash": "BEA092355FA93844950D9D5305C7D4F36AD3C2F8BF49309102EFE9DFE00BEBC7"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Chine.xml",
+    "Hash": "DFA6B66CBC05520D8C77ADAD50FF9C95864F4CD99EF3DD5793CE28BCD6AA0E0A"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_ChouDeBruxelles.xml",
+    "Hash": "2D335D8E54C0063571B505759CD597C66F4646C5DCAEF1A4DAEB48145F9CB33C"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Classiques.xml",
+    "Hash": "67B6AA366A8227503BEBC2AC334AAFB38F7D44DED02FF86621190D7ECB0B81C8"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Classiques2.xml",
+    "Hash": "55FD226CF1F91D5628706A9883BEEED14753C8D3C83BD25B3EA6E0B183FD89AB"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Coree.xml",
+    "Hash": "3567EE8AF1CE03AE94D0A4ACE68F9A73D45E0D1342615E571CFDF27CBF588C48"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Creme.xml",
+    "Hash": "7C7E342FF292125F43484CB1CF21E77145055EA2408E322ABAB6F9FA9A0DFACB"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_CruEtOeufs.xml",
+    "Hash": "1D86865D9AE236AC1F64EBCD61CA20195E2F20D0580845C8FB835C9C3BDA68C8"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Desserts.xml",
+    "Hash": "3AC1EB389B933B3A9677BA0C729211DB48A5DD4C11BC741CF0143332B8DD60B3"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Durian.xml",
+    "Hash": "03929A2DC0692A8BC4E3B59FCB3E83B175404616D8E7F4CD76260B8029B10F2C"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Espagne.xml",
+    "Hash": "7E9CAB9C25D71748C68FCDD2D9DD409481B1EB5DAF0D7A8EA5E8D8B450697830"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Europe.xml",
+    "Hash": "6825ED2A6A70FD77983186127E113AA077C31C86C107981E5D9DF5C009A0C824"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_EuropeEst.xml",
+    "Hash": "2F8EBAFAA3EF4D1A8926B4EF8E843069E29B92298C9AD8946FE497A553F98A18"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Figue.xml",
+    "Hash": "83B5E74590FA552CA0D29C5BF4326049754B56B01676F08F18DBDDD7D678BD77"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_FigueDeBarbarie.xml",
+    "Hash": "98A55FF7DBA284DFDC081D8C27A4F29E99767D1F06F5F8B1B4F13B6834AB0E92"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_FromageFruit.xml",
+    "Hash": "51A7594FFD609020DCF321B9155DFE6072372CB0971925846F1528081493526B"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Grenade.xml",
+    "Hash": "EEF5767CD6ADBFC22456B2AB11F17616615CADC0E20A5DB791A30FBD72239D28"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Inde.xml",
+    "Hash": "0AB792E881CE93B2CA6ED3F2852CED1D2832677278AE37A9B0DFBDC29A33D30F"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Italie.xml",
+    "Hash": "A7205631B928C461DE200A6A9D1D08BF3348218CFCE9EF7980F01A391B42AD15"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Japon.xml",
+    "Hash": "D2C2940B043D29AF55D49D3A57DFF6A6F719C334C1C27DFECBDC9AEC1BF85BCA"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Levant.xml",
+    "Hash": "28F1614193C5E73B5CD7188B272FA022C6A96B96824858F38550396B3D59DABF"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Maghreb.xml",
+    "Hash": "4140DA02B34EF10A040216D16E59EE417119A24FA410B9C88338C0FC5DEC2FAC"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Mangue.xml",
+    "Hash": "834BE8DDD7B5DEF17F3C1D1F70463C8D833C79DC0F2D7E96713302D55A7DE755"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Mexique.xml",
+    "Hash": "3126DAAB4CD8B1FFB7330357DE05B42CE8514C6FB3FE06275141E617E65464D3"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Oeufs.xml",
+    "Hash": "85DB0A2C5798F8EA67FAE2A7A4CDC8E4B1983709606AF4E4DD71EC17C73D5270"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Perou.xml",
+    "Hash": "D96A49022123DBB8CC6F8E3E21A2456A7BDAF6C9E72C77AF435B6CC191C43327"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Rares.xml",
+    "Hash": "60C3C3973A8507054312E59ABDB7B7E2728B7557197C2DC098F70F0989D8D074"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Regions.xml",
+    "Hash": "EF158F0D681792BE9E5B5E3983BD1D7240148F99D26A466F48F160ABFD35138C"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Regions2.xml",
+    "Hash": "07ABBE1384A52851E581BCBBA5DD2E78D8495698D4AAADCC151FAE04E17F44A5"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Reptiles.xml",
+    "Hash": "2BECB27D8992EC30F478124F100D17CF267E7C74381901C520F04A0CDF0E8274"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Sorgho.xml",
+    "Hash": "C3B84D9117108E472928CB326C8FFBCD07FC76EDBD047598092E0390E58D03BB"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_SucreSale.xml",
+    "Hash": "829E173A5DBBE4798AFD37A73C77DEE9B9A1DDA72C53785C18A529503182E69D"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Ext_Toxipatate.xml",
+    "Hash": "E4A3FD4EF85F3E7471BE8C76627F8ACD490A23B9176EE8797A3BEB3CBC8C2E6C"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_01.xml",
+    "Hash": "F05C9A13B84F584A283C5B728D4C0896AB1CBACC02A89A3696551CE567C76243"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_02.xml",
+    "Hash": "8413E27E1A5FB97F579F66FECF50BB52C5FC9C294BBC63291C829103D866894B"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_03.xml",
+    "Hash": "C0E7A2E72D7CD1CFB2D3E702DAFDF1D5057AE0A6817ECEE0DC7491601BC9D035"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_04.xml",
+    "Hash": "8800E5494A65564F7BF3F37CB8E58596A8331AA8B751393C2F6CA2D8A6D6E15B"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_05.xml",
+    "Hash": "DF1405DC9942AF1912D0E306E60D82844884019DCC9B00FDE4F5552C861AB9B7"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_06.xml",
+    "Hash": "996A1D24623DA09ADBCB40CBC41DEB161412046CCBEE4F065E390CF2D90E71C0"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_07.xml",
+    "Hash": "E2A15653EF4D5726E8DAEF673995FFAE9C64AD9E9A87DFD2E92CD930C0BB099B"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_08.xml",
+    "Hash": "F012EF0B5E371BE0066C4FEB853601F8D791A58D7692335AAD3264EBF05BECF0"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_09.xml",
+    "Hash": "716960CA057FF702B39AADC042F1CA2A466E3EC6511D80518A2FE0E3829AE146"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_10.xml",
+    "Hash": "87BCACB322C55EFC87F218FA94C7CC2839DF5BE90F1EB9621C4D5A2FD274998C"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_11.xml",
+    "Hash": "4DD2AA213B5C8C83AFBBE9C06D788CFF92AA8162744FF44898EE9FBB56BA2784"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\DefInjected\\FlavorText.FlavorDef\\Labels_12.xml",
+    "Hash": "9A79797FFCFBCAEC0B69E16B2A66349E83ED558E3BC705F7B2C0C1A2BF952846"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Languages\\French\\Keyed\\Misc.xml",
+    "Hash": "02114DB49872CA6027063453F3282B196DD2CDB4E413A4860C3009A0EFA75230"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Mod\\Patches\\Inflections_FR.xml",
+    "Hash": "776BF38ADED69D64747241EDA509D54D2B195617FC6B24B8EDBDAC0B8FF07AE5"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\_tools\\Test-Xml.ps1",
+    "Hash": "02ED329DAA5FB2BCF6AF8C5DCCA12B96059413935BCF5F754A9C1C0D110B3B90"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\_tools\\FUNCTIONAL-SCENARIOS.md",
+    "Hash": "322C2FE644C827C2ABCBB43C3EEC8F094386FB7D488CF2B595E90D743E1FFA46"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\README.md",
+    "Hash": "2F6CF0A9F678819F3E51B3DE1AC6674429C99624E728555C7FB35E9B26ED47CD"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\ATTRIBUTION.md",
+    "Hash": "490E73B0815C957C7429357582E81C2D6AFB899D231BDE3B57936D7D24655435"
+  },
+  {
+    "Path": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\LICENSE",
+    "Hash": "43F11FAB2237ED54A28B033077C371943CC237DCE06161EEF5E3A3AEE810A0BE"
+  }
+]

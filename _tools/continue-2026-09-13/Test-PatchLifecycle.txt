@@ -1,0 +1,1 @@
+PASS: production wrapper with lifecycle doubles; French mutation, English/German isolation, reload sequence, skipped completion and failure reporting.

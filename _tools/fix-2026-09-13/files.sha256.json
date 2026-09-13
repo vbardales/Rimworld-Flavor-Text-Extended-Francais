@@ -1,0 +1,386 @@
+[
+  {
+    "path": "Mod/ATTRIBUTION.md",
+    "sha256": "31281C7BDFF6FB29DED2E0AFFFED0009BE72961D04217C6B41115A229553C900"
+  },
+  {
+    "path": "Mod/CHANGELOG.md",
+    "sha256": "C8CE95E0187E3C1C800F8E4CDF724CFE050A06BAA67BB70DD9C88A662143A53F"
+  },
+  {
+    "path": "Mod/LICENSE",
+    "sha256": "B392822CC123DE4020860D9B64B5E98EE469A7831419C68715B68CD5F1205832"
+  },
+  {
+    "path": "Mod/LoadFolders.xml",
+    "sha256": "A23D6FF67188DF90862027D5B96991477E173CD346B543E6365656787B12EBF5"
+  },
+  {
+    "path": "Mod/About/About.xml",
+    "sha256": "28C28656865FDD39AC62FE092D7782F162654644F807C8EB3DB5605EB748BC44"
+  },
+  {
+    "path": "Mod/About/ModIcon.png",
+    "sha256": "E765F84CBF7F4F06F38F8424FBF431EF9AD8CD28BE79F92176F78C91CED59856"
+  },
+  {
+    "path": "Mod/About/Preview.png",
+    "sha256": "B3E9C0051B5DA1B9838766DC4E8472806E8584E6D114B096AAEE2702010A001D"
+  },
+  {
+    "path": "Mod/Assemblies/FlavorTextExtendedFR.dll",
+    "sha256": "46FBAF5AC8764D292BB4B21BAB3E256E88E46CCA521FCB42B4ECA9B9E720C5BF"
+  },
+  {
+    "path": "Mod/Biotech/Languages/French/DefInjected/FlavorText.FlavorDef/Biotech.xml",
+    "sha256": "EC48FEA33EFAF6AA6D16E60A00010E490029A3D0B591E820D2F6BB971ADFDB70"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_01.xml",
+    "sha256": "515F308BBD8E7AB19FF263AFA5C7E92F300F25563FEBF9B74193E2995E138282"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_02.xml",
+    "sha256": "8843E298324BC0841856B12A8EB50A44D5AF2C5CD67797AFAAA4301FDA6F12F2"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_03.xml",
+    "sha256": "37E9AA6EE06ACA960083216970F4B4F054699BE4B68496FB36854471332E86E2"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_04.xml",
+    "sha256": "182751583805633AED0E77EA177580E4FF18F264274B5F9855DD68DA3B710B34"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_05.xml",
+    "sha256": "13A17FAA48EA88028FE22A385B393DB60F238141860547CB60029ABE7E51442E"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_06.xml",
+    "sha256": "6C56D6CD27DE400B49E7535BEDFE47DE4CECA2A9D7285EECDF20F1B89B5E60EB"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_07.xml",
+    "sha256": "FE469B07563C8FAD180D5C5A95DCF14DAF39E855C95544BE6651C2ED3FA74843"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_08.xml",
+    "sha256": "1F462E5C41853C2A06CBCF8AE0587EC5C60CC21CE50A6772E3B3E54CD1BB3B61"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_09.xml",
+    "sha256": "C0BF1DDAE4F43A94C0F85F533010A674460B23719837AD28E6329A9D48C54995"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_10.xml",
+    "sha256": "6F85C6CA8CDA09F37B4E37D871E6638CF18B031E2521E4018747B0A92EE36EDD"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_11.xml",
+    "sha256": "4D63CAC6ADC8561591A49F31DC69FC35CA3B24C8460000AB1D18B1AE13FEE1FD"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_12.xml",
+    "sha256": "A55BCF95B10BB89E140B6102787A0809A7D3EE925B1E1A917C635B91243741C9"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Descriptions_13.xml",
+    "sha256": "AF7F1317E2EDD9D4BE26D3B4E9154E52A65B58B6108A94A71950BF98E0A70BC0"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Accords.xml",
+    "sha256": "FDF0DAC8A6EFE2DAF98B734E824530C8338957A5537C0F376CB517499667629F"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Accords2.xml",
+    "sha256": "673E8FFBF81416C79500BB13236548C5EB1B2CEE964CAD584E58E0A54B31CE62"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Accords3.xml",
+    "sha256": "C45B60B1C01B12E0BF9962641895350311C276CAF486E7A73C399B8CB25C36E5"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Afrique.xml",
+    "sha256": "CFEF3155ECFEE9E3E0185162F8955B9FAA06D43A2211B767041DDF560204EED9"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Artichaut.xml",
+    "sha256": "1329078390582B8AF841820411F4117BB21988EC0F2D6534542FE8719B1B0D0C"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_AsieSudEst.xml",
+    "sha256": "DC955B520BFE0AEDC632B34AE0D40BDF6AAFF2E3C029E6995FD7BDF6016C21FA"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Asperge.xml",
+    "sha256": "564E85C793BAA0FAB98F66183EC735F6F870F33F3DA1A3D25FD73E5A2DF3C5B3"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Boissons.xml",
+    "sha256": "3F2626F47C418FB85A4999FFE228978265D0968F492ADF45A3C178C6009D5BF3"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Cereales.xml",
+    "sha256": "518089FA8E736C6F8A09921E48F9529784E2A8F8D09C256F778C957AA3F6D4CF"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_ChataigneDEau.xml",
+    "sha256": "BEA092355FA93844950D9D5305C7D4F36AD3C2F8BF49309102EFE9DFE00BEBC7"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Chine.xml",
+    "sha256": "DFA6B66CBC05520D8C77ADAD50FF9C95864F4CD99EF3DD5793CE28BCD6AA0E0A"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_ChouDeBruxelles.xml",
+    "sha256": "2D335D8E54C0063571B505759CD597C66F4646C5DCAEF1A4DAEB48145F9CB33C"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Classiques.xml",
+    "sha256": "67B6AA366A8227503BEBC2AC334AAFB38F7D44DED02FF86621190D7ECB0B81C8"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Classiques2.xml",
+    "sha256": "55FD226CF1F91D5628706A9883BEEED14753C8D3C83BD25B3EA6E0B183FD89AB"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Coree.xml",
+    "sha256": "3567EE8AF1CE03AE94D0A4ACE68F9A73D45E0D1342615E571CFDF27CBF588C48"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Creme.xml",
+    "sha256": "7C7E342FF292125F43484CB1CF21E77145055EA2408E322ABAB6F9FA9A0DFACB"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_CruEtOeufs.xml",
+    "sha256": "1D86865D9AE236AC1F64EBCD61CA20195E2F20D0580845C8FB835C9C3BDA68C8"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Desserts.xml",
+    "sha256": "3AC1EB389B933B3A9677BA0C729211DB48A5DD4C11BC741CF0143332B8DD60B3"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Durian.xml",
+    "sha256": "03929A2DC0692A8BC4E3B59FCB3E83B175404616D8E7F4CD76260B8029B10F2C"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Espagne.xml",
+    "sha256": "7E9CAB9C25D71748C68FCDD2D9DD409481B1EB5DAF0D7A8EA5E8D8B450697830"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Europe.xml",
+    "sha256": "6825ED2A6A70FD77983186127E113AA077C31C86C107981E5D9DF5C009A0C824"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_EuropeEst.xml",
+    "sha256": "2F8EBAFAA3EF4D1A8926B4EF8E843069E29B92298C9AD8946FE497A553F98A18"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Figue.xml",
+    "sha256": "83B5E74590FA552CA0D29C5BF4326049754B56B01676F08F18DBDDD7D678BD77"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_FigueDeBarbarie.xml",
+    "sha256": "98A55FF7DBA284DFDC081D8C27A4F29E99767D1F06F5F8B1B4F13B6834AB0E92"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_FromageFruit.xml",
+    "sha256": "51A7594FFD609020DCF321B9155DFE6072372CB0971925846F1528081493526B"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Grenade.xml",
+    "sha256": "EEF5767CD6ADBFC22456B2AB11F17616615CADC0E20A5DB791A30FBD72239D28"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Inde.xml",
+    "sha256": "0AB792E881CE93B2CA6ED3F2852CED1D2832677278AE37A9B0DFBDC29A33D30F"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Italie.xml",
+    "sha256": "A7205631B928C461DE200A6A9D1D08BF3348218CFCE9EF7980F01A391B42AD15"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Japon.xml",
+    "sha256": "D2C2940B043D29AF55D49D3A57DFF6A6F719C334C1C27DFECBDC9AEC1BF85BCA"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Levant.xml",
+    "sha256": "28F1614193C5E73B5CD7188B272FA022C6A96B96824858F38550396B3D59DABF"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Maghreb.xml",
+    "sha256": "4140DA02B34EF10A040216D16E59EE417119A24FA410B9C88338C0FC5DEC2FAC"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Mangue.xml",
+    "sha256": "834BE8DDD7B5DEF17F3C1D1F70463C8D833C79DC0F2D7E96713302D55A7DE755"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Mexique.xml",
+    "sha256": "3126DAAB4CD8B1FFB7330357DE05B42CE8514C6FB3FE06275141E617E65464D3"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Oeufs.xml",
+    "sha256": "85DB0A2C5798F8EA67FAE2A7A4CDC8E4B1983709606AF4E4DD71EC17C73D5270"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Perou.xml",
+    "sha256": "D96A49022123DBB8CC6F8E3E21A2456A7BDAF6C9E72C77AF435B6CC191C43327"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Rares.xml",
+    "sha256": "60C3C3973A8507054312E59ABDB7B7E2728B7557197C2DC098F70F0989D8D074"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Regions.xml",
+    "sha256": "EF158F0D681792BE9E5B5E3983BD1D7240148F99D26A466F48F160ABFD35138C"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Regions2.xml",
+    "sha256": "07ABBE1384A52851E581BCBBA5DD2E78D8495698D4AAADCC151FAE04E17F44A5"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Reptiles.xml",
+    "sha256": "2BECB27D8992EC30F478124F100D17CF267E7C74381901C520F04A0CDF0E8274"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Sorgho.xml",
+    "sha256": "C3B84D9117108E472928CB326C8FFBCD07FC76EDBD047598092E0390E58D03BB"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_SucreSale.xml",
+    "sha256": "829E173A5DBBE4798AFD37A73C77DEE9B9A1DDA72C53785C18A529503182E69D"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Ext_Toxipatate.xml",
+    "sha256": "E4A3FD4EF85F3E7471BE8C76627F8ACD490A23B9176EE8797A3BEB3CBC8C2E6C"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_01.xml",
+    "sha256": "05AE859562B442F19EFF7651599801967582AAE54C721DF231646C61876C0440"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_02.xml",
+    "sha256": "8413E27E1A5FB97F579F66FECF50BB52C5FC9C294BBC63291C829103D866894B"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_03.xml",
+    "sha256": "C0E7A2E72D7CD1CFB2D3E702DAFDF1D5057AE0A6817ECEE0DC7491601BC9D035"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_04.xml",
+    "sha256": "8800E5494A65564F7BF3F37CB8E58596A8331AA8B751393C2F6CA2D8A6D6E15B"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_05.xml",
+    "sha256": "DF1405DC9942AF1912D0E306E60D82844884019DCC9B00FDE4F5552C861AB9B7"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_06.xml",
+    "sha256": "996A1D24623DA09ADBCB40CBC41DEB161412046CCBEE4F065E390CF2D90E71C0"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_07.xml",
+    "sha256": "E2A15653EF4D5726E8DAEF673995FFAE9C64AD9E9A87DFD2E92CD930C0BB099B"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_08.xml",
+    "sha256": "F012EF0B5E371BE0066C4FEB853601F8D791A58D7692335AAD3264EBF05BECF0"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_09.xml",
+    "sha256": "716960CA057FF702B39AADC042F1CA2A466E3EC6511D80518A2FE0E3829AE146"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_10.xml",
+    "sha256": "87BCACB322C55EFC87F218FA94C7CC2839DF5BE90F1EB9621C4D5A2FD274998C"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_11.xml",
+    "sha256": "4DD2AA213B5C8C83AFBBE9C06D788CFF92AA8162744FF44898EE9FBB56BA2784"
+  },
+  {
+    "path": "Mod/Languages/French/DefInjected/FlavorText.FlavorDef/Labels_12.xml",
+    "sha256": "9A79797FFCFBCAEC0B69E16B2A66349E83ED558E3BC705F7B2C0C1A2BF952846"
+  },
+  {
+    "path": "Mod/Languages/French/Keyed/Misc.xml",
+    "sha256": "02114DB49872CA6027063453F3282B196DD2CDB4E413A4860C3009A0EFA75230"
+  },
+  {
+    "path": "Mod/Patches/Inflections_FR.xml",
+    "sha256": "4D8C0FAF79E49D9F1E72D59AF9E6875F9059AD7EA0F16AA7D91906F2A3027361"
+  },
+  {
+    "path": "Mod/Patches/Inflections_ThirdParty_FR.xml",
+    "sha256": "4D2A65252D8FA1E8F9993B4194E6C27D89AFDF4B06F17E2DC75F3944603BBF35"
+  },
+  {
+    "path": "Mod/Patches/SideDishes_FR.xml",
+    "sha256": "55F49370420DD20E97EDD30AC3C3354C5D6BA84DD927ECCD951729917A78C115"
+  },
+  {
+    "path": "Source/FrenchLanguage.cs",
+    "sha256": "C667B8EE1069419AD1F2093711AF36E5B2B883060FA6EED59A3DBDDC38FDDE5A"
+  },
+  {
+    "path": "Source/PatchOperationFrench.cs",
+    "sha256": "97F371F775A735FE58C859290C56755602EA4C55A67D49D424E6CBCE55877C0F"
+  },
+  {
+    "path": "STATUS.md",
+    "sha256": "5AD332DA82CD7726D928F866DFA5E9C4C2056CE5B8F50CE3FEB7886396CE377E"
+  },
+  {
+    "path": "README.md",
+    "sha256": "8DDA7FB3E301C66B0C1167BD7A7560EDBA50F9600294C6797FFAF008122BFD3C"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "B392822CC123DE4020860D9B64B5E98EE469A7831419C68715B68CD5F1205832"
+  },
+  {
+    "path": "ATTRIBUTION.md",
+    "sha256": "31281C7BDFF6FB29DED2E0AFFFED0009BE72961D04217C6B41115A229553C900"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "C8CE95E0187E3C1C800F8E4CDF724CFE050A06BAA67BB70DD9C88A662143A53F"
+  },
+  {
+    "path": "_tools/Build.ps1",
+    "sha256": "4E473529371FF21F626A26B2E1C440404FFE987BC1E65887F55B4CEBE536E4D8"
+  },
+  {
+    "path": "_tools/Test-Language.ps1",
+    "sha256": "4FF7D2EE32FD5E0780BD05D83D6E03831130DE508223FF4165AD8F7AE6056880"
+  },
+  {
+    "path": "_tools/Test-PatchLifecycle.ps1",
+    "sha256": "26DC6E2F2B0BAB3D869C05F7794208094374FAB5845A1A8BAE493D5F30842537"
+  },
+  {
+    "path": "_tools/Test-Xml.ps1",
+    "sha256": "1377B77B912C42E2CEB30CA2F58A03EE9ABE077B91D4F936CB8C27A4326AD1DF"
+  },
+  {
+    "path": "_tools/Tests/PatchLifecycle.cs",
+    "sha256": "353992D01B788EBD079FF63385345F6D989D9A43FE730C6FA8895CDF34F8E8B5"
+  },
+  {
+    "path": "_tools/FUNCTIONAL-SCENARIOS.md",
+    "sha256": "F627D79B063E33225DDAF17B39072BDD3AD716D811209327E085DC1DA1254182"
+  },
+  {
+    "path": "Art/preview-palette.json",
+    "sha256": "A3FBCAA2A2D20AC51B0796785A289655A1598D9D4EBB12DE34227F466F152D86"
+  },
+  {
+    "path": "Art/preview-template.html",
+    "sha256": "AC8662144FE5FFA439DAA1834BEC5B98955045330485B54429474980B8D8D0B4"
+  },
+  {
+    "path": "Art/preview.html",
+    "sha256": "D2495C4A027E3AE12530A7BD6F48C9CBE2763628FBAEC38A7CB214EA8F48F62F"
+  }
+]

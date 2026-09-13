@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FTFR_UnknownIngredient>ingrédient</FTFR_UnknownIngredient>
+  <FTFR_FallbackA>à base de {0}</FTFR_FallbackA>
+  <FTFR_FallbackAElided>à base d'{0}</FTFR_FallbackAElided>
+  <FTFR_FallbackDe>de {0}</FTFR_FallbackDe>
+  <FTFR_FallbackDeElided>d'{0}</FTFR_FallbackDeElided>
+</LanguageData>

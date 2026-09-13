@@ -1,0 +1,30 @@
+[
+  {
+    "Path": "Art/archive/ModIcon-2026-09-13-before.png",
+    "Width": 64,
+    "Height": 64,
+    "Bytes": 7504,
+    "SHA256": "DF187D000B850B446A2DA99B963621684AC2628D68F9D9016BE52C8D631B9292"
+  },
+  {
+    "Path": "Art/ModIcon-source.png",
+    "Width": 64,
+    "Height": 64,
+    "Bytes": 7504,
+    "SHA256": "DF187D000B850B446A2DA99B963621684AC2628D68F9D9016BE52C8D631B9292"
+  },
+  {
+    "Path": "Mod/About/ModIcon.png",
+    "Width": 128,
+    "Height": 128,
+    "Bytes": 33010,
+    "SHA256": "E765F84CBF7F4F06F38F8424FBF431EF9AD8CD28BE79F92176F78C91CED59856"
+  },
+  {
+    "Path": "Mod/About/Preview.png",
+    "Width": 896,
+    "Height": 504,
+    "Bytes": 569664,
+    "SHA256": "B3E9C0051B5DA1B9838766DC4E8472806E8584E6D114B096AAEE2702010A001D"
+  }
+]

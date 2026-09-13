@@ -1,66 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Flavor Text Extended - Français</name>
-	<author>nelim</author>
-	<packageId>nelim.flavortextextended.fr</packageId>
-	<url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais</url>
-	<description>Traduction française de Flavor Text (hekmo) et de Flavor Text Extended. Ne contient aucun plat : uniquement des textes et des formes grammaticales.
+  <name>Flavor Text Extended - Français (unofficial)</name>
+  <author>nelim</author>
+  <packageId>nelim.flavortextextended.fr</packageId>
+  <url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais</url>
+  <description>UNOFFICIAL. This mod is published without the original author's explicit consent.
+If the original author contacts me to request its removal, I undertake to take it down promptly.
+French dish names, descriptions and ingredient forms for Flavor Text and Flavor Text Extended.
 
-CE QU'IL TRADUIT
+WHAT IT TRANSLATES
 
-Les 930 noms de plats de Flavor Text et leurs 930 descriptions. Les 896 plats de Flavor Text Extended, noms et descriptions. Les réglages du mod.
+The names and descriptions of 930 Flavor Text dishes and 901 Flavor Text Extended dishes, the five Flavor Text settings, predefined ingredient inflections and side-dish sentence templates. No new dishes are added by this translation.
 
-CE QUE VOTRE COLONIE CULTIVE DÉCIDE DE CE QUE VOUS VOYEZ
+LANGUAGES
 
-Un plat ne peut apparaître que si ses ingrédients existent dans votre partie. Les 896 de Flavor Text Extended s'appuient sur un garde-manger plus large que celui du jeu de base — blé, fromage, beurre, crème, oignon, tomate, ail, piment — et une partie sans mod de cuisine n'en verra qu'une quarantaine. Avec des mods d'agriculture et de cuisine, l'ensemble entre en jeu.
+French ingredient forms carry their own articles and prepositions, for example « aux baies » and « de bœuf ». A small language-aware patch applies these forms and the side-dish grammar only when French is selected. English keeps the original dependencies' text and inflection tables. Language-switching behavior still awaits in-game validation.
 
-Cette traduction, elle, couvre tout : les 930 plats de hekmo et les 896, qu'ils se déclenchent ou non.
+COMPATIBILITY
 
-LA GRAMMAIRE, QUI EST LE VRAI SUJET
+Requires RimWorld 1.6, Flavor Text by hekmo, and Flavor Text Extended, in that order. Harmony is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
 
-Flavor Text donne quatre formes à chaque ingrédient. En anglais ce sont pluriel, collectif, singulier et adjectif. En français le quatrième ne peut pas porter un adjectif : « rôti » s'accorde en genre et en nombre, et une substitution de texte ne sait pas le faire.
+SETTINGS
 
-Les quatre emplacements sont donc remappés sur des formes qui portent leur préposition : « aux baies », « baies », « baie », « de baies ». Les noms de plats sont réécrits à tête nominale — « rôti de bœuf » et non « rôti bœuf » — de sorte qu'aucun accord ne dépende d'un ingrédient inconnu. L'élision est traitée, y compris devant un h aspiré : « d'oignon », mais « de héron ».
+Use Options → Mod settings → Flavor Text Extended - Français (unofficial) for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
 
-Cent cinquante ingrédients sont couverts, sur les quatre extensions, à partir des traductions officielles du jeu.
+KNOWN LIMITS
 
-POURQUOI UN MOD SÉPARÉ
+Unlisted ingredients use neutral French forms built from their localized labels; unknown irregular singulars and missing third-party translations cannot be inferred. All seven category forms and the hairy-meal prefix are translated. Language isolation, shared settings and French generation have technical coverage but still require in-game validation. See README.md and STATUS.md for the current test scope.
 
-Les inflexions vivent dans une def, pas dans un fichier de langue, et RimWorld ne sait pas injecter de traduction dans ce type de champ — vérifié en jeu. Les remplacer suppose donc un patch, qui s'applique quelle que soit la langue. Un jeu en anglais recevrait des formes françaises et afficherait « de bœuf roast ».
+CREDITS AND RIGHTS
 
-Séparer les deux mods est la seule façon de laisser chaque langue intacte.
+Flavor Text and its naming machinery are by hekmo. Flavor Text Extended and this translation are maintained by nelim. Translation work used Claude (Anthropic) under human direction and review; subsequent fixes and image editing used OpenAI tools. See ATTRIBUTION.md.
 
-- - -
+No explicit upstream permission has been established. The local MIT notice applies only to rights held by the contributor and grants no rights in the upstream material.
 
-French translation of Flavor Text (hekmo) and Flavor Text Extended. Contains no dishes: text and grammatical forms only.
-
-Install this only if you play in French. It replaces the ingredient inflection table, which lives in a def rather than a language file, so the replacement applies in every language. In an English game it would produce French forms inside English dish names.
-
-CRÉDITS
-
-Flavor Text est de hekmo. Toute sa mécanique est son œuvre.
-
-Traduction produite avec l'assistance de Claude (Anthropic), sous direction et relecture humaines. Voir ATTRIBUTION.md.</description>
-	<modVersion>1.0.0</modVersion>
-	<supportedVersions>
-		<li>1.6</li>
-	</supportedVersions>
-	<modDependencies>
-		<li>
-			<packageId>hekmo.FlavorText</packageId>
-			<displayName>Flavor Text</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/3245374432</steamWorkshopUrl>
-		</li>
-		<li>
-			<packageId>nelim.flavortextextended</packageId>
-			<displayName>Flavor Text Extended</displayName>
-			<downloadUrl>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</downloadUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>
-		<li>brrainz.harmony</li>
-		<li>Ludeon.RimWorld</li>
-		<li>hekmo.FlavorText</li>
-		<li>nelim.flavortextextended</li>
-	</loadAfter>
+[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Source code on GitHub[/url]</description>
+  <modVersion>1.0.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>hekmo.FlavorText</packageId>
+      <displayName>Flavor Text</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3245374432</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>nelim.flavortextextended</packageId>
+      <displayName>Flavor Text Extended</displayName>
+      <downloadUrl>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>hekmo.FlavorText</li>
+    <li>nelim.flavortextextended</li>
+  </loadAfter>
 </ModMetaData>

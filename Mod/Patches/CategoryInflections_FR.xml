@@ -1,0 +1,85 @@
+<Patch>
+  <Operation Class="FlavorTextExtendedFR.PatchOperationFrench">
+    <patch Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Egg"]/inflectionsOverride</xpath>
+          <value>
+            <inflectionsOverride>
+              <li>aux œufs</li>
+              <li>œufs</li>
+              <li>œuf</li>
+              <li>d'œufs</li>
+            </inflectionsOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Flour"]/inflectionsOverride</xpath>
+          <value>
+            <inflectionsOverride>
+              <li>à la pâte</li>
+              <li>pâte</li>
+              <li>portion de pâte</li>
+              <li>de pâte</li>
+            </inflectionsOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Meat_Insect"]/inflectionsOverride</xpath>
+          <value>
+            <inflectionsOverride>
+              <li>à la viande d'insecte</li>
+              <li>viande d'insecte</li>
+              <li>morceau de viande d'insecte</li>
+              <li>d'insecte</li>
+            </inflectionsOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Meat_Mutton"]/inflectionsOverride</xpath>
+          <value>
+            <inflectionsOverride>
+              <li>à la viande de mouton</li>
+              <li>viande de mouton</li>
+              <li>morceau de viande de mouton</li>
+              <li>de mouton</li>
+            </inflectionsOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Meat_Sheep"]/inflectionsOverride</xpath>
+          <value>
+            <inflectionsOverride>
+              <li>à la viande de mouton</li>
+              <li>viande de mouton</li>
+              <li>morceau de viande de mouton</li>
+              <li>de mouton</li>
+            </inflectionsOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_Meat_Twisted"]/inflectionsOverride</xpath>
+          <value>
+            <inflectionsOverride>
+              <li>à la chair déformée</li>
+              <li>chair déformée</li>
+              <li>morceau de chair déformée</li>
+              <li>de chair déformée</li>
+            </inflectionsOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/FlavorText.FlavorCategoryDef[defName="FT_MeatRaw"]/inflectionsOverride</xpath>
+          <value>
+            <inflectionsOverride>
+              <li>à la viande</li>
+              <li>viande</li>
+              <li>morceau de viande</li>
+              <li>de viande</li>
+            </inflectionsOverride>
+          </value>
+        </li>
+      </operations>
+    </patch>
+  </Operation>
+</Patch>

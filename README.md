@@ -1,111 +1,121 @@
-# Flavor Text Extended - Français
+# Flavor Text Extended - Français (unofficial)
+
+UNOFFICIAL. This mod is published without the original author's explicit consent.
+If the original author contacts me to request its removal, I undertake to take it down promptly.
 
 French translation of [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)
-by hekmo and of [Flavor Text Extended](https://github.com/vbardales/Rimworld-Flavor-Text-Extended).
-RimWorld 1.6.
+by hekmo and [Flavor Text Extended](https://github.com/vbardales/Rimworld-Flavor-Text-Extended).
+Targets RimWorld 1.6. This mod adds text and grammatical forms, not dishes.
 
-This mod contains no dishes: text and grammatical forms only.
+## Installation and languages
 
-## Install it only if you play in French
+Load Harmony, Flavor Text, Flavor Text Extended, then this mod. Harmony is a direct dependency.
+Cooking and farming mods are optional. They determine which ingredients and dishes are available.
+Biotech-only translations are loaded only when Biotech is active.
 
-It needs both other mods. In an English game it would produce French forms inside English
-dish names — see below for why it cannot help doing so.
+French dish labels use RimWorld's native DefInjected system. Ingredient dictionaries and
+side-dish grammar use a small compiled patch operation: it executes their XML replacements
+only when the selected language folder is `French`. Other languages retain the dependencies'
+original dictionaries and grammar. RimWorld reloads play data when changing language.
+This behavior has technical regression coverage; live language switching still needs testing.
 
-## What it translates
+## Coverage
 
-The 930 dish names of Flavor Text and their 930 descriptions. The 896 dishes of Flavor
-Text Extended, names and descriptions. The mod's own settings.
+- Names and descriptions for 930 Flavor Text and 901 Flavor Text Extended dishes.
+- Five Flavor Text setting labels and five tooltips, using the upstream English keys.
+- 186 ingredient entries across all 15 predefined inflection tables in Flavor Text 0.3.6.
+- French sentence templates joining main dishes and side dishes.
+- Seven category inflection overrides, the hairy-meal prefix and a French fallback for unlisted ingredients.
 
-## What your colony grows decides what you see
+English resources cover this mod's own fallback keys; dependency source text is not duplicated.
+The optional ingredient tables do not require those mods to be installed.
 
-A dish can only appear if its ingredients exist in the game. The 896 of Flavor Text
-Extended lean on a wider pantry than vanilla keeps — wheat, cheese, butter, cream, onion,
-tomato, garlic, chilli — so a save with no cooking mods will see about forty of them.
+## French grammar
 
-This translation covers everything regardless: hekmo's 930 and the 896, whether they fire
-or not. Nothing more to install the day you add a farming mod.
+The four ingredient slots carry their own articles and prepositions:
 
-## The grammar, which is the real subject
+| Slot | Meaning | Example |
+| --- | --- | --- |
+| `{N_plur}` | a-form | aux baies, au riz, à la viande de bœuf |
+| `{N_coll}` | collective form | baies, riz, viande de bœuf |
+| `{N_sing}` | singular | baie, grain de riz, morceau de viande |
+| `{N_adj}` | de-form, including elision | de baies, d'oignon, de bœuf |
 
-Flavor Text gives every ingredient four forms. In English they are plural, collective,
-singular and adjectival. In French the fourth cannot carry an adjective: *rôti* agrees in
-gender and number, and text substitution does not know the gender of an ingredient.
+Dish names can then say `rôti {0_adj}` without guessing an ingredient's gender.
+French side-dish templates use complete sentences and do not assume a dish name's gender.
+They intentionally use a smaller French grammar than the English original, without
+its English-dependent adjective and name-generation rules.
 
-The four slots are therefore remapped onto forms that **carry their own preposition**:
+## Settings
 
-| Slot | Role | Example |
-|---|---|---|
-| `{N_plur}` | the "à" form | aux baies, au riz, à la viande de bœuf |
-| `{N_coll}` | bare form | baies, riz, viande de bœuf |
-| `{N_sing}` | singular | baie, riz, œuf de poule |
-| `{N_adj}` | the "de" form, with elision | de baies, d'oignon, de bœuf |
+Use **Options → Mod settings → Flavor Text Extended - Français (unofficial)**. The five settings belong to Flavor Text:
+extra ingredient cap, quick search, meal-stack naming, lax recipe matching and dynamic
+meal detection. The original Flavor Text page remains available and shares the same configuration.
+A MainButtons shortcut is hidden by default and can be revealed by customization mods.
+It opens this same page. No customization mod is required for primary access.
+The ingredient cap is clamped to 0–6 on construction, page access and saving.
+Settings are global. Stack naming applies when labels are read; recipe-search and ingredient
+options affect generation. Restart after changing recipe matching or dynamic meal detection
+to rebuild upstream caches. Existing cached meal names are not guaranteed to regenerate.
+Defaults are 0, false, true, true, true in the order listed above.
 
-Dish names are rewritten with a noun head — *rôti de bœuf*, not *rôti bœuf* — so that no
-agreement ever depends on an unknown ingredient. Elision is handled, including before an
-aspirated h: *d'oignon*, but *de héron*.
+## Known limits and validation
 
-One hundred and fifty ingredients are covered, across the four expansions, taken from the
-game's official French translations.
+In French, unlisted ingredients use their localized label with neutral French complements.
+The fallback preserves accents and compound labels instead of applying English singularization.
+It cannot translate an ingredient whose supplying mod has no French label, or infer every
+irregular singular. Exact forms belong in the reviewed dictionaries. Known aspirated-h words
+(haricot, houblon, husky, héron) survive RimWorld's final meal-text processing.
+French agreement and the rendering of existing named meals still require in-game review.
 
-## Why a separate mod rather than a `Languages/` folder
+The final functional campaign has not been executed. No FR/EN game UI, persistence or save
+compatibility result is inferred from compilation or XML tests. Primitive settings persistence
+and Harmony dispatch have separate checks using the installed assemblies; RIMMSQOL and Unity
+interaction remain unverified. See `STATUS.md` for the current
+workflow stage, `_tools/FUNCTIONAL-SCENARIOS.md` for scenarios and `CHANGELOG.md` for changes.
 
-The inflections live in a def, not in a language file, and RimWorld cannot inject a
-translation into that kind of field. This is not an assumption: it was tested in game,
-first on an indexed path (`value.0`), then on a `[TranslationHandle]`. Both fail, and the
-translation error count goes up rather than down.
+## Build and technical checks
 
-Replacing them therefore takes a `PatchOperation`, which applies whatever language the game
-is running in. That is also why this mod cannot be folded into the English one: it would
-render *de bœuf roast* for anyone playing in English.
+Requires a .NET SDK and an installed RimWorld 1.6. No NuGet package or copied game DLL is shipped.
 
-Splitting the two mods is the only way to leave each language intact.
-
-## Layout
-
+```powershell
+& ./_tools/Build.ps1
+& ./_tools/Test-Language.ps1
+pwsh -NoProfile -File ./_tools/Test-PatchLifecycle.ps1
+& ./_tools/Test-Xml.ps1
+pwsh -NoProfile -File ./_tools/Test-UpstreamSettings.ps1
+pwsh -NoProfile -File ./_tools/Test-SettingsBridge.ps1
+pwsh -NoProfile -File ./_tools/Test-Fallback.ps1
+pwsh -NoProfile -File ./_tools/Test-FallbackPrefix.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-HarmonyRegistration.ps1
 ```
-Languages/French/DefInjected/FlavorText.FlavorDef/
-    Labels_01-12.xml, Descriptions_01-13.xml   hekmo's 930 dishes
-    Ext_*.xml  (42 files)                       the 896 of Flavor Text Extended
-Languages/French/Keyed/Misc.xml                 the settings
-Patches/Inflections_FR.xml                      the inflection table, 150 ingredients
-```
 
-One `Ext_*.xml` per defs file in the English mod, same split and same name, so that a dish
-can be found on both sides without hunting for it.
+`Build.ps1 -Managed <path>` accepts another RimWorld Managed directory. It compiles against
+those references and copies only `FlavorTextExtendedFR.dll` into `Mod/Assemblies/`.
+Source and intermediates stay outside the distributed `Mod/` folder.
+`-FlavorText` and `-Harmony` accept alternative dependency DLL paths. The Harmony integration
+test uses Windows PowerShell/.NET Framework; the installed Harmony build is incompatible with
+the test host's PowerShell Core runtime. It does not start Unity or modify player configuration.
+`Test-Xml.ps1 -FlavorText <Defs> -Extended <Defs>` accepts other dependency locations.
+It requires both dependency datasets; missing dependencies fail the check.
 
-## A known limit
+For interactive acceptance testing, close RimWorld and run
+`& ./_tools/Start-IsolatedGame.ps1 -Language French` (or `English`). The launcher creates a
+fresh profile under `.build/game-tests/`, activates only Core and the three required mods
+plus this translation, and writes a separate Player.log. Steam must be accessible so the
+Workshop dependencies are discovered. Enable DLCs or optional integrations within that
+test profile for the corresponding scenarios. `-Headless` is only a loading diagnostic:
+the null graphics device emits shader errors and cannot validate rendering or interaction.
 
-The inflection table covers the ingredients of the base game and the four expansions. An
-ingredient from another mod is not in it: Flavor Text then falls back on its own mechanism
-and shows the English form, or a raw one. There is no console error — the dish simply reads
-less well.
+`Art/` keeps image sources and archived previous renders. `Mod/About/` contains the installed
+PNG assets. `Mod/` also carries matching licence, attribution and changelog copies.
 
-## Credits
+## Credits and licence
 
-**Flavor Text** is by hekmo. All of its machinery — how names are composed, how a
-definition is chosen, how ingredients inflect — is his work. This mod only substitutes text
-into it.
+Flavor Text and its naming machinery are by hekmo. Flavor Text Extended and this translation
+are maintained by nelim. Initial translation work used Claude (Anthropic), under human direction
+and review. Subsequent fixes and image work used OpenAI tools. See `ATTRIBUTION.md`.
 
-Translation produced with the assistance of Claude (Anthropic), under human direction and
-review. See `ATTRIBUTION.md` for the detail.
-
-## Licence
-
-MIT, see `LICENSE`. It covers the translations and the inflection table. It does not cover
-Flavor Text, which remains under its own terms.
-
-- - -
-
-## En français
-
-Traduction française de Flavor Text (hekmo) et de Flavor Text Extended. Aucun plat : que du
-texte et des formes grammaticales.
-
-**À installer seulement si vous jouez en français.** Il remplace la table d'inflexions des
-ingrédients, qui vit dans une def et non dans un fichier de langue : le remplacement
-s'applique donc quelle que soit la langue du jeu, RimWorld ne sachant pas conditionner un
-patch XML à la langue courante. Dans une partie en anglais, il produirait des formes
-françaises à l'intérieur de noms anglais.
-
-C'est aussi la raison pour laquelle il est un mod séparé, et non un dossier `Languages/`
-dans Flavor Text Extended.
+The MIT notice covers only contributions for which the contributor holds the required rights.
+It does not grant rights in upstream material. Translation derives from source text; no explicit
+upstream permission has been established. The unofficial notice is disclosure, not permission.

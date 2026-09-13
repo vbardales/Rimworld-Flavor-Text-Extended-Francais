@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FlavorTextExtended_Altang.label>altang</FlavorTextExtended_Altang.label>
+  <FlavorTextExtended_Altang.description>une soupe épicée associant {0_coll}, {1_coll} et du caillé tendre {2_adj} dans un bouillon {3_adj}. Cette version coloniale remplace les œufs de poisson du plat d'origine par les ingrédients disponibles.</FlavorTextExtended_Altang.description>
+  <FlavorTextExtended_Beondegi.label>beondegi</FlavorTextExtended_Beondegi.label>
+  <FlavorTextExtended_Beondegi.description>une préparation {0_adj} longuement mijotée pour l'attendrir, servie dans un petit gobelet. Une adaptation coloniale de l'en-cas de rue à base de chrysalides de vers à soie.</FlavorTextExtended_Beondegi.description>
+  <FlavorTextExtended_Bungeoppang.label>bungeoppang</FlavorTextExtended_Bungeoppang.label>
+  <FlavorTextExtended_Bungeoppang.description>des pâtisseries {0_adj} en forme de poisson, fourrées d'une pâte lisse {1_adj} sucrée avec {2_coll}. Le moule leur donne leur silhouette ; la garniture ne contient aucun poisson.</FlavorTextExtended_Bungeoppang.description>
+  <FlavorTextExtended_Jjapaghuri.label>jjapaghuri</FlavorTextExtended_Jjapaghuri.label>
+  <FlavorTextExtended_Jjapaghuri.description>des nouilles {0_adj} mélangées à une sauce sombre {2_adj} relevée {3_adj}, puis garnies d'une portion {1_adj} saisie à feu vif. Une adaptation aux réserves de la colonie d'un plat mêlant deux sortes de nouilles instantanées.</FlavorTextExtended_Jjapaghuri.description>
+  <FlavorTextExtended_Kimchijeon.label>kimchijeon</FlavorTextExtended_Kimchijeon.label>
+  <FlavorTextExtended_Kimchijeon.description>une fine galette {0_adj}, repliée sur une garniture fermentée {1_adj} relevée {2_adj}, puis frite jusqu'à ce que les bords deviennent croustillants. L'acidité de la garniture parfume la pâte pendant la cuisson.</FlavorTextExtended_Kimchijeon.description>
+</LanguageData>

@@ -1,0 +1,1 @@
+PASS: 74 XML files; 1826 dishes; 17 French-only patches applied in memory; 186 ingredients across 15 tables; 2 grammars; 10 bilingual setting strings; Biotech gating.
