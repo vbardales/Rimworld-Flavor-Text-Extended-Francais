@@ -1,5 +1,9 @@
 # Functional acceptance scenarios
 
+Execution owner: **user**, explicitly confirmed on 2026-09-13. Codex handles offline
+checks only and must not launch, control or close RimWorld. Record actual results below
+only after the user reports observations; no pending scenario is presumed successful.
+
 Status: **not executed** for the correction build of 2026-09-13. The earlier scenario
 set is preserved in `fix-2026-09-13/FUNCTIONAL-SCENARIOS.before.md`.
 Record date, game/dependency versions, exact distributed file hashes, mod list, language,

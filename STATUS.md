@@ -8,12 +8,15 @@ visibility_verified_at: 2026-09-13
 visibility_evidence: live GitHub repository read and ls-remote during the preceding audit
 mod_visibility: public via GitHub; Workshop publication not established
 detached: yes
-stage: dansMonoRepo
-stage_meaning: cumulative baseline; physically detached, but rights consistency for horsMonoRepo remains unverified
+stage: done
+stage_meaning: offline gates complete under the user-approved public silent workflow; in-game validation pending
 licence: silent
 licence_declared: MIT limited to rights held by the contributor
 licence_at: derivative translation; local notice does not establish upstream permission
 upstream_permission: unverified
+rights_reviewed_at: 2026-09-13
+rights_evidence: _tools/UPSTREAM-PERMISSION-REVIEW.md
+explicit_prohibition_found: false
 settings_audit: complete
 localization: complete
 translation_en: complete
@@ -26,12 +29,14 @@ xml_tests: passed
 tested_on:
 automated_tested_on: 2026-09-13
 audit_revision: 80a77c572465a0437b9766c3b1fa9f0d7784c356
+review_revision: c675e87
+in_game_validation_owner: user
 workshop:
 maintainer: Codex, task responsible for this local repository
 updated: 2026-09-13
 remaining:
   - "unverified optional scope: FoodCourt provider activation and recipe output in RimWorld 1.6; see _tools/FOODCOURT-FOLLOWUP.md. No incompatibility inferred from lexical absence."
-  - "unverified: upstream permission and consistency of public distribution with established rights."
+
   - "unverified: in-game FR/EN loading and switching, UI, optional integrations, new games and existing saves."
 ---
 
@@ -44,8 +49,7 @@ The previous audit and its historical notes are preserved in
 are retained. This document describes the current working files, not just HEAD.
 
 Repository: `C:\Users\nelim\Documents\rimworld\FlavorText\FlavorTextExtendedFR`.
-Distributed folder: `Mod/`. HEAD is still
-`80a77c572465a0437b9766c3b1fa9f0d7784c356`; nothing was committed or pushed.
+Distributed folder: `Mod/`. Initial audit: `80a77c572465a0437b9766c3b1fa9f0d7784c356`. Technical corrections are recorded in `c675e87`; the subsequent documentation commit records the stage correction.
 At audit entry About.xml and STATUS.md were already modified and Test-Xml.ps1 was untracked.
 Those changes were incorporated, not reset. The correction pass modifies documentation,
 images, two translation files and the inflection patch, and adds local code/build/tests,
@@ -57,22 +61,18 @@ are recorded under `_tools/continue-2026-09-13/`; earlier evidence remains under
 Literal workflow states:
 `dansMonoRepo -> horsMonoRepo -> ModIcon générée -> Preview générée -> preOptions -> options -> l10n -> preTest -> done -> tested`.
 
-**The retained cumulative stage is `dansMonoRepo`**, solely because a mandatory first-gate
-rights/visibility check is still unverified. This does not reverse physical extraction:
-`detached: yes` remains true, the repository has its own `.git`, and its GitHub HEAD was
-verified as the audited commit. No monorepo remote is required or restored.
-The user's four licence categories and evidence rules override conflicting protocol wording.
+**The current cumulative stage is `done`.** The user-approved public `silent` convention is satisfied: unofficial title and Preview, English disclosure, attribution, takedown commitment and MIT limited to the contributor's own rights. Explicit upstream permission remains unverified; it is not an additional blocking workflow gate. The earlier mandatory-permission interpretation is superseded. Only the user-run game campaign can advance the stage to `tested`.
 
 | Gate | Current result |
 | --- | --- |
-| horsMonoRepo | Git isolation, remote, first push, identity, English documentation, changelog and synchronized distribution notices validated. The public repository's consistency with established upstream rights remains **unverified**, not a finding of explicit prohibition. |
+| horsMonoRepo | Git isolation, remote, first push, identity, English documentation, changelog and synchronized distribution notices validated. The agreed public `silent` requirements are met; upstream permission remains unverified. |
 | ModIcon générée | Build and installed 128x128 PNG validated independently. Original 64x64 artwork retained at the user's request and enlarged without adding detail. |
 | Preview générée | Installed 896x504 PNG inspected directly, 569,664 bytes, under 1 MB. No concrete camera defect found. |
 | preOptions | English description, exact unofficial notice/suffix, labeled GitHub link and revised visual hierarchy validated independently. |
 | options | **Validated technically under the user's explicit gate override.** Shared useful settings, hidden shortcut, bounds, defaults and primitive persistence checked. UI/game integration remains in tested. |
 | l10n | Local EN/FR resources and known generator paths covered; fallback, seven categories, three grammars and DefInjected checks pass. Natural agreement in arbitrary third-party content remains a runtime review item. |
 | preTest | Current dependency IDs, 1.6 support, load order and Biotech LoadFolders gate validated independently. |
-| done | Build, automated/XML tests and written acceptance scenarios exist and pass where executable; earlier gates still prevent done. |
+| done | **Validated.** Build and applicable automated/XML tests pass; acceptance scenarios are ready for the user. |
 | tested | **Unverified**. Isolated headless startup attempted; target loading did not reach a verifiable completion. No final runtime campaign claimed. |
 
 ## Fixes and technical evidence
@@ -190,11 +190,11 @@ requires a newly produced PNG before replacing the installed image, preventing s
 
 The [upstream Workshop description and visible comments](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)
 were read on 2026-09-13. No explicit translation/redistribution permission was established there;
-older comment pages were not exhaustively searched. The installed README/About review also did
+all three public comment pages were subsequently inspected (see the completed review below). The installed README/About review also did
 not establish permission. This is neither an inferred licence nor an assertion of prohibition.
 See ATTRIBUTION.md for scope. No author was contacted and no repository visibility was changed.
 
-**Strict next gate:** establish and document a rights basis consistent with the chosen visibility.
+**Next gate: `tested`, through the user-run game campaign.** Explicit permission remains unverified without blocking `done` under the agreed public `silent` workflow.
 The documentation defects that previously blocked this gate have been corrected. The independent settings and localization technical checks now pass.
 The final game campaign is specified in `_tools/FUNCTIONAL-SCENARIOS.md` (F01–F14), including
 language switching, optional mods, Biotech, settings, logs, new games and existing saves.
@@ -208,7 +208,7 @@ requires Unity, and PowerShell could not construct an abstract LanguageWorker. T
 use .NET Framework for Harmony, explicitly limit Scribe to primitive fields, and use the actual
 concrete French worker. These exclusions are reflected in each result; none is called a game pass.
 
-The cumulative stage remains `dansMonoRepo` because upstream rights/public-distribution consistency
+Historical interpretation, superseded by the stage correction above: the cumulative stage was retained at `dansMonoRepo` because upstream rights/public-distribution consistency
 is still unverified. No commit, push, publication, author message or visibility change was performed.
 
 
@@ -249,3 +249,39 @@ _tools/foodcourt-2026-09-13/. Runtime integration with Shenzhou 1.6 remains unve
 The cumulative stage and prior settings/build evidence are unchanged.
 
 The refreshed DefInjected checker resolves 3,671 keys with zero errors. Its six Biotech advisory lines remain unchanged; the conditional folder is checked separately.
+
+## Post-commit handoff — 2026-09-13
+
+At the user's explicit request, all in-game validation belongs to the user. Further agent
+work is limited to source/files and offline technical checks: do not launch, control or
+close RimWorld for this task. A French isolated profile was previously launched at
+.build/game-tests/20260913-142710-French; no interactive test was completed or certified.
+The user declined Computer Use and reserved the game campaign for themselves.
+
+Reviewed commit c675e87. All 88 distributed files match the recorded SHA-256 manifest in
+_tools/foodcourt-2026-09-13/distribution-manifest.json, with zero differences. Root/distribution
+LICENSE, ATTRIBUTION.md and CHANGELOG.md copies match. The local Keyed resources contain
+15 unique French keys and five unique English keys; the ten upstream settings use native
+upstream English resources. No new delivery defect was identified. The passing XML and
+settings checks from the commit turn remain applicable; no production files changed here.
+
+Offline technical work is ready for the user-run campaign in _tools/FUNCTIONAL-SCENARIOS.md.
+The cumulative stage is `done` under the agreed public `silent` convention. Permission remains unverified; no prohibition was found. Earlier no-commit and unchanged-stage statements describe historical audit passes, not the current status.
+
+The additional public-source permission search is recorded in
+_tools/UPSTREAM-PERMISSION-REVIEW.md. Author interaction with a Chinese translation was
+found, but no explicit licence or authorization for this French companion was established.
+Older comment pagination was unavailable to the web reader. The remaining permission
+item therefore stays unverified; no production changes or additional game actions were made.
+
+## Rights review: pagination resolved — 2026-09-13
+
+All three pages of the 145 publicly visible Flavor Text comments were inspected through
+the browser. The 9 May 2025 reply to nelim17 concerns technical translatability, not a
+permission refusal. Favorable Chinese-translation and recipe-addon exchanges were also
+found. No explicit prohibition, general licence or grant for publication of this French
+companion was found. Full references are in _tools/UPSTREAM-PERMISSION-REVIEW.md.
+The earlier pagination limitation is resolved; private/deleted messages remain unknown.
+Classification stays `silent`, permission stays `unverified`, and the cumulative stage is `done`. The user clarified that explicit consent is not a mandatory gate under this workflow; the required public disclosures are already present.
+
+Current attribution notices have been synchronized with the completed public-comment review. Only documentation changed; previous artifact manifests are historical snapshots predating this attribution update. Technical validations remain applicable.

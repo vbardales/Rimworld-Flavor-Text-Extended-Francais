@@ -14,12 +14,15 @@ must not be interpreted as independent authorship or permission to redistribute 
 No explicit licence or permission for the underlying Flavor Text text has been established from
 the inspected installed README and About metadata (Flavor Text 0.3.6, RimWorld 1.6).
 This is an **unverified permission**, not a finding that the author has prohibited translation.
-The Workshop description and visible comment page were reviewed again on 2026-09-13; no explicit permission was found there. This was not an exhaustive historical
-comment search. Any later permission must be recorded with its exact source and scope.
+The Workshop description and all three pages of the 145 publicly visible comments were reviewed
+on 2026-09-13. No explicit prohibition was found, and no general licence or permission for this
+French companion was established. The author's favorable exchanges about a Chinese translation
+and a recipe addon do not specify such a grant. Private or deleted exchanges remain unknown.
+Any later permission must be recorded with its exact source and scope.
 
 The current repository is public and classified `silent` using the audit request's four-category
 vocabulary. Its name and description disclose the unofficial status. That disclosure is not
-consent and does not resolve the outstanding rights/visibility gate.
+consent. The agreed public `silent` workflow is satisfied by the unofficial disclosures, attribution, takedown commitment and limited MIT scope; it does not establish upstream permission.
 
 The local MIT licence applies only to rights held by the contributor. It does not license
 Flavor Text or override rights in derivative translations. LICENSE and its distributed copy
