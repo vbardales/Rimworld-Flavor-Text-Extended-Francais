@@ -36,7 +36,7 @@ Cette tâche Codex gère ce dépôt local et maintient ce STATUS.md à chaque ch
 significatif de contenu, de tests, de licence ou de publication.
 
 - Dossier : `C:\Users\nelim\Documents\rimworld\FlavorText\FlavorTextExtendedFR`.
-- Nom du mod : **Flavor Text Extended - Français** ; auteur déclaré : `nelim`.
+- Nom du mod : **Flavor Text Extended - Français** ; auteur déclaré : `Nelim`.
 - PackageId : `nelim.flavortextextended.fr`.
 - Remote origin : https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais.git
 - Dépôt autonome : `git rev-parse --show-toplevel` renvoie exactement ce dossier,

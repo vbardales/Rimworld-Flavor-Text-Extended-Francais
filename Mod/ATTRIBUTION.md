@@ -3,7 +3,7 @@
 ## Upstream works
 
 - **Flavor Text**, by hekmo: [Workshop 3245374432](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432).
-- **Flavor Text Extended**, by nelim: [source repository](https://github.com/vbardales/Rimworld-Flavor-Text-Extended).
+- **Flavor Text Extended**, by Nelim: [source repository](https://github.com/vbardales/Rimworld-Flavor-Text-Extended).
 
 This mod translates their dish names and descriptions. Although it does not distribute their
 original files, translated text is derived from those works. The absence of copied source files

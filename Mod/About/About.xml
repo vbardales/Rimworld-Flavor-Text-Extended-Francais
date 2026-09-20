@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Flavor Text Extended - Français (unofficial)</name>
-  <author>nelim</author>
+  <author>Nelim</author>
   <packageId>nelim.flavortextextended.fr</packageId>
   <url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais</url>
   <description>UNOFFICIAL. This mod is published without the original author's explicit consent.
@@ -30,7 +30,7 @@ Unlisted ingredients use neutral French forms built from their localized labels;
 
 CREDITS AND RIGHTS
 
-Flavor Text and its naming machinery are by hekmo. Flavor Text Extended and this translation are maintained by nelim. Translation work used Claude (Anthropic) under human direction and review; subsequent fixes and image editing used OpenAI tools. See ATTRIBUTION.md.
+Flavor Text and its naming machinery are by hekmo. Flavor Text Extended and this translation are maintained by Nelim. Translation work used Claude (Anthropic) under human direction and review; subsequent fixes and image editing used OpenAI tools. See ATTRIBUTION.md.
 
 No explicit upstream permission has been established. The local MIT notice applies only to rights held by the contributor and grants no rights in the upstream material.
 

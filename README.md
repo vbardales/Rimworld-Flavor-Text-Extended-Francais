@@ -113,7 +113,7 @@ PNG assets. `Mod/` also carries matching licence, attribution and changelog copi
 ## Credits and licence
 
 Flavor Text and its naming machinery are by hekmo. Flavor Text Extended and this translation
-are maintained by nelim. Initial translation work used Claude (Anthropic), under human direction
+are maintained by Nelim. Initial translation work used Claude (Anthropic), under human direction
 and review. Subsequent fixes and image work used OpenAI tools. See `ATTRIBUTION.md`.
 
 The MIT notice covers only contributions for which the contributor holds the required rights.
