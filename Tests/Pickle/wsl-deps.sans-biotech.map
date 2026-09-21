@@ -1,0 +1,4 @@
+# Pass "sans-biotech" (F08): Biotech is left out of ModsConfig for this pass. Its Data folder stays, and the
+# absence from the list is what switches it off. The mod's Biotech-only translation (Biotech/Languages, gated
+# by LoadFolders IfModActive) must then load nothing and raise nothing.
+!ludeon.rimworld.biotech

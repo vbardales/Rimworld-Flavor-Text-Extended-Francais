@@ -1,0 +1,5 @@
+# Pass "sans-anomaly-odyssey" (F09): the two DLC left out. Flavor Text declares all fifteen of its ingredient
+# tables unconditionally, so the mod's patches must still find their targets, and nothing may reference an
+# item that is not there.
+!ludeon.rimworld.anomaly
+!ludeon.rimworld.odyssey
