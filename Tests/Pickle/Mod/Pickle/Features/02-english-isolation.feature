@@ -11,14 +11,13 @@
 # menu-level switch stays manual (see README).
 Feature: in an English game the French patches and text stay out of the way
 
-  # None of the three rule packs and the category is patched by anything else in this modlist:
-  # Flavor Text Extended's own operations do not target them (checked against its Patches/), so
-  # "was patched" here can only mean this mod's wrapper let an operation through.
-  Scenario: none of the guarded patches was applied
-    Then no def "FT_Egg" was patched
-    And no def "FT_SideDishLabels" was patched
-    And no def "FT_SideDishDescriptions" was patched
-    And no def "FT_Tags" was patched
+  # The value the def holds is what proves the guard. This first read "no def X was patched", which
+  # cannot see a patch made through the mod's wrapper operation: on the first French pass it reported
+  # "(no mod)" for a def the French patch had certainly reached, so it would pass in a French game too
+  # and prove nothing here. The French forms are the ones in Patches/CategoryInflections_FR.xml.
+  Scenario: the category overrides keep the values the dependency ships
+    Then the inflections override of category "FT_Egg" does not read "aux œufs | œufs | œuf | d'œufs"
+    And the inflections override of category "FT_Flour" does not read "à la pâte | pâte | portion de pâte | de pâte"
 
   Scenario: the dependencies' labels read as their authors wrote them
     Then def "FlavorText_MeatRaw_Fricasee" field "label" is "{0_adj} fricasée"

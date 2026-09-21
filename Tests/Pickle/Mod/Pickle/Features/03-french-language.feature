@@ -10,13 +10,10 @@
 # answer, not the file's. In developer mode, which every Pickle run is, a missing French key shows
 # as accented gibberish rather than English, and these comparisons would fail on it.
 #
-# Two guesses the steps cannot settle from here, each in a scenario of its own so that a wrong one
-# does not hide the rest:
-#   - "was patched by mod": Pickle attributes a patched def to the mod whose operation matched. The
-#     operation here is a custom wrapper around a sequence; whether attribution follows the outer
-#     operation (this mod) or the inner one is not known until a first run.
-#   - "field ... inflectionsOverride.0": a dotted path into a list of strings. The dotted path is
-#     documented for fields; a numeric segment on a list is assumed to work as an index.
+# Played once on 2026-09-21: the four label scenarios passed, and the two that rested on guesses failed,
+# for reasons in Pickle's vocabulary and not in the mod. "was patched by mod" reported "(no mod)" for a
+# patch made through the wrapper operation, and a numeric index in a dotted path is refused ("List has no
+# field or property '0'"). Both were replaced by a step that reads the value itself.
 @wip
 Feature: French text and grammar reach the defs in a French game
 
@@ -36,11 +33,11 @@ Feature: French text and grammar reach the defs in a French game
     Then def "FTFR_Settings" field "label" is "Réglages de Flavor Text"
     And def "FTFR_Settings" field "description" is "Ouvrir la configuration partagée de Flavor Text."
 
-  Scenario: the wrapper let the French operations through
-    Then def "FT_Egg" was patched by mod "nelim.flavortextextended.fr"
-    And def "FT_SideDishLabels" was patched by mod "nelim.flavortextextended.fr"
-    And def "FT_Tags" was patched by mod "nelim.flavortextextended.fr"
-
-  Scenario: the category override holds the French forms
-    Then def "FT_Egg" field "inflectionsOverride.0" is "aux œufs"
-    And def "FT_Egg" field "inflectionsOverride.3" is "d'œufs"
+  # The proof that the wrapper let the French operations through: the value each def holds afterwards, read
+  # by a companion step because two generic steps cannot. The forms are the ones in
+  # Patches/CategoryInflections_FR.xml. The rule packs (side dishes, the hairy prefix) and the ingredient
+  # tables are not read here: their content is checked against an in-memory copy by Test-Xml, and their
+  # effect shows in the names of 06 and the captures of 07.
+  Scenario: the wrapper let the French category overrides through
+    Then the inflections override of category "FT_Egg" reads "aux œufs | œufs | œuf | d'œufs"
+    And the inflections override of category "FT_Flour" reads "à la pâte | pâte | portion de pâte | de pâte"
