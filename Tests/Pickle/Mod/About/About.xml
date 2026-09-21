@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Flavor Text Extended - Français - Pickle tests</name>
+  <author>Nelim</author>
+  <packageId>nelim.flavortextextended.fr.pickletests</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>In-game functional tests for Flavor Text Extended - Français, run by Pickle. Development only: never published.
+
+Six features: loading and load order, English isolation, French text and grammar reaching the defs, the settings page and its hidden shortcut (captured, tagged @review), the language of the pass, and meal naming without a stove. They need the companion steps assembly built from Tests/Pickle/Source against Mod/Assemblies/FlavorTextExtendedFR.dll and Flavor Text's own FlavorText.dll. Written, never run. See TESTING.md at the repository root for the passes and Tests/Pickle/README.md for what is deliberately left out.</description>
+  <modDependencies>
+    <li>
+      <packageId>nelim.flavortextextended.fr</packageId>
+      <displayName>Flavor Text Extended - Français (unofficial)</displayName>
+    </li>
+    <li>
+      <packageId>rimworks.pickle</packageId>
+      <displayName>Pickle</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3791648678</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>nelim.flavortextextended.fr</li>
+    <li>rimworks.pickle</li>
+  </loadAfter>
+</ModMetaData>

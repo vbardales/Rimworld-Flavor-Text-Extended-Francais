@@ -4,14 +4,15 @@ packageId: nelim.flavortextextended.fr
 repo: Rimworld-Flavor-Text-Extended-Francais
 remote: https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais.git
 visibility: public
-visibility_verified_at: 2026-09-13
-visibility_evidence: live GitHub repository read and ls-remote during the preceding audit
+visibility_verified_at: 2026-09-21
+visibility_evidence: "gh api repos/vbardales/Rimworld-Flavor-Text-Extended-Francais: private=false; git ls-remote HEAD = b62253a"
 mod_visibility: public via GitHub; Workshop publication not established
 detached: yes
 stage: done
-stage_meaning: offline gates complete under the user-approved public silent workflow; in-game validation pending
+stage_meaning: "ready for in-game validation. done was retracted then restored on 2026-09-21: the Pickle suite is now written (Tests/Pickle, six features, never run) and its scope justified; the licence rests on an owner exception (see licence_exception)"
 licence: silent
-licence_declared: MIT limited to rights held by the contributor
+licence_declared: "MIT limited to rights held by the contributor"
+licence_exception: "2026-09-21, owner decision in chat: kept public/silent although upstream Flavor Text declares 1.6 (PUBLISHING.md would class it alive). Reason given: no French version of Flavor Text Extended exists, and it is an extension, not a plain translation of the upstream mod. The rule's own criterion (no 1.6 declared = abandoned) is NOT met; this is an exception, not a finding of abandonment. `original` was proposed and considered the same day, then not retained: the 901 Extended dishes, the C# code and the tooling are the owner's own work, but the 930 Flavor Text dishes are translations of hekmo's text, and ATTRIBUTION.md, README and About.xml all state that. The absence of any other French translation does not bear on rights."
 licence_at: derivative translation; local notice does not establish upstream permission
 upstream_permission: unverified
 rights_reviewed_at: 2026-09-13
@@ -27,18 +28,103 @@ build: passed
 automated_tests: passed
 xml_tests: passed
 tested_on:
-automated_tested_on: 2026-09-13
-audit_revision: 80a77c572465a0437b9766c3b1fa9f0d7784c356
+automated_tested_on: 2026-09-21
+audit_revision: b62253aff189c473e7c22cd9613986e0b1f92c52
 review_revision: c675e87
 in_game_validation_owner: user
 workshop:
 maintainer: Codex, task responsible for this local repository
-updated: 2026-09-13
+updated: 2026-09-21
 remaining:
-  - "unverified optional scope: FoodCourt provider activation and recipe output in RimWorld 1.6; see _tools/FOODCOURT-FOLLOWUP.md. No incompatibility inferred from lexical absence."
-
-  - "unverified: in-game FR/EN loading and switching, UI, optional integrations, new games and existing saves."
+  - "resolved by owner exception 2026-09-21 (was a defect at dansMonoRepo -> horsMonoRepo): upstream Flavor Text 0.3.6 declares 1.5 and 1.6 and its author is active in public comments through Oct 2025, so PUBLISHING.md would class it `alive` (private, ` (prohibited)`; precedent MedievalHomestead, MintchocoConfectionery). The owner keeps it public `silent`, see licence_exception. Residual, stated plainly: no upstream permission exists and the author is reachable; the takedown commitment in About.xml and README is the only safeguard. Revisit if hekmo objects or if the exception is withdrawn."
+  - "resolved 2026-09-21 (was a defect at preTest -> done): the Pickle suite is written under Tests/Pickle (six features, a 15-step companion assembly that builds against the real FlavorText.dll and the shipped mod DLL, Check-Steps.ps1 green) and TESTING.md declares the passes. Scope and exclusions are argued in Tests/Pickle/README.md. Written, never run: running belongs to done -> tested."
+  - "unverified (done -> tested): staging was never run. Two obstacles were settled without editing the shared script, by machine-local links: a junction rimworld\\FlavorTextExtendedFR to this repository (locally excluded from the monorepo) so -Mod FlavorTextExtendedFR resolves, and a symbolic link FlavorTextExtended in the WSL workshop cache to the local Extended mod (named in wsl-ids.map) since it has no Workshop id. Checked without the machine: --list names the suite, the link resolves to a folder declaring nelim.flavortextextended. Staging wipes ~/rimworld/Mods and the machine lock was held with a queue behind it, so a third problem may remain. Two guesses in 03-french-language.feature (patch attribution through the wrapper operation, a numeric segment in a field path) are isolated in their own scenarios."
+  - "unverified (done -> tested): pass 3, avec-facultatifs in French, is declared in TESTING.md but not defined: it needs a wsl-deps map with the Workshop ids of the third-party ingredient providers."
+  - "unverified: done -> tested. F01-F14 and the FoodCourt scenarios in game, Pickle suites executed with @review captures opened, logs, FR/EN interface, new game and existing save, FoodCourt/Shenzhou provider activation (see _tools/FOODCOURT-FOLLOWUP.md). Owner: user."
+  - "unverified: RIMMSQOL or any customization mod revealing FTFR_Settings; UI and settings persistence in game."
+  - "note (environment, not a defect): three test scripts (Test-PatchLifecycle, Test-Fallback, Test-FallbackPrefix) require PowerShell 7 (`pwsh`, as README says). It is not installed on this machine; they were replayed 2026-09-21 by equivalent means, see below."
 ---
+
+# Cumulative audit - 2026-09-21
+
+**Previous stage: `done`. Retained stage: `done`, after a retraction and a restoration the same day.**
+The first pass of this audit retracted it to `preTest` for one reason: no Pickle suite and no
+justification of its absence. The suite was then written at the owner's request and the criterion
+is met (section "Pickle suite written" below). `done -> tested` is not reached: nothing ran in game.
+
+*Revision of the same day.* The first pass of this audit retained `dansMonoRepo`, because the licence
+`silent` contradicts PUBLISHING.md (upstream declares 1.6, so `alive`). The owner then decided, in chat,
+to keep the mod public and `silent` as an explicit exception (see `licence_exception`). The defect
+was a missing justification; with the owner's decision recorded, the transition holds. The finding
+itself is unchanged and stays visible in the table and in `remaining`.
+
+Audited revision `b62253aff189c473e7c22cd9613986e0b1f92c52` = `origin/main` (`git ls-remote`);
+working tree clean before this update, which changes STATUS.md only. No RimWorld was launched
+(no `RimWorldWin64` process, no WSL run, no Pickle), no game configuration touched, nothing published.
+AUDIT.md postdates the 2026-09-13 `done` decision.
+
+| Transition | Result | Evidence checked today |
+|---|---|---|
+| dansMonoRepo -> horsMonoRepo | validated **under an owner exception** (rule not met, exception recorded) | Standalone git root; `origin` is the GitHub repo, public, `main`, remote HEAD = local HEAD, commits pushed. STATUS present; README, ATTRIBUTION, CHANGELOG, LICENSE in English; `LICENSE`, `ATTRIBUTION.md`, `CHANGELOG.md` identical in root and `Mod/`. packageId `nelim.flavortextextended.fr`, repo `Rimworld-Flavor-Text-Extended-Francais`, folder `FlavorTextExtendedFR`: consistent. **Licence: `silent` is contradicted by the sources.** Installed Flavor Text `About.xml` (0.3.6) lists `<li>1.5</li><li>1.6</li>`, with a `1.6/` folder and LoadFolders. The 2026-09-13 review itself noted the 1.5/1.6 declaration but kept `silent`. PUBLISHING.md (precision of 2026-09-13): a source declaring 1.6 is `alive`, and `alive` imposes private + ` (prohibited)`. Public visibility is therefore inconsistent with the rights established. The "explicit consent is not a gate" clarification recorded earlier concerns `silent` and does not address `alive`. **Owner exception, same day:** kept public and `silent` because no French Flavor Text Extended exists and this is an extension rather than a plain translation. That reason is not the rule's criterion; it is recorded as a decision, in `licence_exception`. |
+| -> ModIcon générée | validated | Build reproducible: `Build.ps1` recompiled, SHA-256 of `Mod/Assemblies/FlavorTextExtendedFR.dll` identical before and after (`CA2326E6...D48B`), tree still clean. `ModIcon.png` 128x128 PNG, 33,010 bytes, opened: one mascot with a `flavor text` ribbon. The original artwork kept at the user's request is recorded below. |
+| -> Preview générée | validated | `Preview.png` 896x504 PNG, 569,664 bytes (< 1 MB), opened: dishes on dark wood, title, summary and badge legible, nothing clipped, no concrete camera defect. |
+| -> preOptions | validated (`(unofficial)` suffix, opening paragraph and Preview tag match `silent`) | Blue accent (`#49BDF0`) clearly distinct from the gold secondary (`#E9C389`), in the image and in `Art/preview-palette.json`. Description in English, ends with `[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Source code on GitHub[/url]`, matching `<url>` and the remote. `Français` is the smaller secondary suffix and `(unofficial)` the tag. The description opens with the prescribed UNOFFICIAL paragraph, verbatim. |
+| -> options | validated | Five upstream settings exposed under `Options -> Mod settings -> <mod name>` through `SettingsBridge` (`SettingsCategory()` returns the mod name); hidden `FTFR_Settings` MainButton (`buttonVisible=false`, `Visible` inherited, not forced) opens the same page; cap clamped to 0-6. Code and tests only, as this transition asks. `Test-SettingsBridge` and `Test-UpstreamSettings` PASS today (doubles / primitive Scribe fields; no Unity UI, no RIMMSQOL). |
+| -> l10n | validated | No hard-coded player-facing string in `Source/` (literals are logic: markers, regex, keys, exception text). Keyed FR/EN keys present with equal tokens (`Fallback.xml`, five keys each); `MainButtonDef` label/description in French DefInjected, English source in the Def. `Check-DefInjected.ps1` (Flavor Text 1.6 and 1.5, Extended, this mod, Flavor Text DLL): **3,671 keys, 0 errors**, six MayRequire advisories for Biotech (the folder gate is covered by `Test-Xml`). |
+| -> preTest | validated | Hard dependencies `brrainz.harmony` (code uses Harmony), `hekmo.FlavorText` (code references `FlavorTextSettings`/`FlavorTextMod`), `nelim.flavortextextended` (translated defs; ID matches the sibling's About). `loadAfter` Harmony, Core, Flavor Text, Extended. `LoadFolders.xml`: `/` plus `Biotech` under `IfModActive="Ludeon.RimWorld.Biotech"`, matching the Biotech-only DefInjected folder. Optional providers are `MayRequire`-gated, not dependencies. |
+| -> done | validated (second pass of the day) | Scenarios F01-F14 plus FoodCourt in `_tools/FUNCTIONAL-SCENARIOS.md` (preconditions, actions, expected results): present. Automated and XML tests: green (below). Pickle (Gherkin): first found **absent and unjustified**, then written and justified, see below. No test run in game is required for `done`. |
+| -> tested | not reached | Nothing executed in game. |
+
+## Tests rerun on the delivered tree - 2026-09-21
+
+| Check | Result |
+|---|---|
+| `_tools/Build.ps1` | PASS, DLL byte-identical to the shipped one |
+| `Test-Language`, `Test-Xml`, `Test-SettingsBridge`, `Test-UpstreamSettings`, `Test-HarmonyRegistration` | PASS (Windows PowerShell 5.1): 82 XML files, 1,831 dishes, 25 guarded patches applied in memory, 186 entries / 15 tables, 3 grammars, 7 category overrides, Biotech gating, hidden shortcut |
+| `Test-PatchLifecycle`, `Test-FallbackPrefix` | PASS **by equivalent means**: as-is they fail on PS 5.1 (`Add-Type` compiles C# 5). Same sources and test doubles compiled with the SDK 8.0.424 Roslyn into the scratchpad and loaded in PS 5.1. Not the literal command; `pwsh` is absent. |
+| `Test-Fallback` | PASS **by equivalent means**: as-is it fails on PS 5.1 (UTF-8 without BOM read as ANSI: parse error, then `Bad French complement`). Scratch copy with BOM and explicit UTF-8 reads; the repository script is unchanged. |
+| `Check-DefInjected.ps1` | 3,671 keys, 0 errors |
+| Distribution manifest (88 files, `_tools/foodcourt-2026-09-13`) | 86 identical. `Mod/About/About.xml` and `Mod/ATTRIBUTION.md` differ, explained by commits `036f4b7` and `b62253a` (author `nelim` -> `Nelim`, attribution text). `git diff c675e87 HEAD -- Mod/` outside ATTRIBUTION.md is that two-line About change only. No file added or missing. Code, patches, translations and images unchanged since the evidence. |
+
+## Pickle suite written - 2026-09-21
+
+Written at the owner's request after the audit found none. Files: `Tests/Pickle/` (README with scope,
+exclusions and passes; `Mod/` companion "Flavor Text Extended - Français - Pickle tests"; six features
+`01-loads`, `02-english-isolation`, `03-french-language` (`@wip`, French pass), `04-settings-shortcut`
+(`@review`), `05-language`, `06-meal-naming`; `Source/` steps assembly; `Check-Steps.ps1`;
+`wsl-ids.map`) and `TESTING.md` at the root, which declares the passes (English and French without
+optional mods, plus a defined-but-unbuilt French pass with the optional providers; no incompatibility
+is declared, so no third family).
+
+What was checked without a game, and nothing more: the steps assembly builds (0 warnings, 0 errors)
+against the real `FlavorText.dll` and the shipped `FlavorTextExtendedFR.dll`; `Check-Steps.ps1` compiles
+the 15 patterns with Pickle's own expression engine and every feature line resolves; the vanilla steps
+used were matched against the expressions compiled into Pickle's Vanilla DLL, and five parameterless forms
+against the features Pickle ships. **No Pickle run happened, and no RimWorld was launched**: the suite
+is written, not validated. Scope: only what a running game shows; cooking with a colonist, side-dish variety,
+the menu language switch, DLC-less runs, optional mods, old saves and RIMMSQOL stay manual, each with its reason.
+
+Two findings while writing it, not fixed: the shared staging script cannot stage this repository today (nested
+folder, and a hard dependency with no Workshop id). They are recorded in `remaining` and in `Tests/Pickle/README.md`.
+`Mod/` (the distributed folder) was not touched.
+
+## Work needed to cross the next transition (done -> tested)
+
+Make the suite stageable (the two blockers above), define pass 3, then run the passes through
+`scripts/Run-PickleWsl.ps1` only, read `exitReason` before the counts, open the two `@review` captures,
+and walk the manual scenarios in game. In-game validation is owned by the user.
+
+## Recommendations (optional, not blockers)
+
+- Since upstream is maintained and reachable, a message to hekmo would turn the exception into an
+  explicit permission (or a refusal) at little cost. Nothing was sent; that is the owner's call.
+- Install PowerShell 7, or make the three PS7-only scripts encoding-safe (BOM), so the README commands run as written.
+- CHANGELOG `Unreleased` and `modVersion 1.0.0` with no tag: relevant only from `tested -> prepublished`.
+- The About description does not yet carry the `IF I GO QUIET`, `AI-GENERATED` and `THANKS` sections: a `tested -> prepublished` item.
+
+---
+
+# Earlier record (2026-09-13 correction pass) - kept for history; its stage and licence conclusions are superseded above
 
 # Correction pass — 2026-09-13
 

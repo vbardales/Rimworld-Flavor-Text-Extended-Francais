@@ -1,0 +1,12 @@
+# Workshop ids of the mod's HARD dependencies that the staging script's built-in table does not
+# know. Read in every pass, the bare one included; it resolves without activating anything.
+#
+# hekmo.FlavorText is a hard dependency (About.xml) and is not in the shared table.
+hekmo.FlavorText   3245374432
+#
+# nelim.flavortextextended, the other hard dependency, is published on GitHub only and has no
+# Workshop id. The script only looks a dependency up as a FOLDER NAME inside its Workshop
+# directories, so the "id" below is a folder name, not a number: a symbolic link of that name in
+# the WSL workshop cache points at the local mod. It is a one-time setup on each machine and it is
+# not in this repository; see README.md, "Staging".
+nelim.flavortextextended   FlavorTextExtended
