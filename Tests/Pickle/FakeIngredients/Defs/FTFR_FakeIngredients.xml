@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Three raw plant foods no table lists. The defNames carry English words on purpose: Flavor Text
+       categorizes an ingredient from its defName as well as its label, and in a French game the label
+       is French by the time it looks. Each is registered on a meal by a step, never grown or spawned,
+       so the texture reuses vanilla agave fruit. The three cases the manual scenario F14 names: a bare
+       word starting with a semi-vowel (yuzu), a compound with an elision (huile de noix), and a plural
+       with an accent inside a compound (haricots rouges). -->
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>FTFR_RawYuzuFruit</defName>
+    <label>yuzu</label>
+    <description>An invented citrus fruit, for testing the French fallback.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/AgaveFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>40</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>FTFR_RawWalnutOil</defName>
+    <label>walnut oil</label>
+    <description>An invented oil, for testing the French fallback.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/AgaveFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>40</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>FTFR_RawRedBeans</defName>
+    <label>red beans</label>
+    <description>Invented beans, for testing the French fallback.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/AgaveFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>40</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

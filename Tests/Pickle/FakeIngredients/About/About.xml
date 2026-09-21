@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Flavor Text Extended - Français - fake ingredients</name>
+  <author>Nelim</author>
+  <packageId>nelim.flavortextextended.fr.fakeingredients</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Three invented raw foods that no ingredient table of Flavor Text Extended - Français lists, so that the French fallback for unlisted ingredients (F14) can be exercised in a running game. Development only: never published, never staged by the default passes. It is its own mod so that a fault in how Flavor Text categorizes them cannot break the other passes. See Tests/Pickle/README.md.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>hekmo.FlavorText</li>
+    <li>nelim.flavortextextended.fr</li>
+  </loadAfter>
+</ModMetaData>

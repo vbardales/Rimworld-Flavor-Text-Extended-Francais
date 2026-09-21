@@ -76,6 +76,28 @@ namespace FlavorTextExtendedFR.PickleSteps
             FlavorTextSettings.dynamicMealIncorporation = true;
         }
 
+        /// <summary>
+        /// The write the settings window does when it closes, through hekmo's own mod class so the file
+        /// that lands is the one a restart will read.
+        /// </summary>
+        [When("the Flavor Text settings are written to disk")]
+        public void WriteToDisk(PickleContext ctx)
+        {
+            var mod = LoadedModManager.GetMod<FlavorTextMod>();
+            ctx.Require(mod != null, "LoadedModManager.GetMod<FlavorTextMod>() returned nothing: Flavor Text is not loaded");
+            mod.WriteSettings();
+        }
+
+        [Given("the Flavor Text quick search is set to {word}")]
+        public void SetQuickSearch(PickleContext ctx, string value) => FlavorTextSettings.quickSearch = bool.Parse(value);
+
+        [Then("the Flavor Text quick search reads {word}")]
+        public void AssertQuickSearch(PickleContext ctx, string expected)
+        {
+            ctx.Assert(FlavorTextSettings.quickSearch == bool.Parse(expected),
+                $"quick search reads {FlavorTextSettings.quickSearch}, expected {expected}");
+        }
+
         [Given("the Flavor Text ingredient cap is set to {int}")]
         public void SetCap(PickleContext ctx, int value) => FlavorTextSettings.ghostIngredientCap = value;
 

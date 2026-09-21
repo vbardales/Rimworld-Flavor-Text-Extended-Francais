@@ -1,0 +1,8 @@
+# Pass "faux-ingredients": the mod of three invented raw foods that exercises the French fallback for
+# unlisted ingredients (F14). It is a local folder of this repository (Tests/Pickle/FakeIngredients), not a
+# Workshop item, so its "id" is a folder name resolved by a symbolic link of that name in the WSL workshop
+# cache, exactly as for Flavor Text Extended. One-time setup on each machine, not in the repository:
+#
+#   ln -s /mnt/c/Users/nelim/Documents/rimworld/FlavorText/FlavorTextExtendedFR/Tests/Pickle/FakeIngredients \
+#         ~/workshop-cache/steamapps/workshop/content/294100/FTFRFakeIngredients
+nelim.flavortextextended.fr.fakeingredients   FTFRFakeIngredients

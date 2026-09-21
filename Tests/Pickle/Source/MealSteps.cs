@@ -72,9 +72,19 @@ namespace FlavorTextExtendedFR.PickleSteps
         /// only place the French agreement can be judged.
         /// </summary>
         [Then("the meal at \\({int}, {int}\\) is named by Flavor Text in the language this pass runs")]
-        public void MealIsNamed(PickleContext ctx, int x, int z)
+        public void MealIsNamed(PickleContext ctx, int x, int z) => AssertNamed(ctx, MealAt(ctx, x, z));
+
+        [Then("the meal at \\({int}, {int}\\) does not show the internal name {string}")]
+        public void MealHidesDefName(PickleContext ctx, int x, int z, string defName)
         {
             var meal = MealAt(ctx, x, z);
+            var text = meal.Label + " " + meal.DescriptionDetailed;
+            ctx.Assert(!text.Contains(defName), $"the internal name {defName} shows in the meal text: {text}");
+        }
+
+        internal static void AssertNamed(PickleContext ctx, Thing meal)
+        {
+            var x = meal.Position.x; var z = meal.Position.z;
             ctx.Require(meal.TryGetComp<CompFlavor>() != null,
                 "the meal carries no CompFlavor: Flavor Text did not add its comp to MealFine, "
                 + "so it is not active or its patch found nothing");

@@ -1,0 +1,13 @@
+# Pass 4, "avec-shenzhou": the provider behind the four Shenzhou entries of Inflections_ExtendedProviders_FR.xml
+# (RawDaBaiCai, RawLianOu, RawLvDou, WorkedFenTiao), alone.
+#
+# Alone, because the workshop item declares supportedVersions 1.2 to 1.5 only (no 1.6). Mounted in a
+# 1.6 game it may log errors of its own, and beside the eight providers of pass 3 those would be
+# indistinguishable from this mod's. This pass therefore reads its errors with that in mind: an error
+# naming a Shenzhou def is not this mod's.
+#
+# Dajian.ChiTeaditional.Expanded, Workshop 2877536640, hard dependency Harmony only. The OldMode wrapper
+# (Dajian.ChiTeaditional.Expanded.OldMode, 2371079000) is a separate package this mod does not target.
+# Nelim's Food Court, which declares itself incompatible with it, is local and unpublished, and no table
+# of this mod targets it: it is not staged here.
+Dajian.ChiTeaditional.Expanded   2877536640

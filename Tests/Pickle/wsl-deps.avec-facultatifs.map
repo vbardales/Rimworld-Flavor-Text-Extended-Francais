@@ -1,0 +1,23 @@
+# Pass 3, "avec-facultatifs": the providers of the third-party ingredient tables that ship in
+# Inflections_ThirdParty_FR.xml and that can be staged from the Windows Workshop folder, with their
+# hard dependencies, in dependency order (the script activates them in file order).
+#
+# Left out on purpose, on the owner's word (2026-09-21): [RH2] Faction: V.O.I.D. (RH2.Faction.VOID),
+# Medieval Overhaul (DankPyon.Medieval.Overhaul), Optimization: Meats (seohyeon.OptimizationMeats). Their
+# tables stay covered by the offline checks only. Shenzhou has its own pass, see wsl-deps.avec-shenzhou.map.
+#
+# Ids resolved with scripts/Search-Workshop.sh on 2026-09-21 from each mod's own About.xml.
+
+# Vanilla Expanded Framework: the hard dependency of the Vanilla Expanded mods below.
+OskarPotocki.VanillaFactionsExpanded.Core   2023507013
+VanillaExpanded.VPlantsE                    2134308522
+VanillaExpanded.VPlantsEMore                2748889667
+VanillaExpanded.VCookE                      2134308519
+VanillaExpanded.VBrewE                      2186560858
+zal.braziliancrops                          2886512401
+dismarzero.VGP.VGPVegetableGarden           2007061826
+dismarzero.VGP.VGPGardenGourmet             2007062982
+VVenchov.VVNewHarvest                       3448458106
+syrchalis.processor.framework               3210544395
+mlie.rc2.core                               2562519366
+TP.SeaPlants                                3643012859

@@ -2,7 +2,7 @@
 
 The scenarios of [TESTING.md](../../TESTING.md) that a running game is needed for, and only those.
 `Mod/` is a companion mod, **Flavor Text Extended - Français - Pickle tests**, never published. It
-holds seven feature files and a small steps assembly built from `Source/`.
+holds eleven feature files and a small steps assembly built from `Source/`.
 
 **Status: written on 2026-09-21; one pass played the same day.** The English pass, `sans-facultatifs`,
 ran in the WSL: 24 scenarios discovered, **18 passed, 0 failed, 6 skipped**, `exitReason: passed`. The 6
@@ -46,46 +46,64 @@ is repeated here.
 | `05-language` | Every text the mod owns resolves in the language of the pass, and the settings label is the one written for it. | F01, F11 |
 | `06-meal-naming` | A meal of chosen ingredients is named through the real generation in the language of the pass: renamed, no raw slot, no English connector in French, no French leak in English. The actual names are written to the report for a person to judge. | F01, F04, F14 (partly) |
 | `07-review-shots` (`@wip @review`) | Five captures of the inspect pane on meals of chosen ingredients (cow, squirrel, husky; two lavish meals of four ingredients for side dishes), in French, for a person to open and validate. Nothing is asserted: the capture is the deliverable. | F04, F05, F06 |
+| `08-unlisted-ingredients` (`@wip @review`) | The fallback for ingredients no table lists (F14), with three invented raw foods from `FakeIngredients/` (yuzu, huile de noix, haricots rouges): renamed, no raw slot, no internal name shown, inspect pane captured. Own pass, own mod, see below. | F14 |
+| `09-cooking` (`@wip @review @film @slow`) | A colonist cooks a simple meal at a fuelled stove from the colony's stock, filmed; the meal that comes out is named in the language of the pass. Frames and a capture for a person to watch. | F01 |
+| `10-restart-write`, `11-restart-read` (`@wip`) | Two launches under one lock: values saved in the first are the ones the second loaded at startup, then put back. | F11 |
 
 **Deliberately not in Gherkin**, with the reason, so nobody adds a scenario that cannot work:
 
-- **Cooking with a colonist, a stove and a bill** (F01's cooking, F04-F06, F14's exact dishes).
-  No vanilla step powers a stove, restricts a bill's ingredient filter or reads a label. `06`
-  reaches the same generation without the stove; the job itself, the filter and the exact dish
-  stay manual. The dish chosen is random among those that match, so no exact name is asserted.
+- **Choosing the exact dish (F04-F06).** Cooking itself is now in `09-cooking` (a step loads a stove
+  with fuel, the rest is Pickle's own), but the dish is random among those that match and no step
+  restricts a bill's ingredient filter, so a specific name cannot be forced. `06` and `07` name
+  meals of chosen ingredients without a stove; the exact dish stays manual.
 - **Side-dish templates (F06, F07).** They need several distinct dishes in one meal, at random.
   Manual, several cooks.
-- **The language switch at the menu (F03).** `SelectLanguage` reloads all data and pulls the game
-  out from under the runner. Covered by two passes instead (English, French); the switch itself
-  is manual.
 - **Without Biotech, or without any DLC (F08, F09).** The WSL staging mounts every DLC, so a pass
   without them cannot be staged. Manual.
-- **Optional mods (F10), the FoodCourt/Shenzhou provider, an existing save with old meals (F13).**
-  The first two need a pass with those mods staged, not yet defined (see TESTING.md). The last
-  needs a save made before the translation was installed, which the fixture is not.
-- **Persistence across a real restart, and RIMMSQOL revealing the shortcut (F11, F12).** A restart
-  cannot be faked by re-reading a file, and RIMMSQOL is not in the headless staging.
+- **An existing save with old meals (F13).** It needs a save made before the translation was
+  installed, which the fixture is not. Optional mods (F10) and the Shenzhou provider are covered by
+  passes 3 and 4, whose maps are written (see TESTING.md); Medieval Overhaul, Optimization: Meats and
+  V.O.I.D. are left out on the owner's word, and Nelim's Food Court, local and unpublished, is not
+  targeted by any table of this mod.
+- **RIMMSQOL revealing the shortcut (F12).** RIMMSQOL is not in the headless staging, and driving its own
+  interface needs its internals read first; not written. The contract on this mod's side (hidden,
+  then drawn and live, then hidden again) is in `04`.
+- **The language switch from the menu (F03), inside one run.** Not a scenario, and not for lack of
+  effort: `SelectLanguage` reloads all data and pulls the game out from under the runner, so a
+  scenario that switches fails for reasons that are not the mod's. Two separate launches, English
+  and French, each from a clean start, cover what F03 is worried about (no patch state leaking from
+  one language into the other, since a new process has none to leak); the menu switch itself stays
+  manual.
 
 ## Passes
 
-Declared in [TESTING.md](../../TESTING.md). Two are defined and can be played once staging works:
+Declared in [TESTING.md](../../TESTING.md). `<Mod>` is `FlavorTextExtendedFR`, which resolves through the junction
+described in the next section. Every command goes through `scripts/Run-PickleWsl.ps1` and is run in a real
+PowerShell session (`powershell.exe -Command "& ./scripts/Run-PickleWsl.ps1 ..."`), because `-Then` is an
+array (`[string[]]`): with `-File` it would reach the script as one string.
 
-| Pass | Command | Plays |
+| Pass | Extra arguments after `-Mod <Mod>` | Plays |
 | --- | --- | --- |
-| English, `sans-facultatifs` | `powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod>` | 01, 02, 04, 05, 06 (`03` is `@wip`, skipped by default) |
-| French, `sans-facultatifs` | `powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Language French -IncludeWip -Filter "03-french-language.feature" -Then "01-loads.feature","04-settings-shortcut.feature","05-language.feature","06-meal-naming.feature","07-review-shots.feature"` | 03, 01, 04, 05, 06, 07: one game launch each, under one hold of the lock. `-Then` is an array (`[string[]]`), so the filters go comma-separated after one `-Then`, not repeated |
+| 1 English, `sans-facultatifs` | none | 01, 02, 04, 05, 06 (`03`, `07`-`11` are `@wip`, skipped by default) |
+| 2 French | `-Language French -IncludeWip -Filter '03-french-language.feature' -Then '01-loads.feature','04-settings-shortcut.feature','05-language.feature','06-meal-naming.feature','07-review-shots.feature'` | 03, 01, 04, 05, 06, 07: one game launch each, under one hold of the lock |
+| 2b French, cooking | `-Language French -IncludeWip -Filter '09-cooking.feature'` | 09, filmed |
+| 3 French, optional providers | `-Language French -IncludeWip -DepMap wsl-deps.avec-facultatifs.map -Filter '06-meal-naming.feature' -Then '01-loads.feature'` | 06, 01 |
+| 4 French, Shenzhou | `-Language French -IncludeWip -DepMap wsl-deps.avec-shenzhou.map -Filter '06-meal-naming.feature' -Then '01-loads.feature'` | 06, 01 |
+| 5 French, invented foods | `-Language French -IncludeWip -DepMap wsl-deps.faux-ingredients.map -Filter '08-unlisted-ingredients.feature'` | 08 (needs the third link below) |
+| 6 restart pair | `-IncludeWip -Filter '10-restart-write.feature' -Then '11-restart-read.feature'` | 10, then 11: two launches |
 
-`02-english-isolation` is English-only and fails in French by design, so the French pass names its
-features one by one instead of playing everything. `-Then` takes the lock once and stages once;
-its status in `scripts/PICKLE-WSL.md` reads "no two-launch sequence had been seen to finish", so the
-first French run may have to be split by hand into separate `-Filter` runs. `<Mod>` is `FlavorTextExtendedFR`, which resolves through the junction described in the next section.
+`02-english-isolation` is English-only and fails in French by design, so the French passes name their
+features one by one. `-Then` takes the lock once and stages once; `scripts/PICKLE-WSL.md` says no
+two-launch sequence had been seen to finish when it was written, so a sequence may have to be split into
+separate `-Filter` runs. A restart pair that dies between its two launches leaves the ingredient cap at 4 and
+quick search on in the profile, and the next staging does not clean them: put them back by hand.
 
 Running any of this takes the machine lock and is done only through `scripts/Run-PickleWsl.ps1`;
 see `scripts/PICKLE-WSL.md`. Read `exitReason` before the counts, compare the scenarios played with
 the features discovered, and open the two `@review` captures: a green run does not show that the
 picture shows anything.
 
-## Staging: two one-time links, machine-local
+## Staging: three one-time links, machine-local
 
 `scripts/stage-pickle-wsl.sh` is shared with every other mod and was not edited. Read against this
 repository it could not stage this suite as it stood, for two reasons, both settled without touching
@@ -114,6 +132,15 @@ the script by a link that lives on the machine and not in this repository:
    ```bash
    mkdir -p ~/workshop-cache/steamapps/workshop/content/294100
    ln -s /mnt/c/Users/nelim/Documents/rimworld/FlavorText/FlavorTextExtended/Mod ~/workshop-cache/steamapps/workshop/content/294100/FlavorTextExtended
+   ```
+
+3. **The invented foods (pass 5).** `Tests/Pickle/FakeIngredients` is a mod of its own so that a fault in how
+   Flavor Text categorizes three invented raw foods cannot break another pass. A symbolic link named
+   `FTFRFakeIngredients` in the WSL cache points at it (created 2026-09-21, named in
+   `wsl-deps.faux-ingredients.map`):
+
+   ```bash
+   ln -s /mnt/c/Users/nelim/Documents/rimworld/FlavorText/FlavorTextExtendedFR/Tests/Pickle/FakeIngredients \n         ~/workshop-cache/steamapps/workshop/content/294100/FTFRFakeIngredients
    ```
 
 **Exercised on 2026-09-21.** The first staging through `Run-PickleWsl.ps1 -Mod FlavorTextExtendedFR`
