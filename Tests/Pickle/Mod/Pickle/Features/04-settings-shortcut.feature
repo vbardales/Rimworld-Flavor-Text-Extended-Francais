@@ -6,9 +6,10 @@
 # shows is that the real Dialog_ModSettings draws through the bridge, that it belongs to THIS mod,
 # and that drawing it really applies the clamp to hekmo's own field.
 #
-# What stays manual, and cannot be otherwise from here: revealing and re-hiding the shortcut in
-# RIMMSQOL's own interface, and that this choice survives a restart. RIMMSQOL is not in the
-# headless staging, which mounts hard dependencies only.
+# Revealing and re-hiding the shortcut in RIMMSQOL, and that this choice survives a restart, are not here:
+# RIMMSQOL is not in the default staging, which mounts hard dependencies only. They are features 12 to 15,
+# played by pass 7 ("avec-rimmsqol") through the shared steps of PickleTools/RimmsqolSteps. This feature
+# stays what it was: the contract on THIS mod's side, in every pass, with nothing else installed.
 @review
 Feature: the settings page and its hidden shortcut
 

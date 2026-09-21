@@ -2,7 +2,9 @@
 
 The scenarios of [TESTING.md](../../TESTING.md) that a running game is needed for, and only those.
 `Mod/` is a companion mod, **Flavor Text Extended - Français - Pickle tests**, never published. It
-holds eleven feature files and a small steps assembly built from `Source/`.
+holds fifteen feature files and a small steps assembly built from `Source/`; features 12 to 15 also use
+the shared RIMMSQOL steps of `PickleTools/RimmsqolSteps` (repository root), a companion mod of its own that
+only pass 7 stages.
 
 **Status: written on 2026-09-21; one pass played the same day.** The English pass, `sans-facultatifs`,
 ran in the WSL: 24 scenarios discovered, **18 passed, 0 failed, 6 skipped**, `exitReason: passed`. The 6
@@ -49,6 +51,8 @@ is repeated here.
 | `08-unlisted-ingredients` (`@wip @review`) | The fallback for ingredients no table lists (F14), with three invented raw foods from `FakeIngredients/` (yuzu, huile de noix, haricots rouges): renamed, no raw slot, no internal name shown, inspect pane captured. Own pass, own mod, see below. | F14 |
 | `09-cooking` (`@wip @review @film @slow`) | A colonist cooks a simple meal at a fuelled stove from the colony's stock, filmed; the meal that comes out is named in the language of the pass. Frames and a capture for a person to watch. | F01 |
 | `10-restart-write`, `11-restart-read` (`@wip`) | Two launches under one lock: values saved in the first are the ones the second loaded at startup, then put back. | F11 |
+| `12-rimmsqol-shortcut` (`@wip @review @rimmsqol`) | RIMMSQOL itself, staged and driven through the shared steps: its own list of main buttons offers `FTFR_Settings`, reads it hidden; RIMMSQOL reveals it and the bar draws it, the file RIMMSQOL wrote says so, and the revealed button opens this mod's page; RIMMSQOL hides it and forgets it and nothing is left. Three captures (the list, the edit page, the page the revealed button opens). | F12 |
+| `13`, `14`, `15-rimmsqol-restart-*` (`@wip @rimmsqol`, `14` `@review`) | Three launches under one lock: reveal, then in a new process the reveal survived and it is hidden, then in a third the hiding survived and everything is forgotten. Each launch refuses to pass if the previous one ran in the same process. One capture. | F12 |
 
 **Deliberately not in Gherkin**, with the reason, so nobody adds a scenario that cannot work:
 
@@ -65,9 +69,12 @@ is repeated here.
   passes 3 and 4, whose maps are written (see TESTING.md); Medieval Overhaul, Optimization: Meats and
   V.O.I.D. are left out on the owner's word, and Nelim's Food Court, local and unpublished, is not
   targeted by any table of this mod.
-- **RIMMSQOL revealing the shortcut (F12).** RIMMSQOL is not in the headless staging, and driving its own
-  interface needs its internals read first; not written. The contract on this mod's side (hidden,
-  then drawn and live, then hidden again) is in `04`.
+- **RIMMSQOL revealing the shortcut (F12)** is no longer left out: `12` to `15` drive it (see the table and
+  pass 7), **played once on 2026-09-21: four launches, all passed** (12: 3 of 3; 13, 14, 15: 1 of 1 each), four
+  captures opened. What they cannot show: they call the settings instance the
+  checkbox calls rather than clicking the checkbox, and "the bar draws it" is computed from the bar's own
+  list, not photographed. `PickleTools/RimmsqolSteps/README.md` says what RIMMSQOL does and how. The
+  contract on this mod's side (hidden, then drawn and live, then hidden again) stays in `04`, in every pass.
 - **The language switch from the menu (F03), inside one run.** Not a scenario, and no longer a gap: the game
   restarts when the language changes (confirmed by the owner, 2026-09-21), so a switch is a cold start in the
   new language, which is exactly what a pass with `-Language` is. F03 is therefore covered by the English and
@@ -93,6 +100,7 @@ array (`[string[]]`): with `-File` it would reach the script as one string.
 | 4 French, Shenzhou | `-Language French -IncludeWip -DepMap wsl-deps.avec-shenzhou.map -Filter '06-meal-naming.feature' -Then '01-loads.feature'` | 06, 01 |
 | 5 French, invented foods | `-Language French -IncludeWip -DepMap wsl-deps.faux-ingredients.map -Filter '08-unlisted-ingredients.feature'` | 08 (needs the third link below) |
 | 6 restart pair | `-IncludeWip -Filter '10-restart-write.feature' -Then '11-restart-read.feature'` | 10, then 11: two launches |
+| 7 RIMMSQOL | `-IncludeWip -DepMap wsl-deps.avec-rimmsqol.map -Filter '12-rimmsqol-shortcut.feature' -Then '13-rimmsqol-restart-reveal.feature','14-rimmsqol-restart-hide.feature','15-rimmsqol-restart-forget.feature'` | 12, then the chain 13, 14, 15: four launches under one lock. Stages RIMMSQOL (Workshop 1084452457) and the shared steps; the last scenario forgets RIMMSQOL's choice, and a run cut between two launches leaves it in the WSL profile, see `PickleTools/RimmsqolSteps/README.md`, "Leftovers" |
 
 `02-english-isolation` is English-only and fails in French by design, so the French passes name their
 features one by one. `-Then` takes the lock once and stages once; `scripts/PICKLE-WSL.md` says no

@@ -15,7 +15,7 @@ dependencies' Defs), `Test-Language`, `Test-PatchLifecycle`, `Test-SettingsBridg
 
 ## In the game, by Pickle (English pass played, French pass pending)
 
-Eleven features, one companion mod, one steps assembly. The scope is the part a running game is needed
+Fifteen features, one companion mod, one steps assembly (plus the shared RIMMSQOL steps of `PickleTools/RimmsqolSteps`, staged by pass 7 only). The scope is the part a running game is needed
 for: the real patch pipeline and loader, the real DefInjected resolution and LoadFolders gate, the
 real settings dialog and the hidden shortcut, and the real name generation. What is left out of
 Gherkin, and why, is written in `Tests/Pickle/README.md`; nothing is left out for lack of effort
@@ -36,6 +36,7 @@ incompatibility) does not apply. Several passes are needed:
 | 4 | `avec-shenzhou`, French | The same set plus Shenzhou alone (`-DepMap wsl-deps.avec-shenzhou.map`); it declares 1.5 at most, so its own errors are read as such | French | 06, 01 | defined (map written), not run |
 | 5 | `faux-ingredients`, French | The same set plus a local mod of three invented raw foods (`-DepMap wsl-deps.faux-ingredients.map`), for F14 | French | 08 | defined, needs a local link (see README), not run |
 | 6 | restart pair | The same set | English | 10 then 11, two launches under one lock (`-IncludeWip -Filter '10-restart-write.feature' -Then '11-restart-read.feature'`) | defined, not run |
+| 7 | `avec-rimmsqol` | The same set plus RIMMSQOL (`MalteSchulze.RIMMSqol`, Workshop 1084452457; hard dependency Harmony, staged everywhere) and the shared steps that drive it (`-DepMap wsl-deps.avec-rimmsqol.map`), for F12 | English | 12, then 13, 14, 15: four launches under one lock (`-IncludeWip -Filter '12-rimmsqol-shortcut.feature' -Then '13-rimmsqol-restart-reveal.feature','14-rimmsqol-restart-hide.feature','15-rimmsqol-restart-forget.feature'`) | **played 2026-09-21: 4 launches, all `exitReason: passed` (12: 3 of 3; 13, 14, 15: 1 of 1 each)**, 15 mods loaded, profile left with no RIMMSQOL choice. Captures opened. Detail and limits in `PickleTools/RimmsqolSteps/README.md` |
 
 Left out of pass 3 on the owner's word, 2026-09-21: [RH2] Faction: V.O.I.D., Medieval Overhaul and Optimization: Meats. Their tables stay covered by the offline checks only. Nelim's Food Court is local and unpublished, declares itself incompatible with Shenzhou, and no table of this mod targets it: it is not staged. The two passes 3 and 4 are separate because the providers of pass 4 are exclusive with FoodCourt and old.
 
@@ -59,7 +60,7 @@ and goes through `scripts/Run-PickleWsl.ps1` only.
   `@review` images) nor that a French name agrees (read the `[FTFR tests] meal ... reads:` lines).
   Read `exitReason` before the counts and compare scenarios played with features discovered.
 - The manual scenarios stay the only evidence for forcing an exact dish, side-dish variety,
-  running without a DLC, an existing save with old meals, and RIMMSQOL
-  revealing the shortcut. The language switch is a restart in the new language, so the English and French
+  running without a DLC, an existing save with old meals, and RIMMSQOL's own checkbox being wired to what
+  the steps of pass 7 call (they drive RIMMSQOL's settings instance, they do not click the checkbox). The language switch is a restart in the new language, so the English and French
   passes cover it. Cooking with a colonist (filmed), unlisted ingredients and the restart are
   now scenarios, written and not yet played.

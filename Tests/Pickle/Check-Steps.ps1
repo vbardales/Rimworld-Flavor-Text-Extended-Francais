@@ -69,6 +69,30 @@ foreach ($file in Get-ChildItem -LiteralPath (Join-Path $suite 'Source') -Filter
 
 if ($declared.Count -eq 0) { throw "no step patterns found under $suite\Source: the attribute shape this script looks for has changed." }
 
+# Steps this suite USES but does not own: the shared assemblies of PickleTools\ at the top of the
+# repository (the RIMMSQOL steps of features 12 to 15). Compiled and checked for duplicates like the
+# suite's own, so a text this suite and a shared assembly both declare is caught here, but never
+# reported as unused: other suites use them too. The attribute regex is looser than the one above
+# because a step may carry a named argument (TimeoutSeconds = 30) after its pattern. Skipped with a
+# note when the repository is not checked out around this suite.
+$sharedRoot = $suite
+while ($sharedRoot -and -not (Test-Path -LiteralPath (Join-Path $sharedRoot 'PickleTools'))) { $sharedRoot = Split-Path $sharedRoot -Parent }
+if ($sharedRoot) {
+    foreach ($file in Get-ChildItem -LiteralPath (Join-Path $sharedRoot 'PickleTools') -Recurse -Filter *.cs |
+             Where-Object { $_.FullName -match '\\Source\\' -and $_.FullName -notmatch '\\(obj|bin|\.build)\\' }) {
+        $text = [IO.File]::ReadAllText($file.FullName)
+        foreach ($m in [regex]::Matches($text, '\[(?:Given|When|Then)\("((?:[^"\\]|\\.)*)"')) {
+            $declared += [pscustomobject]@{
+                File    = 'PickleTools\' + $file.Name
+                Pattern = $m.Groups[1].Value -replace '\\\\', '\' -replace '\\"', '"'
+                Shared  = $true
+            }
+        }
+    }
+} else {
+    Write-Host 'note: no PickleTools folder found above this suite; the shared steps of features 12 to 15 are not checked here.' -ForegroundColor Yellow
+}
+
 # Two definitions carrying the same expression text are an "Ambiguous step" at run time, and the
 # scenarios they fail are perfectly healthy ones. Pickle matches on the expression text alone, so a
 # Given setter and a Then assertion spelled identically collide even though they read differently in
@@ -89,6 +113,7 @@ foreach ($d in $declared) {
             Pattern    = $d.Pattern
             Expression = New-Object CucumberExpressions.CucumberExpression($d.Pattern, $registry)
             Used       = $false
+            Shared     = [bool]$d.Shared
         }
     } catch {
         $e = $_.Exception
@@ -122,7 +147,7 @@ foreach ($file in Get-ChildItem -LiteralPath (Join-Path $suite 'Mod\Pickle\Featu
     }
 }
 
-$unused = @($compiled | Where-Object { -not $_.Used })
+$unused = @($compiled | Where-Object { -not $_.Used -and -not $_.Shared })
 
 # --- report --------------------------------------------------------------------------------------
 

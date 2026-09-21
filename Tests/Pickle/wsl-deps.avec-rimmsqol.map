@@ -1,0 +1,23 @@
+# Pass 7, "avec-rimmsqol": RIMMSQOL, the button-customization mod MOD_SETTINGS.md names, and the shared Pickle
+# steps that drive it (PickleTools/RimmsqolSteps). Plays 12 to 15. It exists to answer four questions the other
+# passes cannot: does RIMMSQOL's own interface list FTFR_Settings, can it reveal it and does the revealed
+# button open the same page, does hiding it again work, and does the choice survive a restart.
+#
+# Ids and dependencies read from each mod's own About.xml on 2026-09-21 (scripts/Search-Workshop.sh, by packageId):
+#
+#   MalteSchulze.RIMMSqol, Workshop 1084452457. Its About.xml declares hard dependencies for 1.1 to 1.5 only
+#   (brrainz.harmony), none for 1.6; its code references 0Harmony (RIMMSqol.csproj) and its 1.6 folder ships no
+#   copy, so Harmony is a real dependency in 1.6 whatever the About says. The staging activates Harmony first in
+#   every pass, ahead of everything below, so it is deliberately NOT repeated here. Its loadAfter names Core,
+#   Royalty, Ideology, Harmony (all staged by default) and rimforge, pawnmorpher, CherryPicker (not staged: they
+#   are optional for it and nothing in this pass needs them).
+#
+#   nelim.pickletools.rimmsqol, a folder of this repository: the steps assembly. Hard dependencies rimworks.pickle
+#   and MalteSchulze.RIMMSqol, so it goes after RIMMSQOL. It holds no Defs and no features.
+#
+# Dependency order, as the script activates it (Harmony, the five DLC, RimLogging, Pickle, then this mod's own
+# hard dependencies hekmo.FlavorText and nelim.flavortextextended from About.xml, then this file, then the mod):
+#   brrainz.harmony -> Core + DLC -> RimLogging -> Pickle -> Flavor Text -> Flavor Text Extended
+#   -> MalteSchulze.RIMMSqol -> nelim.pickletools.rimmsqol -> nelim.flavortextextended.fr -> its Pickle tests
+MalteSchulze.RIMMSqol            1084452457
+nelim.pickletools.rimmsqol      path:PickleTools/RimmsqolSteps/Mod
