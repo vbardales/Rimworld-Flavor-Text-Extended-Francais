@@ -9,7 +9,7 @@ visibility_evidence: "gh api repos/vbardales/Rimworld-Flavor-Text-Extended-Franc
 mod_visibility: public via GitHub; Workshop publication not established
 detached: yes
 stage: done
-stage_meaning: "ready for in-game validation. done was retracted then restored on 2026-09-21: the Pickle suite is written (Tests/Pickle, eleven features, English pass played and green, the rest not yet run) and its scope justified; the licence rests on an owner exception (see licence_exception)"
+stage_meaning: "ready for in-game validation. done was retracted then restored on 2026-09-21: the Pickle suite is written (Tests/Pickle, seventeen features) and its scope justified; English, French and RIMMSQOL passes played and green, the rest not yet run; a language defect found by the first French run was fixed (164104b, not pushed); the licence rests on an owner exception (see licence_exception)"
 licence: silent
 licence_declared: "MIT limited to rights held by the contributor"
 licence_exception: "2026-09-21, owner decision in chat: kept public/silent although upstream Flavor Text declares 1.6 (PUBLISHING.md would class it alive). Reason given: no French version of Flavor Text Extended exists, and it is an extension, not a plain translation of the upstream mod. The rule's own criterion (no 1.6 declared = abandoned) is NOT met; this is an exception, not a finding of abandonment. `original` was proposed and considered the same day, then not retained: the 901 Extended dishes, the C# code and the tooling are the owner's own work, but the 930 Flavor Text dishes are translations of hekmo's text, and ATTRIBUTION.md, README and About.xml all state that. The absence of any other French translation does not bear on rights."
@@ -28,7 +28,10 @@ build: passed
 automated_tests: passed
 xml_tests: passed
 tested_on:
-automated_tested_on: 2026-09-21
+automated_tested_on: 2026-09-21 (rerun from the current sources after the language fix)
+in_game_runs: "2026-09-21: English pass 18/24 (6 skipped by design), French pass 24/24 after the fix, RIMMSQOL pass 4/4"
+last_fix_revision: 164104b
+pushed: false
 audit_revision: b62253aff189c473e7c22cd9613986e0b1f92c52
 review_revision: c675e87
 in_game_validation_owner: user
@@ -37,22 +40,81 @@ maintainer: Codex, task responsible for this local repository
 updated: 2026-09-21
 remaining:
   - "resolved by owner exception 2026-09-21 (was a defect at dansMonoRepo -> horsMonoRepo): upstream Flavor Text 0.3.6 declares 1.5 and 1.6 and its author is active in public comments through Oct 2025, so PUBLISHING.md would class it `alive` (private, ` (prohibited)`; precedent MedievalHomestead, MintchocoConfectionery). The owner keeps it public `silent`, see licence_exception. Residual, stated plainly: no upstream permission exists and the author is reachable; the takedown commitment in About.xml and README is the only safeguard. Revisit if hekmo objects or if the exception is withdrawn."
-  - "resolved 2026-09-21 (was a defect at preTest -> done): the Pickle suite is written under Tests/Pickle (six features, a 15-step companion assembly that builds against the real FlavorText.dll and the shipped mod DLL, Check-Steps.ps1 green) and TESTING.md declares the passes. Scope and exclusions are argued in Tests/Pickle/README.md. Written, never run: running belongs to done -> tested."
-  - "resolved 2026-09-21: staging. Two obstacles were settled without editing the shared script, by machine-local links: a junction rimworld\\FlavorTextExtendedFR to this repository (locally excluded from the monorepo) so -Mod FlavorTextExtendedFR resolves, and a symbolic link FlavorTextExtended in the WSL workshop cache to the local Extended mod (named in wsl-ids.map) since it has no Workshop id. The first staging worked: 13 mods staged and loaded, the run went to its end."
-  - "unverified (done -> tested): the French pass (03, 01, 04, 05, 06, 07 with -Language French) is queued, not played, so every French assertion and the two guesses in 03-french-language.feature (patch attribution through the wrapper operation, a numeric segment in a field path) are unconfirmed. Written since, all unplayed: 08 unlisted ingredients (F14, own mod FakeIngredients, own pass), 09 filmed cooking, 10/11 restart pair, passes 3 (eight optional providers) and 4 (Shenzhou alone) with their maps. Left out of pass 3 on the owner word: V.O.I.D., Medieval Overhaul, Optimization: Meats. Three machine-local links now exist (junction, Extended symlink, FakeIngredients symlink)."
-  - "unverified (done -> tested): the scenarios no Pickle scenario replaces: an exact dish, side-dish variety, DLC-less runs, an existing save with old meals, RIMMSQOL revealing the shortcut (scenarios 12-15 exist, see below; whether its checkbox is wired to what they call stays manual). Owner: user."
-  - "note (shared tooling, not this mod): Run-PickleWsl.ps1 printed `veille non empechee` - SetThreadExecutionState is called with -2147483647, which PowerShell 5.1 cannot convert to UInt32, so the machine is not kept awake during a run. Harmless for a two-minute run."
-  - "unverified: done -> tested. F01-F14 and the FoodCourt scenarios in game, Pickle suites executed with @review captures opened, logs, FR/EN interface, new game and existing save, FoodCourt/Shenzhou provider activation (see _tools/FOODCOURT-FOLLOWUP.md). Owner: user."
-  - "unverified: RIMMSQOL revealing FTFR_Settings. Since 2026-09-21 it is read (PickleTools/RimmsqolSteps/README.md: it writes MainButtonDef.buttonVisible from its own settings instance, no Harmony patch on the bar) and written as scenarios 12-15 of pass 7 (avec-rimmsqol), played once on 2026-09-21 in pass 7, four launches, all exitReason passed (TESTING.md row 7). They call the settings instance RIMMSQOL's checkbox calls, they do not click it, and other customization mods are not covered. The restart of RIMMSQOL's choice (13-15) passed across three launches; the settings restart pair 10/11 is still unplayed."
-  - "note (environment, not a defect): three test scripts (Test-PatchLifecycle, Test-Fallback, Test-FallbackPrefix) require PowerShell 7 (`pwsh`, as README says). It is not installed on this machine; they were replayed 2026-09-21 by equivalent means, see below."
+  - "resolved 2026-09-21 (was a defect at preTest -> done): the Pickle suite is written under Tests/Pickle (seventeen features, a companion steps assembly that builds against the real FlavorText.dll and the shipped mod DLL, Check-Steps.ps1 green on 66 patterns) and TESTING.md declares the passes. Scope and exclusions are argued in Tests/Pickle/README.md."
+  - "resolved 2026-09-21: staging. Two obstacles settled without editing the shared script, by machine-local links: a junction rimworld\\FlavorTextExtendedFR to this repository (locally excluded from the monorepo) so -Mod resolves, and a symbolic link FlavorTextExtended in the WSL workshop cache to the local Extended mod (named in wsl-ids.map). Everything else is staged by path: from the repository. Every pass played so far staged and ran."
+  - "resolved 2026-09-21, found by the first French in-game pass (defect, 164104b): the language guard compared the stored language to `French`, a real game stores `French (Français)`, so no French patch, side-dish grammar, ingredient fallback or aspirated-h repair had ever applied in a real game. Every offline test had given the guard `French`. Fixed with RimWorld's own rule (the part before the bracket); the offline tests use the stored value and Test-Language was shown to fail against the previous DLL. See the update below. The automated_tests: passed of 2026-09-13 could not see it."
+  - "OPEN, owner action: the fix is NOT pushed. origin/main is b62253a, whose Mod/Assemblies DLL still carries the defect; the local branch is 14 commits ahead. The GitHub repository is public. CHANGELOG `Unreleased` describes the fix, modVersion is 1.0.0, no tag, no Workshop item. Push, tag and any republication are the owner's decision and were not done."
+  - "resolved 2026-09-21, owner decision: the dish name `funeral potatoes` stays in English (an American dish; the literal French is not a name anyone knows), 2edf94f. Known limit, not fixed: names that come from Flavor Text's generic templates read oddly, e.g. `plat {0_adj} au four` gives `Plat de lait au four`; the owner does not know that name either and made no decision on a replacement."
+  - "unverified (done -> tested): written and not yet played: the English pass replayed with feature 02 as rewritten (its old scenario could not see a wrapper patch), 07's info-card captures, 08 unlisted ingredients (F14, own mod, own pass), 09 filmed cooking (PickleTools/FilmTicks), 10/11 restart pair, 16/17 without Biotech and without Anomaly/Odyssey (F08, F09; the harness says a DLC left out has not yet been seen in a real run), passes 3 (eight optional providers) and 4 (Shenzhou alone). Left out of pass 3 on the owner word: V.O.I.D., Medieval Overhaul, Optimization: Meats."
+  - "unverified (done -> tested): owner validation of the French captures is in progress, one at a time. Validated: squirrel (elision), beef, the first lavish meal. Not yet shown: the two French settings pages. The husky capture cannot validate the aspirated h (the dish drawn did not name the husky); a scenario that draws many husky meals and fails on `d'husky` was proposed and not written."
+  - "unverified (done -> tested): the scenarios no Pickle scenario replaces: an exact dish, side-dish variety, an existing save with old meals, RIMMSQOL's own checkbox (12-15 drive the settings instance the checkbox calls, and passed, but do not click it). The language switch is not a gap: the game restarts on a language change, so the English and French passes cover it. Owner: user."
+  - "unverified: RIMMSQOL revealing FTFR_Settings is covered by pass 7 (played, four launches, all exitReason passed, TESTING.md row 7; PickleTools/RimmsqolSteps/README.md). Other customization mods are not covered."
+  - "note (shared tooling, not this mod): the launcher printed `veille non empechee` on 2026-09-21 (SetThreadExecutionState received -2147483647, not convertible to UInt32 in PowerShell 5.1). A separate session was started to look at it; its result was not read here. See PickleTools/Headless/README.md."
+  - "note (environment, not a defect): three test scripts (Test-PatchLifecycle, Test-Fallback, Test-FallbackPrefix) require PowerShell 7 (`pwsh`, as README says). It is not installed on this machine; they were replayed 2026-09-21 by equivalent means, from the current sources, after the fix."
 ---
+
+# Update - 2026-09-21, after the first in-game runs
+
+Written after the audit below, once the Pickle suite existed and had been played. The audit section that
+follows is kept as it was; where it says nothing ran in game, that was true of that pass. The stage stays
+**`done`**: `done -> tested` is not reached (see `remaining`).
+
+## What the runs showed
+
+- **A defect the offline tests could not see.** The first French pass failed 2 of the 6 scenarios of
+  `03-french-language`: `FT_Egg` read its English values in a French game. Cause: RimWorld stores the official
+  French translation as `French (Français)` (the owner's own `Prefs.xml` holds it), the mod's guard compared the
+  stored value to `French`, so it always answered "not French". No French patch, no side-dish grammar, no
+  ingredient fallback and no aspirated-h repair had ever applied in a real game. Every offline test had given the
+  guard `French`. The DefInjected texts still worked, because the game matches a mod's `Languages/French` folder
+  by the part before the bracket: which is why the four label scenarios passed and hid the rest.
+- **The fix, `164104b`.** `FrenchLanguage.IsFrench` applies that same rule, and `PatchOperationFrench`,
+  `RuntimePatches` and `FrenchMealPostProcessing` use it. The enriched `Test-Language` was run against the
+  **previous** DLL first and failed on the stored value; after the rebuild the whole offline battery is green
+  (build, `Test-Language`, `Test-Xml`, `Test-SettingsBridge`, `Test-UpstreamSettings`,
+  `Test-HarmonyRegistration`, and the three PowerShell 7 scripts replayed by equivalent means from the current
+  sources). CHANGELOG updated in both copies.
+- **The second French pass, after the fix.** Six launches under one lock, all `exitReason: passed`: `03` 5/5, `01`
+  5/5, `04` 4/4, `05` 2/2, `06` 3/3, `07` 5/5 (24 scenarios). `-Then` finished, which the harness guide had never
+  seen. French names came out: `Saucisse de bœuf (plat raffiné)`, `Salade d'écureuil (plat raffiné)`, `Plat de lait au
+  four (plat raffiné)`, and for a lavish meal a title starting `Burger à la viande d'écureuil, façon…`, whose `façon`
+  is the mod's own French side-dish joint, so that patch applied. The `Player.log` of the first five launches has no
+  error beyond the companion's harmless "did not load any content"; the sixth was not read.
+- **Two stock Pickle steps cannot be used for this mod.** `def X was patched by mod Y` reported `(no mod)` for a
+  patch made through the wrapper operation, so `no def X was patched` would also have passed in French: the English
+  isolation scenario proved nothing and was rewritten. A dotted path takes no numeric index into a list. The suite now
+  reads the value the def holds (`CategorySteps`). Recorded for other mods in `PickleTools/Elsewhere/FlavorTextExtendedFR.md`.
+
+## Decisions and validation by the owner
+
+- Licence stays `silent` under the recorded exception (above).
+- `funeral potatoes` is kept in English (`2edf94f`). `Plat de lait au four` stays as a known limit.
+- French captures are validated one at a time: squirrel, beef and the first lavish meal are validated. The owner asked
+  that the next captures show the whole title on hover; the suite now also captures each meal's info card, which shows
+  the whole name and description (`4214a61`, not yet played).
+
+## What changed in the suite since the audit
+
+- Seventeen features (was six at the audit): `07` review captures, `08` unlisted ingredients, `09` filmed cooking,
+  `10`/`11` restart pair, `12`-`15` RIMMSQOL (played, written by a separate session, committed in `2b91ab8`), `16`/`17`
+  without a DLC. Passes 1 to 9 in `TESTING.md`; commands and staging in `Tests/Pickle/README.md`.
+- Shared tooling: `PickleTools/FilmTicks` films the cooking, `PickleTools/RimmsqolSteps` drives RIMMSQOL, the
+  ledger `PickleTools/Elsewhere/FlavorTextExtendedFR.md` says what stays here and what another mod can lift.
+- `path:` in a pass map replaces two machine links I had set up; two remain (junction, Extended symlink).
+- Not pushed: 14 commits ahead of `origin/main`, which still holds the DLL with the defect. See `remaining`.
+
+## Evidence
+
+The reports of the two French runs and the captures are under `.build/` (ignored by Git): `pickle-run-2026-09-21-english`,
+`-french-03`, `-french-03b`, `-french-ok`. The launcher's own archive holds the rest for a few runs only.
+
 
 # Cumulative audit - 2026-09-21
 
 **Previous stage: `done`. Retained stage: `done`, after a retraction and a restoration the same day.**
 The first pass of this audit retracted it to `preTest` for one reason: no Pickle suite and no
 justification of its absence. The suite was then written at the owner's request and the criterion
-is met (section "Pickle suite written" below). `done -> tested` is not reached: nothing ran in game.
+is met (section "Pickle suite written" below). `done -> tested` is not reached. When this audit was written nothing had run in game; see the update above for what ran since.
 
 *Revision of the same day.* The first pass of this audit retained `dansMonoRepo`, because the licence
 `silent` contradicts PUBLISHING.md (upstream declares 1.6, so `alive`). The owner then decided, in chat,
@@ -61,7 +123,7 @@ was a missing justification; with the owner's decision recorded, the transition 
 itself is unchanged and stays visible in the table and in `remaining`.
 
 Audited revision `b62253aff189c473e7c22cd9613986e0b1f92c52` = `origin/main` (`git ls-remote`);
-working tree clean before this update, which changes STATUS.md only. No RimWorld was launched
+working tree clean before this update, which changes STATUS.md only. As of that pass no RimWorld was launched
 (no `RimWorldWin64` process, no WSL run, no Pickle), no game configuration touched, nothing published.
 AUDIT.md postdates the 2026-09-13 `done` decision.
 

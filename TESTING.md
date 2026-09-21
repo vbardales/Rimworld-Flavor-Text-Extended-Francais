@@ -13,54 +13,75 @@ dependencies' Defs), `Test-Language`, `Test-PatchLifecycle`, `Test-SettingsBridg
 `scripts/Check-DefInjected.ps1` (3,671 keys, 0 errors). Three of them need PowerShell 7; see
 `STATUS.md` for how they were replayed where it is absent.
 
-## In the game, by Pickle (English pass played, French pass pending)
+**What these tests could not see, and a game run did.** Until 2026-09-21 every one of them gave the language
+guard the value `"French"`. A real game stores the official French translation as `French (Français)`, so the
+guard never matched and the mod did nothing in a real French game, with every offline test green. It was found
+by the first in-game run and fixed in `164104b`. The offline tests now use the stored value, and
+`Test-Language` was shown to fail against the previous DLL before it was rebuilt. The lesson is written into
+what each kind of test may claim, below.
 
-Fifteen features, one companion mod, one steps assembly (plus the shared RIMMSQOL steps of `PickleTools/RimmsqolSteps`, staged by pass 7 only). The scope is the part a running game is needed
-for: the real patch pipeline and loader, the real DefInjected resolution and LoadFolders gate, the
-real settings dialog and the hidden shortcut, and the real name generation. What is left out of
-Gherkin, and why, is written in `Tests/Pickle/README.md`; nothing is left out for lack of effort
-that a step could have covered.
+## In the game, by Pickle
+
+Seventeen features, one companion mod, one steps assembly. The shared steps of Nelim's Pickle Tools are used
+where they exist (`PickleTools/FilmTicks` for the cooking film, `PickleTools/RimmsqolSteps` for pass 7); what
+stays in this suite, and where another mod can find it, is listed in `PickleTools/Elsewhere/FlavorTextExtendedFR.md`.
+The scope is the part a running game is needed for: the real patch pipeline and loader, the real DefInjected
+resolution and LoadFolders gate, the real settings dialog and the hidden shortcut, the real name generation,
+real cooking, and what only a second launch or another modlist shows. What is left out of Gherkin, and why, is
+written in `Tests/Pickle/README.md`.
 
 ### Passes
 
 A mod is not validated by one run, and this report must say which pass is which. This mod declares
 **no incompatibility** and no optional mod in `loadAfter`, so the third family (one pass per declared
-incompatibility) does not apply. Several passes are needed:
+incompatibility) does not apply. Several passes are needed. Commands are in `Tests/Pickle/README.md`, with
+`-Mod FlavorTextExtendedFR`.
 
 | # | Pass | Set | Language | Plays | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | `sans-facultatifs`, English | The minimal set the staging mounts by default: Core, the DLC, Harmony, RimLogging, Pickle, Flavor Text, Flavor Text Extended, the mod and its companion | English | 01, 02, 04, 05, 06 | **played 2026-09-21: 18 passed, 0 failed, 6 skipped (feature 03), `exitReason: passed`; the two `@review` captures opened** |
-| 2 | `sans-facultatifs`, French | The same set | French | 03, 01, 04, 05, 06, 07 | defined, ticket taken |
-| 2b | `sans-facultatifs`, French, cooking | The same set | French | 09 (`-IncludeWip -Filter '09-cooking.feature'`), filmed | defined, not run |
-| 3 | `avec-facultatifs`, French | The same set plus eight providers of the third-party tables, with their hard dependencies: Vanilla Plants Expanded and its More Plants, Vanilla Cooking Expanded, Vanilla Brewing Expanded, Kit's Brazilian Crops, VGP Vegetable Garden and Garden Gourmet, VV New Harvest, RimCuisine 2 Core, TP Sea Plants (`-DepMap wsl-deps.avec-facultatifs.map`) | French | 06, 01 | defined (map written), not run |
-| 4 | `avec-shenzhou`, French | The same set plus Shenzhou alone (`-DepMap wsl-deps.avec-shenzhou.map`); it declares 1.5 at most, so its own errors are read as such | French | 06, 01 | defined (map written), not run |
-| 5 | `faux-ingredients`, French | The same set plus a local mod of three invented raw foods (`-DepMap wsl-deps.faux-ingredients.map`), for F14 | French | 08 | defined, needs a local link (see README), not run |
+| 1 | `sans-facultatifs`, English | The minimal set the staging mounts by default: Core, the DLC, Harmony, RimLogging, Pickle, Flavor Text, Flavor Text Extended, the mod and its companion | English | 01, 02, 04, 05, 06 | **played 2026-09-21, before the language fix: 18 passed, 0 failed, 6 skipped (feature 03), `exitReason: passed`; the two `@review` captures opened.** Feature 02's isolation scenario was rewritten afterwards (it read "no def was patched", which cannot see a wrapper patch) and has **not** been replayed |
+| 2 | `sans-facultatifs`, French | The same set | French | 03, then 01, 04, 05, 06, 07: six launches under one lock | **played 2026-09-21, after the fix: six launches, all `exitReason: passed`; 03 5/5, 01 5/5, 04 4/4, 05 2/2, 06 3/3, 07 5/5.** The first attempt, before the fix, failed 2 of 6 in feature 03: `FT_Egg` read its English values, which is how the language defect was found. Captures opened; the owner validated the squirrel, the beef and the first lavish meal. 07 has since gained an info-card capture per meal, not yet played |
+| 2b | `sans-facultatifs`, French, cooking | The same set plus `PickleTools/FilmTicks` (`-DepMap wsl-deps.cuisson-film.map`) | French | 09, filmed | defined, not run |
+| 3 | `avec-facultatifs`, French | The same set plus eight providers of the third-party tables, with their hard dependencies: Vanilla Plants Expanded and its More Plants, Vanilla Cooking Expanded, Vanilla Brewing Expanded, Kit's Brazilian Crops, VGP Vegetable Garden and Garden Gourmet, VV New Harvest, RimCuisine 2 Core, TP Sea Plants (`-DepMap wsl-deps.avec-facultatifs.map`) | French | 06, 01 | map written, not run |
+| 4 | `avec-shenzhou`, French | The same set plus Shenzhou alone (`-DepMap wsl-deps.avec-shenzhou.map`); it declares 1.5 at most, so its own errors are read as such | French | 06, 01 | map written, not run |
+| 5 | `faux-ingredients`, French | The same set plus a folder of this repository with three invented raw foods, staged by `path:` (`-DepMap wsl-deps.faux-ingredients.map`), for F14 | French | 08 | map written, not run |
 | 6 | restart pair | The same set | English | 10 then 11, two launches under one lock (`-IncludeWip -Filter '10-restart-write.feature' -Then '11-restart-read.feature'`) | defined, not run |
-| 7 | `avec-rimmsqol` | The same set plus RIMMSQOL (`MalteSchulze.RIMMSqol`, Workshop 1084452457; hard dependency Harmony, staged everywhere) and the shared steps that drive it (`-DepMap wsl-deps.avec-rimmsqol.map`), for F12 | English | 12, then 13, 14, 15: four launches under one lock (`-IncludeWip -Filter '12-rimmsqol-shortcut.feature' -Then '13-rimmsqol-restart-reveal.feature','14-rimmsqol-restart-hide.feature','15-rimmsqol-restart-forget.feature'`) | **played 2026-09-21: 4 launches, all `exitReason: passed` (12: 3 of 3; 13, 14, 15: 1 of 1 each)**, 15 mods loaded, profile left with no RIMMSQOL choice. Captures opened. Detail and limits in `PickleTools/RimmsqolSteps/README.md` |
+| 7 | `avec-rimmsqol` | The same set plus RIMMSQOL (`MalteSchulze.RIMMSqol`, Workshop 1084452457; hard dependency Harmony, staged everywhere) and the shared steps that drive it (`-DepMap wsl-deps.avec-rimmsqol.map`), for F12 | English | 12, then 13, 14, 15: four launches under one lock | **played 2026-09-21: 4 launches, all `exitReason: passed` (12: 3 of 3; 13, 14, 15: 1 of 1 each)**, 15 mods loaded, profile left with no RIMMSQOL choice. Captures opened. Detail and limits in `PickleTools/RimmsqolSteps/README.md` |
+| 8 | `sans-biotech` | The same set with Biotech left out (`-DepMap wsl-deps.sans-biotech.map`, `!ludeon.rimworld.biotech`), for F08 | English | 16, no save loaded | map written, not run. The harness itself says a DLC left out has not yet been seen in a real run |
+| 9 | `sans-anomaly-odyssey` | The same set with both left out (`-DepMap wsl-deps.sans-anomaly-odyssey.map`), for F09 | English | 17, no save loaded | map written, not run |
 
-Left out of pass 3 on the owner's word, 2026-09-21: [RH2] Faction: V.O.I.D., Medieval Overhaul and Optimization: Meats. Their tables stay covered by the offline checks only. Nelim's Food Court is local and unpublished, declares itself incompatible with Shenzhou, and no table of this mod targets it: it is not staged. The two passes 3 and 4 are separate because the providers of pass 4 are exclusive with FoodCourt and old.
+Left out of pass 3 on the owner's word, 2026-09-21: [RH2] Faction: V.O.I.D., Medieval Overhaul and Optimization: Meats. Their tables stay covered by the offline checks only. Nelim's Food Court is local and unpublished, declares itself incompatible with Shenzhou, and no table of this mod targets it: it is not staged. Passes 3 and 4 are separate because Shenzhou is old and would put its own errors beside the eight providers.
 
 Passes 3 and 4 exist because a French name is built from the ingredients actually cooked, and the ingredients
 that reach the optional tables only exist with those mods; a green on passes 1 and 2 says nothing
 about them. No incompatibility is declared among the eight providers of pass 3 (Vegetable Garden refuses
 `GrowableGrass`, which is not staged); if a first run shows two of them conflicting, the pass splits.
 
-Commands are in `Tests/Pickle/README.md`, with `-Mod FlavorTextExtendedFR`. The shared staging script
-could not stage a nested repository or a GitHub-only hard dependency; both are settled by two
-machine-local links (a junction at the top of the monorepo, a symbolic link in the WSL workshop
-cache), described there and exercised by the English pass. Running any pass takes the machine lock
-and goes through `scripts/Run-PickleWsl.ps1` only.
+Two machine-local links remain, described in `Tests/Pickle/README.md` and exercised by the passes played so
+far: a junction at the top of the monorepo, so the staging script finds a nested repository, and a symbolic link
+in the WSL workshop cache for Flavor Text Extended, which has no Workshop id. Everything else is staged by
+`path:` from this repository. Running any pass takes the machine lock and goes through
+`scripts/Run-PickleWsl.ps1` only; `-Then` (several launches under one lock) was seen to finish on 2026-09-21.
 
 ## What each kind of test may claim
 
 - Green outside the game: the files parse, the handles resolve, the logic of the wrapper, the bridge
-  and the fallback is right against doubles or the real installed assemblies. It does not show that a
-  colonist reads French.
-- Green Pickle run: the path ran. It does not show that the capture shows anything (open the two
-  `@review` images) nor that a French name agrees (read the `[FTFR tests] meal ... reads:` lines).
-  Read `exitReason` before the counts and compare scenarios played with features discovered.
-- The manual scenarios stay the only evidence for forcing an exact dish, side-dish variety,
-  running without a DLC, an existing save with old meals, and RIMMSQOL's own checkbox being wired to what
-  the steps of pass 7 call (they drive RIMMSQOL's settings instance, they do not click the checkbox). The language switch is a restart in the new language, so the English and French
-  passes cover it. Cooking with a colonist (filmed), unlisted ingredients and the restart are
-  now scenarios, written and not yet played.
+  and the fallback is right **against the values the test gives it**. It does not show that a colonist
+  reads French, and it cannot know what the running game really stores: the language guard is the proof.
+  Any code that branches on something the game provides needs one in-game scenario that reads what the
+  running game holds.
+- Green Pickle run: the path ran. It does not show that a capture shows anything (open the images), nor that
+  a French name agrees (read the `[FTFR tests] meal ... reads:` lines, and the info cards of 07). Read
+  `exitReason` before the counts, and compare the scenarios played with the features discovered.
+- Two stock steps cannot be trusted for what this mod does, and the suite no longer uses them for it:
+  `def X was patched by mod Y` (and so `no def X was patched`) cannot see a patch applied through the mod's
+  wrapper operation, and a dotted field path takes no numeric index into a list. The suite reads the value the
+  def holds instead (`CategorySteps`).
+- The manual scenarios stay the only evidence for forcing an exact dish, side-dish variety, an existing save
+  with old meals, and RIMMSQOL's own checkbox being wired to what the steps of pass 7 call (they drive
+  RIMMSQOL's settings instance, they do not click the checkbox). The language switch is a restart in the new
+  language, so the English and French passes cover it. Running without a DLC (F08, F09), cooking with a
+  colonist (filmed), unlisted ingredients (F14) and the restart are now scenarios, written and not yet played.
+- Names that read oddly but come from Flavor Text's own generic templates, such as `plat {0_adj} au four`
+  ("Plat de lait au four"), are a known limit of this mod's translation of those templates, not a defect
+  a test can catch.
