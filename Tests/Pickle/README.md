@@ -68,12 +68,15 @@ is repeated here.
 - **RIMMSQOL revealing the shortcut (F12).** RIMMSQOL is not in the headless staging, and driving its own
   interface needs its internals read first; not written. The contract on this mod's side (hidden,
   then drawn and live, then hidden again) is in `04`.
-- **The language switch from the menu (F03), inside one run.** Not a scenario, and not for lack of
-  effort: `SelectLanguage` reloads all data and pulls the game out from under the runner, so a
-  scenario that switches fails for reasons that are not the mod's. Two separate launches, English
-  and French, each from a clean start, cover what F03 is worried about (no patch state leaking from
-  one language into the other, since a new process has none to leak); the menu switch itself stays
-  manual.
+- **The language switch from the menu (F03), inside one run.** Not a scenario. `SelectLanguage` sets
+  `Prefs.LangFolderName`, then clears and reloads all play data (mods, defs, patches, injection): a cold
+  reload, the game's own. What the mod owes there is small and is proved outside the game (the wrapper reads
+  the language each time the patches are applied, `Test-PatchLifecycle`, reload sequence included). The
+  rest is the game's and Flavor Text's: FT builds its category and inflection data in a static constructor,
+  and the game's `CallAll()` after a reload cannot run a type initializer twice, so FT's caches may outlive
+  the switch. That is an observation to make once by hand (does the game ask for a restart, do the names
+  follow), not a scenario, and not this mod's to fix. Two clean launches, English and French, test each
+  language cold; they do not test the switch.
 
 ## Passes
 
