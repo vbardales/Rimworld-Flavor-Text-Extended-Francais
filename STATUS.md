@@ -9,7 +9,7 @@ visibility_evidence: "gh api repos/vbardales/Rimworld-Flavor-Text-Extended-Franc
 mod_visibility: public via GitHub; Workshop publication not established
 detached: yes
 stage: done
-stage_meaning: "ready for in-game validation. done was retracted then restored on 2026-09-21: the Pickle suite is now written (Tests/Pickle, six features, never run) and its scope justified; the licence rests on an owner exception (see licence_exception)"
+stage_meaning: "ready for in-game validation. done was retracted then restored on 2026-09-21: the Pickle suite is written (Tests/Pickle, eleven features, English pass played and green, the rest not yet run) and its scope justified; the licence rests on an owner exception (see licence_exception)"
 licence: silent
 licence_declared: "MIT limited to rights held by the contributor"
 licence_exception: "2026-09-21, owner decision in chat: kept public/silent although upstream Flavor Text declares 1.6 (PUBLISHING.md would class it alive). Reason given: no French version of Flavor Text Extended exists, and it is an extension, not a plain translation of the upstream mod. The rule's own criterion (no 1.6 declared = abandoned) is NOT met; this is an exception, not a finding of abandonment. `original` was proposed and considered the same day, then not retained: the 901 Extended dishes, the C# code and the tooling are the owner's own work, but the 930 Flavor Text dishes are translations of hekmo's text, and ATTRIBUTION.md, README and About.xml all state that. The absence of any other French translation does not bear on rights."
@@ -42,9 +42,8 @@ remaining:
   - "unverified (done -> tested): the French pass (03, 01, 04, 05, 06, 07 with -Language French) is queued, not played, so every French assertion and the two guesses in 03-french-language.feature (patch attribution through the wrapper operation, a numeric segment in a field path) are unconfirmed. Written since, all unplayed: 08 unlisted ingredients (F14, own mod FakeIngredients, own pass), 09 filmed cooking, 10/11 restart pair, passes 3 (eight optional providers) and 4 (Shenzhou alone) with their maps. Left out of pass 3 on the owner word: V.O.I.D., Medieval Overhaul, Optimization: Meats. Three machine-local links now exist (junction, Extended symlink, FakeIngredients symlink)."
   - "unverified (done -> tested): the scenarios no Pickle scenario replaces: an exact dish, side-dish variety, the language switch from the menu (not a scenario, see Tests/Pickle/README.md), DLC-less runs, an existing save with old meals, RIMMSQOL revealing the shortcut. Owner: user."
   - "note (shared tooling, not this mod): Run-PickleWsl.ps1 printed `veille non empechee` - SetThreadExecutionState is called with -2147483647, which PowerShell 5.1 cannot convert to UInt32, so the machine is not kept awake during a run. Harmless for a two-minute run."
-  - "unverified (done -> tested): pass 3, avec-facultatifs in French, is declared in TESTING.md but not defined: it needs a wsl-deps map with the Workshop ids of the third-party ingredient providers."
   - "unverified: done -> tested. F01-F14 and the FoodCourt scenarios in game, Pickle suites executed with @review captures opened, logs, FR/EN interface, new game and existing save, FoodCourt/Shenzhou provider activation (see _tools/FOODCOURT-FOLLOWUP.md). Owner: user."
-  - "unverified: RIMMSQOL or any customization mod revealing FTFR_Settings; UI and settings persistence in game."
+  - "unverified: RIMMSQOL or any customization mod revealing FTFR_Settings (no scenario written; its internals would have to be read first). Settings persistence across a restart is now scenarios 10/11, unplayed."
   - "note (environment, not a defect): three test scripts (Test-PatchLifecycle, Test-Fallback, Test-FallbackPrefix) require PowerShell 7 (`pwsh`, as README says). It is not installed on this machine; they were replayed 2026-09-21 by equivalent means, see below."
 ---
 
