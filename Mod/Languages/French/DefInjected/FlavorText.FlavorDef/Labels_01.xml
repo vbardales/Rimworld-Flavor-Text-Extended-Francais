@@ -56,7 +56,7 @@
 	<FlavorText_Laplap.label>laplap</FlavorText_Laplap.label>
 	<FlavorText_BroodjeHagelslag.label>broodje hagelslag</FlavorText_BroodjeHagelslag.label>
 	<FlavorText_PlantFoodRaw_Cornbread.label>pain de maïs {1_plur}</FlavorText_PlantFoodRaw_Cornbread.label>
-	<FlavorText_Funeral_Potato.label>{2_coll} des funérailles</FlavorText_Funeral_Potato.label>
+	<!-- An American dish: the name is kept in English on purpose (owner's decision, 2026-09-21). The literal French, "pommes de terre des funérailles", is not a name anyone knows. Slot 2 is always the potato category. --><FlavorText_Funeral_Potato.label>funeral potatoes</FlavorText_Funeral_Potato.label>
 	<FlavorText_MamaligaInPaturi.label>mămăligă în pături</FlavorText_MamaligaInPaturi.label>
 	<FlavorText_YorkshirePudding.label>pudding du Yorkshire</FlavorText_YorkshirePudding.label>
 	<FlavorText_MushroomCups.label>cassolettes de champignons</FlavorText_MushroomCups.label>
