@@ -104,7 +104,7 @@ the 15 patterns with Pickle's own expression engine and every feature line resol
 used were matched against the expressions compiled into Pickle's Vanilla DLL, and five parameterless forms
 against the features Pickle ships. **No Pickle run happened, and no RimWorld was launched**: the suite
 is written, not validated. Scope: only what a running game shows; cooking with a colonist, side-dish variety,
-the menu language switch, DLC-less runs, optional mods, old saves and RIMMSQOL stay manual, each with its reason.
+DLC-less runs, optional mods, old saves and RIMMSQOL stay manual, each with its reason.
 
 Two findings while writing it, not fixed: the shared staging script cannot stage this repository today (nested
 folder, and a hard dependency with no Workshop id). They are recorded in `remaining` and in `Tests/Pickle/README.md`.
