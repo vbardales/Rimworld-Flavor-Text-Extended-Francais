@@ -68,6 +68,21 @@ namespace FlavorTextExtendedFR.PickleSteps
         }
 
         /// <summary>
+        /// The inspect pane cuts a long name ("Burger à la viande d'écureuil, façon...") and shows no
+        /// description. The info card, the pane's own "i" button, shows both in full, so a capture of it
+        /// is what a person reads to judge a long name. The name and the description are also logged.
+        /// </summary>
+        [When("I open the info card of the meal at \\({int}, {int}\\)")]
+        public async System.Threading.Tasks.Task OpenInfoCard(PickleContext ctx, int x, int z)
+        {
+            var meal = MealAt(ctx, x, z);
+            Log.Message($"[FTFR tests] meal at ({x}, {z}) full name: {meal.LabelCap}");
+            Log.Message($"[FTFR tests] meal at ({x}, {z}) description: {meal.DescriptionDetailed}");
+            Find.WindowStack.Add(new Dialog_InfoCard(meal));
+            await ctx.WaitFrames(5);
+        }
+
+        /// <summary>
         /// The label is logged in full so a person reads the actual name in the report, which is the
         /// only place the French agreement can be judged.
         /// </summary>

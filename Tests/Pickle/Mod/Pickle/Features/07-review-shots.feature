@@ -11,6 +11,9 @@
 # They do NOT stand in for cooking with a colonist, nor for F14 (an ingredient absent from every table,
 # which needs a mod that supplies one).
 #
+# Each scenario takes two captures: the inspect pane as a player sees it, which cuts a long name, and the
+# info card (the pane's "i" button), which shows the whole name and the whole description.
+#
 # French pass only, so `@wip`: `-Language French -IncludeWip -Filter '07-review-shots.feature'`.
 # In an English game the same captures would show the dependencies' English, which is not what is being
 # judged here. The inspect pane needs no camera move: the meal is selected, not looked at on the map.
@@ -24,23 +27,38 @@ Feature: captures of French meal names and descriptions for a person to validate
     Given a fine meal made of "Meat_Cow" and "Milk" lies at (140, 150)
     When I select the meal at (140, 150)
     And I take a screenshot "F04 cow meat and milk, inspect pane"
+    When I open the info card of the meal at (140, 150)
+    And I take a screenshot "F04 cow meat and milk, info card"
+    And I close all dialogs
 
   Scenario: a meal of squirrel meat and milk, elided before a vowel
     Given a fine meal made of "Meat_Squirrel" and "Milk" lies at (141, 150)
     When I select the meal at (141, 150)
     And I take a screenshot "F04 squirrel meat and milk, inspect pane"
+    When I open the info card of the meal at (141, 150)
+    And I take a screenshot "F04 squirrel meat and milk, info card"
+    And I close all dialogs
 
   Scenario: a meal of husky meat and milk, no elision before an aspirated h
     Given a fine meal made of "Meat_Husky" and "Milk" lies at (142, 150)
     When I select the meal at (142, 150)
     And I take a screenshot "F04 husky meat and milk, inspect pane"
+    When I open the info card of the meal at (142, 150)
+    And I take a screenshot "F04 husky meat and milk, info card"
+    And I close all dialogs
 
   Scenario: a lavish meal of four ingredients, squirrel, milk, rice and egg
     Given a lavish meal made of "Meat_Squirrel", "Milk", "RawRice" and "EggChickenUnfertilized" lies at (143, 150)
     When I select the meal at (143, 150)
     And I take a screenshot "F05 F06 lavish meal, squirrel milk rice egg, inspect pane"
+    When I open the info card of the meal at (143, 150)
+    And I take a screenshot "F05 F06 lavish meal, squirrel milk rice egg, info card"
+    And I close all dialogs
 
   Scenario: a lavish meal of four ingredients, cow, potatoes, corn and milk
     Given a lavish meal made of "Meat_Cow", "RawPotatoes", "RawCorn" and "Milk" lies at (144, 150)
     When I select the meal at (144, 150)
     And I take a screenshot "F05 F06 lavish meal, cow potatoes corn milk, inspect pane"
+    When I open the info card of the meal at (144, 150)
+    And I take a screenshot "F05 F06 lavish meal, cow potatoes corn milk, info card"
+    And I close all dialogs
