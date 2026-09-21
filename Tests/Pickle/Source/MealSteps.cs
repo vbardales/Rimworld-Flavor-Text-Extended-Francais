@@ -36,6 +36,38 @@ namespace FlavorTextExtendedFR.PickleSteps
         }
 
         /// <summary>
+        /// Four ingredients, so that Flavor Text has enough to name a main dish and side dishes, which is
+        /// the case the two-ingredient meal above cannot reach. Used for the captures a person judges.
+        /// </summary>
+        [Given("a lavish meal made of {string}, {string}, {string} and {string} lies at \\({int}, {int}\\)")]
+        public void LavishMealLies(PickleContext ctx, string a, string b, string c, string d, int x, int z)
+        {
+            var map = Driver.Map(ctx);
+            var lavish = DefDatabase<ThingDef>.GetNamedSilentFail("MealLavish");
+            ctx.Require(lavish != null, "no ThingDef named 'MealLavish'");
+            var meal = ThingMaker.MakeThing(lavish);
+            var ingredients = meal.TryGetComp<CompIngredients>();
+            ctx.Require(ingredients != null, "MealLavish has no CompIngredients: the game changed how meals record ingredients");
+            foreach (var name in new[] { a, b, c, d }) ingredients.RegisterIngredient(Def(ctx, name));
+            GenSpawn.Spawn(meal, new IntVec3(x, 0, z), map);
+        }
+
+        /// <summary>
+        /// Selects the meal and opens the inspect tab, so a capture shows the name and the description
+        /// Flavor Text wrote, as a player reads them. Frames are awaited rather than ticks: nothing here
+        /// pauses the game, but the tab needs a few frames to draw.
+        /// </summary>
+        [When("I select the meal at \\({int}, {int}\\)")]
+        public async System.Threading.Tasks.Task SelectMeal(PickleContext ctx, int x, int z)
+        {
+            var meal = MealAt(ctx, x, z);
+            Find.Selector.ClearSelection();
+            Find.Selector.Select(meal);
+            Find.MainTabsRoot.SetCurrentTab(MainButtonDefOf.Inspect, false);
+            await ctx.WaitFrames(5);
+        }
+
+        /// <summary>
         /// The label is logged in full so a person reads the actual name in the report, which is the
         /// only place the French agreement can be judged.
         /// </summary>
@@ -48,7 +80,7 @@ namespace FlavorTextExtendedFR.PickleSteps
                 + "so it is not active or its patch found nothing");
 
             var label = meal.Label;
-            var plain = ThingDefOf.MealFine.label;
+            var plain = meal.def.label;
             Log.Message($"[FTFR tests] meal at ({x}, {z}) reads: {label}");
 
             ctx.Assert(label != plain && label.Contains(" (") && label.EndsWith(")"),
@@ -80,8 +112,8 @@ namespace FlavorTextExtendedFR.PickleSteps
         {
             var things = Driver.Map(ctx).thingGrid.ThingsListAt(new IntVec3(x, 0, z));
             foreach (var thing in things)
-                if (thing.def == ThingDefOf.MealFine) return thing;
-            ctx.Require(false, $"no fine meal at ({x}, {z}): the step that puts it there did not run, or it was carried off");
+                if (thing.def == ThingDefOf.MealFine || thing.def.defName == "MealLavish") return thing;
+            ctx.Require(false, $"no fine or lavish meal at ({x}, {z}): the step that puts it there did not run, or it was carried off");
             return null;
         }
     }

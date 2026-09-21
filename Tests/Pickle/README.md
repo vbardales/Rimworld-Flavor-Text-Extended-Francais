@@ -2,7 +2,7 @@
 
 The scenarios of [TESTING.md](../../TESTING.md) that a running game is needed for, and only those.
 `Mod/` is a companion mod, **Flavor Text Extended - Français - Pickle tests**, never published. It
-holds six feature files and a small steps assembly built from `Source/`.
+holds seven feature files and a small steps assembly built from `Source/`.
 
 **Status: written on 2026-09-21; one pass played the same day.** The English pass, `sans-facultatifs`,
 ran in the WSL: 24 scenarios discovered, **18 passed, 0 failed, 6 skipped**, `exitReason: passed`. The 6
@@ -45,6 +45,7 @@ is repeated here.
 | `04-settings-shortcut` (`@review`) | The real `Dialog_ModSettings` draws through the bridge and belongs to this mod, drawing it applies the 0-6 clamp to hekmo's field, the hidden shortcut opens the same page, and revealed it is drawn, not greyed. Two captures. | F11, F12 |
 | `05-language` | Every text the mod owns resolves in the language of the pass, and the settings label is the one written for it. | F01, F11 |
 | `06-meal-naming` | A meal of chosen ingredients is named through the real generation in the language of the pass: renamed, no raw slot, no English connector in French, no French leak in English. The actual names are written to the report for a person to judge. | F01, F04, F14 (partly) |
+| `07-review-shots` (`@wip @review`) | Five captures of the inspect pane on meals of chosen ingredients (cow, squirrel, husky; two lavish meals of four ingredients for side dishes), in French, for a person to open and validate. Nothing is asserted: the capture is the deliverable. | F04, F05, F06 |
 
 **Deliberately not in Gherkin**, with the reason, so nobody adds a scenario that cannot work:
 
@@ -72,7 +73,7 @@ Declared in [TESTING.md](../../TESTING.md). Two are defined and can be played on
 | Pass | Command | Plays |
 | --- | --- | --- |
 | English, `sans-facultatifs` | `powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod>` | 01, 02, 04, 05, 06 (`03` is `@wip`, skipped by default) |
-| French, `sans-facultatifs` | `powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Language French -IncludeWip -Filter "03-french-language.feature" -Then "01-loads.feature" -Then "04-settings-shortcut.feature" -Then "05-language.feature" -Then "06-meal-naming.feature"` | 03, 01, 04, 05, 06: one game launch each, under one hold of the lock |
+| French, `sans-facultatifs` | `powershell.exe -ExecutionPolicy Bypass -File scripts/Run-PickleWsl.ps1 -Mod <Mod> -Language French -IncludeWip -Filter "03-french-language.feature" -Then "01-loads.feature","04-settings-shortcut.feature","05-language.feature","06-meal-naming.feature","07-review-shots.feature"` | 03, 01, 04, 05, 06, 07: one game launch each, under one hold of the lock. `-Then` is an array (`[string[]]`), so the filters go comma-separated after one `-Then`, not repeated |
 
 `02-english-isolation` is English-only and fails in French by design, so the French pass names its
 features one by one instead of playing everything. `-Then` takes the lock once and stages once;
