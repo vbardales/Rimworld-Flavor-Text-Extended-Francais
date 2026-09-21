@@ -29,7 +29,7 @@ incompatibility) does not apply. Three passes are needed:
 
 | # | Pass | Set | Language | Plays | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | `sans-facultatifs`, English | The minimal set the staging mounts by default: Core, the DLC, Harmony, RimLogging, Pickle, Flavor Text, Flavor Text Extended, the mod and its companion | English | 01, 02, 04, 05, 06 | defined, not run |
+| 1 | `sans-facultatifs`, English | The minimal set the staging mounts by default: Core, the DLC, Harmony, RimLogging, Pickle, Flavor Text, Flavor Text Extended, the mod and its companion | English | 01, 02, 04, 05, 06 | **played 2026-09-21: 18 passed, 0 failed, 6 skipped (feature 03), `exitReason: passed`; the two `@review` captures opened** |
 | 2 | `sans-facultatifs`, French | The same set | French | 03, 01, 04, 05, 06 | defined, not run |
 | 3 | `avec-facultatifs`, French | The same set plus the providers of the third-party ingredient tables (`Inflections_ThirdParty_FR.xml`: Vanilla Cooking Expanded, Vanilla Plants Expanded - More Plants, VGP Garden Gourmet, VGP Vegetable Garden, VV New Harvest, Kits Brazilian Crops, Medieval Overhaul, RC2, RH2 Faction Void, TP Sea Plants, Optimization: Meats) and the Shenzhou/FoodCourt provider | French | 06, and 01 | **not defined**: needs a `wsl-deps.avec-facultatifs.map` with the Workshop ids of those mods |
 

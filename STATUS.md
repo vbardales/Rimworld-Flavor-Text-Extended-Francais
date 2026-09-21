@@ -38,7 +38,10 @@ updated: 2026-09-21
 remaining:
   - "resolved by owner exception 2026-09-21 (was a defect at dansMonoRepo -> horsMonoRepo): upstream Flavor Text 0.3.6 declares 1.5 and 1.6 and its author is active in public comments through Oct 2025, so PUBLISHING.md would class it `alive` (private, ` (prohibited)`; precedent MedievalHomestead, MintchocoConfectionery). The owner keeps it public `silent`, see licence_exception. Residual, stated plainly: no upstream permission exists and the author is reachable; the takedown commitment in About.xml and README is the only safeguard. Revisit if hekmo objects or if the exception is withdrawn."
   - "resolved 2026-09-21 (was a defect at preTest -> done): the Pickle suite is written under Tests/Pickle (six features, a 15-step companion assembly that builds against the real FlavorText.dll and the shipped mod DLL, Check-Steps.ps1 green) and TESTING.md declares the passes. Scope and exclusions are argued in Tests/Pickle/README.md. Written, never run: running belongs to done -> tested."
-  - "unverified (done -> tested): staging was never run. Two obstacles were settled without editing the shared script, by machine-local links: a junction rimworld\\FlavorTextExtendedFR to this repository (locally excluded from the monorepo) so -Mod FlavorTextExtendedFR resolves, and a symbolic link FlavorTextExtended in the WSL workshop cache to the local Extended mod (named in wsl-ids.map) since it has no Workshop id. Checked without the machine: --list names the suite, the link resolves to a folder declaring nelim.flavortextextended. Staging wipes ~/rimworld/Mods and the machine lock was held with a queue behind it, so a third problem may remain. Two guesses in 03-french-language.feature (patch attribution through the wrapper operation, a numeric segment in a field path) are isolated in their own scenarios."
+  - "resolved 2026-09-21: staging. Two obstacles were settled without editing the shared script, by machine-local links: a junction rimworld\\FlavorTextExtendedFR to this repository (locally excluded from the monorepo) so -Mod FlavorTextExtendedFR resolves, and a symbolic link FlavorTextExtended in the WSL workshop cache to the local Extended mod (named in wsl-ids.map) since it has no Workshop id. The first staging worked: 13 mods staged and loaded, the run went to its end."
+  - "unverified (done -> tested): the French pass (03, 01, 04, 05, 06 with -Language French) was not played, so every French assertion and the two guesses in 03-french-language.feature (patch attribution through the wrapper operation, a numeric segment in a field path) are still unconfirmed. Pass 3 is not defined."
+  - "unverified (done -> tested): the manual scenarios of _tools/FUNCTIONAL-SCENARIOS.md that no Pickle scenario replaces (cooking with a colonist, side-dish variety, menu language switch, DLC-less runs, optional mods, existing save with old meals, persistence across a restart, RIMMSQOL revealing the shortcut). Owner: user."
+  - "note (shared tooling, not this mod): Run-PickleWsl.ps1 printed `veille non empechee` - SetThreadExecutionState is called with -2147483647, which PowerShell 5.1 cannot convert to UInt32, so the machine is not kept awake during a run. Harmless for a two-minute run."
   - "unverified (done -> tested): pass 3, avec-facultatifs in French, is declared in TESTING.md but not defined: it needs a wsl-deps map with the Workshop ids of the third-party ingredient providers."
   - "unverified: done -> tested. F01-F14 and the FoodCourt scenarios in game, Pickle suites executed with @review captures opened, logs, FR/EN interface, new game and existing save, FoodCourt/Shenzhou provider activation (see _tools/FOODCOURT-FOLLOWUP.md). Owner: user."
   - "unverified: RIMMSQOL or any customization mod revealing FTFR_Settings; UI and settings persistence in game."
@@ -108,11 +111,36 @@ Two findings while writing it, not fixed: the shared staging script cannot stage
 folder, and a hard dependency with no Workshop id). They are recorded in `remaining` and in `Tests/Pickle/README.md`.
 `Mod/` (the distributed folder) was not touched.
 
+## First Pickle run - English pass - 2026-09-21
+
+Taken as a queue ticket at the owner's request, through `scripts/Run-PickleWsl.ps1 -Mod FlavorTextExtendedFR`
+only, on the WSL game under Xvfb; the Windows RimWorld was not touched. Pass: `sans-facultatifs`, English.
+Report archived by the launcher in `pickle-reports-archive/0921-1803` (the shared folder was overwritten
+by another session's run within minutes), copied to `.build/pickle-run-2026-09-21-english/` (ignored by git).
+
+- `exitReason: passed`, read before the counts. **24 scenarios discovered, 18 passed, 0 failed, 6 skipped.**
+  The 6 skipped are exactly the 6 scenarios of `03-french-language` (`@wip`, French pass); 6 features, 6
+  `run finished` lines, so nothing was cut short. Pickle's own exit code 0.
+- Startup line of Flavor Text: 1,831 FlavorDefs in total (930 + 901), 641 active for the staged modlist.
+  Its only WARN lines are its own startup messages; the scenario `no warnings from mod` on this mod passed.
+- The three meals of `06-meal-naming` were named by Flavor Text in the game: `Beef Sausage (fine meal)`,
+  `Squirrel Salad (fine meal)`, `Milk Bake (fine meal)`. English only: French agreement is not judged.
+- The two `@review` captures were opened and looked at: the real dialog titled `Flavor Text Extended - Français
+  (unofficial)`, extra ingredient cap 0, quick search off, the other three on, English labels, no development
+  tool and no launcher panel. The shortcut route and the Options route show the same page (the two images are
+  the same). A green `@review` proves the path, and the images were checked by eye rather than assumed.
+- What this run shows, and nothing more: the staging works, the mod and both dependencies load and save and
+  reload without an error, the English language isolation holds on the real defs (`no def "FT_Egg" was patched`
+  and the three others, dependency labels read as written), the settings dialog opens for this mod from
+  both routes, the 0-6 clamp holds when the page is drawn, the shortcut is hidden then drawn then hidden.
+  It is **not** the `tested` stage: no French pass, no manual scenarios.
+
 ## Work needed to cross the next transition (done -> tested)
 
-Make the suite stageable (the two blockers above), define pass 3, then run the passes through
-`scripts/Run-PickleWsl.ps1` only, read `exitReason` before the counts, open the two `@review` captures,
-and walk the manual scenarios in game. In-game validation is owned by the user.
+Play the French pass (a second ticket, `-Language French`, one `-Filter` per feature as `Tests/Pickle/README.md`
+gives), define and play pass 3 with the optional providers, always through `scripts/Run-PickleWsl.ps1`, read
+`exitReason` before the counts and open the `@review` captures again in French. Then the manual scenarios in game.
+In-game validation is owned by the user.
 
 ## Recommendations (optional, not blockers)
 

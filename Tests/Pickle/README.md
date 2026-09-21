@@ -4,8 +4,16 @@ The scenarios of [TESTING.md](../../TESTING.md) that a running game is needed fo
 `Mod/` is a companion mod, **Flavor Text Extended - Français - Pickle tests**, never published. It
 holds six feature files and a small steps assembly built from `Source/`.
 
-**Status: written, never run.** The suite was written on 2026-09-21 so that `preTest -> done` is
-met; running it belongs to `done -> tested`. What was checked without a game:
+**Status: written on 2026-09-21; one pass played the same day.** The English pass, `sans-facultatifs`,
+ran in the WSL: 24 scenarios discovered, **18 passed, 0 failed, 6 skipped**, `exitReason: passed`. The 6
+skipped are exactly the six scenarios of `03-french-language`, `@wip` and meant for the French pass.
+Six features, six `run finished` lines. The two `@review` captures were opened: the real settings
+dialog, titled with the mod's name, five settings at their documented defaults (cap 0, quick search off,
+the other three on), English text, no dev tool and no launcher panel on screen. The three meals were
+named by Flavor Text in the game (`Beef Sausage`, `Squirrel Salad`, `Milk Bake`, each followed by
+`(fine meal)`), with 1,831 FlavorDefs loaded (930 + 901). **The French pass has not been played**, so
+the two guesses in `03` and every French assertion remain unverified, and so does pass 3. Running the
+suite fully belongs to `done -> tested`. What was checked without a game:
 
 - `dotnet build Source/FlavorTextExtendedFR.PickleSteps.csproj -c Release` succeeds against the
   shipped `FlavorTextExtendedFR.dll` and hekmo's real `FlavorText.dll`, so every type, field and
@@ -107,8 +115,14 @@ the script by a link that lives on the machine and not in this repository:
    ln -s /mnt/c/Users/nelim/Documents/rimworld/FlavorText/FlavorTextExtended/Mod ~/workshop-cache/steamapps/workshop/content/294100/FlavorTextExtended
    ```
 
-**Not yet exercised.** Both links were checked by what does not need the machine: `--list` names
-`FlavorTextExtendedFR`, and the link resolves to a folder whose `About.xml` declares
-`nelim.flavortextextended`. Staging itself was not run: it wipes `~/rimworld/Mods`, and on 2026-09-21
-another session held the machine lock with a queue behind it. The first real staging may still find
-a third problem. Until then "written" is all this suite can honestly claim.
+**Exercised on 2026-09-21.** The first staging through `Run-PickleWsl.ps1 -Mod FlavorTextExtendedFR`
+worked: 13 mods staged, all loaded (Harmony, the game and its five DLC, RimLogging, Pickle, Flavor Text,
+Flavor Text Extended, the mod and its companion), and the run went to its end. Both links did their job
+and no third problem showed up in the English pass.
+
+Two things seen in that run, neither fixed here. The launcher printed `veille non empechee`: its call to
+`SetThreadExecutionState` passes `-2147483647`, which PowerShell 5.1 cannot convert to `UInt32`, so the
+machine was not kept awake (harmless for a run of about two minutes, not for a long one). And the report
+folder is shared: `pickle-reports` was overwritten by another session's run within minutes, and the
+`screenshots` folder is not emptied between runs. This suite's report was recovered from
+`pickle-reports-archive/0921-1803`.
