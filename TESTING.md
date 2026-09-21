@@ -58,7 +58,8 @@ and goes through `scripts/Run-PickleWsl.ps1` only.
 - Green Pickle run: the path ran. It does not show that the capture shows anything (open the two
   `@review` images) nor that a French name agrees (read the `[FTFR tests] meal ... reads:` lines).
   Read `exitReason` before the counts and compare scenarios played with features discovered.
-- The manual scenarios stay the only evidence for forcing an exact dish, side-dish variety, the
-  language switch from the menu, running without a DLC, an existing save with old meals, and RIMMSQOL
-  revealing the shortcut. Cooking with a colonist (filmed), unlisted ingredients and the restart are
+- The manual scenarios stay the only evidence for forcing an exact dish, side-dish variety,
+  running without a DLC, an existing save with old meals, and RIMMSQOL
+  revealing the shortcut. The language switch is a restart in the new language, so the English and French
+  passes cover it. Cooking with a colonist (filmed), unlisted ingredients and the restart are
   now scenarios, written and not yet played.
