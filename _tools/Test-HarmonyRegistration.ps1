@@ -23,7 +23,7 @@ if($owned[0].PatchMethod.Name -ne 'Prefix' -or $owned[0].PatchMethod.DeclaringTy
 # or game files are changed. Production Translator resolves the shipped XML keys.
 $flags=[Reflection.BindingFlags]'NonPublic,Instance,Static'
 $preferences=[Runtime.Serialization.FormatterServices]::GetUninitializedObject([Verse.PrefsData])
-$preferences.langFolderName='French'
+$preferences.langFolderName='French (Français)'
 [Verse.Prefs].GetField('data',$flags).SetValue($null,$preferences)
 $language=[Runtime.Serialization.FormatterServices]::GetUninitializedObject([Verse.LoadedLanguage])
 $language.folderName='French'
@@ -56,7 +56,7 @@ foreach($mealTarget in [FlavorTextExtendedFR.FrenchMealPostProcessing]::TargetMe
     $owned=@($info.Transpilers | Where-Object owner -eq 'nelim.flavortextextended.fr')
     if($owned.Count -ne 1){throw "Expected one meal transpiler: $($mealTarget.Name)"}
 }
-$preferences.langFolderName='French'
+$preferences.langFolderName='French (Français)'
 $worker=[Verse.LanguageWorker_French]::new()
 foreach($noun in @('haricots','houblon','husky','hérons')){
     $text='Plat de '+$noun

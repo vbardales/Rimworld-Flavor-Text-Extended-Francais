@@ -32,7 +32,7 @@ namespace FlavorTextExtendedFR
 
         public static bool Prefix(Def ingredient, List<string> inflections, ref List<string> __result)
         {
-            if (!string.Equals(Prefs.LangFolderName, "French", StringComparison.OrdinalIgnoreCase) ||
+            if (!FrenchLanguage.IsFrench(Prefs.LangFolderName) ||
                 !(ingredient is ThingDef) || !FrenchFallback.NeedsGeneration(inflections)) return true;
 
             string label = string.IsNullOrWhiteSpace(ingredient.label)

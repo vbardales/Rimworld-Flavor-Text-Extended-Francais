@@ -34,7 +34,7 @@ namespace FlavorTextExtendedFR.Tests
             Verse.Prefs.LangFolderName = "English";
             Require(FrenchFallbackPatch.Prefix(ingredient, empty, ref result), "English original must run.");
             Require(object.ReferenceEquals(result, oldResult), "English result mutated.");
-            Verse.Prefs.LangFolderName = "French";
+            Verse.Prefs.LangFolderName = "French (Français)";
             Require(!FrenchFallbackPatch.Prefix(ingredient, empty, ref result), "English generator ran for French ingredient.");
             Require(result[0] == "à base d'huile de noix" && result[3] == "d'huile de noix", "Translated fallback not used.");
             Require(result[1] == ingredient.label && result[2] == ingredient.label, "Ingredient label changed.");

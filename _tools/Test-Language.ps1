@@ -4,14 +4,16 @@ $root = Split-Path $PSScriptRoot
 $null = [Reflection.Assembly]::LoadFrom((Join-Path $root 'Mod/Assemblies/FlavorTextExtendedFR.dll'))
 $script:called = 0
 $success = [Func[bool]] { $script:called++; return $true }
-foreach ($language in @('English', 'German', '', $null, 'FrenchCustom', 'fr')) {
+foreach ($language in @('English', 'German', 'German (Deutsch)', '', $null, 'FrenchCustom', 'fr', 'Frenchie (Français)', '(French)')) {
     if (-not [FlavorTextExtendedFR.FrenchLanguage]::Apply($language, $success)) { throw "Skip failed: $language" }
 }
 if ($script:called -ne 0) { throw 'Non-French language executed the patch.' }
-foreach ($language in @('French', 'french', 'FRENCH')) {
+# 'French (Français)' is the value RimWorld really stores for the official French translation: the
+# guard compared it to 'French' alone for the first release and never matched a real French game.
+foreach ($language in @('French', 'french', 'FRENCH', 'French (Français)', 'french (français)', ' French  (Français)')) {
     if (-not [FlavorTextExtendedFR.FrenchLanguage]::Apply($language, $success)) { throw "French failed: $language" }
 }
-if ($script:called -ne 3) { throw 'French payload was not invoked exactly once per call.' }
+if ($script:called -ne 6) { throw 'French payload was not invoked exactly once per call.' }
 $failure = [Func[bool]] { return $false }
 if ([FlavorTextExtendedFR.FrenchLanguage]::Apply('French', $failure)) { throw 'Payload failure was swallowed.' }
 if (-not [FlavorTextExtendedFR.FrenchLanguage]::Apply('English', $failure)) { throw 'Skipped failure leaked.' }

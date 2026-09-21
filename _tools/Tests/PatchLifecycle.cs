@@ -43,7 +43,7 @@ namespace FlavorTextExtendedFR.Tests
         }
         public static string Run()
         {
-            foreach (string language in new[] { "English", "French", "German", "French" })
+            foreach (string language in new[] { "English", "French (Français)", "German (Deutsch)", "French", "French (Français)" })
             {
                 Verse.Prefs.LangFolderName = language;
                 var xml = new XmlDocument(); xml.LoadXml("<Defs />");
@@ -51,11 +51,11 @@ namespace FlavorTextExtendedFR.Tests
                 var operation = new PatchOperationFrench { patch = payload };
                 Require(operation.Apply(xml), "Valid operation failed.");
                 operation.Complete("test");
-                bool french = language == "French";
+                bool french = language.StartsWith("French");
                 Require(payload.Calls == (french ? 1 : 0), "Wrong payload invocation count.");
                 Require(xml.DocumentElement.HasAttribute("language") == french, "XML leaked across languages.");
             }
-            Verse.Prefs.LangFolderName = "French";
+            Verse.Prefs.LangFolderName = "French (Français)";
             var failed = new PatchOperationFrench { patch = new Payload { Result = false } };
             var doc = new XmlDocument(); doc.LoadXml("<Defs />");
             Require(!failed.Apply(doc), "Failure must propagate.");

@@ -49,7 +49,7 @@ namespace FlavorTextExtendedFR
         public static string Apply(LanguageWorker worker, string text)
         {
             string result = worker.PostProcessed(text);
-            if (!string.Equals(Prefs.LangFolderName, "French", StringComparison.OrdinalIgnoreCase)) return result;
+            if (!FrenchLanguage.IsFrench(Prefs.LangFolderName)) return result;
             return AspiratedH.Replace(result, "$1e ");
         }
     }

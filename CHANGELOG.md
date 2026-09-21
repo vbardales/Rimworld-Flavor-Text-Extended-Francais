@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Fix: French was never detected in a real game. RimWorld stores the official French translation as `French (Français)`, and the language guard compared the stored value to `French` alone, so no French patch, side-dish grammar, ingredient fallback or aspirated-h repair was applied. Found by the first in-game test run; the guard now applies RimWorld's own rule (the part before the bracket), and the offline tests use the stored value.
+
 - Translate the five FoodCourt-discovered Extended dishes and add four provider-scoped Shenzhou ingredient entries; retain the explicit altang adaptation and exclude zongzi wrappers.
 
 - Expose the five existing settings under this mod's name, sharing the upstream configuration, with a hidden MainButtons shortcut and ingredient-cap validation.
