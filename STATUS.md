@@ -34,6 +34,7 @@ last_fix_revision: 164104b
 pushed: true
 pushed_at: 2026-09-22
 tag: v1.0.0
+tag_revision: ed5900bec5570282e6972785d5a37736c12dbf0d
 release: "https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais/releases/tag/v1.0.0"
 audit_revision: 634066483d44f51201aa8ea0722da4b796864aad
 review_revision: c675e87
@@ -41,6 +42,8 @@ in_game_validation_owner: user
 workshop:
   id: "3806100488"
   id_committed_at: 2026-09-22
+  tag: v1.0.0
+  tag_revision: ed5900bec5570282e6972785d5a37736c12dbf0d
   visibility: unverified
   self_subscription_test: unverified
 prepublished: partial
@@ -50,7 +53,7 @@ updated: 2026-09-22
 remaining:
   - "unverified (done -> tested): revised Pickle evidence now stages PickleTools ScreenshotMode for every screenshot review and FilmTicks for real cooking. Re-run the affected English, French, optional-provider, Shenzhou, invented-ingredient, cooking and RIMMSQOL passes; validate only their clean captures or cooking film."
   - "unverified (done -> tested): F13 needs a committed, reproducible save fixture created before this translation was installed and containing stored meals. No such fixture exists in this repository; do not replace it with hand-played verification."
-  - "partial (tested -> prepublished): current code and tests are pushed, but this revision is not tagged or released; curated screenshots and their final order remain unset; draft thank-you messages and Steam release notes remain unposted/unentered."
+  - "partial (tested -> prepublished): v1.0.0 now anchors the committed Workshop id, while later test-evidence changes remain untagged; curated screenshots and their final order remain unset. Thank-you messages and Steam v1.0.0 notes are prepared in PUBLICATION.md but not posted/entered."
   - "unverified (prepublished -> published): item 3806100488 has no recorded self-subscription test or manually confirmed public visibility. No Workshop action was taken by this audit."
   - "resolved by owner exception 2026-09-21 (was a defect at dansMonoRepo -> horsMonoRepo): upstream Flavor Text 0.3.6 declares 1.5 and 1.6 and its author is active in public comments through Oct 2025, so PUBLISHING.md would class it `alive` (private, ` (prohibited)`; precedent MedievalHomestead, MintchocoConfectionery). The owner keeps it public `silent`, see licence_exception. Residual, stated plainly: no upstream permission exists and the author is reachable; the takedown commitment in About.xml and README is the only safeguard. Revisit if hekmo objects or if the exception is withdrawn."
   - "resolved 2026-09-21 (was a defect at preTest -> done): the Pickle suite is written under Tests/Pickle (seventeen features, a companion steps assembly that builds against the real FlavorText.dll and the shipped mod DLL, Check-Steps.ps1 green on 66 patterns) and TESTING.md declares the passes. Scope and exclusions are argued in Tests/Pickle/README.md."

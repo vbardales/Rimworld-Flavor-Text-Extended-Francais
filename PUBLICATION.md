@@ -30,10 +30,14 @@ on what this mod actually changes:
 One per mod this one is derived from or depends on, personalized, under 1000 characters (Steam
 comment limit), posted only after this item is public.
 
-- **hekmo, Flavor Text** (Workshop 3245374432) — the source text this mod translates. Not yet
-  drafted.
+- **hekmo, Flavor Text** (Workshop 3245374432) — the source text this mod translates. Draft:
+
+  > Hi hekmo — thank you for Flavor Text and its naming machinery. I have prepared a French-language companion for Flavor Text and Flavor Text Extended, credited here and in its documentation. It translates the dish text and adds French ingredient/side-dish grammar; it does not add dishes or replace your mod. If you would like attribution or wording changed, please let me know and I will update it. Thank you again for the foundation your work provides.
+
 - **Harmony** (brrainz, Workshop 2009463077) — hard dependency, the language-aware patch runs
-  through it. Not yet drafted.
+  through it. Draft:
+
+  > Thank you, brrainz, for Harmony. This French companion for Flavor Text and Flavor Text Extended uses Harmony only for its language-aware runtime patches, and credits Harmony in its Workshop description and repository. It remains a required dependency because those patches rely on it. Your work makes this small compatibility layer possible.
 
 Flavor Text Extended is this mod's own companion (same author), not a thank-you target.
 
@@ -74,12 +78,13 @@ checkboxes should be left unchecked.
 
 ## Steam version notes (write at the moment of the first upload)
 
-Not yet written — they live in the upload form, not in this file, and are the easiest thing to
-forget per PUBLISHING.md. Draft for v1.0.0, to copy in:
+Prepared for the v1.0.0 Workshop form (the version is anchored by the committed
+`About/PublishedFileId.txt`; enter this text at upload/update time):
 
-> First release. French names and descriptions for 930 Flavor Text dishes and 901 Flavor Text
-> Extended dishes, French ingredient grammar, and the shared settings under this mod's own name.
-> Requires Flavor Text and Flavor Text Extended. See the description for details.
+> First release: French names and descriptions for 930 Flavor Text dishes and 901 Flavor Text
+> Extended dishes, French ingredient and side-dish grammar, and the shared Flavor Text settings
+> under this mod's own name. Requires Flavor Text, Flavor Text Extended, and Harmony. See the
+> Workshop description and GitHub source for compatibility details and known limits.
 
 ## After the first upload — do not forget
 
