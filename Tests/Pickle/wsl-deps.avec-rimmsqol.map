@@ -21,3 +21,4 @@
 #   -> MalteSchulze.RIMMSqol -> nelim.pickletools.rimmsqol -> nelim.flavortextextended.fr -> its Pickle tests
 MalteSchulze.RIMMSqol            1084452457
 nelim.pickletools.rimmsqol      path:PickleTools/RimmsqolSteps/Mod
+nelim.pickletools.screenshotmode path:PickleTools/ScreenshotMode/Mod

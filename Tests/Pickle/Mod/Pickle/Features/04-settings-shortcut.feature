@@ -10,7 +10,7 @@
 # RIMMSQOL is not in the default staging, which mounts hard dependencies only. They are features 12 to 15,
 # played by pass 7 ("avec-rimmsqol") through the shared steps of PickleTools/RimmsqolSteps. This feature
 # stays what it was: the contract on THIS mod's side, in every pass, with nothing else installed.
-@review
+@review @requires:nelim.pickletools.screenshotmode
 Feature: the settings page and its hidden shortcut
 
   Background:
@@ -22,14 +22,18 @@ Feature: the settings page and its hidden shortcut
     Then the FTFR shortcut is hidden on a clean configuration
     When the FTFR shortcut is activated
     Then the FTFR settings dialog is open for this mod
-    When I take a screenshot "flavor text settings, opened by the shortcut"
+    When Nelim's Pickle Tools: screenshot mode is enabled around the open windows
+    And I take a screenshot "flavor text settings, opened by the shortcut"
+    And Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
   Scenario: the Options entry opens the same page, in the language of the pass
     When I open the FTFR settings dialog
     Then the FTFR settings dialog is open for this mod
     And the Flavor Text ingredient cap label reads as written for the language this pass runs
-    When I take a screenshot "flavor text settings, opened from mod options"
+    When Nelim's Pickle Tools: screenshot mode is enabled around the open windows
+    And I take a screenshot "flavor text settings, opened from mod options"
+    And Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
   # The bridge clamps on construction, on drawing and on saving. Drawing is the one a player

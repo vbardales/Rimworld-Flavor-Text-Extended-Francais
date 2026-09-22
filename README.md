@@ -81,12 +81,12 @@ Requires a .NET SDK and an installed RimWorld 1.6. No NuGet package or copied ga
 ```powershell
 & ./_tools/Build.ps1
 & ./_tools/Test-Language.ps1
-pwsh -NoProfile -File ./_tools/Test-PatchLifecycle.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-PatchLifecycle.ps1
 & ./_tools/Test-Xml.ps1
-pwsh -NoProfile -File ./_tools/Test-UpstreamSettings.ps1
-pwsh -NoProfile -File ./_tools/Test-SettingsBridge.ps1
-pwsh -NoProfile -File ./_tools/Test-Fallback.ps1
-pwsh -NoProfile -File ./_tools/Test-FallbackPrefix.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-UpstreamSettings.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-SettingsBridge.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-Fallback.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-FallbackPrefix.ps1
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-HarmonyRegistration.ps1
 ```
 

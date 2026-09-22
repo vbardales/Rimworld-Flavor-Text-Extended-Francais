@@ -5,5 +5,5 @@ Add-Type -Path @(
     (Join-Path $root 'Source/FrenchLanguage.cs'),
     (Join-Path $root 'Source/PatchOperationFrench.cs'),
     (Join-Path $PSScriptRoot 'Tests/PatchLifecycle.cs')
-)
+) -ReferencedAssemblies ([System.Xml.XmlDocument].Assembly.Location)
 [FlavorTextExtendedFR.Tests.PatchLifecycle]::Run()

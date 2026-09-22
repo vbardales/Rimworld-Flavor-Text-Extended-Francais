@@ -39,8 +39,8 @@ incompatibility) does not apply. Several passes are needed. Commands are in `Tes
 
 | # | Pass | Set | Language | Plays | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | `sans-facultatifs`, English | The minimal set the staging mounts by default: Core, the DLC, Harmony, RimLogging, Pickle, Flavor Text, Flavor Text Extended, the mod and its companion | English | 01, 02, 04, 05, 06 | **played 2026-09-21, before the language fix: 18 passed, 0 failed, 6 skipped (feature 03), `exitReason: passed`; the two `@review` captures opened.** Feature 02's isolation scenario was rewritten afterwards (it read "no def was patched", which cannot see a wrapper patch) and has **not** been replayed |
-| 2 | `sans-facultatifs`, French | The same set | French | 03, then 01, 04, 05, 06, 07: six launches under one lock | **played 2026-09-21, after the fix: six launches, all `exitReason: passed`; 03 5/5, 01 5/5, 04 4/4, 05 2/2, 06 3/3, 07 5/5.** The first attempt, before the fix, failed 2 of 6 in feature 03: `FT_Egg` read its English values, which is how the language defect was found. Captures opened; the owner validated the squirrel, the beef and the first lavish meal. 07 has since gained an info-card capture per meal, not yet played |
+| 1 | `sans-facultatifs`, English | The minimal set plus PickleTools ScreenshotMode (`-DepMap wsl-deps.sans-facultatifs.map`) | English | 01, 02, 04, 05, 06 | **played 2026-09-21 before the screenshot-mode revision: 18 passed, 0 failed, 6 skipped.** Feature 02 was rewritten and the review evidence is now clean-capture based; replay required. |
+| 2 | `sans-facultatifs`, French | The same set plus ScreenshotMode | French | 03, then 01, 04, 05, 06, 07: six launches under one lock | **played 2026-09-21 before the screenshot-mode revision.** The French fix pass remains useful history, but the revised clean captures require replay. |
 | 2b | `sans-facultatifs`, French, cooking | The same set plus `PickleTools/FilmTicks` (`-DepMap wsl-deps.cuisson-film.map`) | French | 09, filmed | defined, not run |
 | 3 | `avec-facultatifs`, French | The same set plus eight providers of the third-party tables, with their hard dependencies: Vanilla Plants Expanded and its More Plants, Vanilla Cooking Expanded, Vanilla Brewing Expanded, Kit's Brazilian Crops, VGP Vegetable Garden and Garden Gourmet, VV New Harvest, RimCuisine 2 Core, TP Sea Plants (`-DepMap wsl-deps.avec-facultatifs.map`) | French | 06, 01 | map written, not run |
 | 4 | `avec-shenzhou`, French | The same set plus Shenzhou alone (`-DepMap wsl-deps.avec-shenzhou.map`); it declares 1.5 at most, so its own errors are read as such | French | 06, 01 | map written, not run |
@@ -77,11 +77,12 @@ in the WSL workshop cache for Flavor Text Extended, which has no Workshop id. Ev
   `def X was patched by mod Y` (and so `no def X was patched`) cannot see a patch applied through the mod's
   wrapper operation, and a dotted field path takes no numeric index into a list. The suite reads the value the
   def holds instead (`CategorySteps`).
-- The manual scenarios stay the only evidence for forcing an exact dish, side-dish variety, an existing save
-  with old meals, and RIMMSQOL's own checkbox being wired to what the steps of pass 7 call (they drive
-  RIMMSQOL's settings instance, they do not click the checkbox). The language switch is a restart in the new
-  language, so the English and French passes cover it. Running without a DLC (F08, F09), cooking with a
-  colonist (filmed), unlisted ingredients (F14) and the restart are now scenarios, written and not yet played.
+- Review is limited to captured images or the cooking film: features 04, 06, 07, 08, 12 and 14 use
+  PickleTools ScreenshotMode, and 09 uses PickleTools FilmTicks. The language switch is a restart in the new
+  language, so the English and French passes cover it. F13 remains **unverified**, not manual: no reproducible
+  pre-translation save fixture exists in this repository, so a scenario cannot honestly claim old-meal coverage.
+  Add such a fixture before scheduling that pass. Running without a DLC (F08, F09), cooking with a colonist,
+  unlisted ingredients (F14) and the restart are written and not yet played.
 - Names that read oddly but come from Flavor Text's own generic templates, such as `plat {0_adj} au four`
   ("Plat de lait au four"), are a known limit of this mod's translation of those templates, not a defect
   a test can catch.

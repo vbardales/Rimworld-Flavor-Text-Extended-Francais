@@ -1,0 +1,3 @@
+# Minimal passes: ScreenshotMode produces reviewable settings and meal evidence without HUD or
+# Pickle panels. It is development-only and is not a gameplay dependency.
+nelim.pickletools.screenshotmode   path:PickleTools/ScreenshotMode/Mod

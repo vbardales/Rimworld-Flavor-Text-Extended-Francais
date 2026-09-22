@@ -13,7 +13,7 @@
 # Whether Flavor Text puts these defs in a category at all is the first thing this feature tells: if it
 # does not, the meals are not renamed and the first scenario says so, which is a finding about the fakes
 # (their defNames or labels) rather than about the mod.
-@wip @review
+@wip @review @requires:nelim.pickletools.screenshotmode
 Feature: ingredients absent from every table still read as French
 
   Background:
@@ -25,21 +25,27 @@ Feature: ingredients absent from every table still read as French
     Then the meal at (140, 150) is named by Flavor Text in the language this pass runs
     And the meal at (140, 150) does not show the internal name "FTFR_RawYuzuFruit"
     When I select the meal at (140, 150)
+    And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     And I take a screenshot "F14 yuzu and milk, inspect pane"
+    And Nelim's Pickle Tools: screenshot mode is disabled
 
   Scenario: a compound with an elision, huile de noix, with squirrel meat
     Given a fine meal made of "FTFR_RawWalnutOil" and "Meat_Squirrel" lies at (141, 150)
     Then the meal at (141, 150) is named by Flavor Text in the language this pass runs
     And the meal at (141, 150) does not show the internal name "FTFR_RawWalnutOil"
     When I select the meal at (141, 150)
+    And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     And I take a screenshot "F14 walnut oil and squirrel meat, inspect pane"
+    And Nelim's Pickle Tools: screenshot mode is disabled
 
   Scenario: a plural compound, haricots rouges, with cow meat
     Given a fine meal made of "FTFR_RawRedBeans" and "Meat_Cow" lies at (142, 150)
     Then the meal at (142, 150) is named by Flavor Text in the language this pass runs
     And the meal at (142, 150) does not show the internal name "FTFR_RawRedBeans"
     When I select the meal at (142, 150)
+    And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     And I take a screenshot "F14 red beans and cow meat, inspect pane"
+    And Nelim's Pickle Tools: screenshot mode is disabled
 
   Scenario: no error was logged while Flavor Text categorized the invented foods
     Then no errors were logged

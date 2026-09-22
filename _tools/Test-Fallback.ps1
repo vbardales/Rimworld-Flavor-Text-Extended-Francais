@@ -1,9 +1,9 @@
-$ErrorActionPreference='Stop'
+﻿$ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot
 $null=[Reflection.Assembly]::LoadFrom((Join-Path $root 'Mod/Assemblies/FlavorTextExtendedFR.dll'))
 function Assert($condition,$message){if(-not $condition){throw $message}}
-[xml]$fr=Get-Content (Join-Path $root 'Mod/Languages/French/Keyed/Fallback.xml')
-[xml]$en=Get-Content (Join-Path $root 'Mod/Languages/English/Keyed/Fallback.xml')
+[xml]$fr=Get-Content (Join-Path $root 'Mod/Languages/French/Keyed/Fallback.xml') -Encoding UTF8
+[xml]$en=Get-Content (Join-Path $root 'Mod/Languages/English/Keyed/Fallback.xml') -Encoding UTF8
 foreach($key in $fr.LanguageData.ChildNodes | Where-Object NodeType -eq Element){
     Assert (-not [string]::IsNullOrWhiteSpace($en.LanguageData.($key.Name))) "Missing English key: $($key.Name)"
     $frTokens=@([regex]::Matches($key.InnerText,'\{\d+\}') | ForEach-Object Value)
@@ -26,7 +26,9 @@ $cases=@(
 )
 foreach($case in $cases){
     $suffix=if([FlavorTextExtendedFR.FrenchFallback]::NeedsElision($case[0])){'Elided'}else{''}
-    $forms=[FlavorTextExtendedFR.FrenchFallback]::Create($case[0],$fr.LanguageData.('FTFR_FallbackA'+$suffix),$fr.LanguageData.('FTFR_FallbackDe'+$suffix))
+    $aForm=$fr.LanguageData.('FTFR_FallbackA'+$suffix)
+    $deForm=$fr.LanguageData.('FTFR_FallbackDe'+$suffix)
+    $forms=[FlavorTextExtendedFR.FrenchFallback]::Create($case[0],$aForm,$deForm)
     Assert ($forms.Count -eq 4 -and $forms[0] -ceq $case[1] -and $forms[3] -ceq $case[2]) "Bad French complement: $($case[0])"
     Assert ($forms[1] -ceq $case[0] -and $forms[2] -ceq $case[0]) "Localized label was altered: $($case[0])"
 }

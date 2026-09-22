@@ -1,8 +1,8 @@
 # Functional acceptance scenarios
 
-Execution owner: **user**, explicitly confirmed on 2026-09-13. Codex handles offline
-checks only and must not launch, control or close RimWorld. Record actual results below
-only after the user reports observations; no pending scenario is presumed successful.
+This is the historical acceptance inventory. It is no longer an instruction to hand-play the
+game: `Tests/Pickle/` owns every automatable action and produces the captures or film that a
+person reviews. No pending scenario is presumed successful.
 
 Status: **not executed** for the correction build of 2026-09-13. The earlier scenario
 set is preserved in `fix-2026-09-13/FUNCTIONAL-SCENARIOS.before.md`.
@@ -12,12 +12,10 @@ Never erase the original log to prepare a test.
 
 ## Common setup
 
-Use RimWorld 1.6, Harmony, Flavor Text, Flavor Text Extended and this translation in
-that order. Back up the save and configuration before testing. Use a disposable colony
-with a stove and ingredients; optional cooking mods may expose more meal kinds.
-The user starts the game. Every scenario remains pending until its observations are recorded.
-Dish selection is not deterministic: inspect the actual selected dish and its ingredient
-slots rather than treating a different matching recipe as a failure.
+Use the pass matrix in `Tests/Pickle/README.md`. It stages the dependencies, takes the lock,
+and leaves the reviewer with only the declared ScreenshotMode captures or FilmTicks video.
+Dish selection is not deterministic: a different matching dish is evidence to review, not a
+failure by itself.
 
 | ID | Preconditions and actions | Expected result |
 | --- | --- | --- |
@@ -33,7 +31,7 @@ slots rather than treating a different matching recipe as a failure.
 | F10 | Add each supported optional mod separately where available; select ingredients listed in `Inflections_ThirdParty_FR.xml`. Include VGP mushrooms, VCE spices and the meat optimization override. Repeat selected cases in English. | Listed ingredients use the four reviewed French forms in French. English keeps upstream forms. Missing optional mods never become required dependencies. Report the exact combinations tested. |
 | F11 | Open Options → Mod settings → Flavor Text Extended - Français (unofficial), then the original Flavor Text page, in both languages. Exercise all five settings, the ingredient-cap slider at 0 and 6, close/reopen, restart and reload. Compare normal/quick recipe search, stack labels and extra ingredients; restart after recipe matching or dynamic meal-detection changes. | French labels/tooltips in French and original English text in English. Slider stays in 0–6. Changes have the stated upstream effect and persist. Both useful pages share the same values and saved configuration. Defaults on a clean profile are 0, false, true, true, true for cap, quick search, stack names, lax matching and dynamic detection. |
 | F12 | On a clean profile inspect MainButtons. With RIMMSQOL or a compatible customization mod, reveal FTFR_Settings, open it, edit settings, close/reopen and hide it again; restart to check the visibility choice. | No visible or greyed-out unsolicited button. FTFR_Settings opens the same shared settings as the primary entry. Revealing and hiding it works without forced visibility overrides. Name every integration actually tested. |
-| F13 | Load a copy of an existing save made before this translation was installed; include stored meals. Inspect it, cook fresh meals, save and reload twice in each language. | Save loads without corruption or attributable errors. Existing meals remain usable. Newly cooked meals use the selected language. Record whether old cached meal names update; do not claim automatic renaming without observing it. |
+| F13 | **Blocked on fixture.** Run a Pickle pass only after adding a committed save made before this translation was installed and containing stored meals. | Save loads without corruption or attributable errors. Existing meals remain usable. Newly cooked meals use the selected language. Record whether old cached meal names update; do not claim automatic renaming without observing it. |
 | F14 | Cook with ingredients absent from every predefined table, including translated compound labels, huile, haricots and yuzu; repeat in English. Exercise all seven category overrides and a hairy-tagged meal if available. | French neutral complements preserve labels and accents, with correct known elisions and no English stemming. Categories and hairy prefixes are French. English retains upstream behavior. Record exact ingredient/recipe IDs for agreement issues; unknown singulars deliberately retain the supplied label, and missing third-party French labels require a translation from that mod. |
 
 ## Exit criteria

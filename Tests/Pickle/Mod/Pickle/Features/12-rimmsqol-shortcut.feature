@@ -16,7 +16,7 @@
 #
 # Played only by pass 7, "avec-rimmsqol": without RIMMSQOL staged, the first step stops with a sentence.
 # Every scenario is followed by a teardown that puts back whatever a step changed, pass or fail.
-@wip @review @rimmsqol
+@wip @review @rimmsqol @requires:nelim.pickletools.screenshotmode
 Feature: RIMMSQOL reveals and hides the Flavor Text shortcut
 
   Background:
@@ -32,7 +32,9 @@ Feature: RIMMSQOL reveals and hides the Flavor Text shortcut
     And the main bar does not draw the button "FTFR_Settings"
     When RIMMSQOL's own window is opened on its list of main buttons
     Then RIMMSQOL's own window is open
-    When I take a screenshot "rimmsqol, its list of main buttons, with the flavor text shortcut"
+    When Nelim's Pickle Tools: screenshot mode is enabled around the open windows
+    And I take a screenshot "rimmsqol, its list of main buttons, with the flavor text shortcut"
+    And Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
   Scenario: revealed in RIMMSQOL the shortcut is drawn, and it opens the same page as Mod options
@@ -42,11 +44,15 @@ Feature: RIMMSQOL reveals and hides the Flavor Text shortcut
     And the main bar draws the button "FTFR_Settings"
     When RIMMSQOL's own window is opened on the main button "FTFR_Settings"
     Then RIMMSQOL's own window is open
-    When I take a screenshot "rimmsqol, edit page of the flavor text shortcut, revealed"
+    When Nelim's Pickle Tools: screenshot mode is enabled around the open windows
+    And I take a screenshot "rimmsqol, edit page of the flavor text shortcut, revealed"
+    And Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
     And the main bar's button "FTFR_Settings" is activated
     Then the FTFR settings dialog is open for this mod
-    When I take a screenshot "flavor text settings, opened by the shortcut RIMMSQOL revealed"
+    When Nelim's Pickle Tools: screenshot mode is enabled around the open windows
+    And I take a screenshot "flavor text settings, opened by the shortcut RIMMSQOL revealed"
+    And Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
   # The last steps put RIMMSQOL back: this scenario's teardown would do it anyway, but a scenario that

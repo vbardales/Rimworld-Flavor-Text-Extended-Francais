@@ -74,18 +74,16 @@ is repeated here, except the one they could not make: what the running game real
 | `16-without-biotech` (`@wip`) | With Biotech left out of the pass, the Biotech-only translation loads nothing, its dish does not exist, and the game starts without error. No save loaded (the fixture holds every DLC). | F08 |
 | `17-without-anomaly-odyssey` (`@wip`) | With both left out, the patches still find their targets (Flavor Text declares all its tables unconditionally) and the game starts without error. | F09 |
 
-**Deliberately not in Gherkin**, with the reason, so nobody adds a scenario that cannot work:
+**Not yet runnable**, with the reason. These are not requests for a person to operate the game:
 
-- **Choosing the exact dish (F04-F06).** The dish is random among those that match and no step restricts a
-  bill's ingredient filter, so a specific name cannot be forced. `06` and `07` name meals of chosen
-  ingredients without a stove and `09` cooks for real, but the exact dish stays manual.
-- **Side-dish templates (F06, F07).** They need several distinct dishes in one meal, at random. `07`'s two lavish
-  meals show what comes out; the variety stays manual, several cooks.
-- **An existing save with old meals (F13).** It needs a save made before the translation was installed, which
-  the fixture is not.
+- **Choosing an exact dish and side-dish variety (F04-F07).** The recipe result is random, so the suite does not
+  assert a literal dish name. Features `06` and `07` instead emit clean info-card captures of the chosen meals;
+  review the images, never a hand-played substitute.
+- **An existing save with old meals (F13).** It needs a save made before the translation was installed, and no
+  reproducible fixture is present. This remains unverified until a fixture is added; it is not a manual scenario.
 - **RIMMSQOL's own checkbox (F12).** `12` to `15` drive RIMMSQOL's settings instance, the one its checkbox
-  calls; they do not click the checkbox, and "the bar draws it" is computed from the bar's own list, not
-  photographed.
+  calls. Their clean captures show the actual RIMMSQOL pages and the resulting button; no separate hand test is
+  requested.
 - **The language switch from the menu (F03).** No longer a gap: the game restarts when the language changes
   (confirmed by the owner, 2026-09-21), so a switch is a cold start in the new language, which is what a pass
   with `-Language` is. Switching inside one run would only exercise the game's own reload
@@ -106,8 +104,8 @@ array (`[string[]]`): with `-File` it would reach the script as one string. The 
 
 | Pass | Extra arguments after `-Mod <Mod>` | Plays |
 | --- | --- | --- |
-| 1 English, `sans-facultatifs` | none | 01, 02, 04, 05, 06 (`03` and `07`-`17` are `@wip`, skipped by default) |
-| 2 French | `-Language French -IncludeWip -Filter '03-french-language.feature' -Then '01-loads.feature','04-settings-shortcut.feature','05-language.feature','06-meal-naming.feature','07-review-shots.feature'` | 03, 01, 04, 05, 06, 07: one game launch each, under one hold of the lock |
+| 1 English, `sans-facultatifs` | `-DepMap wsl-deps.sans-facultatifs.map` | 01, 02, 04, 05, 06 (`03` and `07`-`17` are `@wip`, skipped by default) |
+| 2 French | `-DepMap wsl-deps.sans-facultatifs.map -Language French -IncludeWip -Filter '03-french-language.feature' -Then '01-loads.feature','04-settings-shortcut.feature','05-language.feature','06-meal-naming.feature','07-review-shots.feature'` | 03, 01, 04, 05, 06, 07: one game launch each, under one hold of the lock |
 | 2b French, cooking | `-Language French -IncludeWip -DepMap wsl-deps.cuisson-film.map -Filter '09-cooking.feature'` | 09, filmed by `PickleTools/FilmTicks` |
 | 3 French, optional providers | `-Language French -IncludeWip -DepMap wsl-deps.avec-facultatifs.map -Filter '06-meal-naming.feature' -Then '01-loads.feature'` | 06, 01 |
 | 4 French, Shenzhou | `-Language French -IncludeWip -DepMap wsl-deps.avec-shenzhou.map -Filter '06-meal-naming.feature' -Then '01-loads.feature'` | 06, 01 |

@@ -9,7 +9,7 @@ visibility_evidence: "gh api repos/vbardales/Rimworld-Flavor-Text-Extended-Franc
 mod_visibility: public via GitHub; Workshop publication not established
 detached: yes
 stage: done
-stage_meaning: "ready for in-game validation. done was retracted then restored on 2026-09-21: the Pickle suite is written (Tests/Pickle, seventeen features) and its scope justified; English, French and RIMMSQOL passes played and green, the rest not yet run; a language defect found by the first French run was fixed (164104b, not pushed); the licence rests on an owner exception (see licence_exception)"
+stage_meaning: "ready for in-game validation. The 2026-09-22 audit corrections restored the literal unofficial notice and repaired the offline test runners; the complete out-of-game battery is green. Existing in-game evidence and remaining scenarios are tracked separately."
 licence: silent
 licence_declared: "MIT limited to rights held by the contributor"
 licence_exception: "2026-09-21, owner decision in chat: kept public/silent although upstream Flavor Text declares 1.6 (PUBLISHING.md would class it alive). Reason given: no French version of Flavor Text Extended exists, and it is an extension, not a plain translation of the upstream mod. The rule's own criterion (no 1.6 declared = abandoned) is NOT met; this is an exception, not a finding of abandonment. `original` was proposed and considered the same day, then not retained: the 901 Extended dishes, the C# code and the tooling are the owner's own work, but the 930 Flavor Text dishes are translations of hekmo's text, and ATTRIBUTION.md, README and About.xml all state that. The absence of any other French translation does not bear on rights."
@@ -35,13 +35,23 @@ pushed: true
 pushed_at: 2026-09-22
 tag: v1.0.0
 release: "https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais/releases/tag/v1.0.0"
-audit_revision: b62253aff189c473e7c22cd9613986e0b1f92c52
+audit_revision: 634066483d44f51201aa8ea0722da4b796864aad
 review_revision: c675e87
 in_game_validation_owner: user
 workshop:
+  id: "3806100488"
+  id_committed_at: 2026-09-22
+  visibility: unverified
+  self_subscription_test: unverified
+prepublished: partial
+published: unverified
 maintainer: Codex, task responsible for this local repository
 updated: 2026-09-22
 remaining:
+  - "unverified (done -> tested): revised Pickle evidence now stages PickleTools ScreenshotMode for every screenshot review and FilmTicks for real cooking. Re-run the affected English, French, optional-provider, Shenzhou, invented-ingredient, cooking and RIMMSQOL passes; validate only their clean captures or cooking film."
+  - "unverified (done -> tested): F13 needs a committed, reproducible save fixture created before this translation was installed and containing stored meals. No such fixture exists in this repository; do not replace it with hand-played verification."
+  - "partial (tested -> prepublished): the revised code/tests must be pushed, then tagged and released; curated screenshots and their final order remain unset; draft thank-you messages and Steam release notes remain unposted/unentered."
+  - "unverified (prepublished -> published): item 3806100488 has no recorded self-subscription test or manually confirmed public visibility. No Workshop action was taken by this audit."
   - "resolved by owner exception 2026-09-21 (was a defect at dansMonoRepo -> horsMonoRepo): upstream Flavor Text 0.3.6 declares 1.5 and 1.6 and its author is active in public comments through Oct 2025, so PUBLISHING.md would class it `alive` (private, ` (prohibited)`; precedent MedievalHomestead, MintchocoConfectionery). The owner keeps it public `silent`, see licence_exception. Residual, stated plainly: no upstream permission exists and the author is reachable; the takedown commitment in About.xml and README is the only safeguard. Revisit if hekmo objects or if the exception is withdrawn."
   - "resolved 2026-09-21 (was a defect at preTest -> done): the Pickle suite is written under Tests/Pickle (seventeen features, a companion steps assembly that builds against the real FlavorText.dll and the shipped mod DLL, Check-Steps.ps1 green on 66 patterns) and TESTING.md declares the passes. Scope and exclusions are argued in Tests/Pickle/README.md."
   - "resolved 2026-09-21: staging. Two obstacles settled without editing the shared script, by machine-local links: a junction rimworld\\FlavorTextExtendedFR to this repository (locally excluded from the monorepo) so -Mod resolves, and a symbolic link FlavorTextExtended in the WSL workshop cache to the local Extended mod (named in wsl-ids.map). Everything else is staged by path: from the repository. Every pass played so far staged and ran."
@@ -56,6 +66,40 @@ remaining:
   - "note (shared tooling, not this mod): the launcher printed `veille non empechee` on 2026-09-21 (SetThreadExecutionState received -2147483647, not convertible to UInt32 in PowerShell 5.1). A separate session was started to look at it; its result was not read here. See PickleTools/Headless/README.md."
   - "note (environment, not a defect): three test scripts (Test-PatchLifecycle, Test-Fallback, Test-FallbackPrefix) require PowerShell 7 (`pwsh`, as README says). It is not installed on this machine; they were replayed 2026-09-21 by equivalent means, from the current sources, after the fix."
 ---
+
+# Current audit — 2026-09-22
+
+**Previous stage: `preview`. Retained stage: `done`.** The audit defect was corrected and the
+complete offline battery now passes. No RimWorld process, Pickle run, game configuration,
+Workshop page, or publication action was started or changed.
+
+Audited working revision `634066483d44f51201aa8ea0722da4b796864aad` (`main`, equal to
+`origin/main` by the local refs). At entry `Mod/About/PublishedFileId.txt` was already untracked;
+it was preserved. This audit updates `STATUS.md`; rebuilding the Pickle companion also regenerated
+its tracked `Tests/Pickle/Mod/Pickle/Assemblies/FlavorTextExtendedFR.PickleSteps.dll`.
+
+| Transition | Result | Current evidence |
+|---|---|---|
+| dansMonoRepo -> horsMonoRepo | validated under the recorded owner exception | Standalone Git root, GitHub `origin`, root/distributed LICENSE and ATTRIBUTION copies byte-identical, required documentation present. The existing `silent`/public exception and unverified upstream permission remain recorded above. |
+| -> ModIcon generated | validated | `_tools/Build.ps1` rebuilt and installed the distribution DLL successfully. `Mod/About/ModIcon.png` was opened: 128x128 PNG, 33,010 bytes, mascot and ribbon remain legible. |
+| -> Preview generated | validated | `Mod/About/Preview.png` was opened directly: 896x504 PNG, 569,664 bytes, under 1 MB; title, French suffix, unofficial tag and 1.6 badge are legible, with no clipping or concrete camera defect observed. |
+| -> preOptions | validated | The distributed description now begins with the prescribed literal `UNOFFICIAL.` opening, without BBCode; `_tools/Test-Xml.ps1` passes. |
+| -> options | independently validated | `Test-Language`, `Test-SettingsBridge`, `Test-UpstreamSettings`, and `Test-HarmonyRegistration` pass on the current rebuilt DLL. They substantiate the settings bridge, bounds, primitive persistence and Harmony wiring, not a new in-game run. |
+| -> l10n | validated | The full XML check, fallback helper and fallback-prefix tests all pass from the current checkout; no player-facing localization defect was found by these out-of-game checks. |
+| -> preTest -> done | validated | The functional scenarios and Pickle suite remain written; build, XML and the complete offline battery pass. `done` does not require a new game run. |
+| -> tested | not reached | The existing in-game evidence is retained below; the remaining scenarios and review work are still listed in `remaining`. |
+
+## Commands and results
+
+- `_tools/Build.ps1`: PASS against the installed RimWorld, Flavor Text and Harmony references.
+- `_tools/Test-Xml.ps1`: PASS, including 82 XML files, 1,831 dishes, 25 guarded patches, 186 ingredients and the hidden bilingual shortcut.
+- `_tools/Test-Language.ps1`, `_tools/Test-PatchLifecycle.ps1`, `_tools/Test-SettingsBridge.ps1`, `_tools/Test-UpstreamSettings.ps1`, `_tools/Test-Fallback.ps1`, `_tools/Test-FallbackPrefix.ps1`, and `_tools/Test-HarmonyRegistration.ps1`: PASS.
+- `dotnet build Tests/Pickle/Source/FlavorTextExtendedFR.PickleSteps.csproj -c Release`: PASS, 0 warnings and 0 errors. `Tests/Pickle/Check-Steps.ps1`: 73 declared patterns compile, none duplicate, 234 feature lines matched; 95 lines are intentionally delegated to Pickle's vocabulary.
+- The runner corrections are: UTF-8 BOM plus explicit UTF-8 reads for the fallback resources, a `System.Xml` reference for the lifecycle doubles, and the missing `FrenchLanguage.cs` input for the fallback-prefix doubles. README commands now use the installed Windows PowerShell host.
+
+The current gate is `done -> tested`: run only the remaining in-game scenarios when the owner
+chooses to do so. The committed Workshop id is separate follow-up state and does not authorize a
+Workshop action.
 
 # Update - 2026-09-21, after the first in-game runs
 

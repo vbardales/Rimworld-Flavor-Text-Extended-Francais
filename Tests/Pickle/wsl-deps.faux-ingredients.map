@@ -3,3 +3,4 @@
 # PickleTools/Headless/README.md, "A pass without a DLC, and a mod that has no Workshop id"), so it needs no
 # link on the machine. Its own About.xml packageId must match the one written here.
 nelim.flavortextextended.fr.fakeingredients   path:FlavorText/FlavorTextExtendedFR/Tests/Pickle/FakeIngredients
+nelim.pickletools.screenshotmode              path:PickleTools/ScreenshotMode/Mod
