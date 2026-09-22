@@ -24,4 +24,4 @@
 - Actual-assembly persistence, Harmony and settings/fallback regression coverage; an in-game Pickle suite
   (`Tests/Pickle/`) covering loading, language isolation, the settings page and shortcut, meal naming and
   RIMMSQOL. The English, French and RIMMSQOL passes played green on 2026-09-21; see `STATUS.md` and
-  `TESTING.md` for pending capture/film evidence. F13 legacy-meal coverage is out of scope.
+  `TESTING.md` for pending capture/film evidence, including F13 once its pre-translation fixture is committed.

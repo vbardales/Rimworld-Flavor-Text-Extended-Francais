@@ -2,7 +2,7 @@
 
 The scenarios of [TESTING.md](../../TESTING.md) that a running game is needed for, and only those.
 `Mod/` is a companion mod, **Flavor Text Extended - Français - Pickle tests**, never published. It
-holds seventeen feature files and a small steps assembly built from `Source/`. Two shared tools of Nelim's
+holds eighteen feature files and a small steps assembly built from `Source/`. Two shared tools of Nelim's
 Pickle Tools (`PickleTools/` at the repository root, a repository of its own) are staged by the passes that need
 them: `FilmTicks` for the filmed cooking (09) and `RimmsqolSteps` for RIMMSQOL (12 to 15). `FakeIngredients/` is
 a second, tiny mod of this suite, staged by its own pass only. What stays in this suite, and where another mod can
@@ -79,8 +79,10 @@ is repeated here, except the one they could not make: what the running game real
 - **Choosing an exact dish and side-dish variety (F04-F07).** The recipe result is random, so the suite does not
   assert a literal dish name. Features `06` and `07` instead emit clean info-card captures of the chosen meals;
   review the images, never a hand-played substitute.
-- **Existing meals from before the translation was installed (F13).** Explicitly out of scope for this audit;
-  no fixture and no manual substitute are required.
+- **Existing meals from before the translation was installed (F13).** Feature `18-legacy-meals` is ready but
+  awaits a committed fixture saved before the translation was installed and containing stored meals. It loads that
+  save, pauses, opens an existing meal's info card and emits its ScreenshotMode capture; no manual substitute is
+  requested.
 - **RIMMSQOL's own checkbox (F12).** `12` to `15` drive RIMMSQOL's settings instance, the one its checkbox
   calls. Their clean captures show the actual RIMMSQOL pages and the resulting button; no separate hand test is
   requested.
@@ -114,6 +116,7 @@ array (`[string[]]`): with `-File` it would reach the script as one string. The 
 | 7 RIMMSQOL | `-IncludeWip -DepMap wsl-deps.avec-rimmsqol.map -Filter '12-rimmsqol-shortcut.feature' -Then '13-rimmsqol-restart-reveal.feature','14-rimmsqol-restart-hide.feature','15-rimmsqol-restart-forget.feature'` | 12, then the chain 13, 14, 15: four launches under one lock. The last scenario forgets RIMMSQOL's choice; a run cut between two launches leaves it in the WSL profile, see `PickleTools/RimmsqolSteps/README.md`, "Leftovers" |
 | 8 without Biotech | `-IncludeWip -DepMap wsl-deps.sans-biotech.map -Filter '16-without-biotech.feature'` | 16 |
 | 9 without Anomaly and Odyssey | `-IncludeWip -DepMap wsl-deps.sans-anomaly-odyssey.map -Filter '17-without-anomaly-odyssey.feature'` | 17 |
+| 10 legacy meals (after fixture commit) | `-Language French -IncludeWip -DepMap wsl-deps.sans-facultatifs.map -Filter '18-legacy-meals.feature'` | 18; loads `legacy-meals-before-ftfr`, pauses on a stored meal's info card and captures it |
 
 `02-english-isolation` is English-only and fails in French by design, so the French passes name their
 features one by one. `-Then` takes the lock once and stages once. A restart pair that dies between its two

@@ -83,11 +83,30 @@ namespace FlavorTextExtendedFR.PickleSteps
         }
 
         /// <summary>
+        /// F13 starts from a save made before this translation was installed.  It must not create
+        /// evidence by spawning a new meal: the reviewed object has to be one the save already
+        /// contains.  The feature pauses before this call, then ScreenshotMode leaves only this
+        /// info card for the reviewer.
+        /// </summary>
+        [When("I open the info card of an existing meal")]
+        public async System.Threading.Tasks.Task OpenExistingMealInfoCard(PickleContext ctx)
+        {
+            var meal = ExistingMeal(ctx);
+            Log.Message($"[FTFR tests] existing meal at ({meal.Position.x}, {meal.Position.z}) full name: {meal.LabelCap}");
+            Log.Message($"[FTFR tests] existing meal at ({meal.Position.x}, {meal.Position.z}) description: {meal.DescriptionDetailed}");
+            Find.WindowStack.Add(new Dialog_InfoCard(meal));
+            await ctx.WaitFrames(5);
+        }
+
+        /// <summary>
         /// The label is logged in full so a person reads the actual name in the report, which is the
         /// only place the French agreement can be judged.
         /// </summary>
         [Then("the meal at \\({int}, {int}\\) is named by Flavor Text in the language this pass runs")]
         public void MealIsNamed(PickleContext ctx, int x, int z) => AssertNamed(ctx, MealAt(ctx, x, z));
+
+        [Then("an existing meal is named by Flavor Text in the language this pass runs")]
+        public void ExistingMealIsNamed(PickleContext ctx) => AssertNamed(ctx, ExistingMeal(ctx));
 
         [Then("the meal at \\({int}, {int}\\) does not show the internal name {string}")]
         public void MealHidesDefName(PickleContext ctx, int x, int z, string defName)
@@ -139,6 +158,19 @@ namespace FlavorTextExtendedFR.PickleSteps
             foreach (var thing in things)
                 if (thing.def == ThingDefOf.MealFine || thing.def.defName == "MealLavish") return thing;
             ctx.Require(false, $"no fine or lavish meal at ({x}, {z}): the step that puts it there did not run, or it was carried off");
+            return null;
+        }
+
+        private static Thing ExistingMeal(PickleContext ctx)
+        {
+            foreach (var thing in Driver.Map(ctx).listerThings.ThingsInGroup(ThingRequestGroup.HaulableEver))
+            {
+                if (thing.def.IsIngestible && thing.TryGetComp<CompIngredients>() != null)
+                    return thing;
+            }
+
+            ctx.Require(false,
+                "the legacy fixture contains no stored meal with CompIngredients: add at least one meal made before the translation was installed");
             return null;
         }
     }

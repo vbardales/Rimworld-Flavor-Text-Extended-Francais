@@ -22,7 +22,7 @@ what each kind of test may claim, below.
 
 ## In the game, by Pickle
 
-Seventeen features, one companion mod, one steps assembly. The shared steps of Nelim's Pickle Tools are used
+Eighteen features, one companion mod, one steps assembly. The shared steps of Nelim's Pickle Tools are used
 where they exist (`PickleTools/FilmTicks` for the cooking film, `PickleTools/RimmsqolSteps` for pass 7); what
 stays in this suite, and where another mod can find it, is listed in `PickleTools/Elsewhere/FlavorTextExtendedFR.md`.
 The scope is the part a running game is needed for: the real patch pipeline and loader, the real DefInjected
@@ -49,6 +49,7 @@ incompatibility) does not apply. Several passes are needed. Commands are in `Tes
 | 7 | `avec-rimmsqol` | The same set plus RIMMSQOL (`MalteSchulze.RIMMSqol`, Workshop 1084452457; hard dependency Harmony, staged everywhere) and the shared steps that drive it (`-DepMap wsl-deps.avec-rimmsqol.map`), for F12 | English | 12, then 13, 14, 15: four launches under one lock | **played 2026-09-21: 4 launches, all `exitReason: passed` (12: 3 of 3; 13, 14, 15: 1 of 1 each)**, 15 mods loaded, profile left with no RIMMSQOL choice. Captures opened. Detail and limits in `PickleTools/RimmsqolSteps/README.md` |
 | 8 | `sans-biotech` | The same set with Biotech left out (`-DepMap wsl-deps.sans-biotech.map`, `!ludeon.rimworld.biotech`), for F08 | English | 16, no save loaded | map written, not run. The harness itself says a DLC left out has not yet been seen in a real run |
 | 9 | `sans-anomaly-odyssey` | The same set with both left out (`-DepMap wsl-deps.sans-anomaly-odyssey.map`), for F09 | English | 17, no save loaded | map written, not run |
+| 10 | legacy meals | The minimal set plus ScreenshotMode (`-DepMap wsl-deps.sans-facultatifs.map`) and a committed `legacy-meals-before-ftfr` save made before this translation was installed | French | 18, pauses on an existing meal's info card and captures it | scenario written; fixture not committed, so not runnable |
 
 Left out of pass 3 on the owner's word, 2026-09-21: [RH2] Faction: V.O.I.D., Medieval Overhaul and Optimization: Meats. Their tables stay covered by the offline checks only. Nelim's Food Court is local and unpublished, declares itself incompatible with Shenzhou, and no table of this mod targets it: it is not staged. Passes 3 and 4 are separate because Shenzhou is old and would put its own errors beside the eight providers.
 
@@ -80,8 +81,8 @@ in the WSL workshop cache for Flavor Text Extended, which has no Workshop id. Ev
 - Review is limited to captured images or the cooking film: features 04, 06, 07, 08, 12 and 14 use
   PickleTools ScreenshotMode, and 09 uses PickleTools FilmTicks. The language switch is a restart in the new
   language, so the English and French passes cover it. F13 (meals saved before this translation was installed) is
-  **not applicable**: it was explicitly removed from this audit's scope, so no fixture or manual substitute is
-  required. Running without a DLC (F08, F09), cooking with a colonist,
+  **unverified, not manual**: feature `18-legacy-meals` awaits a committed pre-translation fixture, then pauses
+  on its existing meal's info card and produces the capture to review. Running without a DLC (F08, F09), cooking with a colonist,
   unlisted ingredients (F14) and the restart are written and not yet played.
 - Names that read oddly but come from Flavor Text's own generic templates, such as `plat {0_adj} au four`
   ("Plat de lait au four"), are a known limit of this mod's translation of those templates, not a defect
