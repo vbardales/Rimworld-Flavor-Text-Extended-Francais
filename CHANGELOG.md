@@ -1,31 +1,27 @@
 # Changelog
 
-## Unreleased
+## 1.0.0 — 2026-09-22
 
-- Keep the name of the American dish "funeral potatoes" in English instead of a literal French rendering ("pommes de terre des funérailles"), which is not a name anyone uses. Its French description still explains where the name comes from.
-
-- Fix: French was never detected in a real game. RimWorld stores the official French translation as `French (Français)`, and the language guard compared the stored value to `French` alone, so no French patch, side-dish grammar, ingredient fallback or aspirated-h repair was applied. Found by the first in-game test run; the guard now applies RimWorld's own rule (the part before the bracket), and the offline tests use the stored value.
-
-- Translate the five FoodCourt-discovered Extended dishes and add four provider-scoped Shenzhou ingredient entries; retain the explicit altang adaptation and exclude zongzi wrappers.
-
-- Expose the five existing settings under this mod's name, sharing the upstream configuration, with a hidden MainButtons shortcut and ingredient-cap validation.
-- Generate neutral French forms for unlisted ingredients without English singularization; translate all seven category overrides and hairy-meal prefixes.
-- Preserve known aspirated-h ingredient complements during final meal-text processing, scoped to Flavor Text's two compilation methods.
-- Add actual-assembly persistence and Harmony checks, plus settings and fallback regression coverage.
-- Apply French inflection and grammar patches only when RimWorld's selected language is French.
-- Translate the eleven remaining predefined third-party ingredient tables.
-- Use French sentence templates for side dishes without assuming the gender of a dish name.
-- Gate Biotech-only dish translations on Biotech.
-- Add regression checks for language isolation, patch targets and language resources.
-- Update the English description, unofficial notices and licence scope documentation.
-- Preserve the user's preferred original 64x64 icon artwork at 128x128; revise the Preview title, subtitle and version badge.
-
-These changes have not been validated in a running game or published as a release.
-
-## 1.0.0 — Initial repository content
-
-- French names and descriptions for 930 Flavor Text dishes and 896 Flavor Text Extended dishes.
-- Four French inflection tables covering 150 ingredient entries.
-- French labels and tooltips for the five Flavor Text settings.
-
-No release date is inferred from repository extraction or audit dates.
+- French names and descriptions for 930 Flavor Text dishes and 901 Flavor Text Extended dishes, including
+  the five FoodCourt-discovered Extended dishes and four provider-scoped Shenzhou ingredient entries;
+  retains the explicit altang adaptation and excludes zongzi wrappers.
+- Four French inflection tables covering 150 predefined ingredient entries, plus the eleven remaining
+  third-party tables and neutral French forms for unlisted ingredients, without English singularization.
+- French labels and tooltips for the five Flavor Text settings, exposed under this mod's own name and
+  sharing the upstream configuration, with a hidden MainButtons shortcut and ingredient-cap validation.
+- French sentence templates for side dishes, without assuming the gender of a dish name; all seven
+  category overrides and hairy-meal prefixes translated.
+- Known aspirated-h ingredient complements preserved during final meal-text processing.
+- French inflection and grammar patches apply only when RimWorld's selected language is French. Fixed
+  2026-09-21: RimWorld stores the official French translation as `French (Français)`, and the language
+  guard compared the stored value to `French` alone, so nothing above had ever applied in a real French
+  game. Found by the first in-game Pickle run; the guard now applies RimWorld's own rule for matching a
+  language folder (the part before the bracket).
+- Keep the name of the American dish "funeral potatoes" in English instead of a literal French rendering
+  ("pommes de terre des funérailles"), which is not a name anyone uses. Its French description still
+  explains where the name comes from.
+- Biotech-only dish translations gated on Biotech.
+- Actual-assembly persistence, Harmony and settings/fallback regression coverage; an in-game Pickle suite
+  (`Tests/Pickle/`) covering loading, language isolation, the settings page and shortcut, meal naming and
+  RIMMSQOL. The English, French and RIMMSQOL passes played green on 2026-09-21; see `STATUS.md` and
+  `TESTING.md` for what remains to be played and what stays manual.
