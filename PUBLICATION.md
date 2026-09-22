@@ -1,0 +1,92 @@
+# Publication
+
+What the Workshop page needs that nothing else in this repository carries, and what will not be
+reproducible from this repository alone once written: screenshot order, thank-you messages,
+dependencies/DLC to declare, and the adult-content checkboxes. See `PUBLISHING.md` at the monorepo
+root for the general workflow; this file is the mod-specific record it asks for.
+
+## Screenshots for the Workshop page
+
+**Not yet produced.** No curated, reviewed set of gameplay screenshots exists in this repository.
+The in-game Pickle passes (`Tests/Pickle/`, see `TESTING.md`) take `@review` captures for their own
+purpose — proving the settings dialog and a few meal names render correctly — and a few of those
+(the settings page, a fine meal's inspect pane, two lavish meals with their info cards) were opened
+and validated by the owner on 2026-09-21, but they were taken for verification, not composed or
+selected as a Workshop showcase, and they are not stored in the repository (`.build/`, gitignored).
+
+Before the first Workshop upload, pick and order 3-5 screenshots from a real playthrough or a
+dedicated Pickle capture pass, following STYLE_RIMWORLD.md's rule for a showcase image: the first
+one is the most demonstrative, not the prettiest, because Steam displays it large. Candidates, based
+on what this mod actually changes:
+1. A cooked meal's full French name and description in the inspect pane or info card (the mod's
+   whole point).
+2. The settings page (`Options → Mod settings → Flavor Text Extended - Français (unofficial)`),
+   showing the five controls.
+3. A side-dish name using the French joining grammar (`façon`, `avec`), from a lavish meal.
+4. Optionally, the elision/aspirated-h contrast (`d'écureuil` vs `de husky`) side by side.
+
+## Thank-you messages
+
+One per mod this one is derived from or depends on, personalized, under 1000 characters (Steam
+comment limit), posted only after this item is public.
+
+- **hekmo, Flavor Text** (Workshop 3245374432) — the source text this mod translates. Not yet
+  drafted.
+- **Harmony** (brrainz, Workshop 2009463077) — hard dependency, the language-aware patch runs
+  through it. Not yet drafted.
+
+Flavor Text Extended is this mod's own companion (same author), not a thank-you target.
+
+## Dependencies and DLC
+
+**Hard dependencies** (`modDependencies` in `About.xml`, technically required — the mod will not
+load without them):
+- `brrainz.harmony` — Harmony, used directly by `Source/RuntimePatches.cs` and
+  `Source/PatchOperationFrench.cs`.
+- `hekmo.FlavorText` — the mod this translates; every DefInjected handle targets its defs.
+- `nelim.flavortextextended` — the sibling mod (901 Extended dishes) this also translates. No
+  Workshop id: published on GitHub only
+  ([Rimworld-Flavor-Text-Extended](https://github.com/vbardales/Rimworld-Flavor-Text-Extended)),
+  linked via `downloadUrl`.
+
+**DLC:** none required. `supportedVersions` declares 1.6 only. `Mod/LoadFolders.xml` loads the
+`Biotech` folder only `IfModActive="Ludeon.RimWorld.Biotech"` — twelve translations for six
+Biotech-only dishes that do not exist without it. Anomaly and Odyssey need no gate: Flavor Text
+declares their ingredient tables unconditionally, and this mod's patches target those tables the
+same way regardless of whether the DLC is owned.
+
+**Recommended, not required** (`loadAfter` only, never `modDependencies`): the eleven third-party
+mods whose ingredient tables this mod also translates (`Inflections_ThirdParty_FR.xml`) —
+Optimization: Meats, VGP Vegetable Garden, VGP Garden Gourmet, Vanilla Plants Expanded - More
+Plants, Vanilla Cooking Expanded, [RH2] Faction: V.O.I.D., VV New Harvest, RimCuisine 2 Core, Kit's
+Brazilian Crops, Medieval Overhaul, TP Sea Plants — plus the Shenzhou provider
+(`Dajian.ChiTeaditional.Expanded`) for the FoodCourt-discovered dishes. None of them is declared a
+dependency: their absence costs nothing (the entries they'd translate simply never appear), and
+forcing a download on everyone for eleven optional tables would be wrong per PUBLISHING.md. Verified
+in sources, not by intention: see `Mod/Patches/Inflections_ThirdParty_FR.xml` and
+`Ext_FoodCourtDiscovery.xml`.
+
+## Adult content
+
+**No.** Nothing in this mod adds, depicts, or names adult content. It translates existing dish names
+and descriptions; the ModIcon and Preview were opened and inspected (see `STATUS.md`). Both Workshop
+checkboxes should be left unchecked.
+
+## Steam version notes (write at the moment of the first upload)
+
+Not yet written — they live in the upload form, not in this file, and are the easiest thing to
+forget per PUBLISHING.md. Draft for v1.0.0, to copy in:
+
+> First release. French names and descriptions for 930 Flavor Text dishes and 901 Flavor Text
+> Extended dishes, French ingredient grammar, and the shared settings under this mod's own name.
+> Requires Flavor Text and Flavor Text Extended. See the description for details.
+
+## After the first upload — do not forget
+
+- Commit `About/PublishedFileId.txt` immediately once it exists; losing it before that commit makes
+  the next upload create a second Workshop item.
+- Steam creates every new item **private**. Subscribe to it, test for real, then switch it to public
+  by hand — RimWorld never calls `SetItemVisibility`.
+- Record the Workshop id in `STATUS.md`'s `workshop:` field once created.
+- Post the thank-you messages above only after the item is public: a link to a private item opens
+  for no one.
