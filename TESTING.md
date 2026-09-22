@@ -79,9 +79,9 @@ in the WSL workshop cache for Flavor Text Extended, which has no Workshop id. Ev
   def holds instead (`CategorySteps`).
 - Review is limited to captured images or the cooking film: features 04, 06, 07, 08, 12 and 14 use
   PickleTools ScreenshotMode, and 09 uses PickleTools FilmTicks. The language switch is a restart in the new
-  language, so the English and French passes cover it. F13 remains **unverified**, not manual: no reproducible
-  pre-translation save fixture exists in this repository, so a scenario cannot honestly claim old-meal coverage.
-  Add such a fixture before scheduling that pass. Running without a DLC (F08, F09), cooking with a colonist,
+  language, so the English and French passes cover it. F13 (meals saved before this translation was installed) is
+  **not applicable**: it was explicitly removed from this audit's scope, so no fixture or manual substitute is
+  required. Running without a DLC (F08, F09), cooking with a colonist,
   unlisted ingredients (F14) and the restart are written and not yet played.
 - Names that read oddly but come from Flavor Text's own generic templates, such as `plat {0_adj} au four`
   ("Plat de lait au four"), are a known limit of this mod's translation of those templates, not a defect

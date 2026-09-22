@@ -79,8 +79,8 @@ is repeated here, except the one they could not make: what the running game real
 - **Choosing an exact dish and side-dish variety (F04-F07).** The recipe result is random, so the suite does not
   assert a literal dish name. Features `06` and `07` instead emit clean info-card captures of the chosen meals;
   review the images, never a hand-played substitute.
-- **An existing save with old meals (F13).** It needs a save made before the translation was installed, and no
-  reproducible fixture is present. This remains unverified until a fixture is added; it is not a manual scenario.
+- **Existing meals from before the translation was installed (F13).** Explicitly out of scope for this audit;
+  no fixture and no manual substitute are required.
 - **RIMMSQOL's own checkbox (F12).** `12` to `15` drive RIMMSQOL's settings instance, the one its checkbox
   calls. Their clean captures show the actual RIMMSQOL pages and the resulting button; no separate hand test is
   requested.
