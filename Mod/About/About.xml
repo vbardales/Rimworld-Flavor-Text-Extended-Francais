@@ -4,41 +4,44 @@
   <author>Nelim</author>
   <packageId>nelim.flavortextextended.fr</packageId>
   <url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais</url>
-  <description>UNOFFICIAL. This mod is published without the original author's explicit consent.
+  <description>[b]UNOFFICIAL.[/b] This mod is published without the original author's explicit consent.
 If the original author contacts me to request its removal, I undertake to take it down promptly.
+
 French dish names, descriptions and ingredient forms for Flavor Text and Flavor Text Extended.
 
-WHAT IT TRANSLATES
+[h2]What it translates[/h2]
 
 The names and descriptions of 930 Flavor Text dishes and 901 Flavor Text Extended dishes, the five Flavor Text settings, predefined ingredient inflections and side-dish sentence templates. No new dishes are added by this translation.
 
-LANGUAGES
+[h2]Languages[/h2]
 
 French ingredient forms carry their own articles and prepositions, for example « aux baies » and « de bœuf ». A small language-aware patch applies these forms and the side-dish grammar only when French is selected. English keeps the original dependencies' text and inflection tables. Switching the game's language restarts it, so this has been checked with a clean start in each language.
 
-COMPATIBILITY
+[h2]Compatibility[/h2]
 
-Requires RimWorld 1.6, Flavor Text by hekmo, and Flavor Text Extended, in that order. Harmony is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
+Requires RimWorld 1.6, [i]Flavor Text[/i] by hekmo, and [i]Flavor Text Extended[/i], in that order. Harmony is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
 
-SETTINGS
+[h2]Settings[/h2]
 
-Use Options → Mod settings → Flavor Text Extended - Français (unofficial) for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
+Use [b]Options → Mod settings → Flavor Text Extended - Français (unofficial)[/b] for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
 
-KNOWN LIMITS
+[h2]Known limits[/h2]
 
 Unlisted ingredients use neutral French forms built from their localized labels; unknown irregular singulars and missing third-party translations cannot be inferred. All seven category forms and the hairy-meal prefix are translated. Language isolation, the settings page and shortcut, and French meal naming have both technical and in-game coverage on the nominal scenarios; wider scenarios (optional mods, an existing save, cooking with a colonist) are tracked in STATUS.md.
 
-IF I GO QUIET
+[hr][/hr]
+
+[h2]If I go quiet[/h2]
 
 If I do not answer within a reasonable time after being contacted, anyone may freely update this or any other of my mods, including publishing a continuation of it. All credit must be preserved.
 
-AI-GENERATED
+[h2]AI-generated[/h2]
 
 Translation work used Claude (Anthropic) under human direction and review; subsequent fixes, testing and image editing used both Claude and OpenAI tools.
 
-THANKS
+[h2]Thanks[/h2]
 
-Thanks to hekmo for Flavor Text and its naming machinery, and to Harmony, which this translation's language-aware patch depends on.
+Thanks to [b]hekmo[/b] for [i]Flavor Text[/i] and its naming machinery, and to [b]Harmony[/b], which this translation's language-aware patch depends on.
 
 No explicit upstream permission has been established; see ATTRIBUTION.md and LICENSE for the exact scope. The local MIT notice applies only to rights held by the contributor and grants no rights in the upstream material.
 
