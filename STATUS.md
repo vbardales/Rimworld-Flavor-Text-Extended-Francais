@@ -6,7 +6,7 @@ remote: https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais.git
 visibility: public
 visibility_verified_at: 2026-09-21
 visibility_evidence: "gh api repos/vbardales/Rimworld-Flavor-Text-Extended-Francais: private=false; git ls-remote HEAD = b62253a"
-mod_visibility: public via GitHub; Workshop publication not established
+mod_visibility: public via GitHub; Workshop item recorded, public visibility not verified
 detached: yes
 stage: done
 stage_meaning: "ready for in-game validation. The 2026-09-22 audit corrections restored the literal unofficial notice and repaired the offline test runners; the complete out-of-game battery is green. Existing in-game evidence and remaining scenarios are tracked separately."

@@ -14,7 +14,7 @@ purpose — proving the settings dialog and a few meal names render correctly �
 and validated by the owner on 2026-09-21, but they were taken for verification, not composed or
 selected as a Workshop showcase, and they are not stored in the repository (`.build/`, gitignored).
 
-Before the first Workshop upload, pick and order 3-5 screenshots from a real playthrough or a
+Before the next Workshop update, pick and order 3-5 screenshots from a real playthrough or a
 dedicated Pickle capture pass, following STYLE_RIMWORLD.md's rule for a showcase image: the first
 one is the most demonstrative, not the prettiest, because Steam displays it large. Candidates, based
 on what this mod actually changes:
@@ -76,22 +76,21 @@ in sources, not by intention: see `Mod/Patches/Inflections_ThirdParty_FR.xml` an
 and descriptions; the ModIcon and Preview were opened and inspected (see `STATUS.md`). Both Workshop
 checkboxes should be left unchecked.
 
-## Steam version notes (write at the moment of the first upload)
+## Steam version notes (write at the moment of the next Workshop update)
 
 Prepared for the v1.0.0 Workshop form (the version is anchored by the committed
-`About/PublishedFileId.txt`; enter this text at upload/update time):
+`About/PublishedFileId.txt`; enter this text at update time):
 
 > First release: French names and descriptions for 930 Flavor Text dishes and 901 Flavor Text
 > Extended dishes, French ingredient and side-dish grammar, and the shared Flavor Text settings
 > under this mod's own name. Requires Flavor Text, Flavor Text Extended, and Harmony. See the
 > Workshop description and GitHub source for compatibility details and known limits.
 
-## After the first upload — do not forget
+## After the next Workshop update — do not forget
 
 - Commit `About/PublishedFileId.txt` immediately once it exists; losing it before that commit makes
   the next upload create a second Workshop item.
-- Steam creates every new item **private**. Subscribe to it, test for real, then switch it to public
-  by hand — RimWorld never calls `SetItemVisibility`.
-- Record the Workshop id in `STATUS.md`'s `workshop:` field once created.
+- The item id is already committed. Subscribe to that item, test for real, then confirm its public
+  visibility by hand — RimWorld never calls `SetItemVisibility`.
 - Post the thank-you messages above only after the item is public: a link to a private item opens
   for no one.
