@@ -106,8 +106,8 @@ array (`[string[]]`): with `-File` it would reach the script as one string. The 
 
 | Pass | Extra arguments after `-Mod <Mod>` | Plays |
 | --- | --- | --- |
-| 1 English, `sans-facultatifs` | `-DepMap wsl-deps.sans-facultatifs.map` | 01, 02, 04, 05, 06 (`03` and `07`-`17` are `@wip`, skipped by default) |
-| 2 French | `-DepMap wsl-deps.sans-facultatifs.map -Language French -IncludeWip -Filter '03-french-language.feature' -Then '01-loads.feature','04-settings-shortcut.feature','05-language.feature','06-meal-naming.feature','07-review-shots.feature'` | 03, 01, 04, 05, 06, 07: one game launch each, under one hold of the lock |
+| 1 English, `sans-facultatifs` | `-DepMap wsl-deps.sans-facultatifs.map` | 01, 02, 04, 05, 06, 19 (`03` and `07`-`17` are `@wip`, skipped by default) |
+| 2 French | `-DepMap wsl-deps.sans-facultatifs.map -Language French -IncludeWip -Filter '03-french-language.feature' -Then '01-loads.feature','04-settings-shortcut.feature','05-language.feature','06-meal-naming.feature','19-exact-dishes.feature','07-review-shots.feature'` | 03, 01, 04, 05, 06, 19, 07: one game launch each, under one hold of the lock |
 | 2b French, cooking | `-Language French -IncludeWip -DepMap wsl-deps.cuisson-film.map -Filter '09-cooking.feature'` | 09, filmed by `PickleTools/FilmTicks` |
 | 3 French, optional providers | `-Language French -IncludeWip -DepMap wsl-deps.avec-facultatifs.map -Filter '06-meal-naming.feature' -Then '01-loads.feature'` | 06, 01 |
 | 4 French, Shenzhou | `-Language French -IncludeWip -DepMap wsl-deps.avec-shenzhou.map -Filter '06-meal-naming.feature' -Then '01-loads.feature'` | 06, 01 |
