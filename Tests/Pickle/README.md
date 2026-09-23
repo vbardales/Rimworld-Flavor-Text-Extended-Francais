@@ -180,3 +180,5 @@ Found by a real run, worth knowing before anyone writes the assertion the obviou
   with it proves nothing. The suite asserts the value the def holds afterwards (`CategorySteps`).
 - **A dotted field path takes no numeric index into a list.** `def "X" field "inflectionsOverride.0" is ...` fails
   with `List has no field or property '0'`. A list has to be read whole, by a step that knows its type.
+
+What evidence of a run to keep, and how small: see "Evidence to keep" in [TESTING.md](../../TESTING.md).

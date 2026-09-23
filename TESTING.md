@@ -64,6 +64,25 @@ in the WSL workshop cache for Flavor Text Extended, which has no Workshop id. Ev
 `path:` from this repository. Running any pass takes the machine lock and goes through
 `scripts/Run-PickleWsl.ps1` only; `-Then` (several launches under one lock) was seen to finish on 2026-09-21.
 
+## Evidence to keep
+
+Rule of the repository (root `AGENTS.md`, "Test evidence"): keep only the reports that still prove something.
+The disk is a constraint, so a report is a cost.
+
+- **Where.** Raw output of a run (`Player.log`, `junit.xml`, `summary.*`, `messages.ndjson`, captures) goes to
+  `Tests/Pickle/Evidence/<date>-<pass>/`, which is ignored by git. One text line per run goes to `docs/runs/`,
+  never a folder. `.build/` holds no evidence.
+- **What stays.** Per scenario, the latest report for the revision now in the repository, plus an older one
+  only when it is the sole proof of a check the latest run did not repeat (a language, a pass not replayed).
+  What `STATUS.md` points to must exist: repoint the field before deleting its target.
+- **What goes.** A report of a superseded build (a suite or a mod changed since), a failing run once a green
+  one replaced it (its result stays as a line in `docs/runs/`), and any duplicate copy.
+- **What to read first.** `exitReason`, then the scenarios played against the features discovered, then
+  `dropped-mods.txt`, then the captures and the `[FTFR tests] ... reads:` lines a person judges.
+- **How to keep it small.** Captures as JPEG (quality 88 is enough to judge a name or a settings page), logs
+  and `.ndjson` gzipped; `junit.xml` and `summary.*` untouched.
+- **When.** Apply it as soon as a newer report replaces an older one, not at the end of `tested`.
+
 ## What each kind of test may claim
 
 - Green outside the game: the files parse, the handles resolve, the logic of the wrapper, the bridge
