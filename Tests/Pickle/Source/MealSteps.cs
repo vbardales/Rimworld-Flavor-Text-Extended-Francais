@@ -152,7 +152,7 @@ namespace FlavorTextExtendedFR.PickleSteps
             return def;
         }
 
-        private static Thing MealAt(PickleContext ctx, int x, int z)
+        internal static Thing MealAt(PickleContext ctx, int x, int z)
         {
             var things = Driver.Map(ctx).thingGrid.ThingsListAt(new IntVec3(x, 0, z));
             foreach (var thing in things)
