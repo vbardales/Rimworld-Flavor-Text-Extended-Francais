@@ -24,4 +24,10 @@
 - Actual-assembly persistence, Harmony and settings/fallback regression coverage; an in-game Pickle suite
   (`Tests/Pickle/`) covering loading, language isolation, the settings page and shortcut, meal naming and
   RIMMSQOL. The English, French and RIMMSQOL passes played green on 2026-09-21; see `STATUS.md` and
-  `TESTING.md` for what remains to be played and what stays manual.
+  `TESTING.md` for pending capture/film evidence, including F13 once its pre-translation fixture is committed.
+
+## 0.1.0 — 2026-09-22
+
+- Creation of the `PublishedFileId` file: the mod was pre-published to the Steam Workshop to create its
+  item, id `3806100488`, recorded in `Mod/About/PublishedFileId.txt` (commit `ed5900b`). The item's
+  visibility and a self-subscription test are still to be confirmed by hand (see `STATUS.md`).
