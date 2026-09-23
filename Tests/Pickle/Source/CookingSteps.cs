@@ -39,10 +39,40 @@ namespace FlavorTextExtendedFR.PickleSteps
         public void CookedMealIsNamed(PickleContext ctx)
         {
             var map = Driver.Map(ctx);
-            var meal = map.listerThings.AllThings.FirstOrDefault(t =>
-                t.Spawned && t.def.defName.StartsWith("Meal") && t.TryGetComp<CompFlavor>() != null);
+            var meal = CookedMeal(map);
             ctx.Require(meal != null, "no spawned meal carrying CompFlavor on the map: nothing was cooked, or it was eaten");
             MealSteps.AssertNamed(ctx, meal);
         }
+
+        /// <summary>
+        /// The stock "I wait for bill to finish" gives the whole cook 120 real seconds and then kills the
+        /// game with no report (seen 2026-09-24: the first pass 2b died there). This waits in slices of
+        /// real time and returns as soon as a meal carrying CompFlavor lies on the map. When the slice
+        /// ends without one it logs what the cook, the stove and the stock were doing and how many ticks
+        /// the game managed, so a failure names its cause. It never fails by itself: the assertion is
+        /// the step that follows, after the last slice.
+        /// </summary>
+        [When("the cook works for up to {int} seconds or until a meal is cooked", TimeoutSeconds = 60)]
+        public async System.Threading.Tasks.Task CookWorks(PickleContext ctx, int seconds)
+        {
+            var map = Driver.Map(ctx);
+            var clock = System.Diagnostics.Stopwatch.StartNew();
+            var startTick = Find.TickManager.TicksGame;
+            while (clock.Elapsed.TotalSeconds < seconds)
+            {
+                if (CookedMeal(map) != null) return;
+                await ctx.WaitFrames(30);
+            }
+            var cook = map.mapPawns.FreeColonists.FirstOrDefault(p => p.Name != null && p.Name.ToStringShort == "Cook");
+            var stove = map.listerThings.ThingsOfDef(DefDatabase<ThingDef>.GetNamedSilentFail("FueledStove")).FirstOrDefault() as Building_WorkTable;
+            var fuel = stove?.TryGetComp<CompRefuelable>();
+            Log.Message($"[FTFR tests] no meal yet after {seconds} s and {Find.TickManager.TicksGame - startTick} ticks (speed {Find.TickManager.CurTimeSpeed}); "
+                + $"cook: {(cook == null ? "absent" : cook.CurJob?.def.defName ?? "idle")}, bills: {stove?.BillStack.Count}, fuel: {fuel?.Fuel}, "
+                + $"squirrel meat: {map.resourceCounter.GetCount(DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Squirrel"))}, "
+                + $"milk: {map.resourceCounter.GetCount(DefDatabase<ThingDef>.GetNamedSilentFail("Milk"))}");
+        }
+
+        private static Thing CookedMeal(Map map) => map.listerThings.AllThings.FirstOrDefault(t =>
+            t.Spawned && t.def.defName.StartsWith("Meal") && t.TryGetComp<CompFlavor>() != null);
     }
 }
