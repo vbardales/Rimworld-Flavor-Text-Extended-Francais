@@ -228,7 +228,7 @@ folder, and a hard dependency with no Workshop id). They are recorded in `remain
 Taken as a queue ticket at the owner's request, through `scripts/Run-PickleWsl.ps1 -Mod FlavorTextExtendedFR`
 only, on the WSL game under Xvfb; the Windows RimWorld was not touched. Pass: `sans-facultatifs`, English.
 Report archived by the launcher in `pickle-reports-archive/0921-1803` (the shared folder was overwritten
-by another session's run within minutes), copied to `Tests/Pickle/Evidence/2026-09-21-english/` (ignored by git).
+by another session's run within minutes), its raw copy was deleted on 2026-09-23, superseded by the pass 1 replay (`docs/runs/2026-09-23.md`).
 
 - `exitReason: passed`, read before the counts. **24 scenarios discovered, 18 passed, 0 failed, 6 skipped.**
   The 6 skipped are exactly the 6 scenarios of `03-french-language` (`@wip`, French pass); 6 features, 6
