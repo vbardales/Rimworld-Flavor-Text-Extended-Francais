@@ -12,6 +12,7 @@ namespace FlavorTextExtendedFR.PickleSteps
     public static class Driver
     {
         internal const BindingFlags InstanceAny = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
+        internal const BindingFlags StaticAny = BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic;
 
         public static SettingsBridge Mod(PickleContext ctx)
         {
