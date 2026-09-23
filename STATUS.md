@@ -155,8 +155,7 @@ follows is kept as it was; where it says nothing ran in game, that was true of t
 - Not pushed: 14 commits ahead of `origin/main`, which still holds the DLL with the defect. See `remaining`.
 
 ## Evidence
-
-The reports of the two French runs and the captures are under `.build/` (ignored by Git): `pickle-run-2026-09-21-english`,
+The raw reports of the 2026-09-21 runs were deleted on 2026-09-23 (superseded by the passes replayed for `tested`); their text summary is `docs/runs/2026-09-21.md`, the current ones are under `Tests/Pickle/Evidence/2026-09-23-*` (ignored by Git) and `docs/runs/2026-09-23.md`.
 `-french-03`, `-french-03b`, `-french-ok`. The launcher's own archive holds the rest for a few runs only.
 
 
