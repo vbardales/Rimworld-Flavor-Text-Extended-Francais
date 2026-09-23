@@ -78,7 +78,8 @@ if ($declared.Count -eq 0) { throw "no step patterns found under $suite\Source: 
 $sharedRoot = $suite
 while ($sharedRoot -and -not (Test-Path -LiteralPath (Join-Path $sharedRoot 'PickleTools'))) { $sharedRoot = Split-Path $sharedRoot -Parent }
 if ($sharedRoot) {
-    foreach ($file in Get-ChildItem -LiteralPath (Join-Path $sharedRoot 'PickleTools') -Recurse -Filter *.cs -ErrorAction SilentlyContinue |
+    foreach ($file in Get-ChildItem -LiteralPath (Join-Path $sharedRoot 'PickleTools') -Directory | Where-Object { $_.Name -ne 'evidence' } |
+             ForEach-Object { Get-ChildItem -LiteralPath $_.FullName -Recurse -Filter *.cs } |
              Where-Object { $_.FullName -match '\\Source\\' -and $_.FullName -notmatch '\\(obj|bin|\.build)\\' }) {
         $text = [IO.File]::ReadAllText($file.FullName)
         foreach ($m in [regex]::Matches($text, '\[(?:Given|When|Then)\("((?:[^"\\]|\\.)*)"')) {

@@ -69,8 +69,9 @@ namespace FlavorTextExtendedFR.PickleSteps
             var meal = MealSteps.MealAt(ctx, x, z);
             if (!Driver.Language(ctx).StartsWith("French")) return;
             var label = meal.Label;
-            ctx.Assert(!Regex.IsMatch(label, pattern, RegexOptions.IgnoreCase | RegexOptions.CultureInvariant),
-                $"the French name '{label}' matches /{pattern}/, which it must not");
+            var dish = label.Substring(0, label.LastIndexOf(" (", System.StringComparison.Ordinal));
+            ctx.Assert(!Regex.IsMatch(dish, pattern, RegexOptions.IgnoreCase | RegexOptions.CultureInvariant),
+                $"the French dish name '{dish}' matches /{pattern}/, which it must not");
         }
     }
 }

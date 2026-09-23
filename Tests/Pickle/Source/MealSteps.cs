@@ -35,6 +35,18 @@ namespace FlavorTextExtendedFR.PickleSteps
             GenSpawn.Spawn(meal, new IntVec3(x, 0, z), map);
         }
 
+        /// <summary>A meal of one ingredient, for the dishes that have a single slot and so match nothing else.</summary>
+        [Given("a fine meal made of {string} alone lies at \\({int}, {int}\\)")]
+        public void SingleMealLies(PickleContext ctx, string only, int x, int z)
+        {
+            var map = Driver.Map(ctx);
+            var meal = ThingMaker.MakeThing(ThingDefOf.MealFine);
+            var ingredients = meal.TryGetComp<CompIngredients>();
+            ctx.Require(ingredients != null, "MealFine has no CompIngredients: the game changed how meals record ingredients");
+            ingredients.RegisterIngredient(Def(ctx, only));
+            GenSpawn.Spawn(meal, new IntVec3(x, 0, z), map);
+        }
+
         /// <summary>
         /// Four ingredients, so that Flavor Text has enough to name a main dish and side dishes, which is
         /// the case the two-ingredient meal above cannot reach. Used for the captures a person judges.

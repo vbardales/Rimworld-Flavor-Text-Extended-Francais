@@ -15,3 +15,10 @@
 .build/
 Source/bin/
 Source/obj/
+
+# DirectDraw textures are exported by tools and never edited here.
+*.dds
+*.DDS
+
+# Raw Pickle run output (logs, captures, junit): kept on disk, summarised in docs/runs/.
+Tests/Pickle/Evidence/
