@@ -6,7 +6,6 @@
 # No save is loaded: the fixture was written with every DLC active, and its own errors about missing content
 # would be read as this mod's. What is asserted is the start of the game and its load of the mod. Whether the
 # game really leaves a DLC out is what the first run of this pass has to show, which the first scenario checks.
-@wip
 Feature: without Biotech the Biotech-only translation stays out of the way
 
   Scenario: Biotech is left out, and so is its dish

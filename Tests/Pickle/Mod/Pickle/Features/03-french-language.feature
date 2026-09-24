@@ -1,8 +1,8 @@
 # TESTING.md, family "language isolation", the French half, and the translation reaching the defs.
-# Only true in a French game, so the whole feature is `@wip` and skipped by a default (English)
+# Only true in a French game, so it is named only by the French passes and never by a default (English)
 # pass, following the convention of the other suites here. The language is chosen when the game
 # starts, so this is a second pass: `-Language French -Filter '03-french-language.feature'
-# -IncludeWip`.
+#`.
 #
 # Why a running game is needed: the French texts reach the dish defs by DefInjected paths, one
 # folder of them behind a LoadFolders gate, and the grammar reaches hekmo's defs through a wrapper
@@ -14,7 +14,6 @@
 # for reasons in Pickle's vocabulary and not in the mod. "was patched by mod" reported "(no mod)" for a
 # patch made through the wrapper operation, and a numeric index in a dotted path is refused ("List has no
 # field or property '0'"). Both were replaced by a step that reads the value itself.
-@wip
 Feature: French text and grammar reach the defs in a French game
 
   Scenario: the dish labels are French, templates and slots intact

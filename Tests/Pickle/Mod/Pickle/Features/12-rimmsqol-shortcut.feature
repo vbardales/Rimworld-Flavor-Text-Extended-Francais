@@ -16,7 +16,7 @@
 #
 # Played only by pass 7, "avec-rimmsqol": without RIMMSQOL staged, the first step stops with a sentence.
 # Every scenario is followed by a teardown that puts back whatever a step changed, pass or fail.
-@wip @review @rimmsqol @requires:nelim.pickletools.screenshotmode
+@review @rimmsqol @requires:nelim.pickletools.screenshotmode
 Feature: RIMMSQOL reveals and hides the Flavor Text shortcut
 
   Background:

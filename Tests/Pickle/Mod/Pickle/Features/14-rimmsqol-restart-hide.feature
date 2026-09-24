@@ -4,7 +4,7 @@
 # choice is kept for launch 3.
 #
 # See 13-rimmsqol-restart-reveal.feature for the command and for what is left behind if the chain is cut.
-@wip @review @rimmsqol @requires:nelim.pickletools.screenshotmode
+@review @rimmsqol @requires:nelim.pickletools.screenshotmode
 Feature: a choice made in RIMMSQOL is written for the next launch (2 of 3, hide)
 
   Scenario: the revealed shortcut survived the restart, then RIMMSQOL hides it again

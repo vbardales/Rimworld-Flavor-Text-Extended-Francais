@@ -2,7 +2,7 @@
 # ingredient no table lists needs an ingredient no table lists, and the game does not have one to spare.
 # Three are invented in a mod of their own (Tests/Pickle/FakeIngredients), staged only by the pass that
 # names it, so that a fault in how Flavor Text categorizes them cannot break any other pass:
-#   -Language French -IncludeWip -DepMap wsl-deps.faux-ingredients.map -Filter '08-unlisted-ingredients.feature'
+#   -Language French -DepMap wsl-deps.faux-ingredients.map -Filter '08-unlisted-ingredients.feature'
 #
 # Nothing here asserts the exact French text: the dish is random among those that match and the fallback
 # forms depend on where the dish puts the ingredient. What is asserted is what must hold for any name:
@@ -13,7 +13,7 @@
 # Whether Flavor Text puts these defs in a category at all is the first thing this feature tells: if it
 # does not, the meals are not renamed and the first scenario says so, which is a finding about the fakes
 # (their defNames or labels) rather than about the mod.
-@wip @review @requires:nelim.pickletools.screenshotmode
+@review @requires:nelim.pickletools.screenshotmode
 Feature: ingredients absent from every table still read as French
 
   Background:

@@ -13,10 +13,10 @@
 # meal put on the map by a step never goes through. That is F01's "cook a meal" for real.
 #
 # The stock decides the dish, so no exact name is asserted; the milk and the squirrel meat are added to
-# make fricassee available among the candidates. The wait is six slices of the "the cook works" step: the stock wait for a bill kills the game after 120 real seconds (seen 2026-09-24). French pass only, so `@wip`:
-# `-Language French -IncludeWip -DepMap wsl-deps.cuisson-film.map -Filter '09-cooking.feature'`. Whether a colonist of the fixture can cook
+# make fricassee available among the candidates. The wait is six slices of the "the cook works" step: the stock wait for a bill kills the game after 120 real seconds (seen 2026-09-24). French pass only, named by pass 2b:
+# `-Language French -DepMap wsl-deps.cuisson-film.map -Filter '09-cooking.feature'`. Whether a colonist of the fixture can cook
 # is checked first, so a failure names its cause instead of timing out.
-@wip @review @slow @watch @timeout:300 @requires:nelim.pickletools.filmticks
+@review @slow @watch @timeout:300 @requires:nelim.pickletools.filmticks
 Feature: a colonist cooks a meal that Flavor Text names, filmed
 
   Scenario: a colonist cooks at a fuelled stove, and the meal is named in the language of the pass

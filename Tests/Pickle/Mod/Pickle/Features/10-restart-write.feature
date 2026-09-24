@@ -5,12 +5,11 @@
 #
 # Played as the first of two launches under one hold of the lock (`-Then` stages once and keeps the
 # profile between launches), with 11-restart-read.feature second:
-#   -IncludeWip -Filter '10-restart-write.feature' -Then '11-restart-read.feature'
+#   -Filter '10-restart-write.feature' -Then '11-restart-read.feature'
 #
 # If this launch dies after writing, the values stay on disk and the next staging does not clean them:
 # 11 puts them back, so a pair that ran to its end leaves the defaults, and a pair that did not is to be
 # cleaned by hand (the ingredient cap back to 0, quick search back to off) before anything else runs.
-@wip
 Feature: settings changed in one launch are written for the next
 
   Scenario: two values are changed and written where the game writes them

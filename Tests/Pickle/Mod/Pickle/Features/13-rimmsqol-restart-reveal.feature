@@ -4,7 +4,7 @@
 # same process would show nothing, the values are still in memory.
 #
 # The chain is three launches under ONE hold of the lock (-Then stages once and keeps the profile):
-#   -DepMap wsl-deps.avec-rimmsqol.map -IncludeWip -Filter '13-rimmsqol-restart-reveal.feature'
+#   -DepMap wsl-deps.avec-rimmsqol.map -Filter '13-rimmsqol-restart-reveal.feature'
 #       -Then '14-rimmsqol-restart-hide.feature','15-rimmsqol-restart-forget.feature'
 #
 # THIS LAUNCH LEAVES RIMMSQOL'S CHOICE BEHIND ON PURPOSE. The last step says so, and it comes last so that a
@@ -12,7 +12,7 @@
 # chain. If the game dies after that step, or the chain is cut, the choice stays in the WSL profile's
 # Config/Mod_1084452457_QOLMod.xml; the first scenario of the next run that stages the shared steps puts it
 # back, and PickleTools/RimmsqolSteps/README.md, "Leftovers", gives the two files to delete by hand.
-@wip @rimmsqol
+@rimmsqol
 Feature: a choice made in RIMMSQOL is written for the next launch (1 of 3, reveal)
 
   Scenario: RIMMSQOL reveals the shortcut and the choice is kept

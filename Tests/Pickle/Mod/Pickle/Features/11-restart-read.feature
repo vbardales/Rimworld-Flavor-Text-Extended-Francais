@@ -1,7 +1,6 @@
 # TESTING.md, family "restart", second launch. A new process, which read the settings file at startup:
 # the values written by 10-restart-write.feature must be the ones the game loaded, not the defaults.
 # The last scenario puts everything back and writes it, so the profile is left as it was found.
-@wip
 Feature: settings written by the previous launch are the ones this launch loaded
 
   Scenario: the two values survived the restart

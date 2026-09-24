@@ -14,10 +14,10 @@
 # Each scenario takes two captures: the inspect pane as a player sees it, which cuts a long name, and the
 # info card (the pane's "i" button), which shows the whole name and the whole description.
 #
-# French pass only, so `@wip`: `-Language French -IncludeWip -Filter '07-review-shots.feature'`.
+# French pass only, so pass 2 names it: `-Language French -Filter '07-review-shots.feature'`.
 # In an English game the same captures would show the dependencies' English, which is not what is being
 # judged here. The inspect pane needs no camera move: the meal is selected, not looked at on the map.
-@wip @review @requires:nelim.pickletools.screenshotmode
+@review @requires:nelim.pickletools.screenshotmode
 Feature: captures of French meal names and descriptions for a person to validate
 
   Background:

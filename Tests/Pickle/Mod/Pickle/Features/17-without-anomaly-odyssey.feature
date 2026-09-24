@@ -3,7 +3,6 @@
 # so the mod's patch that replaces each table's dictionary must still find its target when the DLC is absent.
 # A patch whose xpath matches nothing is loud in the log, which is what is read here. No save is loaded, for
 # the reason given in 16-without-biotech.feature.
-@wip
 Feature: without Anomaly and Odyssey the patches still find their targets
 
   Scenario: both DLC are left out and the mod is loaded
