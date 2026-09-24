@@ -31,8 +31,7 @@ namespace FlavorTextExtendedFR.PickleSteps
             fuel.Refuel(fuel.Props.fuelCapacity);
 
             BeforeCooking.Clear();
-            foreach (var thing in Driver.Map(ctx).listerThings.AllThings)
-                if (thing.def.defName.StartsWith("Meal")) BeforeCooking.Add(thing.thingIDNumber);
+            foreach (var thing in MealThings(Driver.Map(ctx))) BeforeCooking.Add(thing.thingIDNumber);
             Log.Message($"[FTFR tests] {BeforeCooking.Count} meal things already on the map before cooking");
         }
 
@@ -68,11 +67,10 @@ namespace FlavorTextExtendedFR.PickleSteps
                 if (CookedMeal(map) != null) return;
                 await ctx.WaitFrames(30);
             }
-            var cook = map.mapPawns.FreeColonists.FirstOrDefault(p => p.Name != null && p.Name.ToStringShort == "Cook");
             var stove = map.listerThings.ThingsOfDef(DefDatabase<ThingDef>.GetNamedSilentFail("FueledStove")).FirstOrDefault() as Building_WorkTable;
             var fuel = stove?.TryGetComp<CompRefuelable>();
             Log.Message($"[FTFR tests] no meal yet after {seconds} s and {Find.TickManager.TicksGame - startTick} ticks (speed {Find.TickManager.CurTimeSpeed}); "
-                + $"cook: {(cook == null ? "absent" : cook.CurJob?.def.defName ?? "idle")}, bills: {stove?.BillStack.Count}, fuel: {fuel?.Fuel}, "
+                + $"bills: {stove?.BillStack.Count}, fuel: {fuel?.Fuel}, "
                 + $"squirrel meat: {map.resourceCounter.GetCount(DefDatabase<ThingDef>.GetNamedSilentFail("Meat_Squirrel"))}, "
                 + $"milk: {map.resourceCounter.GetCount(DefDatabase<ThingDef>.GetNamedSilentFail("Milk"))}");
         }
@@ -83,9 +81,18 @@ namespace FlavorTextExtendedFR.PickleSteps
         private static readonly System.Collections.Generic.HashSet<int> BeforeCooking = new System.Collections.Generic.HashSet<int>();
 
         private static bool IsCookedDish(Thing t) => t.Spawned && !BeforeCooking.Contains(t.thingIDNumber)
-            && (t.def.defName == "MealSimple" || t.def.defName == "MealFine" || t.def.defName == "MealLavish")
             && t.TryGetComp<CompFlavor>() != null;
 
-        private static Thing CookedMeal(Map map) => map.listerThings.AllThings.FirstOrDefault(IsCookedDish);
+        private static readonly string[] CookedDefs = { "MealSimple", "MealFine", "MealLavish" };
+
+        /// <summary>
+        /// The meal things of the map, read def by def. The first version walked <c>listerThings.AllThings</c>, which
+        /// holds the pawns too, and the pass that used it died with "Accessing map pawns off main thread" (2026-09-24).
+        /// </summary>
+        private static System.Collections.Generic.IEnumerable<Thing> MealThings(Map map) =>
+            CookedDefs.Select(n => DefDatabase<ThingDef>.GetNamedSilentFail(n)).Where(d => d != null)
+                .SelectMany(d => map.listerThings.ThingsOfDef(d).ToList());
+
+        private static Thing CookedMeal(Map map) => MealThings(map).FirstOrDefault(IsCookedDish);
     }
 }
