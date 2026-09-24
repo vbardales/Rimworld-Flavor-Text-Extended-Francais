@@ -4,9 +4,13 @@
 # meal.  Pickle loads it, pauses the game, proves that a pre-existing meal still carries Flavor
 # Text's naming component, and leaves the reviewer one clean info-card capture to read.
 #
-# No fixture is currently committed, so this @wip feature is intentionally not runnable yet.
+# The fixture is Fixtures/legacy-meals-before-ftfr.rws, made on 2026-09-24 by feature 21 (a tool, run alone) in
+# an English game, where this mod changes nothing: three meals (a fine cow-and-milk, a fine squirrel-and-milk and a
+# lavish four-ingredient one) named once, then saved. Flavor Text stores which dishes a meal received, not the
+# words, so this French pass has to name meals it did not name when they were made. Pass 10:
+# `-Language French -DepMap wsl-deps.sans-facultatifs.map -Filter '18-legacy-meals.feature'`.
 # Do not replace it with a new meal or a manual session: either would defeat F13.
-@wip @review @requires:nelim.pickletools.screenshotmode
+@review @requires:nelim.pickletools.screenshotmode
 Feature: a meal saved before the French translation remains readable
 
   Scenario: an existing meal from the legacy save has a readable Flavor Text name
