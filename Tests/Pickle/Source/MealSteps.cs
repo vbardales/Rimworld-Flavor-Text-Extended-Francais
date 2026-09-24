@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Linq;
+using System.Text.RegularExpressions;
 using FlavorText;
 using RimWorld;
 using RimWorks.Pickle;
@@ -173,17 +174,24 @@ namespace FlavorTextExtendedFR.PickleSteps
             return null;
         }
 
+        /// <summary>
+        /// A meal of the saved colony that a cook made: fine, simple or lavish, read def by def. The first version
+        /// took the first ingestible thing with ingredients and got the survival rations the base colony holds
+        /// ("ration de survie x10", pass 10, 2026-09-24), which Flavor Text never renames. The result is the same
+        /// every time: the meals are taken in map order.
+        /// </summary>
         private static Thing ExistingMeal(PickleContext ctx)
         {
-            foreach (var thing in Driver.Map(ctx).listerThings.ThingsInGroup(ThingRequestGroup.HaulableEver))
-            {
-                if (thing.def.IsIngestible && thing.TryGetComp<CompIngredients>() != null)
-                    return thing;
-            }
-
-            ctx.Require(false,
-                "the legacy fixture contains no stored meal with CompIngredients: add at least one meal made before the translation was installed");
-            return null;
+            var map = Driver.Map(ctx);
+            var found = new[] { "MealSimple", "MealFine", "MealLavish" }
+                .Select(n => DefDatabase<ThingDef>.GetNamedSilentFail(n)).Where(d => d != null)
+                .SelectMany(d => map.listerThings.ThingsOfDef(d).ToList())
+                .Where(m => m.TryGetComp<CompFlavor>() != null && m.TryGetComp<CompIngredients>() != null)
+                .OrderBy(m => m.Position.x).ThenBy(m => m.Position.z).ToList();
+            ctx.Require(found.Count > 0,
+                "the legacy fixture holds no simple, fine or lavish meal carrying Flavor Text's comp: the fixture was not made by feature 21, or the save did not load");
+            Log.Message($"[FTFR tests] the legacy save holds {found.Count} cooked meals, the first at ({found[0].Position.x}, {found[0].Position.z})");
+            return found[0];
         }
     }
 }
