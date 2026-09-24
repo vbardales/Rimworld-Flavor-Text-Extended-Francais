@@ -75,29 +75,45 @@ namespace FlavorTextExtendedFR.PickleSteps
                 $"only {present} ingredients named by the loaded tables exist in the game, expected at least {minimum}: the providers are not really loaded");
         }
 
-        /// <summary>The (table def name, entries) of every operation of a patch file that sets a provider table.</summary>
+        /// <summary>
+        /// The (table def name, entries) of every provider table a patch file sets. Two shapes exist: a
+        /// PatchOperationReplace whose xpath names the table (the table lives in Flavor Text's own data), and a
+        /// PatchOperationAdd whose value holds SEVERAL new tables, one element each (ExtendedProviders). The first
+        /// version of this step read one table per operation and so checked 12 tables and none of Shenzhou's
+        /// (found 2026-09-24, pass 4).
+        /// </summary>
         private static IEnumerable<KeyValuePair<string, List<KeyValuePair<string, List<string>>>>> Tables(XDocument doc)
         {
-            foreach (var op in doc.Descendants("li").Where(e => e.Attribute("Class") != null && e.Attribute("Class").Value.StartsWith("PatchOperation")))
+            foreach (var op in doc.Descendants().Where(e => e.Attribute("Class") != null && e.Attribute("Class").Value.StartsWith("PatchOperation") && e.Element("value") != null))
             {
                 var value = op.Element("value");
-                if (value == null) continue;
-                var dict = value.Descendants("dictionary").FirstOrDefault();
-                if (dict == null) continue;
-                var name = value.Descendants("defName").Select(e => e.Value.Trim()).FirstOrDefault();
-                if (name == null)
+                var xpath = op.Element("xpath");
+                var m = Regex.Match(xpath == null ? "" : xpath.Value, "ThingInflectionsData\\[defName=\"([^\"]+)\"\\]");
+                var dataElements = value.Elements().Where(e => e.Name.LocalName == "FlavorText.ThingInflectionsData").ToList();
+                if (dataElements.Count > 0)
                 {
-                    var xpath = op.Element("xpath");
-                    var m = Regex.Match(xpath == null ? "" : xpath.Value, "ThingInflectionsData\\[defName=\"([^\"]+)\"\\]");
-                    if (!m.Success) continue;
-                    name = m.Groups[1].Value;
+                    foreach (var data in dataElements)
+                    {
+                        var name = data.Element("defName");
+                        var dict = data.Element("dictionary");
+                        if (name != null && dict != null) yield return new KeyValuePair<string, List<KeyValuePair<string, List<string>>>>(name.Value.Trim(), Entries(dict));
+                    }
                 }
-                var entries = new List<KeyValuePair<string, List<string>>>();
-                foreach (var li in dict.Elements("li"))
-                    entries.Add(new KeyValuePair<string, List<string>>(li.Element("key").Value.Trim(),
-                        li.Element("value").Elements("li").Select(f => f.Value.Trim()).ToList()));
-                yield return new KeyValuePair<string, List<KeyValuePair<string, List<string>>>>(name, entries);
+                else if (m.Success)
+                {
+                    var dict = value.Element("dictionary");
+                    if (dict != null) yield return new KeyValuePair<string, List<KeyValuePair<string, List<string>>>>(m.Groups[1].Value, Entries(dict));
+                }
             }
+        }
+
+        private static List<KeyValuePair<string, List<string>>> Entries(XElement dict)
+        {
+            var entries = new List<KeyValuePair<string, List<string>>>();
+            foreach (var li in dict.Elements("li"))
+                entries.Add(new KeyValuePair<string, List<string>>(li.Element("key").Value.Trim(),
+                    li.Element("value").Elements("li").Select(f => f.Value.Trim()).ToList()));
+            return entries;
         }
     }
 }
