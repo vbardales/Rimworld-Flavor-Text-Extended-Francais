@@ -29,6 +29,11 @@ namespace FlavorTextExtendedFR.PickleSteps
             var fuel = stove.TryGetComp<CompRefuelable>();
             ctx.Require(fuel != null, "FueledStove has no CompRefuelable: the game changed how stoves burn");
             fuel.Refuel(fuel.Props.fuelCapacity);
+
+            BeforeCooking.Clear();
+            foreach (var thing in Driver.Map(ctx).listerThings.AllThings)
+                if (thing.def.defName.StartsWith("Meal")) BeforeCooking.Add(thing.thingIDNumber);
+            Log.Message($"[FTFR tests] {BeforeCooking.Count} meal things already on the map before cooking");
         }
 
         /// <summary>
@@ -72,7 +77,15 @@ namespace FlavorTextExtendedFR.PickleSteps
                 + $"milk: {map.resourceCounter.GetCount(DefDatabase<ThingDef>.GetNamedSilentFail("Milk"))}");
         }
 
-        private static Thing CookedMeal(Map map) => map.listerThings.AllThings.FirstOrDefault(t =>
-            t.Spawned && t.def.defName.StartsWith("Meal") && t.TryGetComp<CompFlavor>() != null);
+        // The meals that lay on the map before the stove was lit: the fixture colony holds survival rations
+        // (a "Meal..." def carrying the comp) that the first version of this step took for the cook's work
+        // and returned at once (2026-09-24, pass 2b failed on "ration de survie x10" after 3.7 s).
+        private static readonly System.Collections.Generic.HashSet<int> BeforeCooking = new System.Collections.Generic.HashSet<int>();
+
+        private static bool IsCookedDish(Thing t) => t.Spawned && !BeforeCooking.Contains(t.thingIDNumber)
+            && (t.def.defName == "MealSimple" || t.def.defName == "MealFine" || t.def.defName == "MealLavish")
+            && t.TryGetComp<CompFlavor>() != null;
+
+        private static Thing CookedMeal(Map map) => map.listerThings.AllThings.FirstOrDefault(IsCookedDish);
     }
 }
