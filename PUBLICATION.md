@@ -73,6 +73,10 @@ The item is public (owner, 2026-09-25), so these can be posted. One main comment
 
 > Less meat, more names 🥩 SeoHyeon, your mod folds the animal meats into a few, so the French translation of Flavor Text Extended only had a few French words to add ("viande de bœuf" and friends). Tidy freezer, tidy menu. Thank you! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
 
+**Kitsune (account Covre) — Kit's Brazilian Crops, the original** ([Workshop 2388898158](https://steamcommunity.com/sharedfiles/filedetails/?id=2388898158)) — 372 characters. Asked by the owner on 2026-09-25 after the credit correction. The page is tagged finished and its creator answers in Portuguese.
+
+> Olá, Kitsune! 🦊🍍 Your Brazilian crops are still going strong: Zaljerem's continued version now has French names too, thanks to the French translation of Flavor Text Extended, so the colony's plates read a little more Brasil. Nothing needed from you, only a big obrigada for the crops that started it all! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
+
 Not written: Chinese Traditional Cultural Things Expanded (2877536640). A comment was already posted there on 2026-09-22 (see `FlavorText/FlavorTextExtended/PUBLICATION.md`, "Additional Steam comment"), while the register still says `drafted`: the register row is to be corrected to `posted` by whoever owns that record.
 
 ## Workshop page fields
