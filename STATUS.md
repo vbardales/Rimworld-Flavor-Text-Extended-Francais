@@ -46,7 +46,7 @@ workshop:
   tag_revision: none
   visibility: private (owner, 2026-09-25: pre-published in 0.1.0, private, as Steam creates every item)
   self_subscription_test: unverified
-prepublished: partial (publication workflow committed 7b96007; fail fast applies to 1.0.0; rollback target: none, item set private if a problem appears; dry-run of 7b96007 with CI/CD, approval by the owner only)
+prepublished: ready, not published (publication SHA 43dd52da70c3ffbdb3ab55c7301e877be88040e9, version 1.0.0, green dry-run run 36122774168 with update_description=true on 2026-09-25; template 683151266dd1; description 3176 bytes, sha256 e25e4027679721194cdf7e08993f5b44bdbb05f98989fe38a9f47b89f7ef2966; fail fast applies; rollback target none, the owner sets the item private if a problem appears; the gallery (Gallery/, 4 files) is a manual upload; the owner alone approves steam-production)
 published: unverified
 maintainer: Codex, task responsible for this local repository
 updated: 2026-09-25
