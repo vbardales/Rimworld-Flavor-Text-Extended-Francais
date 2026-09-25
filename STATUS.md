@@ -33,24 +33,25 @@ in_game_runs: "2026-09-21 (before the language fix and the revisions): English 1
 last_fix_revision: 164104b
 pushed: true
 pushed_at: 2026-09-22
-tag: none (v1.0.0 deleted 2026-09-25 by owner decision; the CI creates it after a successful upload)
-tag_revision: none
-release: none (the hand-made v1.0.0 release was deleted 2026-09-25; the CI creates it)
+tag: v1.0.0 (created by the CI on 43dd52da70c3ffbdb3ab55c7301e877be88040e9)
+tag_revision: 43dd52da70c3ffbdb3ab55c7301e877be88040e9
+release: "https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais/releases/tag/v1.0.0 (created by the CI after the upload, 2026-09-25)"
 audit_revision: 634066483d44f51201aa8ea0722da4b796864aad
 review_revision: c675e87
 in_game_validation_owner: user
 workshop:
   id: "3806100488"
   id_committed_at: 2026-09-22
-  tag: none
-  tag_revision: none
+  tag: v1.0.0
+  tag_revision: 43dd52da70c3ffbdb3ab55c7301e877be88040e9
   visibility: private (owner, 2026-09-25: pre-published in 0.1.0, private, as Steam creates every item)
   self_subscription_test: unverified
-prepublished: ready, not published (publication SHA 43dd52da70c3ffbdb3ab55c7301e877be88040e9, version 1.0.0, green dry-run run 36122774168 with update_description=true on 2026-09-25; template 683151266dd1; description 3176 bytes, sha256 e25e4027679721194cdf7e08993f5b44bdbb05f98989fe38a9f47b89f7ef2966; fail fast applies; rollback target none, the owner sets the item private if a problem appears; the gallery (Gallery/, 4 files) is a manual upload; the owner alone approves steam-production)
-published: unverified
+prepublished: yes (1.0.0 uploaded to the Steam item, private; 1.0.1 prepared)
+published: 1.0.0 uploaded 2026-09-25 (item private, public visibility and self-subscription test are the owner's); 1.0.1 to follow
 maintainer: Codex, task responsible for this local repository
 updated: 2026-09-25
 remaining:
+  - "1.0.0 published 2026-09-25 by the CI: dry-run 36122774168, publish run 36124437186 (publish job 58 s, tag-and-release 6 s), SHA 43dd52da70c3ffbdb3ab55c7301e877be88040e9, update_description on. The owner found a defect in the gallery captures the same day (a side dish starting with a capital after a French joint: 'façon Œufs de poule'); fixed in 1.0.1 (b292667), which is its own publication under the fail-fast policy. Still to do for 1.0.1: the in-game check (ticket 20260925-124301-548-63b1, the two lavish meals of feature 07), gallery images retaken on the presentation colony and cropped, workflow regenerated with --gallery-dir Art/Gallery, dry-run of the new SHA, then the owner's approval."
   - "partial (done -> tested): passes 1 to 9 were replayed on 2026-09-23/24 with ScreenshotMode and are green (in_game_runs above). Still to play: pass 2b (cooking film, feature 09, first attempt killed by the 120 s bill wait, rewritten with a sliced wait, queued again), feature 20 in passes 3 and 4 (provider tables, new, thresholds to calibrate), pass 10 (F13), and a final replay of passes 1, 2 and 5 on the normalized suite (no @wip, explicit filters, fixed fixture foodType). Stage stays done until then."
   - "partial (done -> tested): F13. The fixture is made by feature 21 (@fixture-maker, an English game where this mod changes nothing), run alone; its save is to be committed as Tests/Pickle/Mod/Pickle/Fixtures/legacy-meals-before-ftfr.rws, then feature 18 loses its last @wip and plays in pass 10 (French), pausing on an existing meal and capturing its info card."
   - "partial (tested -> prepublished): v1.0.0 now anchors the committed Workshop id, while later test-evidence changes remain untagged; curated screenshots and their final order remain unset. Thank-you messages and Steam v1.0.0 notes are prepared in PUBLICATION.md but not posted/entered."
