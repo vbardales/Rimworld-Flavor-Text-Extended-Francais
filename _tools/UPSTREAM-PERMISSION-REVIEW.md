@@ -65,7 +65,7 @@ Why, from the author's own public comments (Workshop comments of 3245374432 and 
   the same owner as this mod) and gives the source spreadsheet.
 - **Licence:** none found. The installed Flavor Text 0.3.6 has no LICENSE file, its About.xml and README name none, and no public
   repository of the mod was found (2026-09-25). The owner's remark that the author might have chosen an MIT licence is therefore
-  **not taken into account** (owner, 2026-09-25: "s'il n'a pas de licence, ne prend pas en compte ma remarque sur MIT"). The MIT
+  **not taken into account** (owner, 2026-09-25: without a licence, her remark about MIT is to be ignored). The MIT
   licence in this repository is the owner's own (Copyright (c) 2026 nelim) and covers only her rights.
 
 What this is not: no explicit permission for this French derivative was given or asked (the author was never contacted about it).

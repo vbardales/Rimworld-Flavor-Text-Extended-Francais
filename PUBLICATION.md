@@ -84,12 +84,13 @@ in sources, not by intention: see `Mod/Patches/Inflections_ThirdParty_FR.xml` an
 and descriptions; the ModIcon and Preview were opened and inspected (see `STATUS.md`). Both Workshop
 checkboxes should be left unchecked.
 
-## Description française (ajout manuel, propriétaire, 2026-09-25)
+## French description (manual addition, owner, 2026-09-25)
 
-Ajoutée à la main sur la page Workshop, en plus de la description anglaise que la CI envoie. Le titre de la page ne change pas
-(« Flavor Text Extended - Français », sans « (unofficial) » depuis le 2026-09-25, pour que la recherche « Flavor Text Extended » le trouve). Ce bloc n'est pas lu
-par la CI : son titre n'est pas `## Steam description`. Pas de guillemet double ni d'antislash. À tenir en phase avec le
-bloc anglais quand celui-ci change.
+Added by hand on the Workshop page, on top of the English description the CI sends (an owner exception: the repository rule is English,
+but the page text itself is what she asked for in French). The page title does not change (`Flavor Text Extended - Français`, without
+`(unofficial)` since 2026-09-25, so that a search for `Flavor Text Extended` finds it); the owner edits the French and English titles by
+hand. The CI does not read this block: its heading is not `## Steam description`. No double quote, no backslash. Keep it in step with
+the English block whenever that one changes.
 
 ```
 [h1]Extension pour texte d'ambiance culinaire : traduction en français de Flavor Text Extended (non-officiel)[/h1]
@@ -138,11 +139,13 @@ Aucune autorisation explicite de l'auteur d'origine n'a été établie ; voir AT
 [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Code source sur GitHub[/url]
 ```
 
-## Messages de premier contact (remerciements)
+## First-contact messages (French versions)
 
-Version française des messages à hekmo et à brrainz, écrits comme un premier contact (ils ne t'ont jamais été écrits). À poster
-seulement quand l'item est public (un lien vers un item privé ne s'ouvre pour personne). Moins de 1000 caractères chacun. Ils
-remplacent les brouillons anglais de la section « Thank-you messages », qui restent la version à poster si l'on écrit en anglais.
+French versions of the messages to hekmo and brrainz, written as a first contact (neither has ever been written to about this mod). To be
+posted only once the item is public (a link to a private item opens for no one), under 1000 characters each. They replace the English
+drafts of the "Thank-you messages" section, which remain the text to post if writing in English. **Read `WORKSHOP_COMMENTS.md` first**: both
+recipients are already `posted` there, so the register rule is to add this mod to `Covers` and not to post another main comment; these
+messages would be replies, and whether to send them is the owner's decision (see `docs/PROTOCOLS-READ.md`, open point 1).
 
 **hekmo (Flavor Text, Workshop 3245374432)**
 
