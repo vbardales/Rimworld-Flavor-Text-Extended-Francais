@@ -176,6 +176,11 @@ bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/Flav
 
 - Fail fast applies to this mod (owner, 2026-09-25): publish after the dry-run and the approval, then the remaining tests in
   small tickets; if one is red, fix and publish the fix.
+- **What fail fast lets us skip, and what it does not** (owner, 2026-09-25). It skips the **non-regression pass**: the replay of
+  the passes that were already green, which can run after the publication, in small tickets. It does **not** skip the
+  **validation of the reds**: every scenario that failed, and every defect found by a person, must be green on the revision to
+  publish before it goes out, because publishing a fix that was never seen to work is not fail fast, it is a guess. A green
+  ticket on the fix (the fewest scenarios that were red) is the condition; the replay of everything else follows.
 - Order of operations: dry-run of the exact SHA (`gh workflow run publish-tag.yml --ref main -f ref=<SHA> -f version=<version>
   -f mode=dry-run -f update_description=true`), then `Rimworld-Release-Admin/scripts/dispatch-publish.sh` with the full SHA and
   the same option. Only the owner approves `steam-production`. The CI creates the tag `v<version>` and the GitHub release

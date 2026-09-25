@@ -83,6 +83,18 @@ The disk is a constraint, so a report is a cost.
   and `.ndjson` gzipped; `junit.xml` and `summary.*` untouched.
 - **When.** Apply it as soon as a newer report replaces an older one, not at the end of `tested`.
 
+## Before a publication (fail fast)
+
+The publication policy of this mod is fail fast (`PUBLICATION.md`, "Publication by CI"). For the tests it means:
+
+- **Not required before publishing:** the replay of the passes that were already green (the non-regression pass). It runs after
+  the publication, in small tickets, and a red there is a defect of the published version, said as such.
+- **Required before publishing:** every scenario that was red has been seen green on the revision to publish, and every defect found
+  by a person (in a capture, in the game) has a check that fails without the fix and passes with it. Fewest scenarios, one ticket
+  each, and the result goes to `docs/runs/`.
+- **For 1.0.1:** the two lavish meals of feature 07 (side dish in lower case after a French joint) and the cooking pass 2b
+  (feature 09), which has not been green yet.
+
 ## What each kind of test may claim
 
 - Green outside the game: the files parse, the handles resolve, the logic of the wrapper, the bridge
