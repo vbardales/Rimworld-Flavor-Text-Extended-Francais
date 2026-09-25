@@ -56,10 +56,12 @@ load without them):
 - `brrainz.harmony` — Harmony, used directly by `Source/RuntimePatches.cs` and
   `Source/PatchOperationFrench.cs`.
 - `hekmo.FlavorText` — the mod this translates; every DefInjected handle targets its defs.
-- `nelim.flavortextextended` — the sibling mod (901 Extended dishes) this also translates. No
-  Workshop id: published on GitHub only
-  ([Rimworld-Flavor-Text-Extended](https://github.com/vbardales/Rimworld-Flavor-Text-Extended)),
-  linked via `downloadUrl`.
+- `nelim.flavortextextended` — the sibling mod (901 Extended dishes) this also translates. It has a Workshop item,
+  `3806100152` (its `STATUS.md`: v1.0.0 on 2026-09-22, v1.1.0 by the CI on 2026-09-24), and a GitHub repository
+  ([Rimworld-Flavor-Text-Extended](https://github.com/vbardales/Rimworld-Flavor-Text-Extended)). This mod's `About.xml` still links
+  it only through `downloadUrl` (GitHub): to be changed to `steamWorkshopUrl` (`steam://url/CommunityFilePage/3806100152`) in 1.0.1,
+  and the description names should carry Workshop links (`PUBLISHING.md`, "Lien Workshop sur chaque nom de mod cité"). The
+  staging of the Pickle passes still uses a machine-local link for it, from before it had an id.
 
 **DLC:** none required. `supportedVersions` declares 1.6 only. `Mod/LoadFolders.xml` loads the
 `Biotech` folder only `IfModActive="Ludeon.RimWorld.Biotech"` — twelve translations for six

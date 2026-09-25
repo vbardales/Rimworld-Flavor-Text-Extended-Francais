@@ -22,7 +22,7 @@ what each kind of test may claim, below.
 
 ## In the game, by Pickle
 
-Eighteen features, one companion mod, one steps assembly. The shared steps of Nelim's Pickle Tools are used
+Twenty-one features (the last, 21, is a fixture-making tool and never part of a pass), one companion mod, one steps assembly. The shared steps of Nelim's Pickle Tools are used
 where they exist (`PickleTools/FilmTicks` for the cooking film, `PickleTools/RimmsqolSteps` for pass 7); what
 stays in this suite, and where another mod can find it, is listed in `PickleTools/Elsewhere/FlavorTextExtendedFR.md`.
 The scope is the part a running game is needed for: the real patch pipeline and loader, the real DefInjected
@@ -41,9 +41,9 @@ incompatibility) does not apply. Several passes are needed. Commands are in `Tes
 | --- | --- | --- | --- | --- | --- |
 | 1 | `sans-facultatifs`, English | The minimal set plus PickleTools ScreenshotMode (`-DepMap wsl-deps.sans-facultatifs.map`) | English | 01, 02, 04, 05, 06, 19 | **replayed 2026-09-23 with ScreenshotMode, suite `846c156`: `exitReason: passed`, 21 passed, 0 failed, 29 skipped (French and `@wip` scenarios of other passes); clean captures opened (`docs/runs/2026-09-23.md`).** Feature 19 (exact dishes) now plays here too. |
 | 2 | `sans-facultatifs`, French | The same set plus ScreenshotMode | French | 03, then 01, 04, 05, 06, 19, 07: seven launches under one lock | **replayed 2026-09-23 with ScreenshotMode, suite `846c156`: seven launches, all `exitReason: passed`, 27 scenarios, 0 failed (`docs/runs/2026-09-23.md`); raw reports of launches 1 to 6 were purged before copying, the counts and captures are kept.** |
-| 2b | `sans-facultatifs`, French, cooking | The same set plus `PickleTools/FilmTicks` (`-DepMap wsl-deps.cuisson-film.map`) | French | 09, filmed | **first attempt 2026-09-24 killed by the stock 120 s bill wait, no report; feature 09 rewritten with a sliced wait (`6dbac03`), queued again.** |
-| 3 | `avec-facultatifs`, French | The same set plus eight providers of the third-party tables, with their hard dependencies: Vanilla Plants Expanded and its More Plants, Vanilla Cooking Expanded, Vanilla Brewing Expanded, Kit's Brazilian Crops, VGP Vegetable Garden and Garden Gourmet, VV New Harvest, RimCuisine 2 Core, TP Sea Plants (`-DepMap wsl-deps.avec-facultatifs.map`) | French | 06, 01 | **played 2026-09-24: 06 3/3 and 01 5/5, `exitReason: passed`, 26 mods loaded.** Those meals never touch a provider table, so feature 20 (provider tables) is added to the pass and queued. |
-| 4 | `avec-shenzhou`, French | The same set plus Shenzhou alone (`-DepMap wsl-deps.avec-shenzhou.map`); it declares 1.5 at most, so its own errors are read as such | French | 06, 01 | **played 2026-09-24: 06 3/3 and 01 5/5, `exitReason: passed`.** The launcher flags Shenzhou as dropped (false alarm: listed `(incompatible version)`, content loaded, its own errors in the log). Feature 20 queued. |
+| 2b | `sans-facultatifs`, French, cooking | The same set plus `PickleTools/FilmTicks` (`-DepMap wsl-deps.cuisson-film.map`) | French | 09, filmed | **not green yet.** Four attempts, none a verdict on the mod: the stock 120 s bill wait (2026-09-24), a survival ration taken for the dish, a pawn list read off the main thread, and (2026-09-25) the watchdog at 120 s because `@timeout` sat on the Feature line, then the game killed by another session's test script. Request `20260925-144030-065-1c24` queued (`docs/runs/`). |
+| 3 | `avec-facultatifs`, French | The same set plus eight providers of the third-party tables, with their hard dependencies: Vanilla Plants Expanded and its More Plants, Vanilla Cooking Expanded, Vanilla Brewing Expanded, Kit's Brazilian Crops, VGP Vegetable Garden and Garden Gourmet, VV New Harvest, RimCuisine 2 Core, TP Sea Plants (`-DepMap wsl-deps.avec-facultatifs.map`) | French | 06, 01 | **played 2026-09-24: 06 3/3 and 01 5/5, `exitReason: passed`, 26 mods loaded.** Those meals never touch a provider table, so feature 20 (provider tables) reads them: **played 2026-09-24, `exitReason: passed`, 12 tables checked, 30 ingredients present.** |
+| 4 | `avec-shenzhou`, French | The same set plus Shenzhou alone (`-DepMap wsl-deps.avec-shenzhou.map`); it declares 1.5 at most, so its own errors are read as such | French | 06, 01 | **played 2026-09-24: 06 3/3 and 01 5/5, `exitReason: passed`.** The launcher flags Shenzhou as dropped (false alarm: listed `(incompatible version)`, content loaded, its own errors in the log). Feature 20 **played 2026-09-24 after a fix of the step (it read one table per patch operation): `exitReason: passed`, 16 tables, 39 ingredients present, the four Shenzhou entries among them.** |
 | 5 | `faux-ingredients`, French | The same set plus a folder of this repository with three invented raw foods, staged by `path:` (`-DepMap wsl-deps.faux-ingredients.map`), for F14 | French | 08 | **played 2026-09-24: 08 4/4, `exitReason: passed`.** The fixture then got a foodType (it logged three config errors); replay in the final round. |
 | 6 | restart pair | The same set | English | 10 then 11, two launches under one lock (`-IncludeWip -Filter '10-restart-write.feature' -Then '11-restart-read.feature'`) | **played 2026-09-24: 10 1/1 then 11 2/2, both `exitReason: passed`.** |
 | 7 | `avec-rimmsqol` | The same set plus RIMMSQOL (`MalteSchulze.RIMMSqol`, Workshop 1084452457; hard dependency Harmony, staged everywhere) and the shared steps that drive it (`-DepMap wsl-deps.avec-rimmsqol.map`), for F12 | English | 12, then 13, 14, 15: four launches under one lock | **played 2026-09-24: 12 3/3, then 13, 14 and 15 1/1 each, all `exitReason: passed`, 16 mods loaded.** |
@@ -111,10 +111,9 @@ The publication policy of this mod is fail fast (`PUBLICATION.md`, "Publication 
   def holds instead (`CategorySteps`).
 - Review is limited to captured images or the cooking film: features 04, 06, 07, 08, 12 and 14 use
   PickleTools ScreenshotMode, and 09 uses PickleTools FilmTicks. The language switch is a restart in the new
-  language, so the English and French passes cover it. F13 (meals saved before this translation was installed) is
-  **unverified, not manual**: feature `18-legacy-meals` awaits a committed pre-translation fixture, then pauses
-  on its existing meal's info card and produces the capture to review. Running without a DLC (F08, F09), cooking with a colonist,
-  unlisted ingredients (F14) and the restart are written and not yet played.
+  language, so the English and French passes cover it. F13 (meals saved before this translation was installed) is proved by feature `18-legacy-meals` against a committed
+  fixture made by feature 21 in an English game (pass 10, played 2026-09-24). Running without a DLC (F08, F09), unlisted
+  ingredients (F14) and the restart are played (passes 8, 9, 5 and 6). Cooking with a colonist is written and not yet green (2b).
 - Names that read oddly but come from Flavor Text's own generic templates, such as `plat {0_adj} au four`
   ("Plat de lait au four"), are a known limit of this mod's translation of those templates, not a defect
   a test can catch.

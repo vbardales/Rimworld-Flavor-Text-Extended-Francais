@@ -17,7 +17,7 @@ French dish labels use RimWorld's native DefInjected system. Ingredient dictiona
 side-dish grammar use a small compiled patch operation: it executes their XML replacements
 only when the selected language folder is `French`. Other languages retain the dependencies'
 original dictionaries and grammar. RimWorld reloads play data when changing language.
-This behavior has technical regression coverage; live language switching still needs testing.
+This behavior has technical regression coverage, and the in-game suite plays one pass per language: the game restarts on a language change, so a pass is a cold start in that language.
 
 ## Coverage
 
@@ -68,11 +68,11 @@ irregular singular. Exact forms belong in the reviewed dictionaries. Known aspir
 (haricot, houblon, husky, héron) survive RimWorld's final meal-text processing.
 French agreement and the rendering of existing named meals still require in-game review.
 
-The final functional campaign has not been executed. No FR/EN game UI, persistence or save
-compatibility result is inferred from compilation or XML tests. Primitive settings persistence
-and Harmony dispatch have separate checks using the installed assemblies; RIMMSQOL and Unity
-interaction remain unverified. See `STATUS.md` for the current
-workflow stage, `_tools/FUNCTIONAL-SCENARIOS.md` for scenarios and `CHANGELOG.md` for changes.
+The in-game suite (`Tests/Pickle/`, twenty-one features) has played green in ten passes (English, French, the optional
+providers, Shenzhou, invented ingredients, a restart, RIMMSQOL, without Biotech, without Anomaly and Odyssey, and meals saved
+before the translation): see `TESTING.md` and `docs/runs/`. Not yet green: the filmed cooking with a colonist (feature 09).
+French agreement of names is judged by a person from the captures, and only RIMMSQOL is covered among customization mods.
+See `STATUS.md` for the current workflow stage, `_tools/FUNCTIONAL-SCENARIOS.md` for scenarios and `CHANGELOG.md` for changes.
 
 ## Build and technical checks
 
@@ -114,7 +114,7 @@ PNG assets. `Mod/` also carries matching licence, attribution and changelog copi
 
 Flavor Text and its naming machinery are by hekmo. Flavor Text Extended and this translation
 are maintained by Nelim. Initial translation work used Claude (Anthropic), under human direction
-and review. Subsequent fixes and image work used OpenAI tools. See `ATTRIBUTION.md`.
+and review. Subsequent fixes used Codex and image work used OpenAI's image generation tool (OpenAI). See `ATTRIBUTION.md`.
 
 The MIT notice covers only contributions for which the contributor holds the required rights.
 It does not grant rights in upstream material. Translation derives from source text; no explicit
