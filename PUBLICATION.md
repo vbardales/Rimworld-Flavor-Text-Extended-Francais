@@ -22,6 +22,14 @@ being chosen; none is a mock-up.
    des Rocheuses"; the American dish name stays in English on purpose, its description explains it).
 4. `04-settings-page-in-french.jpg`: the settings page opened from Options, Mod settings, fully French.
 
+Cropped versions (owner, 2026-09-25: the images must be cropped to what shows the mod, and live in `Art/`) are in
+`Art/Gallery/`: the same four files, cut to the dialog. `Gallery/` is the folder the publication of `43dd52d` is pinned to
+and stays until that publication is done; the next commit then removes it and regenerates the workflow with
+`--gallery-dir Art/Gallery`. **These four were taken on the generic test colony, which is not the right one for a
+showcase**: the next captures for the gallery must be made on the presentation colony (`nelim-zen-meadow-studio`, staged with
+`ScreenshotStudio` and `ClearScreen` through `wsl-deps.studio.map`), as `PickleTools/Authoring/README.md` says for
+presentation scenarios.
+
 Not used: the captures of the RIMMSQOL pages and of the meal made before the translation (F13); they prove behaviour and
 show nothing a player would choose this mod for.
 
