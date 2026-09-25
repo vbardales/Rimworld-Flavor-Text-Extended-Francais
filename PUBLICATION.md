@@ -84,6 +84,80 @@ in sources, not by intention: see `Mod/Patches/Inflections_ThirdParty_FR.xml` an
 and descriptions; the ModIcon and Preview were opened and inspected (see `STATUS.md`). Both Workshop
 checkboxes should be left unchecked.
 
+## Description française (ajout manuel, propriétaire, 2026-09-25)
+
+Ajoutée à la main sur la page Workshop, en plus de la description anglaise que la CI envoie. Le titre de la page ne change pas
+(« Flavor Text Extended - Français (unofficial) », pour que la recherche « Flavor Text Extended » le trouve). Ce bloc n'est pas lu
+par la CI : son titre n'est pas `## Steam description`. Pas de guillemet double ni d'antislash. À tenir en phase avec le
+bloc anglais quand celui-ci change.
+
+```
+[h1]Extension pour texte d'ambiance culinaire : traduction en français de Flavor Text Extended (non-officiel)[/h1]
+
+NON OFFICIEL. Ce mod est publié sans le consentement explicite de l'auteur original.
+Si l'auteur original me contacte pour en demander le retrait, je m'engage à le retirer rapidement.
+
+Noms de plats, descriptions et formes d'ingrédients en français pour Flavor Text et Flavor Text Extended.
+
+[h2]Ce que ça traduit[/h2]
+
+Les noms et les descriptions de 930 plats de Flavor Text et de 901 plats de Flavor Text Extended, les cinq réglages de Flavor Text, les formes fléchies des ingrédients prédéfinis et les modèles de phrases pour les plats d'accompagnement. Cette traduction n'ajoute aucun nouveau plat.
+
+[h2]Langues[/h2]
+
+Les formes françaises des ingrédients portent leurs propres articles et prépositions, par exemple « aux baies » et « de bœuf ». Un petit correctif sensible à la langue applique ces formes et la grammaire des plats d'accompagnement uniquement quand le français est sélectionné. En anglais, le texte et les tables de formes des mods d'origine restent inchangés. Changer la langue du jeu le redémarre : le tout a donc été vérifié avec un démarrage propre dans chaque langue.
+
+[h2]Compatibilité[/h2]
+
+Nécessite RimWorld 1.6, [i]Flavor Text[/i] de hekmo et [i]Flavor Text Extended[/i], dans cet ordre. Harmony est une dépendance directe de cette traduction. Les mods facultatifs de cuisine et d'agriculture ne sont pas requis : leurs ingrédients déterminent les plats qui peuvent réellement apparaître. Les traductions propres à Biotech ne se chargent qu'avec Biotech.
+
+[h2]Réglages[/h2]
+
+Utilisez [b]Options → Réglages des mods → Flavor Text Extended - Français (unofficial)[/b] pour les cinq réglages partagés de Flavor Text. La page d'origine utilise la même configuration. Un raccourci facultatif dans la barre du bas est masqué par défaut et peut être révélé par des mods de personnalisation ; aucun n'est nécessaire pour y accéder. Redémarrez le jeu après avoir changé la correspondance des recettes ou la détection dynamique des repas, pour reconstruire les caches.
+
+[h2]Limites connues[/h2]
+
+Les ingrédients non répertoriés reçoivent des formes françaises neutres construites à partir de leur libellé localisé ; les singuliers irréguliers inconnus et les traductions manquantes des mods tiers ne peuvent pas être devinés. Les sept formes de catégories et le préfixe des repas poilus sont traduits. L'isolation de la langue, la page de réglages et le raccourci, les noms de repas en français, les tables des mods d'ingrédients facultatifs, les repas sauvegardés avant la traduction et RIMMSQOL sont couverts par des tests techniques et des tests en jeu ; la cuisson filmée avec un colon est encore en cours de vérification (suivie dans STATUS.md).
+
+[hr][/hr]
+
+[h2]Si je disparais[/h2]
+
+Si je ne réponds pas dans un délai raisonnable après avoir été contactée, chacun est libre de mettre à jour ce mod ou n'importe lequel de mes autres mods, y compris d'en publier une suite. Tous les crédits doivent être conservés.
+
+[h2]Généré avec l'IA[/h2]
+
+Le travail de traduction a utilisé Claude (Anthropic) sous direction et relecture humaines ; les corrections, les tests et le traitement des images ont ensuite utilisé Claude et des outils d'OpenAI.
+
+[h2]Remerciements[/h2]
+
+Merci à [b]hekmo[/b] pour [i]Flavor Text[/i] et sa mécanique de nommage, et à [b]Harmony[/b], dont dépend le correctif sensible à la langue de cette traduction.
+
+Aucune autorisation explicite de l'auteur d'origine n'a été établie ; voir ATTRIBUTION.md et LICENSE pour la portée exacte. La licence MIT locale ne s'applique qu'aux droits détenus par la contributrice et n'accorde aucun droit sur le matériel d'origine.
+
+[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Code source sur GitHub[/url]
+```
+
+## Messages de premier contact (remerciements)
+
+Version française des messages à hekmo et à brrainz, écrits comme un premier contact (ils ne t'ont jamais été écrits). À poster
+seulement quand l'item est public (un lien vers un item privé ne s'ouvre pour personne). Moins de 1000 caractères chacun. Ils
+remplacent les brouillons anglais de la section « Thank-you messages », qui restent la version à poster si l'on écrit en anglais.
+
+**hekmo (Flavor Text, Workshop 3245374432)**
+
+```
+Bonjour hekmo, je ne vous ai jamais écrit jusqu'ici. Je publie un complément français pour Flavor Text et Flavor Text Extended (lien ci-dessous), et je vous remercie pour Flavor Text et sa mécanique de nommage, sans lesquels il n'existerait pas. Je préfère être franche : je l'ai publié sans votre accord préalable. Il traduit le texte des plats et ajoute la grammaire française ; il n'ajoute aucun plat et ne remplace pas votre mod, et vous êtes crédité dans la description et le dépôt. Si vous souhaitez un retrait, une attribution ou une formulation différente, écrivez-moi ici et je m'en occupe rapidement.
+https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
+```
+
+**brrainz (Harmony, Workshop 2009463077)**
+
+```
+Bonjour brrainz, je ne vous ai jamais écrit jusqu'ici. Je publie un complément français pour Flavor Text et Flavor Text Extended (lien ci-dessous), qui s'appuie sur Harmony pour ses correctifs sensibles à la langue. Merci pour Harmony et pour le temps que vous y consacrez : il est crédité dans la description et le dépôt, et reste une dépendance obligatoire de ce complément. Votre travail rend cette petite couche de compatibilité possible.
+https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
+```
+
 ## Steam version notes
 
 The publication workflow reads the change note from the heading below (a fenced block, BBCode as Steam
