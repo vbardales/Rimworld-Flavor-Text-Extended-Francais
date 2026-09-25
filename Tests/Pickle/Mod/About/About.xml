@@ -12,7 +12,7 @@ Fifteen features: loading and load order, English isolation, French text and gra
   <modDependencies>
     <li>
       <packageId>nelim.flavortextextended.fr</packageId>
-      <displayName>Flavor Text Extended - Français (unofficial)</displayName>
+      <displayName>Flavor Text Extended - Français</displayName>
     </li>
     <li>
       <packageId>rimworks.pickle</packageId>

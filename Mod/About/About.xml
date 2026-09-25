@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Flavor Text Extended - Français (unofficial)</name>
+  <name>Flavor Text Extended - Français</name>
   <author>Nelim</author>
   <packageId>nelim.flavortextextended.fr</packageId>
   <url>https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais</url>
-  <description>UNOFFICIAL. This mod is published without the original author's explicit consent.
+  <description>UNOFFICIAL. This mod is published without the original author's explicit consent (though he has so far been kind to translations and add-ons).
 If the original author contacts me to request its removal, I undertake to take it down promptly.
 
 French dish names, descriptions and ingredient forms for Flavor Text and Flavor Text Extended.
@@ -23,7 +23,7 @@ Requires RimWorld 1.6, [i]Flavor Text[/i] by hekmo, and [i]Flavor Text Extended[
 
 [h2]Settings[/h2]
 
-Use [b]Options → Mod settings → Flavor Text Extended - Français (unofficial)[/b] for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
+Use [b]Options → Mod settings → Flavor Text Extended - Français[/b] for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
 
 [h2]Known limits[/h2]
 

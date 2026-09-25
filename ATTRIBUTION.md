@@ -21,7 +21,7 @@ and a recipe addon do not specify such a grant. Private or deleted exchanges rem
 Any later permission must be recorded with its exact source and scope.
 
 The current repository is public and classified `silent` using the audit request's four-category
-vocabulary. Its name and description disclose the unofficial status. That disclosure is not
+vocabulary. Its description (its name no longer, since 2026-09-25) discloses the unofficial status. That disclosure is not
 consent. The agreed public `silent` workflow is satisfied by the unofficial disclosures, attribution, takedown commitment and limited MIT scope; it does not establish upstream permission.
 
 The local MIT licence applies only to rights held by the contributor. It does not license

@@ -1,6 +1,6 @@
-# Flavor Text Extended - Français (unofficial)
+# Flavor Text Extended - Français
 
-UNOFFICIAL. This mod is published without the original author's explicit consent.
+UNOFFICIAL. This mod is published without the original author's explicit consent (though he has so far been kind to translations and add-ons).
 If the original author contacts me to request its removal, I undertake to take it down promptly.
 
 French translation of [Flavor Text](https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432)
@@ -48,7 +48,7 @@ its English-dependent adjective and name-generation rules.
 
 ## Settings
 
-Use **Options → Mod settings → Flavor Text Extended - Français (unofficial)**. The five settings belong to Flavor Text:
+Use **Options → Mod settings → Flavor Text Extended - Français**. The five settings belong to Flavor Text:
 extra ingredient cap, quick search, meal-stack naming, lax recipe matching and dynamic
 meal detection. The original Flavor Text page remains available and shares the same configuration.
 A MainButtons shortcut is hidden by default and can be revealed by customization mods.

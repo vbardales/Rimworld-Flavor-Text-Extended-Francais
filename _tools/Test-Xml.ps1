@@ -181,7 +181,7 @@ foreach ($id in @('brrainz.harmony','hekmo.FlavorText','nelim.flavortextextended
     Assert ($id -in $about.modDependencies.li.packageId) "Missing dependency: $id"
     Assert ($id -in $about.loadAfter.li) "Missing loadAfter: $id"
 }
-Assert ($about.name.EndsWith(' (unofficial)')) 'Missing unofficial suffix'
+Assert ($about.name.StartsWith('Flavor Text Extended - Fran') -and $about.name.Length -eq 'Flavor Text Extended - Fran'.Length + 4 -and -not $about.name.EndsWith('(unofficial)')) 'Unexpected mod name (the (unofficial) suffix was dropped by the owner on 2026-09-25)'
 Assert ($about.description.StartsWith('UNOFFICIAL.')) 'Missing unofficial disclaimer'
 Assert ($about.description.Contains('[url='+$about.url+']Source code on GitHub[/url]')) 'Missing labeled GitHub link'
 $button=(ReadXml "$root/Mod/Defs/MainButtonDefs/Settings.xml").Defs.MainButtonDef

@@ -87,14 +87,14 @@ checkboxes should be left unchecked.
 ## Description française (ajout manuel, propriétaire, 2026-09-25)
 
 Ajoutée à la main sur la page Workshop, en plus de la description anglaise que la CI envoie. Le titre de la page ne change pas
-(« Flavor Text Extended - Français (unofficial) », pour que la recherche « Flavor Text Extended » le trouve). Ce bloc n'est pas lu
+(« Flavor Text Extended - Français », sans « (unofficial) » depuis le 2026-09-25, pour que la recherche « Flavor Text Extended » le trouve). Ce bloc n'est pas lu
 par la CI : son titre n'est pas `## Steam description`. Pas de guillemet double ni d'antislash. À tenir en phase avec le
 bloc anglais quand celui-ci change.
 
 ```
 [h1]Extension pour texte d'ambiance culinaire : traduction en français de Flavor Text Extended (non-officiel)[/h1]
 
-NON OFFICIEL. Ce mod est publié sans le consentement explicite de l'auteur original.
+NON OFFICIEL. Ce mod est publié sans le consentement explicite de l'auteur original (mais celui-ci a jusqu'ici bien accueilli les traductions et les addons).
 Si l'auteur original me contacte pour en demander le retrait, je m'engage à le retirer rapidement.
 
 Noms de plats, descriptions et formes d'ingrédients en français pour Flavor Text et Flavor Text Extended.
@@ -113,7 +113,7 @@ Nécessite RimWorld 1.6, [i]Flavor Text[/i] de hekmo et [i]Flavor Text Extended[
 
 [h2]Réglages[/h2]
 
-Utilisez [b]Options → Réglages des mods → Flavor Text Extended - Français (unofficial)[/b] pour les cinq réglages partagés de Flavor Text. La page d'origine utilise la même configuration. Un raccourci facultatif dans la barre du bas est masqué par défaut et peut être révélé par des mods de personnalisation ; aucun n'est nécessaire pour y accéder. Redémarrez le jeu après avoir changé la correspondance des recettes ou la détection dynamique des repas, pour reconstruire les caches.
+Utilisez [b]Options → Réglages des mods → Flavor Text Extended - Français[/b] pour les cinq réglages partagés de Flavor Text. La page d'origine utilise la même configuration. Un raccourci facultatif dans la barre du bas est masqué par défaut et peut être révélé par des mods de personnalisation ; aucun n'est nécessaire pour y accéder. Redémarrez le jeu après avoir changé la correspondance des recettes ou la détection dynamique des repas, pour reconstruire les caches.
 
 [h2]Limites connues[/h2]
 
@@ -181,6 +181,7 @@ will show it, 8000 bytes at most). Nothing else in this section is read by it.
 ```
 [b]1.0.1[/b]
 [list]
+[*] The mod name no longer carries "(unofficial)"; the description still says it is unofficial and without explicit consent, and now adds that the original author has so far been kind to translations and add-ons.
 [*] Fixed: a side dish no longer starts with a capital after a French joint ("Dolma, façon œufs de poule" instead of "façon Œufs de poule"). A dish whose own name is a proper noun keeps its capital.
 [/list]
 ```
@@ -193,7 +194,7 @@ same text as `<description>` in `Mod/About/About.xml`, which Steam only reads wh
 is the source, so change both together. The dry-run prints its size, its SHA-256 and a line diff against the current page.
 
 ```
-UNOFFICIAL. This mod is published without the original author's explicit consent.
+UNOFFICIAL. This mod is published without the original author's explicit consent (though he has so far been kind to translations and add-ons).
 If the original author contacts me to request its removal, I undertake to take it down promptly.
 
 French dish names, descriptions and ingredient forms for Flavor Text and Flavor Text Extended.
@@ -212,7 +213,7 @@ Requires RimWorld 1.6, [i]Flavor Text[/i] by hekmo, and [i]Flavor Text Extended[
 
 [h2]Settings[/h2]
 
-Use [b]Options → Mod settings → Flavor Text Extended - Français (unofficial)[/b] for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
+Use [b]Options → Mod settings → Flavor Text Extended - Français[/b] for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
 
 [h2]Known limits[/h2]
 
