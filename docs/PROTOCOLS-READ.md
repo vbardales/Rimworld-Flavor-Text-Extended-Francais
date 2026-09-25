@@ -115,11 +115,9 @@ Open:
     `I wait for a {string} to exist` (30 s); `Headless/README.md` measured 500 to 700 ticks a second for `I wait N ticks`. Feature 09
     carries `@watch`, so the game runs at its own speed, which was about 13 ticks a second on the loaded machine. To try after the
     pending runs, on a frozen tree: drop `@watch` or wait in tick slices.
-13. **Feature 09 and `-pickle-scenario-timeout`.** `@timeout:N` belongs on the Scenario; on the Feature line it is not honoured
-    (seen 2026-09-25).
-
-Corrected while reading, in this repository's own documents (commit after `ad6bd9b`): `README.md` (validation paragraph, AI
-tool names), `TESTING.md` (feature count, rows 2b, 3, 4 and the review paragraph), `STATUS.md` (`mod_visibility`, `pushed_at`,
-`in_game_runs`, three `remaining` items), `PUBLICATION.md` (Flavor Text Extended's Workshop id). Not changed on purpose while
-Pickle requests wait on this tree: `Mod/` (points 2, 3, 4 need a new `About.xml` and description, hence a new SHA and dry-run)
-and `Tests/Pickle/` (its README, feature 09).
+13. **Feature 09 and the three timeouts** (PickleTools, `Authoring/README.md`, "Waiting: fast mode, @watch, and three different timeouts"):
+    `@timeout:N` is a per-step default, the scenario watchdog is `-pickle-scenario-timeout` (120 s, not passed by the launcher; the
+    `-Extra` of `Submit-PickleRun.ps1` sets it), and `@watch` makes waits real time. `AUDIT.md` reads "`@timeout:N` or
+    `-pickle-scenario-timeout` bound one scenario"; the PickleTools reading of the source says the tag is not the watchdog. This
+    mod's earlier claim that `@timeout` is honoured on a Scenario and not on a Feature line is withdrawn: it is not explained by the
+    source, and the 120 s kill of 2026-09-25 was the watchdog. Pass 2b v8 uses `-Extra '-pickle-scenario-timeout=600'`.
