@@ -7,11 +7,11 @@
   <description>UNOFFICIAL. This mod is published without the original author's explicit consent (though he has so far been kind to translations and add-ons).
 If the original author contacts me to request its removal, I undertake to take it down promptly.
 
-French dish names, descriptions and ingredient forms for Flavor Text and Flavor Text Extended.
+French dish names, descriptions and ingredient forms for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url].
 
 [h2]What it translates[/h2]
 
-The names and descriptions of 930 Flavor Text dishes and 901 Flavor Text Extended dishes, the five Flavor Text settings, predefined ingredient inflections and side-dish sentence templates. No new dishes are added by this translation.
+The names and descriptions of 930 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] dishes and 901 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url] dishes, the five [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] settings, predefined ingredient inflections and side-dish sentence templates. No new dishes are added by this translation.
 
 [h2]Languages[/h2]
 
@@ -19,15 +19,15 @@ French ingredient forms carry their own articles and prepositions, for example �
 
 [h2]Compatibility[/h2]
 
-Requires RimWorld 1.6, [i]Flavor Text[/i] by hekmo, and [i]Flavor Text Extended[/i], in that order. Harmony is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
+Requires RimWorld 1.6, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] by hekmo, and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url], in that order. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url] is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
 
 [h2]Settings[/h2]
 
-Use [b]Options → Mod settings → Flavor Text Extended - Français[/b] for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
+Use [b]Options → Mod settings → Flavor Text Extended - Français[/b] for the five shared [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
 
 [h2]Known limits[/h2]
 
-Unlisted ingredients use neutral French forms built from their localized labels; unknown irregular singulars and missing third-party translations cannot be inferred. All seven category forms and the hairy-meal prefix are translated. Language isolation, the settings page and shortcut, French meal naming, the tables of the optional ingredient mods, meals saved before the translation and RIMMSQOL all have technical and in-game coverage; the filmed cooking with a colonist is still being verified (tracked in STATUS.md).
+Unlisted ingredients use neutral French forms built from their localized labels; unknown irregular singulars and missing third-party translations cannot be inferred. All seven category forms and the hairy-meal prefix are translated. Language isolation, the settings page and shortcut, French meal naming, the tables of the optional ingredient mods, meals saved before the translation and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1084452457]RIMMSQOL[/url] all have technical and in-game coverage.
 
 [hr][/hr]
 
@@ -37,11 +37,25 @@ If I do not answer within a reasonable time after being contacted, anyone may fr
 
 [h2]AI-generated[/h2]
 
-Translation work used Claude (Anthropic) under human direction and review; subsequent fixes, testing and image editing used both Claude and OpenAI tools.
+The initial French translation was made with Claude (Anthropic), under human direction and review. A correction pass used Codex (OpenAI). Later fixes and the in-game tests used Claude Code (Anthropic), and image work used OpenAI's image generation tool.
 
 [h2]Thanks[/h2]
 
-Thanks to [b]hekmo[/b] for [i]Flavor Text[/i] and its naming machinery, and to [b]Harmony[/b], which this translation's language-aware patch depends on.
+Thanks to [b]hekmo[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] and its naming machinery, and to [b]Andreas Pardeike[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url], which this translation's language-aware patch depends on.
+
+Thanks also to the authors of the optional mods whose ingredient tables this translation covers, and which its in-game tests loaded beside it:
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], by Oskar Potocki, Sarg Bjornson and others
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], by Zaljerem
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007062982]VGP Garden Gourmet[/url], by dismarzero
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url], by VVenchov
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], by Crustypeanut
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], by Tanypredator
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url] (Shenzhou), by Diamond.J, DaJian, Frolg, TangWan, XF and others
+[/list]
+And to [b]Malte Schulze[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1084452457]RIMMSQOL[/url], which the tests used to reveal and hide this mod's shortcut.
+
+The in-game tests ran on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678]Pickle[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696]RimLogging[/url] by RimWorks, and on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806142401]PickleTools[/url] by the author of this mod. They are development tools only, never a dependency of this mod.
 
 No explicit upstream permission has been established; see ATTRIBUTION.md and LICENSE for the exact scope. The local MIT notice applies only to rights held by the contributor and grants no rights in the upstream material.
 
@@ -64,6 +78,7 @@ No explicit upstream permission has been established; see ATTRIBUTION.md and LIC
     <li>
       <packageId>nelim.flavortextextended</packageId>
       <displayName>Flavor Text Extended</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3806100152</steamWorkshopUrl>
       <downloadUrl>https://github.com/vbardales/Rimworld-Flavor-Text-Extended</downloadUrl>
     </li>
   </modDependencies>

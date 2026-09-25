@@ -7,47 +7,49 @@ root for the general workflow; this file is the mod-specific record it asks for.
 
 ## Screenshots for the Workshop page
 
-The gallery images are in `Gallery/` (committed, outside `Mod/`, so they are not uploaded with the mod). **Steam's
-gallery is a manual upload**: SteamCMD has one image field, so the CI does not send them; the dry-run only lists this
-folder as a reminder. Upload them in the order of their file names. Each one was taken by a Pickle pass (the French pass
-of 2026-09-23, `docs/runs/2026-09-23.md`), re-encoded as JPEG (about 0.25 MB each), and **opened and looked at** before
-being chosen; none is a mock-up.
+The gallery images are in `Art/Gallery/` (committed, outside `Mod/`, so they are not uploaded with the mod; it is the `--gallery-dir` of the
+publication workflow, and holds only the numbered images). **Steam's gallery is a manual upload**: SteamCMD has one image field, so the CI
+does not send them; the dry-run only lists this folder as a reminder. Upload them in the order of their file names. Each one was taken by a
+Pickle pass, cropped to the dialog (the scenarios' captures are full frames; the crop is done by hand, a 950 x 440 rectangle at
+485, 160), re-encoded as JPEG, and **opened and looked at**; none is a mock-up. All four come from the generic test colony, not the
+presentation colony; the owner accepted them on 2026-09-25 (the meals of 01 and 03 come from the 1.0.1 run, so the side dishes read in lower case).
 
-1. `01-lavish-meal-french-name-and-description.jpg`: the info card of a lavish meal, "Dolma, façon Œufs de poule tournés à
-   jaune coulant". First because it is the most demonstrative: a long French name with the French side-dish joint
-   ("façon") and a full French description. (The inspect pane at the bottom left is the selected meal's.)
-2. `02-elision-refused-before-aspirated-h.jpg`: "Stroganoff de husky", the aspirated h that refuses the elision
-   (never "d'husky"), asserted by feature 19 as well.
-3. `03-side-dish-with-french-grammar.jpg`: a lavish meal with a side dish joined by "avec" ("Funeral potatoes avec Huîtres
-   des Rocheuses"; the American dish name stays in English on purpose, its description explains it).
-4. `04-settings-page-in-french.jpg`: the settings page opened from Options, Mod settings, fully French.
+1. `01-lavish-meal-french-name-and-description.jpg`: "Ragoût mulligan et kakigōri (plat gastronomique)", the info card of a lavish meal: a
+   French name with a joint, and the description of the main dish and of the side dish. First because it is the most demonstrative.
+   (`Tests/Pickle/Evidence/2026-09-25-1-0-1-lavish-meals`, request 63b1.)
+2. `02-elision-refused-before-aspirated-h.jpg`: "Stroganoff de husky", the aspirated h that refuses the elision (never "d'husky"),
+   asserted by feature 19 as well (2026-09-23 French pass).
+3. `03-side-dish-with-french-grammar.jpg`: "Barre énergétique aux pommes de terre avec yaourt (plat gastronomique)": the "avec" joint and
+   a side dish in lower case (63b1).
+4. `04-settings-page-in-french.jpg`: the settings page opened from Options, Mod settings, fully French (2026-09-23).
 
-Cropped versions (owner, 2026-09-25: the images must be cropped to what shows the mod, and live in `Art/`) are in
-`Art/Gallery/`: the same four files, cut to the dialog. `Gallery/` is the folder the publication of `43dd52d` is pinned to
-and stays until that publication is done; the next commit then removes it and regenerates the workflow with
-`--gallery-dir Art/Gallery`. **These four were taken on the generic test colony, which is not the right one for a
-showcase**: the next captures for the gallery must be made on the presentation colony (`nelim-zen-meadow-studio`, staged with
-`ScreenshotStudio` and `ClearScreen` through `wsl-deps.studio.map`), as `PickleTools/Authoring/README.md` says for
-presentation scenarios.
+Not used: the captures of the RIMMSQOL pages and of the meal made before the translation (F13); they prove behaviour and show nothing a
+player would choose this mod for.
 
-Not used: the captures of the RIMMSQOL pages and of the meal made before the translation (F13); they prove behaviour and
-show nothing a player would choose this mod for.
+## Thank-you messages and the register
 
-## Thank-you messages
+The register is `WORKSHOP_COMMENTS.md` at the monorepo root (one main comment per recipient page for the whole collection). State on
+2026-09-25:
 
-One per mod this one is derived from or depends on, personalized, under 1000 characters (Steam
-comment limit), posted only after this item is public.
+- **hekmo, Flavor Text** (3245374432): the owner has already sent her message (reported 2026-09-25). Nothing to post.
+- **Harmony** (2009463077), **Pickle** (3791648678), **RimLogging** (3733484696) and **RIMMSQOL** (1084452457): already `posted` in the
+  register; this mod is added to their `Covers`. Nothing to post.
+- **Flavor Text Extended** and **PickleTools** are the author's own projects: not applicable.
+- **The optional mods whose tables are covered** are thanked in the description. `VV - New Harvest` is `posted` (covered by Flavor Text
+  Extended) and Shenzhou (2877536640) `drafted`. Vanilla Cooking Expanded (2134308519), Vanilla Plants Expanded - More Plants (2748889667),
+  Kit's Brazilian Crops (2886512401), VGP Vegetable Garden (2007061826), VGP Garden Gourmet (2007062982), RimCuisine 2 Core (2562519366)
+  and TP Sea Plants (3643012859) had no row: `drafted` rows are added, the comments are still to write, and to post only once this item is
+  public. The owner decides whether to write them.
+- **Not yet in the description:** the tables of [RH2] Faction: V.O.I.D., Medieval Overhaul and Optimization: Meats (C# Edition), which no pass
+  stages. Their Workshop ids are not confirmed (a web search suggests 2883208829, 3220265769 or 3219596926, and 2542931556): to be
+  confirmed by the owner before they are added.
 
-- **hekmo, Flavor Text** (Workshop 3245374432) — the source text this mod translates. Draft:
+## Workshop page fields
 
-  > Hi hekmo — thank you for Flavor Text and its naming machinery. I have prepared a French-language companion for Flavor Text and Flavor Text Extended, credited here and in its documentation. It translates the dish text and adds French ingredient/side-dish grammar; it does not add dishes or replace your mod. If you would like attribution or wording changed, please let me know and I will update it. Thank you again for the foundation your work provides.
-
-- **Harmony** (brrainz, Workshop 2009463077) — hard dependency, the language-aware patch runs
-  through it. Draft:
-
-  > Thank you, brrainz, for Harmony. This French companion for Flavor Text and Flavor Text Extended uses Harmony only for its language-aware runtime patches, and credits Harmony in its Workshop description and repository. It remains a required dependency because those patches rely on it. Your work makes this small compatibility layer possible.
-
-Flavor Text Extended is this mod's own companion (same author), not a thank-you target.
+- **Required items** (the page's "required items"): Harmony (2009463077), Flavor Text (3245374432), Flavor Text Extended (3806100152).
+  No DLC. Not required: the optional providers and RIMMSQOL.
+- **Content descriptors:** none applies (nothing here is nudity or sexual content, frequent violence or gore, adult-only sexual content or general
+  mature content: this mod translates dish names and descriptions). See "Adult content" below.
 
 ## Dependencies and DLC
 
@@ -100,11 +102,11 @@ the English block whenever that one changes.
 NON OFFICIEL. Ce mod est publié sans le consentement explicite de l'auteur original (mais celui-ci a jusqu'ici bien accueilli les traductions et les addons).
 Si l'auteur original me contacte pour en demander le retrait, je m'engage à le retirer rapidement.
 
-Noms de plats, descriptions et formes d'ingrédients en français pour Flavor Text et Flavor Text Extended.
+Noms de plats, descriptions et formes d'ingrédients en français pour [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url].
 
 [h2]Ce que ça traduit[/h2]
 
-Les noms et les descriptions de 930 plats de Flavor Text et de 901 plats de Flavor Text Extended, les cinq réglages de Flavor Text, les formes fléchies des ingrédients prédéfinis et les modèles de phrases pour les plats d'accompagnement. Cette traduction n'ajoute aucun nouveau plat.
+Les noms et les descriptions de 930 plats de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] et de 901 plats de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url], les cinq réglages de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url], les formes fléchies des ingrédients prédéfinis et les modèles de phrases pour les plats d'accompagnement. Cette traduction n'ajoute aucun nouveau plat.
 
 [h2]Langues[/h2]
 
@@ -112,15 +114,15 @@ Les formes françaises des ingrédients portent leurs propres articles et prépo
 
 [h2]Compatibilité[/h2]
 
-Nécessite RimWorld 1.6, [i]Flavor Text[/i] de hekmo et [i]Flavor Text Extended[/i], dans cet ordre. Harmony est une dépendance directe de cette traduction. Les mods facultatifs de cuisine et d'agriculture ne sont pas requis : leurs ingrédients déterminent les plats qui peuvent réellement apparaître. Les traductions propres à Biotech ne se chargent qu'avec Biotech.
+Nécessite RimWorld 1.6, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] de hekmo et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url], dans cet ordre. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url] est une dépendance directe de cette traduction. Les mods facultatifs de cuisine et d'agriculture ne sont pas requis : leurs ingrédients déterminent les plats qui peuvent réellement apparaître. Les traductions propres à Biotech ne se chargent qu'avec Biotech.
 
 [h2]Réglages[/h2]
 
-Utilisez [b]Options → Réglages des mods → Flavor Text Extended - Français[/b] pour les cinq réglages partagés de Flavor Text. La page d'origine utilise la même configuration. Un raccourci facultatif dans la barre du bas est masqué par défaut et peut être révélé par des mods de personnalisation ; aucun n'est nécessaire pour y accéder. Redémarrez le jeu après avoir changé la correspondance des recettes ou la détection dynamique des repas, pour reconstruire les caches.
+Utilisez [b]Options → Options de mod → Flavor Text Extended - Français[/b] pour les cinq réglages partagés de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url]. La page d'origine utilise la même configuration. Un raccourci facultatif dans la barre du bas est masqué par défaut et peut être révélé par des mods de personnalisation ; aucun n'est nécessaire pour y accéder. Redémarrez le jeu après avoir changé la correspondance des recettes ou la détection dynamique des repas, pour reconstruire les caches.
 
 [h2]Limites connues[/h2]
 
-Les ingrédients non répertoriés reçoivent des formes françaises neutres construites à partir de leur libellé localisé ; les singuliers irréguliers inconnus et les traductions manquantes des mods tiers ne peuvent pas être devinés. Les sept formes de catégories et le préfixe des repas poilus sont traduits. L'isolation de la langue, la page de réglages et le raccourci, les noms de repas en français, les tables des mods d'ingrédients facultatifs, les repas sauvegardés avant la traduction et RIMMSQOL sont couverts par des tests techniques et des tests en jeu ; la cuisson filmée avec un colon est encore en cours de vérification (suivie dans STATUS.md).
+Les ingrédients non répertoriés reçoivent des formes françaises neutres construites à partir de leur libellé localisé ; les singuliers irréguliers inconnus et les traductions manquantes des mods tiers ne peuvent pas être devinés. Les sept formes de catégories et le préfixe des repas poilus sont traduits. L'isolation de la langue, la page de réglages et le raccourci, les noms de repas en français, les tables des mods d'ingrédients facultatifs, les repas sauvegardés avant la traduction et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1084452457]RIMMSQOL[/url] sont couverts par des tests techniques et des tests en jeu.
 
 [hr][/hr]
 
@@ -130,37 +132,29 @@ Si je ne réponds pas dans un délai raisonnable après avoir été contactée, 
 
 [h2]Généré avec l'IA[/h2]
 
-Le travail de traduction a utilisé Claude (Anthropic) sous direction et relecture humaines ; les corrections, les tests et le traitement des images ont ensuite utilisé Claude et des outils d'OpenAI.
+La traduction française initiale a été faite avec Claude (Anthropic), sous direction et relecture humaines. Une passe de corrections a utilisé Codex (OpenAI). Les correctifs suivants et les tests en jeu ont utilisé Claude Code (Anthropic), et le travail sur les images l'outil de génération d'images d'OpenAI.
 
 [h2]Remerciements[/h2]
 
-Merci à [b]hekmo[/b] pour [i]Flavor Text[/i] et sa mécanique de nommage, et à [b]Harmony[/b], dont dépend le correctif sensible à la langue de cette traduction.
+Merci à [b]hekmo[/b] pour [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] et sa mécanique de nommage, et à [b]Andreas Pardeike[/b] pour [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url], dont dépend le correctif sensible à la langue de cette traduction.
+
+Merci aussi aux auteurs des mods facultatifs dont cette traduction couvre les tables d'ingrédients, et que ses tests en jeu ont chargés à côté d'elle :
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], par Oskar Potocki, Sarg Bjornson et d'autres
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], par Zaljerem
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url] et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007062982]VGP Garden Gourmet[/url], par dismarzero
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url], par VVenchov
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], par Crustypeanut
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], par Tanypredator
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url] (Shenzhou), par Diamond.J, DaJian, Frolg, TangWan, XF et d'autres
+[/list]
+Et à [b]Malte Schulze[/b] pour [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1084452457]RIMMSQOL[/url], que les tests ont utilisé pour révéler et masquer le raccourci de ce mod.
+
+Les tests en jeu ont tourné sur [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678]Pickle[/url] et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696]RimLogging[/url] de RimWorks, et sur [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806142401]PickleTools[/url], de l'auteur de ce mod. Ce sont des outils de développement, jamais une dépendance de ce mod.
 
 Aucune autorisation explicite de l'auteur d'origine n'a été établie ; voir ATTRIBUTION.md et LICENSE pour la portée exacte. La licence MIT locale ne s'applique qu'aux droits détenus par la contributrice et n'accorde aucun droit sur le matériel d'origine.
 
 [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Code source sur GitHub[/url]
-```
-
-## First-contact messages (French versions)
-
-French versions of the messages to hekmo and brrainz, written as a first contact (neither has ever been written to about this mod). To be
-posted only once the item is public (a link to a private item opens for no one), under 1000 characters each. They replace the English
-drafts of the "Thank-you messages" section, which remain the text to post if writing in English. **Read `WORKSHOP_COMMENTS.md` first**: both
-recipients are already `posted` there, so the register rule is to add this mod to `Covers` and not to post another main comment; these
-messages would be replies, and whether to send them is the owner's decision (see `docs/PROTOCOLS-READ.md`, open point 1).
-
-**hekmo (Flavor Text, Workshop 3245374432)**
-
-```
-Bonjour hekmo, je ne vous ai jamais écrit jusqu'ici. Je publie un complément français pour Flavor Text et Flavor Text Extended (lien ci-dessous), et je vous remercie pour Flavor Text et sa mécanique de nommage, sans lesquels il n'existerait pas. Je préfère être franche : je l'ai publié sans votre accord préalable. Il traduit le texte des plats et ajoute la grammaire française ; il n'ajoute aucun plat et ne remplace pas votre mod, et vous êtes crédité dans la description et le dépôt. Si vous souhaitez un retrait, une attribution ou une formulation différente, écrivez-moi ici et je m'en occupe rapidement.
-https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
-```
-
-**brrainz (Harmony, Workshop 2009463077)**
-
-```
-Bonjour brrainz, je ne vous ai jamais écrit jusqu'ici. Je publie un complément français pour Flavor Text et Flavor Text Extended (lien ci-dessous), qui s'appuie sur Harmony pour ses correctifs sensibles à la langue. Merci pour Harmony et pour le temps que vous y consacrez : il est crédité dans la description et le dépôt, et reste une dépendance obligatoire de ce complément. Votre travail rend cette petite couche de compatibilité possible.
-https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
 ```
 
 ## Steam version notes
@@ -186,8 +180,8 @@ will show it, 8000 bytes at most). Nothing else in this section is read by it.
 ```
 [b]1.0.1[/b]
 [list]
-[*] The mod name no longer carries "(unofficial)"; the description still says it is unofficial and without explicit consent, and now adds that the original author has so far been kind to translations and add-ons.
 [*] Fixed: a side dish no longer starts with a capital after a French joint ("Dolma, façon œufs de poule" instead of "façon Œufs de poule"). A dish whose own name is a proper noun keeps its capital.
+[*] New description and Preview: every mod name links to its Workshop page, the thanks name the authors of the optional mods whose ingredient tables are covered and the test tools, and the AI tools are named. The mod name no longer carries the "(unofficial)" tag; the description still says the mod is unofficial and published without explicit consent.
 [/list]
 ```
 
@@ -202,11 +196,11 @@ is the source, so change both together. The dry-run prints its size, its SHA-256
 UNOFFICIAL. This mod is published without the original author's explicit consent (though he has so far been kind to translations and add-ons).
 If the original author contacts me to request its removal, I undertake to take it down promptly.
 
-French dish names, descriptions and ingredient forms for Flavor Text and Flavor Text Extended.
+French dish names, descriptions and ingredient forms for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url].
 
 [h2]What it translates[/h2]
 
-The names and descriptions of 930 Flavor Text dishes and 901 Flavor Text Extended dishes, the five Flavor Text settings, predefined ingredient inflections and side-dish sentence templates. No new dishes are added by this translation.
+The names and descriptions of 930 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] dishes and 901 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url] dishes, the five [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] settings, predefined ingredient inflections and side-dish sentence templates. No new dishes are added by this translation.
 
 [h2]Languages[/h2]
 
@@ -214,15 +208,15 @@ French ingredient forms carry their own articles and prepositions, for example �
 
 [h2]Compatibility[/h2]
 
-Requires RimWorld 1.6, [i]Flavor Text[/i] by hekmo, and [i]Flavor Text Extended[/i], in that order. Harmony is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
+Requires RimWorld 1.6, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] by hekmo, and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url], in that order. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url] is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
 
 [h2]Settings[/h2]
 
-Use [b]Options → Mod settings → Flavor Text Extended - Français[/b] for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
+Use [b]Options → Mod settings → Flavor Text Extended - Français[/b] for the five shared [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
 
 [h2]Known limits[/h2]
 
-Unlisted ingredients use neutral French forms built from their localized labels; unknown irregular singulars and missing third-party translations cannot be inferred. All seven category forms and the hairy-meal prefix are translated. Language isolation, the settings page and shortcut, French meal naming, the tables of the optional ingredient mods, meals saved before the translation and RIMMSQOL all have technical and in-game coverage; the filmed cooking with a colonist is still being verified (tracked in STATUS.md).
+Unlisted ingredients use neutral French forms built from their localized labels; unknown irregular singulars and missing third-party translations cannot be inferred. All seven category forms and the hairy-meal prefix are translated. Language isolation, the settings page and shortcut, French meal naming, the tables of the optional ingredient mods, meals saved before the translation and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1084452457]RIMMSQOL[/url] all have technical and in-game coverage.
 
 [hr][/hr]
 
@@ -232,11 +226,25 @@ If I do not answer within a reasonable time after being contacted, anyone may fr
 
 [h2]AI-generated[/h2]
 
-Translation work used Claude (Anthropic) under human direction and review; subsequent fixes, testing and image editing used both Claude and OpenAI tools.
+The initial French translation was made with Claude (Anthropic), under human direction and review. A correction pass used Codex (OpenAI). Later fixes and the in-game tests used Claude Code (Anthropic), and image work used OpenAI's image generation tool.
 
 [h2]Thanks[/h2]
 
-Thanks to [b]hekmo[/b] for [i]Flavor Text[/i] and its naming machinery, and to [b]Harmony[/b], which this translation's language-aware patch depends on.
+Thanks to [b]hekmo[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] and its naming machinery, and to [b]Andreas Pardeike[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url], which this translation's language-aware patch depends on.
+
+Thanks also to the authors of the optional mods whose ingredient tables this translation covers, and which its in-game tests loaded beside it:
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], by Oskar Potocki, Sarg Bjornson and others
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], by Zaljerem
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007062982]VGP Garden Gourmet[/url], by dismarzero
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url], by VVenchov
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], by Crustypeanut
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], by Tanypredator
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url] (Shenzhou), by Diamond.J, DaJian, Frolg, TangWan, XF and others
+[/list]
+And to [b]Malte Schulze[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1084452457]RIMMSQOL[/url], which the tests used to reveal and hide this mod's shortcut.
+
+The in-game tests ran on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678]Pickle[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3733484696]RimLogging[/url] by RimWorks, and on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806142401]PickleTools[/url] by the author of this mod. They are development tools only, never a dependency of this mod.
 
 No explicit upstream permission has been established; see ATTRIBUTION.md and LICENSE for the exact scope. The local MIT notice applies only to rights held by the contributor and grants no rights in the upstream material.
 
@@ -251,7 +259,7 @@ private). Generated on 2026-09-25 from the pushed template of Rimworld-Release-A
 `683151266dd1`) with the command below, run from the monorepo root (it writes only under `.github/`):
 
 ```
-bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/FlavorTextExtendedFR --replace --workshop-id 3806100488 --package-id nelim.flavortextextended.fr --release-title "Flavor Text Extended - Français {version}" --require Assemblies/FlavorTextExtendedFR.dll --description-file PUBLICATION.md --description-heading '^## Steam description$' --gallery-dir Gallery
+bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/FlavorTextExtendedFR --replace --workshop-id 3806100488 --package-id nelim.flavortextextended.fr --release-title "Flavor Text Extended - Français {version}" --require Assemblies/FlavorTextExtendedFR.dll --description-file PUBLICATION.md --description-heading '^## Steam description$' --gallery-dir Art/Gallery
 ```
 
 - Fail fast applies to this mod (owner, 2026-09-25): publish after the dry-run and the approval, then the remaining tests in
@@ -261,6 +269,8 @@ bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/Flav
   **validation of the reds**: every scenario that failed, and every defect found by a person, must be green on the revision to
   publish before it goes out, because publishing a fix that was never seen to work is not fail fast, it is a guess. A green
   ticket on the fix (the fewest scenarios that were red) is the condition; the replay of everything else follows.
+- 1.0.1 is sent with **both new options** (owner, 2026-09-25: the new description and the new Preview go with it): dry-run
+  `-f update_description=true -f update_preview=true`, and `dispatch-publish.sh ... --description --preview`, the same options in both.
 - Order of operations: dry-run of the exact SHA (`gh workflow run publish-tag.yml --ref main -f ref=<SHA> -f version=<version>
   -f mode=dry-run -f update_description=true`), then `Rimworld-Release-Admin/scripts/dispatch-publish.sh` with the full SHA and
   the same option. Only the owner approves `steam-production`. The CI creates the tag `v<version>` and the GitHub release
@@ -270,7 +280,7 @@ bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/Flav
   if a target is ever wanted.
 - Description and gallery (owner, 2026-09-25): the description is sent by the CI (`## Steam description` above,
   `update_description` on, the same option in the dry-run and in the publish); the gallery is only listed (manual upload,
-  `Gallery/` for 1.0.0, then `Art/Gallery/`).
+  `Gallery/` for 1.0.0, `Art/Gallery/` from 1.0.1).
 - Preview (owner, 2026-09-25): regenerated without the `(unofficial)` tag (`_tools/Render-Preview.ps1`), 566,527 bytes; it is in `Mod/`, so it
   is uploaded with the mod, but the Steam page image changes only with `update_preview` on. The suffix decision and its justification:
   `_tools/UPSTREAM-PERMISSION-REVIEW.md`, "Decision of 2026-09-25". The page titles (French and English) are edited by hand by the owner.

@@ -45,7 +45,7 @@ state that scope explicitly. No licence is invented for the upstream work.
 ## AI assistance and images
 
 Initial translation work used Claude (Anthropic), under human direction and review.
-The correction pass used Codex (OpenAI). A mascot icon candidate and a Preview candidate
+The correction pass used Codex (OpenAI). Later fixes and the in-game test suite used Claude Code (Anthropic). A mascot icon candidate and a Preview candidate
 were produced with OpenAI's built-in image generation tool from the existing local artwork.
 The user preferred the original icon, which is retained and resized to 128x128. The final Preview uses a reproducible HTML overlay on the original illustration. Original artwork and superseded renders are preserved under `Art/`.
 No claim of third-party art permission is inferred from an image being present locally.

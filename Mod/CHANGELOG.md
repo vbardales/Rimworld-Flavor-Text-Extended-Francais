@@ -6,6 +6,11 @@
   ("Dolma, façon œufs de poule", not "Dolma, façon Œufs de poule"; "avec huîtres des Rocheuses", not "avec Huîtres"). Flavor Text
   title-cases every dish label because an English joint is followed by a capitalized name; a dish whose own French label starts
   with a capital (a proper noun) keeps it. Found in the gallery captures of 1.0.0 by the owner. The descriptions were not affected.
+- Description and page: every mod name links to its Workshop page; the thanks name the test tools (Pickle, RimLogging, PickleTools, development only)
+  and thank the authors of the optional mods whose ingredient tables are covered and of RIMMSQOL; the AI mention names the tools
+  (Claude, Codex, Claude Code, OpenAI's image generation tool).
+- `About.xml` links Flavor Text Extended's Workshop page (3806100152) as well as its GitHub repository.
+- The Preview sets Extended as a suffix of the title, like the rest of the collection.
 
 ## [1.0.0] - 2026-09-25
 
