@@ -33,23 +33,23 @@ in_game_runs: "2026-09-21 (before the language fix and the revisions): English 1
 last_fix_revision: 164104b
 pushed: true
 pushed_at: 2026-09-22
-tag: v1.0.0
-tag_revision: ed5900bec5570282e6972785d5a37736c12dbf0d
-release: "https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais/releases/tag/v1.0.0"
+tag: none (v1.0.0 deleted 2026-09-25 by owner decision; the CI creates it after a successful upload)
+tag_revision: none
+release: none (the hand-made v1.0.0 release was deleted 2026-09-25; the CI creates it)
 audit_revision: 634066483d44f51201aa8ea0722da4b796864aad
 review_revision: c675e87
 in_game_validation_owner: user
 workshop:
   id: "3806100488"
   id_committed_at: 2026-09-22
-  tag: v1.0.0
-  tag_revision: ed5900bec5570282e6972785d5a37736c12dbf0d
-  visibility: unverified
+  tag: none
+  tag_revision: none
+  visibility: private (owner, 2026-09-25: pre-published in 0.1.0, private, as Steam creates every item)
   self_subscription_test: unverified
-prepublished: partial
+prepublished: partial (publication workflow committed 7b96007; fail fast applies to 1.0.0; rollback target: none, item set private if a problem appears; dry-run of 7b96007 with CI/CD, approval by the owner only)
 published: unverified
 maintainer: Codex, task responsible for this local repository
-updated: 2026-09-24
+updated: 2026-09-25
 remaining:
   - "partial (done -> tested): passes 1 to 9 were replayed on 2026-09-23/24 with ScreenshotMode and are green (in_game_runs above). Still to play: pass 2b (cooking film, feature 09, first attempt killed by the 120 s bill wait, rewritten with a sliced wait, queued again), feature 20 in passes 3 and 4 (provider tables, new, thresholds to calibrate), pass 10 (F13), and a final replay of passes 1, 2 and 5 on the normalized suite (no @wip, explicit filters, fixed fixture foodType). Stage stays done until then."
   - "partial (done -> tested): F13. The fixture is made by feature 21 (@fixture-maker, an English game where this mod changes nothing), run alone; its save is to be committed as Tests/Pickle/Mod/Pickle/Fixtures/legacy-meals-before-ftfr.rws, then feature 18 loses its last @wip and plays in pass 10 (French), pausing on an existing meal and capturing its info card."

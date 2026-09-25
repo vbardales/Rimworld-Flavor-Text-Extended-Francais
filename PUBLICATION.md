@@ -111,8 +111,10 @@ bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/Flav
   -f mode=dry-run`), then `Rimworld-Release-Admin/scripts/dispatch-publish.sh` with the full SHA. Only the owner approves
   `steam-production`. The CI creates the tag `v1.0.0` and the GitHub release after the upload: never create them by hand
   (the hand-made ones of 2026-09-22 were deleted for that reason).
-- Rollback: the Steam button "rétablir cette version" in the item's change history. **Target to choose before publishing
-  (the owner):** not chosen yet. The only earlier entry is 0.1.0 (`ed5900b`), which holds the item id and no working content.
+- Rollback: **no rollback target** (owner, 2026-09-25). If the published 1.0.0 turns out to be wrong, the owner sets the item
+  back to private on Steam; nothing is restored. The only earlier entry, 0.1.0 (`ed5900b`), holds the item id and no working
+  content, so it would not be a usable target. The Steam button "rétablir cette version" of the item's change history exists
+  if a target is ever wanted.
 - Open: whether the page description is sent by the CI (`--description-file`, a template file) and which gallery folder the
   dry-run lists; asked of CI/CD on 2026-09-25, no answer yet.
 - The whole of `Mod/` is uploaded (no `.steamignore`): About, Assemblies, Biotech, Defs, Languages, Patches,
