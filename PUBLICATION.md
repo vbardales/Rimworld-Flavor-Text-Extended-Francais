@@ -76,15 +76,47 @@ in sources, not by intention: see `Mod/Patches/Inflections_ThirdParty_FR.xml` an
 and descriptions; the ModIcon and Preview were opened and inspected (see `STATUS.md`). Both Workshop
 checkboxes should be left unchecked.
 
-## Steam version notes (write at the moment of the next Workshop update)
+## Steam version notes
 
-Prepared for the v1.0.0 Workshop form (the version is anchored by the committed
-`About/PublishedFileId.txt`; enter this text at update time):
+The publication workflow reads the change note from the heading below (a fenced block, BBCode as Steam
+will show it, 8000 bytes at most). Nothing else in this section is read by it.
 
-> First release: French names and descriptions for 930 Flavor Text dishes and 901 Flavor Text
-> Extended dishes, French ingredient and side-dish grammar, and the shared Flavor Text settings
-> under this mod's own name. Requires Flavor Text, Flavor Text Extended, and Harmony. See the
-> Workshop description and GitHub source for compatibility details and known limits.
+### 1.0.0
+
+```
+[b]1.0.0 - first public release[/b]
+[list]
+[*] French names and descriptions for 930 Flavor Text dishes and 901 Flavor Text Extended dishes.
+[*] French ingredient inflections (four tables, 150 predefined entries, the eleven third-party tables and neutral forms for unlisted ingredients) and French side-dish grammar (elision before a vowel, none before an aspirated h).
+[*] The five Flavor Text settings in French, under this mod's own name, sharing the upstream configuration; a hidden MainButtons shortcut that RIMMSQOL can reveal.
+[*] Applies only when the game language is French; in any other language it changes nothing.
+[*] Requires Flavor Text, Flavor Text Extended and Harmony. See the Workshop description and the GitHub source for compatibility and known limits.
+[/list]
+```
+
+## Publication by CI (fail fast)
+
+Steam publications go through GitHub Actions (root `PUBLISHING.md`, "Publier par la CI"). The workflow of this mod
+is the manual one (`publish-tag.yml`), for an item that already exists (id 3806100488, pre-published in 0.1.0,
+private). Generated on 2026-09-25 with the command below, run from the monorepo root (it writes only under
+`.github/`):
+
+```
+bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/FlavorTextExtendedFR --workshop-id 3806100488 --package-id nelim.flavortextextended.fr --release-title "Flavor Text Extended - Français {version}" --require Assemblies/FlavorTextExtendedFR.dll
+```
+
+- Fail fast applies to this 1.0.0 (owner, 2026-09-25): publish after the dry-run and the approval, then the
+  remaining tests in small tickets; if one is red, roll back and publish a fix.
+- Order of operations: dry-run of the exact SHA (`gh workflow run publish-tag.yml --ref main -f ref=<SHA> -f version=1.0.0
+  -f mode=dry-run`), then `Rimworld-Release-Admin/scripts/dispatch-publish.sh` with the full SHA. Only the owner approves
+  `steam-production`. The CI creates the tag `v1.0.0` and the GitHub release after the upload: never create them by hand
+  (the hand-made ones of 2026-09-22 were deleted for that reason).
+- Rollback: the Steam button "rétablir cette version" in the item's change history. **Target to choose before publishing
+  (the owner):** not chosen yet. The only earlier entry is 0.1.0 (`ed5900b`), which holds the item id and no working content.
+- Open: whether the page description is sent by the CI (`--description-file`, a template file) and which gallery folder the
+  dry-run lists; asked of CI/CD on 2026-09-25, no answer yet.
+- The whole of `Mod/` is uploaded (no `.steamignore`): About, Assemblies, Biotech, Defs, Languages, Patches,
+  LoadFolders.xml, ATTRIBUTION.md, CHANGELOG.md, LICENSE.
 
 ## After the next Workshop update — do not forget
 

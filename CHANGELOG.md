@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 — 2026-09-22
+## [1.0.0] - 2026-09-25
 
 - French names and descriptions for 930 Flavor Text dishes and 901 Flavor Text Extended dishes, including
   the five FoodCourt-discovered Extended dishes and four provider-scoped Shenzhou ingredient entries;
@@ -26,7 +26,7 @@
   RIMMSQOL. The English, French and RIMMSQOL passes played green on 2026-09-21; see `STATUS.md` and
   `TESTING.md` for pending capture/film evidence, including F13 once its pre-translation fixture is committed.
 
-## 0.1.0 — 2026-09-22
+## [0.1.0] - 2026-09-22
 
 - Creation of the `PublishedFileId` file: the mod was pre-published to the Steam Workshop to create its
   item, id `3806100488`, recorded in `Mod/About/PublishedFileId.txt` (commit `ed5900b`). The item's

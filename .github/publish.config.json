@@ -1,0 +1,11 @@
+{
+  "templateStamp": "eba6b3fdf670",
+  "workshopId": "3806100488",
+  "packageId": "nelim.flavortextextended.fr",
+  "releaseTitle": "Flavor Text Extended - Français {version}",
+  "requirePaths": [
+    "Assemblies/FlavorTextExtendedFR.dll"
+  ],
+  "forbidPaths": [],
+  "previewFile": "About/Preview.png"
+}
