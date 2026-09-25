@@ -49,6 +49,22 @@ namespace FlavorTextExtendedFR.PickleSteps
         }
 
         /// <summary>
+        /// Opens the info card of the dish the cook made, the pane's own "i" button, which shows the whole
+        /// name and the description, and logs both so the report carries the words a person judges. The
+        /// dish is the one the cook made, never a meal of the fixture colony.
+        /// </summary>
+        [When("I open the info card of the cooked meal")]
+        public async System.Threading.Tasks.Task OpenCookedMealInfoCard(PickleContext ctx)
+        {
+            var meal = CookedMeal(Driver.Map(ctx));
+            ctx.Require(meal != null, "no cooked meal on the map to open the info card of");
+            Log.Message($"[FTFR tests] cooked meal at ({meal.Position.x}, {meal.Position.z}) full name: {meal.LabelCap}");
+            Log.Message($"[FTFR tests] cooked meal at ({meal.Position.x}, {meal.Position.z}) description: {meal.DescriptionDetailed}");
+            Find.WindowStack.Add(new Dialog_InfoCard(meal));
+            await ctx.WaitFrames(5);
+        }
+
+        /// <summary>
         /// The stock "I wait for bill to finish" gives the whole cook 120 real seconds and then kills the
         /// game with no report (seen 2026-09-24: the first pass 2b died there). This waits in slices of
         /// real time and returns as soon as a meal carrying CompFlavor lies on the map. When the slice
