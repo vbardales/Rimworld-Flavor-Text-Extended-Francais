@@ -49,11 +49,13 @@ The register is `WORKSHOP_COMMENTS.md` at the monorepo root (one main comment pe
 
 The item is public (owner, 2026-09-25), so these can be posted. One main comment per recipient page, in English like the ones already sent, under Steam's 1,000-character limit, ending with this mod's item URL. Only the owner posts. After posting, change the row in `WORKSHOP_COMMENTS.md` to `posted` with the date. Nothing here claims a tested integration: Vanilla Cooking Expanded, More Plants, Kit's Brazilian Crops, both VGP mods, RimCuisine 2 and TP Sea Plants were loaded by the in-game passes; V.O.I.D., Medieval Overhaul and Optimization: Meats are covered by offline checks only, and their comments say only that the French forms exist.
 
+**Credits corrected 2026-09-25 (after the owner's remark):** RimCuisine 2 Core (Continued) is Mlie's update of Crustypeanut's mod (original 1833592062); Kit's Brazilian Crops (Continued) is Zaljerem's update of a mod by Kitsune (original 2388898158). The description now says so; it reaches the Steam page with the next `update_description` publication. The Kit's comment already posted thanks Zaljerem only.
+
 **Posted by the owner on 2026-09-25** (texts not kept here; the drafts were replaced by the ones below): Vanilla Cooking Expanded (2134308519), Vanilla Plants Expanded - More Plants (2748889667), Kit's Brazilian Crops (2886512401), VGP Vegetable Garden (2007061826), VGP Garden Gourmet (2007062982).
 
-**Crustypeanut — RimCuisine 2 Core (Continued)** ([Workshop 2562519366](https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366)) — 361 characters
+**Mlie, continuing Crustypeanut — RimCuisine 2 Core (Continued)** ([Workshop 2562519366](https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366)) — 400 characters
 
-> Fun fact, Crustypeanut: RimCuisine 2 shared a test colony with the French translation of Flavor Text Extended 🍰 Its ingredients get French names in the meal titles, restaurant-menu style, and it all happens quietly when both are loaded. You don't have to do a thing. Thank you for the cookbook! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
+> Fun fact: RimCuisine 2 shared a test colony with the French translation of Flavor Text Extended 🍰 Its ingredients get French names in the meal titles, restaurant-menu style, and it all happens quietly when both are loaded. Mlie, thank you for bringing the cookbook back for 1.6, and to Crustypeanut for writing it in the first place! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
 
 **Tanypredator — TP Sea Plants** ([Workshop 3643012859](https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859)) — 319 characters
 
@@ -170,10 +172,10 @@ Merci à [b]hekmo[/b] pour [url=https://steamcommunity.com/sharedfiles/filedetai
 Merci aussi aux auteurs des mods facultatifs dont cette traduction couvre les tables d'ingrédients, et que ses tests en jeu ont chargés à côté d'elle, sauf les trois derniers, vérifiés hors jeu seulement :
 [list]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], par Oskar Potocki, Sarg Bjornson et d'autres
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], par Zaljerem
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], par Kitsune, repris par Zaljerem
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url] et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007062982]VGP Garden Gourmet[/url], par dismarzero
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url], par VVenchov
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], par Crustypeanut
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], par Crustypeanut, repris par Mlie
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], par Tanypredator
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url] (Shenzhou), par Diamond.J, DaJian, Frolg, TangWan, XF et d'autres
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2883208829]RH2 Faction: V.O.I.D.[/url], par Chicken Plucker
@@ -267,10 +269,10 @@ Thanks to [b]hekmo[/b] for [url=https://steamcommunity.com/sharedfiles/filedetai
 Thanks also to the authors of the optional mods whose ingredient tables this translation covers, and which its in-game tests loaded beside it, except the last three, which are checked offline only:
 [list]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], by Oskar Potocki, Sarg Bjornson and others
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], by Zaljerem
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], by Kitsune, continued by Zaljerem
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007062982]VGP Garden Gourmet[/url], by dismarzero
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url], by VVenchov
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], by Crustypeanut
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], by Crustypeanut, continued by Mlie
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], by Tanypredator
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url] (Shenzhou), by Diamond.J, DaJian, Frolg, TangWan, XF and others
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2883208829]RH2 Faction: V.O.I.D.[/url], by Chicken Plucker
