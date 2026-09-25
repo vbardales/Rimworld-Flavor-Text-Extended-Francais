@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1] - 2026-09-25
+
+- Fixed: in a meal name with a side dish, the side dish no longer starts with a capital after a French joint
+  ("Dolma, façon œufs de poule", not "Dolma, façon Œufs de poule"; "avec huîtres des Rocheuses", not "avec Huîtres"). Flavor Text
+  title-cases every dish label because an English joint is followed by a capitalized name; a dish whose own French label starts
+  with a capital (a proper noun) keeps it. Found in the gallery captures of 1.0.0 by the owner. The descriptions were not affected.
+
 ## [1.0.0] - 2026-09-25
 
 - French names and descriptions for 930 Flavor Text dishes and 901 Flavor Text Extended dishes, including

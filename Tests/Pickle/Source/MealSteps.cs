@@ -129,6 +129,24 @@ namespace FlavorTextExtendedFR.PickleSteps
             ctx.Assert(!text.Contains(defName), $"the internal name {defName} shows in the meal text: {text}");
         }
 
+        /// <summary>
+        /// Flavor Text title-cases every dish label, so a side dish read "Dolma, façon Œufs de poule" (found by
+        /// the owner in the gallery captures, 2026-09-25). After a French joint the side dish reads in lower case.
+        /// Only in the French pass; in English the capital is the game's own convention.
+        /// </summary>
+        [Then("the side dishes of the meal at \\({int}, {int}\\) do not start with a capital after a French joint")]
+        public void SideDishesLowerCase(PickleContext ctx, int x, int z)
+        {
+            var meal = MealAt(ctx, x, z);
+            if (!Driver.Language(ctx).StartsWith("French")) return;
+            var label = meal.Label;
+            var cut = label.LastIndexOf(" (", System.StringComparison.Ordinal);
+            var dish = cut < 0 ? label : label.Substring(0, cut);
+            var match = Regex.Match(dish, @"(?:\b(?:façon|avec|et) |: )\p{Lu}");
+            ctx.Assert(!match.Success, $"a side dish starts with a capital after a French joint in '{dish}' (at '{match.Value}')");
+            Log.Message($"[FTFR tests] meal at ({x}, {z}) side dishes checked: {dish}");
+        }
+
         internal static void AssertNamed(PickleContext ctx, Thing meal)
         {
             var x = meal.Position.x; var z = meal.Position.z;

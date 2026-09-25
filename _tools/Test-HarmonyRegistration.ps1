@@ -63,6 +63,17 @@ foreach($noun in @('haricots','houblon','husky','hérons')){
     if([FlavorTextExtendedFR.FrenchMealPostProcessing]::Apply($worker,$text) -cne $text){throw "Aspirated h lost: $noun"}
 }
 if([FlavorTextExtendedFR.FrenchMealPostProcessing]::Apply($worker,'Plat de huile et de oignon') -cne "Plat d'huile et d'oignon"){throw 'Normal elision changed.'}
+$title=[Func[string,string]]{param($s) $worker.ToTitleCase($s)}
+$sides=[System.Collections.Generic.List[string]]::new()
+$sides.Add('dolma'); $sides.Add('œufs de poule tournés à jaune coulant')
+if([FlavorTextExtendedFR.FrenchMealPostProcessing]::LowerSideDishes('Dolma, façon Œufs de poule tournés à jaune coulant',$sides,$title) -cne 'Dolma, façon œufs de poule tournés à jaune coulant'){throw 'Side dish kept its capital after a French joint.'}
+$sides2=[System.Collections.Generic.List[string]]::new()
+$sides2.Add('funeral potatoes'); $sides2.Add('huîtres des Rocheuses')
+if([FlavorTextExtendedFR.FrenchMealPostProcessing]::LowerSideDishes('Funeral potatoes avec Huîtres des Rocheuses',$sides2,$title) -cne 'Funeral potatoes avec huîtres des Rocheuses'){throw 'Second side dish capital not lowered.'}
+$sides3=[System.Collections.Generic.List[string]]::new()
+$sides3.Add('salade'); $sides3.Add('Yukhoe')
+if([FlavorTextExtendedFR.FrenchMealPostProcessing]::LowerSideDishes('Salade et Yukhoe',$sides3,$title) -cne 'Salade et Yukhoe'){throw 'A proper noun lost its capital.'}
+Write-Output 'PASS: a side dish loses the capital Flavor Text gives it after a French joint (façon, avec), the main dish and a proper noun keep theirs.'
 $preferences.langFolderName='English'
 $englishWorker=$worker
 if([FlavorTextExtendedFR.FrenchMealPostProcessing]::Apply($englishWorker,"d'haricots") -cne "d'haricots"){throw 'Non-French processing changed.'}

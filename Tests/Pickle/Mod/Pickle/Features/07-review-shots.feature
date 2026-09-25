@@ -61,6 +61,7 @@ Feature: captures of French meal names and descriptions for a person to validate
 
   Scenario: a lavish meal of four ingredients, squirrel, milk, rice and egg
     Given a lavish meal made of "Meat_Squirrel", "Milk", "RawRice" and "EggChickenUnfertilized" lies at (143, 150)
+    Then the side dishes of the meal at (143, 150) do not start with a capital after a French joint
     When I select the meal at (143, 150)
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     And I take a screenshot "F05 F06 lavish meal, squirrel milk rice egg, inspect pane"
@@ -73,6 +74,7 @@ Feature: captures of French meal names and descriptions for a person to validate
 
   Scenario: a lavish meal of four ingredients, cow, potatoes, corn and milk
     Given a lavish meal made of "Meat_Cow", "RawPotatoes", "RawCorn" and "Milk" lies at (144, 150)
+    Then the side dishes of the meal at (144, 150) do not start with a capital after a French joint
     When I select the meal at (144, 150)
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     And I take a screenshot "F05 F06 lavish meal, cow potatoes corn milk, inspect pane"

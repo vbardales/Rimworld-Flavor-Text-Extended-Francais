@@ -46,7 +46,7 @@ Thanks to [b]hekmo[/b] for [i]Flavor Text[/i] and its naming machinery, and to [
 No explicit upstream permission has been established; see ATTRIBUTION.md and LICENSE for the exact scope. The local MIT notice applies only to rights held by the contributor and grants no rights in the upstream material.
 
 [url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Source code on GitHub[/url]</description>
-  <modVersion>1.0.0</modVersion>
+  <modVersion>1.0.1</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>

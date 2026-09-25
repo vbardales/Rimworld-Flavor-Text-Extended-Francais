@@ -102,6 +102,15 @@ will show it, 8000 bytes at most). Nothing else in this section is read by it.
 [/list]
 ```
 
+### 1.0.1
+
+```
+[b]1.0.1[/b]
+[list]
+[*] Fixed: a side dish no longer starts with a capital after a French joint ("Dolma, façon œufs de poule" instead of "façon Œufs de poule"). A dish whose own name is a proper noun keeps its capital.
+[/list]
+```
+
 ## Steam description
 
 Source of the page description sent by the CI (`update_description` on): the fenced block below, BBCode as Steam shows it,
@@ -158,52 +167,29 @@ No explicit upstream permission has been established; see ATTRIBUTION.md and LIC
 
 Steam publications go through GitHub Actions (root `PUBLISHING.md`, "Publier par la CI"). The workflow of this mod
 is the manual one (`publish-tag.yml`), for an item that already exists (id 3806100488, pre-published in 0.1.0,
-private). Generated on 2026-09-25 (regenerated the same day with the description and gallery options) with the command below, run from the monorepo root (it writes only under
-`.github/`):
+private). Generated on 2026-09-25 from the pushed template of Rimworld-Release-Admin (`a94c0fe`, stamp
+`683151266dd1`) with the command below, run from the monorepo root (it writes only under `.github/`):
 
 ```
-bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/FlavorTextExtendedFR --replace --workshop-id 3806100488 --package-id nelim.flavortextextended.fr --release-title "Flavor Text Extended - Français {version}" --require Assemblies/FlavorTextExtendedFR.dll --description-file PUBLICATION.md --description-heading '^## Steam description
-
-- Fail fast applies to this 1.0.0 (owner, 2026-09-25): publish after the dry-run and the approval, then the
-  remaining tests in small tickets; if one is red, roll back and publish a fix.
-- Order of operations: dry-run of the exact SHA (`gh workflow run publish-tag.yml --ref main -f ref=<SHA> -f version=1.0.0
-  -f mode=dry-run`), then `Rimworld-Release-Admin/scripts/dispatch-publish.sh` with the full SHA. Only the owner approves
-  `steam-production`. The CI creates the tag `v1.0.0` and the GitHub release after the upload: never create them by hand
-  (the hand-made ones of 2026-09-22 were deleted for that reason).
-- Rollback: **no rollback target** (owner, 2026-09-25). If the published 1.0.0 turns out to be wrong, the owner sets the item
-  back to private on Steam; nothing is restored. The only earlier entry, 0.1.0 (`ed5900b`), holds the item id and no working
-  content, so it would not be a usable target. The Steam button "rétablir cette version" of the item's change history exists
-  if a target is ever wanted.
-- Description and gallery (owner, 2026-09-25): the description is sent by the CI (`## Steam description` above, `update_description`
-  on, the same option in the dry-run and in the publish); the gallery is only listed (`Gallery/`, manual upload).
-- The whole of `Mod/` is uploaded (no `.steamignore`): About, Assemblies, Biotech, Defs, Languages, Patches,
-  LoadFolders.xml, ATTRIBUTION.md, CHANGELOG.md, LICENSE.
-
-## After the next Workshop update — do not forget
-
-- Commit `About/PublishedFileId.txt` immediately once it exists; losing it before that commit makes
-  the next upload create a second Workshop item.
-- The item id is already committed. Subscribe to that item, test for real, then confirm its public
-  visibility by hand — RimWorld never calls `SetItemVisibility`.
-- Post the thank-you messages above only after the item is public: a link to a private item opens
-  for no one.
- --gallery-dir Gallery
+bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/FlavorTextExtendedFR --replace --workshop-id 3806100488 --package-id nelim.flavortextextended.fr --release-title "Flavor Text Extended - Français {version}" --require Assemblies/FlavorTextExtendedFR.dll --description-file PUBLICATION.md --description-heading '^## Steam description$' --gallery-dir Gallery
 ```
 
-- Fail fast applies to this 1.0.0 (owner, 2026-09-25): publish after the dry-run and the approval, then the
-  remaining tests in small tickets; if one is red, roll back and publish a fix.
-- Order of operations: dry-run of the exact SHA (`gh workflow run publish-tag.yml --ref main -f ref=<SHA> -f version=1.0.0
-  -f mode=dry-run`), then `Rimworld-Release-Admin/scripts/dispatch-publish.sh` with the full SHA. Only the owner approves
-  `steam-production`. The CI creates the tag `v1.0.0` and the GitHub release after the upload: never create them by hand
-  (the hand-made ones of 2026-09-22 were deleted for that reason).
-- Rollback: **no rollback target** (owner, 2026-09-25). If the published 1.0.0 turns out to be wrong, the owner sets the item
-  back to private on Steam; nothing is restored. The only earlier entry, 0.1.0 (`ed5900b`), holds the item id and no working
-  content, so it would not be a usable target. The Steam button "rétablir cette version" of the item's change history exists
+- Fail fast applies to this mod (owner, 2026-09-25): publish after the dry-run and the approval, then the remaining tests in
+  small tickets; if one is red, fix and publish the fix.
+- Order of operations: dry-run of the exact SHA (`gh workflow run publish-tag.yml --ref main -f ref=<SHA> -f version=<version>
+  -f mode=dry-run -f update_description=true`), then `Rimworld-Release-Admin/scripts/dispatch-publish.sh` with the full SHA and
+  the same option. Only the owner approves `steam-production`. The CI creates the tag `v<version>` and the GitHub release
+  after the upload: never create them by hand (the hand-made `v1.0.0` of 2026-09-22 was deleted for that reason).
+- Rollback: **no rollback target** (owner, 2026-09-25). If a published version turns out to be wrong, the owner sets the item
+  back to private on Steam; nothing is restored. The Steam button "rétablir cette version" of the item's change history exists
   if a target is ever wanted.
-- Description and gallery (owner, 2026-09-25): the description is sent by the CI (`## Steam description` above, `update_description`
-  on, the same option in the dry-run and in the publish); the gallery is only listed (`Gallery/`, manual upload).
+- Description and gallery (owner, 2026-09-25): the description is sent by the CI (`## Steam description` above,
+  `update_description` on, the same option in the dry-run and in the publish); the gallery is only listed (manual upload,
+  `Gallery/` for 1.0.0, then `Art/Gallery/`).
 - The whole of `Mod/` is uploaded (no `.steamignore`): About, Assemblies, Biotech, Defs, Languages, Patches,
   LoadFolders.xml, ATTRIBUTION.md, CHANGELOG.md, LICENSE.
+- 1.0.0: SHA `43dd52da70c3ffbdb3ab55c7301e877be88040e9`, dry-run 36122774168, publish run 36124437186 approved by the owner
+  on 2026-09-25. 1.0.1 (side dish in lower case after a French joint) follows as its own publication.
 
 ## After the next Workshop update — do not forget
 
