@@ -63,12 +63,10 @@ Why, from the author's own public comments (Workshop comments of 3245374432 and 
   inflection and category translation of Flavor Text.
 - **12 October 2025** (`comment_594036760294565681`): hekmo encourages a separate fictional-recipe add-on (Flavor Text Extended, by
   the same owner as this mod) and gives the source spreadsheet.
-- **Licence:** the owner states (2026-09-25) that hekmo chose an MIT licence for Flavor Text, which she reads as openness to
-  modding. **Not verified by this review**: the installed Flavor Text 0.3.6 has no LICENSE file and its About.xml and README name
-  none, no public repository of the mod was found (2026-09-25), and the Workshop page could not be re-read (HTTP 429). The MIT
-  licence in this repository is the owner's own (Copyright (c) 2026 nelim). If an upstream MIT licence is confirmed, its copyright
-  and permission notice must be added to `ATTRIBUTION.md` and `Mod/LICENSE`, and the status becomes a declared licence, not
-  `silent`.
+- **Licence:** none found. The installed Flavor Text 0.3.6 has no LICENSE file, its About.xml and README name none, and no public
+  repository of the mod was found (2026-09-25). The owner's remark that the author might have chosen an MIT licence is therefore
+  **not taken into account** (owner, 2026-09-25: "s'il n'a pas de licence, ne prend pas en compte ma remarque sur MIT"). The MIT
+  licence in this repository is the owner's own (Copyright (c) 2026 nelim) and covers only her rights.
 
 What this is not: no explicit permission for this French derivative was given or asked (the author was never contacted about it).
 The first-contact message to hekmo is prepared in `PUBLICATION.md` and is to be posted once the item is public.
