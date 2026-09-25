@@ -126,8 +126,9 @@ Resolved later on 2026-09-25 (evening), at the owner's word: point 1 (hekmo alre
 `WORKSHOP_COMMENTS.md` updated in the monorepo root, left uncommitted there because it holds another session's changes; seven `drafted`
 rows added for the optional providers), points 2, 3 and 4 (description rewritten: Workshop links, thanks to the test tools and to the authors
 of the optional mods and of RIMMSQOL, AI tools named; `About.xml` links Flavor Text Extended's Workshop page), point 6 (the Preview follows the
-validated style and is installed). Still open in point 2: the mods behind the tables of [RH2] Faction: V.O.I.D., Medieval Overhaul and
-Optimization: Meats (C# Edition), whose Workshop ids are unconfirmed.
+validated style and is installed). Point 2 closed the same evening: the mods behind the tables of [RH2] Faction: V.O.I.D. (2883208829, Chicken Plucker),
+Medieval Overhaul (3219596926, SirLalaPyon continued by EvilEyes and ViralReaction) and Optimization: Meats - C# Edition (2542931556, SeoHyeon)
+were checked on their Workshop pages and thanked in the description.
 
 Corrected while reading, in this repository's own documents: `README.md` (validation paragraph, AI tool names), `TESTING.md` (feature count,
 rows 2b, 3, 4 and the review paragraph), `STATUS.md` (`mod_visibility`, `pushed_at`, `in_game_runs`, three `remaining` items),

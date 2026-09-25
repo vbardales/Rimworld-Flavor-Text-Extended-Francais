@@ -43,7 +43,7 @@ The initial French translation was made with Claude (Anthropic), under human dir
 
 Thanks to [b]hekmo[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] and its naming machinery, and to [b]Andreas Pardeike[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url], which this translation's language-aware patch depends on.
 
-Thanks also to the authors of the optional mods whose ingredient tables this translation covers, and which its in-game tests loaded beside it:
+Thanks also to the authors of the optional mods whose ingredient tables this translation covers, and which its in-game tests loaded beside it, except the last three, which are checked offline only:
 [list]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], by Oskar Potocki, Sarg Bjornson and others
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], by Zaljerem
@@ -52,6 +52,9 @@ Thanks also to the authors of the optional mods whose ingredient tables this tra
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], by Crustypeanut
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], by Tanypredator
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url] (Shenzhou), by Diamond.J, DaJian, Frolg, TangWan, XF and others
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2883208829]RH2 Faction: V.O.I.D.[/url], by Chicken Plucker
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926]Medieval Overhaul[/url], by SirLalaPyon, continued by EvilEyes and ViralReaction
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2542931556]Optimization: Meats - C# Edition[/url], by SeoHyeon
 [/list]
 And to [b]Malte Schulze[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1084452457]RIMMSQOL[/url], which the tests used to reveal and hide this mod's shortcut.
 

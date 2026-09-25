@@ -40,9 +40,10 @@ The register is `WORKSHOP_COMMENTS.md` at the monorepo root (one main comment pe
   Kit's Brazilian Crops (2886512401), VGP Vegetable Garden (2007061826), VGP Garden Gourmet (2007062982), RimCuisine 2 Core (2562519366)
   and TP Sea Plants (3643012859) had no row: `drafted` rows are added, the comments are still to write, and to post only once this item is
   public. The owner decides whether to write them.
-- **Not yet in the description:** the tables of [RH2] Faction: V.O.I.D., Medieval Overhaul and Optimization: Meats (C# Edition), which no pass
-  stages. Their Workshop ids are not confirmed (a web search suggests 2883208829, 3220265769 or 3219596926, and 2542931556): to be
-  confirmed by the owner before they are added.
+- **Thanked since 2026-09-25, checked offline only:** [RH2] Faction: V.O.I.D. (2883208829, Chicken Plucker; the page name matches
+  `RH2.Faction.VOID`), Medieval Overhaul (3219596926, SirLalaPyon, continued by EvilEyes and ViralReaction; 3220265769 is a collection, not
+  the mod; the packageId `DankPyon.Medieval.Overhaul` is not shown by Steam, so not verified) and Optimization: Meats - C# Edition
+  (2542931556, SeoHyeon). No pass stages them (owner's word, 2026-09-21); the description says so. Three `drafted` rows added to the register.
 
 ## Workshop page fields
 
@@ -138,7 +139,7 @@ La traduction française initiale a été faite avec Claude (Anthropic), sous di
 
 Merci à [b]hekmo[/b] pour [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] et sa mécanique de nommage, et à [b]Andreas Pardeike[/b] pour [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url], dont dépend le correctif sensible à la langue de cette traduction.
 
-Merci aussi aux auteurs des mods facultatifs dont cette traduction couvre les tables d'ingrédients, et que ses tests en jeu ont chargés à côté d'elle :
+Merci aussi aux auteurs des mods facultatifs dont cette traduction couvre les tables d'ingrédients, et que ses tests en jeu ont chargés à côté d'elle, sauf les trois derniers, vérifiés hors jeu seulement :
 [list]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], par Oskar Potocki, Sarg Bjornson et d'autres
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], par Zaljerem
@@ -147,6 +148,9 @@ Merci aussi aux auteurs des mods facultatifs dont cette traduction couvre les ta
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], par Crustypeanut
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], par Tanypredator
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url] (Shenzhou), par Diamond.J, DaJian, Frolg, TangWan, XF et d'autres
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2883208829]RH2 Faction: V.O.I.D.[/url], par Chicken Plucker
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926]Medieval Overhaul[/url], par SirLalaPyon, repris par EvilEyes et ViralReaction
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2542931556]Optimization: Meats - C# Edition[/url], par SeoHyeon
 [/list]
 Et à [b]Malte Schulze[/b] pour [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1084452457]RIMMSQOL[/url], que les tests ont utilisé pour révéler et masquer le raccourci de ce mod.
 
@@ -232,7 +236,7 @@ The initial French translation was made with Claude (Anthropic), under human dir
 
 Thanks to [b]hekmo[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] and its naming machinery, and to [b]Andreas Pardeike[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url], which this translation's language-aware patch depends on.
 
-Thanks also to the authors of the optional mods whose ingredient tables this translation covers, and which its in-game tests loaded beside it:
+Thanks also to the authors of the optional mods whose ingredient tables this translation covers, and which its in-game tests loaded beside it, except the last three, which are checked offline only:
 [list]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], by Oskar Potocki, Sarg Bjornson and others
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], by Zaljerem
@@ -241,6 +245,9 @@ Thanks also to the authors of the optional mods whose ingredient tables this tra
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], by Crustypeanut
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], by Tanypredator
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877536640]Chinese Traditional Cultural Things Expanded[/url] (Shenzhou), by Diamond.J, DaJian, Frolg, TangWan, XF and others
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2883208829]RH2 Faction: V.O.I.D.[/url], by Chicken Plucker
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926]Medieval Overhaul[/url], by SirLalaPyon, continued by EvilEyes and ViralReaction
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2542931556]Optimization: Meats - C# Edition[/url], by SeoHyeon
 [/list]
 And to [b]Malte Schulze[/b] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1084452457]RIMMSQOL[/url], which the tests used to reveal and hide this mod's shortcut.
 
