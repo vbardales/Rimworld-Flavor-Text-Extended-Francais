@@ -7,23 +7,23 @@ root for the general workflow; this file is the mod-specific record it asks for.
 
 ## Screenshots for the Workshop page
 
-**Not yet produced.** No curated, reviewed set of gameplay screenshots exists in this repository.
-The in-game Pickle passes (`Tests/Pickle/`, see `TESTING.md`) take `@review` captures for their own
-purpose — proving the settings dialog and a few meal names render correctly — and a few of those
-(the settings page, a fine meal's inspect pane, two lavish meals with their info cards) were opened
-and validated by the owner on 2026-09-21, but they were taken for verification, not composed or
-selected as a Workshop showcase, and they are not stored in the repository (`.build/`, gitignored).
+The gallery images are in `Gallery/` (committed, outside `Mod/`, so they are not uploaded with the mod). **Steam's
+gallery is a manual upload**: SteamCMD has one image field, so the CI does not send them; the dry-run only lists this
+folder as a reminder. Upload them in the order of their file names. Each one was taken by a Pickle pass (the French pass
+of 2026-09-23, `docs/runs/2026-09-23.md`), re-encoded as JPEG (about 0.25 MB each), and **opened and looked at** before
+being chosen; none is a mock-up.
 
-Before the next Workshop update, pick and order 3-5 screenshots from a real playthrough or a
-dedicated Pickle capture pass, following STYLE_RIMWORLD.md's rule for a showcase image: the first
-one is the most demonstrative, not the prettiest, because Steam displays it large. Candidates, based
-on what this mod actually changes:
-1. A cooked meal's full French name and description in the inspect pane or info card (the mod's
-   whole point).
-2. The settings page (`Options → Mod settings → Flavor Text Extended - Français (unofficial)`),
-   showing the five controls.
-3. A side-dish name using the French joining grammar (`façon`, `avec`), from a lavish meal.
-4. Optionally, the elision/aspirated-h contrast (`d'écureuil` vs `de husky`) side by side.
+1. `01-lavish-meal-french-name-and-description.jpg`: the info card of a lavish meal, "Dolma, façon Œufs de poule tournés à
+   jaune coulant". First because it is the most demonstrative: a long French name with the French side-dish joint
+   ("façon") and a full French description. (The inspect pane at the bottom left is the selected meal's.)
+2. `02-elision-refused-before-aspirated-h.jpg`: "Stroganoff de husky", the aspirated h that refuses the elision
+   (never "d'husky"), asserted by feature 19 as well.
+3. `03-side-dish-with-french-grammar.jpg`: a lavish meal with a side dish joined by "avec" ("Funeral potatoes avec Huîtres
+   des Rocheuses"; the American dish name stays in English on purpose, its description explains it).
+4. `04-settings-page-in-french.jpg`: the settings page opened from Options, Mod settings, fully French.
+
+Not used: the captures of the RIMMSQOL pages and of the meal made before the translation (F13); they prove behaviour and
+show nothing a player would choose this mod for.
 
 ## Thank-you messages
 
@@ -94,15 +94,92 @@ will show it, 8000 bytes at most). Nothing else in this section is read by it.
 [/list]
 ```
 
+## Steam description
+
+Source of the page description sent by the CI (`update_description` on): the fenced block below, BBCode as Steam shows it,
+8000 bytes at most, no double quote and no backslash (the CI turns every double quote into a typographic one). It is the
+same text as `<description>` in `Mod/About/About.xml`, which Steam only reads when an item is created: after that this block
+is the source, so change both together. The dry-run prints its size, its SHA-256 and a line diff against the current page.
+
+```
+UNOFFICIAL. This mod is published without the original author's explicit consent.
+If the original author contacts me to request its removal, I undertake to take it down promptly.
+
+French dish names, descriptions and ingredient forms for Flavor Text and Flavor Text Extended.
+
+[h2]What it translates[/h2]
+
+The names and descriptions of 930 Flavor Text dishes and 901 Flavor Text Extended dishes, the five Flavor Text settings, predefined ingredient inflections and side-dish sentence templates. No new dishes are added by this translation.
+
+[h2]Languages[/h2]
+
+French ingredient forms carry their own articles and prepositions, for example « aux baies » and « de bœuf ». A small language-aware patch applies these forms and the side-dish grammar only when French is selected. English keeps the original dependencies' text and inflection tables. Switching the game's language restarts it, so this has been checked with a clean start in each language.
+
+[h2]Compatibility[/h2]
+
+Requires RimWorld 1.6, [i]Flavor Text[/i] by hekmo, and [i]Flavor Text Extended[/i], in that order. Harmony is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
+
+[h2]Settings[/h2]
+
+Use [b]Options → Mod settings → Flavor Text Extended - Français (unofficial)[/b] for the five shared Flavor Text settings. The original page uses the same configuration. An optional MainButtons shortcut is hidden by default and can be revealed by customization mods. No customization mod is required for primary access. Restart after changing recipe matching or dynamic meal detection to rebuild caches.
+
+[h2]Known limits[/h2]
+
+Unlisted ingredients use neutral French forms built from their localized labels; unknown irregular singulars and missing third-party translations cannot be inferred. All seven category forms and the hairy-meal prefix are translated. Language isolation, the settings page and shortcut, French meal naming, the tables of the optional ingredient mods, meals saved before the translation and RIMMSQOL all have technical and in-game coverage; the filmed cooking with a colonist is still being verified (tracked in STATUS.md).
+
+[hr][/hr]
+
+[h2]If I go quiet[/h2]
+
+If I do not answer within a reasonable time after being contacted, anyone may freely update this or any other of my mods, including publishing a continuation of it. All credit must be preserved.
+
+[h2]AI-generated[/h2]
+
+Translation work used Claude (Anthropic) under human direction and review; subsequent fixes, testing and image editing used both Claude and OpenAI tools.
+
+[h2]Thanks[/h2]
+
+Thanks to [b]hekmo[/b] for [i]Flavor Text[/i] and its naming machinery, and to [b]Harmony[/b], which this translation's language-aware patch depends on.
+
+No explicit upstream permission has been established; see ATTRIBUTION.md and LICENSE for the exact scope. The local MIT notice applies only to rights held by the contributor and grants no rights in the upstream material.
+
+[url=https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais]Source code on GitHub[/url]
+```
+
 ## Publication by CI (fail fast)
 
 Steam publications go through GitHub Actions (root `PUBLISHING.md`, "Publier par la CI"). The workflow of this mod
 is the manual one (`publish-tag.yml`), for an item that already exists (id 3806100488, pre-published in 0.1.0,
-private). Generated on 2026-09-25 with the command below, run from the monorepo root (it writes only under
+private). Generated on 2026-09-25 (regenerated the same day with the description and gallery options) with the command below, run from the monorepo root (it writes only under
 `.github/`):
 
 ```
-bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/FlavorTextExtendedFR --workshop-id 3806100488 --package-id nelim.flavortextextended.fr --release-title "Flavor Text Extended - Français {version}" --require Assemblies/FlavorTextExtendedFR.dll
+bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/FlavorTextExtendedFR --replace --workshop-id 3806100488 --package-id nelim.flavortextextended.fr --release-title "Flavor Text Extended - Français {version}" --require Assemblies/FlavorTextExtendedFR.dll --description-file PUBLICATION.md --description-heading '^## Steam description
+
+- Fail fast applies to this 1.0.0 (owner, 2026-09-25): publish after the dry-run and the approval, then the
+  remaining tests in small tickets; if one is red, roll back and publish a fix.
+- Order of operations: dry-run of the exact SHA (`gh workflow run publish-tag.yml --ref main -f ref=<SHA> -f version=1.0.0
+  -f mode=dry-run`), then `Rimworld-Release-Admin/scripts/dispatch-publish.sh` with the full SHA. Only the owner approves
+  `steam-production`. The CI creates the tag `v1.0.0` and the GitHub release after the upload: never create them by hand
+  (the hand-made ones of 2026-09-22 were deleted for that reason).
+- Rollback: **no rollback target** (owner, 2026-09-25). If the published 1.0.0 turns out to be wrong, the owner sets the item
+  back to private on Steam; nothing is restored. The only earlier entry, 0.1.0 (`ed5900b`), holds the item id and no working
+  content, so it would not be a usable target. The Steam button "rétablir cette version" of the item's change history exists
+  if a target is ever wanted.
+- Description and gallery (owner, 2026-09-25): the description is sent by the CI (`## Steam description` above, `update_description`
+  on, the same option in the dry-run and in the publish); the gallery is only listed (`Gallery/`, manual upload).
+- The whole of `Mod/` is uploaded (no `.steamignore`): About, Assemblies, Biotech, Defs, Languages, Patches,
+  LoadFolders.xml, ATTRIBUTION.md, CHANGELOG.md, LICENSE.
+
+## After the next Workshop update — do not forget
+
+- Commit `About/PublishedFileId.txt` immediately once it exists; losing it before that commit makes
+  the next upload create a second Workshop item.
+- The item id is already committed. Subscribe to that item, test for real, then confirm its public
+  visibility by hand — RimWorld never calls `SetItemVisibility`.
+- Post the thank-you messages above only after the item is public: a link to a private item opens
+  for no one.
+ --gallery-dir Gallery
 ```
 
 - Fail fast applies to this 1.0.0 (owner, 2026-09-25): publish after the dry-run and the approval, then the
@@ -115,8 +192,8 @@ bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/Flav
   back to private on Steam; nothing is restored. The only earlier entry, 0.1.0 (`ed5900b`), holds the item id and no working
   content, so it would not be a usable target. The Steam button "rétablir cette version" of the item's change history exists
   if a target is ever wanted.
-- Open: whether the page description is sent by the CI (`--description-file`, a template file) and which gallery folder the
-  dry-run lists; asked of CI/CD on 2026-09-25, no answer yet.
+- Description and gallery (owner, 2026-09-25): the description is sent by the CI (`## Steam description` above, `update_description`
+  on, the same option in the dry-run and in the publish); the gallery is only listed (`Gallery/`, manual upload).
 - The whole of `Mod/` is uploaded (no `.steamignore`): About, Assemblies, Biotech, Defs, Languages, Patches,
   LoadFolders.xml, ATTRIBUTION.md, CHANGELOG.md, LICENSE.
 

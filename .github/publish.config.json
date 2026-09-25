@@ -1,5 +1,5 @@
 {
-  "templateStamp": "eba6b3fdf670",
+  "templateStamp": "8ae524c8448f",
   "workshopId": "3806100488",
   "packageId": "nelim.flavortextextended.fr",
   "releaseTitle": "Flavor Text Extended - Français {version}",
@@ -7,5 +7,10 @@
     "Assemblies/FlavorTextExtendedFR.dll"
   ],
   "forbidPaths": [],
-  "previewFile": "About/Preview.png"
+  "previewFile": "About/Preview.png",
+  "galleryDir": "Gallery",
+  "description": {
+    "file": "PUBLICATION.md",
+    "heading": "^## Steam description$"
+  }
 }

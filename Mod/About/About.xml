@@ -27,7 +27,7 @@ Use [b]Options → Mod settings → Flavor Text Extended - Français (unofficial
 
 [h2]Known limits[/h2]
 
-Unlisted ingredients use neutral French forms built from their localized labels; unknown irregular singulars and missing third-party translations cannot be inferred. All seven category forms and the hairy-meal prefix are translated. Language isolation, the settings page and shortcut, and French meal naming have both technical and in-game coverage on the nominal scenarios; wider scenarios (optional mods, an existing save, cooking with a colonist) are tracked in STATUS.md.
+Unlisted ingredients use neutral French forms built from their localized labels; unknown irregular singulars and missing third-party translations cannot be inferred. All seven category forms and the hairy-meal prefix are translated. Language isolation, the settings page and shortcut, French meal naming, the tables of the optional ingredient mods, meals saved before the translation and RIMMSQOL all have technical and in-game coverage; the filmed cooking with a colonist is still being verified (tracked in STATUS.md).
 
 [hr][/hr]
 
