@@ -4,7 +4,7 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot
-$palette = Get-Content (Join-Path $root 'Art/preview-palette.json') -Raw | ConvertFrom-Json
+$palette = Get-Content (Join-Path $root 'Art/preview-palette.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $css = ':root {'
 foreach ($key in @('veil','inkPrimary','inkSecondary','accent','badgeInk')) {
     $color=$palette.$key
@@ -12,7 +12,7 @@ foreach ($key in @('veil','inkPrimary','inkSecondary','accent','badgeInk')) {
     $css += "--${key}:$color;"
 }
 $css += '}'
-$template = Get-Content (Join-Path $root 'Art/preview-template.html') -Raw
+$template = Get-Content (Join-Path $root 'Art/preview-template.html') -Raw -Encoding UTF8
 $html = $template.Replace('/* PALETTE */',$css)
 $outputHtml = Join-Path $root 'Art/preview.html'
 if($BackgroundOnly) {

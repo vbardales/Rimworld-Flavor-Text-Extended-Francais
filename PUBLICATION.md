@@ -266,6 +266,9 @@ bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/Flav
 - Description and gallery (owner, 2026-09-25): the description is sent by the CI (`## Steam description` above,
   `update_description` on, the same option in the dry-run and in the publish); the gallery is only listed (manual upload,
   `Gallery/` for 1.0.0, then `Art/Gallery/`).
+- Preview (owner, 2026-09-25): regenerated without the `(unofficial)` tag (`_tools/Render-Preview.ps1`), 566,527 bytes; it is in `Mod/`, so it
+  is uploaded with the mod, but the Steam page image changes only with `update_preview` on. The suffix decision and its justification:
+  `_tools/UPSTREAM-PERMISSION-REVIEW.md`, "Decision of 2026-09-25". The page titles (French and English) are edited by hand by the owner.
 - The whole of `Mod/` is uploaded (no `.steamignore`): About, Assemblies, Biotech, Defs, Languages, Patches,
   LoadFolders.xml, ATTRIBUTION.md, CHANGELOG.md, LICENSE.
 - 1.0.0: SHA `43dd52da70c3ffbdb3ab55c7301e877be88040e9`, dry-run 36122774168, publish run 36124437186 approved by the owner

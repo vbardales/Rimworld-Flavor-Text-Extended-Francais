@@ -48,3 +48,27 @@ Relevant author statements, paraphrased:
 No explicit prohibition was found in the reviewed public comments. No general licence or
 French-publication permission was established either. Keep silent/unverified; do not label
 this as forbidden. No communication was sent. The workflow stage is corrected to done under the agreed silent convention; this classification does not grant rights.
+
+## Decision of 2026-09-25: the `(unofficial)` suffix is dropped from the name
+
+Owner decision (root rule `PUBLISHING.md`, "silent" status: exact suffix ` (unofficial)` in `<name>`). This mod is a documented
+exception, and this section is the justification the automatic checks must be pointed to.
+
+What still holds: the description opens with "UNOFFICIAL." and says the mod is published without the original author's explicit
+consent, the takedown commitment stays, and the local MIT licence covers only the contributor's own rights. What changes: the name
+and the Preview no longer carry the tag, and the description adds that the author has so far been kind to translations and add-ons.
+
+Why, from the author's own public comments (Workshop comments of 3245374432 and of the Chinese translation, see the review above):
+- **7-8 September 2025** (`comment_599663123959445533` and the replies): hekmo thanks the Chinese translator and helps with the
+  inflection and category translation of Flavor Text.
+- **12 October 2025** (`comment_594036760294565681`): hekmo encourages a separate fictional-recipe add-on (Flavor Text Extended, by
+  the same owner as this mod) and gives the source spreadsheet.
+- **Licence:** the owner states (2026-09-25) that hekmo chose an MIT licence for Flavor Text, which she reads as openness to
+  modding. **Not verified by this review**: the installed Flavor Text 0.3.6 has no LICENSE file and its About.xml and README name
+  none, no public repository of the mod was found (2026-09-25), and the Workshop page could not be re-read (HTTP 429). The MIT
+  licence in this repository is the owner's own (Copyright (c) 2026 nelim). If an upstream MIT licence is confirmed, its copyright
+  and permission notice must be added to `ATTRIBUTION.md` and `Mod/LICENSE`, and the status becomes a declared licence, not
+  `silent`.
+
+What this is not: no explicit permission for this French derivative was given or asked (the author was never contacted about it).
+The first-contact message to hekmo is prepared in `PUBLICATION.md` and is to be posted once the item is public.

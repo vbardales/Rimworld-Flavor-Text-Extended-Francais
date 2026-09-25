@@ -181,6 +181,8 @@ foreach ($id in @('brrainz.harmony','hekmo.FlavorText','nelim.flavortextextended
     Assert ($id -in $about.modDependencies.li.packageId) "Missing dependency: $id"
     Assert ($id -in $about.loadAfter.li) "Missing loadAfter: $id"
 }
+# The root rule asks for a ' (unofficial)' suffix on a 'silent' mod. Owner decision 2026-09-25: this mod does not carry it;
+# the justification (hekmo's public comments of 2025-09-07/08 and 2025-10-12) is in _tools/UPSTREAM-PERMISSION-REVIEW.md.
 Assert ($about.name.StartsWith('Flavor Text Extended - Fran') -and $about.name.Length -eq 'Flavor Text Extended - Fran'.Length + 4 -and -not $about.name.EndsWith('(unofficial)')) 'Unexpected mod name (the (unofficial) suffix was dropped by the owner on 2026-09-25)'
 Assert ($about.description.StartsWith('UNOFFICIAL.')) 'Missing unofficial disclaimer'
 Assert ($about.description.Contains('[url='+$about.url+']Source code on GitHub[/url]')) 'Missing labeled GitHub link'
