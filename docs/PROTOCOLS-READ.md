@@ -12,6 +12,10 @@ Read on 2026-09-25 by the session "Flavor Text Extended - Français / done"
 - Repository `vbardales/Rimworld-protocols`, read from the local bare clone `C:\Users\nelim\Documents\rimworld-protocols.git`,
   branch `main`, at **`359a460a5dfc558d008b5b4e3444f56e61ad4b94`** (2026-09-25, "docs(publishing): fail fast lifts only the
   regression pass; a red scenario needs a green replay before publish").
+- `main` of the local clone has since moved to **`f3dc1e4d30`** ("docs: align AUDIT and the tests README with what the harness does
+  now"). Its diff to `AUDIT.md` was read (wording only: a session no longer calls `Run-PickleWsl.ps1` itself, the worker does; the
+  TicketDispatcher may stop an orphan game); `scripts/Tests/README.md`, also changed, was not re-read. Both local commits were
+  unpushed to GitHub when checked.
 - GitHub's `main` answered `9e7142611b17a807fa0a11ee01f583242a8cab05` ("docs(audit): the fail-fast policy also covers a
   1.0.0") when queried the same day: the local clone was one commit ahead, the difference being the fail-fast wording of
   `PUBLISHING.md`.

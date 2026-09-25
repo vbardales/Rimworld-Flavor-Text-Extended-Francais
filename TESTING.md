@@ -92,8 +92,8 @@ The publication policy of this mod is fail fast (`PUBLICATION.md`, "Publication 
 - **Required before publishing:** every scenario that was red has been seen green on the revision to publish, and every defect found
   by a person (in a capture, in the game) has a check that fails without the fix and passes with it. Fewest scenarios, one ticket
   each, and the result goes to `docs/runs/`.
-- **For 1.0.1:** the two lavish meals of feature 07 (side dish in lower case after a French joint) and the cooking pass 2b
-  (feature 09), which has not been green yet.
+- **For 1.0.1:** the two lavish meals of feature 07 (side dish in lower case after a French joint): **green on 2026-09-25**
+  (`docs/runs/2026-09-25.md`, no negative control). The cooking pass 2b (feature 09) has not been green yet.
 
 ## What each kind of test may claim
 
