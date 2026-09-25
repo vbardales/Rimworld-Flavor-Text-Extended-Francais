@@ -45,47 +45,31 @@ The register is `WORKSHOP_COMMENTS.md` at the monorepo root (one main comment pe
   the mod; the packageId `DankPyon.Medieval.Overhaul` is not shown by Steam, so not verified) and Optimization: Meats - C# Edition
   (2542931556, SeoHyeon). No pass stages them (owner's word, 2026-09-21); the description says so. Three `drafted` rows added to the register.
 
-## Thank-you comments to post (drafted 2026-09-25, rewritten the same day: fan-toned, each one different)
+## Thank-you comments to post (drafted 2026-09-25, rewritten twice the same day: fan-toned, each one different)
 
 The item is public (owner, 2026-09-25), so these can be posted. One main comment per recipient page, in English like the ones already sent, under Steam's 1,000-character limit, ending with this mod's item URL. Only the owner posts. After posting, change the row in `WORKSHOP_COMMENTS.md` to `posted` with the date. Nothing here claims a tested integration: Vanilla Cooking Expanded, More Plants, Kit's Brazilian Crops, both VGP mods, RimCuisine 2 and TP Sea Plants were loaded by the in-game passes; V.O.I.D., Medieval Overhaul and Optimization: Meats are covered by offline checks only, and their comments say only that the French forms exist.
 
-**Vanilla Cooking Expanded** (2134308519): posted by the owner on 2026-09-25 (text not kept here; the first draft was replaced by the ones below).
+**Posted by the owner on 2026-09-25** (texts not kept here; the drafts were replaced by the ones below): Vanilla Cooking Expanded (2134308519), Vanilla Plants Expanded - More Plants (2748889667), Kit's Brazilian Crops (2886512401), VGP Vegetable Garden (2007061826), VGP Garden Gourmet (2007062982).
 
-**the Vanilla Expanded team (Oskar Potocki, Sarg Bjornson and others) — Vanilla Plants Expanded - More Plants** ([Workshop 2748889667](https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667)) — 367 characters
+**Crustypeanut — RimCuisine 2 Core (Continued)** ([Workshop 2562519366](https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366)) — 361 characters
 
-> Okay, confession: I have stared at your plants for far too long 🌿✨ My colonists cook with them, and the French translation of Flavor Text Extended makes sure the stew says so in proper French, little "aux ..." and all. Nothing needed from you, nothing borrowed, just heart-eyes at the harvest. Merci! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
+> Fun fact, Crustypeanut: RimCuisine 2 shared a test colony with the French translation of Flavor Text Extended 🍰 Its ingredients get French names in the meal titles, restaurant-menu style, and it all happens quietly when both are loaded. You don't have to do a thing. Thank you for the cookbook! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
 
-**Zaljerem — Kit's Brazilian Crops (Continued)** ([Workshop 2886512401](https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401)) — 321 characters
+**Tanypredator — TP Sea Plants** ([Workshop 3643012859](https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859)) — 319 characters
 
-> Olá, Zaljerem! 🥭🍍 Brazilian crops in a colony stew?! Yes please! They sound delicious in French now too, thanks to the French translation of Flavor Text Extended. Totally optional for you, nothing borrowed, just a big obrigada for keeping the mod alive! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
+> Seaweed on the menu?! 🌊🦑 Tanypredator, thanks to TP Sea Plants my colonists can eat from the sea, and the French translation of Flavor Text Extended has French words for your plants so those dishes come out with real names. Merci for the ocean snacks! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
 
-**dismarzero — VGP Vegetable Garden** ([Workshop 2007061826](https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826)) — 321 characters
+**Chicken Plucker — [RH2] Faction: V.O.I.D.** ([Workshop 2883208829](https://steamcommunity.com/sharedfiles/filedetails/?id=2883208829)) — 374 characters
 
-> dismarzero, your veggies are why my colonists finally eat something that isn't a survival lump 🥕🥔 The French translation of Flavor Text Extended gives them a proper French name on the plate. Nothing copied, nothing required, only gratitude (and hunger)! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
+> Chicken Plucker, your page says nobody should install this under any circumstances, so naturally I read all of it 🖤 The French translation of Flavor Text Extended has a French word for your bone meat, so a V.O.I.D. dinner gets a proper name. No, I'm not joining the research programme. Thanks for the chaos! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
 
-**dismarzero — VGP Garden Gourmet** ([Workshop 2007062982](https://steamcommunity.com/sharedfiles/filedetails/?id=2007062982)) — 328 characters
+**SirLalaPyon, continued by EvilEyes and ViralReaction — Medieval Overhaul** ([Workshop 3219596926](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926)) — 360 characters
 
-> Round two, dismarzero! 🍅✨ Garden Gourmet makes dinner feel fancy, so it only seemed right that the French translation of Flavor Text Extended names those dishes properly, ingredients included. Optional as always, nothing borrowed. Two mods, one very happy cook! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
+> Hear ye, hear ye! 🏰 Mulberries, pumpkins, flax, salt and cave eggs from Medieval Overhaul now have French names in the French translation of Flavor Text Extended, so a peasant feast reads like a tavern menu. Thank you SirLalaPyon for the mod, and EvilEyes and ViralReaction for carrying it on! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
 
-**Crustypeanut — RimCuisine 2 Core (Continued)** ([Workshop 2562519366](https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366)) — 336 characters
+**SeoHyeon — Optimization: Meats - C# Edition** ([Workshop 2542931556](https://steamcommunity.com/sharedfiles/filedetails/?id=2542931556)) — 297 characters
 
-> Crustypeanut!! 🍲🍰 RimCuisine 2 is basically a cookbook and my colonists read it cover to cover. The French translation of Flavor Text Extended knows your ingredients now, so the dishes get real French names. Optional for you, nothing copied. Bon appétit and thank you! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
-
-**Tanypredator — TP Sea Plants** ([Workshop 3643012859](https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859)) — 306 characters
-
-> Tanypredator, seaweed on the menu?! 🌊🦑 I love it. The French translation of Flavor Text Extended says your sea plants properly, so "some dish with sea things" becomes an actual name. Optional, nothing borrowed. Merci for the ocean snacks! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
-
-**Chicken Plucker — [RH2] Faction: V.O.I.D.** ([Workshop 2883208829](https://steamcommunity.com/sharedfiles/filedetails/?id=2883208829)) — 375 characters
-
-> Chicken Plucker, your page says "None whatsoever" and I chose to read that as a dare 🖤 Your bone meat is in the French translation of Flavor Text Extended, so a V.O.I.D. dinner gets a properly named French dish. Optional, nothing copied, and no, I am not joining the research programme. Thanks for the chaos! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
-
-**SirLalaPyon, continued by EvilEyes and ViralReaction — Medieval Overhaul** ([Workshop 3219596926](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926)) — 415 characters
-
-> Hello! 🏰🥧 Mulberries, pumpkins, flax, salt, cave eggs... Medieval Overhaul makes such a good pantry. The French translation of Flavor Text Extended names the dishes made with them in French, hearty medieval feasts included. Optional, nothing borrowed. Huge thanks to SirLalaPyon for the mod, and to EvilEyes and ViralReaction for keeping it alive! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
-
-**SeoHyeon — Optimization: Meats - C# Edition** ([Workshop 2542931556](https://steamcommunity.com/sharedfiles/filedetails/?id=2542931556)) — 353 characters
-
-> SeoHyeon, thank you for less meat clutter! 🥩✨ All that meat merged into a few, and the French translation of Flavor Text Extended still has the right French words for it ("viande de bœuf" and friends), so the stew keeps its name. Optional, nothing copied. Tidy freezer, tidy conscience! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
+> Less meat, more names 🥩 SeoHyeon, your mod folds the animal meats into a few, so the French translation of Flavor Text Extended only had a few French words to add ("viande de bœuf" and friends). Tidy freezer, tidy menu. Thank you! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
 
 Not written: Chinese Traditional Cultural Things Expanded (2877536640). A comment was already posted there on 2026-09-22 (see `FlavorText/FlavorTextExtended/PUBLICATION.md`, "Additional Steam comment"), while the register still says `drafted`: the register row is to be corrected to `posted` by whoever owns that record.
 
