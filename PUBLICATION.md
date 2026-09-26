@@ -77,6 +77,8 @@ The item is public (owner, 2026-09-25), so these can be posted. One main comment
 
 > Olá, Kitsune! 🦊🍍 Your Brazilian crops are still going strong: Zaljerem's continued version now has French names too, thanks to the French translation of Flavor Text Extended, so the colony's plates read a little more Brasil. Nothing needed from you, only a big obrigada for the crops that started it all! https://steamcommunity.com/sharedfiles/filedetails/?id=3806100488
 
+**Feedback of 2026-09-26.** All the comments above are posted. One reader, not an author, answered under one of them asking the owner to stop posting "AI slop" and insulting her; she replied politely and left it (the page is not recorded). No author complained. The lessons are in `WORKSHOP_COMMENTS.md`, "Feedback received": one short, specific comment per page, no series, spaced out batches, no argument with third parties, removal on an author's request, and no claim beyond what was tested.
+
 Not written: Chinese Traditional Cultural Things Expanded (2877536640). A comment was already posted there on 2026-09-22 (see `FlavorText/FlavorTextExtended/PUBLICATION.md`, "Additional Steam comment"), while the register still says `drafted`: the register row is to be corrected to `posted` by whoever owns that record.
 
 ## Workshop page fields
