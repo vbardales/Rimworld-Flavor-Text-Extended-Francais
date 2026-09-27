@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FlavorTextFR_MisirWatDuo.description>{0_coll} rouges fondus dans un beurre épicé et un mélange {1_adj}, jusqu'à ne plus former qu'une purée sombre. Se mange sans couverts, pincé dans une galette spongieuse.</FlavorTextFR_MisirWatDuo.description>
+
+	<FlavorTextFR_ArtichautsVinaigretteDuo.description>{0_coll} entiers bouillis la tête en bas, servis tièdes avec une vinaigrette moutardée. On les effeuille un à un et on racle la base de chaque feuille entre les dents ; le fond se garde pour la fin.</FlavorTextFR_ArtichautsVinaigretteDuo.description>
+
+	<FlavorTextFR_ArtichautsFarcisDuo.description>{0_coll} évidés de leur foin, garnis d'une farce {1_adj} liée de mie, et braisés debout dans un peu de bouillon jusqu'à ce que les feuilles s'écartent d'elles-mêmes.</FlavorTextFR_ArtichautsFarcisDuo.description>
+
+	<FlavorTextFR_CarciofiAllaRomanaDuo.description>{0_coll} parés jusqu'au cœur tendre, farcis {1_plur} et de menthe romaine, plantés la tige en l'air dans une casserole étroite et étuvés à l'huile et à l'eau.</FlavorTextFR_CarciofiAllaRomanaDuo.description>
+
+	<FlavorTextFR_CarciofiAllaGiudiaDuo.description>{0_coll} entiers frits deux fois, écrasés entre deux passages pour que les feuilles s'ouvrent en fleur et deviennent aussi cassantes que des chips. Une invention du ghetto de Rome.</FlavorTextFR_CarciofiAllaGiudiaDuo.description>
+
+	<FlavorTextFR_PizzaAuxArtichautsDuo.description>{0_coll} marinés à l'huile posés sur la pâte au dernier moment, avec {1_coll} — un des quatre quartiers de la capricciosa, promu plat entier.</FlavorTextFR_PizzaAuxArtichautsDuo.description>
+
+	<FlavorTextFR_AspergesFlamandeDuo.description>{0_coll} blanches servies avec un œuf dur écrasé à la fourchette dans du beurre fondu, du persil et une râpure de muscade. Chacun mélange sa sauce dans son assiette.</FlavorTextFR_AspergesFlamandeDuo.description>
+
+	<FlavorTextFR_TarteAuxAspergesDuo.description>{0_coll} rangées en rayons sur un fond précuit, entre elles une crème {1_adj}. Les pointes vers le centre, les talons vers le bord : c'est la seule façon que chaque part en ait une.</FlavorTextFR_TarteAuxAspergesDuo.description>
+
+	<FlavorTextFR_ChouxBruxellesCurryDuo.description>{0_coll} coupés en quatre et mijotés dans un lait {1_adj} monté sur cumin, curcuma et graines de moutarde éclatées à l'huile chaude.</FlavorTextFR_ChouxBruxellesCurryDuo.description>
+
+	<FlavorTextFR_PizzaPoireGorgonzolaDuo.description>une pâte blanche sans tomate, {1_coll} en gouttes et {0_coll} en tranches déposées à mi-cuisson pour ne pas se dessécher, avec un filet de miel à la sortie.</FlavorTextFR_PizzaPoireGorgonzolaDuo.description>
+
+	<FlavorTextFR_CrostiniFigueChevreDuo.description>des tranches de pain grillées, {1_coll} frais écrasé dessus et {0_coll} ouvertes en quatre, passées trente secondes sous le gril. Le miel se verse après, jamais avant.</FlavorTextFR_CrostiniFigueChevreDuo.description>
+
+	<FlavorTextFR_GrilledCheesePommeCheddarDuo.description>{1_coll} affiné et {0_coll} en fines lamelles entre deux tranches beurrées, pressées à la poêle. La pomme rend un peu d'eau qui empêche le fromage de figer.</FlavorTextFR_GrilledCheesePommeCheddarDuo.description>
+
+	<FlavorTextFR_ChevreChaudAuxCerisesDuo.description>un crottin {1_adj} posé sur une tranche de pain et passé au four jusqu'à couler, avec {0_coll} poêlées au vinaigre. L'acidité du fruit tranche le gras du fromage chaud.</FlavorTextFR_ChevreChaudAuxCerisesDuo.description>
+
+	<FlavorTextFR_ChampignonsFarcisDuo.description>{0_coll} dépiedés et remplis d'une farce {1_adj} et de chapelure, cuits jusqu'à ce qu'ils rendent leur eau et la reprennent.</FlavorTextFR_ChampignonsFarcisDuo.description>
+
+	<FlavorTextFR_SaganakiDuo.description>une tranche épaisse {0_adj} dur farinée et saisie dans une petite poêle à deux anses, jusqu'à former une croûte. Arrosée {1_plur} à table, parfois flambée.</FlavorTextFR_SaganakiDuo.description>
+
+	<FlavorTextFR_GnudiDuo.description>la farce d'un ravioli sans son enveloppe — {0_coll} et {1_coll} liés d'un peu de farine et pochés nus. « Gnudi » veut dire déshabillés.</FlavorTextFR_GnudiDuo.description>
+
+	<FlavorTextFR_HalloumiGrilleLegumesDuo.description>{0_coll} tranché épais et grillé jusqu'à quadriller sans fondre — c'est le seul fromage qui tienne sur le gril —, avec {1_coll} rôtis et du zaatar.</FlavorTextFR_HalloumiGrilleLegumesDuo.description>
+
+	<FlavorTextFR_XiaolongbaoDuo.description>des raviolis plissés dix-huit fois, farcis {1_plur} et d'une gelée de bouillon qui redevient liquide à la vapeur. On les perce avant de mordre, sous peine de brûlure.</FlavorTextFR_XiaolongbaoDuo.description>
+
+	<FlavorTextFR_XiaolongbaoSolo.description>des raviolis plissés dix-huit fois, farcis {0_plur} et d'une gelée de bouillon qui redevient liquide à la vapeur. On les perce avant de mordre, sous peine de brûlure.</FlavorTextFR_XiaolongbaoSolo.description>
+
+	<FlavorTextFR_WontonDuo.description>des carrés de pâte si fine qu'on voit la farce {0_adj} au travers, refermés d'un pincement et pochés dans un bouillon {1_adj}. La queue de pâte flotte et ondule : c'est ce qui leur a donné leur nom.</FlavorTextFR_WontonDuo.description>
+
+	<FlavorTextFR_CanardLaqueDuo.description>une bête gonflée d'air pour décoller la peau de la chair, ébouillantée, laquée {1_plur} et séchée un jour au vent avant de rôtir. On sert la peau d'abord, dans de fines crêpes, et la viande après.</FlavorTextFR_CanardLaqueDuo.description>
+
+	<FlavorTextFR_BoeufMirotonDuo.description>les restes {0_adj} du pot-au-feu, tranchés et réchauffés dans une sauce {1_adj} au vinaigre et à la moutarde. Un plat né de l'économie, resté par goût.</FlavorTextFR_BoeufMirotonDuo.description>
+
+	<FlavorTextFR_LangueSaucePiquanteDuo.description>{0_coll} pochée des heures puis pelée à chaud — froide, la peau ne vient plus —, servie sous une sauce {1_adj} au vinaigre et aux cornichons.</FlavorTextFR_LangueSaucePiquanteDuo.description>
+
+	<FlavorTextFR_TeteDeVeauGribicheDuo.description>{0_coll} roulée et pochée au blanc, servie tiède avec une sauce montée sur des jaunes {1_adj} durs, relevée de câpres et d'herbes. Se mange ou ne se mange pas ; il n'y a pas d'entre-deux.</FlavorTextFR_TeteDeVeauGribicheDuo.description>
+
+	<FlavorTextFR_TriplesLyonnaisesDuo.description>un morceau {0_adj} mariné au vin blanc, pané {1_plur} et à la chapelure, puis grillé. Le nom vient d'un maréchal lyonnais, sapeur du génie dans sa jeunesse.</FlavorTextFR_TriplesLyonnaisesDuo.description>
+
+	<FlavorTextFR_AndouilletteFritesDuo.description>une andouillette grillée jusqu'à ce que la peau éclate, avec {1_coll} en bâtonnets et une cuillerée de moutarde. On l'aime ou on quitte la table.</FlavorTextFR_AndouilletteFritesDuo.description>
+
+	<FlavorTextFR_PaletteALaDiableDuo.description>{0_coll} fumée pochée, badigeonnée {1_plur} et à la chapelure, puis passée au gril jusqu'à croûter. « À la diable » signifie simplement : moutardé et brûlant.</FlavorTextFR_PaletteALaDiableDuo.description>
+
+	<FlavorTextFR_JambonALOsDuo.description>une pièce entière {0_adj} cuite sur son os et tranchée devant vous. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</FlavorTextFR_JambonALOsDuo.description>
+
+	<FlavorTextFR_SourisDAgneauDuo.description>le petit muscle du jarret, braisé si longtemps qu'il se détache de l'os en glissant. Une souris par convive, jamais moins.</FlavorTextFR_SourisDAgneauDuo.description>
+
+	<FlavorTextFR_SourisDAgneauSolo.description>le petit muscle du jarret, braisé si longtemps qu'il se détache de l'os en glissant. Une souris par convive, jamais moins.</FlavorTextFR_SourisDAgneauSolo.description>
+
+	<FlavorTextFR_ChouFarciDuo.description>un chou entier blanchi, ouvert feuille à feuille, garni {1_plur} entre chaque étage puis refermé dans un linge et poché des heures. On le tranche en parts, comme un gâteau.</FlavorTextFR_ChouFarciDuo.description>
+
+	<FlavorTextFR_CroqueMadameDuo.description>un croque-monsieur coiffé d'un œuf au plat, dont le jaune percé fait office de sauce. Le chapeau lui vaut son nom.</FlavorTextFR_CroqueMadameDuo.description>
+
+	<FlavorTextFR_TarteALOignonDuo.description>{0_coll} compotés une heure sans prendre couleur, mêlés {1_plur} fumée et étalés sur une pâte brisée. Alsacienne ou lyonnaise selon la main qui l'a faite.</FlavorTextFR_TarteALOignonDuo.description>
+
+	<FlavorTextFR_PateEnCrouteDuo.description>une farce {0_adj} et {1_adj} montée en terrine de pâte, cuite avec une cheminée, puis coulée à la gelée par ce trou une fois refroidie. Se tranche net, froid, jamais tiède.</FlavorTextFR_PateEnCrouteDuo.description>
+
+	<FlavorTextFR_VolAuVentDuo.description>une croûte feuilletée si légère qu'elle s'envolerait — d'où le nom —, remplie {0_adj} et {1_adj} en sauce blanche, et recoiffée de son chapeau.</FlavorTextFR_VolAuVentDuo.description>
+
+	<FlavorTextFR_QuatreQuartsDuo.description>autant de farine que {0_adj}, que de sucre, que {1_adj} — quatre quarts, d'où le nom. On pèse les œufs d'abord et tout le reste se déduit.</FlavorTextFR_QuatreQuartsDuo.description>
+
+	<FlavorTextFR_GateauAuYaourtDuo.description>le pot {0_adj} sert de mesure pour tout le reste. Le premier gâteau que l'on apprend à faire, et le seul dont on n'oublie jamais la recette.</FlavorTextFR_GateauAuYaourtDuo.description>
+
+	<FlavorTextFR_ParisBrestDuo.description>une couronne de pâte à choux fendue et garnie d'une crème pralinée {0_adj}. La forme imite une roue de bicyclette : le pâtissier avait son atelier sur le parcours de la course.</FlavorTextFR_ParisBrestDuo.description>
+
+	<FlavorTextFR_MilleFeuilleDuo.description>trois abaisses de feuilletage cuites sous un poids pour rester plates, montées avec une crème pâtissière {1_adj}. Se mange couché sur le flanc : personne n'a jamais réussi autrement.</FlavorTextFR_MilleFeuilleDuo.description>
+
+	<FlavorTextFR_EclairAuCafeDuo.description>un boudin de pâte à choux garni d'une crème {0_adj} et glacé du même parfum. Le nom viendrait de la vitesse à laquelle il se mange.</FlavorTextFR_EclairAuCafeDuo.description>
+
+	<FlavorTextFR_BabaAuRhumDuo.description>une pâte levée séchée exprès, puis noyée dans un sirop {1_adj} tiède {0_plur} jusqu'à ne plus rien pouvoir absorber. On le presse doucement : il doit rendre du jus.</FlavorTextFR_BabaAuRhumDuo.description>
+
+	<FlavorTextFR_ProfiterolesDuo.description>de petits choux garnis de glace {1_adj}, noyés sous {0_coll} chaud versé devant les convives. Le contraste des températures est tout le dessert.</FlavorTextFR_ProfiterolesDuo.description>
+
+	<FlavorTextFR_MadeleineDuo.description>une pâte reposée au froid puis enfournée très chaud : le choc thermique fait la bosse, et une madeleine sans bosse est ratée. Parfumée {1_plur}.</FlavorTextFR_MadeleineDuo.description>
+
+	<FlavorTextFR_CaneleDuo.description>une pâte liquide reposée deux jours, cuite dans des moules cuivrés enduits de cire, jusqu'à obtenir une croûte presque noire autour d'un cœur mou {0_adj} et {1_adj}.</FlavorTextFR_CaneleDuo.description>
+
+	<FlavorTextFR_SableBretonDuo.description>presque autant {0_adj} demi-sel que de farine, à peine travaillés pour rester sablonneux. Le sel n'est pas un assaisonnement ici : c'est l'ingrédient principal après le beurre.</FlavorTextFR_SableBretonDuo.description>
+
+	<FlavorTextFR_TeurgouleDuo.description>{0_coll} et {1_coll} cannellés, cuits cinq heures au four du boulanger dans une terrine, jusqu'à former une peau brune et épaisse. Le nom vient de la brûlure qu'elle inflige à qui n'attend pas.</FlavorTextFR_TeurgouleDuo.description>
+
+	<FlavorTextFR_BugnesDuo.description>des rubans de pâte nouée, parfumés {1_plur} et à la fleur d'oranger, frits et sucrés. Épaisses à Lyon, sèches et craquantes à Saint-Étienne : chacun défend les siennes.</FlavorTextFR_BugnesDuo.description>
+
+	<FlavorTextFR_SachertorteDuo.description>un biscuit {0_adj} dense, fendu et garni d'une couche de confiture {1_adj}, glacé d'un fondant sombre et lisse. Deux maisons viennoises se sont fait sept ans de procès pour ce gâteau.</FlavorTextFR_SachertorteDuo.description>
+
+	<FlavorTextFR_ApfelstrudelDuo.description>une pâte étirée à la main sur une nappe jusqu'à lire le journal au travers, garnie {0_adj} et {1_adj} secs, puis roulée. Un trou dans la pâte et tout est à recommencer.</FlavorTextFR_ApfelstrudelDuo.description>
+
+	<FlavorTextFR_KaiserschmarrnDuo.description>une crêpe épaisse {0_adj} déchirée en morceaux à la spatule pendant qu'elle cuit, caramélisée au sucre avec {1_coll} secs. « La bouillie de l'Empereur » : le nom dit son peu de manières.</FlavorTextFR_KaiserschmarrnDuo.description>
+
+	<FlavorTextFR_MakowiecDuo.description>une brioche roulée sur une masse de graines de pavot moulues et cuites {1_plur}. La spirale noire et blanche apparaît à la coupe.</FlavorTextFR_MakowiecDuo.description>
+
+	<FlavorTextFR_MedovikDuo.description>une douzaine de disques de pâte {0_adj} cuits un par un, empilés avec une crème acidulée, et laissés une nuit pour que tout s'attendrisse et devienne moelleux.</FlavorTextFR_MedovikDuo.description>
+
+	<FlavorTextFR_BakewellTartDuo.description>une pâte sablée, une couche de confiture {1_adj}, et une frangipane {0_adj} par-dessus qui gonfle et dore au four.</FlavorTextFR_BakewellTartDuo.description>
+
+	<FlavorTextFR_TresLechesDuo.description>un biscuit sec exprès, percé de trous et noyé de trois laits différents jusqu'à saturation. Il doit être détrempé sans s'effondrer : tout l'exercice est là.</FlavorTextFR_TresLechesDuo.description>
+
+	<FlavorTextFR_AlfajoresDuo.description>deux sablés très friables collés par du dulce de leche, les bords roulés {1_plur} râpée. Se défont dès qu'on les prend : c'est le signe qu'ils sont bons.</FlavorTextFR_AlfajoresDuo.description>
+
+	<FlavorTextFR_BrownieDuo.description>très peu de farine, beaucoup {0_adj}, et {1_coll} concassées. Sorti du four trop tard, ce n'est plus qu'un gâteau ; trop tôt, ce n'est pas encore un brownie.</FlavorTextFR_BrownieDuo.description>
+
+	<FlavorTextFR_CheesecakeDuo.description>un fond de biscuits beurrés sous un appareil {0_adj} et {1_adj}, cuit au bain-marie et refroidi lentement — un choc de température le fend en deux.</FlavorTextFR_CheesecakeDuo.description>
+
+	<FlavorTextFR_LamingtonDuo.description>des cubes de génoise trempés dans un glaçage {0_adj} liquide puis roulés {1_plur} râpée. Australien, et nommé d'après un gouverneur du Queensland qui n'y était pour rien.</FlavorTextFR_LamingtonDuo.description>
+
+	<FlavorTextFR_MalvaPuddingDuo.description>un gâteau sud-africain {0_adj} et à l'abricot, percé à la sortie du four et noyé d'une sauce {1_adj} chaude qu'il absorbe entièrement.</FlavorTextFR_MalvaPuddingDuo.description>
+
+	<FlavorTextFR_KunefeDuo.description>{0_coll} frais pris entre deux couches de cheveux d'ange, doré des deux côtés puis arrosé de sirop brûlant. Se mange immédiatement : le fromage doit encore filer.</FlavorTextFR_KunefeDuo.description>
+
+	<FlavorTextFR_MaamoulDuo.description>une semoule travaillée {1_plur} clarifié et reposée une nuit, fourrée {0_plur} et pressée dans un moule de bois gravé. Chaque motif désigne une garniture différente.</FlavorTextFR_MaamoulDuo.description>
+
+	<FlavorTextFR_OmAliDuo.description>du feuilletage brisé, noyé {0_plur} sucré et couvert {1_adj}, gratiné jusqu'à ce que le dessus croustille sur un dessous détrempé.</FlavorTextFR_OmAliDuo.description>
+
+	<FlavorTextFR_BasbousaDuo.description>un gâteau de semoule {0_adj} et {1_adj}, coupé en losanges avant cuisson et imbibé de sirop dès la sortie du four, pendant qu'il est encore brûlant.</FlavorTextFR_BasbousaDuo.description>
+
+	<FlavorTextFR_TaiyakiDuo.description>une pâte à gaufre cuite dans un moule en forme de daurade, fourrée d'une pâte {0_adj} sucrée. La question de savoir par où le mordre — la tête ou la queue — divise le Japon.</FlavorTextFR_TaiyakiDuo.description>
+
+	<FlavorTextFR_HotteokDuo.description>une galette levée fourrée {0_plur} de canne et {1_plur} concassées, aplatie sur la plaque brûlante. La garniture devient un sirop bouillant qui brûle la langue à coup sûr.</FlavorTextFR_HotteokDuo.description>
+
+	<FlavorTextFR_BanhPiaSauRiengDuo.description>un gâteau vietnamien à pâte feuilletée en spirale, fourré de pâte {0_adj} et d'un jaune {1_adj} salé au centre. Les couches se décollent une à une à la découpe.</FlavorTextFR_BanhPiaSauRiengDuo.description>
+
+	<FlavorTextFR_DurianMooncakeDuo.description>une pâte de neige non cuite moulée au sceau, fourrée de chair {0_adj} et d'une pâte {1_adj} sucrés. Se sert glacé, contrairement au gâteau de lune classique.</FlavorTextFR_DurianMooncakeDuo.description>
+
+	<FlavorTextFR_DurianMilleCrepesDuo.description>vingt crêpes très fines empilées, chacune séparée d'une couche de chair {0_adj} montée {1_plur}. Se tranche net et se mange glacé.</FlavorTextFR_DurianMilleCrepesDuo.description>
+
+	<FlavorTextFR_DurianPuffDuo.description>de petits choux garnis d'une crème {0_adj} pure, servis froids. Vendus par boîtes réfrigérées à Singapour, et interdits dans le métro comme tout ce qui contient ce fruit.</FlavorTextFR_DurianPuffDuo.description>
+
+	<FlavorTextFR_GateauAuDurianDuo.description>une génoise très aérée où la chair {0_adj} est incorporée à la pâte crue. L'odeur envahit la cuisine pendant la cuisson et s'y installe pour la journée.</FlavorTextFR_GateauAuDurianDuo.description>
+
+	<FlavorTextFR_TempoyakDuo.description>la chair {0_adj} salée et laissée fermenter une semaine en jarre close, jusqu'à devenir acide et crémeuse. Ce n'est plus un fruit à ce stade : c'est un condiment, et il se garde des mois.</FlavorTextFR_TempoyakDuo.description>
+
+	<FlavorTextFR_VarenikiDuo.description>des demi-lunes de pâte fourrées {0_plur} écrasées, pochées puis arrosées {1_adj} fondus dans le beurre. Le pli doit tenir à l'eau bouillante : c'est tout le savoir-faire.</FlavorTextFR_VarenikiDuo.description>
+
+	<FlavorTextFR_KhatchapouriDuo.description>un pain en forme de barque rempli {0_adj} fondu, avec un jaune cru et une noix {1_adj} déposés au centre à la sortie du four. On mélange le tout avec la pointe de la croûte qu'on arrache.</FlavorTextFR_KhatchapouriDuo.description>
+
+	<FlavorTextFR_FrancesinhaDuo.description>un croque-monsieur de Porto poussé jusqu'à l'absurde : quatre viandes empilées, du fromage fondu par-dessus, et une sauce épaisse {1_adj} et à la tomate versée à ras bord de l'assiette.</FlavorTextFR_FrancesinhaDuo.description>
+
+	<FlavorTextFR_BifanaDuo.description>de fines escalopes {0_adj} mijotées {1_plur} et au vin blanc, empilées brûlantes dans un pain qui boit la sauce.</FlavorTextFR_BifanaDuo.description>
+
+	<FlavorTextFR_CataplanaDeMariscoDuo.description>{0_coll} et {1_coll} cuits ensemble dans un chaudron de cuivre à charnière, refermé hermétiquement — la vapeur ne s'échappe pas, et le plat se cuit dans son propre jus.</FlavorTextFR_CataplanaDeMariscoDuo.description>
+
+	<FlavorTextFR_SauerbratenDuo.description>une pièce {0_adj} marinée au vinaigre une semaine entière, braisée, la sauce liée au pain d'épices émietté et adoucie {1_plur} séchées.</FlavorTextFR_SauerbratenDuo.description>
+
+	<FlavorTextFR_SchweinshaxeDuo.description>un jarret entier rôti des heures, arrosé {1_plur} brune, jusqu'à ce que la couenne devienne une carapace qui craque sous le couteau.</FlavorTextFR_SchweinshaxeDuo.description>
+
+	<FlavorTextFR_WienerSchnitzelDuo.description>une escalope {0_adj} battue jusqu'à la transparence, panée sans presser, et frite au beurre en secouant la poêle pour que la panure gonfle et se décolle de la viande.</FlavorTextFR_WienerSchnitzelDuo.description>
+
+	<FlavorTextFR_TafelspitzDuo.description>une pièce {0_adj} pochée dans un bouillon de racines, servie avec une sauce {1_adj} au raifort et à la pomme. Le plat préféré de François-Joseph, dit-on, qui en mangeait tous les jours.</FlavorTextFR_TafelspitzDuo.description>
+
+	<FlavorTextFR_FrikadellerDuo.description>{0_coll} hachée deux fois, allégée de farine et {1_adj}, façonnée à la cuillère en galettes bombées et poêlée longuement au beurre.</FlavorTextFR_FrikadellerDuo.description>
+
+	<FlavorTextFR_LapskausDuo.description>{0_coll} et les racines cuites si longtemps ensemble qu'on ne distingue plus rien. Un plat de marins, fait de salaisons et de ce qui se conservait à bord.</FlavorTextFR_LapskausDuo.description>
+
+	<FlavorTextFR_SteakAndAlePieDuo.description>{0_coll} braisée {1_plur} brune jusqu'à s'effilocher, enfermée sous un couvercle de pâte qui gonfle et brunit au four.</FlavorTextFR_SteakAndAlePieDuo.description>
+
+	<FlavorTextFR_KedgereeDuo.description>{0_coll} au curry mêlé de poisson fumé effeuillé et d'œufs durs. Un khichdi indien rapporté par les Britanniques, devenu chez eux un plat de petit-déjeuner.</FlavorTextFR_KedgereeDuo.description>
+
+	<FlavorTextFR_TarteAuxFiguesDuo.description>{0_coll} fendues en croix et posées debout sur une crème {1_adj}, qui boit leur jus pendant la cuisson et empêche la pâte de détremper.</FlavorTextFR_TarteAuxFiguesDuo.description>
+
+	<FlavorTextFR_CrostataDiFichiDuo.description>une pâte sablée {1_plur} croisée en treillis sur une couche épaisse de confiture {0_adj}. Se mange froide, le lendemain, quand la pâte a bu un peu du fruit.</FlavorTextFR_CrostataDiFichiDuo.description>
+
+	<FlavorTextFR_FocacciaAuxFiguesDuo.description>{0_coll} enfoncées dans la pâte creusée aux doigts, avec du romarin, de l'huile {1_adj} et du gros sel. Le sucre du fruit caramélise au contact de la plaque.</FlavorTextFR_FocacciaAuxFiguesDuo.description>
+
+	<FlavorTextFR_PizzaFiguesProsciuttoDuo.description>une pâte blanche sans tomate, {0_coll} rôties dessus, et {1_coll} cru déposé à la sortie du four seulement — cuit, il durcit et perd tout.</FlavorTextFR_PizzaFiguesProsciuttoDuo.description>
+
+	<FlavorTextFR_TajineAgneauFiguesDuo.description>{1_coll} mijotée au safran, au gingembre et à la cannelle, {0_coll} sèches regonflées ajoutées à la fin avec des amandes grillées.</FlavorTextFR_TajineAgneauFiguesDuo.description>
+
+	<FlavorTextFR_PissaladiereDuo.description>une tarte niçoise : {0_coll} compotés une heure durant jusqu'à devenir presque une confiture, étalés sur la pâte et quadrillés {1_adj}.</FlavorTextFR_PissaladiereDuo.description>
+
+	<FlavorTextFR_FondueSavoyardeDuo.description>{0_coll} fondu {1_plur} dans un caquelon frotté d'ail, tenu au chaud toute la soirée. On y trempe le pain au bout d'une pique ; celui qui le laisse tomber paie sa tournée.</FlavorTextFR_FondueSavoyardeDuo.description>
+
+	<FlavorTextFR_AligotDuo.description>une purée {0_adj} travaillée {1_plur} à la spatule, longtemps, jusqu'à ce qu'elle file en rubans quand on la soulève. Le bras finit par fatiguer avant la pâte.</FlavorTextFR_AligotDuo.description>
+
+	<FlavorTextFR_FlammekuecheDuo.description>une pâte étalée à la limite du déchirement, couverte {0_adj} et {1_adj} crus, glissée deux minutes au plus près des braises.</FlavorTextFR_FlammekuecheDuo.description>
+
+	<FlavorTextFR_KougelhopfDuo.description>une brioche lente, cuite dans un moule cannelé, {0_plur} trempés d'avance et {1_plur} posées au fond pour qu'elles se retrouvent au sommet.</FlavorTextFR_KougelhopfDuo.description>
+
+	<FlavorTextFR_FarBretonDuo.description>un flan dense {0_plur} et {1_plur}, cuit jusqu'à ce que le dessus brunisse et que le centre tremble encore.</FlavorTextFR_FarBretonDuo.description>
+
+	<FlavorTextFR_ConfitDeVolailleDuo.description>{0_coll} salée un jour, puis cuite très lentement immergée {1_plur}, et conservée dedans. La peau se croustille au dernier moment, à la poêle.</FlavorTextFR_ConfitDeVolailleDuo.description>
+
+	<FlavorTextFR_BlanquetteDuo.description>{0_coll} cuite sans coloration — c'est toute la difficulté —, la sauce montée {1_plur} et acidulée au dernier moment.</FlavorTextFR_BlanquetteDuo.description>
+
+	<FlavorTextFR_SoupeALOignonGratineeDuo.description>{0_coll} roussis très lentement jusqu'au brun profond, mouillés, puis couverts de pain et {1_adj} et passés sous le gril.</FlavorTextFR_SoupeALOignonGratineeDuo.description>
+
+	<FlavorTextFR_CroqueMonsieurDuo.description>deux tranches de pain, {1_coll} entre les deux, {0_coll} dessus et dessous, le tout gratiné jusqu'à ce que les bords débordent et brûlent un peu.</FlavorTextFR_CroqueMonsieurDuo.description>
+
+	<FlavorTextFR_FlamicheAuxPoireauxDuo.description>{0_coll} fondus {1_plur} sans coloration, enfermés entre deux abaisses de pâte et cuits jusqu'à ce que le dessus dore. Picarde, et sans crème dans la version d'origine.</FlavorTextFR_FlamicheAuxPoireauxDuo.description>
+
+	<FlavorTextFR_PiedsSainteMenehouldDuo.description>des pieds pochés quarante heures, jusqu'à ce que les os deviennent tendres et se mangent, puis panés et grillés. Louis XVI en aurait mangé lors de sa fuite, ce qui l'aurait retardé.</FlavorTextFR_PiedsSainteMenehouldDuo.description>
+
+	<FlavorTextFR_CamembertRotiDuo.description>une boîte entière {0_adj} incisée en croix, piquée {1_plur} et passée au four dans son bois jusqu'à couler. On y trempe le pain jusqu'à ce qu'il n'en reste rien.</FlavorTextFR_CamembertRotiDuo.description>
+
+	<FlavorTextFR_OmeletteMerePoulardDuo.description>{0_coll} battus très longtemps au fouet, jusqu'à mousser comme un soufflé, et cuits {1_plur} dans une poêle à long manche au-dessus d'un feu de bois. La recette exacte est restée secrète.</FlavorTextFR_OmeletteMerePoulardDuo.description>
+
+	<FlavorTextFR_SaintJacquesBretonneDuo.description>{0_coll} remise dans sa coquille avec une persillade et de la chapelure {1_plur}, passée sous le gril deux minutes. Davantage et elle devient caoutchouteuse.</FlavorTextFR_SaintJacquesBretonneDuo.description>
+
+	<FlavorTextFR_GaletteSaucisseDuo.description>une saucisse grillée roulée dans une galette {0_adj} froide, sans rien d'autre — la moutarde est tolérée, le ketchup fait débat. Se mange debout, au stade ou au marché.</FlavorTextFR_GaletteSaucisseDuo.description>
+
+	<FlavorTextFR_PalourdesFarciesDuo.description>{0_coll} ouverte et recouverte d'un beurre travaillé {1_plur} et au persil, passée au four jusqu'à ce que le beurre bouillonne et déborde.</FlavorTextFR_PalourdesFarciesDuo.description>
+
+	<FlavorTextFR_AraigneeDeMerFarcieDuo.description>{0_coll} décortiquée patiemment, mêlée à son corail et à des jaunes {1_adj} durs, puis remise dans le coffre vidé. Une heure de travail pour dix minutes de repas.</FlavorTextFR_AraigneeDeMerFarcieDuo.description>
+
+	<FlavorTextFR_RillettesDuo.description>{0_coll} cuite cinq heures dans {1_coll} jusqu'à se défaire, effilochée à la fourchette et non broyée, puis serrée en pot sous une couche de gras qui la conserve.</FlavorTextFR_RillettesDuo.description>
+
+	<FlavorTextFR_PateDePaquesDuo.description>une farce {0_adj} enfermée dans une pâte, avec des œufs durs entiers alignés au centre pour qu'apparaisse un rond jaune à chaque tranche.</FlavorTextFR_PateDePaquesDuo.description>
+
+	<FlavorTextFR_PouletEnBarbouilleDuo.description>{0_coll} mijotée au vin, la sauce liée au sang et au foie de la bête. « Barbouille » pour ce qu'elle laisse sur le menton de qui la mange.</FlavorTextFR_PouletEnBarbouilleDuo.description>
+
+	<FlavorTextFR_PoteeLorraineDuo.description>{0_coll} et les racines de l'hiver mijotés avec {1_coll} fumée et salée. Le bouillon se sert d'abord sur du pain, les viandes ensuite.</FlavorTextFR_PoteeLorraineDuo.description>
+
+	<FlavorTextFR_SaladeLyonnaiseDuo.description>de la frisée amère, {1_coll} rissolés, des croûtons frottés d'ail et un œuf poché posé dessus. On perce le jaune et il devient la sauce.</FlavorTextFR_SaladeLyonnaiseDuo.description>
+
+	<FlavorTextFR_BiryaniDuo.description>{0_coll} à moitié cuit et {1_coll} marinée montés en couches, scellés sous un couvercle luté à la pâte, et finis à l'étouffée. On ne remue jamais : chaque couche doit rester distincte à l'ouverture.</FlavorTextFR_BiryaniDuo.description>
+
+	<FlavorTextFR_PalakPaneerDuo.description>{0_coll} blanchies puis broyées en une purée verte tenue courte pour ne pas brunir, où l'on pose des cubes {1_adj} frais qui ne fondent pas.</FlavorTextFR_PalakPaneerDuo.description>
+
+	<FlavorTextFR_GulabJamunDuo.description>{0_coll} réduit des heures jusqu'à devenir une pâte solide, roulé en boules, frit très doucement, et laissé s'imbiber d'un sirop {1_adj} parfumé à la rose. Il faut qu'elles coulent quand on mord.</FlavorTextFR_GulabJamunDuo.description>
+
+	<FlavorTextFR_RisiEBisiDuo.description>{0_coll} et {1_coll} cuits ensemble, entre la soupe et le risotto — assez liquide pour la cuillère, trop épais pour le bol. Les cosses servent au bouillon, rien ne se perd.</FlavorTextFR_RisiEBisiDuo.description>
+
+	<FlavorTextFR_GnocchiDuo.description>{0_coll} écrasées encore chaudes et liées d'aussi peu de farine que possible, roulées, striées à la fourchette. Ils sont cuits quand ils remontent.</FlavorTextFR_GnocchiDuo.description>
+
+	<FlavorTextFR_FocacciaDuo.description>une pâte très hydratée creusée du bout des doigts, noyée d'huile {1_adj} et salée en gros grains. Les trous retiennent l'huile : ils ne sont pas décoratifs.</FlavorTextFR_FocacciaDuo.description>
+
+	<FlavorTextFR_CapreseDuo.description>{0_coll} et {1_coll} en tranches alternées, huile, sel, feuilles vertes. Rien d'autre, et surtout pas de vinaigre.</FlavorTextFR_CapreseDuo.description>
+
+	<FlavorTextFR_SaltimboccaDuo.description>une escalope {0_adj} aplatie, une feuille de sauge et une tranche {1_adj} fixées dessus, saisies une minute par face. Le nom dit « saute en bouche ».</FlavorTextFR_SaltimboccaDuo.description>
+
+	<FlavorTextFR_UdonDuo.description>des nouilles épaisses et molles, pétries au pied sous une toile, dans un bouillon clair {1_adj}. La texture compte plus que le goût, et elle est délibérée.</FlavorTextFR_UdonDuo.description>
+
+	<FlavorTextFR_SobaDuo.description>des nouilles {0_adj} grises, servies froides sur une claie avec une sauce {1_adj} à part. L'eau de cuisson se boit à la fin, allongée dans le reste de sauce.</FlavorTextFR_SobaDuo.description>
+
+	<FlavorTextFR_AgedashiDofuDuo.description>des cubes de tofu {0_adj} roulés dans la fécule et frits, posés dans un bouillon tiède {1_adj}. La croûte tient juste le temps d'arriver à table.</FlavorTextFR_AgedashiDofuDuo.description>
+
+	<FlavorTextFR_KorokkeDuo.description>une purée {0_adj} mêlée {1_plur} hachée, panée à la chapelure grossière et frite. Descendante lointaine de la croquette française, arrivée par bateau au siècle dernier.</FlavorTextFR_KorokkeDuo.description>
+
+	<FlavorTextFR_DorayakiDuo.description>deux petites crêpes épaisses {1_plur} et au miel, refermées sur une pâte sucrée {0_adj}. Le nom vient du gong qu'elles imitent.</FlavorTextFR_DorayakiDuo.description>
+
+	<FlavorTextFR_PajeonDuo.description>une crêpe épaisse où {1_coll} tiennent debout dans la pâte, dorée des deux côtés à l'huile généreuse. Se mange les jours de pluie : le bruit de la friture rappelle celui des gouttes.</FlavorTextFR_PajeonDuo.description>
+
+	<FlavorTextFR_FattoucheDuo.description>du pain plat rassis, grillé et brisé à la main, jeté sur {0_coll} et {1_coll} avec du sumac. Se sert au dernier moment : le pain doit encore craquer.</FlavorTextFR_FattoucheDuo.description>
+
+	<FlavorTextFR_TabouleDuo.description>une montagne d'herbes hachées au couteau, {1_coll} en dés, et juste une poignée de boulgour. La version où la semoule domine est une invention d'ailleurs.</FlavorTextFR_TabouleDuo.description>
+
+	<FlavorTextFR_TabouleSolo.description>une montagne d'herbes hachées au couteau, {0_coll} en dés, et juste une poignée de boulgour. La version où la semoule domine est une invention d'ailleurs.</FlavorTextFR_TabouleSolo.description>
+
+	<FlavorTextFR_PastillaDuo.description>{0_coll} effilochée et {1_coll} grillées enfermées dans des feuilles de brick, le tout saupoudré de sucre et de cannelle par-dessus. Un plat salé qui se sert sous une couche sucrée, et personne ne s'en étonne.</FlavorTextFR_PastillaDuo.description>
+
+	<FlavorTextFR_BriouatesDuo.description>des triangles de brick fourrés {0_plur} pilées, frits puis plongés brûlants dans le miel froid. Le choc des températures fait le croustillant.</FlavorTextFR_BriouatesDuo.description>
+
+	<FlavorTextFR_TheALaMentheDuo.description>{0_coll} vert, une poignée de menthe, et bien plus {1_adj} qu'on ne veut l'admettre. Versé de haut pour faire la mousse, et trois fois plutôt qu'une.</FlavorTextFR_TheALaMentheDuo.description>
+
+	<FlavorTextFR_CouscousRoyalDuo.description>de la semoule roulée à la main et cuite trois fois à la vapeur du bouillon, servie {0_plur} et {1_plur}. La graine ne touche jamais l'eau.</FlavorTextFR_CouscousRoyalDuo.description>
+
+	<FlavorTextFR_SeffaDuo.description>de la semoule vapeur montée en cône, striée de cannelle et de sucre glace, couronnée {0_plur} frites, {1_plur} servi à part et froid.</FlavorTextFR_SeffaDuo.description>
+
+	<FlavorTextFR_MsemenDuo.description>une pâte étirée jusqu'à la transparence sur un plan huilé, badigeonnée {0_plur} et de semoule, pliée en carré et repliée encore, puis cuite à sec. Les feuillets se comptent à la déchirure.</FlavorTextFR_MsemenDuo.description>
+
+	<FlavorTextFR_AamrasDuo.description>la pulpe {0_adj} pressée à la main plutôt que mixée — le fouet oxyde et ternit la couleur —, à peine {1_plur} et parfumée au cardamome et au safran.</FlavorTextFR_AamrasDuo.description>
+
+	<FlavorTextFR_AamrasPuriDuo.description>la purée {0_adj} servie avec des puri gonflés brûlants, qu'on déchire pour y tremper. Sucré et salé dans la même bouchée : un repas entier au Gujarat pendant la saison.</FlavorTextFR_AamrasPuriDuo.description>
+
+	<FlavorTextFR_MangoFloatDuo.description>des couches alternées de biscuits graham, {1_adj} fouettée au lait concentré et {0_adj} en lamelles, prises une nuit au froid. Les biscuits ramollissent et deviennent gâteau.</FlavorTextFR_MangoFloatDuo.description>
+
+	<FlavorTextFR_RawMangoCurryDuo.description>{0_coll} verte mijotée dans un lait {1_adj} monté au curcuma et aux graines de moutarde. Le fruit garde sa tenue et son acidité : ce n'est pas un dessert malgré le sucre qu'il contient.</FlavorTextFR_RawMangoCurryDuo.description>
+
+	<FlavorTextFR_MangoChickenCurryDuo.description>{1_coll} mijotée dans une sauce où {0_coll} mûre fond et sucre le curry, tandis que quelques morceaux verts gardés entiers apportent l'acide.</FlavorTextFR_MangoChickenCurryDuo.description>
+
+	<FlavorTextFR_GheeRiceDuo.description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières — cannelle, clou, cardamome, laurier — puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</FlavorTextFR_GheeRiceDuo.description>
+
+	<FlavorTextFR_ChutneyDeCocoDuo.description>{0_coll} mixée avec {1_coll} grillés et un peu d'eau, puis réveillée d'un tempérage : des graines de moutarde et des feuilles de curry qu'on fait éclater dans l'huile brûlante et qu'on verse par-dessus. Accompagne le dosa.</FlavorTextFR_ChutneyDeCocoDuo.description>
+
+	<FlavorTextFR_PicaronesDuo.description>des anneaux de pâte {0_adj} et de patate douce, façonnés à la main d'un geste tournant, frits et noyés d'un sirop {1_adj} roux. Le successeur colonial d'un beignet plus ancien.</FlavorTextFR_PicaronesDuo.description>
+
+	<FlavorTextFR_NarsharabDuo.description>la mélasse azérie, montée {1_plur} et parfumée à la cannelle, au clou et au laurier. Se sert avec le poisson d'esturgeon grillé, et rien d'autre ne la remplace.</FlavorTextFR_NarsharabDuo.description>
+
+	<FlavorTextFR_FattoushGrenadeDuo.description>du pain plat frit et brisé, {1_coll} et des herbes, avec une vinaigrette au sumac et à la mélasse {0_adj}. Le pain doit encore craquer à l'arrivée en table.</FlavorTextFR_FattoushGrenadeDuo.description>
+
+	<FlavorTextFR_KisirGrenadeDuo.description>du boulgour fin gonflé à l'eau chaude et travaillé à la main avec du concentré {1_adj}, du piment doux et la mélasse {0_adj}. Se sert dans des feuilles de laitue.</FlavorTextFR_KisirGrenadeDuo.description>
+
+	<FlavorTextFR_TajineAgneauGrenadeDuo.description>{1_coll} mijotée au safran et à la cannelle, la sauce acidulée au jus {0_adj} et les graines fraîches semées au moment de servir seulement — cuites, elles perdent tout.</FlavorTextFR_TajineAgneauGrenadeDuo.description>
+
+	<FlavorTextFR_AnardanaChutneyDuo.description>des graines {0_adj} sauvage séchées et moulues, broyées {1_plur} verts et à la coriandre. L'anardana remplace le tamarin dans tout le nord de l'Inde.</FlavorTextFR_AnardanaChutneyDuo.description>
+
+	<FlavorTextFR_AnardanaChickenDuo.description>{1_coll} marinée aux graines {0_adj} moulues, qui attendrissent la chair par leur acidité, puis mijotée aux épices sèches sans tomate ni yaourt.</FlavorTextFR_AnardanaChickenDuo.description>
+
+	<FlavorTextFR_TarteFigueBarbarieDuo.description>un fond sablé {1_plur} garni d'une gelée {0_adj} prise, dont la couleur passe du magenta au grenat en refroidissant.</FlavorTextFR_TarteFigueBarbarieDuo.description>
+
+	<FlavorTextFR_SashimiDuo.description>{0_coll} crue tranchée d'un seul geste tiré, jamais scié, sur un lit de radis en fils. Le couteau et l'angle de coupe font tout le plat ; il n'y a rien d'autre à faire.</FlavorTextFR_SashimiDuo.description>
+
+	<FlavorTextFR_GoredGoredDuo.description>{0_coll} crue en cubes plutôt que hachée, roulée dans un beurre épicé et l'awaze. Le cousin en morceaux du kitfo, et le test de fraîcheur le plus impitoyable qui soit.</FlavorTextFR_GoredGoredDuo.description>
+
+	<FlavorTextFR_SaucisseViandeTordueDuo.description>{0_coll} hachée deux fois, allongée de mie et fortement {1_plur}, embossée puis pochée. Le hachoir règle la question de la texture.</FlavorTextFR_SaucisseViandeTordueDuo.description>
+
+	<FlavorTextFR_TourteViandeTordueDuo.description>{0_coll} braisée d'avance et enfermée sous une pâte {1_adj}. Ce qui est sous la croûte ne se voit plus, et c'est en partie l'intérêt.</FlavorTextFR_TourteViandeTordueDuo.description>
+
+	<FlavorTextFR_PorcAuSodaDuo.description>un jambon cuit lentement dans {0_coll} sucré, dont le sucre caramélise et l'acide attendrit. Une recette de cuisine de bidon, et personne n'a jamais expliqué pourquoi elle fonctionne.</FlavorTextFR_PorcAuSodaDuo.description>
+
+	<FlavorTextFR_AlligatorSaucePiquanteDuo.description>{0_coll} de queue en dés, mijotée dans un roux et {1_coll} avec du poivre de Cayenne. Le plat cajun de l'alligator, celui qu'on sert aux fêtes de paroisse.</FlavorTextFR_AlligatorSaucePiquanteDuo.description>
+
+	<FlavorTextFR_BeignetsAlligatorDuo.description>des dés {0_adj} marinés au babeurre, roulés dans une farine {1_adj} au paprika et à la cayenne, et frits à l'instant. Se mangent au cure-dent, avec une sauce rémoulade.</FlavorTextFR_BeignetsAlligatorDuo.description>
+
+	<FlavorTextFR_VaranAuCocoDuo.description>{0_coll} découpée et mijotée longuement dans un lait {1_adj} épicé — sa chair est ferme et maigre, et ne s'attendrit qu'à petit feu.</FlavorTextFR_VaranAuCocoDuo.description>
+
+	<FlavorTextFR_SerpentFritDuo.description>des tronçons {0_adj} roulés dans une farine assaisonnée et frits {1_plur} jusqu'au doré. On mange autour des côtes, comme un épi de maïs.</FlavorTextFR_SerpentFritDuo.description>
+
+	<FlavorTextFR_TuwoDawaDuo.description>la version haoussa : une boule {0_adj} moulée à la louche, avec un miyan kuka de feuilles de baobab pilées et une sauce {1_adj}. Le baobab épaissit sans farine.</FlavorTextFR_TuwoDawaDuo.description>
+
+	<FlavorTextFR_GenfoDeSorghoDuo.description>une bouillie {0_adj} très épaisse moulée en dôme, creusée au centre et remplie de niter kibbeh — un beurre clarifié aux épices — et de berbéré {1_adj}. Le déjeuner des jeunes mères éthiopiennes.</FlavorTextFR_GenfoDeSorghoDuo.description>
+
+	<FlavorTextFR_PoppedSorghumDuo.description>{0_coll} jeté par poignées dans une poêle brûlante : les grains éclatent en minuscules boules blanches, dix fois plus petites que du maïs soufflé, et bien plus tendres.</FlavorTextFR_PoppedSorghumDuo.description>
+
+	<FlavorTextFR_GoiCuonDuo.description>des galettes {0_adj} trempées une seconde dans l'eau tiède, roulées serré sur {1_coll} et des herbes. On voit le rose à travers la feuille : c'est pour ça qu'on la roule dans ce sens.</FlavorTextFR_GoiCuonDuo.description>
+
+	<FlavorTextFR_BoBunDuo.description>des vermicelles {0_adj} froids sous {1_coll} sautée brûlante, avec des herbes crues et une sauce claire sucrée-salée versée par-dessus. Le chaud et le froid dans le même bol, sans que ce soit un défaut.</FlavorTextFR_BoBunDuo.description>
+
+	<FlavorTextFR_NemDuo.description>des rouleaux fins farcis {0_plur} hachée et {1_plur} noirs réhydratés, frits deux fois. Se mangent enveloppés dans une feuille de salade, avec de la menthe.</FlavorTextFR_NemDuo.description>
+
+	<FlavorTextFR_PulpoGallegaDuo.description>{0_coll} trempée trois fois dans l'eau bouillante avant d'y rester — sinon la peau s'en va —, coupée aux ciseaux sur des rondelles {1_adj}, huile et paprika fumé.</FlavorTextFR_PulpoGallegaDuo.description>
+
+	<FlavorTextFR_FabadaDuo.description>de gros haricots blancs mijotés {1_plur} fumée, jamais remués à la cuillère : on secoue la marmite d'un mouvement de poignet pour ne pas les briser.</FlavorTextFR_FabadaDuo.description>
+
+	<FlavorTextFR_SalmorejoDuo.description>{0_coll} broyés avec de la mie et montés à l'huile jusqu'à devenir une crème orange assez épaisse pour tenir, servie glacée avec {1_coll} durs émiettés. Plus dense que le gaspacho, dont il est le cousin de Cordoue.</FlavorTextFR_SalmorejoDuo.description>
+
+	<FlavorTextFR_FideuaDuo.description>de courtes pâtes creuses grillées à sec puis cuites dans un fumet {1_adj}, qu'elles boivent en se dressant à la verticale. Née d'un mousse qui cachait le riz à son capitaine trop gourmand.</FlavorTextFR_FideuaDuo.description>
+
+	<FlavorTextFR_TatinDOignonsDuo.description>{0_coll} coupés en deux, posés face plate dans un caramel {1_adj} au vinaigre, couverts de pâte et retournés après cuisson. Le principe de la tarte aux pommes, appliqué au salé.</FlavorTextFR_TatinDOignonsDuo.description>
+
+	<FlavorTextFR_CipollineAgrodolceDuo.description>de petits {0_coll} entiers glacés au vinaigre balsamique et {1_plur}, avec du laurier. Se mangent froids, et se gardent une semaine en gagnant à chaque jour.</FlavorTextFR_CipollineAgrodolceDuo.description>
+
+	<FlavorTextFR_BetteravesAigresDoucesDuo.description>{0_coll} cuites en robe puis marinées dans un vinaigre {1_adj} aux graines de moutarde et à l'aneth. Prennent une semaine à s'équilibrer et se gardent des mois.</FlavorTextFR_BetteravesAigresDoucesDuo.description>
+
+	<FlavorTextFR_TakuanDuo.description>un daikon séché au soleil plusieurs semaines jusqu'à plier, puis enfoui dans du son de riz {1_plur} et au sel. Jaune vif, craquant, et bruyant à mâcher.</FlavorTextFR_TakuanDuo.description>
+
+	<FlavorTextFR_AchardsDeLegumesDuo.description>{0_coll} taillés en fine julienne, blanchis puis noyés dans une huile au curcuma, au gingembre et au vinaigre, avec juste assez {1_adj} pour arrondir l'acide. Se bonifient trois jours durant.</FlavorTextFR_AchardsDeLegumesDuo.description>
+
+	<FlavorTextFR_KhoreshBehDuo.description>{0_coll} braisée avec des coings en quartiers, dont la chair dure fond en une heure et parfume tout, acidulée au verjus et sucrée d'un peu de miel.</FlavorTextFR_KhoreshBehDuo.description>
+
+	<FlavorTextFR_PorcVapeurChataigneDEauDuo.description>{1_coll} hachée au couteau et travaillée dans un seul sens jusqu'à devenir élastique, {0_coll} en petits dés dedans, le tout étalé en galette et cuit à la vapeur sur le riz.</FlavorTextFR_PorcVapeurChataigneDEauDuo.description>
+
+	<FlavorTextFR_JiaoziPorcChataigneDEauDuo.description>une farce {1_adj} où {0_coll} hachées apportent le croquant que la viande seule ne donne jamais, enfermée dans des disques de pâte plissés à la main.</FlavorTextFR_JiaoziPorcChataigneDEauDuo.description>
+
+	<FlavorTextFR_JiaoziCrevettesChataigneDEauDuo.description>{1_coll} laissée en gros morceaux plutôt que broyée, mêlée {0_plur} en dés. Deux textures qui craquent, chacune à sa façon.</FlavorTextFR_JiaoziCrevettesChataigneDEauDuo.description>
+
+	<FlavorTextFR_RouleauxChataigneDEauDuo.description>{1_coll} et {0_coll} émincés, roulés serré dans une feuille de pâte et frits jusqu'au brun doré. Le croquant vient de l'intérieur autant que de la croûte.</FlavorTextFR_RouleauxChataigneDEauDuo.description>
+
+	<FlavorTextFR_ArtichautsVinaigretteSolo.description>{0_coll} entiers bouillis la tête en bas, servis tièdes avec une vinaigrette moutardée. On les effeuille un à un et on racle la base de chaque feuille entre les dents ; le fond se garde pour la fin.</FlavorTextFR_ArtichautsVinaigretteSolo.description>
+
+	<FlavorTextFR_CarciofiAllaGiudiaSolo.description>{0_coll} entiers frits deux fois, écrasés entre deux passages pour que les feuilles s'ouvrent en fleur et deviennent aussi cassantes que des chips. Une invention du ghetto de Rome.</FlavorTextFR_CarciofiAllaGiudiaSolo.description>
+
+	<FlavorTextFR_AspergesFlamandeSolo.description>{0_coll} blanches servies avec un œuf dur écrasé à la fourchette dans du beurre fondu, du persil et une râpure de muscade. Chacun mélange sa sauce dans son assiette.</FlavorTextFR_AspergesFlamandeSolo.description>
+
+	<FlavorTextFR_JambonALOsSolo.description>une pièce entière {0_adj} cuite sur son os et tranchée devant vous. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</FlavorTextFR_JambonALOsSolo.description>
+
+	<FlavorTextFR_MousseAuChocolatSolo.description>{0_coll} fondu et lié à des jaunes, allégé de blancs montés incorporés en trois fois — le premier tiers pour détendre, les deux autres à la spatule, sans casser l'air.</FlavorTextFR_MousseAuChocolatSolo.description>
+
+	<FlavorTextFR_KunefeSolo.description>{0_coll} frais pris entre deux couches de cheveux d'ange, doré des deux côtés puis arrosé de sirop brûlant. Se mange immédiatement : le fromage doit encore filer.</FlavorTextFR_KunefeSolo.description>
+
+	<FlavorTextFR_DurianPuffSolo.description>de petits choux garnis d'une crème {0_adj} pure, servis froids. Vendus par boîtes réfrigérées à Singapour, et interdits dans le métro comme tout ce qui contient ce fruit.</FlavorTextFR_DurianPuffSolo.description>
+
+	<FlavorTextFR_GateauAuDurianSolo.description>une génoise très aérée où la chair {0_adj} est incorporée à la pâte crue. L'odeur envahit la cuisine pendant la cuisson et s'y installe pour la journée.</FlavorTextFR_GateauAuDurianSolo.description>
+
+	<FlavorTextFR_TempoyakSolo.description>la chair {0_adj} salée et laissée fermenter une semaine en jarre close, jusqu'à devenir acide et crémeuse. Ce n'est plus un fruit à ce stade : c'est un condiment, et il se garde des mois.</FlavorTextFR_TempoyakSolo.description>
+
+	<FlavorTextFR_WienerSchnitzelSolo.description>une escalope {0_adj} battue jusqu'à la transparence, panée sans presser, et frite au beurre en secouant la poêle pour que la panure gonfle et se décolle de la viande.</FlavorTextFR_WienerSchnitzelSolo.description>
+
+	<FlavorTextFR_PoronkaristysSolo.description>{0_coll} de renne rabotée en copeaux sur le bloc gelé, jetée dans la graisse brûlante et servie avec une purée et une cuillerée d'airelles. Un plat de Laponie, mangé l'hiver.</FlavorTextFR_PoronkaristysSolo.description>
+
+	<FlavorTextFR_LapskausSolo.description>{0_coll} et les racines cuites si longtemps ensemble qu'on ne distingue plus rien. Un plat de marins, fait de salaisons et de ce qui se conservait à bord.</FlavorTextFR_LapskausSolo.description>
+
+	<FlavorTextFR_KedgereeSolo.description>{0_coll} au curry mêlé de poisson fumé effeuillé et d'œufs durs. Un khichdi indien rapporté par les Britanniques, devenu chez eux un plat de petit-déjeuner.</FlavorTextFR_KedgereeSolo.description>
+
+	<FlavorTextFR_DaubeProvencaleSolo.description>{0_coll} marinée une nuit entière, puis cuite si longtemps et si doucement qu'elle se défait à la cuillère.</FlavorTextFR_DaubeProvencaleSolo.description>
+
+	<FlavorTextFR_GougeresSolo.description>de la pâte à choux {0_plur}, gonflée au four jusqu'à sonner creux. Se mange tiède, debout, en attendant le reste.</FlavorTextFR_GougeresSolo.description>
+
+	<FlavorTextFR_PateDePaquesSolo.description>une farce {0_adj} enfermée dans une pâte, avec des œufs durs entiers alignés au centre pour qu'apparaisse un rond jaune à chaque tranche.</FlavorTextFR_PateDePaquesSolo.description>
+
+	<FlavorTextFR_PouletEnBarbouilleSolo.description>{0_coll} mijotée au vin, la sauce liée au sang et au foie de la bête. « Barbouille » pour ce qu'elle laisse sur le menton de qui la mange.</FlavorTextFR_PouletEnBarbouilleSolo.description>
+
+	<FlavorTextFR_GnocchiSolo.description>{0_coll} écrasées encore chaudes et liées d'aussi peu de farine que possible, roulées, striées à la fourchette. Ils sont cuits quand ils remontent.</FlavorTextFR_GnocchiSolo.description>
+
+	<FlavorTextFR_AamrasPuriSolo.description>la purée {0_adj} servie avec des puri gonflés brûlants, qu'on déchire pour y tremper. Sucré et salé dans la même bouchée : un repas entier au Gujarat pendant la saison.</FlavorTextFR_AamrasPuriSolo.description>
+
+	<FlavorTextFR_MelasseDeGrenadeSolo.description>le jus {0_adj} réduit des heures jusqu'au dixième de son volume, épais, noir et franchement acide. Dibs rumman en arabe, nar ekşisi en turc : le citron du Levant.</FlavorTextFR_MelasseDeGrenadeSolo.description>
+
+	<FlavorTextFR_ColoncheSolo.description>le jus {0_adj} rouges laissé fermenter quelques jours dans une jarre de terre. Une boisson préhispanique, encore vendue dans les marchés du centre du Mexique.</FlavorTextFR_ColoncheSolo.description>
+
+	<FlavorTextFR_SashimiSolo.description>{0_coll} crue tranchée d'un seul geste tiré, jamais scié, sur un lit de radis en fils. Le couteau et l'angle de coupe font tout le plat ; il n'y a rien d'autre à faire.</FlavorTextFR_SashimiSolo.description>
+
+	<FlavorTextFR_GoredGoredSolo.description>{0_coll} crue en cubes plutôt que hachée, roulée dans un beurre épicé et l'awaze. Le cousin en morceaux du kitfo, et le test de fraîcheur le plus impitoyable qui soit.</FlavorTextFR_GoredGoredSolo.description>
+
+	<FlavorTextFR_TurtleSoupCreoleSolo.description>{0_coll} mijotée dans un roux brun avec la trinité créole, des œufs durs hachés et un trait de xérès versé dans l'assiette au moment de servir. La bouteille reste sur la table.</FlavorTextFR_TurtleSoupCreoleSolo.description>
+
+	<FlavorTextFR_PoppedSorghumSolo.description>{0_coll} jeté par poignées dans une poêle brûlante : les grains éclatent en minuscules boules blanches, dix fois plus petites que du maïs soufflé, et bien plus tendres.</FlavorTextFR_PoppedSorghumSolo.description>
+
+	<FlavorTextFR_KhoreshBehSolo.description>{0_coll} braisée avec des coings en quartiers, dont la chair dure fond en une heure et parfume tout, acidulée au verjus et sucrée d'un peu de miel.</FlavorTextFR_KhoreshBehSolo.description>
+
+	<FlavorTextFR_MaTaiGoSolo.description>une pâte de fécule {0_adj} et de sucre candi, cuite à la vapeur en plaque translucide et ambrée, avec des dés entiers dedans. Se mange tiède, ou retranché et poêlé le lendemain.</FlavorTextFR_MaTaiGoSolo.description>
+
+	<FlavorTextFR_GateauAuYaourtSolo.description>le pot {0_adj} sert de mesure pour tout le reste. Le premier gâteau que l'on apprend à faire, et le seul dont on n'oublie jamais la recette.</FlavorTextFR_GateauAuYaourtSolo.description>
+
+	<FlavorTextFR_MedovikSolo.description>une douzaine de disques de pâte {0_adj} cuits un par un, empilés avec une crème acidulée, et laissés une nuit pour que tout s'attendrisse et devienne moelleux.</FlavorTextFR_MedovikSolo.description>
+
+	<FlavorTextFR_TaiyakiSolo.description>une pâte à gaufre cuite dans un moule en forme de daurade, fourrée d'une pâte {0_adj} sucrée. La question de savoir par où le mordre — la tête ou la queue — divise le Japon.</FlavorTextFR_TaiyakiSolo.description>
+
+	<FlavorTextFR_BriouatesSolo.description>des triangles de brick fourrés {0_plur} pilées, frits puis plongés brûlants dans le miel froid. Le choc des températures fait le croustillant.</FlavorTextFR_BriouatesSolo.description>
+
+	<FlavorTextFR_PajeonSolo.description>une crêpe épaisse où {0_coll} tiennent debout dans la pâte, dorée des deux côtés à l'huile généreuse. Se mange les jours de pluie : le bruit de la friture rappelle celui des gouttes.</FlavorTextFR_PajeonSolo.description>
+
+	<FlavorTextFR_AspergesMousselineSolo.description>la même hollandaise, allégée d'un tiers de crème fouettée incorporée hors du feu. Elle double de volume et perd son mordant : c'est la version des dimanches.</FlavorTextFR_AspergesMousselineSolo.description>
+	<FlavorTextFR_CanardLaqueSolo.description>une bête gonflée d'air pour décoller la peau de la chair, ébouillantée, laquée au sirop et séchée un jour au vent avant de rôtir. On sert la peau d'abord, dans de fines crêpes, et la viande après.</FlavorTextFR_CanardLaqueSolo.description>
+	<FlavorTextFR_ChouFarciSolo.description>un chou entier blanchi, ouvert feuille à feuille, garni à la viande entre chaque étage puis refermé dans un linge et poché des heures. On le tranche en parts, comme un gâteau.</FlavorTextFR_ChouFarciSolo.description>
+	<FlavorTextFR_SernikSolo.description>un fromage blanc polonais passé trois fois au tamis, monté aux œufs et cuit lentement. Plus dense et moins sucré que ses cousins occidentaux.</FlavorTextFR_SernikSolo.description>
+	<FlavorTextFR_GravlaxSolo.description>un filet enfoui deux jours sous du sel, sucre et beaucoup d'aneth, sous un poids. Le nom veut dire « saumon enterré » : on l'enfouissait autrefois vraiment dans le sable.</FlavorTextFR_GravlaxSolo.description>
+	<FlavorTextFR_AnguilleAuVertSolo.description>des tronçons pochés au vin blanc dans une masse d'herbes vertes — oseille, cresson, épinard — jusqu'à ce que la sauce prenne leur couleur. Se sert froid.</FlavorTextFR_AnguilleAuVertSolo.description>
+	<FlavorTextFR_MarmiteDieppoiseSolo.description>plusieurs poissons et coquillages pochés séparément puis réunis dans un bouillon crémé au cidre. Chaque chair a son temps de cuisson : les mélanger dès le début, c'est tout rater.</FlavorTextFR_MarmiteDieppoiseSolo.description>
+	<FlavorTextFR_CanardALaRouennaiseSolo.description>une bête étouffée plutôt que saignée, pour garder son sang, rôtie saignante ; la carcasse est ensuite pressée et le jus obtenu lié au foie et au vin rouge.</FlavorTextFR_CanardALaRouennaiseSolo.description>
+	<FlavorTextFR_BoudinNoirAuxPommesSolo.description>un boudin piqué à la fourchette et poêlé doucement — trop vif, il éclate —, avec pommes caramélisées au beurre. Le sucre du fruit coupe le fer du sang.</FlavorTextFR_BoudinNoirAuxPommesSolo.description>
+	<FlavorTextFR_SaladeLyonnaiseSolo.description>de la frisée amère, lardons rissolés, des croûtons frottés d'ail et un œuf poché posé dessus. On perce le jaune et il devient la sauce.</FlavorTextFR_SaladeLyonnaiseSolo.description>
+	<FlavorTextFR_PoulardeDemiDeuilSolo.description>une volaille sous la peau de laquelle on a glissé des lamelles noires de truffe, pochée entière dans un bouillon d'os. Le noir sur le blanc lui vaut son nom de demi-deuil.</FlavorTextFR_PoulardeDemiDeuilSolo.description>
+	<FlavorTextFR_FocacciaSolo.description>une pâte très hydratée creusée du bout des doigts, noyée d'huile d'olive et salée en gros grains. Les trous retiennent l'huile : ils ne sont pas décoratifs.</FlavorTextFR_FocacciaSolo.description>
+	<FlavorTextFR_UdonSolo.description>des nouilles épaisses et molles, pétries au pied sous une toile, dans un bouillon clair de kombu. La texture compte plus que le goût, et elle est délibérée.</FlavorTextFR_UdonSolo.description>
+	<FlavorTextFR_MsemenSolo.description>une pâte étirée jusqu'à la transparence sur un plan huilé, badigeonnée au beurre et de semoule, pliée en carré et repliée encore, puis cuite à sec. Les feuillets se comptent à la déchirure.</FlavorTextFR_MsemenSolo.description>
+	<FlavorTextFR_TarteAuRizSolo.description>un riz au lait très épais coulé dans un fond de pâte levée nature, puis passé au four jusqu'à ce que le dessus se craquelle. La spécialité de Verviers, qu'on y mange depuis des siècles.</FlavorTextFR_TarteAuRizSolo.description>
+	<FlavorTextFR_NarsharabSolo.description>la mélasse azérie, montée au sucre et parfumée à la cannelle, au clou et au laurier. Se sert avec le poisson d'esturgeon grillé, et rien d'autre ne la remplace.</FlavorTextFR_NarsharabSolo.description>
+	<FlavorTextFR_PongTiaKoonSolo.description>la version cambodgienne, grillée sur braises plutôt que bouillie, servie avec un trempette de citron vert, de sel et de poivre de Kampot.</FlavorTextFR_PongTiaKoonSolo.description>
+	<FlavorTextFR_TortueBraiseeSolo.description>une tortue à carapace molle braisée au vin de riz avec champignons noirs, du gingembre et des baies de goji. Le cartilage du pourtour est la partie recherchée, gélatineuse et fondante.</FlavorTextFR_TortueBraiseeSolo.description>
+	<FlavorTextFR_FabadaSolo.description>de gros haricots blancs mijotés au porc fumé, jamais remués à la cuillère : on secoue la marmite d'un mouvement de poignet pour ne pas les briser.</FlavorTextFR_FabadaSolo.description>
+	<FlavorTextFR_FideuaSolo.description>de courtes pâtes creuses grillées à sec puis cuites dans un fumet de poisson, qu'elles boivent en se dressant à la verticale. Née d'un mousse qui cachait le riz à son capitaine trop gourmand.</FlavorTextFR_FideuaSolo.description>
+	<FlavorTextFR_TakuanSolo.description>un daikon séché au soleil plusieurs semaines jusqu'à plier, puis enfoui dans du son de riz au sucre et au sel. Jaune vif, craquant, et bruyant à mâcher.</FlavorTextFR_TakuanSolo.description>
+	<FlavorTextFR_SchweinshaxeSolo.description>un jarret entier rôti des heures, arrosé à la bière brune, jusqu'à ce que la couenne devienne une carapace qui craque sous le couteau.</FlavorTextFR_SchweinshaxeSolo.description>
+
+</LanguageData>

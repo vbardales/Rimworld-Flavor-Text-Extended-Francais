@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FlavorTextFR_MisirWatDuo.label>misir wat</FlavorTextFR_MisirWatDuo.label>
+
+	<FlavorTextFR_ArtichautsVinaigretteDuo.label>artichauts vinaigrette</FlavorTextFR_ArtichautsVinaigretteDuo.label>
+
+	<FlavorTextFR_ArtichautsFarcisDuo.label>artichauts farcis</FlavorTextFR_ArtichautsFarcisDuo.label>
+
+	<FlavorTextFR_CarciofiAllaRomanaDuo.label>carciofi alla romana</FlavorTextFR_CarciofiAllaRomanaDuo.label>
+
+	<FlavorTextFR_CarciofiAllaGiudiaDuo.label>carciofi alla giudia</FlavorTextFR_CarciofiAllaGiudiaDuo.label>
+
+	<FlavorTextFR_PizzaAuxArtichautsDuo.label>pizza aux artichauts</FlavorTextFR_PizzaAuxArtichautsDuo.label>
+
+	<FlavorTextFR_AspergesFlamandeDuo.label>asperges à la flamande</FlavorTextFR_AspergesFlamandeDuo.label>
+
+	<FlavorTextFR_TarteAuxAspergesDuo.label>tarte aux asperges</FlavorTextFR_TarteAuxAspergesDuo.label>
+
+	<FlavorTextFR_ChouxBruxellesCurryDuo.label>curry de choux de Bruxelles</FlavorTextFR_ChouxBruxellesCurryDuo.label>
+
+	<FlavorTextFR_PizzaPoireGorgonzolaDuo.label>pizza poire-gorgonzola</FlavorTextFR_PizzaPoireGorgonzolaDuo.label>
+
+	<FlavorTextFR_CrostiniFigueChevreDuo.label>crostini figue-chèvre</FlavorTextFR_CrostiniFigueChevreDuo.label>
+
+	<FlavorTextFR_GrilledCheesePommeCheddarDuo.label>croque pomme-cheddar</FlavorTextFR_GrilledCheesePommeCheddarDuo.label>
+
+	<FlavorTextFR_ChevreChaudAuxCerisesDuo.label>chèvre chaud aux cerises</FlavorTextFR_ChevreChaudAuxCerisesDuo.label>
+
+	<FlavorTextFR_ChampignonsFarcisDuo.label>champignons farcis au fromage</FlavorTextFR_ChampignonsFarcisDuo.label>
+
+	<FlavorTextFR_SaganakiDuo.label>saganaki</FlavorTextFR_SaganakiDuo.label>
+
+	<FlavorTextFR_GnudiDuo.label>gnudi ricotta-épinards</FlavorTextFR_GnudiDuo.label>
+
+	<FlavorTextFR_HalloumiGrilleLegumesDuo.label>halloumi grillé aux légumes</FlavorTextFR_HalloumiGrilleLegumesDuo.label>
+
+	<FlavorTextFR_XiaolongbaoDuo.label>xiaolongbao</FlavorTextFR_XiaolongbaoDuo.label>
+
+	<FlavorTextFR_XiaolongbaoSolo.label>xiaolongbao</FlavorTextFR_XiaolongbaoSolo.label>
+
+	<FlavorTextFR_WontonDuo.label>wonton</FlavorTextFR_WontonDuo.label>
+
+	<FlavorTextFR_CanardLaqueDuo.label>canard laqué</FlavorTextFR_CanardLaqueDuo.label>
+
+	<FlavorTextFR_BoeufMirotonDuo.label>bœuf miroton</FlavorTextFR_BoeufMirotonDuo.label>
+
+	<FlavorTextFR_LangueSaucePiquanteDuo.label>langue sauce piquante</FlavorTextFR_LangueSaucePiquanteDuo.label>
+
+	<FlavorTextFR_TeteDeVeauGribicheDuo.label>tête de veau sauce gribiche</FlavorTextFR_TeteDeVeauGribicheDuo.label>
+
+	<FlavorTextFR_TriplesLyonnaisesDuo.label>tablier de sapeur</FlavorTextFR_TriplesLyonnaisesDuo.label>
+
+	<FlavorTextFR_AndouilletteFritesDuo.label>andouillette-frites</FlavorTextFR_AndouilletteFritesDuo.label>
+
+	<FlavorTextFR_PaletteALaDiableDuo.label>palette à la diable</FlavorTextFR_PaletteALaDiableDuo.label>
+
+	<FlavorTextFR_JambonALOsDuo.label>jambon à l'os</FlavorTextFR_JambonALOsDuo.label>
+
+	<FlavorTextFR_SourisDAgneauDuo.label>souris {0_adj}</FlavorTextFR_SourisDAgneauDuo.label>
+
+	<FlavorTextFR_SourisDAgneauSolo.label>souris {0_adj}</FlavorTextFR_SourisDAgneauSolo.label>
+
+	<FlavorTextFR_ChouFarciDuo.label>chou farci</FlavorTextFR_ChouFarciDuo.label>
+
+	<FlavorTextFR_CroqueMadameDuo.label>croque-madame</FlavorTextFR_CroqueMadameDuo.label>
+
+	<FlavorTextFR_TarteALOignonDuo.label>tarte à l'oignon</FlavorTextFR_TarteALOignonDuo.label>
+
+	<FlavorTextFR_PateEnCrouteDuo.label>pâté en croûte</FlavorTextFR_PateEnCrouteDuo.label>
+
+	<FlavorTextFR_VolAuVentDuo.label>vol-au-vent</FlavorTextFR_VolAuVentDuo.label>
+
+	<FlavorTextFR_QuatreQuartsDuo.label>quatre-quarts</FlavorTextFR_QuatreQuartsDuo.label>
+
+	<FlavorTextFR_GateauAuYaourtDuo.label>gâteau au yaourt</FlavorTextFR_GateauAuYaourtDuo.label>
+
+	<FlavorTextFR_ParisBrestDuo.label>paris-brest</FlavorTextFR_ParisBrestDuo.label>
+
+	<FlavorTextFR_MilleFeuilleDuo.label>mille-feuille</FlavorTextFR_MilleFeuilleDuo.label>
+
+	<FlavorTextFR_EclairAuCafeDuo.label>éclair au café</FlavorTextFR_EclairAuCafeDuo.label>
+
+	<FlavorTextFR_BabaAuRhumDuo.label>baba au rhum</FlavorTextFR_BabaAuRhumDuo.label>
+
+	<FlavorTextFR_ProfiterolesDuo.label>profiteroles</FlavorTextFR_ProfiterolesDuo.label>
+
+	<FlavorTextFR_MadeleineDuo.label>madeleines</FlavorTextFR_MadeleineDuo.label>
+
+	<FlavorTextFR_CaneleDuo.label>canelés</FlavorTextFR_CaneleDuo.label>
+
+	<FlavorTextFR_SableBretonDuo.label>sablés bretons</FlavorTextFR_SableBretonDuo.label>
+
+	<FlavorTextFR_TeurgouleDuo.label>teurgoule</FlavorTextFR_TeurgouleDuo.label>
+
+	<FlavorTextFR_BugnesDuo.label>bugnes</FlavorTextFR_BugnesDuo.label>
+
+	<FlavorTextFR_SachertorteDuo.label>sachertorte</FlavorTextFR_SachertorteDuo.label>
+
+	<FlavorTextFR_ApfelstrudelDuo.label>apfelstrudel</FlavorTextFR_ApfelstrudelDuo.label>
+
+	<FlavorTextFR_KaiserschmarrnDuo.label>kaiserschmarrn</FlavorTextFR_KaiserschmarrnDuo.label>
+
+	<FlavorTextFR_MakowiecDuo.label>makowiec</FlavorTextFR_MakowiecDuo.label>
+
+	<FlavorTextFR_MedovikDuo.label>medovik</FlavorTextFR_MedovikDuo.label>
+
+	<FlavorTextFR_BakewellTartDuo.label>bakewell tart</FlavorTextFR_BakewellTartDuo.label>
+
+	<FlavorTextFR_TresLechesDuo.label>tres leches</FlavorTextFR_TresLechesDuo.label>
+
+	<FlavorTextFR_AlfajoresDuo.label>alfajores</FlavorTextFR_AlfajoresDuo.label>
+
+	<FlavorTextFR_BrownieDuo.label>brownie</FlavorTextFR_BrownieDuo.label>
+
+	<FlavorTextFR_CheesecakeDuo.label>cheesecake</FlavorTextFR_CheesecakeDuo.label>
+
+	<FlavorTextFR_LamingtonDuo.label>lamington</FlavorTextFR_LamingtonDuo.label>
+
+	<FlavorTextFR_MalvaPuddingDuo.label>malva pudding</FlavorTextFR_MalvaPuddingDuo.label>
+
+	<FlavorTextFR_KunefeDuo.label>künefe</FlavorTextFR_KunefeDuo.label>
+
+	<FlavorTextFR_MaamoulDuo.label>maamoul</FlavorTextFR_MaamoulDuo.label>
+
+	<FlavorTextFR_OmAliDuo.label>om ali</FlavorTextFR_OmAliDuo.label>
+
+	<FlavorTextFR_BasbousaDuo.label>basbousa</FlavorTextFR_BasbousaDuo.label>
+
+	<FlavorTextFR_TaiyakiDuo.label>taiyaki</FlavorTextFR_TaiyakiDuo.label>
+
+	<FlavorTextFR_HotteokDuo.label>hotteok</FlavorTextFR_HotteokDuo.label>
+
+	<FlavorTextFR_BanhPiaSauRiengDuo.label>bánh pía sầu riêng</FlavorTextFR_BanhPiaSauRiengDuo.label>
+
+	<FlavorTextFR_DurianMooncakeDuo.label>gâteau de lune au durian</FlavorTextFR_DurianMooncakeDuo.label>
+
+	<FlavorTextFR_DurianMilleCrepesDuo.label>mille-crêpes au durian</FlavorTextFR_DurianMilleCrepesDuo.label>
+
+	<FlavorTextFR_DurianPuffDuo.label>durian puff</FlavorTextFR_DurianPuffDuo.label>
+
+	<FlavorTextFR_GateauAuDurianDuo.label>gâteau au durian</FlavorTextFR_GateauAuDurianDuo.label>
+
+	<FlavorTextFR_TempoyakDuo.label>tempoyak</FlavorTextFR_TempoyakDuo.label>
+
+	<FlavorTextFR_VarenikiDuo.label>vareniki</FlavorTextFR_VarenikiDuo.label>
+
+	<FlavorTextFR_KhatchapouriDuo.label>khatchapouri</FlavorTextFR_KhatchapouriDuo.label>
+
+	<FlavorTextFR_FrancesinhaDuo.label>francesinha</FlavorTextFR_FrancesinhaDuo.label>
+
+	<FlavorTextFR_BifanaDuo.label>bifana</FlavorTextFR_BifanaDuo.label>
+
+	<FlavorTextFR_CataplanaDeMariscoDuo.label>cataplana de marisco</FlavorTextFR_CataplanaDeMariscoDuo.label>
+
+	<FlavorTextFR_SauerbratenDuo.label>sauerbraten</FlavorTextFR_SauerbratenDuo.label>
+
+	<FlavorTextFR_SchweinshaxeDuo.label>schweinshaxe</FlavorTextFR_SchweinshaxeDuo.label>
+
+	<FlavorTextFR_WienerSchnitzelDuo.label>wiener schnitzel</FlavorTextFR_WienerSchnitzelDuo.label>
+
+	<FlavorTextFR_TafelspitzDuo.label>tafelspitz</FlavorTextFR_TafelspitzDuo.label>
+
+	<FlavorTextFR_FrikadellerDuo.label>frikadeller</FlavorTextFR_FrikadellerDuo.label>
+
+	<FlavorTextFR_LapskausDuo.label>lapskaus</FlavorTextFR_LapskausDuo.label>
+
+	<FlavorTextFR_SteakAndAlePieDuo.label>steak and ale pie</FlavorTextFR_SteakAndAlePieDuo.label>
+
+	<FlavorTextFR_KedgereeDuo.label>kedgeree</FlavorTextFR_KedgereeDuo.label>
+
+	<FlavorTextFR_TarteAuxFiguesDuo.label>tarte aux figues</FlavorTextFR_TarteAuxFiguesDuo.label>
+
+	<FlavorTextFR_CrostataDiFichiDuo.label>crostata di fichi</FlavorTextFR_CrostataDiFichiDuo.label>
+
+	<FlavorTextFR_FocacciaAuxFiguesDuo.label>focaccia aux figues</FlavorTextFR_FocacciaAuxFiguesDuo.label>
+
+	<FlavorTextFR_PizzaFiguesProsciuttoDuo.label>pizza figues et prosciutto</FlavorTextFR_PizzaFiguesProsciuttoDuo.label>
+
+	<FlavorTextFR_TajineAgneauFiguesDuo.label>tajine d'agneau aux figues</FlavorTextFR_TajineAgneauFiguesDuo.label>
+
+	<FlavorTextFR_PissaladiereDuo.label>pissaladière</FlavorTextFR_PissaladiereDuo.label>
+
+	<FlavorTextFR_FondueSavoyardeDuo.label>fondue savoyarde</FlavorTextFR_FondueSavoyardeDuo.label>
+
+	<FlavorTextFR_AligotDuo.label>aligot</FlavorTextFR_AligotDuo.label>
+
+	<FlavorTextFR_FlammekuecheDuo.label>flammekueche</FlavorTextFR_FlammekuecheDuo.label>
+
+	<FlavorTextFR_KougelhopfDuo.label>kougelhopf</FlavorTextFR_KougelhopfDuo.label>
+
+	<FlavorTextFR_FarBretonDuo.label>far breton</FlavorTextFR_FarBretonDuo.label>
+
+	<FlavorTextFR_ConfitDeVolailleDuo.label>confit {0_adj}</FlavorTextFR_ConfitDeVolailleDuo.label>
+
+	<FlavorTextFR_BlanquetteDuo.label>blanquette {0_adj}</FlavorTextFR_BlanquetteDuo.label>
+
+	<FlavorTextFR_SoupeALOignonGratineeDuo.label>soupe à l'oignon gratinée</FlavorTextFR_SoupeALOignonGratineeDuo.label>
+
+	<FlavorTextFR_CroqueMonsieurDuo.label>croque-monsieur</FlavorTextFR_CroqueMonsieurDuo.label>
+
+	<FlavorTextFR_FlamicheAuxPoireauxDuo.label>flamiche aux poireaux</FlavorTextFR_FlamicheAuxPoireauxDuo.label>
+
+	<FlavorTextFR_PiedsSainteMenehouldDuo.label>pieds de porc Sainte-Menehould</FlavorTextFR_PiedsSainteMenehouldDuo.label>
+
+	<FlavorTextFR_CamembertRotiDuo.label>camembert rôti</FlavorTextFR_CamembertRotiDuo.label>
+
+	<FlavorTextFR_OmeletteMerePoulardDuo.label>omelette de la Mère Poulard</FlavorTextFR_OmeletteMerePoulardDuo.label>
+
+	<FlavorTextFR_SaintJacquesBretonneDuo.label>coquilles Saint-Jacques à la bretonne</FlavorTextFR_SaintJacquesBretonneDuo.label>
+
+	<FlavorTextFR_GaletteSaucisseDuo.label>galette-saucisse</FlavorTextFR_GaletteSaucisseDuo.label>
+
+	<FlavorTextFR_PalourdesFarciesDuo.label>palourdes farcies</FlavorTextFR_PalourdesFarciesDuo.label>
+
+	<FlavorTextFR_AraigneeDeMerFarcieDuo.label>araignée de mer farcie</FlavorTextFR_AraigneeDeMerFarcieDuo.label>
+
+	<FlavorTextFR_RillettesDuo.label>rillettes</FlavorTextFR_RillettesDuo.label>
+
+	<FlavorTextFR_PateDePaquesDuo.label>pâté de Pâques</FlavorTextFR_PateDePaquesDuo.label>
+
+	<FlavorTextFR_PouletEnBarbouilleDuo.label>poulet en barbouille</FlavorTextFR_PouletEnBarbouilleDuo.label>
+
+	<FlavorTextFR_PoteeLorraineDuo.label>potée lorraine</FlavorTextFR_PoteeLorraineDuo.label>
+
+	<FlavorTextFR_SaladeLyonnaiseDuo.label>salade lyonnaise</FlavorTextFR_SaladeLyonnaiseDuo.label>
+
+	<FlavorTextFR_BiryaniDuo.label>biryani</FlavorTextFR_BiryaniDuo.label>
+
+	<FlavorTextFR_PalakPaneerDuo.label>palak paneer</FlavorTextFR_PalakPaneerDuo.label>
+
+	<FlavorTextFR_GulabJamunDuo.label>gulab jamun</FlavorTextFR_GulabJamunDuo.label>
+
+	<FlavorTextFR_RisiEBisiDuo.label>risi e bisi</FlavorTextFR_RisiEBisiDuo.label>
+
+	<FlavorTextFR_GnocchiDuo.label>gnocchi</FlavorTextFR_GnocchiDuo.label>
+
+	<FlavorTextFR_FocacciaDuo.label>focaccia</FlavorTextFR_FocacciaDuo.label>
+
+	<FlavorTextFR_CapreseDuo.label>caprese</FlavorTextFR_CapreseDuo.label>
+
+	<FlavorTextFR_SaltimboccaDuo.label>saltimbocca</FlavorTextFR_SaltimboccaDuo.label>
+
+	<FlavorTextFR_UdonDuo.label>udon</FlavorTextFR_UdonDuo.label>
+
+	<FlavorTextFR_SobaDuo.label>soba</FlavorTextFR_SobaDuo.label>
+
+	<FlavorTextFR_AgedashiDofuDuo.label>agedashi dofu</FlavorTextFR_AgedashiDofuDuo.label>
+
+	<FlavorTextFR_KorokkeDuo.label>korokke</FlavorTextFR_KorokkeDuo.label>
+
+	<FlavorTextFR_DorayakiDuo.label>dorayaki</FlavorTextFR_DorayakiDuo.label>
+
+	<FlavorTextFR_PajeonDuo.label>pajeon</FlavorTextFR_PajeonDuo.label>
+
+	<FlavorTextFR_FattoucheDuo.label>fattouche</FlavorTextFR_FattoucheDuo.label>
+
+	<FlavorTextFR_TabouleDuo.label>taboulé</FlavorTextFR_TabouleDuo.label>
+
+	<FlavorTextFR_TabouleSolo.label>taboulé</FlavorTextFR_TabouleSolo.label>
+
+	<FlavorTextFR_PastillaDuo.label>pastilla</FlavorTextFR_PastillaDuo.label>
+
+	<FlavorTextFR_BriouatesDuo.label>briouates</FlavorTextFR_BriouatesDuo.label>
+
+	<FlavorTextFR_TheALaMentheDuo.label>thé à la menthe</FlavorTextFR_TheALaMentheDuo.label>
+
+	<FlavorTextFR_CouscousRoyalDuo.label>couscous royal</FlavorTextFR_CouscousRoyalDuo.label>
+
+	<FlavorTextFR_SeffaDuo.label>seffa</FlavorTextFR_SeffaDuo.label>
+
+	<FlavorTextFR_MsemenDuo.label>msemen</FlavorTextFR_MsemenDuo.label>
+
+	<FlavorTextFR_AamrasDuo.label>aamras</FlavorTextFR_AamrasDuo.label>
+
+	<FlavorTextFR_AamrasPuriDuo.label>aamras puri</FlavorTextFR_AamrasPuriDuo.label>
+
+	<FlavorTextFR_MangoFloatDuo.label>mango float</FlavorTextFR_MangoFloatDuo.label>
+
+	<FlavorTextFR_RawMangoCurryDuo.label>curry de mangue verte</FlavorTextFR_RawMangoCurryDuo.label>
+
+	<FlavorTextFR_MangoChickenCurryDuo.label>curry de poulet à la mangue</FlavorTextFR_MangoChickenCurryDuo.label>
+
+	<FlavorTextFR_GheeRiceDuo.label>ghee rice</FlavorTextFR_GheeRiceDuo.label>
+
+	<FlavorTextFR_ChutneyDeCocoDuo.label>chutney de coco</FlavorTextFR_ChutneyDeCocoDuo.label>
+
+	<FlavorTextFR_PicaronesDuo.label>picarones</FlavorTextFR_PicaronesDuo.label>
+
+	<FlavorTextFR_NarsharabDuo.label>narsharab</FlavorTextFR_NarsharabDuo.label>
+
+	<FlavorTextFR_FattoushGrenadeDuo.label>fattoush à la grenade</FlavorTextFR_FattoushGrenadeDuo.label>
+
+	<FlavorTextFR_KisirGrenadeDuo.label>kısır à la grenade</FlavorTextFR_KisirGrenadeDuo.label>
+
+	<FlavorTextFR_TajineAgneauGrenadeDuo.label>tajine d'agneau à la grenade</FlavorTextFR_TajineAgneauGrenadeDuo.label>
+
+	<FlavorTextFR_AnardanaChutneyDuo.label>anardana chutney</FlavorTextFR_AnardanaChutneyDuo.label>
+
+	<FlavorTextFR_AnardanaChickenDuo.label>anardana chicken</FlavorTextFR_AnardanaChickenDuo.label>
+
+	<FlavorTextFR_TarteFigueBarbarieDuo.label>tarte à la figue de Barbarie</FlavorTextFR_TarteFigueBarbarieDuo.label>
+
+	<FlavorTextFR_SashimiDuo.label>sashimi</FlavorTextFR_SashimiDuo.label>
+
+	<FlavorTextFR_GoredGoredDuo.label>gored gored</FlavorTextFR_GoredGoredDuo.label>
+
+	<FlavorTextFR_SaucisseViandeTordueDuo.label>saucisse de viande tordue</FlavorTextFR_SaucisseViandeTordueDuo.label>
+
+	<FlavorTextFR_TourteViandeTordueDuo.label>tourte à la viande tordue</FlavorTextFR_TourteViandeTordueDuo.label>
+
+	<FlavorTextFR_PorcAuSodaDuo.label>porc laqué au soda</FlavorTextFR_PorcAuSodaDuo.label>
+
+	<FlavorTextFR_AlligatorSaucePiquanteDuo.label>alligator sauce piquante</FlavorTextFR_AlligatorSaucePiquanteDuo.label>
+
+	<FlavorTextFR_BeignetsAlligatorDuo.label>beignets d'alligator cajun</FlavorTextFR_BeignetsAlligatorDuo.label>
+
+	<FlavorTextFR_VaranAuCocoDuo.label>varan au lait de coco</FlavorTextFR_VaranAuCocoDuo.label>
+
+	<FlavorTextFR_SerpentFritDuo.label>serpent frit</FlavorTextFR_SerpentFritDuo.label>
+
+	<FlavorTextFR_TuwoDawaDuo.label>tuwo dawa</FlavorTextFR_TuwoDawaDuo.label>
+
+	<FlavorTextFR_GenfoDeSorghoDuo.label>genfo de sorgho</FlavorTextFR_GenfoDeSorghoDuo.label>
+
+	<FlavorTextFR_PoppedSorghumDuo.label>sorgho soufflé</FlavorTextFR_PoppedSorghumDuo.label>
+
+	<FlavorTextFR_GoiCuonDuo.label>gỏi cuốn</FlavorTextFR_GoiCuonDuo.label>
+
+	<FlavorTextFR_BoBunDuo.label>bo bun</FlavorTextFR_BoBunDuo.label>
+
+	<FlavorTextFR_NemDuo.label>nem</FlavorTextFR_NemDuo.label>
+
+	<FlavorTextFR_PulpoGallegaDuo.label>pulpo a la gallega</FlavorTextFR_PulpoGallegaDuo.label>
+
+	<FlavorTextFR_FabadaDuo.label>fabada</FlavorTextFR_FabadaDuo.label>
+
+	<FlavorTextFR_SalmorejoDuo.label>salmorejo</FlavorTextFR_SalmorejoDuo.label>
+
+	<FlavorTextFR_FideuaDuo.label>fideuà</FlavorTextFR_FideuaDuo.label>
+
+	<FlavorTextFR_TatinDOignonsDuo.label>tatin d'oignons</FlavorTextFR_TatinDOignonsDuo.label>
+
+	<FlavorTextFR_CipollineAgrodolceDuo.label>cipolline in agrodolce</FlavorTextFR_CipollineAgrodolceDuo.label>
+
+	<FlavorTextFR_BetteravesAigresDoucesDuo.label>betteraves aigres-douces</FlavorTextFR_BetteravesAigresDoucesDuo.label>
+
+	<FlavorTextFR_TakuanDuo.label>takuan</FlavorTextFR_TakuanDuo.label>
+
+	<FlavorTextFR_AchardsDeLegumesDuo.label>achards de légumes</FlavorTextFR_AchardsDeLegumesDuo.label>
+
+	<FlavorTextFR_KhoreshBehDuo.label>khoresh-e beh</FlavorTextFR_KhoreshBehDuo.label>
+
+	<FlavorTextFR_PorcVapeurChataigneDEauDuo.label>porc vapeur aux châtaignes d'eau</FlavorTextFR_PorcVapeurChataigneDEauDuo.label>
+
+	<FlavorTextFR_JiaoziPorcChataigneDEauDuo.label>raviolis porc et châtaignes d'eau</FlavorTextFR_JiaoziPorcChataigneDEauDuo.label>
+
+	<FlavorTextFR_JiaoziCrevettesChataigneDEauDuo.label>raviolis crevettes et châtaignes d'eau</FlavorTextFR_JiaoziCrevettesChataigneDEauDuo.label>
+
+	<FlavorTextFR_RouleauxChataigneDEauDuo.label>rouleaux de printemps aux châtaignes d'eau</FlavorTextFR_RouleauxChataigneDEauDuo.label>
+
+	<FlavorTextFR_ArtichautsVinaigretteSolo.label>artichauts vinaigrette</FlavorTextFR_ArtichautsVinaigretteSolo.label>
+
+	<FlavorTextFR_CarciofiAllaGiudiaSolo.label>carciofi alla giudia</FlavorTextFR_CarciofiAllaGiudiaSolo.label>
+
+	<FlavorTextFR_AspergesFlamandeSolo.label>asperges à la flamande</FlavorTextFR_AspergesFlamandeSolo.label>
+
+	<FlavorTextFR_JambonALOsSolo.label>jambon à l'os</FlavorTextFR_JambonALOsSolo.label>
+
+	<FlavorTextFR_MousseAuChocolatSolo.label>mousse au chocolat</FlavorTextFR_MousseAuChocolatSolo.label>
+
+	<FlavorTextFR_KunefeSolo.label>künefe</FlavorTextFR_KunefeSolo.label>
+
+	<FlavorTextFR_DurianPuffSolo.label>durian puff</FlavorTextFR_DurianPuffSolo.label>
+
+	<FlavorTextFR_GateauAuDurianSolo.label>gâteau au durian</FlavorTextFR_GateauAuDurianSolo.label>
+
+	<FlavorTextFR_TempoyakSolo.label>tempoyak</FlavorTextFR_TempoyakSolo.label>
+
+	<FlavorTextFR_WienerSchnitzelSolo.label>wiener schnitzel</FlavorTextFR_WienerSchnitzelSolo.label>
+
+	<FlavorTextFR_PoronkaristysSolo.label>poronkäristys</FlavorTextFR_PoronkaristysSolo.label>
+
+	<FlavorTextFR_LapskausSolo.label>lapskaus</FlavorTextFR_LapskausSolo.label>
+
+	<FlavorTextFR_KedgereeSolo.label>kedgeree</FlavorTextFR_KedgereeSolo.label>
+
+	<FlavorTextFR_DaubeProvencaleSolo.label>daube provençale</FlavorTextFR_DaubeProvencaleSolo.label>
+
+	<FlavorTextFR_GougeresSolo.label>gougères</FlavorTextFR_GougeresSolo.label>
+
+	<FlavorTextFR_PateDePaquesSolo.label>pâté de Pâques</FlavorTextFR_PateDePaquesSolo.label>
+
+	<FlavorTextFR_PouletEnBarbouilleSolo.label>poulet en barbouille</FlavorTextFR_PouletEnBarbouilleSolo.label>
+
+	<FlavorTextFR_GnocchiSolo.label>gnocchi</FlavorTextFR_GnocchiSolo.label>
+
+	<FlavorTextFR_AamrasPuriSolo.label>aamras puri</FlavorTextFR_AamrasPuriSolo.label>
+
+	<FlavorTextFR_MelasseDeGrenadeSolo.label>mélasse de grenade</FlavorTextFR_MelasseDeGrenadeSolo.label>
+
+	<FlavorTextFR_ColoncheSolo.label>colonche</FlavorTextFR_ColoncheSolo.label>
+
+	<FlavorTextFR_SashimiSolo.label>sashimi</FlavorTextFR_SashimiSolo.label>
+
+	<FlavorTextFR_GoredGoredSolo.label>gored gored</FlavorTextFR_GoredGoredSolo.label>
+
+	<FlavorTextFR_TurtleSoupCreoleSolo.label>soupe de tortue à la créole</FlavorTextFR_TurtleSoupCreoleSolo.label>
+
+	<FlavorTextFR_PoppedSorghumSolo.label>sorgho soufflé</FlavorTextFR_PoppedSorghumSolo.label>
+
+	<FlavorTextFR_KhoreshBehSolo.label>khoresh-e beh</FlavorTextFR_KhoreshBehSolo.label>
+
+	<FlavorTextFR_MaTaiGoSolo.label>ma tai go</FlavorTextFR_MaTaiGoSolo.label>
+
+	<FlavorTextFR_GateauAuYaourtSolo.label>gâteau au yaourt</FlavorTextFR_GateauAuYaourtSolo.label>
+
+	<FlavorTextFR_MedovikSolo.label>medovik</FlavorTextFR_MedovikSolo.label>
+
+	<FlavorTextFR_TaiyakiSolo.label>taiyaki</FlavorTextFR_TaiyakiSolo.label>
+
+	<FlavorTextFR_BriouatesSolo.label>briouates</FlavorTextFR_BriouatesSolo.label>
+
+	<FlavorTextFR_PajeonSolo.label>pajeon</FlavorTextFR_PajeonSolo.label>
+
+	<FlavorTextFR_AspergesMousselineSolo.label>asperges sauce mousseline</FlavorTextFR_AspergesMousselineSolo.label>
+	<FlavorTextFR_CanardLaqueSolo.label>canard laqué</FlavorTextFR_CanardLaqueSolo.label>
+	<FlavorTextFR_ChouFarciSolo.label>chou farci</FlavorTextFR_ChouFarciSolo.label>
+	<FlavorTextFR_SernikSolo.label>sernik</FlavorTextFR_SernikSolo.label>
+	<FlavorTextFR_GravlaxSolo.label>gravlax</FlavorTextFR_GravlaxSolo.label>
+	<FlavorTextFR_AnguilleAuVertSolo.label>anguille au vert</FlavorTextFR_AnguilleAuVertSolo.label>
+	<FlavorTextFR_MarmiteDieppoiseSolo.label>marmite dieppoise</FlavorTextFR_MarmiteDieppoiseSolo.label>
+	<FlavorTextFR_CanardALaRouennaiseSolo.label>canard à la rouennaise</FlavorTextFR_CanardALaRouennaiseSolo.label>
+	<FlavorTextFR_BoudinNoirAuxPommesSolo.label>boudin noir aux pommes</FlavorTextFR_BoudinNoirAuxPommesSolo.label>
+	<FlavorTextFR_SaladeLyonnaiseSolo.label>salade lyonnaise</FlavorTextFR_SaladeLyonnaiseSolo.label>
+	<FlavorTextFR_PoulardeDemiDeuilSolo.label>poularde demi-deuil</FlavorTextFR_PoulardeDemiDeuilSolo.label>
+	<FlavorTextFR_FocacciaSolo.label>focaccia</FlavorTextFR_FocacciaSolo.label>
+	<FlavorTextFR_UdonSolo.label>udon</FlavorTextFR_UdonSolo.label>
+	<FlavorTextFR_MsemenSolo.label>msemen</FlavorTextFR_MsemenSolo.label>
+	<FlavorTextFR_TarteAuRizSolo.label>tarte au riz</FlavorTextFR_TarteAuRizSolo.label>
+	<FlavorTextFR_NarsharabSolo.label>narsharab</FlavorTextFR_NarsharabSolo.label>
+	<FlavorTextFR_PongTiaKoonSolo.label>pong tia koon</FlavorTextFR_PongTiaKoonSolo.label>
+	<FlavorTextFR_TortueBraiseeSolo.label>tortue braisée à la chinoise</FlavorTextFR_TortueBraiseeSolo.label>
+	<FlavorTextFR_FabadaSolo.label>fabada</FlavorTextFR_FabadaSolo.label>
+	<FlavorTextFR_FideuaSolo.label>fideuà</FlavorTextFR_FideuaSolo.label>
+	<FlavorTextFR_TakuanSolo.label>takuan</FlavorTextFR_TakuanSolo.label>
+	<FlavorTextFR_SchweinshaxeSolo.label>schweinshaxe</FlavorTextFR_SchweinshaxeSolo.label>
+
+</LanguageData>
