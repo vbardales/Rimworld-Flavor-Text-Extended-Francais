@@ -12,8 +12,9 @@
 # are registered by RimWorld as the cook works and the meal is named at the moment it is created, which a
 # meal put on the map by a step never goes through. That is F01's "cook a meal" for real.
 #
-# The stock decides the dish, so no exact name is asserted; twelve squirrel meat and five milk are added: five milk
-# are too few for a dish of milk alone (the first filmed run made a plain yoghurt), so a meat dish is likely, not guaranteed. The wait is six slices of the "the cook works" step: the stock wait for a bill kills the game after 120 real seconds (seen 2026-09-24). French pass only, named by pass 2b:
+# The stock decides the dish, so no exact name is asserted; twenty squirrel meat and twelve milk are added, well above what the fixture colony's other
+# colonists (Jet, Larson, Morrison) eat raw from the shared stockpile while the cook works (2026-09-26: with 12 and 5, the stock ran
+# dry mid-run and no meal was ever cooked). The wait is six slices of the "the cook works" step: the stock wait for a bill kills the game after 120 real seconds (seen 2026-09-24). French pass only, named by pass 2b:
 # `-Language French -DepMap wsl-deps.cuisson-film.map -Filter '09-cooking.feature'`. Whether a colonist of the fixture can cook
 # is checked first, so a failure names its cause instead of timing out.
 @review @slow @watch @requires:nelim.pickletools.filmticks @requires:nelim.pickletools.screenshotmode
@@ -27,8 +28,8 @@ Feature: a colonist cooks a meal that Flavor Text names, filmed
     And "Cook" skill "Cooking" is set to level 10
     Then "Cook" can do "Cooking"
     Given a fuelled stove stands at (150, 155)
-    And 12 "Meat_Squirrel" is spawned at the stockpile
-    And 5 "Milk" is spawned at the stockpile
+    And 20 "Meat_Squirrel" is spawned at the stockpile
+    And 12 "Milk" is spawned at the stockpile
     When Nelim's Pickle Tools: I film every 30 ticks as "cooking"
     And I set "Cook" priority "Cooking" to 1
     And I add bill "CookMealSimple" to the "FueledStove" at (150, 155)
