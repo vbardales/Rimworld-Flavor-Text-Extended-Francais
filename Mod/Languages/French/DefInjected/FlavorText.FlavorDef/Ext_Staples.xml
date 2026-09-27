@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FlavorTextExtended_CornAndRicePilaf.label>pilaf au maïs</FlavorTextExtended_CornAndRicePilaf.label>
+	<FlavorTextExtended_CornAndRicePilaf.description>{2_coll} et {0_coll} cuits ensemble avec {1_coll} dans une même cocotte couverte, jusqu'à ce que les grains se détachent les uns des autres et que le fond soit sec.</FlavorTextExtended_CornAndRicePilaf.description>
+
+	<FlavorTextExtended_CornChowder.label>chaudrée de maïs à la viande</FlavorTextExtended_CornChowder.label>
+	<FlavorTextExtended_CornChowder.description>{0_coll} et {1_coll} mijotés {2_plur}, jusqu'à ce que le maïs ait rendu son sucre et que la soupe soit assez épaisse pour tenir une cuillère debout.</FlavorTextExtended_CornChowder.description>
+
+	<FlavorTextExtended_CreamedMeatOnRice.label>viande à la crème sur riz</FlavorTextExtended_CreamedMeatOnRice.label>
+	<FlavorTextExtended_CreamedMeatOnRice.description>{1_coll} mijotée {2_plur} jusqu'à devenir tendre, puis versée sur un lit {0_adj}. Doux, simple et chaud : un plat pour les soirs froids.</FlavorTextExtended_CreamedMeatOnRice.description>
+
+	<FlavorTextExtended_CreamedMushroomFricassee.label>fricassée de champignons à la crème</FlavorTextExtended_CreamedMushroomFricassee.label>
+	<FlavorTextExtended_CreamedMushroomFricassee.description>{0_coll} et {2_coll} revenus ensemble dans la même poêle et terminés {1_plur}, avec juste assez de farine pour tenir la sauce.</FlavorTextExtended_CreamedMushroomFricassee.description>
+
+	<FlavorTextExtended_CreamedVegetables.label>légumes à la crème</FlavorTextExtended_CreamedVegetables.label>
+	<FlavorTextExtended_CreamedVegetables.description>{1_coll} et {2_coll} cuits tendres, puis mêlés {0_plur} à feu doux jusqu'à ce que la sauce nappe tout ce qui est dans la poêle.</FlavorTextExtended_CreamedVegetables.description>
+
+	<FlavorTextExtended_FarmhouseOmelette.label>omelette fermière</FlavorTextExtended_FarmhouseOmelette.label>
+	<FlavorTextExtended_FarmhouseOmelette.description>{0_coll} battus avec {2_coll} et {1_coll} et cuits d'un seul geste à la poêle, repliés tant que le centre reste moelleux.</FlavorTextExtended_FarmhouseOmelette.description>
+
+	<FlavorTextExtended_ForestStew.label>ragoût forestier</FlavorTextExtended_ForestStew.label>
+	<FlavorTextExtended_ForestStew.description>{2_coll} braisée avec {1_coll}, et une poignée {0_adj} ajoutée à la fin pour l'acidité. Le goût varie selon l'endroit où on l'a cueillie.</FlavorTextExtended_ForestStew.description>
+
+	<FlavorTextExtended_HarvestPot.label>marmite de la récolte</FlavorTextExtended_HarvestPot.label>
+	<FlavorTextExtended_HarvestPot.description>{0_coll}, {1_coll} et {2_coll} versés dans la même marmite et cuits ensemble aussi longtemps qu'il faut. Il n'y a pas de viande dedans, et personne à table ne la réclame.</FlavorTextExtended_HarvestPot.description>
+
+	<FlavorTextExtended_HuntersStew.label>ragoût du chasseur</FlavorTextExtended_HuntersStew.label>
+	<FlavorTextExtended_HuntersStew.description>{2_coll}, {1_coll} et {0_coll} mijotés ensemble tant que dure le feu, puis mangés à même la marmite par le premier arrivé.</FlavorTextExtended_HuntersStew.description>
+
+	<FlavorTextExtended_Jambalaya.label>jambalaya à deux viandes</FlavorTextExtended_Jambalaya.label>
+	<FlavorTextExtended_Jambalaya.description>{0_coll} cuit dans une seule marmite avec {1_coll} et {2_coll} et tout ce que le cuisinier peut y ajouter, jusqu'à ce que le riz prenne la couleur du bouillon. Personne ne s'accorde sur la recette ; tout le monde s'accorde sur la marmite.</FlavorTextExtended_Jambalaya.description>
+
+	<FlavorTextExtended_MeatAndPotatoGratin.label>gratin de pommes de terre à la viande</FlavorTextExtended_MeatAndPotatoGratin.label>
+	<FlavorTextExtended_MeatAndPotatoGratin.description>{0_coll} coupées fines et cuites au four avec {1_coll} sous une couverture {2_adj}, jusqu'à ce que les bords bouillonnent et que le dessus porte une croûte qui vaut la peine qu'on se batte pour elle.</FlavorTextExtended_MeatAndPotatoGratin.description>
+
+	<FlavorTextExtended_MeatAndPotatoTortilla.label>tortilla à la viande et aux pommes de terre</FlavorTextExtended_MeatAndPotatoTortilla.label>
+	<FlavorTextExtended_MeatAndPotatoTortilla.description>{2_coll} et {1_coll} mêlés {0_plur} et cuits épais des deux côtés dans une poêle lourde. Servie tiède plutôt que chaude, en parts, encore le lendemain.</FlavorTextExtended_MeatAndPotatoTortilla.description>
+
+	<FlavorTextExtended_MeatballsWithBerryJam.label>boulettes de viande à la confiture de baies</FlavorTextExtended_MeatballsWithBerryJam.label>
+	<FlavorTextExtended_MeatballsWithBerryJam.description>{0_coll} roulées petites, dorées, et nappées d'une sauce {1_adj}, servies avec une cuillerée de confiture {2_adj}. Le sucré contre le salé, et personne à table ne trouve ça étrange.</FlavorTextExtended_MeatballsWithBerryJam.description>
+
+	<FlavorTextExtended_MeatHotpot.label>hotpot de viande</FlavorTextExtended_MeatHotpot.label>
+	<FlavorTextExtended_MeatHotpot.description>{0_coll} et {1_coll} disposés en couches sous {2_coll} tranchées, et cuits des heures au four dans un plat couvert, jusqu'à ce que le dessus soit doré et que le fond ait fondu dans le jus.</FlavorTextExtended_MeatHotpot.description>
+
+	<FlavorTextExtended_MeatQuiche.label>quiche à la viande</FlavorTextExtended_MeatQuiche.label>
+	<FlavorTextExtended_MeatQuiche.description>un fond de pâte garni {1_plur}, puis {0_coll} battus {2_plur}, et cuit au four juste jusqu'à la prise. Elle doit encore trembler un peu en sortant du four.</FlavorTextExtended_MeatQuiche.description>
+
+	<FlavorTextExtended_MixedGrill.label>grillade mixte</FlavorTextExtended_MixedGrill.label>
+	<FlavorTextExtended_MixedGrill.description>{0_coll}, {1_coll} et {2_coll} jetés sur le même feu et servis ensemble sur une seule planche. Chacun choisit son morceau et le mange avec les doigts.</FlavorTextExtended_MixedGrill.description>
+
+	<FlavorTextExtended_MushroomPilaf.label>pilaf aux champignons et à la viande</FlavorTextExtended_MushroomPilaf.label>
+	<FlavorTextExtended_MushroomPilaf.description>{2_coll} doré dans la graisse, puis cuit avec {0_coll} et {1_coll} dans juste assez d'eau, et laissé reposer sous un linge avant que quiconque soulève le couvercle.</FlavorTextExtended_MushroomPilaf.description>
+
+	<FlavorTextExtended_MushroomPotatoGratin.label>gratin de champignons et de pommes de terre</FlavorTextExtended_MushroomPotatoGratin.label>
+	<FlavorTextExtended_MushroomPotatoGratin.description>{1_coll} coupées fines et disposées en couches avec {2_coll}, couvertes {0_plur} et cuites au four jusqu'à ce que le dessus soit tacheté de brun et que le couteau passe sans résistance.</FlavorTextExtended_MushroomPotatoGratin.description>
+
+	<FlavorTextExtended_MushroomRagu.label>ragù aux champignons</FlavorTextExtended_MushroomRagu.label>
+	<FlavorTextExtended_MushroomRagu.description>{0_coll} et {1_coll} cuits des heures avec {2_coll} jusqu'à ce que la sauce soit sombre, épaisse, et s'accroche à tout ce sur quoi on la verse.</FlavorTextExtended_MushroomRagu.description>
+
+	<FlavorTextExtended_MushroomRisotto.label>risotto aux champignons</FlavorTextExtended_MushroomRisotto.label>
+	<FlavorTextExtended_MushroomRisotto.description>{2_coll} arrosé d'une louche de bouillon chaud à la fois, {1_coll} ajoutés quand les grains sont à moitié cuits et {0_coll} incorporés tout à la fin. Il doit être servi aussitôt, et il doit encore bouger dans l'assiette.</FlavorTextExtended_MushroomRisotto.description>
+
+	<FlavorTextExtended_MushroomShepherdsPie.label>hachis parmentier aux champignons</FlavorTextExtended_MushroomShepherdsPie.label>
+	<FlavorTextExtended_MushroomShepherdsPie.description>{1_coll} et {0_coll} dans une sauce riche, sous un couvercle {2_adj} écrasées, strié à la fourchette et cuit au four jusqu'à ce que les crêtes dorent.</FlavorTextExtended_MushroomShepherdsPie.description>
+
+	<FlavorTextExtended_OmeletteWithBerryCompote.label>omelette à la compote de baies</FlavorTextExtended_OmeletteWithBerryCompote.label>
+	<FlavorTextExtended_OmeletteWithBerryCompote.description>une omelette épaisse {0_plur} et {1_plur}, avec une cuillerée de compote {2_adj} à côté pour trancher dans le gras.</FlavorTextExtended_OmeletteWithBerryCompote.description>
+
+	<FlavorTextExtended_PastelDeChoclo.label>pastel de choclo</FlavorTextExtended_PastelDeChoclo.label>
+	<FlavorTextExtended_PastelDeChoclo.description>une tourte dont la croûte est {0_coll} broyé en une pâte sucrée, posée sur une garniture {1_plur} et {2_plur} et cuite au four jusqu'à ce que le dessus cloque. Le maïs fait le plat ; la viande, ce qu'il porte.</FlavorTextExtended_PastelDeChoclo.description>
+
+	<FlavorTextExtended_PemmicanStew.label>ragoût de pemmican</FlavorTextExtended_PemmicanStew.label>
+	<FlavorTextExtended_PemmicanStew.description>{2_coll} séchée et pilée avec {0_coll}, puis mijotée avec {1_coll} : une nourriture faite pour tenir tout un hiver et se manger sans façons.</FlavorTextExtended_PemmicanStew.description>
+
+	<FlavorTextExtended_PotatoAndEggGratin.label>gratin de pommes de terre aux œufs</FlavorTextExtended_PotatoAndEggGratin.label>
+	<FlavorTextExtended_PotatoAndEggGratin.description>{2_coll} coupées fines et cuites au four {1_plur} avec {0_coll} cassés dessus, jusqu'à ce que le jaune prenne et que le lait ait presque disparu.</FlavorTextExtended_PotatoAndEggGratin.description>
+
+	<FlavorTextExtended_RicePuddingWithBerries.label>riz au lait aux baies</FlavorTextExtended_RicePuddingWithBerries.label>
+	<FlavorTextExtended_RicePuddingWithBerries.description>{1_coll} mijoté {0_plur} pendant une heure jusqu'à devenir épais et crémeux, avec une cuillerée {2_adj} pressée au centre de chaque bol.</FlavorTextExtended_RicePuddingWithBerries.description>
+
+	<FlavorTextExtended_RoastWithBerrySauce.label>rôti à la sauce aux baies</FlavorTextExtended_RoastWithBerrySauce.label>
+	<FlavorTextExtended_RoastWithBerrySauce.description>{1_coll} et {2_coll} rôtis et découpés, servis avec une sauce relevée {0_plur}. L'acidité est là pour trancher le gras, pas pour sucrer l'assiette.</FlavorTextExtended_RoastWithBerrySauce.description>
+
+	<FlavorTextExtended_SundayRoastWithBerries.label>rôti aux pommes de terre et sauce aux baies</FlavorTextExtended_SundayRoastWithBerries.label>
+	<FlavorTextExtended_SundayRoastWithBerries.description>{1_coll} rôtie jusqu'à ce que la couenne soit dure, avec {2_coll} dorées dans sa graisse et un bol de sauce {0_adj} posé sur la table.</FlavorTextExtended_SundayRoastWithBerries.description>
+
+	<FlavorTextExtended_TwoMeatBlanquette.label>blanquette à deux viandes</FlavorTextExtended_TwoMeatBlanquette.label>
+	<FlavorTextExtended_TwoMeatBlanquette.description>{0_coll} et {1_coll} mijotés blancs dans leur propre bouillon, puis terminés {2_plur} jusqu'à ce que la sauce nappe la cuillère. Rien n'y est doré : c'est tout l'intérêt du plat.</FlavorTextExtended_TwoMeatBlanquette.description>
+
+	<FlavorTextExtended_TwoMeatLoaf.label>pain de viande à deux viandes</FlavorTextExtended_TwoMeatLoaf.label>
+	<FlavorTextExtended_TwoMeatLoaf.description>{0_coll} et {1_coll} hachés ensemble, liés {2_plur} et cuits lentement au four dans un moule. On le tranche froid le lendemain, et il est meilleur ainsi que chaud.</FlavorTextExtended_TwoMeatLoaf.description>
+
+	<FlavorTextExtended_VegetableScramble.label>œufs brouillés aux légumes</FlavorTextExtended_VegetableScramble.label>
+	<FlavorTextExtended_VegetableScramble.description>{0_coll} brouillés à la poêle avec {1_coll} et {2_coll}, remués jusqu'à ce que le tout soit à peine pris. Un repas fait en dix minutes avec ce que le jardin a donné ce jour-là.</FlavorTextExtended_VegetableScramble.description>
+
+</LanguageData>
