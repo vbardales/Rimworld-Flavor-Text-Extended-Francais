@@ -54,19 +54,26 @@ namespace FlavorTextExtendedFR
         // reads in lower case, unless its own label starts with a capital (a proper noun). The raw labels
         // are the ones Flavor Text keeps in CompFlavor.flavorLabels; the main dish (index 0) is untouched.
         // The capitalizer is the game's own (Find.ActiveLanguageWorker.ToTitleCase); a test passes the worker's.
-        // Last to first, because each side dish was appended after the previous ones.
+        // Last to first, because each side dish was appended after the previous ones. The search window
+        // shrinks to stay left of the previous match: once dish i is found at position `at`, dish i-1
+        // is only looked for in label[0..at). Without this bound, a capitalized fragment shared between
+        // two dishes (or with the still-untouched main dish) could match the wrong occurrence and splice
+        // text that was never meant to change.
         public static string LowerSideDishes(string label, IList<string> rawLabels, Func<string, string> capitalizeAsTitle = null)
         {
             capitalizeAsTitle = capitalizeAsTitle ?? GenText.CapitalizeAsTitle;
             if (string.IsNullOrEmpty(label) || rawLabels == null) return label;
+            int searchEnd = label.Length;
             for (int i = rawLabels.Count - 1; i >= 1; i--)
             {
                 string raw = rawLabels[i];
                 if (string.IsNullOrEmpty(raw) || char.IsUpper(raw[0])) continue;
                 string capitalized = capitalizeAsTitle(raw);
                 if (capitalized == raw) continue;
-                int at = label.LastIndexOf(capitalized, StringComparison.Ordinal);
+                if (searchEnd < capitalized.Length) continue;
+                int at = label.LastIndexOf(capitalized, searchEnd - 1, searchEnd, StringComparison.Ordinal);
                 if (at < 0) continue;
+                searchEnd = at;
                 label = label.Substring(0, at) + raw + label.Substring(at + capitalized.Length);
             }
             return label;
