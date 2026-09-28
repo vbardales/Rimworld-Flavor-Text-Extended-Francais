@@ -32,7 +32,7 @@
 	<FlavorTextFR_PainDeViandeMixte.label>pain de viande mixte</FlavorTextFR_PainDeViandeMixte.label>
 	<FlavorTextFR_PainDeViandeMixte.description>{0_coll} pour le goût, {1_coll} pour la tenue, {2_coll} pour lier le tout, façonnés en pain et cuits au four. Le mélange des deux viandes n'est pas une économie : la volaille seule s'assèche, le bœuf seul s'affaisse.</FlavorTextFR_PainDeViandeMixte.description>
 	<FlavorTextFR_GheeRice.label>ghee rice</FlavorTextFR_GheeRice.label>
-	<FlavorTextFR_GheeRice.description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières — cannelle, clou, cardamome, laurier — puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</FlavorTextFR_GheeRice.description>
+	<FlavorTextFR_GheeRice.description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières — cannelle, clou de girofle, cardamome, laurier — puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</FlavorTextFR_GheeRice.description>
 	<FlavorTextFR_Tahdig.label>tahdig</FlavorTextFR_Tahdig.label>
 	<FlavorTextFR_Tahdig.description>le fond de la marmite : {0_coll} mêlé {2_plur} et au safran, tassé dans {1_coll} fondu et laissé prendre à feu doux jusqu'à former une croûte dorée qu'on retourne d'un bloc sur le plat. C'est la part qu'on se dispute.</FlavorTextFR_Tahdig.description>
 	<FlavorTextFR_RizBeurreSoja.label>riz au beurre et au soja</FlavorTextFR_RizBeurreSoja.label>

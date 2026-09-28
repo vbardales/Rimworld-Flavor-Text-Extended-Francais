@@ -281,13 +281,13 @@
 
 	<FlavorTextFR_MangoChickenCurryDuo.description>{1_coll} mijotée dans une sauce où {0_coll} mûre fond et sucre le curry, tandis que quelques morceaux verts gardés entiers apportent l'acide.</FlavorTextFR_MangoChickenCurryDuo.description>
 
-	<FlavorTextFR_GheeRiceDuo.description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières — cannelle, clou, cardamome, laurier — puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</FlavorTextFR_GheeRiceDuo.description>
+	<FlavorTextFR_GheeRiceDuo.description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières — cannelle, clou de girofle, cardamome, laurier — puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</FlavorTextFR_GheeRiceDuo.description>
 
 	<FlavorTextFR_ChutneyDeCocoDuo.description>{0_coll} mixée avec {1_coll} grillés et un peu d'eau, puis réveillée d'un tempérage : des graines de moutarde et des feuilles de curry qu'on fait éclater dans l'huile brûlante et qu'on verse par-dessus. Accompagne le dosa.</FlavorTextFR_ChutneyDeCocoDuo.description>
 
 	<FlavorTextFR_PicaronesDuo.description>des anneaux de pâte {0_adj} et de patate douce, façonnés à la main d'un geste tournant, frits et noyés d'un sirop {1_adj} roux. Le successeur colonial d'un beignet plus ancien.</FlavorTextFR_PicaronesDuo.description>
 
-	<FlavorTextFR_NarsharabDuo.description>la mélasse azérie, montée {1_plur} et parfumée à la cannelle, au clou et au laurier. Se sert avec le poisson d'esturgeon grillé, et rien d'autre ne la remplace.</FlavorTextFR_NarsharabDuo.description>
+	<FlavorTextFR_NarsharabDuo.description>la mélasse azérie, montée {1_plur} et parfumée à la cannelle, au clou de girofle et au laurier. Se sert avec le poisson d'esturgeon grillé, et rien d'autre ne la remplace.</FlavorTextFR_NarsharabDuo.description>
 
 	<FlavorTextFR_FattoushGrenadeDuo.description>du pain plat frit et brisé, {1_coll} et des herbes, avec une vinaigrette au sumac et à la mélasse {0_adj}. Le pain doit encore craquer à l'arrivée en table.</FlavorTextFR_FattoushGrenadeDuo.description>
 
@@ -438,8 +438,8 @@
 	<FlavorTextFR_UdonSolo.description>des nouilles épaisses et molles, pétries au pied sous une toile, dans un bouillon clair de kombu. La texture compte plus que le goût, et elle est délibérée.</FlavorTextFR_UdonSolo.description>
 	<FlavorTextFR_MsemenSolo.description>une pâte étirée jusqu'à la transparence sur un plan huilé, badigeonnée au beurre et de semoule, pliée en carré et repliée encore, puis cuite à sec. Les feuillets se comptent à la déchirure.</FlavorTextFR_MsemenSolo.description>
 	<FlavorTextFR_TarteAuRizSolo.description>un riz au lait très épais coulé dans un fond de pâte levée nature, puis passé au four jusqu'à ce que le dessus se craquelle. La spécialité de Verviers, qu'on y mange depuis des siècles.</FlavorTextFR_TarteAuRizSolo.description>
-	<FlavorTextFR_NarsharabSolo.description>la mélasse azérie, montée au sucre et parfumée à la cannelle, au clou et au laurier. Se sert avec le poisson d'esturgeon grillé, et rien d'autre ne la remplace.</FlavorTextFR_NarsharabSolo.description>
-	<FlavorTextFR_PongTiaKoonSolo.description>la version cambodgienne, grillée sur braises plutôt que bouillie, servie avec un trempette de citron vert, de sel et de poivre de Kampot.</FlavorTextFR_PongTiaKoonSolo.description>
+	<FlavorTextFR_NarsharabSolo.description>la mélasse azérie, montée au sucre et parfumée à la cannelle, au clou de girofle et au laurier. Se sert avec le poisson d'esturgeon grillé, et rien d'autre ne la remplace.</FlavorTextFR_NarsharabSolo.description>
+	<FlavorTextFR_PongTiaKoonSolo.description>l'œuf de cane à la cambodgienne, grillé sur braises plutôt que bouilli, servi avec une trempette de citron vert, de sel et de poivre de Kampot.</FlavorTextFR_PongTiaKoonSolo.description>
 	<FlavorTextFR_TortueBraiseeSolo.description>une tortue à carapace molle braisée au vin de riz avec champignons noirs, du gingembre et des baies de goji. Le cartilage du pourtour est la partie recherchée, gélatineuse et fondante.</FlavorTextFR_TortueBraiseeSolo.description>
 	<FlavorTextFR_FabadaSolo.description>de gros haricots blancs mijotés au porc fumé, jamais remués à la cuillère : on secoue la marmite d'un mouvement de poignet pour ne pas les briser.</FlavorTextFR_FabadaSolo.description>
 	<FlavorTextFR_FideuaSolo.description>de courtes pâtes creuses grillées à sec puis cuites dans un fumet de poisson, qu'elles boivent en se dressant à la verticale. Née d'un mousse qui cachait le riz à son capitaine trop gourmand.</FlavorTextFR_FideuaSolo.description>
