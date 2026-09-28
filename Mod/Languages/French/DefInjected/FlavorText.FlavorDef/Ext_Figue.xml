@@ -16,13 +16,13 @@
 	<FlavorTextFR_FiguesRotiesAuMiel.label>figues rôties au miel</FlavorTextFR_FiguesRotiesAuMiel.label>
 	<FlavorTextFR_FiguesRotiesAuMiel.description>{0_coll} entaillées en croix, une noix {2_adj} et une cuillerée {1_adj} au creux, passées dix minutes à four brûlant jusqu'à ce qu'elles s'ouvrent comme des fleurs.</FlavorTextFR_FiguesRotiesAuMiel.description>
 	<FlavorTextFR_FiguesPocheesVinRouge.label>figues pochées au vin rouge</FlavorTextFR_FiguesPocheesVinRouge.label>
-	<FlavorTextFR_FiguesPocheesVinRouge.description>{0_coll} frémies dans {1_coll} rouge sucré {2_plur} et à la badiane, puis laissées refroidir dedans une nuit — c'est en refroidissant qu'elles prennent la couleur jusqu'au cœur.</FlavorTextFR_FiguesPocheesVinRouge.description>
+	<FlavorTextFR_FiguesPocheesVinRouge.description>{0_coll} frémies dans {1_coll} rouge sucré {2_plur} et à la badiane, puis laissées refroidir dedans une nuit : c'est en refroidissant qu'elles prennent la couleur jusqu'au cœur.</FlavorTextFR_FiguesPocheesVinRouge.description>
 	<FlavorTextFR_ConfitureDeFigues.label>confiture de figues</FlavorTextFR_ConfitureDeFigues.label>
 	<FlavorTextFR_ConfitureDeFigues.description>{0_coll} coupées en quatre, macérées une nuit {1_plur}, puis cuites court avec {2_coll} qui apporte la pectine et empêche que tout tourne au sirop.</FlavorTextFR_ConfitureDeFigues.description>
 	<FlavorTextFR_PainDeFigues.label>pain de figues</FlavorTextFR_PainDeFigues.label>
 	<FlavorTextFR_PainDeFigues.description>{0_coll} sèches pilées au mortier avec {1_coll} et {2_coll}, pressées en bloc et séchées. Se garde tout l'hiver et se tranche au couteau, comme un fromage.</FlavorTextFR_PainDeFigues.description>
 	<FlavorTextFR_IncirTatlisi.label>incir tatlısı</FlavorTextFR_IncirTatlisi.label>
-	<FlavorTextFR_IncirTatlisi.description>{0_coll} sèches regonflées dans un sirop, chacune fourrée d'un cerneau {1_adj}, servies sous une cuillerée de kaymak — une crème épaissie si dense qu'elle se coupe.</FlavorTextFR_IncirTatlisi.description>
+	<FlavorTextFR_IncirTatlisi.description>{0_coll} sèches regonflées dans un sirop, chacune fourrée d'un cerneau {1_adj}, servies sous une cuillerée de kaymak, une crème épaissie si dense qu'elle se coupe.</FlavorTextFR_IncirTatlisi.description>
 	<FlavorTextFR_IncirUyutmasi.label>incir uyutması</FlavorTextFR_IncirUyutmasi.label>
 	<FlavorTextFR_IncirUyutmasi.description>des figues sèches écrasées dans {1_coll} tiède, laissées reposer quelques heures : leur enzyme fait prendre le lait toute seule, sans présure ni gélifiant. « Endormir la figue », dit le nom.</FlavorTextFR_IncirUyutmasi.description>
 	<FlavorTextFR_AnjeerHalwa.label>anjeer halwa</FlavorTextFR_AnjeerHalwa.label>
@@ -36,7 +36,7 @@
 	<FlavorTextFR_FocacciaAuxFigues.label>focaccia aux figues</FlavorTextFR_FocacciaAuxFigues.label>
 	<FlavorTextFR_FocacciaAuxFigues.description>{0_coll} enfoncées dans la pâte creusée aux doigts, avec du romarin, de l'huile {2_adj} et du gros sel. Le sucre du fruit caramélise au contact de la plaque.</FlavorTextFR_FocacciaAuxFigues.description>
 	<FlavorTextFR_PizzaFiguesProsciutto.label>pizza figues et prosciutto</FlavorTextFR_PizzaFiguesProsciutto.label>
-	<FlavorTextFR_PizzaFiguesProsciutto.description>une pâte blanche sans tomate, {0_coll} rôties dessus, et {2_coll} cru déposé à la sortie du four seulement — cuit, il durcit et perd tout.</FlavorTextFR_PizzaFiguesProsciutto.description>
+	<FlavorTextFR_PizzaFiguesProsciutto.description>une pâte blanche sans tomate, {0_coll} rôties dessus, et {2_coll} cru déposé à la sortie du four seulement : cuit, il durcit et perd tout.</FlavorTextFR_PizzaFiguesProsciutto.description>
 	<FlavorTextFR_ProsciuttoEFichi.label>prosciutto e fichi</FlavorTextFR_ProsciuttoEFichi.label>
 	<FlavorTextFR_ProsciuttoEFichi.description>{0_coll} ouvertes en quatre sans les détacher, une tranche {1_adj} cru posée dessus, un filet d'huile. Rien de plus : c'est l'accord entier du salé et du sucré en deux ingrédients.</FlavorTextFR_ProsciuttoEFichi.description>
 	<FlavorTextFR_SaladeFiguesChevre.label>salade de figues au chèvre</FlavorTextFR_SaladeFiguesChevre.label>

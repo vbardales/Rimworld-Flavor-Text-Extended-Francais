@@ -10,7 +10,7 @@
 <LanguageData>
 
 	<FlavorTextFR_Bortsch.label>bortsch</FlavorTextFR_Bortsch.label>
-	<FlavorTextFR_Bortsch.description>{0_coll} râpées et acidulées au vinaigre pour tenir leur rouge — sans acide, la soupe vire au brun —, avec {1_coll}, et une cuillère {2_adj} qui fait des spirales roses en fondant.</FlavorTextFR_Bortsch.description>
+	<FlavorTextFR_Bortsch.description>{0_coll} râpées et acidulées au vinaigre pour tenir leur rouge (sans acide, la soupe vire au brun), avec {1_coll}, et une cuillère {2_adj} qui fait des spirales roses en fondant.</FlavorTextFR_Bortsch.description>
 	<FlavorTextFR_Bigos.label>bigos</FlavorTextFR_Bigos.label>
 	<FlavorTextFR_Bigos.description>{0_coll} fermentés et frais mêlés, mijotés {1_plur} et {2_plur} séchés, puis refroidis et réchauffés plusieurs jours de suite. On dit qu'il n'est bon qu'au troisième réchauffage.</FlavorTextFR_Bigos.description>
 	<FlavorTextFR_Blinis.label>blinis</FlavorTextFR_Blinis.label>
@@ -24,7 +24,7 @@
 	<FlavorTextFR_Khatchapouri.label>khatchapouri</FlavorTextFR_Khatchapouri.label>
 	<FlavorTextFR_Khatchapouri.description>un pain en forme de barque rempli {1_adj} fondu, avec un jaune cru et une noix {2_adj} déposés au centre à la sortie du four. On mélange le tout avec la pointe de la croûte qu'on arrache.</FlavorTextFR_Khatchapouri.description>
 	<FlavorTextFR_Plov.label>plov</FlavorTextFR_Plov.label>
-	<FlavorTextFR_Plov.description>{2_coll} taillées en longs bâtonnets — jamais râpées — étuvées {1_plur} et sa graisse, {0_coll} versé dessus sans être mélangé et cuit à la vapeur du fond. Se prépare au chaudron, pour cinquante personnes.</FlavorTextFR_Plov.description>
+	<FlavorTextFR_Plov.description>{2_coll} taillées en longs bâtonnets (jamais râpées) étuvées {1_plur} et sa graisse, {0_coll} versé dessus sans être mélangé et cuit à la vapeur du fond. Se prépare au chaudron, pour cinquante personnes.</FlavorTextFR_Plov.description>
 	<FlavorTextFR_Chachlik.label>chachlik</FlavorTextFR_Chachlik.label>
 	<FlavorTextFR_Chachlik.description>{0_coll} marinée une nuit {1_plur} râpés et {2_plur}, enfilée sur de larges lames de métal et grillée sur braises éteintes. On alterne un morceau maigre, un morceau gras.</FlavorTextFR_Chachlik.description>
 	<FlavorTextFR_Kacha.label>kacha</FlavorTextFR_Kacha.label>

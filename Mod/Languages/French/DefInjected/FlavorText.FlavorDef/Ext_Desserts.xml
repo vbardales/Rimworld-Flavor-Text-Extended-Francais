@@ -12,15 +12,15 @@
 	<FlavorTextFR_IleFlottante.label>île flottante</FlavorTextFR_IleFlottante.label>
 	<FlavorTextFR_IleFlottante.description>des blancs {0_adj} montés et pochés au lait, posés sur une crème anglaise et striés de caramel, avec {2_coll} effilées grillées. L'île flotte parce qu'elle est plus légère que la mer.</FlavorTextFR_IleFlottante.description>
 	<FlavorTextFR_MousseAuChocolat.label>mousse au chocolat</FlavorTextFR_MousseAuChocolat.label>
-	<FlavorTextFR_MousseAuChocolat.description>{0_coll} fondu et lié à des jaunes, allégé de blancs montés incorporés en trois fois — le premier tiers pour détendre, les deux autres à la spatule, sans casser l'air.</FlavorTextFR_MousseAuChocolat.description>
+	<FlavorTextFR_MousseAuChocolat.description>{0_coll} fondu et lié à des jaunes, allégé de blancs montés incorporés en trois fois : le premier tiers pour détendre, les deux autres à la spatule, sans casser l'air.</FlavorTextFR_MousseAuChocolat.description>
 	<FlavorTextFR_Clafoutis.label>clafoutis</FlavorTextFR_Clafoutis.label>
 	<FlavorTextFR_Clafoutis.description>{0_coll} noyées dans un appareil {1_adj} et {2_adj}, cuites jusqu'à ce que la pâte prenne autour. On garde les noyaux : ils parfument à l'amande pendant la cuisson.</FlavorTextFR_Clafoutis.description>
 	<FlavorTextFR_PoiresBelleHelene.label>poires Belle-Hélène</FlavorTextFR_PoiresBelleHelene.label>
 	<FlavorTextFR_PoiresBelleHelene.description>{0_coll} pelées et pochées dans un sirop {2_adj} vanillé, servies froides sous {1_coll} chaud versé à table. Escoffier l'a nommé d'après une opérette d'Offenbach.</FlavorTextFR_PoiresBelleHelene.description>
 	<FlavorTextFR_PecheMelba.label>pêche Melba</FlavorTextFR_PecheMelba.label>
-	<FlavorTextFR_PecheMelba.description>{0_coll} pochées sur une glace à la vanille, nappées d'un coulis {1_adj} cru — jamais cuit, il perdrait sa couleur. Créé pour une cantatrice australienne.</FlavorTextFR_PecheMelba.description>
+	<FlavorTextFR_PecheMelba.description>{0_coll} pochées sur une glace à la vanille, nappées d'un coulis {1_adj} cru : jamais cuit, il perdrait sa couleur. Créé pour une cantatrice australienne.</FlavorTextFR_PecheMelba.description>
 	<FlavorTextFR_QuatreQuarts.label>quatre-quarts</FlavorTextFR_QuatreQuarts.label>
-	<FlavorTextFR_QuatreQuarts.description>autant de farine que {1_adj}, que de sucre, que {2_adj} — quatre quarts, d'où le nom. On pèse les œufs d'abord et tout le reste se déduit.</FlavorTextFR_QuatreQuarts.description>
+	<FlavorTextFR_QuatreQuarts.description>autant de farine que {1_adj}, que de sucre, que {2_adj} : quatre quarts, d'où le nom. On pèse les œufs d'abord et tout le reste se déduit.</FlavorTextFR_QuatreQuarts.description>
 	<FlavorTextFR_GateauAuYaourt.label>gâteau au yaourt</FlavorTextFR_GateauAuYaourt.label>
 	<FlavorTextFR_GateauAuYaourt.description>le pot {1_adj} sert de mesure pour tout le reste. Le premier gâteau que l'on apprend à faire, et le seul dont on n'oublie jamais la recette.</FlavorTextFR_GateauAuYaourt.description>
 	<FlavorTextFR_FondantAuChocolat.label>fondant au chocolat</FlavorTextFR_FondantAuChocolat.label>
@@ -70,7 +70,7 @@
 	<FlavorTextFR_Syrniki.label>syrniki</FlavorTextFR_Syrniki.label>
 	<FlavorTextFR_Syrniki.description>de petites galettes de fromage frais liées {1_plur}, poêlées au beurre et servies avec de la crème aigre et une confiture {2_adj}.</FlavorTextFR_Syrniki.description>
 	<FlavorTextFR_Cranachan.label>cranachan</FlavorTextFR_Cranachan.label>
-	<FlavorTextFR_Cranachan.description>{0_coll} grillés à sec, {1_coll} fouettée au whisky et au miel, {2_coll} écrasées — montés en verre sans les mélanger, pour que chaque cuillerée diffère.</FlavorTextFR_Cranachan.description>
+	<FlavorTextFR_Cranachan.description>{0_coll} grillés à sec, {1_coll} fouettée au whisky et au miel, {2_coll} écrasées, montés en verre sans les mélanger, pour que chaque cuillerée diffère.</FlavorTextFR_Cranachan.description>
 	<FlavorTextFR_StickyToffeePudding.label>sticky toffee pudding</FlavorTextFR_StickyToffeePudding.label>
 	<FlavorTextFR_StickyToffeePudding.description>{0_coll} cuites et écrasées dans la pâte, qui la rendent presque noire, sous un caramel {2_adj} versé chaud et absorbé par le gâteau.</FlavorTextFR_StickyToffeePudding.description>
 	<FlavorTextFR_BanoffeePie.label>banoffee pie</FlavorTextFR_BanoffeePie.label>
@@ -92,11 +92,11 @@
 	<FlavorTextFR_Brownie.label>brownie</FlavorTextFR_Brownie.label>
 	<FlavorTextFR_Brownie.description>très peu de farine, beaucoup {0_adj}, et {2_coll} concassées. Sorti du four trop tard, ce n'est plus qu'un gâteau ; trop tôt, ce n'est pas encore un brownie.</FlavorTextFR_Brownie.description>
 	<FlavorTextFR_Cheesecake.label>cheesecake</FlavorTextFR_Cheesecake.label>
-	<FlavorTextFR_Cheesecake.description>un fond de biscuits beurrés sous un appareil {0_adj} et {1_adj}, cuit au bain-marie et refroidi lentement — un choc de température le fend en deux.</FlavorTextFR_Cheesecake.description>
+	<FlavorTextFR_Cheesecake.description>un fond de biscuits beurrés sous un appareil {0_adj} et {1_adj}, cuit au bain-marie et refroidi lentement : un choc de température le fend en deux.</FlavorTextFR_Cheesecake.description>
 	<FlavorTextFR_Lamington.label>lamington</FlavorTextFR_Lamington.label>
 	<FlavorTextFR_Lamington.description>des cubes de génoise trempés dans un glaçage {1_adj} liquide puis roulés {2_plur} râpée. Australien, et nommé d'après un gouverneur du Queensland qui n'y était pour rien.</FlavorTextFR_Lamington.description>
 	<FlavorTextFR_AnzacBiscuits.label>anzac biscuits</FlavorTextFR_AnzacBiscuits.label>
-	<FlavorTextFR_AnzacBiscuits.description>{0_coll} et {1_coll} liés au sirop doré, sans œuf — ils devaient survivre à des semaines de mer avant d'atteindre les tranchées.</FlavorTextFR_AnzacBiscuits.description>
+	<FlavorTextFR_AnzacBiscuits.description>{0_coll} et {1_coll} liés au sirop doré, sans œuf : ils devaient survivre à des semaines de mer avant d'atteindre les tranchées.</FlavorTextFR_AnzacBiscuits.description>
 	<FlavorTextFR_MalvaPudding.label>malva pudding</FlavorTextFR_MalvaPudding.label>
 	<FlavorTextFR_MalvaPudding.description>un gâteau sud-africain {1_adj} et à l'abricot, percé à la sortie du four et noyé d'une sauce {2_adj} chaude qu'il absorbe entièrement.</FlavorTextFR_MalvaPudding.description>
 	<FlavorTextFR_Kunefe.label>künefe</FlavorTextFR_Kunefe.label>
@@ -116,7 +116,7 @@
 	<FlavorTextFR_Jalebi.label>jalebi</FlavorTextFR_Jalebi.label>
 	<FlavorTextFR_Jalebi.description>une pâte fermentée {1_plur} pressée en spirales directement dans l'huile, puis plongée quelques secondes dans un sirop tiède. Croustillante dehors, gorgée dedans.</FlavorTextFR_Jalebi.description>
 	<FlavorTextFR_Taiyaki.label>taiyaki</FlavorTextFR_Taiyaki.label>
-	<FlavorTextFR_Taiyaki.description>une pâte à gaufre cuite dans un moule en forme de daurade, fourrée d'une pâte {1_adj} sucrée. La question de savoir par où le mordre — la tête ou la queue — divise le Japon.</FlavorTextFR_Taiyaki.description>
+	<FlavorTextFR_Taiyaki.description>une pâte à gaufre cuite dans un moule en forme de daurade, fourrée d'une pâte {1_adj} sucrée. La question de savoir par où le mordre (la tête ou la queue) divise le Japon.</FlavorTextFR_Taiyaki.description>
 	<FlavorTextFR_Hotteok.label>hotteok</FlavorTextFR_Hotteok.label>
 	<FlavorTextFR_Hotteok.description>une galette levée fourrée {1_plur} de canne et {2_plur} concassées, aplatie sur la plaque brûlante. La garniture devient un sirop bouillant qui brûle la langue à coup sûr.</FlavorTextFR_Hotteok.description>
 

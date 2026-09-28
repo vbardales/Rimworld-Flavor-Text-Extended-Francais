@@ -34,7 +34,7 @@
 	<FlavorTextFR_Tiradito.label>tiradito</FlavorTextFR_Tiradito.label>
 	<FlavorTextFR_Tiradito.description>{0_coll} tranchée à la japonaise mais assaisonnée à la péruvienne : une sauce {1_adj} jaune et {2_adj} versée juste avant de servir, sans oignon ni macération.</FlavorTextFR_Tiradito.description>
 	<FlavorTextFR_Kitfo.label>kitfo</FlavorTextFR_Kitfo.label>
-	<FlavorTextFR_Kitfo.description>{0_coll} hachée au couteau et travaillée tiède dans un niter kibbeh — beurre clarifié aux épices — avec du mitmita {2_adj}. Servi cru, ou juste tiédi si on le demande « leb leb ».</FlavorTextFR_Kitfo.description>
+	<FlavorTextFR_Kitfo.description>{0_coll} hachée au couteau et travaillée tiède dans un niter kibbeh (beurre clarifié aux épices) avec du mitmita {2_adj}. Servi cru, ou juste tiédi si on le demande « leb leb ».</FlavorTextFR_Kitfo.description>
 	<FlavorTextFR_GoredGored.label>gored gored</FlavorTextFR_GoredGored.label>
 	<FlavorTextFR_GoredGored.description>{0_coll} crue en cubes plutôt que hachée, roulée dans un beurre épicé et l'awaze. Le cousin en morceaux du kitfo, et le test de fraîcheur le plus impitoyable qui soit.</FlavorTextFR_GoredGored.description>
 	<FlavorTextFR_Mett.label>mett</FlavorTextFR_Mett.label>

@@ -22,11 +22,11 @@
 	<FlavorTextFR_Pajeon.label>pajeon</FlavorTextFR_Pajeon.label>
 	<FlavorTextFR_Pajeon.description>une crêpe épaisse où {2_coll} tiennent debout dans la pâte, dorée des deux côtés à l'huile généreuse. Se mange les jours de pluie : le bruit de la friture rappelle celui des gouttes.</FlavorTextFR_Pajeon.description>
 	<FlavorTextFR_Kimbap.label>kimbap</FlavorTextFR_Kimbap.label>
-	<FlavorTextFR_Kimbap.description>{0_coll} assaisonné à l'huile de sésame — pas au vinaigre — roulé {1_plur} avec une bande {2_adj} en omelette, puis tranché. Nourriture de pique-nique et de train.</FlavorTextFR_Kimbap.description>
+	<FlavorTextFR_Kimbap.description>{0_coll} assaisonné à l'huile de sésame (pas au vinaigre) roulé {1_plur} avec une bande {2_adj} en omelette, puis tranché. Nourriture de pique-nique et de train.</FlavorTextFR_Kimbap.description>
 	<FlavorTextFR_SundubuJjigae.label>sundubu jjigae</FlavorTextFR_SundubuJjigae.label>
 	<FlavorTextFR_SundubuJjigae.description>du tofu si peu pressé qu'il se défait à la cuillère, dans un bouillon rouge {1_adj}, avec {2_coll} cassés dedans au dernier moment.</FlavorTextFR_SundubuJjigae.description>
 	<FlavorTextFR_Dakgangjeong.label>dakgangjeong</FlavorTextFR_Dakgangjeong.label>
-	<FlavorTextFR_Dakgangjeong.description>{0_coll} frite deux fois — la seconde chasse l'eau restée sous la croûte — puis laquée {1_plur} et {2_plur}. Reste croustillante sous la sauce, ce qui est tout l'exploit.</FlavorTextFR_Dakgangjeong.description>
+	<FlavorTextFR_Dakgangjeong.description>{0_coll} frite deux fois (la seconde chasse l'eau restée sous la croûte) puis laquée {1_plur} et {2_plur}. Reste croustillante sous la sauce, ce qui est tout l'exploit.</FlavorTextFR_Dakgangjeong.description>
 	<FlavorTextFR_Naengmyeon.label>naengmyeon</FlavorTextFR_Naengmyeon.label>
 	<FlavorTextFR_Naengmyeon.description>des nouilles {0_adj} servies dans un bouillon glacé, parfois à moitié pris en glace, avec {1_coll} et un demi-œuf. On les coupe aux ciseaux à table : elles sont trop élastiques pour les dents.</FlavorTextFR_Naengmyeon.description>
 	<FlavorTextFR_Japchae.label>japchae</FlavorTextFR_Japchae.label>

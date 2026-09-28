@@ -7,7 +7,7 @@
 
 	<!-- Bouchées vapeur et rouleaux -->
 	<FlavorText_Shumai.description>un petit ravioli né du dim sum chinois : une farce {0_adj} et {1_adj} hachés, dans une fine pâte {2_adj} traitée au kansui.</FlavorText_Shumai.description>
-	<FlavorText_Meat_Seafood_Sushi.description>{2_coll} vinaigré et sucré, moulé autour d'une garniture {0_adj} crus soigneusement choisis et {1_adj} — une affaire de goût et de texture avant tout.</FlavorText_Meat_Seafood_Sushi.description>
+	<FlavorText_Meat_Seafood_Sushi.description>{2_coll} vinaigré et sucré, moulé autour d'une garniture {0_adj} crus soigneusement choisis et {1_adj}, une affaire de goût et de texture avant tout.</FlavorText_Meat_Seafood_Sushi.description>
 	<FlavorText_MeatRaw_Lumpia.description>le nom couvre plusieurs rouleaux de printemps de Chine, d'Indonésie et des Philippines. Ceux-ci sont faits d'une feuille de pâte {2_adj} fine comme du papier, enroulée sur une garniture {0_adj} et {1_adj}.</FlavorText_MeatRaw_Lumpia.description>
 	<FlavorText_MeatRaw_Sarma.description>une farce {2_adj} et {0_adj} hachée, roulée dans des feuilles {1_adj} comestibles et cuite au bouillon dans une grande marmite.</FlavorText_MeatRaw_Sarma.description>
 	<FlavorText_MeatRaw_Wontons.description>un ravioli {0_adj} enfermée dans une pâte {2_adj} et poché au bouillon. Servi ici avec une sauce sucrée pour tremper.</FlavorText_MeatRaw_Wontons.description>
@@ -21,7 +21,7 @@
 	<FlavorText_Dosa.description>une crêpe fine et salée de la cuisine indienne, faite d'une pâte fermentée {1_adj} moulus et {0_adj}.</FlavorText_Dosa.description>
 	<FlavorText_Idli.description>un petit gâteau de riz salé, originaire du sud de l'Inde. On cuit à la vapeur une pâte fermentée {0_adj} décortiqués et {1_adj}.</FlavorText_Idli.description>
 	<FlavorText_Jeungpyeon.description>un tteok coréen {0_adj}, reconnaissable à sa pâte montée à l'alcool {1_adj} avant d'être cuite à la vapeur.</FlavorText_Jeungpyeon.description>
-	<FlavorText_Tteok.description>un terme générique pour toute une famille de gâteaux coréens {0_adj} — cuits à la vapeur, poêlés ou passés au four.</FlavorText_Tteok.description>
+	<FlavorText_Tteok.description>un terme générique pour toute une famille de gâteaux coréens {0_adj}, cuits à la vapeur, poêlés ou passés au four.</FlavorText_Tteok.description>
 	<FlavorText_SarimsakliKofte.description>un plat turc savoureux : des quenelles {0_adj} servies dans une sauce riche et très aillée {1_adj} et à la pâte de piment.</FlavorText_SarimsakliKofte.description>
 
 	<!-- Grillades -->
@@ -46,7 +46,7 @@
 	<FlavorText_GrubsOnAStick.description>des larves {0_adj} au stade nymphal, enfilées sur une brochette et rôties à la flamme jusqu'à ce que l'exosquelette chitineux craque sous la dent.</FlavorText_GrubsOnAStick.description>
 	<FlavorText_Bacon.description>{0_coll} grasse taillée en tranches très fines et cuite à la poêle jusqu'à ce qu'elle croustille.</FlavorText_Bacon.description>
 	<FlavorText_Meat_Pig_Chorizo.description>une saucisse {0_adj} relevée {1_plur}. La version ibérique d'origine est fermentée, fumée et séchée ; d'autres se font fraîches.</FlavorText_Meat_Pig_Chorizo.description>
-	<FlavorText_Buldak.description>littéralement « poulet de feu » : un poulet grillé coréen très répandu, défini par sa sauce complexe et brûlante — pâte {1_adj} fermentée, {1_coll} moulus, piments coréens, ail, gingembre, fond {0_adj}, sirop de riz et sauce soja. On trempe les cuisses {0_adj} dans la sauce avant de les griller à feu vif.</FlavorText_Buldak.description>
+	<FlavorText_Buldak.description>littéralement « poulet de feu » : un poulet grillé coréen très répandu, défini par sa sauce complexe et brûlante : pâte {1_adj} fermentée, {1_coll} moulus, piments coréens, ail, gingembre, fond {0_adj}, sirop de riz et sauce soja. On trempe les cuisses {0_adj} dans la sauce avant de les griller à feu vif.</FlavorText_Buldak.description>
 	<FlavorText_Yakitori.description>des brochettes japonaises {0_adj}, laquées d'une sauce au soja et au poisson, cuites au charbon de bois. On alterne volontiers les morceaux {0_adj} avec de la ciboule.</FlavorText_Yakitori.description>
 	<FlavorText_Grilled_Meat_Seafood.description>{0_coll} entière cuite à la plancha avec du romarin et du thym.</FlavorText_Grilled_Meat_Seafood.description>
 	<FlavorText_Smoked_Meat_Seafood.description>des morceaux {0_adj} cuits longuement au-dessus d'un bois qui se consume lentement, pour qu'ils prennent le goût de l'essence employée.</FlavorText_Smoked_Meat_Seafood.description>

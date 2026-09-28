@@ -48,13 +48,13 @@
 	<FlavorTextFR_CongeeGrenouille.label>congee de grenouille</FlavorTextFR_CongeeGrenouille.label>
 	<FlavorTextFR_CongeeGrenouille.description>{1_coll} cuit jusqu'à se défaire, {0_coll} ajoutée les dernières minutes pour rester ferme, avec {2_coll} et de l'oignon nouveau. Se mange au petit matin, dans le sud de la Chine.</FlavorTextFR_CongeeGrenouille.description>
 	<FlavorTextFR_VaranAuCoco.label>varan au lait de coco</FlavorTextFR_VaranAuCoco.label>
-	<FlavorTextFR_VaranAuCoco.description>{0_coll} découpée et mijotée longuement dans un lait {1_adj} épicé — sa chair est ferme et maigre, et ne s'attendrit qu'à petit feu.</FlavorTextFR_VaranAuCoco.description>
+	<FlavorTextFR_VaranAuCoco.description>{0_coll} découpée et mijotée longuement dans un lait {1_adj} épicé : sa chair est ferme et maigre, et ne s'attendrit qu'à petit feu.</FlavorTextFR_VaranAuCoco.description>
 	<FlavorTextFR_VaranGrille.label>varan grillé aux épices</FlavorTextFR_VaranGrille.label>
 	<FlavorTextFR_VaranGrille.description>{0_coll} frottée {1_plur} pilés et badigeonnée {2_plur}, grillée sur braises. Une viande de brousse, plus proche du poulet que du poisson malgré les apparences.</FlavorTextFR_VaranGrille.description>
 	<FlavorTextFR_SoupeDeSerpent.label>soupe de serpent cantonaise</FlavorTextFR_SoupeDeSerpent.label>
 	<FlavorTextFR_SoupeDeSerpent.description>{0_coll} effilochée en fils très fins, mijotée avec {1_coll} noirs, {2_coll} et des écorces d'agrumes, liée à la fécule. Un plat d'hiver, réputé réchauffer le sang.</FlavorTextFR_SoupeDeSerpent.description>
 	<FlavorTextFR_RattlesnakeChili.label>chili de crotale</FlavorTextFR_RattlesnakeChili.label>
-	<FlavorTextFR_RattlesnakeChili.description>{0_coll} désossée avec patience — le squelette n'est que côtes — et mijotée {1_plur} et {2_plur} séchés. Un plat du Sud-Ouest américain, moitié cuisine moitié fanfaronnade.</FlavorTextFR_RattlesnakeChili.description>
+	<FlavorTextFR_RattlesnakeChili.description>{0_coll} désossée avec patience (le squelette n'est que côtes) et mijotée {1_plur} et {2_plur} séchés. Un plat du Sud-Ouest américain, moitié cuisine moitié fanfaronnade.</FlavorTextFR_RattlesnakeChili.description>
 	<FlavorTextFR_SerpentFrit.label>serpent frit</FlavorTextFR_SerpentFrit.label>
 	<FlavorTextFR_SerpentFrit.description>des tronçons {0_adj} roulés dans une farine assaisonnée et frits {2_plur} jusqu'au doré. On mange autour des côtes, comme un épi de maïs.</FlavorTextFR_SerpentFrit.description>
 

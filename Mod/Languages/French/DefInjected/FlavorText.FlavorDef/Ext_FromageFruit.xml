@@ -40,8 +40,8 @@
 	<FlavorTextFR_FetaRotieAuxTomates.label>feta rôtie aux tomates</FlavorTextFR_FetaRotieAuxTomates.label>
 	<FlavorTextFR_FetaRotieAuxTomates.description>un bloc {1_adj} posé au centre d'un plat rempli {0_adj} cerises, noyé d'huile {2_adj} et rôti jusqu'à ce que tout s'affaisse. On écrase et on mélange dans le plat même.</FlavorTextFR_FetaRotieAuxTomates.description>
 	<FlavorTextFR_Gnudi.label>gnudi ricotta-épinards</FlavorTextFR_Gnudi.label>
-	<FlavorTextFR_Gnudi.description>la farce d'un ravioli sans son enveloppe — {0_coll} et {1_coll} liés d'un peu de farine et pochés nus. « Gnudi » veut dire déshabillés.</FlavorTextFR_Gnudi.description>
+	<FlavorTextFR_Gnudi.description>la farce d'un ravioli sans son enveloppe : {0_coll} et {1_coll} liés d'un peu de farine et pochés nus. « Gnudi » veut dire déshabillés.</FlavorTextFR_Gnudi.description>
 	<FlavorTextFR_HalloumiGrilleLegumes.label>halloumi grillé aux légumes</FlavorTextFR_HalloumiGrilleLegumes.label>
-	<FlavorTextFR_HalloumiGrilleLegumes.description>{0_coll} tranché épais et grillé jusqu'à quadriller sans fondre — c'est le seul fromage qui tienne sur le gril —, avec {1_coll} rôtis et du zaatar.</FlavorTextFR_HalloumiGrilleLegumes.description>
+	<FlavorTextFR_HalloumiGrilleLegumes.description>{0_coll} tranché épais et grillé jusqu'à quadriller sans fondre (c'est le seul fromage qui tienne sur le gril), avec {1_coll} rôtis et du zaatar.</FlavorTextFR_HalloumiGrilleLegumes.description>
 
 </LanguageData>

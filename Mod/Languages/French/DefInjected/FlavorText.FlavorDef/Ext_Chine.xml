@@ -24,10 +24,10 @@
 	<FlavorTextFR_Wonton.label>wonton</FlavorTextFR_Wonton.label>
 	<FlavorTextFR_Wonton.description>des carrés de pâte si fine qu'on voit la farce {1_adj} au travers, refermés d'un pincement et pochés dans un bouillon {2_adj}. La queue de pâte flotte et ondule : c'est ce qui leur a donné leur nom.</FlavorTextFR_Wonton.description>
 	<FlavorTextFR_CanardLaque.label>canard laqué</FlavorTextFR_CanardLaque.label>
-	<FlavorTextFR_CanardLaque.description>une bête gonflée d'air pour décoller la peau de la chair, ébouillantée, laquée {1_plur} et séchée un jour au vent avant de rôtir. On sert la peau d'abord, dans de fines crêpes, et la viande après.</FlavorTextFR_CanardLaque.description>
+	<FlavorTextFR_CanardLaque.description>un canard gonflé d'air pour décoller la peau de la chair, ébouillanté, laqué {1_plur} et séché un jour au vent avant de rôtir. On sert la peau d'abord, dans de fines crêpes, et la viande après.</FlavorTextFR_CanardLaque.description>
 	<FlavorTextFR_RizCantonais.label>riz cantonais</FlavorTextFR_RizCantonais.label>
 	<FlavorTextFR_RizCantonais.description>{0_coll} de la veille, sec et détaché grain par grain, sauté à feu maximal {1_plur} et {2_plur}. Du riz frais colle et fait de la bouillie : il faut qu'il ait dormi.</FlavorTextFR_RizCantonais.description>
 	<FlavorTextFR_PouletNoixCajou.label>poulet aux noix de cajou</FlavorTextFR_PouletNoixCajou.label>
-	<FlavorTextFR_PouletNoixCajou.description>{0_coll} enrobée de fécule et blanchie à l'huile tiède avant le wok — c'est ce qui la garde tendre —, puis sautée {2_plur} avec {1_coll} grillées.</FlavorTextFR_PouletNoixCajou.description>
+	<FlavorTextFR_PouletNoixCajou.description>{0_coll} enrobée de fécule et blanchie à l'huile tiède avant le wok (c'est ce qui la garde tendre), puis sautée {2_plur} avec {1_coll} grillées.</FlavorTextFR_PouletNoixCajou.description>
 
 </LanguageData>

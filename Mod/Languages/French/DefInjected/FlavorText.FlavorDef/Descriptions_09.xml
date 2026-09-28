@@ -20,7 +20,7 @@
 	<FlavorText_Sweet_Corn_Salad.description>{2_coll} dans une sauce sucrée {0_adj}, couvert {1_adj}.</FlavorText_Sweet_Corn_Salad.description>
 	<FlavorText_Sweet_Fungus_Salad.description>{2_coll} hachés dans une sauce sucrée, couverts {1_adj}.</FlavorText_Sweet_Fungus_Salad.description>
 	<FlavorText_FarmersSalad.description>{0_coll} et {1_coll} mêlés et taillés en dés, dans une sauce au fromage blanc.</FlavorText_FarmersSalad.description>
-	<FlavorText_Kisir.description>une salade froide turque, éclatante de couleurs, faite de grains {0_adj} concassés et précuits, auxquels on ajoute une pâte {1_adj}, une mélasse acidulée {2_adj} et des légumes variés — le plus souvent oignon, ail, concombre et petits cornichons.</FlavorText_Kisir.description>
+	<FlavorText_Kisir.description>une salade froide turque, éclatante de couleurs, faite de grains {0_adj} concassés et précuits, auxquels on ajoute une pâte {1_adj}, une mélasse acidulée {2_adj} et des légumes variés, le plus souvent oignon, ail, concombre et petits cornichons.</FlavorText_Kisir.description>
 
 	<!-- Sandwichs chauds -->
 	<FlavorText_Lahmacun.description>la « pizza turque » : une galette fine de farine {0_adj}, couverte {1_adj} hachée et {2_adj}. Très répandue en Turquie, en Arménie et dans la plupart des pays du Proche-Orient.</FlavorText_Lahmacun.description>
@@ -37,7 +37,7 @@
 	<FlavorText_KofteEkmek.description>un sandwich turc : des boulettes {0_adj} grillées servies dans un petit pain {1_adj} avec des légumes et une sauce au yaourt.</FlavorText_KofteEkmek.description>
 	<FlavorText_Kokorec.description>une spécialité de rue turque : {0_coll} cuits sur la plaque et servis dans un demi ou un quart de miche de pain {1_adj}.</FlavorText_Kokorec.description>
 	<FlavorText_DonerKebab.description>un sandwich d'origine turque popularisé à Berlin-Ouest. Des tranches {0_adj} sont empilées sur une broche verticale et grillées lentement ; on en racle les couches extérieures au couteau, au fur et à mesure, pour les rouler dans une galette {1_adj} avec {2_coll} et d'autres légumes.</FlavorText_DonerKebab.description>
-	<FlavorText_Kumru.description>un sandwich turc sur un petit pain au levain {0_adj}, garni de sucuk — une saucisse {1_adj} relevée —, de fromage kasar et de tomate.</FlavorText_Kumru.description>
+	<FlavorText_Kumru.description>un sandwich turc sur un petit pain au levain {0_adj}, garni de sucuk (une saucisse {1_adj} relevée), de fromage kasar et de tomate.</FlavorText_Kumru.description>
 
 	<!-- Sandwichs froids -->
 	<FlavorText_MarmaladeSandwich.description>un sandwich simple mais réconfortant : une marmelade {0_adj} entre deux tranches de pain frais {1_adj}. Mieux vaut en garder un sur soi, en cas d'urgence.</FlavorText_MarmaladeSandwich.description>

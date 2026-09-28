@@ -12,7 +12,7 @@
 	<FlavorTextFR_Souvlaki.label>souvláki</FlavorTextFR_Souvlaki.label>
 	<FlavorTextFR_Souvlaki.description>des cubes {0_adj} marinés à l'huile, {1_plur} et {2_plur}, enfilés sur de petites broches et grillés vite. Le nom veut simplement dire « petite brochette ».</FlavorTextFR_Souvlaki.description>
 	<FlavorTextFR_Tzatziki.label>tzatzíki</FlavorTextFR_Tzatziki.label>
-	<FlavorTextFR_Tzatziki.description>{0_coll} égoutté une nuit dans un linge, mêlé {1_plur} râpés et pressés — sinon l'eau ruine tout — et {2_plur} cru.</FlavorTextFR_Tzatziki.description>
+	<FlavorTextFR_Tzatziki.description>{0_coll} égoutté une nuit dans un linge, mêlé {1_plur} râpés et pressés (sinon l'eau ruine tout) et {2_plur} cru.</FlavorTextFR_Tzatziki.description>
 	<FlavorTextFR_Houmous.label>houmous</FlavorTextFR_Houmous.label>
 	<FlavorTextFR_Houmous.description>{0_coll} cuits jusqu'à s'écraser sous le doigt, broyés avec une pâte {1_adj}, {2_plur} et de l'eau glacée qui les fait blanchir et gonfler.</FlavorTextFR_Houmous.description>
 	<FlavorTextFR_Fattouche.label>fattouche</FlavorTextFR_Fattouche.label>

@@ -67,7 +67,7 @@
 	<FlavorText_JiggsDinner.description>{0_coll} salée bouillie avec {1_coll} et un assortiment de légumes-racines. On la mangeait le dimanche à midi dans certaines régions du Canada.</FlavorText_JiggsDinner.description>
 	<FlavorText_SteakTartare.description>{0_coll} crue de première qualité, hachée à la minute et mêlée d'oignon, d'épices et de sauce Worcestershire, présentée sous un jaune {1_adj} cru.</FlavorText_SteakTartare.description>
 	<FlavorText_Gefilte_Meat_Fish.description>un plat fait d'un appareil poché {0_adj} désarêtée et hachée, garni d'une rondelle {1_adj} cuite.</FlavorText_Gefilte_Meat_Fish.description>
-	<FlavorText_Bobotie.description>un gratin sud-africain : {0_coll} hachée au fond du plat, montée en curry avec du concentré de tomate, {2_coll} et un acide — citron ou vinaigre. On verse par-dessus une omelette {1_adj} et on passe au four jusqu'à ce qu'une croûte brune se forme.</FlavorText_Bobotie.description>
+	<FlavorText_Bobotie.description>un gratin sud-africain : {0_coll} hachée au fond du plat, montée en curry avec du concentré de tomate, {2_coll} et un acide (citron ou vinaigre). On verse par-dessus une omelette {1_adj} et on passe au four jusqu'à ce qu'une croûte brune se forme.</FlavorText_Bobotie.description>
 	<FlavorText_Yukhoe.description>un plat coréen raffiné : {0_coll} crue taillée en fines lanières, assaisonnée de sel, de sucre, d'huile de sésame, de poivre et d'ail, servie avec {1_coll} en garniture.</FlavorText_Yukhoe.description>
 	<FlavorText_Sisig.description>un plat philippin fait d'oreilles, de joues et de poitrine {0_adj}, revenues avec des foies {1_adj} et un mélange d'épices. Servi avec un citron calamansi.</FlavorText_Sisig.description>
 	<FlavorText_Trinxat.description>un plat des Pyrénées, fait {1_adj}, {2_adj} et {0_adj}, assez proche du bubble and squeak britannique.</FlavorText_Trinxat.description>
@@ -89,6 +89,6 @@
 	<FlavorText_Braised_MeatRaw.description>{0_coll} saisie à la poêle et arrosée de son propre jus.</FlavorText_Braised_MeatRaw.description>
 	<FlavorText_Braised_MeatRaw_WithRum.description>une tranche {0_adj} cuite dans un rhum {2_adj}.</FlavorText_Braised_MeatRaw_WithRum.description>
 	<FlavorText_ChristmasPudding.description>un pouding sucré {2_adj} séchés et de mie de pain {1_adj}, lié d'une graisse de rognon {0_adj}. On le cuit à l'eau, à la vapeur ou au four jusqu'à ce qu'il tienne comme un gâteau.</FlavorText_ChristmasPudding.description>
-	<FlavorText_Corned_MeatRaw.description>un morceau {0_adj} salé au gros sel — les « corns » qui lui donnent son nom — et parfumé de grains {1_adj}.</FlavorText_Corned_MeatRaw.description>
+	<FlavorText_Corned_MeatRaw.description>un morceau {0_adj} salé au gros sel (les « corns » qui lui donnent son nom) et parfumé de grains {1_adj}.</FlavorText_Corned_MeatRaw.description>
 
 </LanguageData>

@@ -10,7 +10,7 @@
 <LanguageData>
 
 	<FlavorTextFR_PureeDeToxipatate.label>mousseline {0_adj}</FlavorTextFR_PureeDeToxipatate.label>
-	<FlavorTextFR_PureeDeToxipatate.description>{0_coll} pelées épais — c'est sous la peau que tout se concentre —, cuites à grande eau qu'on jette, puis écrasées {1_plur} et {2_plur}. La chair reste grise ; le goût, lui, ne trahit rien.</FlavorTextFR_PureeDeToxipatate.description>
+	<FlavorTextFR_PureeDeToxipatate.description>{0_coll} pelées épais (c'est sous la peau que tout se concentre), cuites à grande eau qu'on jette, puis écrasées {1_plur} et {2_plur}. La chair reste grise ; le goût, lui, ne trahit rien.</FlavorTextFR_PureeDeToxipatate.description>
 	<FlavorTextFR_FritesDeToxipatate.label>frites {0_adj}</FlavorTextFR_FritesDeToxipatate.label>
 	<FlavorTextFR_FritesDeToxipatate.description>des bâtonnets {0_adj} dégorgés une heure à l'eau claire, égouttés, puis frits deux fois {1_plur}. Le premier bain assainit, le second croustille. Salées {2_plur} à la sortie.</FlavorTextFR_FritesDeToxipatate.description>
 	<FlavorTextFR_RostiDeToxipatate.label>rösti {0_adj}</FlavorTextFR_RostiDeToxipatate.label>

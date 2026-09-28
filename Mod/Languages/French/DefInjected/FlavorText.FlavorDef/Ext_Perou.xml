@@ -28,7 +28,7 @@
 	<FlavorTextFR_Pachamanca.label>pachamanca</FlavorTextFR_Pachamanca.label>
 	<FlavorTextFR_Pachamanca.description>{0_coll}, {1_coll} et {2_coll} enfouis dans un trou tapissé de pierres chauffées au feu, recouverts de terre, et laissés cuire des heures. Le nom veut dire « marmite de la terre » ; ce n'est pas une image.</FlavorTextFR_Pachamanca.description>
 	<FlavorTextFR_SopaDeQuinua.label>sopa de quinua</FlavorTextFR_SopaDeQuinua.label>
-	<FlavorTextFR_SopaDeQuinua.description>{0_coll} rincé longuement — sa saponine est amère — puis mijoté {1_plur} jusqu'à ouvrir ses germes en spirale, {2_plur} fondu dedans.</FlavorTextFR_SopaDeQuinua.description>
+	<FlavorTextFR_SopaDeQuinua.description>{0_coll} rincé longuement (sa saponine est amère) puis mijoté {1_plur} jusqu'à ouvrir ses germes en spirale, {2_plur} fondu dedans.</FlavorTextFR_SopaDeQuinua.description>
 	<FlavorTextFR_TacuTacu.label>tacu tacu</FlavorTextFR_TacuTacu.label>
 	<FlavorTextFR_TacuTacu.description>{0_coll} et {1_coll} de la veille écrasés ensemble et poêlés en une galette dorée sur les deux faces, {2_plur} revenus dedans. Un plat né des restes, devenu une institution.</FlavorTextFR_TacuTacu.description>
 	<FlavorTextFR_SecoDeCordero.label>seco {0_adj}</FlavorTextFR_SecoDeCordero.label>

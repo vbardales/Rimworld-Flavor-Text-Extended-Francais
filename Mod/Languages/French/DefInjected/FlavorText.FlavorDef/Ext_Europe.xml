@@ -24,7 +24,7 @@
 	<FlavorTextFR_Acorda.label>açorda</FlavorTextFR_Acorda.label>
 	<FlavorTextFR_Acorda.description>du pain rassis détrempé dans une eau bouillante {1_plur} et à la coriandre, battu jusqu'à devenir une bouillie, avec {2_coll} pochés dedans. Un plat de pauvreté alentejane devenu emblème.</FlavorTextFR_Acorda.description>
 	<FlavorTextFR_CataplanaDeMarisco.label>cataplana de marisco</FlavorTextFR_CataplanaDeMarisco.label>
-	<FlavorTextFR_CataplanaDeMarisco.description>{0_coll} et {2_coll} cuits ensemble dans un chaudron de cuivre à charnière, refermé hermétiquement — la vapeur ne s'échappe pas, et le plat se cuit dans son propre jus.</FlavorTextFR_CataplanaDeMarisco.description>
+	<FlavorTextFR_CataplanaDeMarisco.description>{0_coll} et {2_coll} cuits ensemble dans un chaudron de cuivre à charnière, refermé hermétiquement : la vapeur ne s'échappe pas, et le plat se cuit dans son propre jus.</FlavorTextFR_CataplanaDeMarisco.description>
 	<FlavorTextFR_FrangoPiriPiri.label>frango piri-piri</FlavorTextFR_FrangoPiriPiri.label>
 	<FlavorTextFR_FrangoPiriPiri.description>{0_coll} ouverte en crapaudine et grillée au charbon, badigeonnée pendant toute la cuisson d'une huile {1_adj} minuscules et {2_adj}.</FlavorTextFR_FrangoPiriPiri.description>
 	<FlavorTextFR_Sauerbraten.label>sauerbraten</FlavorTextFR_Sauerbraten.label>
@@ -46,7 +46,7 @@
 	<FlavorTextFR_HimmelUndErde.label>himmel und erde</FlavorTextFR_HimmelUndErde.label>
 	<FlavorTextFR_HimmelUndErde.description>« ciel et terre » : {1_coll} qui poussent en haut, {0_coll} qui poussent en bas, écrasées ensemble, avec du boudin poêlé et des oignons frits.</FlavorTextFR_HimmelUndErde.description>
 	<FlavorTextFR_GrunkohlMitPinkel.label>grünkohl mit pinkel</FlavorTextFR_GrunkohlMitPinkel.label>
-	<FlavorTextFR_GrunkohlMitPinkel.description>{0_coll} frisés cueillis après la première gelée — qui les adoucit — mijotés des heures avec une saucisse fumée {2_adj}.</FlavorTextFR_GrunkohlMitPinkel.description>
+	<FlavorTextFR_GrunkohlMitPinkel.description>{0_coll} frisés cueillis après la première gelée (qui les adoucit) mijotés des heures avec une saucisse fumée {2_adj}.</FlavorTextFR_GrunkohlMitPinkel.description>
 	<FlavorTextFR_Tafelspitz.label>tafelspitz</FlavorTextFR_Tafelspitz.label>
 	<FlavorTextFR_Tafelspitz.description>une pièce {0_adj} pochée dans un bouillon de racines, servie avec une sauce {2_adj} au raifort et à la pomme. Le plat préféré de François-Joseph, dit-on, qui en mangeait tous les jours.</FlavorTextFR_Tafelspitz.description>
 	<FlavorTextFR_TirolerGrostl.label>tiroler gröstl</FlavorTextFR_TirolerGrostl.label>

@@ -10,7 +10,7 @@
 <LanguageData>
 
 	<FlavorTextFR_ConfitureFigueBarbarie.label>confiture de figues de Barbarie</FlavorTextFR_ConfitureFigueBarbarie.label>
-	<FlavorTextFR_ConfitureFigueBarbarie.description>{0_coll} épluchées avec des gants — les glochides sont invisibles et s'enfoncent seuls —, cuites {1_plur} et parfumées {2_plur}. Les pépins se retirent au tamis ou se gardent, selon la patience.</FlavorTextFR_ConfitureFigueBarbarie.description>
+	<FlavorTextFR_ConfitureFigueBarbarie.description>{0_coll} épluchées avec des gants (les glochides sont invisibles et s'enfoncent seuls), cuites {1_plur} et parfumées {2_plur}. Les pépins se retirent au tamis ou se gardent, selon la patience.</FlavorTextFR_ConfitureFigueBarbarie.description>
 	<FlavorTextFR_QuesoDeTuna.label>queso de tuna</FlavorTextFR_QuesoDeTuna.label>
 	<FlavorTextFR_QuesoDeTuna.description>la pulpe {0_adj} réduite des heures jusqu'à devenir une pâte brune assez ferme pour se trancher, chargée {1_plur}. Malgré son nom, il n'y a pas de fromage dedans : c'est la forme du bloc qui l'a baptisé.</FlavorTextFR_QuesoDeTuna.description>
 	<FlavorTextFR_ChutneyFigueBarbarie.label>chutney de figues de Barbarie</FlavorTextFR_ChutneyFigueBarbarie.label>
@@ -32,7 +32,7 @@
 	<FlavorTextFR_SalsaDeTuna.label>salsa de tuna</FlavorTextFR_SalsaDeTuna.label>
 	<FlavorTextFR_SalsaDeTuna.description>{0_coll} en dés, {1_coll} hachés fin et {2_coll} rouge, avec du citron vert et de la coriandre. Le sucre du fruit éteint le piment sans le masquer.</FlavorTextFR_SalsaDeTuna.description>
 	<FlavorTextFR_SaladeNopalesTuna.label>salade de nopales et tuna</FlavorTextFR_SaladeNopalesTuna.label>
-	<FlavorTextFR_SaladeNopalesTuna.description>les raquettes du cactus épépinées, blanchies pour ôter leur bave, coupées en lanières, et le fruit du même cactus en dés — avec {1_coll} et {2_coll}. La plante entière dans une seule assiette.</FlavorTextFR_SaladeNopalesTuna.description>
+	<FlavorTextFR_SaladeNopalesTuna.description>les raquettes du cactus épépinées, blanchies pour ôter leur bave, coupées en lanières, et le fruit du même cactus en dés, avec {1_coll} et {2_coll}. La plante entière dans une seule assiette.</FlavorTextFR_SaladeNopalesTuna.description>
 	<FlavorTextFR_SaladeFigueBarbarieFeta.label>salade de figues de Barbarie à la feta</FlavorTextFR_SaladeFigueBarbarieFeta.label>
 	<FlavorTextFR_SaladeFigueBarbarieFeta.description>{0_coll} en quartiers sur un lit {2_adj} amères, avec {1_coll} émietté, de la menthe et un filet d'huile. Le sucré du fruit contre le salé du fromage.</FlavorTextFR_SaladeFigueBarbarieFeta.description>
 	<FlavorTextFR_CevicheFigueBarbarie.label>ceviche à la figue de Barbarie</FlavorTextFR_CevicheFigueBarbarie.label>

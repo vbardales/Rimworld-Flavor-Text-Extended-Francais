@@ -28,7 +28,7 @@
 
 	<!-- Pâtisseries et desserts au four -->
 	<FlavorText_FairyBread.description>une friandise de goûter australienne : des vermicelles {2_adj} sur une tranche de pain {1_adj} beurrée.</FlavorText_FairyBread.description>
-	<FlavorText_Ingredients_Muffins.description>de petits gâteaux levés cuits dans une plaque à alvéoles, une par muffin. La pâte mêle une farine {0_adj} à un agent levant — bicarbonate le plus souvent — et {1_coll} pour la richesse.</FlavorText_Ingredients_Muffins.description>
+	<FlavorText_Ingredients_Muffins.description>de petits gâteaux levés cuits dans une plaque à alvéoles, une par muffin. La pâte mêle une farine {0_adj} à un agent levant (bicarbonate le plus souvent) et {1_coll} pour la richesse.</FlavorText_Ingredients_Muffins.description>
 	<FlavorText_Ingredients_Muffins_2.description>de petits gâteaux levés cuits dans une plaque à alvéoles, une par muffin. La pâte mêle une farine {0_adj} à un agent levant comme le bicarbonate, avec {1_coll} et {2_coll} pour la richesse.</FlavorText_Ingredients_Muffins_2.description>
 	<FlavorText_Spice_SwirlToast.description>un pain de mie {0_adj} pétri {1_plur}. On l'étale en feuille, on le poudre {2_plur}, on le roule et on le laisse lever avant cuisson : à la coupe apparaît une spirale {2_adj}. Celui-ci a été grillé, puis nappé {1_adj}.</FlavorText_Spice_SwirlToast.description>
 	<FlavorText_Beigli.description>une brioche hongroise roulée sur une épaisse spirale {1_adj}, broyée au moulin à main.</FlavorText_Beigli.description>
@@ -104,7 +104,7 @@
 	<FlavorText_JanssonsFrestelse.description>un gratin suédois traditionnel fait {2_adj}, {1_adj}, {0_adj} en saumure, de chapelure et de crème.</FlavorText_JanssonsFrestelse.description>
 	<FlavorText_BiscuitsAndGravy.description>des scones {2_adj} nappés d'une sauce blanche montée avec une chair à saucisse {0_adj}, de la graisse de bacon et du lait.</FlavorText_BiscuitsAndGravy.description>
 	<FlavorText_RappiePie.description>un gratin canadien fait pour l'essentiel {1_adj} râpés puis essorés dans un linge pour en chasser l'eau. On détend cette râpure avec le bouillon de cuisson {0_adj}, on la range dans un plat, on la couvre {0_adj} cuite, puis d'une nouvelle couche de râpure {1_adj}.</FlavorText_RappiePie.description>
-	<FlavorText_Meat_Seafood_SushiBake.description>un dérivé du maki japonais : on étale {2_coll} vinaigré et sucré au fond d'un plat, puis une couche {1_adj} effilochée et des morceaux {0_adj}. Le tout est nappé d'une sauce — mayonnaise au sriracha, le plus souvent — et passé au four.</FlavorText_Meat_Seafood_SushiBake.description>
+	<FlavorText_Meat_Seafood_SushiBake.description>un dérivé du maki japonais : on étale {2_coll} vinaigré et sucré au fond d'un plat, puis une couche {1_adj} effilochée et des morceaux {0_adj}. Le tout est nappé d'une sauce (mayonnaise au sriracha, le plus souvent) et passé au four.</FlavorText_Meat_Seafood_SushiBake.description>
 	<FlavorText_MeatRaw_ShepherdsPie.description>{0_coll} recouverte d'une purée {2_adj} et gratinée au four comme une tourte.</FlavorText_MeatRaw_ShepherdsPie.description>
 
 	<!-- Légumes au four -->

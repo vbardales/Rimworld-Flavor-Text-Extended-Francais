@@ -12,13 +12,13 @@
 	<FlavorTextFR_Paella.label>paella</FlavorTextFR_Paella.label>
 	<FlavorTextFR_Paella.description>{0_coll} étalé en couche mince dans une poêle plus large que haute, jamais remué, avec {1_coll} et {2_coll}. La croûte dorée qui attache au fond s'appelle le socarrat et se dispute.</FlavorTextFR_Paella.description>
 	<FlavorTextFR_PanConTomate.label>pan con tomate</FlavorTextFR_PanConTomate.label>
-	<FlavorTextFR_PanConTomate.description>du pain grillé frotté {2_plur} cru puis {1_plur} coupées en deux, jusqu'à ce qu'il ne reste que la peau. Sel, huile, rien d'autre — et pourtant on en fait tout un art à Barcelone.</FlavorTextFR_PanConTomate.description>
+	<FlavorTextFR_PanConTomate.description>du pain grillé frotté {2_plur} cru puis {1_plur} coupées en deux, jusqu'à ce qu'il ne reste que la peau. Sel, huile, rien d'autre, et pourtant on en fait tout un art à Barcelone.</FlavorTextFR_PanConTomate.description>
 	<FlavorTextFR_PulpoGallega.label>pulpo a la gallega</FlavorTextFR_PulpoGallega.label>
-	<FlavorTextFR_PulpoGallega.description>{0_coll} trempée trois fois dans l'eau bouillante avant d'y rester — sinon la peau s'en va —, coupée aux ciseaux sur des rondelles {1_adj}, huile et paprika fumé.</FlavorTextFR_PulpoGallega.description>
+	<FlavorTextFR_PulpoGallega.description>{0_coll} trempée trois fois dans l'eau bouillante avant d'y rester (sinon la peau s'en va), coupée aux ciseaux sur des rondelles {1_adj}, huile et paprika fumé.</FlavorTextFR_PulpoGallega.description>
 	<FlavorTextFR_Fabada.label>fabada</FlavorTextFR_Fabada.label>
 	<FlavorTextFR_Fabada.description>de gros haricots blancs mijotés {1_plur} fumée, jamais remués à la cuillère : on secoue la marmite d'un mouvement de poignet pour ne pas les briser.</FlavorTextFR_Fabada.description>
 	<FlavorTextFR_Churros.label>churros</FlavorTextFR_Churros.label>
-	<FlavorTextFR_Churros.description>une pâte {0_adj} poussée à travers une douille étoilée directement dans l'huile — les cannelures évitent qu'ils n'éclatent —, roulés {1_plur} et trempés dans {2_coll} épais.</FlavorTextFR_Churros.description>
+	<FlavorTextFR_Churros.description>une pâte {0_adj} poussée à travers une douille étoilée directement dans l'huile (les cannelures évitent qu'ils n'éclatent), roulés {1_plur} et trempés dans {2_coll} épais.</FlavorTextFR_Churros.description>
 	<FlavorTextFR_PatatasBravas.label>patatas bravas</FlavorTextFR_PatatasBravas.label>
 	<FlavorTextFR_PatatasBravas.description>{0_coll} en cubes irréguliers frites deux fois, noyées d'une sauce {1_adj} et d'une émulsion {2_adj}. Se piquent au cure-dent, debout au bar.</FlavorTextFR_PatatasBravas.description>
 	<FlavorTextFR_Romesco.label>romesco</FlavorTextFR_Romesco.label>

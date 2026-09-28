@@ -24,11 +24,11 @@
 	<FlavorTextFR_InjeraDeSorgho.label>injera de sorgho</FlavorTextFR_InjeraDeSorgho.label>
 	<FlavorTextFR_InjeraDeSorgho.description>une pâte {0_adj} fermentée trois jours, versée en spirale sur la plaque et couverte : les bulles qui percent la surface forment les alvéoles. Chargée d'un misir wat {1_adj} et {2_adj}.</FlavorTextFR_InjeraDeSorgho.description>
 	<FlavorTextFR_GenfoDeSorgho.label>genfo de sorgho</FlavorTextFR_GenfoDeSorgho.label>
-	<FlavorTextFR_GenfoDeSorgho.description>une bouillie {0_adj} très épaisse moulée en dôme, creusée au centre et remplie de niter kibbeh — un beurre clarifié aux épices — et de berbéré {2_adj}. Le déjeuner des jeunes mères éthiopiennes.</FlavorTextFR_GenfoDeSorgho.description>
+	<FlavorTextFR_GenfoDeSorgho.description>une bouillie {0_adj} très épaisse moulée en dôme, creusée au centre et remplie de niter kibbeh (un beurre clarifié aux épices) et de berbéré {2_adj}. Le déjeuner des jeunes mères éthiopiennes.</FlavorTextFR_GenfoDeSorgho.description>
 	<FlavorTextFR_TingYaMabele.label>ting ya mabele</FlavorTextFR_TingYaMabele.label>
 	<FlavorTextFR_TingYaMabele.description>{0_coll} laissé fermenter plusieurs jours avant cuisson, d'où son acidité franche, servi avec {2_coll} et {1_coll} caillé. Le plat national du Botswana, mangé matin et soir.</FlavorTextFR_TingYaMabele.description>
 	<FlavorTextFR_JowarBhakri.label>jowar bhakri</FlavorTextFR_JowarBhakri.label>
-	<FlavorTextFR_JowarBhakri.description>une galette {0_adj} pétrie à l'eau brûlante et aplatie à la paume — sans gluten, elle se déchire à la moindre hésitation —, cuite à sec puis gonflée sur la flamme, avec un thecha {1_adj} et {2_adj} pilé.</FlavorTextFR_JowarBhakri.description>
+	<FlavorTextFR_JowarBhakri.description>une galette {0_adj} pétrie à l'eau brûlante et aplatie à la paume (sans gluten, elle se déchire à la moindre hésitation), cuite à sec puis gonflée sur la flamme, avec un thecha {1_adj} et {2_adj} pilé.</FlavorTextFR_JowarBhakri.description>
 	<FlavorTextFR_JowarKhichdi.label>jowar khichdi</FlavorTextFR_JowarKhichdi.label>
 	<FlavorTextFR_JowarKhichdi.description>{0_coll} concassé et {1_coll} cuits ensemble jusqu'à se confondre, relevés d'un tempérage {2_adj} grillées dans le ghee. Le plat qu'on sert aux convalescents.</FlavorTextFR_JowarKhichdi.description>
 	<FlavorTextFR_JowarDosa.label>jowar dosa</FlavorTextFR_JowarDosa.label>

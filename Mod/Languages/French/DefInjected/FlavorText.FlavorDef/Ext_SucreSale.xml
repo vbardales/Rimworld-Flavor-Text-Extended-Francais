@@ -60,7 +60,7 @@
 	<FlavorTextFR_SaumonMisoMiel.label>saumon glacé au miso et au miel</FlavorTextFR_SaumonMisoMiel.label>
 	<FlavorTextFR_SaumonMisoMiel.description>{0_coll} marinée une nuit dans une pâte {1_adj} fermenté et {2_adj}, puis passée sous le gril. Le sucre du miso brûle vite : on surveille sans quitter la salamandre.</FlavorTextFR_SaumonMisoMiel.description>
 	<FlavorTextFR_TajineTfaya.label>tajine tfaya</FlavorTextFR_TajineTfaya.label>
-	<FlavorTextFR_TajineTfaya.description>{2_coll} mijotée au safran, couverte d'une tfaya — {0_coll} compotés des heures {1_plur} secs, à la cannelle et au miel, jusqu'au brun sombre.</FlavorTextFR_TajineTfaya.description>
+	<FlavorTextFR_TajineTfaya.description>{2_coll} mijotée au safran, couverte d'une tfaya : {0_coll} compotés des heures {1_plur} secs, à la cannelle et au miel, jusqu'au brun sombre.</FlavorTextFR_TajineTfaya.description>
 	<FlavorTextFR_Mrouzia.label>mrouzia</FlavorTextFR_Mrouzia.label>
 	<FlavorTextFR_Mrouzia.description>{0_coll} confite au ras el hanout et au smen, noyée {1_plur} et chargée {2_adj} frites. Le miel et le sel conservaient la viande des semaines après la fête du sacrifice.</FlavorTextFR_Mrouzia.description>
 	<FlavorTextFR_KhoreshBeh.label>khoresh-e beh</FlavorTextFR_KhoreshBeh.label>

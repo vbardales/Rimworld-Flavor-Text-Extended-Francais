@@ -5,7 +5,7 @@
 	<numAllowedMissingIngredientsTooltip>Faut-il ajouter des ingrédients supplémentaires au hasard lors de la préparation d'un repas ? Utile si vous manquez de variété. Si la valeur est supérieure à 0, un ingrédient est ajouté, puis d'autres éventuellement, jusqu'à ce que le nombre total d'ingrédients du repas atteigne le plafond. Les ingrédients ajoutés respectent la recette et le régime du repas (carnivore, végétarien, etc.).</numAllowedMissingIngredientsTooltip>
 
 	<quickSearch>Recherche rapide</quickSearch>
-	<quickSearchTooltip>Activé : la recherche s'arrête dès que 10 noms candidats sont trouvés pour le repas — résultats moins variés.\nDésactivé : la recherche trouve tous les noms candidats — résultats plus variés.</quickSearchTooltip>
+	<quickSearchTooltip>Activé : la recherche s'arrête dès que 10 noms candidats sont trouvés pour le repas : résultats moins variés.\nDésactivé : la recherche trouve tous les noms candidats : résultats plus variés.</quickSearchTooltip>
 
 	<flavorTextForStacks>Nommer les piles de repas</flavorTextForStacks>
 	<flavorTextForStacksTooltip>Activé : les piles de repas reçoivent un nom de plat.\n\nDésactivé : les piles de repas conservent leur nom d'origine.</flavorTextForStacksTooltip>

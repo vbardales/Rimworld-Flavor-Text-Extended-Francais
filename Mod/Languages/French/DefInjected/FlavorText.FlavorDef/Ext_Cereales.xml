@@ -14,7 +14,7 @@
 	<FlavorTextFR_Alegria.label>alegría</FlavorTextFR_Alegria.label>
 	<FlavorTextFR_Alegria.description>{0_coll} soufflé grain à grain sur une plaque brûlante, aggloméré {1_plur} chaud, puis mélangé {2_plur} grillées et pressé en barre. Le nom veut dire « joie », et se vend depuis la Conquête.</FlavorTextFR_Alegria.description>
 	<FlavorTextFR_RajgiraRoti.label>rajgira roti</FlavorTextFR_RajgiraRoti.label>
-	<FlavorTextFR_RajgiraRoti.description>une farine {0_adj}, qui ne contient pas de gluten, liée par {2_coll} et une purée {1_adj} écrasée chaude — sans quoi la galette se déchire au rouleau. Se cuit à sec puis se badigeonne.</FlavorTextFR_RajgiraRoti.description>
+	<FlavorTextFR_RajgiraRoti.description>une farine {0_adj}, qui ne contient pas de gluten, liée par {2_coll} et une purée {1_adj} écrasée chaude, sans quoi la galette se déchire au rouleau. Se cuit à sec puis se badigeonne.</FlavorTextFR_RajgiraRoti.description>
 	<FlavorTextFR_AtoleDAmarante.label>atole d'amarante</FlavorTextFR_AtoleDAmarante.label>
 	<FlavorTextFR_AtoleDAmarante.description>une boisson épaisse {0_adj} et {1_adj} délayés à l'eau, fouettée {2_plur} et à la cannelle jusqu'à mousser. Se boit brûlante, au petit matin, avant le travail aux champs.</FlavorTextFR_AtoleDAmarante.description>
 	<FlavorTextFR_PilafDAmarante.label>pilaf d'amarante</FlavorTextFR_PilafDAmarante.label>
@@ -28,7 +28,7 @@
 	<FlavorTextFR_ScotchBroth.label>scotch broth</FlavorTextFR_ScotchBroth.label>
 	<FlavorTextFR_ScotchBroth.description>{1_coll} au collier mijotée avec {0_coll} perlé, {2_coll} jaune et du poireau, écumée souvent. Se mange le premier jour en bouillon, le second à la fourchette.</FlavorTextFR_ScotchBroth.description>
 	<FlavorTextFR_Krupnik.label>krupnik</FlavorTextFR_Krupnik.label>
-	<FlavorTextFR_Krupnik.description>une soupe paysanne {0_adj} perlé, {2_adj} en cubes et {1_adj} séchés réhydratés, dont on garde l'eau de trempage — c'est elle qui porte tout le goût.</FlavorTextFR_Krupnik.description>
+	<FlavorTextFR_Krupnik.description>une soupe paysanne {0_adj} perlé, {2_adj} en cubes et {1_adj} séchés réhydratés, dont on garde l'eau de trempage : c'est elle qui porte tout le goût.</FlavorTextFR_Krupnik.description>
 	<FlavorTextFR_OrgeAuTheBeurre.label>orge au thé beurré</FlavorTextFR_OrgeAuTheBeurre.label>
 	<FlavorTextFR_OrgeAuTheBeurre.description>une farine {0_adj} grillé, pétrie du bout des doigts dans un bol {1_plur} salé battu {2_plur}. Se mange sans couverts, en roulant la pâte contre la paroi. Tient une journée de marche.</FlavorTextFR_OrgeAuTheBeurre.description>
 	<FlavorTextFR_SaladeOrgeFeta.label>salade d'orge à la feta</FlavorTextFR_SaladeOrgeFeta.label>

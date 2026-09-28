@@ -44,10 +44,10 @@
 	<FlavorTextFR_Chirashi.label>chirashi</FlavorTextFR_Chirashi.label>
 	<FlavorTextFR_Chirashi.description>{0_coll} vinaigré étalé au fond d'un bol, « éparpillé » {1_plur} crue en tranches et de lanières d'omelette. Toute la difficulté du sushi, sans le geste du sushi.</FlavorTextFR_Chirashi.description>
 	<FlavorTextFR_Ochazuke.label>ochazuke</FlavorTextFR_Ochazuke.label>
-	<FlavorTextFR_Ochazuke.description>{1_coll} brûlant versé sur du riz froid, avec {2_coll} émietté. Le repas de fin de soirée, ou de fin de restes — les deux reviennent souvent au même.</FlavorTextFR_Ochazuke.description>
+	<FlavorTextFR_Ochazuke.description>{1_coll} brûlant versé sur du riz froid, avec {2_coll} émietté. Le repas de fin de soirée, ou de fin de restes : les deux reviennent souvent au même.</FlavorTextFR_Ochazuke.description>
 	<FlavorTextFR_Dorayaki.label>dorayaki</FlavorTextFR_Dorayaki.label>
 	<FlavorTextFR_Dorayaki.description>deux petites crêpes épaisses {2_plur} et au miel, refermées sur une pâte sucrée {1_adj}. Le nom vient du gong qu'elles imitent.</FlavorTextFR_Dorayaki.description>
 	<FlavorTextFR_Anmitsu.label>anmitsu</FlavorTextFR_Anmitsu.label>
-	<FlavorTextFR_Anmitsu.description>des cubes de gelée {1_adj} — ferme, à peine sucrée — avec une pâte {0_adj} et un sirop noir {2_adj} versé à table. Le dessert d'été, servi glacé.</FlavorTextFR_Anmitsu.description>
+	<FlavorTextFR_Anmitsu.description>des cubes de gelée {1_adj} (ferme, à peine sucrée) avec une pâte {0_adj} et un sirop noir {2_adj} versé à table. Le dessert d'été, servi glacé.</FlavorTextFR_Anmitsu.description>
 
 </LanguageData>

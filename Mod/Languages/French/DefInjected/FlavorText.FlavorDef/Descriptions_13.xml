@@ -35,12 +35,12 @@
 	<FlavorText_Gamja-Ongsimi.description>des quenelles coréennes {2_adj} étirées à la main, dans un bouillon {0_adj} avec {1_coll}.</FlavorText_Gamja-Ongsimi.description>
 	<FlavorText_Miyeok-Guk.description>une soupe coréenne sans piment, dont l'ingrédient principal est le miyeok, c'est-à-dire {0_coll}.</FlavorText_Miyeok-Guk.description>
 	<FlavorText_Pot-Au-Feu.description>un ragoût paysan français, fait traditionnellement de la viande et des légumes les moins chers qu'on trouvait l'hiver. {0_coll} et {1_coll} composent celui-ci : on les fait bouillir doucement, parfois une journée entière, jusqu'à ce que le bouillon prenne une texture gélatineuse. On l'assaisonne d'ail, de girofle, de céleri, de persil, de thym et de laurier. Le bouillon se sert d'abord, les ingrédients solides ensuite.</FlavorText_Pot-Au-Feu.description>
-	<FlavorText_Gising-Gising.description>un ragoût de légumes philippin bien relevé : {0_coll} hachés dans un lait {1_adj}, avec une bonne quantité de pâte {2_adj} — d'où son nom, qui signifie « réveille-toi, réveille-toi ».</FlavorText_Gising-Gising.description>
+	<FlavorText_Gising-Gising.description>un ragoût de légumes philippin bien relevé : {0_coll} hachés dans un lait {1_adj}, avec une bonne quantité de pâte {2_adj}, d'où son nom, qui signifie « réveille-toi, réveille-toi ».</FlavorText_Gising-Gising.description>
 
 	<!-- Douceurs -->
 	<FlavorText_Sugar-Coated_Fruit.description>{0_coll} entiers, enrobés d'une coque sucrée {1_adj}.</FlavorText_Sugar-Coated_Fruit.description>
 	<FlavorText_Fruit_Kool-AidPickles.description>un en-cas d'enfance né aux États-Unis de la Vieille Terre : on reprend {0_coll} déjà mis au vinaigre et on les remet à mariner dans un soda très sucré parfumé {1_plur}.</FlavorText_Fruit_Kool-AidPickles.description>
-	<FlavorText_Halo-Halo.description>un dessert philippin monté d'un grand assortiment de garnitures — ici {1_coll} et {2_coll}. La glace pilée en forme la base, sur laquelle on verse un lait concentré {0_adj}.</FlavorText_Halo-Halo.description>
+	<FlavorText_Halo-Halo.description>un dessert philippin monté d'un grand assortiment de garnitures : ici {1_coll} et {2_coll}. La glace pilée en forme la base, sur laquelle on verse un lait concentré {0_adj}.</FlavorText_Halo-Halo.description>
 	<FlavorText_Chocolate-CoatedMarshmallowTreats.description>des guimauves souples trempées {1_plur} fondu et laissées refroidir.</FlavorText_Chocolate-CoatedMarshmallowTreats.description>
 	<FlavorText_Condiment-Condiment_Stick.description>une paille moulée dans une poudre {0_adj} et {1_adj}, liée d'une purée {2_adj}. Quand on aspire la pâte nutritive au travers, chaque gorgée se charge des deux goûts à la fois.</FlavorText_Condiment-Condiment_Stick.description>
 

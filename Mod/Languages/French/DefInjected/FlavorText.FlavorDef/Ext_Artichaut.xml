@@ -20,7 +20,7 @@
 	<FlavorTextFR_CarciofiAllaGiudia.label>carciofi alla giudia</FlavorTextFR_CarciofiAllaGiudia.label>
 	<FlavorTextFR_CarciofiAllaGiudia.description>{0_coll} entiers frits deux fois, écrasés entre deux passages pour que les feuilles s'ouvrent en fleur et deviennent aussi cassantes que des chips. Une invention du ghetto de Rome.</FlavorTextFR_CarciofiAllaGiudia.description>
 	<FlavorTextFR_RisottoAiCarciofi.label>risotto ai carciofi</FlavorTextFR_RisottoAiCarciofi.label>
-	<FlavorTextFR_RisottoAiCarciofi.description>{1_coll} nacré et mouillé louche par louche, {0_coll} taillés en lamelles et ajoutés en deux fois — les uns au début pour fondre, les autres à la fin pour rester fermes — puis lié {2_plur}.</FlavorTextFR_RisottoAiCarciofi.description>
+	<FlavorTextFR_RisottoAiCarciofi.description>{1_coll} nacré et mouillé louche par louche, {0_coll} taillés en lamelles et ajoutés en deux fois (les uns au début pour fondre, les autres à la fin pour rester fermes) puis lié {2_plur}.</FlavorTextFR_RisottoAiCarciofi.description>
 	<FlavorTextFR_PastaAiCarciofi.label>pasta ai carciofi</FlavorTextFR_PastaAiCarciofi.label>
 	<FlavorTextFR_PastaAiCarciofi.description>{0_coll} émincés au rasoir et fondus {2_plur} et à l'huile, allongés d'un peu d'eau de cuisson pour lier les pâtes sans crème.</FlavorTextFR_PastaAiCarciofi.description>
 	<FlavorTextFR_FrittataDiCarciofi.label>frittata di carciofi</FlavorTextFR_FrittataDiCarciofi.label>
@@ -28,11 +28,11 @@
 	<FlavorTextFR_ParmigianaDiCarciofi.label>parmigiana di carciofi</FlavorTextFR_ParmigianaDiCarciofi.label>
 	<FlavorTextFR_ParmigianaDiCarciofi.description>{0_coll} en tranches farinées et frites, montés en couches {1_plur} et {2_plur}, puis gratinés. Moins connue que celle aux aubergines, et plus fine.</FlavorTextFR_ParmigianaDiCarciofi.description>
 	<FlavorTextFR_PizzaAuxArtichauts.label>pizza aux artichauts</FlavorTextFR_PizzaAuxArtichauts.label>
-	<FlavorTextFR_PizzaAuxArtichauts.description>{0_coll} marinés à l'huile posés sur la pâte au dernier moment, avec {2_coll} — un des quatre quartiers de la capricciosa, promu plat entier.</FlavorTextFR_PizzaAuxArtichauts.description>
+	<FlavorTextFR_PizzaAuxArtichauts.description>{0_coll} marinés à l'huile posés sur la pâte au dernier moment, avec {2_coll}, un des quatre quartiers de la capricciosa, promu plat entier.</FlavorTextFR_PizzaAuxArtichauts.description>
 	<FlavorTextFR_AlcachofasConJamon.label>alcachofas con jamón</FlavorTextFR_AlcachofasConJamon.label>
 	<FlavorTextFR_AlcachofasConJamon.description>{0_coll} blanchis puis sautés {2_plur} et {1_plur} taillé en dés, qui rend son gras et sale le plat sans qu'on ajoute rien.</FlavorTextFR_AlcachofasConJamon.description>
 	<FlavorTextFR_AginaresAlaPolita.label>aginares a la polita</FlavorTextFR_AginaresAlaPolita.label>
-	<FlavorTextFR_AginaresAlaPolita.description>{0_coll} braisés à l'huile avec {1_coll} et des carottes, liés d'un avgolemono {2_adj} monté hors du feu. « À la façon de la Ville » — c'est-à-dire de Constantinople.</FlavorTextFR_AginaresAlaPolita.description>
+	<FlavorTextFR_AginaresAlaPolita.description>{0_coll} braisés à l'huile avec {1_coll} et des carottes, liés d'un avgolemono {2_adj} monté hors du feu. « À la façon de la Ville », c'est-à-dire de Constantinople.</FlavorTextFR_AginaresAlaPolita.description>
 	<FlavorTextFR_ZeytinyagliEnginar.label>zeytinyağlı enginar</FlavorTextFR_ZeytinyagliEnginar.label>
 	<FlavorTextFR_ZeytinyagliEnginar.description>des fonds {0_adj} remplis {2_plur} et de carottes en dés, cuits à l'huile {1_adj} et refroidis dedans. Les plats « à l'huile d'olive » turcs se mangent toujours froids.</FlavorTextFR_ZeytinyagliEnginar.description>
 	<FlavorTextFR_DolmaQarnoun.label>dolma qarnoun</FlavorTextFR_DolmaQarnoun.label>

@@ -40,7 +40,7 @@
 	<FlavorText_BrunedeKartofler.description>de petites pièces {1_adj} caramélisées dans un sucre {0_adj}.</FlavorText_BrunedeKartofler.description>
 	<FlavorText_Roasted_Vegetable.description>{0_coll} entiers rôtis au four jusqu'à caraméliser et devenir fondants.</FlavorText_Roasted_Vegetable.description>
 	<FlavorText_VegetableMacedonia.description>une salade de petits morceaux {0_adj} et {1_adj} frais. On la trouve en Grèce, en Roumanie, en Espagne, en France, en Italie et en Amérique du Sud.</FlavorText_VegetableMacedonia.description>
-	<FlavorText_Yachaejeon.description>une galette coréenne très répandue dans la rue, faite de légumes variés — {0_coll} et {1_coll} émincés fin — liés par une pâte {2_adj}. Se sert avec une sauce au soja et au sésame.</FlavorText_Yachaejeon.description>
+	<FlavorText_Yachaejeon.description>une galette coréenne très répandue dans la rue, faite de légumes variés ({0_coll} et {1_coll} émincés fin) liés par une pâte {2_adj}. Se sert avec une sauce au soja et au sésame.</FlavorText_Yachaejeon.description>
 	<FlavorText_BunnyChow.description>un plat de rue très répandu dans l'Afrique du Sud du XXIᵉ siècle : une miche entière de pain {0_adj} évidée et remplie d'un curry épais {1_adj} et {2_adj}.</FlavorText_BunnyChow.description>
 	<FlavorText_Croffle.description>une variante de la gaufre, faite avec une pâte à croissant. On pose une plaque de beurre entière sur une couche de pâte {0_adj}, puis on plie et replie jusqu'à obtenir des dizaines de feuillets. Le tout cuit dans un gaufrier qui imprime ses alvéoles profondes.</FlavorText_Croffle.description>
 

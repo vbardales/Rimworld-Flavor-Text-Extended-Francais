@@ -24,7 +24,7 @@
 	<FlavorTextFR_ChanaMasala.label>chana masala</FlavorTextFR_ChanaMasala.label>
 	<FlavorTextFR_ChanaMasala.description>{0_coll} mijotés dans un fond {2_adj} longuement roussis et {1_adj}, acidulé au tamarin et à l'amchoor. La sauce doit coller aux pois, pas les baigner.</FlavorTextFR_ChanaMasala.description>
 	<FlavorTextFR_Vindaloo.label>vindaloo</FlavorTextFR_Vindaloo.label>
-	<FlavorTextFR_Vindaloo.description>{0_coll} marinée au vinaigre {2_adj} et {1_plur}, héritage portugais de Goa. Le nom vient de « vinha d'alhos » — vin et ail — et non du mot pomme de terre, malgré les apparences.</FlavorTextFR_Vindaloo.description>
+	<FlavorTextFR_Vindaloo.description>{0_coll} marinée au vinaigre {2_adj} et {1_plur}, héritage portugais de Goa. Le nom vient de « vinha d'alhos » (vin et ail) et non du mot pomme de terre, malgré les apparences.</FlavorTextFR_Vindaloo.description>
 	<FlavorTextFR_RoganJosh.label>rogan josh</FlavorTextFR_RoganJosh.label>
 	<FlavorTextFR_RoganJosh.description>{0_coll} braisée {1_plur} et {2_plur} du Cachemire, qui donnent une couleur écarlate sans presque aucun feu. Le rouge et le piquant ne vont pas toujours ensemble.</FlavorTextFR_RoganJosh.description>
 	<FlavorTextFR_Tandoori.label>tandoori {0_adj}</FlavorTextFR_Tandoori.label>

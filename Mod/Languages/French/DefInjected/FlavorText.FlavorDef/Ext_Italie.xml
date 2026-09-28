@@ -10,7 +10,7 @@
 <LanguageData>
 
 	<FlavorTextFR_RisiEBisi.label>risi e bisi</FlavorTextFR_RisiEBisi.label>
-	<FlavorTextFR_RisiEBisi.description>{0_coll} et {1_coll} cuits ensemble, entre la soupe et le risotto — assez liquide pour la cuillère, trop épais pour le bol. Les cosses servent au bouillon, rien ne se perd.</FlavorTextFR_RisiEBisi.description>
+	<FlavorTextFR_RisiEBisi.description>{0_coll} et {1_coll} cuits ensemble, entre la soupe et le risotto : assez liquide pour la cuillère, trop épais pour le bol. Les cosses servent au bouillon, rien ne se perd.</FlavorTextFR_RisiEBisi.description>
 	<FlavorTextFR_Gnocchi.label>gnocchi</FlavorTextFR_Gnocchi.label>
 	<FlavorTextFR_Gnocchi.description>{0_coll} écrasées encore chaudes et liées d'aussi peu de farine que possible, roulées, striées à la fourchette. Ils sont cuits quand ils remontent.</FlavorTextFR_Gnocchi.description>
 	<FlavorTextFR_OssoBuco.label>osso-buco</FlavorTextFR_OssoBuco.label>

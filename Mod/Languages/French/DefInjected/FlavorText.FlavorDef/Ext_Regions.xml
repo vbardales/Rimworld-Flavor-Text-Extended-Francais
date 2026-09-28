@@ -58,7 +58,7 @@
 	<FlavorTextFR_PouleAuPot.label>poule au pot</FlavorTextFR_PouleAuPot.label>
 	<FlavorTextFR_PouleAuPot.description>{0_coll} pochée entière avec {1_coll} et {2_coll}. Henri IV en promettait une par semaine à chaque famille ; l'histoire ne dit pas s'il a tenu.</FlavorTextFR_PouleAuPot.description>
 	<FlavorTextFR_Blanquette.label>blanquette {0_adj}</FlavorTextFR_Blanquette.label>
-	<FlavorTextFR_Blanquette.description>{0_coll} cuite sans coloration — c'est toute la difficulté —, la sauce montée {1_plur} et acidulée au dernier moment.</FlavorTextFR_Blanquette.description>
+	<FlavorTextFR_Blanquette.description>{0_coll} cuite sans coloration (c'est toute la difficulté), la sauce montée {1_plur} et acidulée au dernier moment.</FlavorTextFR_Blanquette.description>
 	<FlavorTextFR_SoupeALOignonGratinee.label>soupe à l'oignon gratinée</FlavorTextFR_SoupeALOignonGratinee.label>
 	<FlavorTextFR_SoupeALOignonGratinee.description>{0_coll} roussis très lentement jusqu'au brun profond, mouillés, puis couverts de pain et {1_adj} et passés sous le gril.</FlavorTextFR_SoupeALOignonGratinee.description>
 	<FlavorTextFR_CroqueMonsieur.label>croque-monsieur</FlavorTextFR_CroqueMonsieur.label>

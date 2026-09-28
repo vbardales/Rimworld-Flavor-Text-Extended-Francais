@@ -14,7 +14,7 @@
 	<FlavorTextFR_EntrecoteBordelaise.label>entrecôte bordelaise</FlavorTextFR_EntrecoteBordelaise.label>
 	<FlavorTextFR_EntrecoteBordelaise.description>{0_coll} grillée sur sarments, nappée d'une réduction {1_adj} rouge et d'échalote, avec des rondelles de moelle pochées posées dessus au dernier moment.</FlavorTextFR_EntrecoteBordelaise.description>
 	<FlavorTextFR_BavetteEchalote.label>bavette à l'échalote</FlavorTextFR_BavetteEchalote.label>
-	<FlavorTextFR_BavetteEchalote.description>{0_coll} saisie très vite et servie saignante — cuite davantage, elle devient inmangeable —, couverte {1_adj} fondues {2_plur} et au vinaigre.</FlavorTextFR_BavetteEchalote.description>
+	<FlavorTextFR_BavetteEchalote.description>{0_coll} saisie très vite et servie saignante (cuite davantage, elle devient inmangeable), couverte {1_adj} fondues {2_plur} et au vinaigre.</FlavorTextFR_BavetteEchalote.description>
 	<FlavorTextFR_TournedosRossini.label>tournedos Rossini</FlavorTextFR_TournedosRossini.label>
 	<FlavorTextFR_TournedosRossini.description>un médaillon {0_adj} sur croûton, coiffé d'une escalope {1_adj} poêlée et de lamelles {2_adj}, le tout arrosé d'une sauce au madère. Attribué au compositeur, qui l'aurait exigé de son cuisinier.</FlavorTextFR_TournedosRossini.description>
 	<FlavorTextFR_BoeufMode.label>bœuf mode</FlavorTextFR_BoeufMode.label>
@@ -22,7 +22,7 @@
 	<FlavorTextFR_BoeufMiroton.label>bœuf miroton</FlavorTextFR_BoeufMiroton.label>
 	<FlavorTextFR_BoeufMiroton.description>les restes {0_adj} du pot-au-feu, tranchés et réchauffés dans une sauce {1_adj} au vinaigre et à la moutarde. Un plat né de l'économie, resté par goût.</FlavorTextFR_BoeufMiroton.description>
 	<FlavorTextFR_LangueSaucePiquante.label>langue sauce piquante</FlavorTextFR_LangueSaucePiquante.label>
-	<FlavorTextFR_LangueSaucePiquante.description>{0_coll} pochée des heures puis pelée à chaud — froide, la peau ne vient plus —, servie sous une sauce {1_adj} au vinaigre et aux cornichons.</FlavorTextFR_LangueSaucePiquante.description>
+	<FlavorTextFR_LangueSaucePiquante.description>{0_coll} pochée des heures puis pelée à chaud (froide, la peau ne vient plus), servie sous une sauce {1_adj} au vinaigre et aux cornichons.</FlavorTextFR_LangueSaucePiquante.description>
 	<FlavorTextFR_TeteDeVeauGribiche.label>tête de veau sauce gribiche</FlavorTextFR_TeteDeVeauGribiche.label>
 	<FlavorTextFR_TeteDeVeauGribiche.description>{0_coll} roulée et pochée au blanc, servie tiède avec une sauce montée sur des jaunes {1_adj} durs, relevée de câpres et d'herbes. Se mange ou ne se mange pas ; il n'y a pas d'entre-deux.</FlavorTextFR_TeteDeVeauGribiche.description>
 	<FlavorTextFR_TripesModeDeCaen.label>tripes à la mode de Caen</FlavorTextFR_TripesModeDeCaen.label>
@@ -32,7 +32,7 @@
 	<FlavorTextFR_PiedsEtPaquets.label>pieds et paquets</FlavorTextFR_PiedsEtPaquets.label>
 	<FlavorTextFR_PiedsEtPaquets.description>des carrés {0_adj} farcis {2_plur}, d'ail et de persil, cousus un à un, et mijotés {1_plur} avec des pieds d'agneau. Marseille et Sisteron s'en disputent l'origine.</FlavorTextFR_PiedsEtPaquets.description>
 	<FlavorTextFR_RognonsMoutarde.label>rognons à la moutarde</FlavorTextFR_RognonsMoutarde.label>
-	<FlavorTextFR_RognonsMoutarde.description>{0_coll} dégraissée, tranchée et saisie à feu vif quelques secondes seulement, la sauce liée {1_plur} et {2_plur} hors du feu — la moutarde bouillie tourne amère.</FlavorTextFR_RognonsMoutarde.description>
+	<FlavorTextFR_RognonsMoutarde.description>{0_coll} dégraissée, tranchée et saisie à feu vif quelques secondes seulement, la sauce liée {1_plur} et {2_plur} hors du feu : la moutarde bouillie tourne amère.</FlavorTextFR_RognonsMoutarde.description>
 	<FlavorTextFR_FoieDeVeauPersille.label>foie de veau persillé</FlavorTextFR_FoieDeVeauPersille.label>
 	<FlavorTextFR_FoieDeVeauPersille.description>une tranche {0_adj} poêlée {2_plur} noisette, une minute par face, puis jetée {1_plur} et au persil hachés menu.</FlavorTextFR_FoieDeVeauPersille.description>
 	<FlavorTextFR_RisDeVeauAuxMorilles.label>ris de veau aux morilles</FlavorTextFR_RisDeVeauAuxMorilles.label>
@@ -64,7 +64,7 @@
 	<FlavorTextFR_CanardAuxOlives.label>canard aux olives</FlavorTextFR_CanardAuxOlives.label>
 	<FlavorTextFR_CanardAuxOlives.description>{0_coll} braisée dans un fond {2_adj}, avec {1_coll} blanchies pour ôter leur sel avant d'être ajoutées.</FlavorTextFR_CanardAuxOlives.description>
 	<FlavorTextFR_NavarinDAgneau.label>navarin {0_adj}</FlavorTextFR_NavarinDAgneau.label>
-	<FlavorTextFR_NavarinDAgneau.description>{0_coll} saisie puis singée d'un peu de farine, braisée avec {1_coll} et {2_coll} taillés en gousses. Le nom viendrait du navet, ou de la bataille — les deux versions circulent.</FlavorTextFR_NavarinDAgneau.description>
+	<FlavorTextFR_NavarinDAgneau.description>{0_coll} saisie puis singée d'un peu de farine, braisée avec {1_coll} et {2_coll} taillés en gousses. Le nom viendrait du navet, ou de la bataille : les deux versions circulent.</FlavorTextFR_NavarinDAgneau.description>
 	<FlavorTextFR_GigotDAgneau.label>gigot {0_adj}</FlavorTextFR_GigotDAgneau.label>
 	<FlavorTextFR_GigotDAgneau.description>une cuisse entière piquée {1_plur} et rôtie, arrosée {2_plur} toutes les dix minutes. Se découpe parallèlement à l'os, en tranches fines.</FlavorTextFR_GigotDAgneau.description>
 	<FlavorTextFR_AgneauDeSeptHeures.label>agneau de sept heures</FlavorTextFR_AgneauDeSeptHeures.label>

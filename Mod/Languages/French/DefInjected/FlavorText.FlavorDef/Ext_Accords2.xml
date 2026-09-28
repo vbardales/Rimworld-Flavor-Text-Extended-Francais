@@ -12,7 +12,7 @@
 	<FlavorTextFR_PaellaMixta.label>paella mixta</FlavorTextFR_PaellaMixta.label>
 	<FlavorTextFR_PaellaMixta.description>{2_coll} safrané cuit à découvert dans une poêle large et plate, avec {0_coll} saisie d'abord et {1_coll} posés à la fin pour qu'ils ne durcissent pas. On ne remue jamais : c'est ce qui laisse le socarrat se former au fond.</FlavorTextFR_PaellaMixta.description>
 	<FlavorTextFR_GumboPouletCrevettes.label>gumbo poulet-crevettes</FlavorTextFR_GumboPouletCrevettes.label>
-	<FlavorTextFR_GumboPouletCrevettes.description>un roux mené au brun foncé — quarante minutes à remuer sans s'arrêter, sous peine de tout jeter — puis {0_coll}, {2_coll} et enfin {1_coll}, qui ne demandent que trois minutes.</FlavorTextFR_GumboPouletCrevettes.description>
+	<FlavorTextFR_GumboPouletCrevettes.description>un roux mené au brun foncé (quarante minutes à remuer sans s'arrêter, sous peine de tout jeter) puis {0_coll}, {2_coll} et enfin {1_coll}, qui ne demandent que trois minutes.</FlavorTextFR_GumboPouletCrevettes.description>
 	<FlavorTextFR_RizCantonaisMixte.label>riz cantonais poulet-crevettes</FlavorTextFR_RizCantonaisMixte.label>
 	<FlavorTextFR_RizCantonaisMixte.description>du riz de la veille sauté au wok brûlant avec {0_coll} en dés, {1_coll} décortiqués et {2_coll} brouillés à part. Le riz frais colle et rate le plat : il faut qu'il ait passé une nuit au froid.</FlavorTextFR_RizCantonaisMixte.description>
 	<FlavorTextFR_PadThaiMixte.label>pad thaï poulet-crevettes</FlavorTextFR_PadThaiMixte.label>
@@ -40,7 +40,7 @@
 	<FlavorTextFR_PolentaAuBeurre.label>polenta au beurre</FlavorTextFR_PolentaAuBeurre.label>
 	<FlavorTextFR_PolentaAuBeurre.description>une semoule {0_adj} versée en pluie dans {2_coll} frémissant et tournée quarante minutes, puis montée {1_plur} froid hors du feu. C'est le dernier beurre, ajouté au dernier moment, qui la rend brillante.</FlavorTextFR_PolentaAuBeurre.description>
 	<FlavorTextFR_PopcornAuBeurre.label>popcorn au beurre</FlavorTextFR_PopcornAuBeurre.label>
-	<FlavorTextFR_PopcornAuBeurre.description>des grains {0_adj} éclatés à couvert, arrosés d'un {1_coll} clarifié — l'eau du beurre entier détremperait tout — et secoués {2_plur} dans un grand saladier.</FlavorTextFR_PopcornAuBeurre.description>
+	<FlavorTextFR_PopcornAuBeurre.description>des grains {0_adj} éclatés à couvert, arrosés d'un {1_coll} clarifié (l'eau du beurre entier détremperait tout) et secoués {2_plur} dans un grand saladier.</FlavorTextFR_PopcornAuBeurre.description>
 	<FlavorTextFR_TruiteBardeeDeLard.label>truite bardée de lard</FlavorTextFR_TruiteBardeeDeLard.label>
 	<FlavorTextFR_TruiteBardeeDeLard.description>{0_coll} entière, vidée et remplie de thym, enroulée de tranches {1_adj} qui la tiennent et l'arrosent en fondant, puis grillée. Le lard remplace la matière grasse que le poisson n'a pas.</FlavorTextFR_TruiteBardeeDeLard.description>
 	<FlavorTextFR_CabillaudAuChorizo.label>cabillaud au chorizo</FlavorTextFR_CabillaudAuChorizo.label>

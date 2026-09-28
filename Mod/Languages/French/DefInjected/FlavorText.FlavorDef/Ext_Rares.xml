@@ -54,7 +54,7 @@
 	<FlavorTextFR_SoupeChataignesPotiron.label>soupe châtaignes-potiron</FlavorTextFR_SoupeChataignesPotiron.label>
 	<FlavorTextFR_SoupeChataignesPotiron.description>{0_coll} et {1_coll} rôtis séparément avant d'être mixés ensemble, liés {2_plur}. Deux douceurs qui se ressemblent trop : il faut beaucoup de poivre pour les séparer.</FlavorTextFR_SoupeChataignesPotiron.description>
 	<FlavorTextFR_Castagnaccio.label>castagnaccio</FlavorTextFR_Castagnaccio.label>
-	<FlavorTextFR_Castagnaccio.description>une farine {0_adj} délayée à l'eau — ni œuf, ni sucre, ni levure — étalée très mince, arrosée d'une huile {1_adj} et semée {2_adj} secs et de romarin. Elle craquelle en cuisant, et c'est voulu.</FlavorTextFR_Castagnaccio.description>
+	<FlavorTextFR_Castagnaccio.description>une farine {0_adj} délayée à l'eau (ni œuf, ni sucre, ni levure) étalée très mince, arrosée d'une huile {1_adj} et semée {2_adj} secs et de romarin. Elle craquelle en cuisant, et c'est voulu.</FlavorTextFR_Castagnaccio.description>
 	<FlavorTextFR_MontBlanc.label>mont-blanc</FlavorTextFR_MontBlanc.label>
 	<FlavorTextFR_MontBlanc.description>une crème {0_adj} et {1_adj} poussée au travers d'une passoire en vermicelles, entassée sur une meringue et coiffée {2_adj} fouettée. Le désordre est la forme correcte.</FlavorTextFR_MontBlanc.description>
 	<FlavorTextFR_KuriGohan.label>kuri gohan</FlavorTextFR_KuriGohan.label>
@@ -72,7 +72,7 @@
 	<FlavorTextFR_SaladeCesar.label>salade César</FlavorTextFR_SaladeCesar.label>
 	<FlavorTextFR_SaladeCesar.description>des cœurs {0_adj} romaine gardés entiers, enrobés d'une sauce montée {2_plur} cru, {1_plur} vieux et anchois. Inventée à Tijuana un jour où il ne restait presque rien en cuisine.</FlavorTextFR_SaladeCesar.description>
 	<FlavorTextFR_LaitueBraiseePetitsPois.label>laitue braisée aux petits pois</FlavorTextFR_LaitueBraiseePetitsPois.label>
-	<FlavorTextFR_LaitueBraiseePetitsPois.description>{0_coll} coupée en quartiers et étouffée {2_plur} avec {1_coll} et de petits oignons, sans une goutte d'eau — la salade en rend bien assez toute seule.</FlavorTextFR_LaitueBraiseePetitsPois.description>
+	<FlavorTextFR_LaitueBraiseePetitsPois.description>{0_coll} coupée en quartiers et étouffée {2_plur} avec {1_coll} et de petits oignons, sans une goutte d'eau : la salade en rend bien assez toute seule.</FlavorTextFR_LaitueBraiseePetitsPois.description>
 	<FlavorTextFR_Ssambap.label>ssambap</FlavorTextFR_Ssambap.label>
 	<FlavorTextFR_Ssambap.description>une feuille {0_adj} tenue à plat dans la paume, une cuillère {1_adj}, un morceau {2_adj} grillée et une pointe de pâte fermentée, refermée en une bouchée qui doit tenir en un seul coup.</FlavorTextFR_Ssambap.description>
 	<FlavorTextFR_LaitueSauteeALAil.label>laitue sautée à l'ail</FlavorTextFR_LaitueSauteeALAil.label>
@@ -92,7 +92,7 @@
 	<FlavorTextFR_LotusRizGluant.label>racine de lotus au riz gluant</FlavorTextFR_LotusRizGluant.label>
 	<FlavorTextFR_LotusRizGluant.description>les trous {0_adj} bourrés un à un {1_plur} gluant à la baguette, le tronçon rebouché puis cuit des heures dans un sirop {2_adj} à l'osmanthus. Se tranche froid, en rondelles marbrées.</FlavorTextFR_LotusRizGluant.description>
 	<FlavorTextFR_SoupeSucreeGrainesLotus.label>soupe sucrée aux graines de lotus</FlavorTextFR_SoupeSucreeGrainesLotus.label>
-	<FlavorTextFR_SoupeSucreeGrainesLotus.description>{0_coll} dont on a retiré le germe vert — amer comme une écorce — pochées en sirop {1_adj} avec {2_coll} rouges. Se sert tiède, entre les plats plutôt qu'après.</FlavorTextFR_SoupeSucreeGrainesLotus.description>
+	<FlavorTextFR_SoupeSucreeGrainesLotus.description>{0_coll} dont on a retiré le germe vert (amer comme une écorce) pochées en sirop {1_adj} avec {2_coll} rouges. Se sert tiède, entre les plats plutôt qu'après.</FlavorTextFR_SoupeSucreeGrainesLotus.description>
 	<FlavorTextFR_CongeeGrainesLotus.label>congee aux graines de lotus</FlavorTextFR_CongeeGrainesLotus.label>
 	<FlavorTextFR_CongeeGrainesLotus.description>{1_coll} crevé dans dix fois son volume d'eau avec {0_coll} et quelques lamelles {2_adj}, remué de temps à autre pendant deux heures jusqu'à ne plus distinguer les grains.</FlavorTextFR_CongeeGrainesLotus.description>
 	<FlavorTextFR_LoMaiGai.label>lo mai gai</FlavorTextFR_LoMaiGai.label>

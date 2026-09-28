@@ -24,7 +24,7 @@
 	<FlavorTextFR_ChawarmaMixte.label>chawarma mixte</FlavorTextFR_ChawarmaMixte.label>
 	<FlavorTextFR_ChawarmaMixte.description>deux broches verticales côte à côte, l'une {0_adj}, l'autre {1_adj}, dont on racle les copeaux au fur et à mesure pour les rouler ensemble dans un pain {2_adj}. Le client qui hésite prend les deux.</FlavorTextFR_ChawarmaMixte.description>
 	<FlavorTextFR_Puchero.label>puchero</FlavorTextFR_Puchero.label>
-	<FlavorTextFR_Puchero.description>un pot où {0_coll} et {1_coll} cuisent ensemble des heures avec {2_coll} trempés. On sert le bouillon en premier, les pois et les légumes ensuite, les viandes en dernier — c'est un repas en trois services tiré d'une seule marmite.</FlavorTextFR_Puchero.description>
+	<FlavorTextFR_Puchero.description>un pot où {0_coll} et {1_coll} cuisent ensemble des heures avec {2_coll} trempés. On sert le bouillon en premier, les pois et les légumes ensuite, les viandes en dernier. C'est un repas en trois services tiré d'une seule marmite.</FlavorTextFR_Puchero.description>
 	<FlavorTextFR_DoubleConsomme.label>double consommé</FlavorTextFR_DoubleConsomme.label>
 	<FlavorTextFR_DoubleConsomme.description>un fond {0_adj} déjà clarifié, remis à cuire sur {1_coll} et {2_coll} pour en extraire une seconde fois. Il faut deux marmites de départ pour un bol d'arrivée, et le résultat est limpide comme du thé.</FlavorTextFR_DoubleConsomme.description>
 	<FlavorTextFR_BiryaniMixte.label>biryani mixte</FlavorTextFR_BiryaniMixte.label>
@@ -32,7 +32,7 @@
 	<FlavorTextFR_PainDeViandeMixte.label>pain de viande mixte</FlavorTextFR_PainDeViandeMixte.label>
 	<FlavorTextFR_PainDeViandeMixte.description>{0_coll} pour le goût, {1_coll} pour la tenue, {2_coll} pour lier le tout, façonnés en pain et cuits au four. Le mélange des deux viandes n'est pas une économie : la volaille seule s'assèche, le bœuf seul s'affaisse.</FlavorTextFR_PainDeViandeMixte.description>
 	<FlavorTextFR_GheeRice.label>ghee rice</FlavorTextFR_GheeRice.label>
-	<FlavorTextFR_GheeRice.description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières — cannelle, clou de girofle, cardamome, laurier — puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</FlavorTextFR_GheeRice.description>
+	<FlavorTextFR_GheeRice.description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières (cannelle, clou de girofle, cardamome, laurier) puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</FlavorTextFR_GheeRice.description>
 	<FlavorTextFR_Tahdig.label>tahdig</FlavorTextFR_Tahdig.label>
 	<FlavorTextFR_Tahdig.description>le fond de la marmite : {0_coll} mêlé {2_plur} et au safran, tassé dans {1_coll} fondu et laissé prendre à feu doux jusqu'à former une croûte dorée qu'on retourne d'un bloc sur le plat. C'est la part qu'on se dispute.</FlavorTextFR_Tahdig.description>
 	<FlavorTextFR_RizBeurreSoja.label>riz au beurre et au soja</FlavorTextFR_RizBeurreSoja.label>
@@ -42,7 +42,7 @@
 	<FlavorTextFR_TomKha.label>tom kha</FlavorTextFR_TomKha.label>
 	<FlavorTextFR_TomKha.description>un lait {0_adj} infusé de galanga, de citronnelle et de feuilles de combava, dans lequel pochent {1_coll} et {2_coll}. Le galanga n'est pas du gingembre et ne se remplace pas : c'est lui qui fait le plat.</FlavorTextFR_TomKha.description>
 	<FlavorTextFR_Moilee.label>moilee</FlavorTextFR_Moilee.label>
-	<FlavorTextFR_Moilee.description>un curry blanc du Kerala : {1_coll} pochée dans un lait {0_adj} au curcuma, avec {2_coll} ajoutées en fin de course pour qu'elles gardent leur tenue. Doux, presque pâle — le piment y est vert et discret.</FlavorTextFR_Moilee.description>
+	<FlavorTextFR_Moilee.description>un curry blanc du Kerala : {1_coll} pochée dans un lait {0_adj} au curcuma, avec {2_coll} ajoutées en fin de course pour qu'elles gardent leur tenue. Doux, presque pâle : le piment y est vert et discret.</FlavorTextFR_Moilee.description>
 	<FlavorTextFR_BoeufLaitDeCoco.label>bœuf au lait de coco</FlavorTextFR_BoeufLaitDeCoco.label>
 	<FlavorTextFR_BoeufLaitDeCoco.description>{1_coll} braisée très lentement dans un lait {0_adj} et une pâte {2_adj}, jusqu'à ce que le lait se casse et que l'huile remonte. À partir de là, la viande frit dans sa propre sauce.</FlavorTextFR_BoeufLaitDeCoco.description>
 	<FlavorTextFR_Haupia.label>haupia</FlavorTextFR_Haupia.label>

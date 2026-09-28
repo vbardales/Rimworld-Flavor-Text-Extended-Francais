@@ -42,7 +42,7 @@
 	<FlavorTextFR_PouletMelasseGrenade.label>poulet à la mélasse de grenade</FlavorTextFR_PouletMelasseGrenade.label>
 	<FlavorTextFR_PouletMelasseGrenade.description>{1_coll} laquée d'un mélange de mélasse {0_adj} et {2_adj}, rôtie jusqu'à ce que la peau devienne acajou. Le glaçage est passé trois fois pendant la cuisson.</FlavorTextFR_PouletMelasseGrenade.description>
 	<FlavorTextFR_TajineAgneauGrenade.label>tajine d'agneau à la grenade</FlavorTextFR_TajineAgneauGrenade.label>
-	<FlavorTextFR_TajineAgneauGrenade.description>{1_coll} mijotée au safran et à la cannelle, la sauce acidulée au jus {0_adj} et les graines fraîches semées au moment de servir seulement — cuites, elles perdent tout.</FlavorTextFR_TajineAgneauGrenade.description>
+	<FlavorTextFR_TajineAgneauGrenade.description>{1_coll} mijotée au safran et à la cannelle, la sauce acidulée au jus {0_adj} et les graines fraîches semées au moment de servir seulement : cuites, elles perdent tout.</FlavorTextFR_TajineAgneauGrenade.description>
 	<FlavorTextFR_AnardanaChutney.label>anardana chutney</FlavorTextFR_AnardanaChutney.label>
 	<FlavorTextFR_AnardanaChutney.description>des graines {0_adj} sauvage séchées et moulues, broyées {1_plur} verts et à la coriandre. L'anardana remplace le tamarin dans tout le nord de l'Inde.</FlavorTextFR_AnardanaChutney.description>
 	<FlavorTextFR_AnardanaChicken.label>anardana chicken</FlavorTextFR_AnardanaChicken.label>

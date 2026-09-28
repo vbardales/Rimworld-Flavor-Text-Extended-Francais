@@ -16,7 +16,7 @@
 	<FlavorTextFR_GratinChouxBruxelles.label>gratin de choux de Bruxelles</FlavorTextFR_GratinChouxBruxelles.label>
 	<FlavorTextFR_GratinChouxBruxelles.description>{0_coll} précuits et bien égouttés sous une béchamel {1_adj} muscadée, gratinés {2_plur}. Mal égouttés, ils rendent leur eau et délavent la sauce.</FlavorTextFR_GratinChouxBruxelles.description>
 	<FlavorTextFR_ChouxBruxellesMoutarde.label>choux de Bruxelles à la moutarde</FlavorTextFR_ChouxBruxellesMoutarde.label>
-	<FlavorTextFR_ChouxBruxellesMoutarde.description>{0_coll} poêlés puis enrobés d'une sauce {2_adj} montée {1_plur} hors du feu — bouillie, la moutarde perd son piquant et tourne amère.</FlavorTextFR_ChouxBruxellesMoutarde.description>
+	<FlavorTextFR_ChouxBruxellesMoutarde.description>{0_coll} poêlés puis enrobés d'une sauce {2_adj} montée {1_plur} hors du feu : bouillie, la moutarde perd son piquant et tourne amère.</FlavorTextFR_ChouxBruxellesMoutarde.description>
 	<FlavorTextFR_RisottoChouxBruxelles.label>risotto aux choux de Bruxelles</FlavorTextFR_RisottoChouxBruxelles.label>
 	<FlavorTextFR_RisottoChouxBruxelles.description>les feuilles extérieures {0_adj} détachées et frites à part pour le croquant, les cœurs émincés fondus dans {1_coll}, et {2_coll} pour lier.</FlavorTextFR_RisottoChouxBruxelles.description>
 	<FlavorTextFR_PastaChouxBruxellesPancetta.label>pasta aux choux de Bruxelles et pancetta</FlavorTextFR_PastaChouxBruxellesPancetta.label>
@@ -26,7 +26,7 @@
 	<FlavorTextFR_ChouxBruxellesSlaw.label>slaw de choux de Bruxelles</FlavorTextFR_ChouxBruxellesSlaw.label>
 	<FlavorTextFR_ChouxBruxellesSlaw.description>{0_coll} tranchés au rasoir, {1_coll} en allumettes et {2_coll} grillées, liés d'une vinaigrette acide. Se fait une heure d'avance pour que les copeaux s'attendrissent.</FlavorTextFR_ChouxBruxellesSlaw.description>
 	<FlavorTextFR_ChouxBruxellesErableLard.label>choux de Bruxelles à l'érable et au lard</FlavorTextFR_ChouxBruxellesErableLard.label>
-	<FlavorTextFR_ChouxBruxellesErableLard.description>{0_coll} rôtis à four très chaud avec {1_coll}, laqués {2_plur} dans les dernières minutes seulement — versé plus tôt, il brûle avant que les choux soient cuits.</FlavorTextFR_ChouxBruxellesErableLard.description>
+	<FlavorTextFR_ChouxBruxellesErableLard.description>{0_coll} rôtis à four très chaud avec {1_coll}, laqués {2_plur} dans les dernières minutes seulement : versé plus tôt, il brûle avant que les choux soient cuits.</FlavorTextFR_ChouxBruxellesErableLard.description>
 	<FlavorTextFR_ChouxBruxellesCroustillants.label>choux de Bruxelles croustillants</FlavorTextFR_ChouxBruxellesCroustillants.label>
 	<FlavorTextFR_ChouxBruxellesCroustillants.description>{0_coll} jetés entiers dans l'huile brûlante : les feuilles extérieures explosent en pétales noircis pendant que le cœur reste tendre. Un trait {2_adj} à la sortie, et rien d'autre.</FlavorTextFR_ChouxBruxellesCroustillants.description>
 	<FlavorTextFR_ChouxBruxellesBuffalo.label>choux de Bruxelles buffalo</FlavorTextFR_ChouxBruxellesBuffalo.label>

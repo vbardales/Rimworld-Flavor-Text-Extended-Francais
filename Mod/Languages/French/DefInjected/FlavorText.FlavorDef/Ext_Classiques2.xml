@@ -12,7 +12,7 @@
 	<FlavorTextFR_ParmentierDeCanard.label>parmentier {0_adj}</FlavorTextFR_ParmentierDeCanard.label>
 	<FlavorTextFR_ParmentierDeCanard.description>{0_coll} confite effilochée sous une purée {1_adj} montée {2_plur}, gratinée jusqu'à ce que la croûte craque sous la cuillère.</FlavorTextFR_ParmentierDeCanard.description>
 	<FlavorTextFR_SteakFrites.label>steak-frites</FlavorTextFR_SteakFrites.label>
-	<FlavorTextFR_SteakFrites.description>{0_coll} saisie une minute par face, avec {1_coll} taillées en bâtonnets et frites deux fois {2_plur} — une première à basse température pour les cuire, une seconde très chaude pour les dorer.</FlavorTextFR_SteakFrites.description>
+	<FlavorTextFR_SteakFrites.description>{0_coll} saisie une minute par face, avec {1_coll} taillées en bâtonnets et frites deux fois {2_plur} : une première à basse température pour les cuire, une seconde très chaude pour les dorer.</FlavorTextFR_SteakFrites.description>
 	<FlavorTextFR_BoeufCarottes.label>bœuf carottes</FlavorTextFR_BoeufCarottes.label>
 	<FlavorTextFR_BoeufCarottes.description>du jarret {0_adj} et son os mijotés trois heures avec {1_coll} en rondelles épaisses, sans rien d'autre. La moelle fond et lie le jus toute seule.</FlavorTextFR_BoeufCarottes.description>
 	<FlavorTextFR_SaucissePuree.label>saucisse-purée</FlavorTextFR_SaucissePuree.label>
@@ -52,11 +52,11 @@
 	<FlavorTextFR_CourgettesFarcies.label>courgettes farcies</FlavorTextFR_CourgettesFarcies.label>
 	<FlavorTextFR_CourgettesFarcies.description>{0_coll} fendues et creusées, la chair retirée hachée avec {1_coll} et remise dedans, le tout gratiné {2_plur}.</FlavorTextFR_CourgettesFarcies.description>
 	<FlavorTextFR_PoivronsFarcis.label>poivrons farcis</FlavorTextFR_PoivronsFarcis.label>
-	<FlavorTextFR_PoivronsFarcis.description>{0_coll} décapités et vidés de leurs graines, remplis {1_plur} et {2_plur} à moitié cuit — il gonflera au four et tendra la peau.</FlavorTextFR_PoivronsFarcis.description>
+	<FlavorTextFR_PoivronsFarcis.description>{0_coll} décapités et vidés de leurs graines, remplis {1_plur} et {2_plur} à moitié cuit : il gonflera au four et tendra la peau.</FlavorTextFR_PoivronsFarcis.description>
 	<FlavorTextFR_ChouFarci.label>chou farci</FlavorTextFR_ChouFarci.label>
 	<FlavorTextFR_ChouFarci.description>un chou entier blanchi, ouvert feuille à feuille, garni {1_plur} entre chaque étage puis refermé dans un linge et poché des heures. On le tranche en parts, comme un gâteau.</FlavorTextFR_ChouFarci.description>
 	<FlavorTextFR_PetitsFarcisNicois.label>petits farcis niçois</FlavorTextFR_PetitsFarcisNicois.label>
-	<FlavorTextFR_PetitsFarcisNicois.description>un assortiment de petits légumes — {0_coll}, {1_coll} et leurs fleurs — évidés et farcis, serrés dans un plat et cuits ensemble à l'huile d'olive. Se mangent tièdes.</FlavorTextFR_PetitsFarcisNicois.description>
+	<FlavorTextFR_PetitsFarcisNicois.description>un assortiment de petits légumes ({0_coll}, {1_coll} et leurs fleurs) évidés et farcis, serrés dans un plat et cuits ensemble à l'huile d'olive. Se mangent tièdes.</FlavorTextFR_PetitsFarcisNicois.description>
 	<FlavorTextFR_GratinDeChouFleur.label>gratin de chou-fleur</FlavorTextFR_GratinDeChouFleur.label>
 	<FlavorTextFR_GratinDeChouFleur.description>{0_coll} blanchis à l'eau salée, égouttés longuement, puis nappés d'une béchamel {1_adj} et gratinés {2_plur}. Mal égoutté, le gratin rend son eau et se défait.</FlavorTextFR_GratinDeChouFleur.description>
 	<FlavorTextFR_GratinDePoireaux.label>gratin de poireaux</FlavorTextFR_GratinDePoireaux.label>
@@ -78,7 +78,7 @@
 	<FlavorTextFR_PateEnCroute.label>pâté en croûte</FlavorTextFR_PateEnCroute.label>
 	<FlavorTextFR_PateEnCroute.description>une farce {0_adj} et {2_adj} montée en terrine de pâte, cuite avec une cheminée, puis coulée à la gelée par ce trou une fois refroidie. Se tranche net, froid, jamais tiède.</FlavorTextFR_PateEnCroute.description>
 	<FlavorTextFR_VolAuVent.label>vol-au-vent</FlavorTextFR_VolAuVent.label>
-	<FlavorTextFR_VolAuVent.description>une croûte feuilletée si légère qu'elle s'envolerait — d'où le nom —, remplie {1_adj} et {2_adj} en sauce blanche, et recoiffée de son chapeau.</FlavorTextFR_VolAuVent.description>
+	<FlavorTextFR_VolAuVent.description>une croûte feuilletée si légère qu'elle s'envolerait (d'où le nom), remplie {1_adj} et {2_adj} en sauce blanche, et recoiffée de son chapeau.</FlavorTextFR_VolAuVent.description>
 	<FlavorTextFR_SouffleAuFromage.label>soufflé au fromage</FlavorTextFR_SouffleAuFromage.label>
 	<FlavorTextFR_SouffleAuFromage.description>une béchamel {2_adj} enrichie {0_plur} et de jaunes, allégée de blancs montés incorporés à la spatule. On n'ouvre pas le four, et on ne fait pas attendre les convives : c'est le soufflé qui commande.</FlavorTextFR_SouffleAuFromage.description>
 	<FlavorTextFR_GaletteComplete.label>galette complète</FlavorTextFR_GaletteComplete.label>

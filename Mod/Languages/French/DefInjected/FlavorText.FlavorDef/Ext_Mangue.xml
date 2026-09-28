@@ -10,7 +10,7 @@
 <LanguageData>
 
 	<FlavorTextFR_Aamras.label>aamras</FlavorTextFR_Aamras.label>
-	<FlavorTextFR_Aamras.description>la pulpe {0_adj} pressée à la main plutôt que mixée — le fouet oxyde et ternit la couleur —, à peine {1_plur} et parfumée au cardamome et au safran.</FlavorTextFR_Aamras.description>
+	<FlavorTextFR_Aamras.description>la pulpe {0_adj} pressée à la main plutôt que mixée (le fouet oxyde et ternit la couleur), à peine {1_plur} et parfumée au cardamome et au safran.</FlavorTextFR_Aamras.description>
 	<FlavorTextFR_AamrasPuri.label>aamras puri</FlavorTextFR_AamrasPuri.label>
 	<FlavorTextFR_AamrasPuri.description>la purée {0_adj} servie avec des puri gonflés brûlants, qu'on déchire pour y tremper. Sucré et salé dans la même bouchée : un repas entier au Gujarat pendant la saison.</FlavorTextFR_AamrasPuri.description>
 	<FlavorTextFR_MangoLassi.label>mango lassi</FlavorTextFR_MangoLassi.label>
@@ -20,7 +20,7 @@
 	<FlavorTextFR_MangoKulfi.label>mango kulfi</FlavorTextFR_MangoKulfi.label>
 	<FlavorTextFR_MangoKulfi.description>{1_coll} réduit de moitié puis chargé de pulpe {0_adj} et {2_adj}, gelé dans des cônes de métal sans être battu. Il fond lentement, ce qui laisse le temps d'en profiter.</FlavorTextFR_MangoKulfi.description>
 	<FlavorTextFR_MangoPhirni.label>mango phirni</FlavorTextFR_MangoPhirni.label>
-	<FlavorTextFR_MangoPhirni.description>{1_coll} broyé grossièrement avant cuisson — c'est ce qui distingue le phirni du kheer — cuit {2_plur} jusqu'à épaissir, puis refroidi en coupelles de terre avec la purée {0_adj}.</FlavorTextFR_MangoPhirni.description>
+	<FlavorTextFR_MangoPhirni.description>{1_coll} broyé grossièrement avant cuisson (c'est ce qui distingue le phirni du kheer) cuit {2_plur} jusqu'à épaissir, puis refroidi en coupelles de terre avec la purée {0_adj}.</FlavorTextFR_MangoPhirni.description>
 	<FlavorTextFR_MangoStickyRice.label>mango sticky rice</FlavorTextFR_MangoStickyRice.label>
 	<FlavorTextFR_MangoStickyRice.description>{1_coll} gluant trempé une nuit, cuit à la vapeur puis noyé de lait {2_adj} salé et sucré, avec {0_coll} tranchée à côté. La crème salée versée par-dessus au dernier moment est ce que les imitations oublient.</FlavorTextFR_MangoStickyRice.description>
 	<FlavorTextFR_CheXoai.label>chè xoài</FlavorTextFR_CheXoai.label>
@@ -32,13 +32,13 @@
 	<FlavorTextFR_MangoFloat.label>mango float</FlavorTextFR_MangoFloat.label>
 	<FlavorTextFR_MangoFloat.description>des couches alternées de biscuits graham, {1_adj} fouettée au lait concentré et {0_adj} en lamelles, prises une nuit au froid. Les biscuits ramollissent et deviennent gâteau.</FlavorTextFR_MangoFloat.description>
 	<FlavorTextFR_MangoBingsu.label>mango bingsu</FlavorTextFR_MangoBingsu.label>
-	<FlavorTextFR_MangoBingsu.description>une montagne de {1_coll} congelé et rasé en flocons — pas de glace pilée, du lait gelé — couverte {0_plur} et d'une cuillerée de pâte {2_adj} sucrés.</FlavorTextFR_MangoBingsu.description>
+	<FlavorTextFR_MangoBingsu.description>une montagne de {1_coll} congelé et rasé en flocons (pas de glace pilée, du lait gelé) couverte {0_plur} et d'une cuillerée de pâte {2_adj} sucrés.</FlavorTextFR_MangoBingsu.description>
 	<FlavorTextFR_MangoCheesecake.label>cheesecake à la mangue</FlavorTextFR_MangoCheesecake.label>
 	<FlavorTextFR_MangoCheesecake.description>un appareil {1_adj} et {2_adj} sous un miroir {0_adj}. Le fruit doit être très mûr : une mangue ferme rend de l'eau et fait couler le miroir.</FlavorTextFR_MangoCheesecake.description>
 	<FlavorTextFR_MangoPavlova.label>pavlova à la mangue</FlavorTextFR_MangoPavlova.label>
 	<FlavorTextFR_MangoPavlova.description>une meringue {1_adj} séchée des heures à four très doux, craquante dehors et guimauve dedans, couverte {2_plur} fouettée et {0_plur}. Se monte à la dernière minute.</FlavorTextFR_MangoPavlova.description>
 	<FlavorTextFR_MousseDeManga.label>mousse de manga</FlavorTextFR_MousseDeManga.label>
-	<FlavorTextFR_MousseDeManga.description>la pulpe {0_adj} montée {1_plur} fouettée, sans gélatine — la fibre du fruit suffit à tenir si la mangue est assez mûre. Se sert en verre, bien froide.</FlavorTextFR_MousseDeManga.description>
+	<FlavorTextFR_MousseDeManga.description>la pulpe {0_adj} montée {1_plur} fouettée, sans gélatine : la fibre du fruit suffit à tenir si la mangue est assez mûre. Se sert en verre, bien froide.</FlavorTextFR_MousseDeManga.description>
 	<FlavorTextFR_Mangonada.label>mangonada</FlavorTextFR_Mangonada.label>
 	<FlavorTextFR_Mangonada.description>{0_coll} glacée, du chamoy acide et salé, {2_coll} vert et une pluie de poudre {1_adj}, avec un bâton de tamarin planté dedans. Sucré, salé, acide et piquant en une seule gorgée.</FlavorTextFR_Mangonada.description>
 	<FlavorTextFR_MangoChutney.label>chutney de mangue</FlavorTextFR_MangoChutney.label>

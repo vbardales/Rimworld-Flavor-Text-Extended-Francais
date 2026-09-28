@@ -12,7 +12,7 @@
 	<FlavorTextFR_AspergesHollandaise.label>asperges sauce hollandaise</FlavorTextFR_AspergesHollandaise.label>
 	<FlavorTextFR_AspergesHollandaise.description>{0_coll} pochées al dente, nappées d'une émulsion de jaunes {1_adj} montée {2_plur} clarifié au bain-marie. La sauce tranche si elle dépasse soixante-cinq degrés : elle se fait au dernier moment ou pas du tout.</FlavorTextFR_AspergesHollandaise.description>
 	<FlavorTextFR_AspergesMousseline.label>asperges sauce mousseline</FlavorTextFR_AspergesMousseline.label>
-	<FlavorTextFR_AspergesMousseline.description>la même hollandaise, allégée d'un tiers {2_adj} fouettée incorporée hors du feu. Elle double de volume et perd son mordant : c'est la version des dimanches.</FlavorTextFR_AspergesMousseline.description>
+	<FlavorTextFR_AspergesMousseline.description>une sauce hollandaise allégée d'un tiers {2_adj} fouettée incorporée hors du feu. Elle double de volume et perd son mordant : c'est la version des dimanches.</FlavorTextFR_AspergesMousseline.description>
 	<FlavorTextFR_AspergesFlamande.label>asperges à la flamande</FlavorTextFR_AspergesFlamande.label>
 	<FlavorTextFR_AspergesFlamande.description>{0_coll} blanches servies avec un œuf dur écrasé à la fourchette dans du beurre fondu, du persil et une râpure de muscade. Chacun mélange sa sauce dans son assiette.</FlavorTextFR_AspergesFlamande.description>
 	<FlavorTextFR_VelouteDAsperges.label>velouté d'asperges</FlavorTextFR_VelouteDAsperges.label>
