@@ -8,8 +8,8 @@ visibility_verified_at: 2026-09-21
 visibility_evidence: "gh api repos/vbardales/Rimworld-Flavor-Text-Extended-Francais: private=false; git ls-remote HEAD = b62253a"
 mod_visibility: GitHub public; Workshop item 3806100488 public (owner, 2026-09-25, after 1.0.1; not checked by a session)
 detached: yes
-stage: done
-stage_meaning: "ready for in-game validation. The 2026-09-22 audit corrections restored the literal unofficial notice and repaired the offline test runners; the complete out-of-game battery is green. Existing in-game evidence and remaining scenarios are tracked separately."
+stage: published
+stage_meaning: "published (2026-09-28 reading): 1.0.0 then 1.0.1 uploaded by the CI on 2026-09-25, the item is public and subscribed to (owner), the in-game passes are green (passes 1 to 10, feature 20, cooking 2b) and the non-regression replay was played after the 1.0.1 publication under fail fast. The stage had stayed at done until then only because nobody had recorded the transitions; they are recorded in the table below. Older text, kept for history: ready for in-game validation. The 2026-09-22 audit corrections restored the literal unofficial notice and repaired the offline test runners; the complete out-of-game battery is green. Existing in-game evidence and remaining scenarios are tracked separately."
 licence: silent
 licence_declared: "MIT limited to rights held by the contributor"
 licence_exception: "2026-09-21, owner decision in chat: kept public/silent although upstream Flavor Text declares 1.6 (PUBLISHING.md would class it alive). Reason given: no French version of Flavor Text Extended exists, and it is an extension, not a plain translation of the upstream mod. The rule's own criterion (no 1.6 declared = abandoned) is NOT met; this is an exception, not a finding of abandonment. `original` was proposed and considered the same day, then not retained: the 901 Extended dishes, the C# code and the tooling are the owner's own work, but the 930 Flavor Text dishes are translations of hekmo's text, and ATTRIBUTION.md, README and About.xml all state that. The absence of any other French translation does not bear on rights."
@@ -95,7 +95,9 @@ its tracked `Tests/Pickle/Mod/Pickle/Assemblies/FlavorTextExtendedFR.PickleSteps
 | -> options | independently validated | `Test-Language`, `Test-SettingsBridge`, `Test-UpstreamSettings`, and `Test-HarmonyRegistration` pass on the current rebuilt DLL. They substantiate the settings bridge, bounds, primitive persistence and Harmony wiring, not a new in-game run. |
 | -> l10n | validated | The full XML check, fallback helper and fallback-prefix tests all pass from the current checkout; no player-facing localization defect was found by these out-of-game checks. |
 | -> preTest -> done | validated | The functional scenarios and Pickle suite remain written; build, XML and the complete offline battery pass. `done` does not require a new game run. |
-| -> tested | not reached | The existing in-game evidence is retained below; the remaining scenarios and review work are still listed in `remaining`. |
+| -> tested | validated, recorded 2026-09-28 | Passes 1 to 10 and feature 20 green, the cooking pass 2b green with the info card (request 9bac, 2026-09-26), the `@review` captures opened; see `docs/runs/` and `TESTING.md`. |
+| -> prepublished | validated, recorded 2026-09-28 | Workshop item 3806100488 created and 1.0.0 uploaded by the CI (run 36124437186), PUBLICATION.md, gallery, description, dependencies and content descriptors settled. |
+| -> published | validated on the owner's word, recorded 2026-09-28 | 1.0.1 uploaded by the CI (run 36150171081, SHA ab2e37e), the item is public and subscribed to (owner, 2026-09-25); a session cannot see a private page and did not verify it after the switch. |
 
 ## Commands and results
 
