@@ -14,8 +14,11 @@ Pickle pass, cropped to the dialog (the scenarios' captures are full frames; the
 485, 160), re-encoded as JPEG, and **opened and looked at**; none is a mock-up. All four come from the generic test colony, not the
 presentation colony; the owner accepted them on 2026-09-25 (the meals of 01 and 03 come from the 1.0.1 run, so the side dishes read in lower case).
 
+0. `00-preview.png`: a copy of the delivered `Preview.png`, version badge and cutout ModIcon stamp included — the same image the page
+   already shows as the thumbnail, so the first scroll of the gallery confirms the showcase instead of repeating it worse (owner's rule,
+   `STYLE_RIMWORLD.md`, "L'image 0 de la galerie Workshop", 2026-09-29). No cropping, no re-processing: the same file, renamed.
 1. `01-lavish-meal-french-name-and-description.jpg`: "Ragoût mulligan et kakigōri (plat gastronomique)", the info card of a lavish meal: a
-   French name with a joint, and the description of the main dish and of the side dish. First because it is the most demonstrative.
+   French name with a joint, and the description of the main dish and of the side dish. Most demonstrative of the numbered captures.
    (`Tests/Pickle/Evidence/2026-09-25-1-0-1-lavish-meals`, request 63b1.)
 2. `02-elision-refused-before-aspirated-h.jpg`: "Stroganoff de husky", the aspirated h that refuses the elision (never "d'husky"),
    asserted by feature 19 as well (2026-09-23 French pass).
