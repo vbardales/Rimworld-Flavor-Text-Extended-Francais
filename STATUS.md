@@ -25,7 +25,7 @@ explicit_prohibition_found: false
 settings_audit: complete
 localization: complete
 translation_en: complete
-translation_fr: complete
+translation_fr: partial
 dependencies: verified
 showcase: complete
 build: passed
@@ -79,6 +79,7 @@ remaining:
   - "unverified: RIMMSQOL revealing FTFR_Settings is covered by pass 7 (played, four launches, all exitReason passed, TESTING.md row 7; PickleTools/RimmsqolSteps/README.md). Other customization mods are not covered."
   - "note (shared tooling, not this mod): the launcher printed `veille non empechee` on 2026-09-21 (SetThreadExecutionState received -2147483647, not convertible to UInt32 in PowerShell 5.1). A separate session was started to look at it; its result was not read here. See PickleTools/Headless/README.md."
   - "note (environment, not a defect): three test scripts (Test-PatchLifecycle, Test-Fallback, Test-FallbackPrefix) require PowerShell 7 (`pwsh`, as README says). It is not installed on this machine; they were replayed 2026-09-21 by equivalent means, from the current sources, after the fix."
+  - "unverified (TRANSLATIONS.md, 2026-09-30): French review by Virginie. No session can certify French quality; FRENCH_REVIEW.md is generated for her reading, `translation_fr` stays `partial` until she records a dated review line under Translation audit below."
 ---
 
 # Current audit — 2026-09-22
@@ -402,6 +403,39 @@ It does not cook a meal or execute Unity UI. Harmony is now an explicit dependen
 `translation_en`, `translation_fr` and `localization: complete` denote local resource/code readiness
 for the inspected dependency versions, not exhaustive linguistic correctness of arbitrary mods
 or a successful game campaign. F01–F14 remain pending for runtime and natural-language review.
+
+## Translation audit — 2026-09-30 (French gender-agreement rule and systematic review)
+
+`translation_fr` reset to `unchecked` on 2026-09-30 for every mod with a `Languages/French` folder
+(TRANSLATIONS.md). This session read every French file of this mod in full (74 DefInjected files
+under `FlavorText.FlavorDef`/`FlavorCategoryDef`/`MainButtonDef`, plus `Keyed/Fallback.xml` and
+`Keyed/Misc.xml` — no pattern search) to check the three-segment `{PAWN_gender ? … : … : ·…}`
+switch: `grep -r PAWN_gender` and manual reading both found **zero** matches. This mod's entire
+French content is food/dish descriptions, labels, settings tooltips and short names — no text
+refers to a pawn, so the gender-agreement rule does not apply to any string here. Set
+`translation_fr: partial` (never `complete`: only Virginie's own review can set it).
+
+Where the French lives: `Mod/Languages/French/DefInjected/FlavorText.FlavorDef/` (Descriptions_01–13,
+Descriptions_Variants, Labels_01–12, Labels_Variants, and ~30 `Ext_*.xml` regional/theme files, all
+generated from `FlavorDefs_FR_*.xml` by `_tools/scinder.js`), `.../FlavorCategoryDef/Extended_Categories.xml`,
+`.../MainButtonDef/Settings.xml`, `Mod/Languages/French/Keyed/{Fallback,Misc}.xml`, and
+`Mod/Biotech/Languages/French/DefInjected/FlavorText.FlavorDef/Biotech.xml`.
+
+`_tools/Generate-FrenchReview.ps1` (new, adapted from FoodCourt's script) generated `FRENCH_REVIEW.md`
+at the mod root. **Known limitation**: Original/English resolution falls back to the upstream Def
+field, but only Flavor Text Extended has a local dev checkout (sibling `FlavorText/FlavorTextExtended`);
+base Flavor Text (hekmo) has none in this tree (`upstream_mod_remotes: N/A`), so most rows — the
+~930 base-game dish keys — show English as "not found - check by hand". Virginie's review of those
+rows needs the installed Workshop copy of Flavor Text open alongside `FRENCH_REVIEW.md`, or the
+script re-run once a local Flavor Text checkout exists. Rows for Flavor Text Extended's own ~901
+dishes resolve correctly. No row was flagged `?` (no `{PAWN_gender}`/`TODO`/`???` pattern found).
+
+No terminology or tone uncertainty flagged by this session: the French reads as intended per file
+header comments (grammar-gender conventions for generic ingredient slots, deliberate registers for
+the meal-paste and dog-food sections, documented puns/wordplay substitutions).
+
+Review line (to be filled by Virginie, never by a session): reviewer, date, revision reviewed,
+corrections requested — pending.
 ## Visual results and user preference
 
 The user preferred the original ModIcon style. The final `Mod/About/ModIcon.png` is that
