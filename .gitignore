@@ -22,3 +22,9 @@ Source/obj/
 
 # Raw Pickle run output (logs, captures, junit): kept on disk, summarised in docs/runs/.
 Tests/Pickle/Evidence/
+
+# Windows folder-icon files: local only. Steam publishes Mod/ unfiltered, so a desktop.ini
+# or an .ico tracked there would ship to every subscriber (the .ico sources live under Art/).
+Mod/desktop.ini
+Mod/**/desktop.ini
+Mod/**/*.ico

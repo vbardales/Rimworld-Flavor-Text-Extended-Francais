@@ -4,7 +4,13 @@ This is the historical acceptance inventory. It is no longer an instruction to h
 game: `Tests/Pickle/` owns every automatable action and produces the captures or film that a
 person reviews. No pending scenario is presumed successful.
 
-Status: **not executed** for the correction build of 2026-09-13. The earlier scenario
+Disposition (2026-10-02, `AUDIT.md` step 9): no row here is a manual test left to validate. Each F-row is played by the
+Pickle feature named in the table of `Tests/Pickle/README.md` (F01: 09 and 05; F02: 02; F04 to F06 and F14: 06, 07, 08, 19;
+F08: 16; F09: 17; F10: 20; F11: 04, 05, 10, 11; F12: 12 to 15; F13: 18). F03 is not a scenario: a language change restarts the
+game, so there is one pass per language. The FoodCourt additions are covered as written in `TESTING.md`, "Conditions of
+`tested`". The statuses below date from 2026-09-13 and stay as history; the current state is `TESTING.md` and `docs/runs/`.
+
+Status at the time: **not executed** for the correction build of 2026-09-13. The earlier scenario
 set is preserved in `fix-2026-09-13/FUNCTIONAL-SCENARIOS.before.md`.
 Record date, game/dependency versions, exact distributed file hashes, mod list, language,
 new/existing save, observed outcome and a dated Player.log copy for each run.

@@ -83,6 +83,49 @@ The disk is a constraint, so a report is a cost.
   and `.ndjson` gzipped; `junit.xml` and `summary.*` untouched.
 - **When.** Apply it as soon as a newer report replaces an older one, not at the end of `tested`.
 
+## Conditions of `tested` (AUDIT.md, step 9, read 2026-10-02) and where they stand
+
+| Condition | State on 2026-10-02 |
+| --- | --- |
+| No scenario left in `@wip` | **Holds.** `grep -rn "@wip" Tests/Pickle` finds nothing in the features; the last one (18, legacy meals) was repaired and played green in pass 10. |
+| Every conditional scenario has had its pass | **Held on older builds, to be replayed on the current one.** `@requires:Ludeon.RimWorld.Biotech` (01, 02, 03): passes 1 and 2. `@requires:nelim.pickletools.screenshotmode` (04, 06, 07, 08, 09, 12, 14, 18): the passes that play those features. `@requires:nelim.pickletools.filmticks` (09): pass 2b, v12. `@requires:VanillaExpanded.VCookE` (20): pass 3, seq 3, played 2026-09-29. `@requires:Dajian.ChiTeaditional.Expanded` (20): pass 4b-v2, played 2026-09-24 (skipped on purpose in pass 3, where the provider is not staged; a skip is not a pass). The `@rimmsqol` features 12 to 15 carry no `@requires`; pass 7 stages RIMMSQOL. |
+| No manual test left to validate | **Holds, with the mapping below.** `_tools/FUNCTIONAL-SCENARIOS.md` is a historical inventory: every F-row has its Pickle feature (table in `Tests/Pickle/README.md`), F03 (language switch from the menu) is not a scenario because the game restarts on a language change (two passes, one per language), and the FoodCourt additions are covered by features 01 and 03 (the dishes exist, the labels read French), 20 (provider tables, Shenzhou entries) and passes 3 and 4; the text of Altang's adaptation notice is read in `FRENCH_REVIEW.md`, not played. What stays for a person is only the reading of the `@review` captures (04, 06, 07, 08, 09, 12, 14, 18), which is not a manual test: the scenario already proved the image is in the intended state. The French review of the texts by Virginie is a translation gate (`FRENCH_REVIEW.md`), not a game test. |
+| The scenarios were played on the revision to certify | **No.** The last French pass (2026-09-28 15:45 to 15:58) ran after the French text of `1014e7e` and before `44a8cbc` (bounded `LowerSideDishes` search in `FrenchMealPostProcessing.cs`, 2026-09-28 22:40), so feature 07 (lavish meals, where side dishes are lowered) is new again on the current DLL. Pass 3 (folder mtime 2026-09-29 14:24 to 14:29) is later than `44a8cbc`, but the folder does not record the tree SHA: unverified. |
+
+Order of the next passes (Virginie, 2026-10-02, `AUDIT.md`): what never ran or is red first, as small tickets (here: feature 07
+alone, French, `-Filter '07-review-shots.feature'`), then **all the non-regression passes together, at the end, on the final
+revision**. A scenario with a green run on the current logic is a non-regression scenario; a change to the mod or to a step it
+uses makes it new again.
+
+## Evidence kept on disk, and why (cleaned 2026-10-02: 67 MB to 11 MB)
+
+`Tests/Pickle/Evidence/` is ignored by git; nothing in it is tracked. The rule is the root `AGENTS.md`, "Test evidence": per
+scenario, the latest report for the revision now in the repository, plus an older one only when it is the sole proof of a check
+the latest run did not repeat. Kept, with the reason:
+
+| Folder | Why it stays |
+| --- | --- |
+| `2026-09-28-pass2-french` (seq1 to seq7) | Latest French `sans-facultatifs` pass (03, 01, 04, 05, 06, 19, 07), JPEG captures of 06 and 07. Feature 07 is superseded once it is replayed after `44a8cbc`. |
+| `2026-09-28-pass3-french-providers` (seq1 to seq3) | Latest pass 3 (06, 01, 20 with the eight providers). Captures minified to JPEG. |
+| `2026-09-25-nonreg-pass1-english` | The only English pass: sole proof of 02 and of the English reading of the other features. |
+| `2026-09-25-nonreg-pass5-faux-ingredients` | Latest pass 5 (feature 08). |
+| `2026-09-24-pass4-french-shenzhou`, `2026-09-24-pass4b-v2-provider-tables` | Sole proof of the Shenzhou-only pass (06, 01, and the four Shenzhou entries of feature 20). |
+| `2026-09-24-pass6-restart-pair`, `2026-09-24-pass7-rimmsqol`, `2026-09-24-pass8-without-biotech`, `2026-09-24-pass9-without-anomaly-odyssey`, `2026-09-24-pass10-legacy-meals` | Sole proof of the restart pair, RIMMSQOL, the two DLC-absent passes and the legacy-meal capture; no later run repeats them. |
+| `2026-09-26-pass2b-cooking-v12` | Latest and only green cooking film with the info card. Film and JPEG captures kept. |
+
+Deleted on 2026-10-02, with the run that replaces each: `2026-09-24-pass3-french-providers` and `-pass3b-provider-tables`
+(by `2026-09-28-pass3-french-providers`), `2026-09-24-pass5-french-invented-foods` (by `2026-09-25-nonreg-pass5-faux-ingredients`),
+`2026-09-25-nonreg-pass2-french` and `2026-09-25-1-0-1-lavish-meals` (by `2026-09-28-pass2-french`), `2026-09-25-pass2b-cooking-v9`
+(by v12), `2026-09-26-pass2b-cooking-v11` (failed, its cause is in `docs/runs/2026-09-26.md`). `report.html` was dropped from
+every kept folder (the verdict is in `summary.*` and `junit.xml`), and the PNG captures of the kept runs were re-encoded as JPEG
+(ffmpeg, `-q:v 3`). No `.dds` file and no evidence file is tracked by git (checked with `git ls-files` and over the whole history).
+
+**What to keep at the next runs, per pass:** `summary.json`, `summary.md`, `junit.xml`, `messages.ndjson`, `Player.log`,
+`evidence-complete.txt`, and the `@review` captures or films that the pass exists to produce, as JPEG. Never a whole
+`screenshots/` folder, never `report.html`. Delete a folder as soon as a newer run of the same scenarios on a newer revision
+exists, after its line is in `docs/runs/`. On Windows, deleting a folder with long capture names fails with `Remove-Item`:
+use Node's `fs.rmSync` on the relative path, or empty it with `robocopy <empty> <target> /MIR` first.
+
 ## Before a publication (fail fast)
 
 The publication policy of this mod is fail fast (`PUBLICATION.md`, "Publication by CI"). For the tests it means:
