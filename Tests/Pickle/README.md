@@ -2,7 +2,7 @@
 
 The scenarios of [TESTING.md](../../TESTING.md) that a running game is needed for, and only those.
 `Mod/` is a companion mod, **Flavor Text Extended - Français - Pickle tests**, never published. It
-holds twenty-one feature files and a small steps assembly built from `Source/`. Two shared tools of Nelim's
+holds twenty-two feature files and a small steps assembly built from `Source/`. Two shared tools of Nelim's
 Pickle Tools (`PickleTools/` at the repository root, a repository of its own) are staged by the passes that need
 them: `FilmTicks` for the filmed cooking (09) and `RimmsqolSteps` for RIMMSQOL (12 to 15). `FakeIngredients/` is
 a second, tiny mod of this suite, staged by its own pass only. What stays in this suite, and where another mod can
@@ -52,7 +52,7 @@ What was checked without a game:
 
 ## Scope: what stays in Gherkin, and what does not
 
-Everything provable outside the game is proved outside it, by `_tools/` (build, `Test-Xml`,
+Everything provable outside the game is proved outside it, by `scripts/` (build, `Test-Xml`,
 `Test-Language`, `Test-PatchLifecycle`, `Test-SettingsBridge`, `Test-UpstreamSettings`,
 `Test-Fallback*`, `Test-HarmonyRegistration`, `Check-DefInjected`), in seconds. None of those claims
 is repeated here, except the one they could not make: what the running game really stores.

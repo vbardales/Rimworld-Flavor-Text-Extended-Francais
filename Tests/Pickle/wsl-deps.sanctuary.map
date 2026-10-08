@@ -1,0 +1,10 @@
+# Pass "sanctuary": this mod's Workshop pictures on Nelim's sanctuary (save Nelims-tribe), the fixture of every mod's gallery (PickleTools docs/GALERIE.md).
+# Select it with -DepMap wsl-deps.sanctuary.map, in French (the pictures show French meal names). A named map REPLACES the default one.
+# Modelled on AlphaMythologyRenew's map of the same name: the Sanctuary Backlot (named places, save), the studio tools, camera and screenshot mode.
+# No optional mod of this mod is staged: the pictures show Flavor Text's own dishes.
+nelim.sanctuarybacklot             path:SanctuaryBacklot/Mod
+nelim.pickletools.screenshotstudio  path:PickleTools/ScreenshotStudio/Mod
+nelim.pickletools.screenshotmode    path:PickleTools/ScreenshotMode/Mod
+nelim.pickletools.camerazoom        path:PickleTools/CameraZoom/Mod
+nelim.pickletools.stagedecor        path:PickleTools/StageDecor/Mod
+nelim.pickletools.clearscreen       path:PickleTools/ClearScreen/Mod

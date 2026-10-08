@@ -72,22 +72,22 @@ The in-game suite (`Tests/Pickle/`, twenty-one features) has played green in ten
 providers, Shenzhou, invented ingredients, a restart, RIMMSQOL, without Biotech, without Anomaly and Odyssey, and meals saved
 before the translation): see `TESTING.md` and `docs/runs/`. Not yet green: the filmed cooking with a colonist (feature 09).
 French agreement of names is judged by a person from the captures, and only RIMMSQOL is covered among customization mods.
-See `STATUS.md` for the current workflow stage, `_tools/FUNCTIONAL-SCENARIOS.md` for scenarios and `CHANGELOG.md` for changes.
+See `STATUS.md` for the current workflow stage, `docs/FUNCTIONAL-SCENARIOS.md` for scenarios and `CHANGELOG.md` for changes.
 
 ## Build and technical checks
 
 Requires a .NET SDK and an installed RimWorld 1.6. No NuGet package or copied game DLL is shipped.
 
 ```powershell
-& ./_tools/Build.ps1
-& ./_tools/Test-Language.ps1
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-PatchLifecycle.ps1
-& ./_tools/Test-Xml.ps1
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-UpstreamSettings.ps1
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-SettingsBridge.ps1
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-Fallback.ps1
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-FallbackPrefix.ps1
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./_tools/Test-HarmonyRegistration.ps1
+& ./scripts/Build.ps1
+& ./scripts/Test-Language.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/Test-PatchLifecycle.ps1
+& ./scripts/Test-Xml.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/Test-UpstreamSettings.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/Test-SettingsBridge.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/Test-Fallback.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/Test-FallbackPrefix.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/Test-HarmonyRegistration.ps1
 ```
 
 `Build.ps1 -Managed <path>` accepts another RimWorld Managed directory. It compiles against
@@ -100,7 +100,7 @@ the test host's PowerShell Core runtime. It does not start Unity or modify playe
 It requires both dependency datasets; missing dependencies fail the check.
 
 For interactive acceptance testing, close RimWorld and run
-`& ./_tools/Start-IsolatedGame.ps1 -Language French` (or `English`). The launcher creates a
+`& ./scripts/Start-IsolatedGame.ps1 -Language French` (or `English`). The launcher creates a
 fresh profile under `.build/game-tests/`, activates only Core and the three required mods
 plus this translation, and writes a separate Player.log. Steam must be accessible so the
 Workshop dependencies are discovered. Enable DLCs or optional integrations within that

@@ -29,6 +29,23 @@ presentation colony; the owner accepted them on 2026-09-25 (the meals of 01 and 
 Not used: the captures of the RIMMSQOL pages and of the meal made before the translation (F13); they prove behaviour and show nothing a
 player would choose this mod for.
 
+### Gallery for 1.1.0: checked against PUBLISHING.md on 2026-10-08
+
+The four numbered images above were taken on the generic test colony and cropped by hand. They are valid as the **approved** gallery of
+1.0.x, and they stay in place until an accepted candidate replaces each of them. They do not meet the staging rules of `PUBLISHING.md`
+(2026-10-02 to 10-06: a staged photo series, one story, shot at the Sanctuary, a shooting plan in the feature header), so the next
+series is made as candidates:
+
+- **Place and tools.** Nelim's Sanctuary (save `Nelims-tribe`, mod SanctuaryBacklot), pass map `Tests/Pickle/wsl-deps.sanctuary.map`
+  (ScreenshotStudio, StageDecor, InspectTabs, ScreenshotMode, plus the PickleTools pieces the scenario names). Menus (the settings page)
+  stay plain screen captures. Full-screen windows (the meal's info card) go on `window-backdrop-for-height`, cropped sideways.
+- **Candidate files** sit in `Art/Gallery/` as `<final index>-candidate-<name>.<ext>`, under 2 MB each and 8 MB for the folder; the
+  index may repeat one already present when the candidate is meant to replace it. An accepted candidate loses `candidate` and replaces the
+  old image; a refused one is deleted. `0-preview.png` is produced by `scripts/Render-Preview.cjs`, never by a scenario.
+- **Stage not moved.** `prepublished` needs the gallery ready (`AUDIT.md`, 2026-10-08): accepted by the owner, not only green.
+- **State on 2026-10-08:** the shooting plan and feature are written (`Tests/Pickle/Mod/Pickle/Features/22-gallery.feature`); no candidate
+  is accepted yet.
+
 ## Thank-you messages and the register
 
 The register is `WORKSHOP_COMMENTS.md` at the monorepo root (one main comment per recipient page for the whole collection). State on
@@ -101,9 +118,9 @@ load without them):
 - `nelim.flavortextextended` — the sibling mod (901 Extended dishes) this also translates. It has a Workshop item,
   `3806100152` (its `STATUS.md`: v1.0.0 on 2026-09-22, v1.1.0 by the CI on 2026-09-24), and a GitHub repository
   ([Rimworld-Flavor-Text-Extended](https://github.com/vbardales/Rimworld-Flavor-Text-Extended)). This mod's `About.xml` still links
-  it only through `downloadUrl` (GitHub): to be changed to `steamWorkshopUrl` (`steam://url/CommunityFilePage/3806100152`) in 1.0.1,
-  and the description names should carry Workshop links (`PUBLISHING.md`, "Lien Workshop sur chaque nom de mod cité"). The
-  staging of the Pickle passes still uses a machine-local link for it, from before it had an id.
+  it through `steamWorkshopUrl` (`steam://url/CommunityFilePage/3806100152`) and keeps the GitHub `downloadUrl` (done in 1.0.1), and the
+  description names carry Workshop links (`PUBLISHING.md`, "Lien Workshop sur chaque nom de mod cité"). The staging of the Pickle passes
+  still uses a machine-local link for it, from before it had an id.
 
 **DLC:** none required. `supportedVersions` declares 1.6 only. `Mod/LoadFolders.xml` loads the
 `Biotech` folder only `IfModActive="Ludeon.RimWorld.Biotech"` — twelve translations for six
@@ -327,9 +344,9 @@ bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/Flav
 - Description and gallery (owner, 2026-09-25): the description is sent by the CI (`## Steam description` above,
   `update_description` on, the same option in the dry-run and in the publish); the gallery is only listed (manual upload,
   `Gallery/` for 1.0.0, `Art/Gallery/` from 1.0.1).
-- Preview (owner, 2026-09-25): regenerated without the `(unofficial)` tag (`_tools/Render-Preview.ps1`), 566,527 bytes; it is in `Mod/`, so it
+- Preview (owner, 2026-09-25): regenerated without the `(unofficial)` tag (`scripts/Render-Preview.cjs (shared, ../scripts)`), 566,527 bytes; it is in `Mod/`, so it
   is uploaded with the mod, but the Steam page image changes only with `update_preview` on. The suffix decision and its justification:
-  `_tools/UPSTREAM-PERMISSION-REVIEW.md`, "Decision of 2026-09-25". The page titles (French and English) are edited by hand by the owner.
+  `docs/UPSTREAM-PERMISSION-REVIEW.md`, "Decision of 2026-09-25". The page titles (French and English) are edited by hand by the owner.
 - The whole of `Mod/` is uploaded (no `.steamignore`): About, Assemblies, Biotech, Defs, Languages, Patches,
   LoadFolders.xml, ATTRIBUTION.md, CHANGELOG.md, LICENSE.
 - 1.0.0: SHA `43dd52da70c3ffbdb3ab55c7301e877be88040e9`, dry-run 36122774168, publish run 36124437186 approved by the owner

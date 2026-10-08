@@ -1,12 +1,12 @@
 # Testing
 
 How this mod is tested, and what each kind of test is allowed to claim. The manual acceptance
-scenarios are in [`_tools/FUNCTIONAL-SCENARIOS.md`](_tools/FUNCTIONAL-SCENARIOS.md) (F01-F14 and the
+scenarios are in [`docs/FUNCTIONAL-SCENARIOS.md`](docs/FUNCTIONAL-SCENARIOS.md) (F01-F14 and the
 FoodCourt additions); the in-game automation is in [`Tests/Pickle/`](Tests/Pickle/README.md).
 
 ## Outside the game (run, green on 2026-09-21)
 
-Everything that can be proved without RimWorld is proved without it, in seconds: `_tools/Build.ps1`,
+Everything that can be proved without RimWorld is proved without it, in seconds: `scripts/Build.ps1`,
 `Test-Xml` (82 XML files, 1,831 dishes, the guarded patches applied to an in-memory copy of the
 dependencies' Defs), `Test-Language`, `Test-PatchLifecycle`, `Test-SettingsBridge`,
 `Test-UpstreamSettings`, `Test-Fallback`, `Test-FallbackPrefix`, `Test-HarmonyRegistration`, and
@@ -22,7 +22,7 @@ what each kind of test may claim, below.
 
 ## In the game, by Pickle
 
-Twenty-one features (the last, 21, is a fixture-making tool and never part of a pass), one companion mod, one steps assembly. The shared steps of Nelim's Pickle Tools are used
+Twenty-two features (21 is a fixture-making tool and never part of a pass; 22 makes gallery candidates, not proof), one companion mod, one steps assembly. The shared steps of Nelim's Pickle Tools are used
 where they exist (`PickleTools/FilmTicks` for the cooking film, `PickleTools/RimmsqolSteps` for pass 7); what
 stays in this suite, and where another mod can find it, is listed in `PickleTools/Elsewhere/FlavorTextExtendedFR.md`.
 The scope is the part a running game is needed for: the real patch pipeline and loader, the real DefInjected
@@ -50,6 +50,7 @@ incompatibility) does not apply. Several passes are needed. Commands are in `Tes
 | 8 | `sans-biotech` | The same set with Biotech left out (`-DepMap wsl-deps.sans-biotech.map`, `!ludeon.rimworld.biotech`), for F08 | English | 16, no save loaded | **played 2026-09-24: 16 2/2, `exitReason: passed`; the DLC removal by `!packageId` works in a real run.** |
 | 9 | `sans-anomaly-odyssey` | The same set with both left out (`-DepMap wsl-deps.sans-anomaly-odyssey.map`), for F09 | English | 17, no save loaded | **played 2026-09-24: 17 2/2, `exitReason: passed`.** |
 | 10 | legacy meals | The minimal set plus ScreenshotMode (`-DepMap wsl-deps.sans-facultatifs.map`) and a committed `legacy-meals-before-ftfr` save made before this translation was installed | French | 18, pauses on an existing meal's info card and captures it | **played 2026-09-24: 18 1/1, `exitReason: passed`; a meal made in an English game reads "Salade de lait" in the French pass, capture opened.** |
+| 11 | `sanctuary`, gallery | Nelim's Sanctuary (save `Nelims-tribe`) with the studio tools (`-DepMap wsl-deps.sanctuary.map`) | French | 22, three staged pictures, candidates for `Art/Gallery/` (the owner accepts or refuses each) | **deposited 2026-10-08**, see `docs/runs/2026-10-08.md`; not a verdict on the mod |
 
 Left out of pass 3 on the owner's word, 2026-09-21: [RH2] Faction: V.O.I.D., Medieval Overhaul and Optimization: Meats. Their tables stay covered by the offline checks only. Nelim's Food Court is local and unpublished, declares itself incompatible with Shenzhou, and no table of this mod targets it: it is not staged. Passes 3 and 4 are separate because Shenzhou is old and would put its own errors beside the eight providers.
 
@@ -89,7 +90,7 @@ The disk is a constraint, so a report is a cost.
 | --- | --- |
 | No scenario left in `@wip` | **Holds.** `grep -rn "@wip" Tests/Pickle` finds nothing in the features; the last one (18, legacy meals) was repaired and played green in pass 10. |
 | Every conditional scenario has had its pass | **Held on older builds, to be replayed on the current one.** `@requires:Ludeon.RimWorld.Biotech` (01, 02, 03): passes 1 and 2. `@requires:nelim.pickletools.screenshotmode` (04, 06, 07, 08, 09, 12, 14, 18): the passes that play those features. `@requires:nelim.pickletools.filmticks` (09): pass 2b, v12. `@requires:VanillaExpanded.VCookE` (20): pass 3, seq 3, played 2026-09-29. `@requires:Dajian.ChiTeaditional.Expanded` (20): pass 4b-v2, played 2026-09-24 (skipped on purpose in pass 3, where the provider is not staged; a skip is not a pass). The `@rimmsqol` features 12 to 15 carry no `@requires`; pass 7 stages RIMMSQOL. |
-| No manual test left to validate | **Holds, with the mapping below.** `_tools/FUNCTIONAL-SCENARIOS.md` is a historical inventory: every F-row has its Pickle feature (table in `Tests/Pickle/README.md`), F03 (language switch from the menu) is not a scenario because the game restarts on a language change (two passes, one per language), and the FoodCourt additions are covered by features 01 and 03 (the dishes exist, the labels read French), 20 (provider tables, Shenzhou entries) and passes 3 and 4; the text of Altang's adaptation notice is read in `FRENCH_REVIEW.md`, not played. What stays for a person is only the reading of the `@review` captures (04, 06, 07, 08, 09, 12, 14, 18), which is not a manual test: the scenario already proved the image is in the intended state. The French review of the texts by Virginie is a translation gate (`FRENCH_REVIEW.md`), not a game test. |
+| No manual test left to validate | **Holds, with the mapping below.** `docs/FUNCTIONAL-SCENARIOS.md` is a historical inventory: every F-row has its Pickle feature (table in `Tests/Pickle/README.md`), F03 (language switch from the menu) is not a scenario because the game restarts on a language change (two passes, one per language), and the FoodCourt additions are covered by features 01 and 03 (the dishes exist, the labels read French), 20 (provider tables, Shenzhou entries) and passes 3 and 4; the text of Altang's adaptation notice is read in `FRENCH_REVIEW.md`, not played. What stays for a person is only the reading of the `@review` captures (04, 06, 07, 08, 09, 12, 14, 18), which is not a manual test: the scenario already proved the image is in the intended state. The French review of the texts by Virginie is a translation gate (`FRENCH_REVIEW.md`), not a game test. |
 | The scenarios were played on the revision to certify | **No.** The last French pass (2026-09-28 15:45 to 15:58) ran after the French text of `1014e7e` and before `44a8cbc` (bounded `LowerSideDishes` search in `FrenchMealPostProcessing.cs`, 2026-09-28 22:40), so feature 07 (lavish meals, where side dishes are lowered) is new again on the current DLL. Pass 3 (folder mtime 2026-09-29 14:24 to 14:29) is later than `44a8cbc`, but the folder does not record the tree SHA: unverified. |
 
 Order of the next passes (Virginie, 2026-10-02, `AUDIT.md`): what never ran or is red first, as small tickets (here: feature 07

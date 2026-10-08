@@ -16,12 +16,12 @@ licence_declared: "MIT limited to rights held by the contributor"
 licence_exception: "2026-09-21, owner decision in chat: kept public/silent although upstream Flavor Text declares 1.6 (PUBLISHING.md would class it alive). Reason given: no French version of Flavor Text Extended exists, and it is an extension, not a plain translation of the upstream mod. The rule's own criterion (no 1.6 declared = abandoned) is NOT met; this is an exception, not a finding of abandonment. `original` was proposed and considered the same day, then not retained: the 901 Extended dishes, the C# code and the tooling are the owner's own work, but the 930 Flavor Text dishes are translations of hekmo's text, and ATTRIBUTION.md, README and About.xml all state that. The absence of any other French translation does not bear on rights."
 licence_at: derivative translation; local notice does not establish upstream permission
 upstream_mod_remotes:
-  - Flavor Text (hekmo, hekmo.FlavorText): N/A — no authoritative upstream repository found (see _tools/UPSTREAM-PERMISSION-REVIEW.md, targeted web queries combining Flavor Text, hekmo, permission, license and GitHub found none)
+  - Flavor Text (hekmo, hekmo.FlavorText): N/A — no authoritative upstream repository found (see docs/UPSTREAM-PERMISSION-REVIEW.md, targeted web queries combining Flavor Text, hekmo, permission, license and GitHub found none)
   - Flavor Text Extended (owner's own mod): https://github.com/vbardales/Rimworld-Flavor-Text-Extended.git
 upstream_permission: unverified
-suffix_exception: "2026-09-25, owner decision: no (unofficial) suffix in the name or the Preview, contrary to the PUBLISHING.md rule for silent. Reason: the author welcomed a Chinese translation (comments of 2025-09-07/08) and encouraged the Flavor Text Extended add-on (comment of 2025-10-12); no upstream licence was found, so none is claimed. The description keeps UNOFFICIAL and says: without explicit consent, though he has been kind. Detail: _tools/UPSTREAM-PERMISSION-REVIEW.md"
+suffix_exception: "2026-09-25, owner decision: no (unofficial) suffix in the name or the Preview, contrary to the PUBLISHING.md rule for silent. Reason: the author welcomed a Chinese translation (comments of 2025-09-07/08) and encouraged the Flavor Text Extended add-on (comment of 2025-10-12); no upstream licence was found, so none is claimed. The description keeps UNOFFICIAL and says: without explicit consent, though he has been kind. Detail: docs/UPSTREAM-PERMISSION-REVIEW.md"
 rights_reviewed_at: 2026-09-13
-rights_evidence: _tools/UPSTREAM-PERMISSION-REVIEW.md
+rights_evidence: docs/UPSTREAM-PERMISSION-REVIEW.md
 explicit_prohibition_found: false
 settings_audit: complete
 localization: complete
@@ -119,9 +119,9 @@ its tracked `Tests/Pickle/Mod/Pickle/Assemblies/FlavorTextExtendedFR.PickleSteps
 | Transition | Result | Current evidence |
 |---|---|---|
 | dansMonoRepo -> horsMonoRepo | validated under the recorded owner exception | Standalone Git root, GitHub `origin`, root/distributed LICENSE and ATTRIBUTION copies byte-identical, required documentation present. The existing `silent`/public exception and unverified upstream permission remain recorded above. |
-| -> ModIcon generated | validated | `_tools/Build.ps1` rebuilt and installed the distribution DLL successfully. `Mod/About/ModIcon.png` was opened: 128x128 PNG, 33,010 bytes, mascot and ribbon remain legible. |
+| -> ModIcon generated | validated | `scripts/Build.ps1` rebuilt and installed the distribution DLL successfully. `Mod/About/ModIcon.png` was opened: 128x128 PNG, 33,010 bytes, mascot and ribbon remain legible. |
 | -> Preview generated | validated | `Mod/About/Preview.png` was opened directly: 896x504 PNG, 569,664 bytes, under 1 MB; title, French suffix, unofficial tag and 1.6 badge are legible, with no clipping or concrete camera defect observed. |
-| -> preOptions | validated | The distributed description now begins with the prescribed literal `UNOFFICIAL.` opening, without BBCode; `_tools/Test-Xml.ps1` passes. |
+| -> preOptions | validated | The distributed description now begins with the prescribed literal `UNOFFICIAL.` opening, without BBCode; `scripts/Test-Xml.ps1` passes. |
 | -> options | independently validated | `Test-Language`, `Test-SettingsBridge`, `Test-UpstreamSettings`, and `Test-HarmonyRegistration` pass on the current rebuilt DLL. They substantiate the settings bridge, bounds, primitive persistence and Harmony wiring, not a new in-game run. |
 | -> l10n | validated | The full XML check, fallback helper and fallback-prefix tests all pass from the current checkout; no player-facing localization defect was found by these out-of-game checks. |
 | -> preTest -> done | validated | The functional scenarios and Pickle suite remain written; build, XML and the complete offline battery pass. `done` does not require a new game run. |
@@ -131,9 +131,9 @@ its tracked `Tests/Pickle/Mod/Pickle/Assemblies/FlavorTextExtendedFR.PickleSteps
 
 ## Commands and results
 
-- `_tools/Build.ps1`: PASS against the installed RimWorld, Flavor Text and Harmony references.
-- `_tools/Test-Xml.ps1`: PASS, including 82 XML files, 1,831 dishes, 25 guarded patches, 186 ingredients and the hidden bilingual shortcut.
-- `_tools/Test-Language.ps1`, `_tools/Test-PatchLifecycle.ps1`, `_tools/Test-SettingsBridge.ps1`, `_tools/Test-UpstreamSettings.ps1`, `_tools/Test-Fallback.ps1`, `_tools/Test-FallbackPrefix.ps1`, and `_tools/Test-HarmonyRegistration.ps1`: PASS.
+- `scripts/Build.ps1`: PASS against the installed RimWorld, Flavor Text and Harmony references.
+- `scripts/Test-Xml.ps1`: PASS, including 82 XML files, 1,831 dishes, 25 guarded patches, 186 ingredients and the hidden bilingual shortcut.
+- `scripts/Test-Language.ps1`, `scripts/Test-PatchLifecycle.ps1`, `scripts/Test-SettingsBridge.ps1`, `scripts/Test-UpstreamSettings.ps1`, `scripts/Test-Fallback.ps1`, `scripts/Test-FallbackPrefix.ps1`, and `scripts/Test-HarmonyRegistration.ps1`: PASS.
 - `dotnet build Tests/Pickle/Source/FlavorTextExtendedFR.PickleSteps.csproj -c Release`: PASS, 0 warnings and 0 errors. `Tests/Pickle/Check-Steps.ps1`: 73 declared patterns compile, none duplicate, 234 feature lines matched; 95 lines are intentionally delegated to Pickle's vocabulary.
 - The runner corrections are: UTF-8 BOM plus explicit UTF-8 reads for the fallback resources, a `System.Xml` reference for the lifecycle doubles, and the missing `FrenchLanguage.cs` input for the fallback-prefix doubles. README commands now use the installed Windows PowerShell host.
 
@@ -223,19 +223,19 @@ AUDIT.md postdates the 2026-09-13 `done` decision.
 | -> options | validated | Five upstream settings exposed under `Options -> Mod settings -> <mod name>` through `SettingsBridge` (`SettingsCategory()` returns the mod name); hidden `FTFR_Settings` MainButton (`buttonVisible=false`, `Visible` inherited, not forced) opens the same page; cap clamped to 0-6. Code and tests only, as this transition asks. `Test-SettingsBridge` and `Test-UpstreamSettings` PASS today (doubles / primitive Scribe fields; no Unity UI, no RIMMSQOL). |
 | -> l10n | validated | No hard-coded player-facing string in `Source/` (literals are logic: markers, regex, keys, exception text). Keyed FR/EN keys present with equal tokens (`Fallback.xml`, five keys each); `MainButtonDef` label/description in French DefInjected, English source in the Def. `Check-DefInjected.ps1` (Flavor Text 1.6 and 1.5, Extended, this mod, Flavor Text DLL): **3,671 keys, 0 errors**, six MayRequire advisories for Biotech (the folder gate is covered by `Test-Xml`). |
 | -> preTest | validated | Hard dependencies `brrainz.harmony` (code uses Harmony), `hekmo.FlavorText` (code references `FlavorTextSettings`/`FlavorTextMod`), `nelim.flavortextextended` (translated defs; ID matches the sibling's About). `loadAfter` Harmony, Core, Flavor Text, Extended. `LoadFolders.xml`: `/` plus `Biotech` under `IfModActive="Ludeon.RimWorld.Biotech"`, matching the Biotech-only DefInjected folder. Optional providers are `MayRequire`-gated, not dependencies. |
-| -> done | validated (second pass of the day) | Scenarios F01-F14 plus FoodCourt in `_tools/FUNCTIONAL-SCENARIOS.md` (preconditions, actions, expected results): present. Automated and XML tests: green (below). Pickle (Gherkin): first found **absent and unjustified**, then written and justified, see below. No test run in game is required for `done`. |
+| -> done | validated (second pass of the day) | Scenarios F01-F14 plus FoodCourt in `docs/FUNCTIONAL-SCENARIOS.md` (preconditions, actions, expected results): present. Automated and XML tests: green (below). Pickle (Gherkin): first found **absent and unjustified**, then written and justified, see below. No test run in game is required for `done`. |
 | -> tested | not reached | Nothing executed in game. |
 
 ## Tests rerun on the delivered tree - 2026-09-21
 
 | Check | Result |
 |---|---|
-| `_tools/Build.ps1` | PASS, DLL byte-identical to the shipped one |
+| `scripts/Build.ps1` | PASS, DLL byte-identical to the shipped one |
 | `Test-Language`, `Test-Xml`, `Test-SettingsBridge`, `Test-UpstreamSettings`, `Test-HarmonyRegistration` | PASS (Windows PowerShell 5.1): 82 XML files, 1,831 dishes, 25 guarded patches applied in memory, 186 entries / 15 tables, 3 grammars, 7 category overrides, Biotech gating, hidden shortcut |
 | `Test-PatchLifecycle`, `Test-FallbackPrefix` | PASS **by equivalent means**: as-is they fail on PS 5.1 (`Add-Type` compiles C# 5). Same sources and test doubles compiled with the SDK 8.0.424 Roslyn into the scratchpad and loaded in PS 5.1. Not the literal command; `pwsh` is absent. |
 | `Test-Fallback` | PASS **by equivalent means**: as-is it fails on PS 5.1 (UTF-8 without BOM read as ANSI: parse error, then `Bad French complement`). Scratch copy with BOM and explicit UTF-8 reads; the repository script is unchanged. |
 | `Check-DefInjected.ps1` | 3,671 keys, 0 errors |
-| Distribution manifest (88 files, `_tools/foodcourt-2026-09-13`) | 86 identical. `Mod/About/About.xml` and `Mod/ATTRIBUTION.md` differ, explained by commits `036f4b7` and `b62253a` (author `nelim` -> `Nelim`, attribution text). `git diff c675e87 HEAD -- Mod/` outside ATTRIBUTION.md is that two-line About change only. No file added or missing. Code, patches, translations and images unchanged since the evidence. |
+| Distribution manifest (88 files, `docs/history/foodcourt-2026-09-13`) | 86 identical. `Mod/About/About.xml` and `Mod/ATTRIBUTION.md` differ, explained by commits `036f4b7` and `b62253a` (author `nelim` -> `Nelim`, attribution text). `git diff c675e87 HEAD -- Mod/` outside ATTRIBUTION.md is that two-line About change only. No file added or missing. Code, patches, translations and images unchanged since the evidence. |
 
 ## Pickle suite written - 2026-09-21
 
@@ -306,8 +306,8 @@ In-game validation is owned by the user.
 
 The user requested fixes after the workflow audit, then requested the original icon style.
 The previous audit and its historical notes are preserved in
-`_tools/fix-2026-09-13/STATUS.before.md`; the earlier pre-audit snapshot remains in
-`_tools/audit-2026-09-13/STATUS.before.md`. Earlier test outputs and scenario descriptions
+`docs/history/fix-2026-09-13/STATUS.before.md`; the earlier pre-audit snapshot remains in
+`docs/history/audit-2026-09-13/STATUS.before.md`. Earlier test outputs and scenario descriptions
 are retained. This document describes the current working files, not just HEAD.
 
 Repository: `C:\Users\nelim\Documents\rimworld\FlavorText\FlavorTextExtendedFR`.
@@ -316,7 +316,7 @@ At audit entry About.xml and STATUS.md were already modified and Test-Xml.ps1 wa
 Those changes were incorporated, not reset. The correction pass modifies documentation,
 images, two translation files and the inflection patch, and adds local code/build/tests,
 conditional translations, grammar resources and evidence. Final file hashes and Git status
-are recorded under `_tools/continue-2026-09-13/`; earlier evidence remains under `_tools/fix-2026-09-13/`.
+are recorded under `docs/history/continue-2026-09-13/`; earlier evidence remains under `docs/history/fix-2026-09-13/`.
 
 ## Stage interpretation
 
@@ -360,14 +360,14 @@ Literal workflow states:
   Only the resulting local DLL is distributed; its current size/hash is recorded in the continuation manifest. Game/dependency DLLs and decompiled
   inspection files remain outside `Mod/`. Built and installed DLL hashes match.
 
-Current commands and results (latest outputs in `_tools/continue-2026-09-13/`; earlier results preserved in `_tools/fix-2026-09-13/`):
+Current commands and results (latest outputs in `docs/history/continue-2026-09-13/`; earlier results preserved in `docs/history/fix-2026-09-13/`):
 
 | Command | Observed result |
 | --- | --- |
-| `& ./_tools/Build.ps1` | PASS, compiled against local RimWorld 1.6 references and installed DLL. |
-| `& ./_tools/Test-Language.ps1` | PASS against the installed DLL: language isolation, case handling, one payload call, false/exception propagation. |
-| `pwsh -NoProfile -File ./_tools/Test-PatchLifecycle.ps1` | PASS: production wrapper compiled with lifecycle doubles; XML mutation, EN/DE isolation, language reload sequence, skipped completion and failure reporting. These doubles are not game execution. |
-| `& ./_tools/Test-Xml.ps1` | PASS: 82 XML files, 1,831 dishes, 25 guarded replacements simulated in memory, 186 entries across 15 tables, three grammars, seven category overrides, ten upstream setting strings and five new bilingual keys and Biotech gating. |
+| `& ./scripts/Build.ps1` | PASS, compiled against local RimWorld 1.6 references and installed DLL. |
+| `& ./scripts/Test-Language.ps1` | PASS against the installed DLL: language isolation, case handling, one payload call, false/exception propagation. |
+| `pwsh -NoProfile -File ./scripts/Test-PatchLifecycle.ps1` | PASS: production wrapper compiled with lifecycle doubles; XML mutation, EN/DE isolation, language reload sequence, skipped completion and failure reporting. These doubles are not game execution. |
+| `& ./scripts/Test-Xml.ps1` | PASS: 82 XML files, 1,831 dishes, 25 guarded replacements simulated in memory, 186 entries across 15 tables, three grammars, seven category overrides, ten upstream setting strings and five new bilingual keys and Biotech gating. |
 | `../../scripts/Check-DefInjected.ps1` with both actual dependency targets and their type assemblies | 3,671 keys checked, zero errors. Its six MayRequire advisory lines are unconditional (script lines 625–630); it does not inspect LoadFolders. The new folder gate is checked separately by Test-Xml, not dismissed as an unresolved path. This external checker does not execute the custom language guard. |
 
 ## Settings audit
@@ -440,11 +440,11 @@ refers to a pawn, so the gender-agreement rule does not apply to any string here
 
 Where the French lives: `Mod/Languages/French/DefInjected/FlavorText.FlavorDef/` (Descriptions_01–13,
 Descriptions_Variants, Labels_01–12, Labels_Variants, and ~30 `Ext_*.xml` regional/theme files, all
-generated from `FlavorDefs_FR_*.xml` by `_tools/scinder.js`), `.../FlavorCategoryDef/Extended_Categories.xml`,
+generated from `FlavorDefs_FR_*.xml` by `scripts/scinder.js`), `.../FlavorCategoryDef/Extended_Categories.xml`,
 `.../MainButtonDef/Settings.xml`, `Mod/Languages/French/Keyed/{Fallback,Misc}.xml`, and
 `Mod/Biotech/Languages/French/DefInjected/FlavorText.FlavorDef/Biotech.xml`.
 
-`_tools/Generate-FrenchReview.ps1` (new, adapted from FoodCourt's script) generated `FRENCH_REVIEW.md`
+`scripts/Generate-FrenchReview.ps1` (new, adapted from FoodCourt's script) generated `FRENCH_REVIEW.md`
 at the mod root. **Known limitation**: Original/English resolution falls back to the upstream Def
 field, but only Flavor Text Extended has a local dev checkout (sibling `FlavorText/FlavorTextExtended`);
 base Flavor Text (hekmo) has none in this tree (`upstream_mod_remotes: N/A`), so most rows — the
@@ -491,12 +491,12 @@ See ATTRIBUTION.md for scope. No author was contacted and no repository visibili
 
 **Next gate: `tested`, through the user-run game campaign.** Explicit permission remains unverified without blocking `done` under the agreed public `silent` workflow.
 The documentation defects that previously blocked this gate have been corrected. The independent settings and localization technical checks now pass.
-The final game campaign is specified in `_tools/FUNCTIONAL-SCENARIOS.md` (F01–F14), including
+The final game campaign is specified in `docs/FUNCTIONAL-SCENARIOS.md` (F01–F14), including
 language switching, optional mods, Biotech, settings, logs, new games and existing saves.
 No in-game success is claimed. Only affected validations were repeated; prior evidence is retained.
 ## Continuation evidence
 
-The pre-continuation STATUS and scenarios remain in `_tools/continue-2026-09-13/` alongside
+The pre-continuation STATUS and scenarios remain in `docs/history/continue-2026-09-13/` alongside
 all eight successful test outputs, build output, dimensions and SHA-256 manifest. Earlier failures
 were test-host issues: .NET Core could not run the installed Harmony build, full Scribe finalization
 requires Unity, and PowerShell could not construct an abstract LanguageWorker. The final tests
@@ -522,10 +522,10 @@ The retry outside the sandbox reached Workshop discovery. It remained in the ins
 metadata scan and did not establish completion of target play-data loading. The diagnostic
 was stopped; none of these starts is counted as passed. Headless null-device shader errors
 also prevent any rendering assessment. All three logs are preserved in
-_tools/runtime-attempt-2026-09-13/. No cooking, UI, language switching or save compatibility
+docs/history/runtime-attempt-2026-09-13/. No cooking, UI, language switching or save compatibility
 scenario was executed, and no additional production-code defect was established by this attempt.
 
-_tools/Start-IsolatedGame.ps1 provides fresh French/English profiles, a minimal active mod
+scripts/Start-IsolatedGame.ps1 provides fresh French/English profiles, a minimal active mod
 list, isolated logs and a guard against starting beside an existing RimWorld process.
 Its syntax was checked; the equivalent direct headless invocation was attempted as above.
 The script's interactive launch and the full F01–F14 campaign remain unverified.
@@ -540,7 +540,7 @@ Four ingredient entries (sixteen forms) were added only to the existing current-
 RawZongYe and overlapping private-provider copies remain excluded. No C# code changed.
 Test-Xml passes for 82 XML files and 1,831 dishes, including dedicated ingredient-index and
 provider-scope assertions. Full outputs and current artifact hashes are under
-_tools/foodcourt-2026-09-13/. Runtime integration with Shenzhou 1.6 remains unverified.
+docs/history/foodcourt-2026-09-13/. Runtime integration with Shenzhou 1.6 remains unverified.
 The cumulative stage and prior settings/build evidence are unchanged.
 
 The refreshed DefInjected checker resolves 3,671 keys with zero errors. Its six Biotech advisory lines remain unchanged; the conditional folder is checked separately.
@@ -554,17 +554,17 @@ close RimWorld for this task. A French isolated profile was previously launched 
 The user declined Computer Use and reserved the game campaign for themselves.
 
 Reviewed commit c675e87. All 88 distributed files match the recorded SHA-256 manifest in
-_tools/foodcourt-2026-09-13/distribution-manifest.json, with zero differences. Root/distribution
+docs/history/foodcourt-2026-09-13/distribution-manifest.json, with zero differences. Root/distribution
 LICENSE, ATTRIBUTION.md and CHANGELOG.md copies match. The local Keyed resources contain
 15 unique French keys and five unique English keys; the ten upstream settings use native
 upstream English resources. No new delivery defect was identified. The passing XML and
 settings checks from the commit turn remain applicable; no production files changed here.
 
-Offline technical work is ready for the user-run campaign in _tools/FUNCTIONAL-SCENARIOS.md.
+Offline technical work is ready for the user-run campaign in docs/FUNCTIONAL-SCENARIOS.md.
 The cumulative stage is `done` under the agreed public `silent` convention. Permission remains unverified; no prohibition was found. Earlier no-commit and unchanged-stage statements describe historical audit passes, not the current status.
 
 The additional public-source permission search is recorded in
-_tools/UPSTREAM-PERMISSION-REVIEW.md. Author interaction with a Chinese translation was
+docs/UPSTREAM-PERMISSION-REVIEW.md. Author interaction with a Chinese translation was
 found, but no explicit licence or authorization for this French companion was established.
 Older comment pagination was unavailable to the web reader. The remaining permission
 item therefore stays unverified; no production changes or additional game actions were made.
@@ -575,8 +575,13 @@ All three pages of the 145 publicly visible Flavor Text comments were inspected 
 the browser. The 9 May 2025 reply to nelim17 concerns technical translatability, not a
 permission refusal. Favorable Chinese-translation and recipe-addon exchanges were also
 found. No explicit prohibition, general licence or grant for publication of this French
-companion was found. Full references are in _tools/UPSTREAM-PERMISSION-REVIEW.md.
+companion was found. Full references are in docs/UPSTREAM-PERMISSION-REVIEW.md.
 The earlier pagination limitation is resolved; private/deleted messages remain unknown.
 Classification stays `silent`, permission stays `unverified`, and the cumulative stage is `done`. The user clarified that explicit consent is not a mandatory gate under this workflow; the required public disclosures are already present.
 
 Current attribution notices have been synchronized with the completed public-comment review. Only documentation changed; previous artifact manifests are historical snapshots predating this attribution update. Technical validations remain applicable.
+
+
+## Preview source migration — 2026-10-03
+
+Copy, typography, layout and palette are consolidated in `Art/Preview.config.json`. Canonical inputs are `Art/Preview-source.png`, `Art/echo.png` and `Art/ModIcon-source.png`; temporary renderer diagnostics belong under ignored `Art/.render/`. Existing Preview, gallery and ICO outputs were preserved because they were present and coherent; no render was run. Superseded JSON files and generated QA intermediates were removed. Nothing published.

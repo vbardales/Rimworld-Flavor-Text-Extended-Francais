@@ -1,0 +1,65 @@
+{
+  "title": "Flavor Text Extended - Français",
+  "titleSize": 49,
+  "titleParts": [
+    {
+      "text": "Flavor Text",
+      "scale": 1
+    },
+    {
+      "text": " Extended",
+      "scale": 0.65,
+      "font": "ui",
+      "color": "secondary"
+    },
+    {
+      "text": "Français",
+      "scale": 0.65,
+      "font": "ui",
+      "color": "secondary",
+      "breakBefore": true
+    }
+  ],
+  "suffix": "",
+  "tag": "",
+  "copyLines": [
+    "French names, descriptions and ingredient forms for every colony meal."
+  ],
+  "layout": "panel",
+  "panelAnchor": "top-left",
+  "backgroundFile": "Preview-source.png",
+  "backgroundPosition": "center",
+  "backgroundSize": "cover",
+  "modIconSource": "ModIcon-source.png",
+  "echo": {
+    "file": "echo.png",
+    "preSized": true,
+    "color": "var(--accent)",
+    "width": 240,
+    "height": 180,
+    "opacity": 1,
+    "veil": false,
+    "panelTop": 18,
+    "panelRight": 1,
+    "panelWidth": 44,
+    "flipX": true
+  },
+  "iconBadge": {
+    "file": "ModIcon-source.png",
+    "corner": "bottom-left",
+    "width": 180,
+    "translate": "-12.5%, 12.5%",
+    "outline": false,
+    "veil": "radial",
+    "veilSize": 275,
+    "veilLeft": -55,
+    "veilBottom": -61
+  },
+  "palette": {
+    "veil": "#302317",
+    "inkPrimary": "#F2ECE1",
+    "inkSecondary": "#E9C389",
+    "accent": "#49BDF0",
+    "badgeInk": "#17120E"
+  }
+}
