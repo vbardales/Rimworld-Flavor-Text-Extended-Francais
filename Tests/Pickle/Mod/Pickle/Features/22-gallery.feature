@@ -1,80 +1,120 @@
-# Workshop pictures of 1.1.0: one staged story, played on the shared fixture of every mod's gallery, Nelim's sanctuary (PickleTools docs/GALERIE.md,
-# docs/SANCTUAIRE-LIEUX.md; PUBLISHING.md gallery rules of 2026-10-02 to 10-06). Written 2026-10-08. French pass only:
+# Workshop pictures of 1.1.0: one staged story, played on Nelim's sanctuary (save Nelims-tribe), the fixture of every mod's gallery (PickleTools docs/GALERIE.md).
+# Reuses the scenes of Flavor Text Extended's own gallery "Lunch is served" (FlavorText/FlavorTextExtended, Features/10-gallery-scenes.feature, run 49d4, owner's
+# word 2026-10-08), played here with THIS mod loaded, so the dish names and descriptions on the cards are the French ones. Pass:
 #   -DepMap wsl-deps.sanctuary.map -Language French -Filter '22-gallery.feature'
-# Its output is CANDIDATES (Art/Gallery/<index>-candidate-<name>): the owner accepts or refuses each one. Never filed as green proof of the mod itself.
+# The map is Extended's gallery map plus its Pickle companion (nelim.flavortextextended.pickletests, which owns the steps "Flavor Text Extended: ...").
+# Its output is CANDIDATES (Art/Gallery/<index>-candidate-<name>, JPEG q90, under 2 MB): the owner accepts or refuses each. Not proof of the mod.
 #
-# WHICH STEPS ARE WHOSE.
-#   Nelim's Sanctuary:     `I am at the sanctuary "<place>"` (named places of the Sanctuary Backlot, staged by the first line of wsl-deps.sanctuary.map).
-#   Nelim's Pickle Tools:  `"Nelim" stands at (x, z) facing West`, `I let N ticks pass` (240 s timeout), `screenshot mode is enabled around the open windows`.
-#   Pickle's own:          the save load, `game speed is paused`, `I close all dialogs`, `I set the hour to`, `I set the weather to`, `I take a screenshot`.
-#   This mod's own:        the meal steps of MealSteps.cs (a lavish meal lies at, I select the meal, I open the info card). No new step.
+# THE STORY. "Lunch is served" in French: one midday at the sanctuary, Nelim at the table, the cooked meals and their French names. Three pictures, 5 game
+# minutes (about 208 ticks) apart, the same light and place (dining-nook, chosen by Extended's author on the empty photographs of every place).
+# SHOT PLAN (place, time, subject, composition, the living, what it says):
+# 1. dining-nook, 12:00, the laid table (four meals) and the katsudon card at the right of the screen; Nelim seated (stands at facing South on the chair); says: a table of dishes with French names.
+# 2. dining-nook, 12:05, the meal of two dishes at once and its card; Nelim at the table; says: the main dish and its side dish, joined by a French joint.
+# 3. dining-nook, 12:10, the two-meat blanquette and a hen that came to see; says: a French dish name with the ingredients of the colony.
+# The garden picture of Extended is not taken. The settings page is a menu: the approved 4-settings-page-in-french.jpg of 1.0.x stays.
+# Order imposed by NPT: waits, paused, dress, stands at LAST, frame, capture, no wait after. Open points: the seated pose (standing facing South on the chair), no face
+# expression step yet. After the run every picture is opened and read against this plan; anomalies go to Pickle Tools (through the Ticket Manager if unreachable).
+@review: a green run proves the path ran, never that the picture is right.
 #
-# THE STORY. "A French dinner at the sanctuary": Nelim, the only colonist, sits down to a meal at noon and the game gives it the name a French
-# menu would. The meal changes place with the hour: first at the dining table, then by the hearth, then the full card of the dish. Rhythm chosen by the
-# author of the series: from noon, clear weather, 5 game minutes (about 208 ticks) between two pictures, the same light, the same afternoon.
+# THE STORY: "Lunch is served" (Nelim's lunch). One midday on the Sanctuary, told in four pictures, the table first because Steam shows image 1 large.
+#   1. 12:00  The table is laid: several cooked meals, each with a different dish name, on the dining nook's table; one card beside them.
+#   2. 12:05  Nelim sits and eats; the card of the meal with two dishes at once is open beside her.
+#   3. 12:10  A blanquette of two meats and milk, and a hen that came to see (a daytime animal at noon).
+#   4. 12:15  After lunch, Nelim is in the plant garden, where the ingredients of the next meal grow.
+# Not here: the breadth picture (many dish names at once) and the before / after composite. See README.md.
 #
-# SHOT PLAN (place, time, subject, composition, the living around it, what the picture says):
-# 1. dining-nook, camera (173, 109) zoom 3.7 so the table sits right of the inspect pane, 12:00. Subject: the lavish meal of squirrel, milk, rice and egg on the
-#    table (175, 109). Composition: table and the two chairs in the middle ground, the shelf behind, the pane at the lower left. Living: Nelim standing at
-#    (178, 110) looking at the table; the sanctuary's cats nearby. Says: a hermit's dinner whose name reads like a French menu, with a lower-case side dish.
-# 2. fire-pit, camera (179, 116) zoom 5, 12:05. Subject: the lavish meal of cow, potatoes, corn and milk on the floor by the hearth (180, 116). Composition: the
-#    central fire behind the meal, the pane at the lower left. Living: Nelim at (182, 116) facing West. Says: the same dinner an hour later by the fire, other dish,
-#    other French name and joint.
-# 3. window-backdrop-for-height, 12:10. Subject: the info card of the squirrel dish, a full-screen window, so it goes on the Sanctuary's backdrop place
-#    and is cropped sideways by hand afterwards. Says: the whole name and the whole French description, which the pane cuts.
-# The settings page (4) is a menu: a plain screen capture of what it is, the approved 4-settings-page-in-french.jpg of 1.0.x stays.
+# RHYTHM (author's choice, PUBLISHING.md "temps de la série"): the same hour of departure in every scenario (12), then an accumulated wait
+# before the capture, 5 minutes of game time per picture: 2 500 ticks per game hour, about 208 ticks for 5 minutes. Each Scenario reloads
+# the save, so every one replays its own wait: 60 ticks of set-up, then +0, +208, +417, +625. The living things are posed AFTER the wait so that
+# they have not left the frame.
 #
-# Order imposed by NPT (lesson of FlavorTextExtended, 2026-10-08): waits, paused, dress, `stands at` LAST, frame, capture, no wait after the frame.
-# After the run every picture is opened and read against this plan; an anomaly that comes from the scene or from a shared tool is described to Pickle Tools
-# with the capture (through the Ticket Manager when the session is unreachable), never worked around here.
-# The cells of the dining nook and of the fire pit are read from PickleTools docs/SANCTUAIRE-CASES.md (the table at (175, 108), the free row z 116 at the fire pit);
-# the cell (90, 140) of the backdrop place is its centre and was not read as free: the step will say so if it is not standable.
-@review @requires:nelim.sanctuarybacklot @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.screenshotmode
-Feature: Workshop pictures of the French meal names
+# PLACES (chosen on the empty photographs of PickleTools sanctuaire-places2, 2026-10-06, not on the names; the same place may serve several
+# pictures, there is no need to change it each time): `dining-nook` for 1 to 3 (wooden floor, a table on a white rug with two chairs, torches,
+# logs and plants along the bottom edge), `plant-garden` for 4 (a fenced garden of mixed plants). None of them is a framing still under review.
+#
+# 4 puts Nelim on the free cell nearest to (190, 85): that exact cell was not standable on the first pass and the listing step is gone.
+# CHOICES (every cell is provisional, to be read on the first played image): the free cells of the table, where Nelim stands, the cell of the hen.
+# Nelim is dressed by the photographer, vanilla garments, on the retextured body of Venus Touch Waistlines' pass (owner, 2026-10-07: every pawn picture uses it): a teal shirt against the orange wood, cream
+# trousers, a ponytail of dark brown hair; never the default outfit. Steps from TailorMadeWaistlines' gallery (wears ... dyed rgb, hairstyle, hair colour).
+@review @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.stagedecor
+Feature: Lunch is served, in French
 
   Background:
     Given the save "Nelims-tribe" is loaded
     And game speed is paused
-    And I close all dialogs
+    And Nelim's Pickle Tools: the eclipse of the map is ended
+    And Nelim's Pickle Tools: studio presentation mode is enabled
     And I set the hour to 12
     And I set the weather to "Clear"
-    And Nelim's Pickle Tools: the eclipse of the map is ended
+    And Nelim's Pickle Tools: all animals are removed
 
-  Scenario: the dinner at the dining table
-    When Nelim's Pickle Tools: I let 60 ticks pass
-    And a lavish meal made of "Meat_Squirrel", "Milk", "RawRice" and "EggChickenUnfertilized" lies at (175, 109)
-    And Nelim's Pickle Tools: "Nelim" stands at (178, 110) facing West
-    Then the side dishes of the meal at (175, 109) do not start with a capital after a French joint
-    When Nelim's Sanctuary: I am at the sanctuary "dining-nook"
-    And Nelim's Pickle Tools: I frame the cell (173, 109) at zoom 3.7
-    And I select the meal at (175, 109)
-    And Nelim's Pickle Tools: studio presentation mode is enabled
+  # ORDER OF EVERY SCENARIO (NPT, 2026-10-07): the waits first, then the game paused, then the dressing, then "stands at" LAST, then the framing and the
+  # capture with no wait after. A pawn is held only while the game is paused and without a job: a wait after "stands at" lets her go back to her job.
+  # 1. 12:00. Four different meals on the table, the katsudon's card beside them, Nelim at the table.
+  Scenario: the table is laid
+    Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
+    And I wait 60 ticks
+    And game speed is paused
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
+    And Flavor Text Extended: a colonist also cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
+    And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
+    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
+    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
+    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
+    And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
+    And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    Then I take a screenshot "workshop-1-the-dinner-at-the-dining-table"
-    And Nelim's Pickle Tools: screenshot mode is disabled
+    Then Flavor Text Extended: "Nelim" is logged
+    And I take a screenshot "lunch 12:00 - the table is laid, the katsudon card beside it"
+    When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
-  Scenario: the same dinner by the fire
-    When Nelim's Pickle Tools: I let 268 ticks pass
-    And a lavish meal made of "Meat_Cow", "RawPotatoes", "RawCorn" and "Milk" lies at (180, 116)
-    And Nelim's Pickle Tools: "Nelim" stands at (182, 116) facing West
-    Then the side dishes of the meal at (180, 116) do not start with a capital after a French joint
-    When Nelim's Sanctuary: I am at the sanctuary "fire-pit"
-    And Nelim's Pickle Tools: I frame the cell (178, 116) at zoom 5
-    And I select the meal at (180, 116)
-    And Nelim's Pickle Tools: studio presentation mode is enabled
+  # 2. 12:05. Nelim at the table. A seated pose is the open question (no step known, ASK PICKLE TOOLS): until then she stands at the table.
+  Scenario: Nelim eats the meal with two dishes at once
+    Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
+    And I wait 268 ticks
+    And game speed is paused
+    When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
+    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
+    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
+    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
+    And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
+    And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    Then I take a screenshot "workshop-2-the-same-dinner-by-the-fire"
-    And Nelim's Pickle Tools: screenshot mode is disabled
+    Then Flavor Text Extended: "Nelim" is logged
+    And I take a screenshot "lunch 12:05 - Nelim and the meal with two dishes at once, its card beside"
+    When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
 
-  Scenario: the whole name on the card
-    When Nelim's Pickle Tools: I let 476 ticks pass
-    And a lavish meal made of "Meat_Squirrel", "Milk", "RawRice" and "EggChickenUnfertilized" lies at (90, 140)
-    And Nelim's Sanctuary: I am at the sanctuary "window-backdrop-for-height"
-    And I open the info card of the meal at (90, 140)
-    And Nelim's Pickle Tools: studio presentation mode is enabled
+  # 3. 12:10. The blanquette (meat and milk) and a hen. The hen is posed after the wait.
+  Scenario: the blanquette and a hen that came to see
+    Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
+    And I wait 477 ticks
+    And game speed is paused
+    When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
+    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
+    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
+    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
+    Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
+    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
+    And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
+    And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    Then I take a screenshot "workshop-3-the-whole-name-on-the-card"
-    And Nelim's Pickle Tools: screenshot mode is disabled
+    Then Flavor Text Extended: "Nelim" is logged
+    And I take a screenshot "lunch 12:10 - the blanquette and a hen at the table"
+    When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
