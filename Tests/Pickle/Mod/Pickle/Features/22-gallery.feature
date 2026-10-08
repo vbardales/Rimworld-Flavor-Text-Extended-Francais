@@ -13,29 +13,9 @@
 # 3. dining-nook, 12:10, the two-meat blanquette and a hen that came to see; says: a French dish name with the ingredients of the colony.
 # The garden picture of Extended is not taken. The settings page is a menu: the approved 4-settings-page-in-french.jpg of 1.0.x stays.
 # Order imposed by NPT: waits, paused, dress, stands at LAST, frame, capture, no wait after. Open points: the seated pose (standing facing South on the chair), no face
-# expression step yet. After the run every picture is opened and read against this plan; anomalies go to Pickle Tools (through the Ticket Manager if unreachable).
-@review: a green run proves the path ran, never that the picture is right.
-#
-# THE STORY: "Lunch is served" (Nelim's lunch). One midday on the Sanctuary, told in four pictures, the table first because Steam shows image 1 large.
-#   1. 12:00  The table is laid: several cooked meals, each with a different dish name, on the dining nook's table; one card beside them.
-#   2. 12:05  Nelim sits and eats; the card of the meal with two dishes at once is open beside her.
-#   3. 12:10  A blanquette of two meats and milk, and a hen that came to see (a daytime animal at noon).
-#   4. 12:15  After lunch, Nelim is in the plant garden, where the ingredients of the next meal grow.
-# Not here: the breadth picture (many dish names at once) and the before / after composite. See README.md.
-#
-# RHYTHM (author's choice, PUBLISHING.md "temps de la série"): the same hour of departure in every scenario (12), then an accumulated wait
-# before the capture, 5 minutes of game time per picture: 2 500 ticks per game hour, about 208 ticks for 5 minutes. Each Scenario reloads
-# the save, so every one replays its own wait: 60 ticks of set-up, then +0, +208, +417, +625. The living things are posed AFTER the wait so that
-# they have not left the frame.
-#
-# PLACES (chosen on the empty photographs of PickleTools sanctuaire-places2, 2026-10-06, not on the names; the same place may serve several
-# pictures, there is no need to change it each time): `dining-nook` for 1 to 3 (wooden floor, a table on a white rug with two chairs, torches,
-# logs and plants along the bottom edge), `plant-garden` for 4 (a fenced garden of mixed plants). None of them is a framing still under review.
-#
-# 4 puts Nelim on the free cell nearest to (190, 85): that exact cell was not standable on the first pass and the listing step is gone.
-# CHOICES (every cell is provisional, to be read on the first played image): the free cells of the table, where Nelim stands, the cell of the hen.
-# Nelim is dressed by the photographer, vanilla garments, on the retextured body of Venus Touch Waistlines' pass (owner, 2026-10-07: every pawn picture uses it): a teal shirt against the orange wood, cream
-# trousers, a ponytail of dark brown hair; never the default outfit. Steps from TailorMadeWaistlines' gallery (wears ... dyed rgb, hairstyle, hair colour).
+# (no face expression step yet). After the run every picture is opened and read against this plan; anomalies go to Pickle Tools (through the Ticket Manager if unreachable).
+# Review note: a green run proves the path ran, never that the picture is right.
+# Nelim is dressed by the photographer: vanilla garments on the retextured body of Venus Touch Waistlines (owner, 2026-10-07), as in Extended's gallery.
 @review @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.stagedecor
 Feature: Lunch is served, in French
 
