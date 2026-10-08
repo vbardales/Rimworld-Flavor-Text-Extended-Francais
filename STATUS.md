@@ -43,6 +43,7 @@ tag_revision: 43dd52da70c3ffbdb3ab55c7301e877be88040e9
 release: "https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais/releases/tag/v1.0.0 (created by the CI after the upload, 2026-09-25)"
 audit_revision: 634066483d44f51201aa8ea0722da4b796864aad
 review_revision: c675e87
+code_review_revision: 238affb09622a3147e26a83ccc360155b0d10652 (2026-10-08, first /code-review-style pass, range ed5900b..238affb on Source, scripts, Tests/Pickle/Source, .github/scripts; findings in docs/runs/2026-10-08.md; review_revision above is the 2026-09-13 manual audit, not a code review)
 in_game_validation_owner: user
 workshop:
   id: "3806100488"
