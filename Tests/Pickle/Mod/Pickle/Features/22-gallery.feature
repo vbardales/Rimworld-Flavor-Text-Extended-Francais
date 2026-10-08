@@ -24,6 +24,7 @@
 #    and is cropped sideways by hand afterwards. Says: the whole name and the whole French description, which the pane cuts.
 # The settings page (4) is a menu: a plain screen capture of what it is, the approved 4-settings-page-in-french.jpg of 1.0.x stays.
 #
+# Order imposed by NPT (lesson of FlavorTextExtended, 2026-10-08): waits, paused, dress, `stands at` LAST, frame, capture, no wait after the frame.
 # After the run every picture is opened and read against this plan; an anomaly that comes from the scene or from a shared tool is described to Pickle Tools
 # with the capture (through the Ticket Manager when the session is unreachable), never worked around here.
 # The cells of the dining nook and of the fire pit are read from PickleTools docs/SANCTUAIRE-CASES.md (the table at (175, 108), the free row z 116 at the fire pit);
@@ -37,6 +38,7 @@ Feature: Workshop pictures of the French meal names
     And I close all dialogs
     And I set the hour to 12
     And I set the weather to "Clear"
+    And Nelim's Pickle Tools: the eclipse of the map is ended
 
   Scenario: the dinner at the dining table
     When Nelim's Pickle Tools: I let 60 ticks pass
@@ -46,8 +48,8 @@ Feature: Workshop pictures of the French meal names
     When Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And Nelim's Pickle Tools: I frame the cell (173, 109) at zoom 3.7
     And I select the meal at (175, 109)
+    And Nelim's Pickle Tools: studio presentation mode is enabled
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    And I wait 30 ticks
     Then I take a screenshot "workshop-1-the-dinner-at-the-dining-table"
     And Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
@@ -60,8 +62,8 @@ Feature: Workshop pictures of the French meal names
     When Nelim's Sanctuary: I am at the sanctuary "fire-pit"
     And Nelim's Pickle Tools: I frame the cell (178, 116) at zoom 5
     And I select the meal at (180, 116)
+    And Nelim's Pickle Tools: studio presentation mode is enabled
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    And I wait 30 ticks
     Then I take a screenshot "workshop-2-the-same-dinner-by-the-fire"
     And Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
@@ -71,8 +73,8 @@ Feature: Workshop pictures of the French meal names
     And a lavish meal made of "Meat_Squirrel", "Milk", "RawRice" and "EggChickenUnfertilized" lies at (90, 140)
     And Nelim's Sanctuary: I am at the sanctuary "window-backdrop-for-height"
     And I open the info card of the meal at (90, 140)
+    And Nelim's Pickle Tools: studio presentation mode is enabled
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
-    And I wait 30 ticks
     Then I take a screenshot "workshop-3-the-whole-name-on-the-card"
     And Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
