@@ -89,7 +89,10 @@ $out = New-Object System.Text.StringBuilder
 [void]$out.AppendLine("Text Extended, both authored in English with no separate non-English source; English is the")
 [void]$out.AppendLine("original for every row.")
 [void]$out.AppendLine()
-[void]$out.AppendLine("Generated $(Get-Date -Format 'yyyy-MM-dd'), revision: working tree after the gender-agreement rule of 2026-09-30.")
+$sha = (git -C $Root rev-parse HEAD).Trim()
+$dirty = if (git -C $Root status --porcelain -- Mod) { " (Mod/ has uncommitted changes: not reproducible)" } else { "" }
+[void]$out.AppendLine("Generated $(Get-Date -Format 'yyyy-MM-dd') from the Mod/ tree of commit $sha$dirty.")
+[void]$out.AppendLine("**Not reviewed yet:** this file is the material for the owner's reading; it validates nothing until her dated review line exists in STATUS.md (TRANSLATIONS.md).")
 [void]$out.AppendLine()
 
 foreach ($ff in $frenchFiles) {
