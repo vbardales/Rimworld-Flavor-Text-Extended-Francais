@@ -66,3 +66,18 @@ Open, and not a session's to do:
 4. **Upstream pull request.** The upstream mod Flavor Text (hekmo) has no git repository (a GitHub search on 2026-10-02 finds
    only the owner's two repositories), so there is nothing to send a pull request to. Flavor Text Extended is the owner's own
    repository (`vbardales/Rimworld-Flavor-Text-Extended`): changes belong there directly.
+
+## Re-check of 2026-10-08
+
+Blobs now (`git hash-object`), against the table above. Unchanged: `AGENTS.md` `44dddcbc8f`, `MOD_SETTINGS.md` `a61cd54192`,
+`Headless/README.md` `c023a674fb`, `Authoring/README.md` `75329decf2`. **Changed since 2026-10-02, not re-read whole**:
+
+| File | New blob | What was read |
+|---|---|---|
+| `AUDIT.md` | `689f79b78c` | Commit `bc206b5` diff only: `prepublished` needs the gallery ready; candidate images are named `<n>-candidate-<name>` (under 2 MB each, 8 MB per folder). Does not change the retained stage (`showcase` / `options`). |
+| `PUBLISHING.md` | `32f93cf148` | Headlines of the gallery rules added 2026-10-02 to 10-06 (staged photos, one story, living things, Preview source set `Art/Preview.config.json`). **Not read in full**: re-read before the gallery of 1.1.0 is retaken. |
+| `TRANSLATIONS.md` | `da906f82cc` | Not re-read; no commit to it since 2026-10-02 in the protocols log, so the blob difference is line-ending or local only: unverified. |
+| `STYLE_RIMWORLD.md`, `WORKSHOP_COMMENTS.md`, `SEARCHING.md`, `PickleTools/README.md`, `steps.md`, `OPERATIONS.md`, `WELCOME.md`, `SUBMIT.md` | moved | Not re-read. Still "not useful" for `SEARCHING.md` and `steps.md`. |
+
+Another session migrated the Preview sources on 2026-10-03 (`Art/Preview.config.json`, see `STATUS.md`); its changes were still
+uncommitted in this tree on 2026-10-08 and were left alone.
