@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased]
+
+- Fixed: 233 short forms of French ingredient names and 31 dishes of the Staples set corrected after the review of 27-28 September
+  (no em dash left in the text).
+- Fixed: wording of several dishes (canard, sauce hollandaise, clou de girofle, pong tia koon, tarte au riz, anguille au vert).
+- Credits: Mlie and Kitsune thanked for their help with the French text.
+- The Preview and the ModIcon are regenerated from their sources (ModIcon now 128 px).
+
 ## [1.0.1] - 2026-09-25
 
 - Fixed: in a meal name with a side dish, the side dish no longer starts with a capital after a French joint
