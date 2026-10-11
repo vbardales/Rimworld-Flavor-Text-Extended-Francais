@@ -57,7 +57,7 @@ Everything provable outside the game is proved outside it, by `scripts/` (build,
 `Test-Fallback*`, `Test-HarmonyRegistration`, `Check-DefInjected`), in seconds. None of those claims
 is repeated here, except the one they could not make: what the running game really stores.
 
-| Feature | What only a running game shows | Scenarios (FUNCTIONAL-SCENARIOS.md) |
+| Feature | What only a running game shows | Scenarios (TEST_SCENARIOS.md) |
 | --- | --- | --- |
 | `01-loads` | The real patch pipeline and loader accept the mod: load order, the targeted defs exist, the LoadFolders-gated Biotech dish exists, a game loads with no error and no warning of the mod's own, and saves and reloads. | F01, F08, F09 (with the DLC) |
 | `02-english-isolation` | In an English game the category overrides keep the values the dependency ships (`FT_Egg`, `FT_Flour`), and the dependencies' labels read as their authors wrote them. Reads the value, not "who patched", which cannot see a wrapper patch. | F02, F07 |

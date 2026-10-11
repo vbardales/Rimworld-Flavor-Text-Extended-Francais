@@ -4,7 +4,7 @@
 # for a person to open and validate. The capture is the deliverable; a green scenario only says the
 # capture was taken.
 #
-# They stand in for the manual scenarios of _tools/FUNCTIONAL-SCENARIOS.md that only need looking:
+# They stand in for the manual scenarios of _tools/TEST_SCENARIOS.md that only need looking:
 #   F04  a plain meat, an elided meat and an aspirated-h meat in the name (cow, squirrel, husky)
 #   F05  the a-form and collective forms in the description
 #   F06  side dishes and the French joining sentences (the two lavish meals, four ingredients)

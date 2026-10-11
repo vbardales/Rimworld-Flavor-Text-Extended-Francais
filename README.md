@@ -72,7 +72,7 @@ The in-game suite (`Tests/Pickle/`, twenty-one features) has played green in ten
 providers, Shenzhou, invented ingredients, a restart, RIMMSQOL, without Biotech, without Anomaly and Odyssey, and meals saved
 before the translation): see `TESTING.md` and `docs/runs/`. Not yet green: the filmed cooking with a colonist (feature 09).
 French agreement of names is judged by a person from the captures, and only RIMMSQOL is covered among customization mods.
-See `STATUS.md` for the current workflow stage, `docs/FUNCTIONAL-SCENARIOS.md` for scenarios and `CHANGELOG.md` for changes.
+See `STATUS.md` for the current workflow stage, `TEST_SCENARIOS.md` for scenarios and `CHANGELOG.md` for changes.
 
 ## Build and technical checks
 
