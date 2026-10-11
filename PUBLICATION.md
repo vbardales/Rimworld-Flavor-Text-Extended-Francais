@@ -115,7 +115,7 @@ load without them):
 - `brrainz.harmony` — Harmony, used directly by `Source/RuntimePatches.cs` and
   `Source/PatchOperationFrench.cs`.
 - `hekmo.FlavorText` — the mod this translates; every DefInjected handle targets its defs.
-- `nelim.flavortextextended` — the sibling mod (901 Extended dishes) this also translates. It has a Workshop item,
+- `nelim.flavortextextended` — the sibling mod (932 Extended dishes) this also translates. It has a Workshop item,
   `3806100152` (its `STATUS.md`: v1.0.0 on 2026-09-22, v1.1.0 by the CI on 2026-09-24), and a GitHub repository
   ([Rimworld-Flavor-Text-Extended](https://github.com/vbardales/Rimworld-Flavor-Text-Extended)). This mod's `About.xml` still links
   it through `steamWorkshopUrl` (`steam://url/CommunityFilePage/3806100152`) and keeps the GitHub `downloadUrl` (done in 1.0.1), and the
@@ -163,7 +163,7 @@ Noms de plats, descriptions et formes d'ingrédients en français pour [url=http
 
 [h2]Ce que ça traduit[/h2]
 
-Les noms et les descriptions de 930 plats de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] et de 901 plats de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url], les cinq réglages de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url], les formes fléchies des ingrédients prédéfinis et les modèles de phrases pour les plats d'accompagnement. Cette traduction n'ajoute aucun nouveau plat.
+Les noms et les descriptions de 930 plats de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] et de 932 plats de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url] avec leurs 233 formes courtes, les cinq réglages de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url], les formes fléchies des ingrédients prédéfinis et les modèles de phrases pour les plats d'accompagnement. Cette traduction n'ajoute aucun nouveau plat.
 
 [h2]Langues[/h2]
 
@@ -260,7 +260,7 @@ French dish names, descriptions and ingredient forms for [url=https://steamcommu
 
 [h2]What it translates[/h2]
 
-The names and descriptions of 930 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] dishes and 901 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url] dishes, the five [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] settings, predefined ingredient inflections and side-dish sentence templates. No new dishes are added by this translation.
+The names and descriptions of 930 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] dishes and 932 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url] dishes with their 233 short forms, the five [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] settings, predefined ingredient inflections and side-dish sentence templates. No new dishes are added by this translation.
 
 [h2]Languages[/h2]
 

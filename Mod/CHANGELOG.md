@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-- Fixed: 233 short forms of French ingredient names and 31 dishes of the Staples set corrected after the review of 27-28 September
+- Fixed: 233 short forms of dishes and 31 dishes of the Staples set corrected after the review of 27-28 September
   (no em dash left in the text).
 - Fixed: wording of several dishes (canard, sauce hollandaise, clou de girofle, pong tia koon, tarte au riz, anguille au vert).
 - Credits: Mlie and Kitsune thanked for their help with the French text.
