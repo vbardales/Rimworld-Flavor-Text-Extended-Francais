@@ -72,7 +72,7 @@ The disk is a constraint, so a report is a cost.
 
 - **Where.** Raw output of a run (`Player.log`, `junit.xml`, `summary.*`, `messages.ndjson`, captures) goes to
   `Tests/Pickle/Evidence/<date>-<pass>/`, which is ignored by git. One text line per run goes to `docs/runs/`,
-  never a folder. `.build/` holds no evidence.
+  never a folder. `build/` holds no evidence.
 - **What stays.** Per scenario, the latest report for the revision now in the repository, plus an older one
   only when it is the sole proof of a check the latest run did not repeat (a language, a pass not replayed).
   What `STATUS.md` points to must exist: repoint the field before deleting its target.

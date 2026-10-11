@@ -101,7 +101,7 @@ It requires both dependency datasets; missing dependencies fail the check.
 
 For interactive acceptance testing, close RimWorld and run
 `& ./scripts/Start-IsolatedGame.ps1 -Language French` (or `English`). The launcher creates a
-fresh profile under `.build/game-tests/`, activates only Core and the three required mods
+fresh profile under `build/game-tests/`, activates only Core and the three required mods
 plus this translation, and writes a separate Player.log. Steam must be accessible so the
 Workshop dependencies are discovered. Enable DLCs or optional integrations within that
 test profile for the corresponding scenarios. `-Headless` is only a loading diagnostic:

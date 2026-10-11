@@ -8,7 +8,7 @@ if (Get-Process RimWorldWin64 -ErrorAction SilentlyContinue) {
     throw 'Close the existing RimWorld process before starting an isolated test.'
 }
 $root = Split-Path $PSScriptRoot
-$run = Join-Path $root ('.build/game-tests/' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '-' + $Language)
+$run = Join-Path $root ('build/game-tests/' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '-' + $Language)
 New-Item -ItemType Directory -Path (Join-Path $run 'Config') -Force | Out-Null
 @'
 <ModsConfigData>

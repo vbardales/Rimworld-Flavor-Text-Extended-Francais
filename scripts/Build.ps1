@@ -5,7 +5,7 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot
-$build = Join-Path $root '.build'
+$build = Join-Path $root 'build'
 New-Item -ItemType Directory -Force $build | Out-Null
 $sdk = @(& dotnet --list-sdks)[-1]
 if ($LASTEXITCODE -ne 0 -or $sdk -notmatch '^([^ ]+) \[(.+)\]$') { throw 'No .NET SDK found.' }

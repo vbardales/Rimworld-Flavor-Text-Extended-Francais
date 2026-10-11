@@ -4,7 +4,7 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 $root=Split-Path $PSScriptRoot
-$output=Join-Path $root '.build/settings-test'
+$output=Join-Path $root 'build/settings-test'
 New-Item -ItemType Directory -Force $output | Out-Null
 foreach($name in @('UnityEngine.CoreModule.dll','UnityEngine.IMGUIModule.dll','Assembly-CSharp.dll')) {
     $null=[Reflection.Assembly]::LoadFrom((Join-Path $Managed $name))

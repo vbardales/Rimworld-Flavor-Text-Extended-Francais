@@ -12,7 +12,7 @@
 .claude/
 
 # Local build and inspection products (never distributed).
-.build/
+build/
 Source/bin/
 Source/obj/
 

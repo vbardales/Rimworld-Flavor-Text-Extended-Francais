@@ -80,7 +80,7 @@ while ($sharedRoot -and -not (Test-Path -LiteralPath (Join-Path $sharedRoot 'Pic
 if ($sharedRoot) {
     foreach ($file in Get-ChildItem -LiteralPath (Join-Path $sharedRoot 'PickleTools') -Directory | Where-Object { $_.Name -ne 'evidence' } |
              ForEach-Object { Get-ChildItem -LiteralPath $_.FullName -Recurse -Filter *.cs } |
-             Where-Object { $_.FullName -match '\\Source\\' -and $_.FullName -notmatch '\\(obj|bin|\.build)\\' }) {
+             Where-Object { $_.FullName -match '\\Source\\' -and $_.FullName -notmatch '\\(obj|bin|build)\\' }) {
         $text = [IO.File]::ReadAllText($file.FullName)
         foreach ($m in [regex]::Matches($text, '\[(?:Given|When|Then)\("((?:[^"\\]|\\.)*)"')) {
             $declared += [pscustomobject]@{
