@@ -36,7 +36,7 @@
     "preSized": true,
     "color": "var(--accent)",
     "width": 240,
-    "height": 186,
+    "height": 160,
     "opacity": 1,
     "veil": false,
     "panelTop": 18,
