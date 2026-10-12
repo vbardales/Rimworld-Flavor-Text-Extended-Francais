@@ -8,8 +8,8 @@ visibility_verified_at: 2026-09-21
 visibility_evidence: "gh api repos/vbardales/Rimworld-Flavor-Text-Extended-Francais: private=false; git ls-remote HEAD = b62253a"
 mod_visibility: GitHub public; Workshop item 3806100488 public (owner, 2026-09-25, after 1.0.1; not checked by a session)
 detached: yes
-workflow_stage: playTests[1.1.0]
-stage_meaning: "2026-10-11: playTests[1.1.0]. The audit (AUDIT.md applied, backward reading) stopped at writeTests on 7.g only; Virginie validated the French the same day (review line under Translation audit, translation_fr complete, revision b8327f3), so every criterion of writeTests holds and the stage moves on. To do here: feature 07 alone on the current DLL, then the passes on the new tree, non-regression last (TESTING.md), then the one code review (8.m) before shootGallery."
+workflow_stage: shootGallery[1.1.0]
+stage_meaning: "2026-10-12: shootGallery[1.1.0]. playTests closed: feature 07 (the only unverified replay) green on the current DLL (request fd8c, 5/5), captures opened, code review stamped (code_review_sha), settings and French passes green on 1.0.1 and unchanged in code since 44a8cbc. The non-regression pass of the new tree runs after the commit and deployment (fail fast, AUDIT.md). To do here: gallery for 1.1.0, ticket dc06 of 2026-10-09 (feature 22, Sanctuary) is done and its captures are to be opened and judged."
 stage_meaning_previous: "replaced 2026-10-11, was workflow_stage options (old vocabulary, now declareDependencies): replaced 2026-10-02 (AUDIT.md step 12, backward audit): the first transition that fails is options -> l10n, because translation_fr is partial since the French review rule of TRANSLATIONS.md (2026-09-30): no French text is `complete` until Virginie has reviewed it and the review line exists. This is a missing review, not a found defect: the code, the XML, the offline battery, the Pickle suite and the published 1.0.1 are untouched. The stage returns to `done` when her dated review line is recorded under Translation audit (and the 07 replay below keeps the later gates honest). Previous reading, kept: done again (2026-09-28): the published 1.0.1 stays on the Workshop, but the repository is now ahead of it with a minor version in preparation (233 short forms and 31 dishes translated for Flavor Text Extended 1.2.0, no em dash in the French text, several wording corrections). Those changes are checked out of game only (`Test-Xml` and the offline battery are green); the in-game passes have to be replayed on the new tree before `tested` holds again. History of the previous reading, kept: published (2026-09-28 reading): 1.0.0 then 1.0.1 uploaded by the CI on 2026-09-25, the item is public and subscribed to (owner), the in-game passes are green (passes 1 to 10, feature 20, cooking 2b) and the non-regression replay was played after the 1.0.1 publication under fail fast. The stage had stayed at done until then only because nobody had recorded the transitions; they are recorded in the table below. Older text, kept for history: ready for in-game validation. The 2026-09-22 audit corrections restored the literal unofficial notice and repaired the offline test runners; the complete out-of-game battery is green. Existing in-game evidence and remaining scenarios are tracked separately."
 licence: silent
 licence_declared: "MIT limited to rights held by the contributor"
@@ -32,7 +32,7 @@ showcase: complete
 build: passed
 automated_tests: passed
 xml_tests: passed
-tested_on:
+tested_on: 2026-10-12 (feature 07, French, sans-facultatifs, request fd8c, 5/5 on tree 02c7139; the other passes were green on 1.0.1, see in_game_runs and docs/runs)
 automated_tested_on: 2026-09-21 (rerun from the current sources after the language fix)
 in_game_runs: "2026-09-21 (before the language fix and the revisions): English 18/24, French 24/24, RIMMSQOL 4/4, all superseded. 2026-09-23/24, suite 846c156 and after, all exitReason passed: pass 1 English 21/0, pass 2 French 27/0 (03, 01, 04, 05, 06, 19, 07), pass 3 providers 06 3/3 + 01 5/5, pass 4 Shenzhou 06 3/3 + 01 5/5, pass 5 invented foods 4/4, pass 6 restart pair 1/1 + 2/2, pass 7 RIMMSQOL 3/3 + 1/1 x3, pass 8 without Biotech 2/2, pass 9 without Anomaly/Odyssey 2/2. 2026-09-24 (after the first attempts failed for causes of the step, not of the mod): feature 20 provider tables in passes 3 and 4 (12 then 16 tables read as written), the F13 fixture made by feature 21, pass 10 (F13) 1/1. Not green yet: pass 2b, the cooking film. Detail: docs/runs/2026-09-23.md and 2026-09-24.md"
 last_fix_revision: 164104b
@@ -43,7 +43,7 @@ tag_revision: 43dd52da70c3ffbdb3ab55c7301e877be88040e9
 release: "https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais/releases/tag/v1.0.0 (created by the CI after the upload, 2026-09-25)"
 audit_revision: 634066483d44f51201aa8ea0722da4b796864aad
 review_revision: c675e87
-code_review_sha: 238affb09622a3147e26a83ccc360155b0d10652  # was `code_review_revision`: <sha> (2026-10-08, first /code-review-style pass, range ed5900b..238affb on Source, scripts, Tests/Pickle/Source, .github/scripts; findings in docs/runs/2026-10-08.md; review_revision above is the 2026-09-13 manual audit, not a code review)
+code_review_sha: f0ea3fbce6cea2d649ea99bf4c7c4f855dcf6fba  # 2026-10-12: range 238affb..f0ea3fbce6cea2d649ea99bf4c7c4f855dcf6fba re-read (Source unchanged since 44a8cbc; Mod/ French text and About only; build/ rename in scripts). The 2026-10-08 findings stay open in remaining
 in_game_validation_owner: user
 workshop:
   id: "3806100488"
@@ -91,7 +91,7 @@ remaining:
   - "defect (not a stage-chain transition): Mod/About/ModIcon.png is 1254 x 1254 and 1,444,880 bytes and ships with Mod/ (Steam publishes it unfiltered); PUBLISHING.md says about 128 px is enough. Legibility at 32 px is fine (checked 2026-10-02), the defect is the weight. Only the owner generates or resizes a ModIcon: asked, not touched."
   - "unverified (done -> tested): feature 07 (lavish meals) must be replayed on the current DLL: the last French pass (2026-09-28 15:45 to 15:58) predates 44a8cbc (bounded LowerSideDishes search, 2026-09-28 22:40). Pass 3 folders (mtime 2026-09-29) do not record their tree SHA. Order: 07 alone first (small ticket), then every non-regression pass together at the end on the final revision (AUDIT.md, 2026-10-02)."
   - "unverified (done -> tested): every conditional scenario had its pass, on older builds (table in TESTING.md, Conditions of tested); no scenario is @wip; no manual test is left (FUNCTIONAL-SCENARIOS.md mapped to the Pickle features)."
-protocols_read_sha: 71363b2e20b7f8457c78f8f5d87e2b01ae06d782
+protocols_read_sha: 758bdcd280c907b7af7bdce53a5d574ede7607be
 ---
 
 # Audit - 2026-10-11 (AUDIT.md applied, backward reading, current protocols)
