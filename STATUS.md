@@ -44,7 +44,7 @@ release: "https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais/re
 audit_revision: 634066483d44f51201aa8ea0722da4b796864aad
 review_revision: c675e87
 code_review_sha: f0ea3fbce6cea2d649ea99bf4c7c4f855dcf6fba  # 2026-10-12: range 238affb..f0ea3fbce6cea2d649ea99bf4c7c4f855dcf6fba re-read (Source unchanged since 44a8cbc; Mod/ French text and About only; build/ rename in scripts). The 2026-10-08 findings stay open in remaining
-echo_review_sha: e1dc98b2a07832016a17cd67a6236ea97309cdf7  # 2026-10-12: Art/echo-concept.png (concept illustration, no capture shows the subject: the meals) replaces echo.png; echo.file in Preview.config.json, flipX falsesocial_preview_sha256: 93b0889e6e88d8813c1fefe29977e0a131feb5ed76544e7455d3e3a57e1a0fb9  # 2026-10-12: Mod/About/Preview.png uploaded to GitHub Settings > Social preview, og:image of the repository page downloaded and hashed: identical
+echo_review_sha: 05155639981460937f0d641c8e34aecca952a32d  # 2026-10-12: Art/echo-concept.png (concept illustration, no capture shows the subject: the meals) replaces echo.png; echo.file in Preview.config.json, flipX falsesocial_preview_sha256: 93b0889e6e88d8813c1fefe29977e0a131feb5ed76544e7455d3e3a57e1a0fb9  # 2026-10-12: Mod/About/Preview.png uploaded to GitHub Settings > Social preview, og:image of the repository page downloaded and hashed: identical
 in_game_validation_owner: user
 workshop:
   id: "3806100488"
