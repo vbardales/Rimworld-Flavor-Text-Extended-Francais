@@ -32,17 +32,17 @@
   "backgroundSize": "cover",
   "modIconSource": "ModIcon-source.png",
   "echo": {
-    "file": "echo.png",
+    "file": "echo-concept.png",
     "preSized": true,
     "color": "var(--accent)",
     "width": 240,
-    "height": 180,
+    "height": 186,
     "opacity": 1,
     "veil": false,
     "panelTop": 18,
     "panelRight": 1,
     "panelWidth": 44,
-    "flipX": true
+    "flipX": false
   },
   "iconBadge": {
     "file": "ModIcon-source.png",
