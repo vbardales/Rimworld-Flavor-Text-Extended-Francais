@@ -1,3 +1,4 @@
+# 2026-10-12 recompose after the owner refused the first three: Nelim's face by the SanctuaryBacklot recipe (kit neutral, then "Nelim has her own face", verified in 56b0), the map held at 20 degrees for 120 ticks (no heat sweat), a closer frame (zoom 4.5 on the table and her face). Food Texture Variety still unexplained: asked of NPT/SB (archived), see STATUS.md.
 # Workshop pictures of 1.1.0: one staged story, played on Nelim's sanctuary (save Nelims-tribe), the fixture of every mod's gallery (PickleTools docs/GALERIE.md).
 # Reuses the scenes of Flavor Text Extended's own gallery "Lunch is served" (FlavorText/FlavorTextExtended, Features/10-gallery-scenes.feature, run 49d4, owner's
 # word 2026-10-08), played here with THIS mod loaded, so the dish names and descriptions on the cards are the French ones. Pass:
@@ -35,6 +36,8 @@ Feature: Lunch is served, in French
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 60 ticks
     And game speed is paused
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
     And Flavor Text Extended: a colonist also cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: a colonist also cooks "CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
@@ -45,7 +48,9 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
+    And Nelim's Pickle Tools: "Nelim" face kit is "neutral"
+    And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
@@ -59,6 +64,8 @@ Feature: Lunch is served, in French
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 268 ticks
     And game speed is paused
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     Given Nelim's Pickle Tools: "Nelim" body type is Female
@@ -67,7 +74,9 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
+    And Nelim's Pickle Tools: "Nelim" face kit is "neutral"
+    And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
@@ -81,6 +90,8 @@ Feature: Lunch is served, in French
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 477 ticks
     And game speed is paused
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
@@ -90,7 +101,9 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    And Nelim's Pickle Tools: I frame the cell (181, 108) at zoom 6.5
+    And Nelim's Pickle Tools: "Nelim" face kit is "neutral"
+    And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
