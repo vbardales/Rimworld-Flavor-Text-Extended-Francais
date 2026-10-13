@@ -1,0 +1,6 @@
+# Pass "babel": RimBabel translates Food Texture Variety with the LibreTranslate engine of the local server (docker in WSL, port 5000).
+# Development only. The bundle: RimBabel (by path, its own companion is staged by the launcher only for -Mod RimBabel), then the companion of this pass.
+Goat.Food.Texture.Variety.Core 3354455179
+Goat.Food.Texture.Variety      3354456321
+nelim.rimbabel                 path:RimBabel/Mod
+nelim.flavortextextended.fr.pickletests.babel path:FlavorText/FlavorTextExtendedFR/Tests/Pickle/BabelMod

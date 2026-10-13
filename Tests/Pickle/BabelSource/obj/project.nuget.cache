@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dYNYubt8Als=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nelim\\Documents\\rimworld\\FlavorText\\FlavorTextExtendedFR\\Tests\\Pickle\\BabelSource\\FtfrBabel.PickleSteps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nelim\\.nuget\\packages\\krafs.rimworld.ref\\1.6.4871\\krafs.rimworld.ref.1.6.4871.nupkg.sha512",
+    "C:\\Users\\nelim\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\nelim\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "C:\\Users\\nelim\\.nuget\\packages\\rimworks.pickle.ref\\4.10.2\\rimworks.pickle.ref.4.10.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Flavor Text Extended - Français - Pickle tests (RimBabel)</name>
+  <author>Nelim</author>
+  <packageId>nelim.flavortextextended.fr.pickletests.babel</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Development only, never published. Steps of this repository that drive RimBabel (translate an installed mod with the LibreTranslate engine of a local server and copy the package out). Kept in a mod of its own, staged only by wsl-deps.babel.map, because its assembly binds to RimBabel.dll and would fail to load in every pass that does not stage RimBabel.</description>
+  <modDependencies>
+    <li>
+      <packageId>nelim.rimbabel</packageId>
+      <displayName>RimBabel</displayName>
+    </li>
+    <li>
+      <packageId>rimworks.pickle</packageId>
+      <displayName>Pickle</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3791648678</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>nelim.rimbabel</li>
+    <li>rimworks.pickle</li>
+  </loadAfter>
+</ModMetaData>

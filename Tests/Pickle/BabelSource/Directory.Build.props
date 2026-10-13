@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)..\..\..\build\pickle-babel\obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>
