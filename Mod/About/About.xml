@@ -90,5 +90,7 @@ No explicit upstream permission has been established; see ATTRIBUTION.md and LIC
     <li>Ludeon.RimWorld</li>
     <li>hekmo.FlavorText</li>
     <li>nelim.flavortextextended</li>
+    <li>Goat.Food.Texture.Variety.Core</li>
+    <li>Goat.Food.Texture.Variety</li>
   </loadAfter>
 </ModMetaData>

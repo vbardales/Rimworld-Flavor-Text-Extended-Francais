@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FTV_CookMealSimple.label>cuisiner un plat simple (variété)</FTV_CookMealSimple.label>
+  <FTV_CookMealSimple.description>Prépare un plat basique composé d'un seul ingrédient.</FTV_CookMealSimple.description>
+  <FTV_CookMealSimple.jobString>Cuisine un plat simple.</FTV_CookMealSimple.jobString>
+  <FTV_CookMealSimpleBulk.label>cuisiner des plats simples x4 (variété)</FTV_CookMealSimpleBulk.label>
+  <FTV_CookMealSimpleBulk.description>Prépare quatre plats basiques composés d'un seul ingrédient.</FTV_CookMealSimpleBulk.description>
+  <FTV_CookMealSimpleBulk.jobString>Cuisine quatre plats simples.</FTV_CookMealSimpleBulk.jobString>
+  <FTV_CookMealFine.label>cuisiner un plat raffiné (variété)</FTV_CookMealFine.label>
+  <FTV_CookMealFine.description>Prépare un plat assez élaboré en combinant de la viande et des végétaux.</FTV_CookMealFine.description>
+  <FTV_CookMealFine.ingredients.0.filter.customSummary>protéine</FTV_CookMealFine.ingredients.0.filter.customSummary>
+  <FTV_CookMealFine.jobString>Cuisine un plat raffiné.</FTV_CookMealFine.jobString>
+  <FTV_CookMealFineBulk.label>cuisiner des plats raffinés x4 (variété)</FTV_CookMealFineBulk.label>
+  <FTV_CookMealFineBulk.description>Prépare quatre plats assez élaborés en combinant de la viande et des végétaux. Certains ingrédients sont gaspillés afin de créer une bonne expérience culinaire.</FTV_CookMealFineBulk.description>
+  <FTV_CookMealFineBulk.ingredients.0.filter.customSummary>protéine</FTV_CookMealFineBulk.ingredients.0.filter.customSummary>
+  <FTV_CookMealFineBulk.jobString>Cuisine quatre plats raffinés.</FTV_CookMealFineBulk.jobString>
+  <FTV_CookMealLavish.label>cuisiner un plat gastronomique (variété)</FTV_CookMealLavish.label>
+  <FTV_CookMealLavish.description>Prépare un plat très élaboré en combinant de la viande et des végétaux. La majorité des ingrédients sont gaspillés afin de créer la meilleure expérience culinaire.</FTV_CookMealLavish.description>
+  <FTV_CookMealLavish.ingredients.0.filter.customSummary>protéine</FTV_CookMealLavish.ingredients.0.filter.customSummary>
+  <FTV_CookMealLavish.jobString>Cuisine un plat gastronomique.</FTV_CookMealLavish.jobString>
+  <FTV_CookMealLavishBulk.label>cuisiner des plats gastronomiques x4 (variété)</FTV_CookMealLavishBulk.label>
+  <FTV_CookMealLavishBulk.description>Prépare quatre plats très élaborés en combinant de la viande et des végétaux. La majorité des ingrédients sont gaspillés afin de créer la meilleure expérience culinaire.</FTV_CookMealLavishBulk.description>
+  <FTV_CookMealLavishBulk.ingredients.0.filter.customSummary>protéine</FTV_CookMealLavishBulk.ingredients.0.filter.customSummary>
+  <FTV_CookMealLavishBulk.jobString>Cuisine quatre plats gastronomiques.</FTV_CookMealLavishBulk.jobString>
+</LanguageData>

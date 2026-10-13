@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FTV_MealSimple.label>plat simple</FTV_MealSimple.label>
+  <FTV_MealSimple.description>Un plat simple cuisiné rapidement à partir d'un seul ingrédient principal.</FTV_MealSimple.description>
+  <FTV_MealFine.label>plat raffiné</FTV_MealFine.label>
+  <FTV_MealFine.description>Un plat élaboré avec soin à partir d'ingrédients variés.</FTV_MealFine.description>
+  <FTV_MealLavish.label>plat gastronomique</FTV_MealLavish.label>
+</LanguageData>
