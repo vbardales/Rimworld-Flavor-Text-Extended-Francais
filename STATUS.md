@@ -97,7 +97,7 @@ remaining:
   - "defect (not a stage-chain transition): Mod/About/ModIcon.png is 1254 x 1254 and 1,444,880 bytes and ships with Mod/ (Steam publishes it unfiltered); PUBLISHING.md says about 128 px is enough. Legibility at 32 px is fine (checked 2026-10-02), the defect is the weight. Only the owner generates or resizes a ModIcon: asked, not touched."
   - "unverified (done -> tested): feature 07 (lavish meals) must be replayed on the current DLL: the last French pass (2026-09-28 15:45 to 15:58) predates 44a8cbc (bounded LowerSideDishes search, 2026-09-28 22:40). Pass 3 folders (mtime 2026-09-29) do not record their tree SHA. Order: 07 alone first (small ticket), then every non-regression pass together at the end on the final revision (AUDIT.md, 2026-10-02)."
   - "unverified (done -> tested): every conditional scenario had its pass, on older builds (table in TESTING.md, Conditions of tested); no scenario is @wip; no manual test is left (FUNCTIONAL-SCENARIOS.md mapped to the Pickle features)."
-protocols_read_sha: 758bdcd280c907b7af7bdce53a5d574ede7607be
+protocols_read_sha: 5e7c922c02ef44b3ee1357f59dde11a7da5e66f6
 ---
 
 # Audit - 2026-10-11 (AUDIT.md applied, backward reading, current protocols)
