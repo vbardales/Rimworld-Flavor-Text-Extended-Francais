@@ -5,7 +5,7 @@
 - Fixed: 233 short forms of dishes and 31 dishes of the Staples set corrected after the review of 27-28 September
   (no em dash left in the text).
 - Fixed: wording of several dishes (canard, sauce hollandaise, clou de girofle, pong tia koon, tarte au riz, anguille au vert).
-- Added: French for the Food Texture Variety meals (kind label, description, cooking recipes), loaded only with that mod; it is also declared in loadAfter.
+- Added: French translations for the Food Texture Variety meals (kind label, description, cooking recipes), loaded only with that mod; it is also declared in loadAfter.
 - Credits: Mlie and Kitsune thanked for their help with the French text.
 - The Preview and the ModIcon are regenerated from their sources (ModIcon now 128 px).
 

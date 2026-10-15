@@ -10,12 +10,12 @@
 	<FlavorText_Meat_Seafood_Sushi.description>{2_coll} vinaigré et sucré, moulé autour d'une garniture {0_adj} crus soigneusement choisis et {1_adj}, une affaire de goût et de texture avant tout.</FlavorText_Meat_Seafood_Sushi.description>
 	<FlavorText_MeatRaw_Lumpia.description>le nom couvre plusieurs rouleaux de printemps de Chine, d'Indonésie et des Philippines. Ceux-ci sont faits d'une feuille de pâte {2_adj} fine comme du papier, enroulée sur une garniture {0_adj} et {1_adj}.</FlavorText_MeatRaw_Lumpia.description>
 	<FlavorText_MeatRaw_Sarma.description>une farce {2_adj} et {0_adj} hachée, roulée dans des feuilles {1_adj} comestibles et cuite au bouillon dans une grande marmite.</FlavorText_MeatRaw_Sarma.description>
-	<FlavorText_MeatRaw_Wontons.description>un ravioli {0_adj} enfermée dans une pâte {2_adj} et poché au bouillon. Servi ici avec une sauce sucrée pour tremper.</FlavorText_MeatRaw_Wontons.description>
+	<FlavorText_MeatRaw_Wontons.description>un ravioli {0_adj} enfermé dans une pâte {2_adj} et poché au bouillon. Servi ici avec une sauce sucrée pour tremper.</FlavorText_MeatRaw_Wontons.description>
 	<FlavorText_Tsampa.description>une pâte glutineuse d'origine tibétaine, faite d'une farine {1_adj} grillée. On la travaille du bout des doigts dans {2_coll} beurré pour former une petite boulette qui s'avale d'un coup.</FlavorText_Tsampa.description>
 	<FlavorText_PlantFoodRaw_SpringRolls.description>une garniture {1_adj} et {0_adj}, enroulée dans une galette {2_adj} très fine.</FlavorText_PlantFoodRaw_SpringRolls.description>
 	<FlavorText_Rice_Balls.description>{0_coll} cuit à la vapeur puis pressé en boules, qui se mangent à la main.</FlavorText_Rice_Balls.description>
 	<FlavorText_Bean_Mochi.description>des boules souples de pâte {0_adj} pilé et sucré, adoucies {1_plur} et refermées sur une garniture {2_adj}.</FlavorText_Bean_Mochi.description>
-	<FlavorText_Dango.description>une quenelle japonaise faite d'une farine {0_adj} et d'une farine {1_adj}. On les roule en boules et on les sert en brochette. Celui-ci vient avec un sirop {2_adj}.</FlavorText_Dango.description>
+	<FlavorText_Dango.description>une boulette japonaise faite d'une farine {0_adj} et d'une farine {1_adj}. On la roule en boule et on la sert en brochette. Celle-ci vient avec un sirop {2_adj}.</FlavorText_Dango.description>
 	<FlavorText_Dolma.description>un plat farci associé à la cuisine ottomane : une pièce {2_adj} entière, évidée et garnie d'une farce {0_adj} et {1_adj}.</FlavorText_Dolma.description>
 	<FlavorText_Dolma_2.description>un plat farci associé à la cuisine ottomane : des abats {2_adj} garnis d'une farce {0_adj} et {1_adj}.</FlavorText_Dolma_2.description>
 	<FlavorText_Dosa.description>une crêpe fine et salée de la cuisine indienne, faite d'une pâte fermentée {1_adj} moulus et {0_adj}.</FlavorText_Dosa.description>

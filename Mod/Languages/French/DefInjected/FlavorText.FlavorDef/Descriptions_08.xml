@@ -86,7 +86,7 @@
 		L'original écrit ici « powdered {2_coll} » alors que la def n'a que deux slots :
 		second placeholder mort du mod, après le {1-sing} des labels. On retombe sur {0}.
 	-->
-	<FlavorText_Powdered_PlantFoodRaw_Balls.description>des billes parfaitement sphériques {1_adj} coagulés, poudrées d'une poudre {0_adj}.</FlavorText_Powdered_PlantFoodRaw_Balls.description>
+	<FlavorText_Powdered_PlantFoodRaw_Balls.description>des billes parfaitement sphériques {1_adj}, figées en masse, poudrées d'une poudre {0_adj}.</FlavorText_Powdered_PlantFoodRaw_Balls.description>
 
 	<FlavorText_Mushed_Potato.description>proche de la purée {0_adj}, mais d'une consistance plus singulière, assez proche de la colle.</FlavorText_Mushed_Potato.description>
 	<FlavorText_Rice_Gruel.description>{0_coll} pulvérisé et délayé dans l'eau.</FlavorText_Rice_Gruel.description>

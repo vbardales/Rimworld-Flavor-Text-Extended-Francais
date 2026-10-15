@@ -20,8 +20,8 @@
 	<FlavorText_FishFingersAndCustard.description>des bâtonnets {0_adj} panés et frits, servis avec un grand bol de crème anglaise à la vanille.</FlavorText_FishFingersAndCustard.description>
 
 	<!-- Fritures salées -->
-	<FlavorText_Acaraj.description>un beignet croustillant venu des Yoruba d'Afrique et très répandu au Brésil. Une pâte {0_adj} crus, moulue à la meule, salée, poivrée et mêlée {1_adj} en dés, façonnée à la taille d'une paume puis frite.</FlavorText_Acaraj.description>
-	<FlavorText_Akara.description>un beignet croustillant venu des Yoruba d'Afrique et très répandu au Brésil. Une pâte {0_adj} crus, moulue à la meule, salée, poivrée et mêlée d'oignon haché, façonnée à la taille d'une paume puis frite.</FlavorText_Akara.description>
+	<FlavorText_Acaraj.description>un beignet croustillant venu des Yoruba d'Afrique et très répandu au Brésil. Une pâte {0_adj} à l'état cru, moulue à la meule, salée, poivrée et mêlée {1_adj} en dés, façonnée à la taille d'une paume puis frite.</FlavorText_Acaraj.description>
+	<FlavorText_Akara.description>un beignet croustillant venu des Yoruba d'Afrique et très répandu au Brésil. Une pâte {0_adj} à l'état cru, moulue à la meule, salée, poivrée et mêlée d'oignon haché, façonnée à la taille d'une paume puis frite.</FlavorText_Akara.description>
 	<FlavorText_KalamarTava.description>une friture de rue turque : des anneaux {0_adj} passés à la pâte à frire et jetés en huile bouillante.</FlavorText_KalamarTava.description>
 	<FlavorText_Chili_Poppers.description>{0_coll} entiers évidés, farcis de fromage, panés et frits.</FlavorText_Chili_Poppers.description>
 	<FlavorText_Pastel.description>un chausson brésilien, salé ou sucré, vendu dans la rue. Une pâte {0_adj} est abaissée en cercle ou en carré, repliée sur une farce {1_adj} hachée, et les bords sont pincés. On le plonge ensuite dans une huile assez profonde pour l'immerger, jusqu'à ce qu'il soit doré et craquant.</FlavorText_Pastel.description>
@@ -33,7 +33,7 @@
 	<FlavorText_GeneralTsos_Meat_Poultry.description>un plat sino-américain : de petits morceaux {0_adj} panés et frits, puis enrobés d'une sauce au soja sucrée et pimentée.</FlavorText_GeneralTsos_Meat_Poultry.description>
 	<FlavorText_Crispy_Soy.description>{0_coll} frit en pleine huile, à l'extérieur léger et craquant. Boit la saveur de n'importe quelle sauce.</FlavorText_Crispy_Soy.description>
 	<FlavorText_Malakoffs.description>des boules de fromage compact enrobées d'une pâte {0_adj} et frites en pleine huile jusqu'à ce qu'elles croustillent.</FlavorText_Malakoffs.description>
-	<FlavorText_Falafel.description>des beignets d'origine égyptienne, faits d'une pâte {0_adj} grossièrement moulus et très épicée, frite en pleine huile.</FlavorText_Falafel.description>
+	<FlavorText_Falafel.description>des beignets d'origine égyptienne, faits d'une pâte {0_adj} grossièrement moulue et très épicée, frite en pleine huile.</FlavorText_Falafel.description>
 	<FlavorText_Hushpuppies.description>une petite boule salée de pâte à la semoule de maïs, frite en pleine huile. On la sert le plus souvent en accompagnement des fruits de mer et des autres fritures.</FlavorText_Hushpuppies.description>
 	<FlavorText_PigsInABlanket.description>des saucisses {2_adj} roulées dans une couverture de pâte feuilletée {0_adj}.</FlavorText_PigsInABlanket.description>
 	<FlavorText_SausageAndPancakesOnAStick.description>une variante du corn dog où la pâte à la semoule de maïs cède la place à une pâte à pancakes {0_adj}. À l'intérieur, une saucisse {2_adj}.</FlavorText_SausageAndPancakesOnAStick.description>
@@ -44,7 +44,7 @@
 	<FlavorText_RockyMountainOysters.description>des testicules {0_adj} panés et frits, ainsi nommés d'après les montagnes Rocheuses de l'ouest américain et canadien, où ils étaient le sous-produit de la castration des veaux. Se servent en entrée, avec une sauce.</FlavorText_RockyMountainOysters.description>
 	<FlavorText_Salchipapa.description>un plat de rue sud-américain : des saucisses {0_adj} taillées en rondelles et poêlées, mêlées à des frites.</FlavorText_Salchipapa.description>
 	<FlavorText_Meat_Fish_Fillets.description>des filets {0_adj} passés à la chapelure et frits jusqu'à ce qu'ils croustillent.</FlavorText_Meat_Fish_Fillets.description>
-	<FlavorText_FishAndChips.description>un plat britannique {0_adj} panée et frite, servie avec des frites {1_adj}.</FlavorText_FishAndChips.description>
+	<FlavorText_FishAndChips.description>un plat britannique {0_adj} en panure, frit à l'huile, servi avec des frites {1_adj}.</FlavorText_FishAndChips.description>
 	<FlavorText_Tonkatsu.description>des côtelettes {0_adj} panées au panko et frites en pleine huile.</FlavorText_Tonkatsu.description>
 	<FlavorText_PoulFri.description>{0_coll} frite à la haïtienne : pilons ou cuisses marinés dans du jus de citron et un mélange d'oignon, de poivron, de persil, d'ail et de vinaigre de cidre.</FlavorText_PoulFri.description>
 	<FlavorText_MeatRaw_ScotchEgg.description>un {2_sing} dur enfermé dans une chair à saucisse {1_adj} et {0_adj}, puis pané et frit.</FlavorText_MeatRaw_ScotchEgg.description>
@@ -66,7 +66,7 @@
 	<FlavorText_Fruit_BrownBetty.description>un dessert américain : des couches {0_adj} alternées avec de la chapelure sucrée, cuites au four dans un plat creux.</FlavorText_Fruit_BrownBetty.description>
 	<FlavorText_Fruit_Buckle.description>un gâteau d'une seule couche : on couvre une pâte {2_adj} {0_plur}, qui s'enfoncent dans l'appareil pendant la cuisson.</FlavorText_Fruit_Buckle.description>
 	<FlavorText_Fruit_Cobbler.description>un dessert en cocotte : une garniture {0_adj} couverte de grosses cuillerées de pâte à scone {2_adj}, puis passée au four.</FlavorText_Fruit_Cobbler.description>
-	<FlavorText_Fruit_Crisp.description>un dessert {0_adj} sucrés, sous une croûte craquante {2_adj}, passé au four.</FlavorText_Fruit_Crisp.description>
+	<FlavorText_Fruit_Crisp.description>un dessert sucré {0_adj}, sous une croûte craquante {2_adj}, passé au four.</FlavorText_Fruit_Crisp.description>
 	<FlavorText_Fruit_Crumble.description>un dessert proche du croustillant : une garniture {2_adj} sucrée, couverte d'une croûte craquante {0_adj} et passée au four.</FlavorText_Fruit_Crumble.description>
 	<FlavorText_Baumkuchen.description>un gâteau né dans l'ancienne Allemagne, cuit à la broche plutôt qu'au moule. La broche est un gros cylindre de métal tournant au-dessus d'une flamme, sur lequel on applique la pâte {0_adj} couche après couche : à la coupe, le gâteau montre des cernes d'arbre.</FlavorText_Baumkuchen.description>
 	<FlavorText_Pfeffernsse.description>de petits biscuits de Noël allemands, gros comme une noix et très épicés {1_plur}. On les poudre de sucre glace et on les enferme plusieurs semaines dans une boîte hermétique : ils s'attendrissent pendant que leurs arômes {1_adj} se développent.</FlavorText_Pfeffernsse.description>
