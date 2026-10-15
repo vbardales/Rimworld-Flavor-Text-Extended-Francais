@@ -1,0 +1,221 @@
+# Grammatical gender and number of the ingredients that Flavor Text Extended - Français names, so that a French word marked in a text (for example ~pané~) agrees with the ingredient written just before it.
+# One line per ingredient def: defName, then two codes, then a comment (the a-form and the singular form, for the reviewer).
+#   first code  = the form shown by the plural, collective and de- tokens ({N_plur} {N_coll} {N_adj}): m or f, then s or p (ms = masculine singular, fp = feminine plural).
+#   second code = the form shown by the singular token ({N_sing}).
+# An ingredient that is not listed gets no agreement: the marked word stays in its masculine singular form.
+# Written by hand from the French forms in Mod/Patches; to be reviewed by Virginie.
+RawBerries	fp	fs	# aux baies / baie
+RawRice	ms	ms	# au riz / riz
+RawAgave	mp	ms	# aux fruits d'agave / fruit d'agave
+RawPotatoes	fp	fs	# aux pommes de terre / pomme de terre
+RawCorn	ms	ms	# au maïs / maïs
+RawFungus	mp	ms	# aux champignons / champignon
+RawHops	ms	ms	# au houblon / houblon
+InsectJelly	fs	fs	# à la gelée d'insecte / gelée d'insecte
+Milk	ms	ms	# au lait / lait
+Beer	fs	fs	# à la bière / bière
+Chocolate	ms	ms	# au chocolat / chocolat
+Ambrosia	ms	fs	# à l'ambroisie / ambroisie
+Hay	ms	ms	# au foin / foin
+Kibble	fp	fs	# aux croquettes / croquette
+Pemmican	ms	ms	# au pemmican / pemmican
+Wort	ms	ms	# au moût / moût
+Meat_Human	fs	fs	# à la chair humaine / chair humaine
+Meat_Megaspider	fs	fs	# à la chair d'insecte / chair d'insecte
+Meat_Boomalope	fs	fs	# à la viande explosive / viande explosive
+Meat_Bear_Grizzly	fs	fs	# à la viande d'ours / viande d'ours
+Meat_Cassowary	fs	fs	# à la viande d'oiseau / viande d'oiseau
+Meat_Cougar	fs	fs	# à la viande de cougar / viande de cougar
+Meat_Lynx	fs	fs	# à la viande de lynx / viande de lynx
+Meat_Cat	fs	fs	# à la viande de chat / viande de chat
+Meat_YorkshireTerrier	fs	fs	# à la viande de yorkshire terrier / viande de yorkshire terrier
+Meat_GuineaPig	fs	fs	# à la viande de cobaye / viande de cobaye
+Meat_LabradorRetriever	fs	fs	# à la viande de labrador / viande de labrador
+Meat_Husky	fs	fs	# à la viande de husky / viande de husky
+Meat_Monkey	fs	fs	# à la viande de singe / viande de singe
+Meat_Chicken	fs	fs	# à la viande de poulet / viande de poulet
+Meat_Duck	fs	fs	# à la viande de canard / viande de canard
+Meat_Turkey	fs	fs	# à la viande de dinde / viande de dinde
+Meat_Cow	fs	fs	# à la viande de bœuf / viande de bœuf
+Meat_Muffalo	fs	fs	# à la viande de muffalo / viande de muffalo
+Meat_Bison	fs	fs	# à la viande de bison / viande de bison
+Meat_Dromedary	fs	fs	# à la viande de dromadaire / viande de dromadaire
+Meat_Goat	fs	fs	# à la viande de chèvre / viande de chèvre
+Meat_Elk	fs	fs	# à la viande de wapiti / viande de wapiti
+Meat_Yak	fs	fs	# à la viande de yak / viande de yak
+Meat_Caribou	fs	fs	# à la viande de caribou / viande de caribou
+Meat_Horse	fs	fs	# à la viande de cheval / viande de cheval
+Meat_Donkey	fs	fs	# à la viande d'âne / viande d'âne
+Meat_Elephant	fs	fs	# à la viande d'éléphant / viande d'éléphant
+Meat_Rhinoceros	fs	fs	# à la viande de rhinocéros / viande de rhinocéros
+Meat_Hare	fs	fs	# à la viande de lièvre / viande de lièvre
+Meat_Thrumbo	fs	fs	# à la viande de thrumbo / viande de thrumbo
+Meat_Cobra	fs	fs	# à la viande de cobra / viande de cobra
+Meat_Tortoise	fs	fs	# à la viande de tortue / viande de tortue
+Meat_Alphabeaver	fs	fs	# à la viande d'alphacastor / viande d'alphacastor
+Meat_Pig	fs	fs	# à la viande de porc / viande de porc
+Meat_Ibex	fs	fs	# à la viande de bouquetin / viande de bouquetin
+Meat_Deer	fs	fs	# à la viande de cerf / viande de cerf
+Meat_Gazelle	fs	fs	# à la viande de gazelle / viande de gazelle
+Meat_Chinchilla	fs	fs	# à la viande de chinchilla / viande de chinchilla
+Meat_Sheep	fs	fs	# à la viande de mouton / viande de mouton
+Meat_Alpaca	fs	fs	# à la viande d'alpaga / viande d'alpaga
+Meat_Megasloth	fs	fs	# à la viande de mégathérium / viande de mégathérium
+Meat_Capybara	fs	fs	# à la viande de capybara / viande de capybara
+Meat_Squirrel	fs	fs	# à la viande d'écureuil / viande d'écureuil
+Meat_Rat	fs	fs	# à la viande de rat / viande de rat
+Meat_Boomrat	fs	fs	# à la viande de rataboum / viande de rataboum
+Meat_Raccoon	fs	fs	# à la viande de raton laveur / viande de raton laveur
+Meat_Iguana	fs	fs	# à la viande d'iguane / viande d'iguane
+Meat_Warg	fs	fs	# à la viande de warg / viande de warg
+Meat_Wolf_Timber	fs	fs	# à la viande de loup / viande de loup
+Meat_Fox_Fennec	fs	fs	# à la viande de fennec / viande de fennec
+Meat_Dryad_Basic	fs	fs	# à la viande de dryade immature / viande de dryade immature
+EggCassowaryFertilized	mp	ms	# aux œufs de casoar / œuf de casoar
+EggCassowaryUnfertilized	mp	ms	# aux œufs de casoar / œuf de casoar
+EggChickenFertilized	mp	ms	# aux œufs de poule / œuf de poule
+EggChickenUnfertilized	mp	ms	# aux œufs de poule / œuf de poule
+EggCobraFertilized	mp	ms	# aux œufs de cobra / œuf de cobra
+EggCobraUnfertilized	mp	ms	# aux œufs de cobra / œuf de cobra
+EggDuckFertilized	mp	ms	# aux œufs de canard / œuf de canard
+EggDuckUnfertilized	mp	ms	# aux œufs de canard / œuf de canard
+EggEmuFertilized	mp	ms	# aux œufs d'émeu / œuf d'émeu
+EggEmuUnfertilized	mp	ms	# aux œufs d'émeu / œuf d'émeu
+EggGooseFertilized	mp	ms	# aux œufs d'oie / œuf d'oie
+EggGooseUnfertilized	mp	ms	# aux œufs d'oie / œuf d'oie
+EggIguanaFertilized	mp	ms	# aux œufs d'iguane / œuf d'iguane
+EggIguanaUnfertilized	mp	ms	# aux œufs d'iguane / œuf d'iguane
+EggOstrichFertilized	mp	ms	# aux œufs d'autruche / œuf d'autruche
+EggOstrichUnfertilized	mp	ms	# aux œufs d'autruche / œuf d'autruche
+EggTortoiseFertilized	mp	ms	# aux œufs de tortue / œuf de tortue
+EggTortoiseUnfertilized	mp	ms	# aux œufs de tortue / œuf de tortue
+EggTurkeyFertilized	mp	ms	# aux œufs de dinde / œuf de dinde
+EggTurkeyUnfertilized	mp	ms	# aux œufs de dinde / œuf de dinde
+RawToxipotato	fp	fs	# aux toxipatates / toxipatate
+HemogenPack	mp	ms	# aux packs d'hémogène / pack d'hémogène
+Meat_WasteRat	fs	fs	# à la viande de toxirat / viande de toxirat
+Meat_Toxalope	fs	fs	# à la viande de toxilope / viande de toxilope
+Meat_Twisted	fs	fs	# à la viande difforme / viande difforme
+Meat_BogHound	fs	fs	# à la viande de chien des marais / viande de chien des marais
+Meat_MonitorLizard	fs	fs	# à la viande de varan / viande de varan
+Meat_PrairieDog	fs	fs	# à la viande de chien de prairie / viande de chien de prairie
+Meat_Porcupine	fs	fs	# à la viande de porc-épic / viande de porc-épic
+Meat_Mastodon	fs	fs	# à la viande de mastodonte / viande de mastodonte
+Meat_Cat_Scimitar	fs	fs	# à la viande de chat-cimeterre / viande de chat-cimeterre
+Meat_Wolverine	fs	fs	# à la viande de glouton / viande de glouton
+Meat_Wolf_Great	fs	fs	# à la viande de loup géant / viande de loup géant
+Meat_Moose	fs	fs	# à la viande d'élan / viande d'élan
+Meat_AlphaThrumbo	fs	fs	# à la viande de thrumbo alpha / viande de thrumbo alpha
+Meat_Muskox	fs	fs	# à la viande de bœuf musqué / viande de bœuf musqué
+Meat_Tiger	fs	fs	# à la viande de tigre / viande de tigre
+Meat_Mink	fs	fs	# à la viande de vison / viande de vison
+Meat_Gorilla	fs	fs	# à la viande de gorille / viande de gorille
+Meat_Badger	fs	fs	# à la viande de blaireau / viande de blaireau
+Meat_Panda	fs	fs	# à la viande de panda / viande de panda
+Meat_Hippo	fs	fs	# à la viande d'hippopotame / viande d'hippopotame
+Meat_Megavole	fs	fs	# à la viande de campagnol géant / viande de campagnol géant
+Meat_Armadillo	fs	fs	# à la viande de tatou / viande de tatou
+Meat_Alligator	fs	fs	# à la viande d'alligator / viande d'alligator
+Meat_Bullfrog	fs	fs	# à la viande de ouaouaron / viande de ouaouaron
+Meat_ColossusToad	fs	fs	# à la viande de crapaud colosse / viande de crapaud colosse
+Meat_LavaSnail	fs	fs	# à la viande d'escargot de lave / viande d'escargot de lave
+Meat_Walrus	fs	fs	# à la viande de morse / viande de morse
+Meat_SeaLion	fs	fs	# à la viande de lion de mer / viande de lion de mer
+Meat_Seal	fs	fs	# à la viande de phoque / viande de phoque
+Meat_HermitCrab	fs	fs	# à la viande de bernard-l'ermite / viande de bernard-l'ermite
+Meat_StoneCrab	fs	fs	# à la viande de crabe rouge / viande de crabe rouge
+Meat_SeaTurtle	fs	fs	# à la viande de tortue de mer / viande de tortue de mer
+Meat_Otter	fs	fs	# à la viande de loutre / viande de loutre
+EggAlligatorFertilized	mp	ms	# aux œufs d'alligator / œuf d'alligator
+EggAlligatorUnfertilized	mp	ms	# aux œufs d'alligator / œuf d'alligator
+EggBluebirdFertilized	mp	ms	# aux œufs de merlebleu / œuf de merlebleu
+EggBluebirdUnfertilized	mp	ms	# aux œufs de merlebleu / œuf de merlebleu
+EggCrowFertilized	mp	ms	# aux œufs de corbeau / œuf de corbeau
+EggCrowUnfertilized	mp	ms	# aux œufs de corbeau / œuf de corbeau
+EggFlamingoFertilized	mp	ms	# aux œufs de flamant rose / œuf de flamant rose
+EggFlamingoUnfertilized	mp	ms	# aux œufs de flamant rose / œuf de flamant rose
+EggHeronFertilized	mp	ms	# aux œufs de héron / œuf de héron
+EggHeronUnfertilized	mp	ms	# aux œufs de héron / œuf de héron
+EggMacawFertilized	mp	ms	# aux œufs d'ara / œuf d'ara
+EggMacawUnfertilized	mp	ms	# aux œufs d'ara / œuf d'ara
+EggMonitorLizardFertilized	mp	ms	# aux œufs de varan / œuf de varan
+EggMonitorLizardUnfertilized	mp	ms	# aux œufs de varan / œuf de varan
+EggPeacockFertilized	mp	ms	# aux œufs de paon / œuf de paon
+EggPeacockUnfertilized	mp	ms	# aux œufs de paon / œuf de paon
+EggPenguinFertilized	mp	ms	# aux œufs de manchot / œuf de manchot
+EggPenguinUnfertilized	mp	ms	# aux œufs de manchot / œuf de manchot
+EggQuailFertilized	mp	ms	# aux œufs de caille / œuf de caille
+EggQuailUnfertilized	mp	ms	# aux œufs de caille / œuf de caille
+EggSeaTurtleFertilized	mp	ms	# aux œufs de tortue de mer / œuf de tortue de mer
+EggSeaTurtleUnfertilized	mp	ms	# aux œufs de tortue de mer / œuf de tortue de mer
+EggSparrowFertilized	mp	ms	# aux œufs de moineau / œuf de moineau
+EggSparrowUnfertilized	mp	ms	# aux œufs de moineau / œuf de moineau
+EggSwanFertilized	mp	ms	# aux œufs de cygne / œuf de cygne
+EggSwanUnfertilized	mp	ms	# aux œufs de cygne / œuf de cygne
+EggVultureFertilized	mp	ms	# aux œufs de vautour / œuf de vautour
+EggVultureUnfertilized	mp	ms	# aux œufs de vautour / œuf de vautour
+Rawmushroom	mp	ms	# aux champignons / champignon
+Rawbean	mp	ms	# aux haricots / haricot
+Rawsnowbeet	fp	fs	# aux betteraves des neiges / betterave des neiges
+RawOlive	fp	fs	# aux olives / olive
+Raworange	fp	fs	# aux oranges / orange
+RawRedLentil	fp	fs	# aux lentilles corail / lentille corail
+Rawdate	fp	fs	# aux dattes / datte
+RawCoconut	fs	fs	# à la noix de coco / noix de coco
+Rawgooseberry	fp	fs	# aux groseilles à maquereau / groseille à maquereau
+Rawcloudberry	fp	fs	# aux mûres arctiques / mûre arctique
+Rawblueberry	fp	fs	# aux myrtilles / myrtille
+Rawpeach	fp	fs	# aux pêches / pêche
+driedfruit	mp	ms	# aux fruits séchés / fruit séché
+Flour	fs	fs	# à la farine / portion de farine
+VCE_RawSunflower	fp	fs	# aux graines de tournesol / graine de tournesol
+VCE_RawGarlic	ms	fs	# à l'ail / gousse d'ail
+VCE_RawSpices	fp	fs	# aux épices / épice
+VCE_InsectJellyPreserves	fp	fs	# aux conserves de gelée d'insecte / conserve de gelée d'insecte
+VCE_Flour	fs	fs	# à la pâte / portion de pâte
+Meat_RH_DF_Bone	fs	ms	# à la viande osseuse / morceau de viande osseuse
+VV_QuinoaSeeds	ms	ms	# au quinoa / grain de quinoa
+VV_BroccoliFlorets	fp	fs	# aux fleurettes de brocoli / fleurette de brocoli
+VV_NettleLeaves	fp	fs	# aux orties / feuille d'ortie
+RC2_RawJuniperBerries	fp	fs	# aux baies de genièvre / baie de genièvre
+RC2_Tofu	ms	ms	# au tofu / morceau de tofu
+RC2_RawCherries	fp	fs	# aux cerises / cerise
+RC2_Flour	fs	fs	# à la pâte / portion de pâte
+KIT_Cashew	fp	fs	# aux pommes de cajou / pomme de cajou
+DankPyon_RawMulberry	fp	fs	# aux mûres / mûre
+DankPyon_RawPumpkins	fs	fs	# à la citrouille / citrouille
+DankPyon_RawFlax	ms	fs	# au lin / graine de lin
+DankPyon_Salt	ms	fs	# au sel / pincée de sel
+DankPyon_EggConstrictorCaveFertilized	mp	ms	# aux œufs de constricteur des cavernes / œuf de constricteur des cavernes
+DankPyon_EggLargeCobraCaveFertilized	mp	ms	# aux œufs de cobra des cavernes / œuf de cobra des cavernes
+TP_EdibleSeaweed	fp	fs	# aux algues / algue
+VV_Leeks	mp	ms	# aux poireaux / poireau
+AiYe	fp	fs	# aux feuilles d'armoise / feuille d'armoise
+BaiGuoJiu	ms	fs	# au vin de ginkgo / goutte de vin de ginkgo
+BaiJiu	ms	fs	# au baijiu / goutte de baijiu
+HuangJiu	ms	fs	# au vin de céréales / goutte de vin de céréales
+LaJiao	mp	ms	# aux piments / piment
+MeiCai	fp	fs	# aux feuilles de moutarde séchées / feuille de moutarde séchée
+RawQingKe	fs	ms	# à l'orge du Tibet / grain d'orge du Tibet
+RawZaJiaoShuiDao	ms	ms	# au riz hybride / grain de riz hybride
+SZ_ShiTouGan	fp	fs	# aux mandarines / mandarine
+WorkedJingMi	fs	fs	# à la farine de riz / portion de farine de riz
+WorkedQingKe	fs	fs	# à la farine d'orge du Tibet / portion de farine d'orge du Tibet
+WorkedRawMaize	ms	ms	# au maïs séché / grain de maïs séché
+WorkedRawMixture	mp	fs	# aux légumes séchés / portion de légumes séchés
+WorkedRawPotato	fp	ms	# aux pommes de terre séchées / morceau de pomme de terre séchée
+WorkedRawRice	fs	fs	# à la farine de riz gluant / portion de farine de riz gluant
+XiongHuangJiu	ms	fs	# au vin de réalgar / goutte de vin de réalgar
+YinXingGuo	fp	fs	# aux noix de ginkgo / noix de ginkgo
+RawDaBaiCai	ms	fs	# au chou chinois / feuille de chou chinois
+RawLianOu	ms	ms	# au rhizome de lotus / morceau de rhizome de lotus
+RawLvDou	mp	ms	# aux haricots mungo / haricot mungo
+WorkedFenTiao	mp	ms	# aux vermicelles / vermicelle
+RLE_CheesNatureAfter	ms	ms	# au fromage / morceau de fromage
+RLE_CheesNatureAged	ms	ms	# au fromage affiné / morceau de fromage affiné
+RLE_DriedMeat	fs	ms	# à la viande séchée / morceau de viande séchée
+RLE_DentCorn	ms	ms	# au maïs denté / grain de maïs denté
+VV_Chingensai	ms	fs	# au pak-choï / feuille de pak-choï
+VVOnion	mp	ms	# aux oignons / oignon
+VVPaprika	mp	ms	# aux poivrons / poivron
+VVTomato	fp	fs	# aux tomates / tomate

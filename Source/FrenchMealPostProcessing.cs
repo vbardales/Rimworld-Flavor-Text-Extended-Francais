@@ -98,7 +98,7 @@ namespace FlavorTextExtendedFR
         {
             string result = worker.PostProcessed(text);
             if (!FrenchLanguage.IsFrench(Prefs.LangFolderName)) return result;
-            return AspiratedH.Replace(result, "$1e ");
+            return FrenchAgreementData.Resolve(AspiratedH.Replace(result, "$1e "));
         }
     }
 }

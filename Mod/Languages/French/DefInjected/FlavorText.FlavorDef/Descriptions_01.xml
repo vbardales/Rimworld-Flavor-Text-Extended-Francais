@@ -61,8 +61,8 @@
 	<FlavorText_Funeral_Potato.description>un gratin {2_adj} en tranches cuites avec du fromage, couvert de pétales de maïs. Popularisé en Amérique, il tire son nom des repas qui suivent les enterrements.</FlavorText_Funeral_Potato.description>
 	<FlavorText_MamaligaInPaturi.description>un plat traditionnel du Maramureș, au nord de la Roumanie : de nombreuses couches de polenta {2_adj} alternées avec de la crème aigre, du beurre, du fromage et {1_coll}.</FlavorText_MamaligaInPaturi.description>
 	<FlavorText_YorkshirePudding.description>un pudding britannique cuit au four, fait d'une farine {2_adj}, {1_adj} et {0_adj}.</FlavorText_YorkshirePudding.description>
-	<FlavorText_MushroomCups.description>de gros {1_coll} dont on a retiré le pied, passés au four avec un {0_sing} entier cassé dans le chapeau.</FlavorText_MushroomCups.description>
-	<FlavorText_Shirred_Egg.description>{0_coll} entiers cassés dans des ramequins et cuits au four.</FlavorText_Shirred_Egg.description>
+	<FlavorText_MushroomCups.description>de gros {1_coll} dont on a retiré le pied, passés au four avec ~+un~ {0_sing} ~entier~ ~cassé~ dans le chapeau.</FlavorText_MushroomCups.description>
+	<FlavorText_Shirred_Egg.description>{0_coll} ~entier~ ~cassé~ dans des ramequins et ~cuit~ au four.</FlavorText_Shirred_Egg.description>
 
 	<!-- Pains et tartines -->
 	<FlavorText_Grain_Bread.description>une miche toute simple de pâte levée {0_adj}, cuite au four jusqu'à ce qu'une croûte dorée craque sous le doigt. Se sert tiède.</FlavorText_Grain_Bread.description>
@@ -70,7 +70,7 @@
 	<FlavorText_Avocado_Toast.description>une tranche de pain {0_adj} couverte d'une moitié {1_adj} écrasée à la fourchette. Adorée des hipsters et des gourous du bien-être.</FlavorText_Avocado_Toast.description>
 	<FlavorText_Bean_OnToast.description>un classique britannique : une tranche de pain {0_adj} grillée, couverte {1_adj} en sauce tomate.</FlavorText_Bean_OnToast.description>
 	<FlavorText_Bean_OnToast_2.description>un classique britannique : une tranche de pain {0_adj} grillée, couverte d'une garniture {1_adj} longuement mijotée dans une sauce sucrée {2_adj}.</FlavorText_Bean_OnToast_2.description>
-	<FlavorText_Egg_Benedict.description>un muffin anglais {0_adj} coupé en deux, chaque moitié garnie d'une tranche de bacon et d'un {1_sing} poché, le tout nappé d'une hollandaise montée {1_plur}.</FlavorText_Egg_Benedict.description>
+	<FlavorText_Egg_Benedict.description>un muffin anglais {0_adj} coupé en deux, chaque moitié garnie d'une tranche de bacon et d'~+un~ {1_sing} ~poché~, le tout nappé d'une hollandaise montée {1_plur}.</FlavorText_Egg_Benedict.description>
 	<FlavorText_Bagels.description>un pain en anneau à la mie élastique, né dans les communautés juives de Pologne sur la Vieille Terre avant de gagner toute la planète. Une farine {0_adj} fermente au froid douze heures ou plus, la pâte est brièvement pochée dans une eau au sirop de malt, puis cuite. D'où la croûte brune et l'intérieur dense.</FlavorText_Bagels.description>
 	<FlavorText_ButteredToast.description>du pain {0_adj} grillé, nappé de beurre fondu.</FlavorText_ButteredToast.description>
 	<FlavorText_Challah.description>une tresse de pain {0_adj} enrichie {1_adj}. On la sert aux fêtes juives.</FlavorText_Challah.description>
