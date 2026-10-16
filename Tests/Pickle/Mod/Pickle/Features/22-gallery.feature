@@ -7,7 +7,7 @@
 # Its output is CANDIDATES (Art/Gallery/<index>-candidate-<name>, JPEG q90, under 2 MB): the owner accepts or refuses each. Not proof of the mod.
 #
 # THE STORY. "Lunch is served", in French: one midday at the sanctuary. Nelim (the protagonist: dark ponytail, teal shirt, cream trousers) welcomes a GUEST, Camille
-# (short light hair, orange shirt, blue eyes: she stands out against Nelim's dark hair and the wood). Nelim's face is the Sanctuary's own, then a small smile
+# (short light hair, orange shirt, blue eyes, generated female so no body-type step: she stands out against Nelim's dark hair and the wood). Nelim's face is the Sanctuary's own, then a small smile
 # (mouth, lids, rosy cheeks). Three pictures, 5 game minutes (about 208 ticks) apart, same light, same place (dining-nook).
 # SHOT PLAN (place, time, subject, composition, the living, what it says; the English subtitle of each is in PUBLICATION.md, "Gallery subtitles"):
 # 1. dining-nook, 12:00. The laid table (four meals), the katsudon card at the right. Nelim smiles, facing South; Camille beside her, neutral and curious.
@@ -52,7 +52,6 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     And Nelim's Pickle Tools: a colonist "Camille" of kind "Colonist" exists
-    And Nelim's Pickle Tools: "Camille" body type is Male
     And Nelim's Pickle Tools: "Camille" has the gene "Eyes_Blue"
     And Nelim's Pickle Tools: "Camille" wears "Apparel_BasicShirt" dyed rgb (214, 120, 48)
     And Nelim's Pickle Tools: "Camille" wears "Apparel_Pants" dyed rgb (60, 60, 72)
@@ -92,7 +91,6 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     And Nelim's Pickle Tools: a colonist "Camille" of kind "Colonist" exists
-    And Nelim's Pickle Tools: "Camille" body type is Male
     And Nelim's Pickle Tools: "Camille" has the gene "Eyes_Blue"
     And Nelim's Pickle Tools: "Camille" wears "Apparel_BasicShirt" dyed rgb (214, 120, 48)
     And Nelim's Pickle Tools: "Camille" wears "Apparel_Pants" dyed rgb (60, 60, 72)
@@ -133,7 +131,6 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
     And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
     And Nelim's Pickle Tools: a colonist "Camille" of kind "Colonist" exists
-    And Nelim's Pickle Tools: "Camille" body type is Male
     And Nelim's Pickle Tools: "Camille" has the gene "Eyes_Blue"
     And Nelim's Pickle Tools: "Camille" wears "Apparel_BasicShirt" dyed rgb (214, 120, 48)
     And Nelim's Pickle Tools: "Camille" wears "Apparel_Pants" dyed rgb (60, 60, 72)
