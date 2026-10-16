@@ -63,6 +63,19 @@ namespace FlavorTextExtendedFR.PickleSteps
                 $"the French dish name '{dish}' does not match /{pattern}/");
         }
 
+        [Then("the description of the meal at \\({int}, {int}\\) reads in French like {string}")]
+        public void DescribedLike(PickleContext ctx, int x, int z, string pattern)
+        {
+            var meal = MealSteps.MealAt(ctx, x, z);
+            var comp = meal.TryGetComp<CompFlavor>();
+            ctx.Require(comp != null, "the meal carries no CompFlavor");
+            var text = comp.GetDescriptionPart();
+            ctx.Assert(!text.Contains("~"), $"a tilde is left in the description: {text}");
+            if (!Driver.Language(ctx).StartsWith("French")) return;
+            ctx.Assert(Regex.IsMatch(text, pattern, RegexOptions.IgnoreCase | RegexOptions.CultureInvariant),
+                $"the French description '{text}' does not match /{pattern}/");
+        }
+
         [Then("the meal at \\({int}, {int}\\) is not named in French like {string}")]
         public void NotNamedLike(PickleContext ctx, int x, int z, string pattern)
         {
