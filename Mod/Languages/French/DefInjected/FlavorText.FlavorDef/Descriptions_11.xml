@@ -6,12 +6,12 @@
 <LanguageData>
 
 	<!-- Suite des soupes -->
-	<FlavorText_Afang.description>une soupe nigériane épaisse {0_adj} pilées et d'autres feuilles vertes, mijotées avec plusieurs morceaux de viande (dont {1_coll} et des tripes) et une grande quantité {2_adj}. Elle tire l'essentiel de son goût terreux et de son épaisseur {0_adj}, et s'assaisonne de sel, de poivre et de bouillon en poudre.</FlavorText_Afang.description>
+	<FlavorText_Afang.description>une soupe nigériane épaisse {0_adj} ~pilé~ et d'autres feuilles vertes, mijotées avec plusieurs morceaux de viande (dont {1_coll} et des tripes) et une grande quantité {2_adj}. Elle tire l'essentiel de son goût terreux et de son épaisseur {0_adj}, et s'assaisonne de sel, de poivre et de bouillon en poudre.</FlavorText_Afang.description>
 	<FlavorText_GhormehSabzi.description>un ragoût d'herbes, plat national de l'Iran : une base {0_adj} revenus, cuits avec {2_coll} et {1_coll} assaisonnés.</FlavorText_GhormehSabzi.description>
 	<FlavorText_Luau.description>une soupe née en Polynésie, faite d'une purée {0_adj} cuite dans un lait {1_adj} avec {2_coll} en dés.</FlavorText_Luau.description>
 	<FlavorText_Luau_2.description>une soupe née en Polynésie, faite d'une purée {0_adj} cuite avec {1_coll} en dés.</FlavorText_Luau_2.description>
-	<FlavorText_ChanaSaag.description>{0_coll} hachés, cuits avec un mélange d'épices indiennes et de la coriandre jusqu'à devenir crémeux, avec {1_coll} incorporés.</FlavorText_ChanaSaag.description>
-	<FlavorText_Saag.description>{0_coll} hachés, cuits avec un mélange d'épices indiennes jusqu'à devenir crémeux.</FlavorText_Saag.description>
+	<FlavorText_ChanaSaag.description>{0_coll} ~haché~, ~cuit~ avec un mélange d'épices indiennes et de la coriandre jusqu'à devenir crémeux, avec {1_coll} ~incorporé~.</FlavorText_ChanaSaag.description>
+	<FlavorText_Saag.description>{0_coll} ~haché~, ~cuit~ avec un mélange d'épices indiennes jusqu'à devenir crémeux.</FlavorText_Saag.description>
 	<FlavorText_DalTadka.description>un curry {0_adj} du nord de l'Inde, au parfum fumé qu'on obtient en faisant éclater {1_coll} et d'autres épices indiennes dans un beurre clarifié brûlant.</FlavorText_DalTadka.description>
 	<FlavorText_Chairo.description>un plat traditionnel du peuple aymara, mangé surtout en Bolivie et dans les autres pays andins. Une soupe de chuño (un tubercule {2_adj} déshydraté à l'ancienne) et {0_adj}, servie avec {1_coll}.</FlavorText_Chairo.description>
 	<FlavorText_Gomguk.description>une soupe traditionnelle coréenne faite de plusieurs morceaux {0_adj}, d'abats et d'os.</FlavorText_Gomguk.description>
@@ -22,7 +22,7 @@
 	<FlavorText_Flemish_Plum_Stew.description>un ragoût flamand {0_adj} et {2_adj}, épaissi aux pruneaux.</FlavorText_Flemish_Plum_Stew.description>
 	<FlavorText_FlemishStew.description>un ragoût flamand {0_adj} et {2_adj}, épaissi au pain {1_adj}.</FlavorText_FlemishStew.description>
 	<FlavorText_Nilaga.description>l'un des ragoûts les plus simples des Philippines : des morceaux tendres et gras {0_adj}, relevés d'une sauce patis {1_adj} et d'épices, avec {2_coll} et d'autres légumes.</FlavorText_Nilaga.description>
-	<FlavorText_Pepperpot.description>un ragoût d'origine amérindienne, plat national du Guyana, traditionnellement servi à Noël et dans les grandes occasions. {0_coll} braisée avec {2_coll}, des épices et du cassareep, un sirop noir proche de la mélasse tiré de la racine {1_adj}.</FlavorText_Pepperpot.description>
+	<FlavorText_Pepperpot.description>un ragoût d'origine amérindienne, plat national du Guyana, traditionnellement servi à Noël et dans les grandes occasions. {0_coll} ~braisé~ avec {2_coll}, des épices et du cassareep, un sirop noir proche de la mélasse tiré de la racine {1_adj}.</FlavorText_Pepperpot.description>
 
 	<!-- Poissons et fruits de mer -->
 	<FlavorText_Meat_Fish_Amok.description>un curry de poisson khmer à la consistance de mousse. On lève des filets {0_adj}, on les couvre d'une marinade d'épices, de crème {2_adj} et {1_adj}, et on cuit le tout à la vapeur dans un panier de grandes feuilles de bananier. C'est l'un des plats nationaux du Cambodge.</FlavorText_Meat_Fish_Amok.description>
@@ -31,7 +31,7 @@
 	<FlavorText_Meat_Fish_Waterzooi.description>une soupe riche venue de Belgique : une base de crème et d'un bouillon {2_adj} lié, à laquelle on ajoute {0_coll}.</FlavorText_Meat_Fish_Waterzooi.description>
 
 	<!-- Ragoûts -->
-	<FlavorText_Daube.description>un ragoût provençal cuit au vin {2_adj}. {0_coll}, taillée en cubes, se met au fond, puis viennent des couches {1_adj} et d'autres légumes. L'assaisonnement habituel réunit cannelle, girofle, thym, romarin, persil, ail et concentré de tomate.</FlavorText_Daube.description>
+	<FlavorText_Daube.description>un ragoût provençal cuit au vin {2_adj}. {0_coll}, ~taillé~ en cubes, se met au fond, puis viennent des couches {1_adj} et d'autres légumes. L'assaisonnement habituel réunit cannelle, girofle, thym, romarin, persil, ail et concentré de tomate.</FlavorText_Daube.description>
 	<FlavorText_IrishStew.description>un ragoût de l'Irlande de la Vieille Terre, fait de morceaux {0_adj} et {1_adj}, de légumes variés et de persil. Il mijote lentement jusqu'à deux heures, traditionnellement sur un feu ouvert.</FlavorText_IrishStew.description>
 	<FlavorText_Pichelsteiner.description>un ragoût allemand qui réunit {0_coll} et {1_coll}, saisies puis mijotées avec {2_coll} et des légumes variés.</FlavorText_Pichelsteiner.description>
 	<FlavorText_Maafe.description>un ragoût de base en Afrique de l'Ouest. Les recettes varient énormément ; celle-ci réunit {0_coll} et {1_coll} dans une sauce {2_adj}.</FlavorText_Maafe.description>
@@ -50,7 +50,7 @@
 	<!-- Réplique de Sam à Gollum ; on reprend la formule du doublage français -->
 	<FlavorText_HerbsAndStewed_Meat_Rabbit.description>DES PA-TA-TES. Bouillies, écrasées, dans un bon ragoût.</FlavorText_HerbsAndStewed_Meat_Rabbit.description>
 
-	<FlavorText_Meat_Seafood_Boillabaisse.description>une soupe française de fruits de mer, faite {0_adj} mijotés aux herbes et aux épices de Provence, avec {1_coll} en dés.</FlavorText_Meat_Seafood_Boillabaisse.description>
+	<FlavorText_Meat_Seafood_Boillabaisse.description>une soupe française de fruits de mer, faite {0_adj} ~mijoté~ aux herbes et aux épices de Provence, avec {1_coll} en dés.</FlavorText_Meat_Seafood_Boillabaisse.description>
 	<FlavorText_Moqueca.description>un ragoût riche {0_adj}, cuit sur une base de bouillon {1_adj}, traditionnellement dans un plat de terre qui garde la chaleur. Le plat vient du Brésil et connaît de nombreuses variantes régionales. On l'assaisonne en général de citron vert, de coriandre et de rocou.</FlavorText_Moqueca.description>
 	<FlavorText_Pinakbet.description>un plat philippin traditionnel monté sur une pâte fermentée {0_adj}, chargé de morceaux {1_adj} et réduit dans une grande marmite. L'ail, la tomate, le gingembre et l'oignon sont indispensables à son profil.</FlavorText_Pinakbet.description>
 	<FlavorText_Pinakbet_2.description>un plat philippin traditionnel monté sur une pâte fermentée {0_adj}, chargé de morceaux {1_adj} et {2_adj}, réduit dans une grande marmite. L'ail, la tomate, le gingembre et l'oignon sont indispensables à son profil.</FlavorText_Pinakbet_2.description>
@@ -64,9 +64,9 @@
 	<FlavorText_MeatRaw_Consomme_2.description>un bouillon clair {0_adj}, débarrassé de sa graisse et de son dépôt à la gélatine.</FlavorText_MeatRaw_Consomme_2.description>
 	<FlavorText_MeatRaw_Jeongol.description>une fondue coréenne : on fait bouillir {1_coll} et {0_coll} dans un bouillon à la pâte {2_adj}.</FlavorText_MeatRaw_Jeongol.description>
 	<FlavorText_MeatRaw_Maraq.description>un plat du Yémen qu'on sert volontiers aux invités. Le maraq se décline à l'infini ; celui-ci part de cubes {0_adj} colorés à la poêle, auxquels on ajoute {1_coll} en dés, des légumes variés et des parfums : citron, piments, curry, curcuma, poivre noir, coriandre.</FlavorText_MeatRaw_Maraq.description>
-	<FlavorText_MeatRaw_NoodleSoup.description>une soupe toute simple : des morceaux {0_adj} braisée avec des nouilles {1_adj}, dans un bouillon {0_adj}.</FlavorText_MeatRaw_NoodleSoup.description>
+	<FlavorText_MeatRaw_NoodleSoup.description>une soupe toute simple : des morceaux {0_adj} ~braisé~ avec des nouilles {1_adj}, dans un bouillon {0_adj}.</FlavorText_MeatRaw_NoodleSoup.description>
 	<FlavorText_MeatRaw_Pozole.description>une soupe ou un ragoût traditionnel de la cuisine mexicaine, fait de maïs nixtamalisé et {0_adj}, garni {1_adj}.</FlavorText_MeatRaw_Pozole.description>
-	<FlavorText_MeatRaw_RopaVieja.description>{0_coll} effilochée, mijotée avec {1_coll} et des épices. Souvent préparée avec les restes d'autres repas.</FlavorText_MeatRaw_RopaVieja.description>
+	<FlavorText_MeatRaw_RopaVieja.description>{0_coll} ~effiloché~, ~mijoté~ avec {1_coll} et des épices. Souvent préparée avec les restes d'autres repas.</FlavorText_MeatRaw_RopaVieja.description>
 	<FlavorText_MeatRaw_Sinigang.description>une soupe philippine reconnaissable à son goût acide et salé, faite {0_adj} cuite avec {1_coll} dans un bouillon acidulé {2_adj}.</FlavorText_MeatRaw_Sinigang.description>
 	<FlavorText_MeatRaw_Tagine.description>un ragoût maghrébin {0_adj} en tranches, cuite avec {1_coll} dans un plat spécial coiffé d'un couvercle conique, le tajine. Les épices habituelles sont le gingembre, le cumin, le curcuma, la cannelle, le safran, le paprika et le piment.</FlavorText_MeatRaw_Tagine.description>
 	<FlavorText_BoilUp.description>venu de la culture maorie de la Vieille Terre, le boil up est une soupe de bouillon qui équilibre une viande et des os {0_adj} bouillis avec de gros morceaux {1_adj} et des quenelles {2_adj} appelées « doughboys ».</FlavorText_BoilUp.description>
@@ -84,14 +84,14 @@
 	<FlavorText_KigHaFarz.description>un plat où plusieurs viandes mijotent dans un bouillon avec un pudding de farine {2_adj}.</FlavorText_KigHaFarz.description>
 	<FlavorText_PalaverSauce.description>un ragoût très répandu en Afrique de l'Ouest (Ghana, Liberia, Sierra Leone, Nigeria). Il connaît des variantes régionales ; celle-ci contient {0_coll} et {2_coll}, et se sert avec {1_coll} bouillis.</FlavorText_PalaverSauce.description>
 	<FlavorText_Peppersoup.description>une soupe du Nigeria, faite pour l'essentiel {0_adj} variés, {1_adj}, de sel, de feuilles odorantes et de muscade de calebasse. Elle est relevée, de texture légère et liquide. Malgré son nom, elle ne se définit pas par le poivre : ses arômes sont plus complexes, avec des notes de noisette, d'amertume, de sous-bois et de fleur, et une chaleur de fond.</FlavorText_Peppersoup.description>
-	<FlavorText_Saloona.description>un ragoût nourrissant d'origine arabe. Celui-ci emploie {0_coll} revenue, ajoutée à une soupe {1_adj} et {2_adj} bouillis en dés. L'assaisonnement réunit ail, gingembre, piment, cardamome, coriandre, cumin, safran et curcuma.</FlavorText_Saloona.description>
+	<FlavorText_Saloona.description>un ragoût nourrissant d'origine arabe. Celui-ci emploie {0_coll} ~revenu~, ajoutée à une soupe {1_adj} et {2_adj} bouillis en dés. L'assaisonnement réunit ail, gingembre, piment, cardamome, coriandre, cumin, safran et curcuma.</FlavorText_Saloona.description>
 	<FlavorText_Saltah.description>une soupe très souple d'emploi, plat national du Yémen : une base de cubes {0_adj} colorés à la poêle, à laquelle on ajoute {1_coll} en dés et d'autres légumes. Deux condiments lui donnent son caractère : le zhug, fait {2_adj}, de coriandre, de persil, de cumin, de graines de coriandre et de poivre noir ; et la holba, une mousse fouettée de pâte de fenugrec et d'eau.</FlavorText_Saltah.description>
-	<FlavorText_StewPeas.description>un ragoût jamaïcain fait {1_adj}, {0_adj} salée, d'un lait {2_adj}, d'herbes et d'épices. C'est un plat courant en Jamaïque, mais on en fait des variantes et des cousins dans toutes les Amériques.</FlavorText_StewPeas.description>
+	<FlavorText_StewPeas.description>un ragoût jamaïcain fait {1_adj}, {0_adj} ~salé~, d'un lait {2_adj}, d'herbes et d'épices. C'est un plat courant en Jamaïque, mais on en fait des variantes et des cousins dans toutes les Amériques.</FlavorText_StewPeas.description>
 	<FlavorText_Stracciatella.description>une soupe italienne obtenue en versant en filet un appareil {1_adj} dans un bouillon {0_adj} bouillant.</FlavorText_Stracciatella.description>
 	<FlavorText_Tongseng.description>une soupe indonésienne au curry, faite {0_adj} cuite dans un lait {1_adj}, avec de l'ail, de la tomate, des échalotes et du chou. Une sauce soja au sucre {2_adj} et à la badiane lui donne sa douceur caractéristique.</FlavorText_Tongseng.description>
 	<FlavorText_WontonSoup.description>une soupe chinoise de wontons farcis {0_adj}, servis dans un bouillon clair {1_adj}.</FlavorText_WontonSoup.description>
-	<FlavorText_Xarem.description>une bouillie épaisse du Portugal, faite de semoule de maïs, {1_adj} et {0_adj} grillée.</FlavorText_Xarem.description>
-	<FlavorText_Yuvarlakia.description>une soupe ou un ragoût grec fait de boulettes {0_adj} hachée, cuites en marmite avec {1_coll} et servies dans une sauce {2_adj}.</FlavorText_Yuvarlakia.description>
+	<FlavorText_Xarem.description>une bouillie épaisse du Portugal, faite de semoule de maïs, {1_adj} et {0_adj} ~grillé~.</FlavorText_Xarem.description>
+	<FlavorText_Yuvarlakia.description>une soupe ou un ragoût grec fait de boulettes {0_adj} ~haché~, cuites en marmite avec {1_coll} et servies dans une sauce {2_adj}.</FlavorText_Yuvarlakia.description>
 	<FlavorText_Chili.description>un ragoût mexicain monté sur une base {1_adj} avec {0_coll}, relevé de tout un jeu {2_adj}.</FlavorText_Chili.description>
 	<FlavorText_Beet_Borscht.description>une soupe acidulée faite d'un fond {0_adj}, {2_adj}, {1_adj} et d'assaisonnements. Courante en Europe de l'Est et en Asie du Nord.</FlavorText_Beet_Borscht.description>
 	<FlavorText_KhoreshKarafs.description>un ragoût iranien traditionnel. {1_coll} en forment l'essentiel, le second ingrédient étant ici {0_coll}.</FlavorText_KhoreshKarafs.description>

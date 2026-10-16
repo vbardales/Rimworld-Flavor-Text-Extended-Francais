@@ -16,16 +16,16 @@
 <LanguageData>
 
 	<!-- Fritures et cuissons -->
-	<FlavorText_Deep-Fried_Fungus.description>{1_coll} enrobés d'une pâte {0_adj} et frits en pleine huile jusqu'à ce qu'ils croustillent.</FlavorText_Deep-Fried_Fungus.description>
+	<FlavorText_Deep-Fried_Fungus.description>{1_coll} ~enrobé~ d'une pâte {0_adj} et ~frit~ en pleine huile jusqu'à ce qu'ils croustillent.</FlavorText_Deep-Fried_Fungus.description>
 	<FlavorText_Deep-FriedIceCream.description>des boules de glace enrobées de pâte à frire et plongées très brièvement dans l'huile. La pâte fait isolant : la glace n'a pas le temps de fondre.</FlavorText_Deep-FriedIceCream.description>
 	<FlavorText_Toad-In-The-Hole.description>des saucisses {0_adj} cuites au four dans un plat rempli de pâte à pudding du Yorkshire. Très britannique.</FlavorText_Toad-In-The-Hole.description>
 	<FlavorText_Ingredients-Coated_LeafyVeg.description>des feuilles délicates {1_adj} enrobées d'une coque de pâte {0_adj} à prise rapide. Un en-cas simple et facile à emporter.</FlavorText_Ingredients-Coated_LeafyVeg.description>
-	<FlavorText_Ingredients-Coated_Ingredients_Strips.description>des lanières {1_adj} enrobées {0_adj} émiettés et frites en pleine huile.</FlavorText_Ingredients-Coated_Ingredients_Strips.description>
+	<FlavorText_Ingredients-Coated_Ingredients_Strips.description>des lanières {1_adj} enrobées {0_adj} ~émietté~ et frites en pleine huile.</FlavorText_Ingredients-Coated_Ingredients_Strips.description>
 	<FlavorText_SugarFromAnimals-Sing-Glazed_Fungus.description>le plat préféré de l'empereur Claude : des tranches {0_adj} revenues au garum avec des herbes et du poivre, puis laquées {1_plur}.</FlavorText_SugarFromAnimals-Sing-Glazed_Fungus.description>
 	<FlavorText_Ingredients-FilledPastaShells.description>d'énormes demi-coquilles de pâtes {0_adj}, remplies à ras bord {1_adj} crémeux et passées au four en gratin.</FlavorText_Ingredients-FilledPastaShells.description>
 
 	<!-- Riz et céréales -->
-	<FlavorText_Eight-Treasure_Rice.description>un pouding ferme {1_adj}, couvert {0_adj} séchés de plusieurs sortes.</FlavorText_Eight-Treasure_Rice.description>
+	<FlavorText_Eight-Treasure_Rice.description>un pouding ferme {1_adj}, couvert {0_adj} ~séché~ de plusieurs sortes.</FlavorText_Eight-Treasure_Rice.description>
 	<FlavorText_Cou-Cou.description>aussi appelé fungie, le cou-cou est un plat bon marché de semoule de maïs et {1_adj}. Il fait partie des plats nationaux de plusieurs îles des Caraïbes.</FlavorText_Cou-Cou.description>
 	<FlavorText_Jumeok-Bap.description>littéralement « riz du poing » : ces boulettes viennent de la cuisine coréenne et se retrouvent couramment dans les repas emportés. On fait sauter {1_coll} à grain court dans une sauce soja sucrée, on y mêle {0_coll} taillés très fin, puis on serre le tout dans le poing. Se mangent telles quelles, ou roulées dans des graines de sésame ou des paillettes d'algue.</FlavorText_Jumeok-Bap.description>
 	<FlavorText_Yakisoba-Pan.description>à la fois un sandwich et un plat de pâtes : le yakisoba-pan glisse dans un pain {0_adj} une bonne portion de nouilles {0_adj} sautées avec {1_coll}.</FlavorText_Yakisoba-Pan.description>
@@ -38,7 +38,7 @@
 	<FlavorText_Gising-Gising.description>un ragoût de légumes philippin bien relevé : {0_coll} hachés dans un lait {1_adj}, avec une bonne quantité de pâte {2_adj}, d'où son nom, qui signifie « réveille-toi, réveille-toi ».</FlavorText_Gising-Gising.description>
 
 	<!-- Douceurs -->
-	<FlavorText_Sugar-Coated_Fruit.description>{0_coll} entiers, enrobés d'une coque sucrée {1_adj}.</FlavorText_Sugar-Coated_Fruit.description>
+	<FlavorText_Sugar-Coated_Fruit.description>{0_coll} ~entier~, ~enrobé~ d'une coque sucrée {1_adj}.</FlavorText_Sugar-Coated_Fruit.description>
 	<FlavorText_Fruit_Kool-AidPickles.description>un en-cas d'enfance né aux États-Unis de la Vieille Terre : on reprend {0_coll} déjà mis au vinaigre et on les remet à mariner dans un soda très sucré parfumé {1_plur}.</FlavorText_Fruit_Kool-AidPickles.description>
 	<FlavorText_Halo-Halo.description>un dessert philippin monté d'un grand assortiment de garnitures : ici {1_coll} et {2_coll}. La glace pilée en forme la base, sur laquelle on verse un lait concentré {0_adj}.</FlavorText_Halo-Halo.description>
 	<FlavorText_Chocolate-CoatedMarshmallowTreats.description>des guimauves souples trempées {1_plur} fondu et laissées refroidir.</FlavorText_Chocolate-CoatedMarshmallowTreats.description>
