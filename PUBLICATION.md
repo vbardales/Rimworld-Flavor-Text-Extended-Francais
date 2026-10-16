@@ -185,7 +185,7 @@ Les formes françaises des ingrédients portent leurs propres articles et prépo
 
 [h2]Compatibilité[/h2]
 
-Nécessite RimWorld 1.6, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] de hekmo et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url], dans cet ordre. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url] est une dépendance directe de cette traduction. Les mods facultatifs de cuisine et d'agriculture ne sont pas requis : leurs ingrédients déterminent les plats qui peuvent réellement apparaître. Les traductions propres à Biotech ne se chargent qu'avec Biotech.
+Nécessite la dernière version de RimWorld, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] de hekmo et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url], dans cet ordre. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url] est une dépendance directe de cette traduction. Les mods facultatifs de cuisine et d'agriculture ne sont pas requis : leurs ingrédients déterminent les plats qui peuvent réellement apparaître. Les traductions propres à Biotech ne se chargent qu'avec Biotech.
 
 [h2]Réglages[/h2]
 
@@ -214,6 +214,7 @@ Merci aussi aux auteurs des mods facultatifs dont cette traduction couvre les ta
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], par Oskar Potocki, Sarg Bjornson et d'autres
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], par Kitsune, repris par Zaljerem
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url] et [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007062982]VGP Garden Gourmet[/url], par dismarzero
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3354456321]Food Texture Variety[/url] et son [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3354455179]Core[/url], par FaintingGoat
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url], par VVenchov
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], par Crustypeanut, repris par Mlie
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], par Tanypredator
@@ -282,7 +283,7 @@ French ingredient forms carry their own articles and prepositions, for example �
 
 [h2]Compatibility[/h2]
 
-Requires RimWorld 1.6, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] by hekmo, and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url], in that order. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url] is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
+Requires the latest RimWorld version, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] by hekmo, and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806100152]Flavor Text Extended[/url], in that order. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url] is a direct dependency of this translation. Optional cooking and farming mods are not required; their ingredients determine which dishes can actually appear. Biotech-specific translations load only with Biotech.
 
 [h2]Settings[/h2]
 
@@ -311,6 +312,7 @@ Thanks also to the authors of the optional mods whose ingredient tables this tra
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519]Vanilla Cooking Expanded[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url], by Oskar Potocki, Sarg Bjornson and others
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401]Kit's Brazilian Crops (Continued)[/url], by Kitsune, continued by Zaljerem
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007062982]VGP Garden Gourmet[/url], by dismarzero
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3354456321]Food Texture Variety[/url] and its [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3354455179]Core[/url], by FaintingGoat
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3448458106]VV - New Harvest[/url], by VVenchov
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366]RimCuisine 2 Core (Continued)[/url], by Crustypeanut, continued by Mlie
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643012859]TP Sea Plants[/url], by Tanypredator
