@@ -1,0 +1,5 @@
+# Pass "ftv": Food Texture Variety (FaintingGoat) beside this mod, for the French name of its FTV_Meal* things (AUDIT.md 8.f, optional provider).
+# The minimal set plus the two Workshop items; ScreenshotMode only for the info card capture. Development-only companion.
+nelim.pickletools.screenshotmode   path:PickleTools/ScreenshotMode/Mod
+Goat.Food.Texture.Variety.Core 3354455179
+Goat.Food.Texture.Variety      3354456321

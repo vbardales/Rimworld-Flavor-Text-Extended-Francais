@@ -48,6 +48,22 @@ namespace FlavorTextExtendedFR.PickleSteps
             MealSteps.AssertNamed(ctx, meal);
         }
 
+
+        /// <summary>
+        /// Food Texture Variety meals (FTV_Meal*) get their kind in French from this mod's DefInjected
+        /// ("plat simple", "plat raffine"). The name Flavor Text gives ends with the kind in brackets;
+        /// the English kind ("variety simple meal") must be gone.
+        /// </summary>
+        [Then("the name of the cooked meal ends with {string} and holds no English kind")]
+        public void CookedMealKindIsFrench(PickleContext ctx, string suffix)
+        {
+            var meal = CookedMeal(Driver.Map(ctx));
+            ctx.Require(meal != null, "no cooked meal on the map to read the kind of");
+            var label = meal.LabelCap.ToString();
+            Log.Message($"[FTFR tests] cooked meal label: {label}");
+            ctx.Require(label.EndsWith(suffix), $"the cooked meal is named '{label}', expected a name ending with '{suffix}'");
+            ctx.Require(label.IndexOf("variety", System.StringComparison.OrdinalIgnoreCase) < 0, $"the cooked meal '{label}' still holds the English kind");
+        }
         /// <summary>
         /// Opens the info card of the dish the cook made, the pane's own "i" button, which shows the whole
         /// name and the description, and logs both so the report carries the words a person judges. The
@@ -99,7 +115,7 @@ namespace FlavorTextExtendedFR.PickleSteps
         private static bool IsCookedDish(Thing t) => t.Spawned && !BeforeCooking.Contains(t.thingIDNumber)
             && t.TryGetComp<CompFlavor>() != null;
 
-        private static readonly string[] CookedDefs = { "MealSimple", "MealFine", "MealLavish" };
+        private static readonly string[] CookedDefs = { "MealSimple", "MealFine", "MealLavish", "FTV_MealSimple", "FTV_MealFine", "FTV_MealLavish" };
 
         /// <summary>
         /// The meal things of the map, read def by def. The first version walked <c>listerThings.AllThings</c>, which
