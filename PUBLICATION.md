@@ -46,6 +46,20 @@ series is made as candidates:
 - **State on 2026-10-08:** the shooting plan and feature are written (`Tests/Pickle/Mod/Pickle/Features/22-gallery.feature`); no candidate
   is accepted yet.
 
+### Gallery subtitles
+
+The story of the series (`22-gallery.feature`, rewritten 2026-10-16): "Lunch is served", one midday at the sanctuary. Nelim welcomes a
+guest, Camille, and shows her dishes whose names are French. Each scene without an interface window carries one English line at the
+bottom, like a film subtitle (`GALLERY.md`, "Sous-titres"). The settings page and `0-preview.png` have none. These lines are written
+before the pictures exist: they are the plan, and each is re-read against its accepted picture before it is burned in with
+`scripts/Add-Subtitle.ps1` from `Art/Gallery-clean/`. Nobody sits or eats in the pictures (no step for it), so no line says so.
+
+| index | file | line |
+|---|---|---|
+| 1 | `1-lunch-table-is-laid.jpg` | Nelim lays the table for her guest, and every dish has a French name. |
+| 2 | `2-lunch-main-and-side-dish.jpg` | A main dish and its side dish, joined the French way. |
+| 3 | `3-lunch-blanquette-and-hen.jpg` | Even a hen comes to see what the colony cooked. |
+
 ## Thank-you messages and the register
 
 The register is `WORKSHOP_COMMENTS.md` at the monorepo root (one main comment per recipient page for the whole collection). State on
