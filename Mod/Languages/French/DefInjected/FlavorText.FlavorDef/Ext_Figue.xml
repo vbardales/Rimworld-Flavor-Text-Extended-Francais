@@ -10,7 +10,7 @@
 <LanguageData>
 
 	<FlavorTextFR_TarteAuxFigues.label>tarte aux figues</FlavorTextFR_TarteAuxFigues.label>
-	<FlavorTextFR_TarteAuxFigues.description>{0_coll} fendues en croix et posées debout sur une crème {2_adj}, qui boit leur jus pendant la cuisson et empêche la pâte de détremper.</FlavorTextFR_TarteAuxFigues.description>
+	<FlavorTextFR_TarteAuxFigues.description>{0_coll} fendues en croix et posées debout sur une crème {2_adj}, qui boit leur jus pendant la cuisson et empêche la pâte de se détremper.</FlavorTextFR_TarteAuxFigues.description>
 	<FlavorTextFR_CrostataDiFichi.label>crostata di fichi</FlavorTextFR_CrostataDiFichi.label>
 	<FlavorTextFR_CrostataDiFichi.description>une pâte sablée {2_plur} croisée en treillis sur une couche épaisse de confiture {0_adj}. Se mange froide, le lendemain, quand la pâte a bu un peu du fruit.</FlavorTextFR_CrostataDiFichi.description>
 	<FlavorTextFR_FiguesRotiesAuMiel.label>figues rôties au miel</FlavorTextFR_FiguesRotiesAuMiel.label>
