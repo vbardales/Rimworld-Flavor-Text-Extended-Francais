@@ -91,7 +91,7 @@
 	<!-- Gratins et cocottes -->
 	<FlavorText_Ingredients_Bake.description>un gratin tout simple {0_adj}, nappé d'un velouté {1_adj} et passé au four jusqu'à ce qu'une croûte dorée se forme.</FlavorText_Ingredients_Bake.description>
 	<FlavorText_Ingredients_Casserole.description>un grand plat {0_adj} et {1_adj}, couvert d'une couche {2_adj} et passé au four.</FlavorText_Ingredients_Casserole.description>
-	<FlavorText_Ingredients_Casserole_3.description>un plat de terre bien rempli {0_adj} et {1_adj}, couvert d'une couche {2_adj} et cuit au four.</FlavorText_Ingredients_Casserole_3.description>
+	<FlavorText_Ingredients_Casserole_3.description>un plat en terre bien rempli {0_adj} et {1_adj}, couvert d'une couche {2_adj} et cuit au four.</FlavorText_Ingredients_Casserole_3.description>
 	<FlavorText_Ingredients_Quiche.description>une tarte française : une croûte de pâte {2_adj} garnie d'un appareil salé et de morceaux {0_adj}.</FlavorText_Ingredients_Quiche.description>
 	<FlavorText_Ingredients_AuGratin.description>de fines couches {0_adj} et {1_adj} rangées dans un plat, couvertes de fromage râpé, puis cuites au four jusqu'à obtenir une croûte craquante.</FlavorText_Ingredients_AuGratin.description>
 	<FlavorText_Baked_Ingredients.description>des parts égales {0_adj}, en pièces entières, cuites au four jusqu'à caraméliser, salées et poivrées à la sortie.</FlavorText_Baked_Ingredients.description>

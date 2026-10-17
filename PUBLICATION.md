@@ -203,7 +203,7 @@ Si je ne réponds pas dans un délai raisonnable après avoir été contactée, 
 
 [h2]Généré avec l'IA[/h2]
 
-La traduction française initiale a été faite avec Claude (Anthropic), sous direction et relecture humaines. Une passe de corrections a utilisé Codex (OpenAI). Les correctifs suivants et les tests en jeu ont utilisé Claude Code (Anthropic), et le travail sur les images a utilisé l'outil de génération d'images d'OpenAI.
+La traduction française initiale a été faite avec Claude (Anthropic), sous direction et relecture humaines. Une passe de corrections a utilisé Codex (OpenAI). Les correctifs suivants et les tests en jeu ont utilisé Claude Code (Anthropic). Les images ont été réalisées avec l'outil de génération d'images d'OpenAI.
 
 [h2]Remerciements[/h2]
 
