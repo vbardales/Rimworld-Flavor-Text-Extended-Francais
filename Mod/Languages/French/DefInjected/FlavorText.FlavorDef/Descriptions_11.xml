@@ -44,7 +44,7 @@
 	<FlavorText_Ajiaco.description>une soupe {1_adj} née en Amérique latine. Les variantes sont innombrables, mais l'ajiaco réunit en général {0_coll} et une ou plusieurs sortes {1_adj}, écrasés ou laissés en morceaux. Celui-ci est relevé {2_adj} entiers.</FlavorText_Ajiaco.description>
 	<FlavorText_Galinhada.description>un plat brésilien nourrissant, cuit dans une seule marmite : {0_coll} et {1_coll} mijotés avec de l'oignon, des petits pois, des carottes et un fond {0_adj}. L'ail domine largement, avec du paprika fumé, de l'origan, du romarin, du cumin et du curcuma.</FlavorText_Galinhada.description>
 	<FlavorText_Galinhada_2.description>un plat brésilien nourrissant, cuit dans une seule marmite : {0_coll} et {1_coll} mijotés avec {2_coll} et un fond {0_adj}. L'ail domine largement, avec du paprika fumé, de l'origan, du romarin, du cumin et du curcuma.</FlavorText_Galinhada_2.description>
-	<FlavorText_Koldil_Meat_Poultry.description>un curry assamais {0_adj}, cuite avec une fleur {1_adj}.</FlavorText_Koldil_Meat_Poultry.description>
+	<FlavorText_Koldil_Meat_Poultry.description>un curry assamais {0_adj}, cuit avec une fleur {1_adj}.</FlavorText_Koldil_Meat_Poultry.description>
 	<FlavorText_TomYum.description>une famille de soupes aigres et pimentées de la cuisine thaïlandaise. On tranche, on pile et on fait infuser les aromates (citronnelle, feuilles de combava, galanga, piments) pour en extraire les arômes, puis on ajoute {0_coll}. Ce tom yum repose largement {1_plur} pour le corps, et se termine d'un jus acidulé {2_adj} et de sauce de poisson.</FlavorText_TomYum.description>
 
 	<!-- Réplique de Sam à Gollum ; on reprend la formule du doublage français -->
@@ -59,7 +59,7 @@
 	<FlavorText_LungFungSoup.description>aussi appelée soupe du dragon et du phénix, elle naît du croisement des cuisines chinoise et indienne : un fond puissant relevé {0_plur}, de gingembre, d'ail et de piments, avec des légumes comme {1_coll}. Son allure vient des blancs {2_adj} montés en mousse, qui flottent sur la soupe sombre comme des icebergs.</FlavorText_LungFungSoup.description>
 
 	<!-- Ragoûts génériques -->
-	<FlavorText_MeatRaw_Bourguignon.description>un ragoût français {0_adj} cuite au vin rouge avec {1_coll}.</FlavorText_MeatRaw_Bourguignon.description>
+	<FlavorText_MeatRaw_Bourguignon.description>un ragoût français {0_adj} cuit au vin rouge avec {1_coll}.</FlavorText_MeatRaw_Bourguignon.description>
 	<FlavorText_MeatRaw_Consomme.description>une soupe française {0_adj}, clarifiée aux blancs {1_adj} pour en retirer graisse et dépôt.</FlavorText_MeatRaw_Consomme.description>
 	<FlavorText_MeatRaw_Consomme_2.description>un bouillon clair {0_adj}, débarrassé de sa graisse et de son dépôt à la gélatine.</FlavorText_MeatRaw_Consomme_2.description>
 	<FlavorText_MeatRaw_Jeongol.description>une fondue coréenne : on fait bouillir {1_coll} et {0_coll} dans un bouillon à la pâte {2_adj}.</FlavorText_MeatRaw_Jeongol.description>
