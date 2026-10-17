@@ -42,6 +42,6 @@
 	<FlavorTextFR_AsparagusTempura.label>tempura d'asperges</FlavorTextFR_AsparagusTempura.label>
 	<FlavorTextFR_AsparagusTempura.description>{0_coll} entières trempées dans une pâte {1_adj} glacée et à peine mélangée, frites trente secondes {2_plur}. La pointe reste verte et croquante sous la croûte.</FlavorTextFR_AsparagusTempura.description>
 	<FlavorTextFR_AsparagusNikumaki.label>asparagus nikumaki</FlavorTextFR_AsparagusNikumaki.label>
-	<FlavorTextFR_AsparagusNikumaki.description>{0_coll} enroulées une à une dans une lamelle {1_adj} très fine, saisies à la poêle jusqu'à ce que la viande scelle, puis laquées {2_plur} et au mirin.</FlavorTextFR_AsparagusNikumaki.description>
+	<FlavorTextFR_AsparagusNikumaki.description>{0_coll} enroulées une à une dans une lamelle {1_adj} très fine, saisies à la poêle jusqu'à ce que la viande se raffermisse, puis laquées {2_plur} et au mirin.</FlavorTextFR_AsparagusNikumaki.description>
 
 </LanguageData>
