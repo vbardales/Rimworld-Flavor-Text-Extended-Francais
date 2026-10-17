@@ -18,7 +18,7 @@
 	<FlavorTextFR_SaucissePuree.label>saucisse-purée</FlavorTextFR_SaucissePuree.label>
 	<FlavorTextFR_SaucissePuree.description>une saucisse pochée puis dorée, sur une purée {1_adj} passée au tamis et détendue {2_plur} chaud. Le plat de cantine dont personne ne se plaint.</FlavorTextFR_SaucissePuree.description>
 	<FlavorTextFR_JambonALOs.label>jambon à l'os</FlavorTextFR_JambonALOs.label>
-	<FlavorTextFR_JambonALOs.description>une pièce entière {0_adj} cuite sur son os et tranchée devant vous. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</FlavorTextFR_JambonALOs.description>
+	<FlavorTextFR_JambonALOs.description>une pièce entière {0_adj} cuite sur son os et tranchée devant toi. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</FlavorTextFR_JambonALOs.description>
 	<FlavorTextFR_PouletALaCreme.label>poulet à la crème</FlavorTextFR_PouletALaCreme.label>
 	<FlavorTextFR_PouletALaCreme.description>{0_coll} pochée puis nappée d'une sauce montée {1_plur} et parsemée {2_adj} sautés à part pour qu'ils ne rendent pas leur eau dans la sauce.</FlavorTextFR_PouletALaCreme.description>
 	<FlavorTextFR_PouletGastonGerard.label>poulet Gaston Gérard</FlavorTextFR_PouletGastonGerard.label>
