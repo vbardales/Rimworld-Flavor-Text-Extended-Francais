@@ -10,13 +10,13 @@
 <LanguageData>
 
 	<FlavorTextFR_ArtichautsBarigoule.label>artichauts à la barigoule</FlavorTextFR_ArtichautsBarigoule.label>
-	<FlavorTextFR_ArtichautsBarigoule.description>de petits violets tournés et fendus, étuvés {1_plur} et une mirepoix, mouillés {2_plur} blanc et laissés réduire à sec. Le nom vient d'un champignon qu'on n'y met plus depuis deux siècles.</FlavorTextFR_ArtichautsBarigoule.description>
+	<FlavorTextFR_ArtichautsBarigoule.description>de petits violets tournés et fendus, étuvés {1_plur} avec une mirepoix, mouillés {2_plur} blanc et laissés réduire à sec. Le nom vient d'un champignon qu'on n'y met plus depuis deux siècles.</FlavorTextFR_ArtichautsBarigoule.description>
 	<FlavorTextFR_ArtichautsVinaigrette.label>artichauts vinaigrette</FlavorTextFR_ArtichautsVinaigrette.label>
 	<FlavorTextFR_ArtichautsVinaigrette.description>{0_coll} entiers bouillis la tête en bas, servis tièdes avec une vinaigrette moutardée. On les effeuille un à un et on racle la base de chaque feuille entre les dents ; le fond se garde pour la fin.</FlavorTextFR_ArtichautsVinaigrette.description>
 	<FlavorTextFR_ArtichautsFarcis.label>artichauts farcis</FlavorTextFR_ArtichautsFarcis.label>
 	<FlavorTextFR_ArtichautsFarcis.description>{0_coll} évidés de leur foin, garnis d'une farce {1_adj} liée de mie, et braisés debout dans un peu de bouillon jusqu'à ce que les feuilles s'écartent d'elles-mêmes.</FlavorTextFR_ArtichautsFarcis.description>
 	<FlavorTextFR_CarciofiAllaRomana.label>carciofi alla romana</FlavorTextFR_CarciofiAllaRomana.label>
-	<FlavorTextFR_CarciofiAllaRomana.description>{0_coll} parés jusqu'au cœur tendre, farcis {1_plur} et de menthe romaine, plantés la tige en l'air dans une casserole étroite et étuvés à l'huile et à l'eau.</FlavorTextFR_CarciofiAllaRomana.description>
+	<FlavorTextFR_CarciofiAllaRomana.description>{0_coll} parés jusqu'au cœur tendre, farcis {1_plur} et à la menthe romaine, plantés la tige en l'air dans une casserole étroite et étuvés à l'huile et à l'eau.</FlavorTextFR_CarciofiAllaRomana.description>
 	<FlavorTextFR_CarciofiAllaGiudia.label>carciofi alla giudia</FlavorTextFR_CarciofiAllaGiudia.label>
 	<FlavorTextFR_CarciofiAllaGiudia.description>{0_coll} entiers frits deux fois, écrasés entre deux passages pour que les feuilles s'ouvrent en fleur et deviennent aussi cassantes que des chips. Une invention du ghetto de Rome.</FlavorTextFR_CarciofiAllaGiudia.description>
 	<FlavorTextFR_RisottoAiCarciofi.label>risotto ai carciofi</FlavorTextFR_RisottoAiCarciofi.label>
@@ -34,11 +34,11 @@
 	<FlavorTextFR_AginaresAlaPolita.label>aginares a la polita</FlavorTextFR_AginaresAlaPolita.label>
 	<FlavorTextFR_AginaresAlaPolita.description>{0_coll} braisés à l'huile avec {1_coll} et des carottes, liés d'un avgolemono {2_adj} monté hors du feu. « À la façon de la Ville », c'est-à-dire de Constantinople.</FlavorTextFR_AginaresAlaPolita.description>
 	<FlavorTextFR_ZeytinyagliEnginar.label>zeytinyağlı enginar</FlavorTextFR_ZeytinyagliEnginar.label>
-	<FlavorTextFR_ZeytinyagliEnginar.description>des fonds {0_adj} remplis {2_plur} et de carottes en dés, cuits à l'huile {1_adj} et refroidis dedans. Les plats « à l'huile d'olive » turcs se mangent toujours froids.</FlavorTextFR_ZeytinyagliEnginar.description>
+	<FlavorTextFR_ZeytinyagliEnginar.description>des fonds {0_adj} farcis {2_plur} et aux carottes en dés, cuits à l'huile {1_adj} et refroidis dedans. Les plats « à l'huile d'olive » turcs se mangent toujours froids.</FlavorTextFR_ZeytinyagliEnginar.description>
 	<FlavorTextFR_DolmaQarnoun.label>dolma qarnoun</FlavorTextFR_DolmaQarnoun.label>
 	<FlavorTextFR_DolmaQarnoun.description>des fonds {0_adj} garnis d'un hachis {1_adj} et {2_adj}, mijotés dans une sauce blanche au citron. Le plat algérien du printemps, quand les cardons arrivent.</FlavorTextFR_DolmaQarnoun.description>
 	<FlavorTextFR_TajineDArtichauts.label>tajine d'artichauts</FlavorTextFR_TajineDArtichauts.label>
-	<FlavorTextFR_TajineDArtichauts.description>{1_coll} mijotée au safran et au gingembre, {0_coll} ajoutés à mi-cuisson pour ne pas se défaire, et {2_coll} confit en fin de course.</FlavorTextFR_TajineDArtichauts.description>
+	<FlavorTextFR_TajineDArtichauts.description>{1_coll} ~mijoté~ au safran et au gingembre, {0_coll} ~ajouté~ à mi-cuisson pour ne pas se défaire, puis {2_coll} ~confit~ en fin de cuisson.</FlavorTextFR_TajineDArtichauts.description>
 	<FlavorTextFR_SpinachArtichokeDip.label>spinach-artichoke dip</FlavorTextFR_SpinachArtichokeDip.label>
 	<FlavorTextFR_SpinachArtichokeDip.description>{0_coll} et {1_coll} hachés noyés {2_plur} fondu, gratinés et servis bouillants avec de quoi tremper. Le plat d'apéritif américain par excellence, et personne ne s'arrête à temps.</FlavorTextFR_SpinachArtichokeDip.description>
 

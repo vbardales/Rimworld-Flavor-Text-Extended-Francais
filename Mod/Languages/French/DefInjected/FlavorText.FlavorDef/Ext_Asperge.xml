@@ -32,7 +32,7 @@
 	<FlavorTextFR_RisottoAgliAsparagi.label>risotto agli asparagi</FlavorTextFR_RisottoAgliAsparagi.label>
 	<FlavorTextFR_RisottoAgliAsparagi.description>{1_coll} mouillé du bouillon tiré des épluchures {0_adj}, les tiges fondues dedans et les pointes gardées croquantes pour la fin, le tout lié {2_plur}.</FlavorTextFR_RisottoAgliAsparagi.description>
 	<FlavorTextFR_FrittataDiAsparagi.label>frittata di asparagi</FlavorTextFR_FrittataDiAsparagi.label>
-	<FlavorTextFR_FrittataDiAsparagi.description>{0_coll} tronçonnées et poêlées {2_plur} nouveaux, noyées {1_plur} battus et cuites à feu doux jusqu'à ce que le centre soit à peine pris.</FlavorTextFR_FrittataDiAsparagi.description>
+	<FlavorTextFR_FrittataDiAsparagi.description>{0_coll} tronçonnées et poêlées {2_plur} ~nouveau~, noyées {1_plur} battus et cuites à feu doux jusqu'à ce que le centre soit à peine pris.</FlavorTextFR_FrittataDiAsparagi.description>
 	<FlavorTextFR_PastaAgliAsparagi.label>pasta agli asparagi</FlavorTextFR_PastaAgliAsparagi.label>
 	<FlavorTextFR_PastaAgliAsparagi.description>les tiges {0_adj} fondues {2_plur} jusqu'à se défaire en crème, les pointes ajoutées entières deux minutes avant la fin. L'eau de cuisson lie le tout.</FlavorTextFR_PastaAgliAsparagi.description>
 	<FlavorTextFR_SpargelMitKartoffeln.label>spargel mit kartoffeln</FlavorTextFR_SpargelMitKartoffeln.label>

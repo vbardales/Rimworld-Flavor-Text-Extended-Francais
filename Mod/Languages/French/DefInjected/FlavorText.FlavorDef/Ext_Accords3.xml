@@ -22,7 +22,7 @@
 	<FlavorTextFR_TraversLaquesChocolat.label>travers laqués au chocolat</FlavorTextFR_TraversLaquesChocolat.label>
 	<FlavorTextFR_TraversLaquesChocolat.description>un travers {0_adj} cuit lentement, puis laqué d'une sauce barbecue montée {1_plur} amer, {2_plur} et au piment chipotle, et passé sous le gril jusqu'à ce qu'elle cloque.</FlavorTextFR_TraversLaquesChocolat.description>
 	<FlavorTextFR_AnpanAuCafe.label>anpan au café</FlavorTextFR_AnpanAuCafe.label>
-	<FlavorTextFR_AnpanAuCafe.description>une brioche {2_adj} dont la pâte est montée {0_plur} serré, fourrée d'une pâte {1_adj} sucrés. L'amertume du café empêche l'anko de saturer, ce qui est tout le problème de l'anpan classique.</FlavorTextFR_AnpanAuCafe.description>
+	<FlavorTextFR_AnpanAuCafe.description>une brioche {2_adj} dont la pâte est montée {0_plur} serré, fourrée d'une pâte {1_adj} sucrée. L'amertume du café empêche l'anko de saturer, ce qui est tout le problème de l'anpan classique.</FlavorTextFR_AnpanAuCafe.description>
 	<FlavorTextFR_GeleeDeCafeAzuki.label>gelée de café aux azuki</FlavorTextFR_GeleeDeCafeAzuki.label>
 	<FlavorTextFR_GeleeDeCafeAzuki.description>{0_coll} noir pris en gelée à l'agar, coupé en cubes tremblants et servi sur {1_coll} confits {2_plur}. Se mange à la cuillère, glacé, dans les cafés japonais depuis un siècle.</FlavorTextFR_GeleeDeCafeAzuki.description>
 	<FlavorTextFR_GlaceCafeAzuki.label>glace café-azuki</FlavorTextFR_GlaceCafeAzuki.label>

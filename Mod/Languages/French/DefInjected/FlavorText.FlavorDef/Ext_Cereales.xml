@@ -30,7 +30,7 @@
 	<FlavorTextFR_Krupnik.label>krupnik</FlavorTextFR_Krupnik.label>
 	<FlavorTextFR_Krupnik.description>une soupe paysanne {0_adj} perlé, {2_adj} en cubes et {1_adj} séchés réhydratés, dont on garde l'eau de trempage : c'est elle qui porte tout le goût.</FlavorTextFR_Krupnik.description>
 	<FlavorTextFR_OrgeAuTheBeurre.label>orge au thé beurré</FlavorTextFR_OrgeAuTheBeurre.label>
-	<FlavorTextFR_OrgeAuTheBeurre.description>une farine {0_adj} grillé, pétrie du bout des doigts dans un bol {1_plur} salé battu {2_plur}. Se mange sans couverts, en roulant la pâte contre la paroi. Tient une journée de marche.</FlavorTextFR_OrgeAuTheBeurre.description>
+	<FlavorTextFR_OrgeAuTheBeurre.description>une farine {0_adj} ~grillé~, pétrie du bout des doigts dans un bol {1_plur} salé battu {2_plur}. Se mange sans couverts, en roulant la pâte contre la paroi. Tient une journée de marche.</FlavorTextFR_OrgeAuTheBeurre.description>
 	<FlavorTextFR_SaladeOrgeFeta.label>salade d'orge à la feta</FlavorTextFR_SaladeOrgeFeta.label>
 	<FlavorTextFR_SaladeOrgeFeta.description>{0_coll} perlé cuit puis rafraîchi net, mêlé {2_plur} en dés, {1_plur} émietté et beaucoup d'herbes. Il faut l'assaisonner tiède : froid, il ne prend plus rien.</FlavorTextFR_SaladeOrgeFeta.description>
 	<FlavorTextFR_Boribap.label>boribap</FlavorTextFR_Boribap.label>
@@ -40,7 +40,7 @@
 	<FlavorTextFR_BannockDOrge.label>bannock d'orge</FlavorTextFR_BannockDOrge.label>
 	<FlavorTextFR_BannockDOrge.description>une galette épaisse {0_adj}, cuite sur une pierre chaude ou à même la plaque, pétrie {2_plur} caillé et {1_plur}. Sans levure : elle lève par le lait aigre seul.</FlavorTextFR_BannockDOrge.description>
 	<FlavorTextFR_OrgeAuxPoireaux.label>orge aux poireaux</FlavorTextFR_OrgeAuxPoireaux.label>
-	<FlavorTextFR_OrgeAuxPoireaux.description>{0_coll} perlé étuvé au bouillon avec une fondue {1_adj} menés très doucement, monté {2_plur} en fin de cuisson. Le blanc et le vert vont ensemble, contrairement à l'habitude.</FlavorTextFR_OrgeAuxPoireaux.description>
+	<FlavorTextFR_OrgeAuxPoireaux.description>{0_coll} perlé étuvé au bouillon avec une fondue {1_adj} menée très doucement, monté {2_plur} en fin de cuisson. Le blanc et le vert vont ensemble, contrairement à l'habitude.</FlavorTextFR_OrgeAuxPoireaux.description>
 	<FlavorTextFR_QuinottoChampignons.label>quinotto aux champignons</FlavorTextFR_QuinottoChampignons.label>
 	<FlavorTextFR_QuinottoChampignons.description>{0_coll} rincé longuement pour ôter sa saponine amère, puis mené comme un risotto avec {1_coll} et lié {2_plur}. Le germe se détache en anneau : c'est le signe qu'il est cuit.</FlavorTextFR_QuinottoChampignons.description>
 	<FlavorTextFR_SaladeQuinoaGrenade.label>salade quinoa-grenade</FlavorTextFR_SaladeQuinoaGrenade.label>
