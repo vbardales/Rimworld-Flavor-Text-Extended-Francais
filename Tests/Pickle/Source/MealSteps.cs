@@ -36,6 +36,33 @@ namespace FlavorTextExtendedFR.PickleSteps
             GenSpawn.Spawn(meal, new IntVec3(x, 0, z), map);
         }
 
+        /// <summary>
+        /// A meal of any meal def (the Food Texture Variety things FTV_MealSimple, FTV_MealFine,
+        /// FTV_MealLavish) with one ingredient, for the kind label this mod gives them in French.
+        /// A real cook needs more game time than the watchdog allows once FTV is loaded (ticket f382).
+        /// </summary>
+        [Given("a meal of def {string} made of {string} alone lies at \\({int}, {int}\\)")]
+        public void DefMealLies(PickleContext ctx, string mealDef, string only, int x, int z)
+        {
+            var def = DefDatabase<ThingDef>.GetNamedSilentFail(mealDef);
+            ctx.Require(def != null, $"no ThingDef named '{mealDef}'");
+            var meal = ThingMaker.MakeThing(def);
+            var ingredients = meal.TryGetComp<CompIngredients>();
+            ctx.Require(ingredients != null, $"{mealDef} has no CompIngredients");
+            ingredients.RegisterIngredient(Def(ctx, only));
+            GenSpawn.Spawn(meal, new IntVec3(x, 0, z), Driver.Map(ctx));
+        }
+
+        /// <summary>The name ends with the French kind in brackets and the English kind is gone.</summary>
+        [Then("the name of the meal at \\({int}, {int}\\) ends with {string} and holds no English kind")]
+        public void MealKindIsFrench(PickleContext ctx, int x, int z, string suffix)
+        {
+            var label = MealAt(ctx, x, z).LabelCap.ToString();
+            Log.Message($"[FTFR tests] meal at ({x}, {z}) label: {label}");
+            ctx.Require(label.EndsWith(suffix), $"the meal is named '{label}', expected a name ending with '{suffix}'");
+            ctx.Require(label.IndexOf("variety", System.StringComparison.OrdinalIgnoreCase) < 0, $"the meal '{label}' still holds the English kind");
+        }
+
         /// <summary>A meal of one ingredient, for the dishes that have a single slot and so match nothing else.</summary>
         [Given("a fine meal made of {string} alone lies at \\({int}, {int}\\)")]
         public void SingleMealLies(PickleContext ctx, string only, int x, int z)
