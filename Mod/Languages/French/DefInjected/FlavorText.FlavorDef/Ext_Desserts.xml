@@ -48,9 +48,9 @@
 	<FlavorTextFR_SableBreton.label>sablés bretons</FlavorTextFR_SableBreton.label>
 	<FlavorTextFR_SableBreton.description>presque autant {1_adj} demi-sel que de farine, à peine travaillés pour rester sablonneux. Le sel n'est pas un assaisonnement ici : c'est l'ingrédient principal après le beurre.</FlavorTextFR_SableBreton.description>
 	<FlavorTextFR_Teurgoule.label>teurgoule</FlavorTextFR_Teurgoule.label>
-	<FlavorTextFR_Teurgoule.description>{0_coll} et {1_coll} cannellés, cuits cinq heures au four du boulanger dans une terrine, jusqu'à former une peau brune et épaisse. Le nom vient de la brûlure qu'elle inflige à qui n'attend pas.</FlavorTextFR_Teurgoule.description>
+	<FlavorTextFR_Teurgoule.description>{0_coll} et {1_coll} à la cannelle, cuits cinq heures au four du boulanger dans une terrine, jusqu'à former une peau brune et épaisse. Le nom vient de la brûlure qu'elle inflige à qui n'attend pas.</FlavorTextFR_Teurgoule.description>
 	<FlavorTextFR_Bugnes.label>bugnes</FlavorTextFR_Bugnes.label>
-	<FlavorTextFR_Bugnes.description>des rubans de pâte nouée, parfumés {2_plur} et à la fleur d'oranger, frits et sucrés. Épaisses à Lyon, sèches et craquantes à Saint-Étienne : chacun défend les siennes.</FlavorTextFR_Bugnes.description>
+	<FlavorTextFR_Bugnes.description>des rubans de pâte nouée, parfumés {2_plur} et à la fleur d'oranger, frits et sucrés. Épaisses à Lyon, sèches et craquantes à Saint-Étienne : chaque ville défend les siennes.</FlavorTextFR_Bugnes.description>
 	<FlavorTextFR_Calisson.label>calissons</FlavorTextFR_Calisson.label>
 	<FlavorTextFR_Calisson.description>une pâte {0_adj} et {1_adj} confit, posée sur une feuille d'azyme et glacée de blanc. La forme en navette daterait d'un mariage comtal au XVe siècle.</FlavorTextFR_Calisson.description>
 	<FlavorTextFR_Nougat.label>nougat</FlavorTextFR_Nougat.label>
@@ -104,7 +104,7 @@
 	<FlavorTextFR_Sutlac.label>sütlaç</FlavorTextFR_Sutlac.label>
 	<FlavorTextFR_Sutlac.description>{0_coll} longuement cuit {1_plur}, réparti en ramequins de terre et passé sous le gril jusqu'à ce que la surface brunisse par plaques.</FlavorTextFR_Sutlac.description>
 	<FlavorTextFR_Maamoul.label>maamoul</FlavorTextFR_Maamoul.label>
-	<FlavorTextFR_Maamoul.description>une semoule travaillée {2_plur} clarifié et reposée une nuit, fourrée {1_plur} et pressée dans un moule de bois gravé. Chaque motif désigne une garniture différente.</FlavorTextFR_Maamoul.description>
+	<FlavorTextFR_Maamoul.description>une pâte de semoule travaillée {2_plur} clarifié et reposée une nuit, fourrée {1_plur} et pressée dans un moule de bois gravé. Chaque motif désigne une garniture différente.</FlavorTextFR_Maamoul.description>
 	<FlavorTextFR_OmAli.label>om ali</FlavorTextFR_OmAli.label>
 	<FlavorTextFR_OmAli.description>du feuilletage brisé, noyé {1_plur} sucré et couvert {2_adj}, gratiné jusqu'à ce que le dessus croustille sur un dessous détrempé.</FlavorTextFR_OmAli.description>
 	<FlavorTextFR_Basbousa.label>basbousa</FlavorTextFR_Basbousa.label>
@@ -112,7 +112,7 @@
 	<FlavorTextFR_GajarKaHalwa.label>gajar ka halwa</FlavorTextFR_GajarKaHalwa.label>
 	<FlavorTextFR_GajarKaHalwa.description>{0_coll} râpées cuites une heure {1_plur} jusqu'à ce que tout le liquide ait disparu, puis confites au ghee. Le légume devient un dessert sans qu'on ajoute rien d'autre.</FlavorTextFR_GajarKaHalwa.description>
 	<FlavorTextFR_Kulfi.label>kulfi</FlavorTextFR_Kulfi.label>
-	<FlavorTextFR_Kulfi.description>{0_coll} réduit de moitié à feu doux, parfumé au cardamome, chargé {1_adj} et gelé dans des cônes de métal sans être battu. Plus dense qu'une glace, et plus lent à fondre.</FlavorTextFR_Kulfi.description>
+	<FlavorTextFR_Kulfi.description>{0_coll} réduit de moitié à feu doux, parfumé à la cardamome, chargé {1_adj} et gelé dans des cônes de métal sans être battu. Plus dense qu'une glace, et plus lent à fondre.</FlavorTextFR_Kulfi.description>
 	<FlavorTextFR_Jalebi.label>jalebi</FlavorTextFR_Jalebi.label>
 	<FlavorTextFR_Jalebi.description>une pâte fermentée {1_plur} pressée en spirales directement dans l'huile, puis plongée quelques secondes dans un sirop tiède. Croustillante dehors, gorgée dedans.</FlavorTextFR_Jalebi.description>
 	<FlavorTextFR_Taiyaki.label>taiyaki</FlavorTextFR_Taiyaki.label>
