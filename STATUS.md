@@ -42,7 +42,7 @@ tag_revision: 43dd52da70c3ffbdb3ab55c7301e877be88040e9
 release: "https://github.com/vbardales/Rimworld-Flavor-Text-Extended-Francais/releases/tag/v1.0.0 (created by the CI after the upload, 2026-09-25)"
 audit_revision: 634066483d44f51201aa8ea0722da4b796864aad
 review_revision: c675e87
-code_review_sha: f0ea3fbce6cea2d649ea99bf4c7c4f855dcf6fba  # 2026-10-12: range 238affb..f0ea3fbce6cea2d649ea99bf4c7c4f855dcf6fba re-read (Source unchanged since 44a8cbc; Mod/ French text and About only; build/ rename in scripts). The 2026-10-08 findings stay open in remaining
+code_review_sha: f3069f6e0884343b4c8a08e008beb06663d86763  # 2026-10-17: range f0ea3fbc..f3069f6e re-read (Source: FrenchAgreement.cs, FrenchAgreementData.cs, one line in FrenchMealPostProcessing.cs; Mod/ French text, About, LoadFolders). One finding fixed (failed table build logged once). Open: add <v1.7> to LoadFolders.xml at the 1.7 move; the 2026-10-08 findings stay open in remaining
 echo_review_sha: 0cd7238612c351e519ed9b4e426d14e008b97e87  # 2026-10-12: Art/echo-concept.png (1536 x 1024, clean outlines) kept with the new Preview-source.png (700 x 500, French flag); concept illustration, no capture shows the meals; flipX false
 social_preview_sha256: 463a5370756be94be5a32f0d6b7b877d9f1fa1c246fffee70f0709cf35185546  # 2026-10-12: Preview.png from the new Preview-source uploaded to GitHub Settings > Social preview; og:image downloaded and hashed: identical
 in_game_validation_owner: user
