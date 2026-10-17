@@ -76,7 +76,7 @@
 	<FlavorText_TestiKebab.description>un plat turc : de petits cubes de viande {0_adj} cuits très lentement dans un pot de terre scellé, avec {1_coll}, {2_coll}, du beurre, d'autres légumes et des épices.</FlavorText_TestiKebab.description>
 	<FlavorText_MidyeDolma.description>une spécialité de rue turque : {0_coll} servis dans leur demi-coquille avec {1_coll} relevés, arrosés d'un jus {2_adj} fraîchement pressé et garnis de rondelles {2_adj}.</FlavorText_MidyeDolma.description>
 	<FlavorText_MeatRaw_Fricasee.description>{0_coll} ~coloré~ au beurre, puis ~braisé~ au fond de sauce jusqu'à ce que celle-ci nappe.</FlavorText_MeatRaw_Fricasee.description>
-	<FlavorText_MeatRaw_Hotdish.description>un gratin du Haut-Midwest américain : {0_coll} couverte {2_adj} et relevée d'un velouté {1_adj} en conserve.</FlavorText_MeatRaw_Hotdish.description>
+	<FlavorText_MeatRaw_Hotdish.description>un gratin du Haut-Midwest américain : {0_coll} ~couvert~ {2_adj}, le tout relevé d'un velouté {1_adj} en conserve.</FlavorText_MeatRaw_Hotdish.description>
 	<FlavorText_MeatRaw_Mincemeat.description>{0_coll} et sa graisse {0_adj} hachées très fin, mêlées {1_plur}, servies en garniture ou telles quelles.</FlavorText_MeatRaw_Mincemeat.description>
 	<FlavorText_MeatRaw_Paprikash.description>un plat réconfortant hongrois : {0_coll} longuement mijotée dans un roux très chargé en paprika, fini à la crème aigre.</FlavorText_MeatRaw_Paprikash.description>
 	<FlavorText_MeatRaw_Picadillo.description>{0_coll} ~haché~ ~revenu~ avec {1_coll} ~taillé~ très fin.</FlavorText_MeatRaw_Picadillo.description>
