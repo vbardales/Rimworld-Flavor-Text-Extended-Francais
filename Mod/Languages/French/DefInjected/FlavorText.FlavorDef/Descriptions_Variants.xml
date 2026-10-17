@@ -15,7 +15,7 @@
 
 	<FlavorTextFR_AspergesFlamandeDuo.description>{0_coll} blanches servies avec un œuf dur écrasé à la fourchette dans du beurre fondu, du persil et une râpure de muscade. Chacun mélange sa sauce dans son assiette.</FlavorTextFR_AspergesFlamandeDuo.description>
 
-	<FlavorTextFR_TarteAuxAspergesDuo.description>{0_coll} rangées en rayons sur un fond précuit, entre elles une crème {1_adj}. Les pointes vers le centre, les talons vers le bord : c'est la seule façon que chaque part en ait une.</FlavorTextFR_TarteAuxAspergesDuo.description>
+	<FlavorTextFR_TarteAuxAspergesDuo.description>{0_coll} rangées en rayons sur un fond précuit, entre elles une crème {1_adj}. Les pointes vers le centre, les talons vers le bord : c'est la seule façon de faire que chaque part en ait une.</FlavorTextFR_TarteAuxAspergesDuo.description>
 
 	<FlavorTextFR_ChouxBruxellesCurryDuo.description>{0_coll} coupés en quatre et mijotés dans un lait {1_adj} monté sur cumin, curcuma et graines de moutarde éclatées à l'huile chaude.</FlavorTextFR_ChouxBruxellesCurryDuo.description>
 
@@ -67,7 +67,7 @@
 
 	<FlavorTextFR_TarteALOignonDuo.description>{0_coll} compotés une heure sans prendre couleur, mêlés {1_plur} fumée et étalés sur une pâte brisée. Alsacienne ou lyonnaise selon la main qui l'a faite.</FlavorTextFR_TarteALOignonDuo.description>
 
-	<FlavorTextFR_PateEnCrouteDuo.description>une farce {0_adj} et {1_adj} montée en terrine de pâte, cuite avec une cheminée, puis coulée à la gelée par ce trou une fois refroidie. Se tranche net, froid, jamais tiède.</FlavorTextFR_PateEnCrouteDuo.description>
+	<FlavorTextFR_PateEnCrouteDuo.description>une farce {0_adj} et {1_adj} montée en terrine de pâte, cuite avec une cheminée, puis remplie de gelée par ce trou une fois refroidie. Se tranche net, froid, jamais tiède.</FlavorTextFR_PateEnCrouteDuo.description>
 
 	<FlavorTextFR_VolAuVentDuo.description>une croûte feuilletée si légère qu'elle s'envolerait (d'où le nom), remplie {0_adj} et {1_adj} en sauce blanche, et recoiffée de son chapeau.</FlavorTextFR_VolAuVentDuo.description>
 

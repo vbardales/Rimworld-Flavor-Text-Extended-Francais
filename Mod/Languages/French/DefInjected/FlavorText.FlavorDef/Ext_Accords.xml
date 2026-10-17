@@ -20,7 +20,7 @@
 	<FlavorTextFR_RizPilafOrzo.label>riz pilaf à l'orzo</FlavorTextFR_RizPilafOrzo.label>
 	<FlavorTextFR_RizPilafOrzo.description>{0_coll} et de petites pâtes {1_adj} en grain de riz, nacrés ensemble avec {2_coll} avant d'être mouillés au bouillon. Deux féculents dans la même casserole, et deux textures à l'arrivée.</FlavorTextFR_RizPilafOrzo.description>
 	<FlavorTextFR_BrochettesMixtes.label>brochettes mixtes</FlavorTextFR_BrochettesMixtes.label>
-	<FlavorTextFR_BrochettesMixtes.description>des cubes {0_adj} et {1_adj} enfilés en alternance avec {2_coll}, sur des broches séparées : les deux viandes ne cuisent pas au même rythme, et le griller ensemble est la faute du débutant.</FlavorTextFR_BrochettesMixtes.description>
+	<FlavorTextFR_BrochettesMixtes.description>des cubes {0_adj} et {1_adj} enfilés en alternance avec {2_coll}, sur des broches séparées : les deux viandes ne cuisent pas au même rythme, et les griller ensemble est la faute du débutant.</FlavorTextFR_BrochettesMixtes.description>
 	<FlavorTextFR_ChawarmaMixte.label>chawarma mixte</FlavorTextFR_ChawarmaMixte.label>
 	<FlavorTextFR_ChawarmaMixte.description>deux broches verticales côte à côte, l'une {0_adj}, l'autre {1_adj}, dont on racle les copeaux au fur et à mesure pour les rouler ensemble dans un pain {2_adj}. Le client qui hésite prend les deux.</FlavorTextFR_ChawarmaMixte.description>
 	<FlavorTextFR_Puchero.label>puchero</FlavorTextFR_Puchero.label>
