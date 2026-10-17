@@ -168,7 +168,7 @@ hand. The CI does not read this block: its heading is not `## Steam description`
 the English block whenever that one changes.
 
 ```
-[h1]Extension pour texte d'ambiance culinaire : traduction en français de Flavor Text Extended (non-officiel)[/h1]
+[h1]Extension pour texte d'ambiance culinaire : traduction en français de Flavor Text Extended (non officielle)[/h1]
 
 NON OFFICIEL. Ce mod est publié sans le consentement explicite de l'auteur original (mais celui-ci a jusqu'ici bien accueilli les traductions et les addons).
 Si l'auteur original me contacte pour en demander le retrait, je m'engage à le retirer rapidement.

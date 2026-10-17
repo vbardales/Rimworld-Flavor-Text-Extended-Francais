@@ -14,7 +14,7 @@
 	<FlavorTextFR_EntrecoteBordelaise.label>entrecôte bordelaise</FlavorTextFR_EntrecoteBordelaise.label>
 	<FlavorTextFR_EntrecoteBordelaise.description>{0_coll} grillée sur sarments, nappée d'une réduction {1_adj} rouge et d'échalote, avec des rondelles de moelle pochées posées dessus au dernier moment.</FlavorTextFR_EntrecoteBordelaise.description>
 	<FlavorTextFR_BavetteEchalote.label>bavette à l'échalote</FlavorTextFR_BavetteEchalote.label>
-	<FlavorTextFR_BavetteEchalote.description>{0_coll} saisie très vite et servie saignante (cuite davantage, elle devient inmangeable), couverte {1_adj} fondues {2_plur} et au vinaigre.</FlavorTextFR_BavetteEchalote.description>
+	<FlavorTextFR_BavetteEchalote.description>{0_coll} saisie très vite et servie saignante (cuite davantage, elle devient immangeable), couverte {1_adj} fondues {2_plur} et au vinaigre.</FlavorTextFR_BavetteEchalote.description>
 	<FlavorTextFR_TournedosRossini.label>tournedos Rossini</FlavorTextFR_TournedosRossini.label>
 	<FlavorTextFR_TournedosRossini.description>un médaillon {0_adj} sur croûton, coiffé d'une escalope {1_adj} poêlée et de lamelles {2_adj}, le tout arrosé d'une sauce au madère. Attribué au compositeur, qui l'aurait exigé de son cuisinier.</FlavorTextFR_TournedosRossini.description>
 	<FlavorTextFR_BoeufMode.label>bœuf mode</FlavorTextFR_BoeufMode.label>

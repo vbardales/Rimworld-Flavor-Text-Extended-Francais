@@ -40,7 +40,7 @@
 	<FlavorTextFR_WrapsLaitueChataigneDEau.label>feuilles de laitue au poulet et châtaignes d'eau</FlavorTextFR_WrapsLaitueChataigneDEau.label>
 	<FlavorTextFR_WrapsLaitueChataigneDEau.description>{1_coll} hachée et sautée {0_plur} et à la sauce hoisin, servie brûlante dans des feuilles {2_adj} glacées qu'on referme à la main.</FlavorTextFR_WrapsLaitueChataigneDEau.description>
 	<FlavorTextFR_MaTaiGo.label>ma tai go</FlavorTextFR_MaTaiGo.label>
-	<FlavorTextFR_MaTaiGo.description>une pâte de fécule {0_adj} et de sucre candi, cuite à la vapeur en plaque translucide et ambrée, avec des dés entiers dedans. Se mange tiède, ou retranché et poêlé le lendemain.</FlavorTextFR_MaTaiGo.description>
+	<FlavorTextFR_MaTaiGo.description>une pâte de fécule {0_adj} et de sucre candi, cuite à la vapeur en plaque translucide et ambrée, avec des dés entiers dedans. Se mange tiède, ou découpé et poêlé le lendemain.</FlavorTextFR_MaTaiGo.description>
 	<FlavorTextFR_TubTimKrob.label>tub tim krob</FlavorTextFR_TubTimKrob.label>
 	<FlavorTextFR_TubTimKrob.description>des dés {0_adj} teints en rouge et enrobés de fécule de tapioca, pochés jusqu'à devenir translucides, servis sur glace pilée dans un lait {1_adj} sucré. « Rubis croquants » : ils en ont l'aspect exact.</FlavorTextFR_TubTimKrob.description>
 	<FlavorTextFR_CheCuNang.label>chè củ năng</FlavorTextFR_CheCuNang.label>

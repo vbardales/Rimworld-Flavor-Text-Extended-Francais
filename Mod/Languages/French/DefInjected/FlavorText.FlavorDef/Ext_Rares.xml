@@ -34,7 +34,7 @@
 	<FlavorTextFR_Schav.label>schav</FlavorTextFR_Schav.label>
 	<FlavorTextFR_Schav.description>{0_coll} bouillie brièvement puis refroidie, liée {1_plur} battus hors du feu et blanchie {2_plur}. Se sert glacée avec une pomme de terre chaude au fond du bol.</FlavorTextFR_Schav.description>
 	<FlavorTextFR_SaumonALOseille.label>saumon à l'oseille</FlavorTextFR_SaumonALOseille.label>
-	<FlavorTextFR_SaumonALOseille.description>un escalope {1_adj} saisie d'un seul côté et laissée rosée, nappée d'une sauce {2_adj} réduite au vin blanc où {0_coll} vient de fondre. L'acide de la feuille remplace le citron.</FlavorTextFR_SaumonALOseille.description>
+	<FlavorTextFR_SaumonALOseille.description>une escalope {1_adj} saisie d'un seul côté et laissée rosée, nappée d'une sauce {2_adj} réduite au vin blanc où {0_coll} vient de fondre. L'acide de la feuille remplace le citron.</FlavorTextFR_SaumonALOseille.description>
 	<FlavorTextFR_OmeletteALOseille.label>omelette à l'oseille</FlavorTextFR_OmeletteALOseille.label>
 	<FlavorTextFR_OmeletteALOseille.description>{0_coll} tombée {2_plur} mousseux avant d'y verser {1_coll} battus. Elle rend beaucoup d'eau : on la fait tomber à part et on l'égoutte, sinon l'omelette ne prend pas.</FlavorTextFR_OmeletteALOseille.description>
 	<FlavorTextFR_BortschVert.label>bortsch vert</FlavorTextFR_BortschVert.label>
