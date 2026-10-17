@@ -20,7 +20,7 @@
 	<FlavorTextFR_SiuMaiMixte.label>siu mai poulet-crevettes</FlavorTextFR_SiuMaiMixte.label>
 	<FlavorTextFR_SiuMaiMixte.description>une farce {0_adj} hachée au couteau et {1_adj} entiers, dans une pâte {2_adj} pincée en corolle ouverte. On les cuit à la vapeur en panier, une crevette entière posée sur le dessus.</FlavorTextFR_SiuMaiMixte.description>
 	<FlavorTextFR_SoupePouletFruitsDeMer.label>soupe poulet et fruits de mer</FlavorTextFR_SoupePouletFruitsDeMer.label>
-	<FlavorTextFR_SoupePouletFruitsDeMer.description>un fond {0_adj} clarifié, dans lequel on pose {1_coll} au dernier moment, avec {2_coll} pour le iode. Les deux bouillons ne se mélangent bien que si l'un est fait d'avance.</FlavorTextFR_SoupePouletFruitsDeMer.description>
+	<FlavorTextFR_SoupePouletFruitsDeMer.description>un fond {0_adj} clarifié, dans lequel on pose {1_coll} au dernier moment, avec {2_coll} pour l'iode. Les deux bouillons ne se mélangent bien que si l'un est fait d'avance.</FlavorTextFR_SoupePouletFruitsDeMer.description>
 	<FlavorTextFR_JambonBeurre.label>jambon-beurre</FlavorTextFR_JambonBeurre.label>
 	<FlavorTextFR_JambonBeurre.description>une demi-baguette {2_adj} fendue, {1_coll} en couche franche sur toute la longueur, deux tranches {0_adj}, rien d'autre. Le sandwich le plus vendu de France, et celui qui pardonne le moins un mauvais pain.</FlavorTextFR_JambonBeurre.description>
 	<FlavorTextFR_PorcBeurreAil.label>porc au beurre à l'ail</FlavorTextFR_PorcBeurreAil.label>
