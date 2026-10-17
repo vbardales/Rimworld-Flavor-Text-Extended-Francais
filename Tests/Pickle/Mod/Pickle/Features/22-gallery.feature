@@ -13,7 +13,7 @@
 # 1. dining-nook, 12:00. The laid table (four meals), the katsudon card at the right. Nelim smiles, facing South; Camille beside her, neutral and curious.
 #    Says: the host shows a table of dishes whose names are French.
 # 2. dining-nook, 12:05. The two-dish meal and its card. Nelim smiles, Camille smiles too. Says: a main dish and its side dish, joined by a French joint.
-# 3. dining-nook, 12:10. The two-meat blanquette; a hen came to see (at (177, 106)). Nelim and Camille smile. Says: a French dish named from the colony's own ingredients.
+# 3. dining-nook, 12:10. The two-meat blanquette; a hen came to see (in front of them, at (177, 112), facing South). Nelim and Camille smile. Says: a French dish named from the colony's own ingredients.
 # NOT claimed by the pictures: nobody is seated and nobody eats (no seat or eating step exists, to ask of Pickle Tools); both stand at the table. The scenario names
 # say what is staged, not a job. Camille's hairstyle (vanilla "Bob") and her cell (177, 110) are to be read on the first run; an unknown name fails with the valid list.
 # Camille's mouth and lids need the VTE faces, which VEFA resolves (both in the map). The garden picture of Extended is not taken. The settings page is a menu: the
@@ -61,13 +61,13 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Camille" lids are "LidNormal"
     And Nelim's Pickle Tools: the other colonists are out of frame
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    And Nelim's Pickle Tools: "Camille" stands at (177, 110) facing South
+    And Nelim's Pickle Tools: "Camille" stands at (178, 110) facing South
     And Nelim's Pickle Tools: "Nelim" face kit is "neutral"
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" mouth is "MouthSmile"
     And Nelim's Pickle Tools: "Nelim" lids are "LidCheerful"
     And Nelim's Pickle Tools: "Nelim" face skin is "SkinRosyCheeks"
-    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
+    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 7
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
@@ -106,7 +106,7 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" mouth is "MouthSmile"
     And Nelim's Pickle Tools: "Nelim" lids are "LidCheerful"
     And Nelim's Pickle Tools: "Nelim" face skin is "SkinRosyCheeks"
-    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
+    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 7
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
@@ -124,7 +124,7 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "FTV_CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
-    Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 106)
+    Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 112)
     Given Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
@@ -141,12 +141,13 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: the other colonists are out of frame
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
     And Nelim's Pickle Tools: "Camille" stands at (177, 110) facing South
+    And Nelim's Pickle Tools: the animal "Poule" stands at (177, 112) facing South
     And Nelim's Pickle Tools: "Nelim" face kit is "neutral"
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" mouth is "MouthSmile"
     And Nelim's Pickle Tools: "Nelim" lids are "LidCheerful"
     And Nelim's Pickle Tools: "Nelim" face skin is "SkinRosyCheeks"
-    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 4.5
+    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 7
     And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
