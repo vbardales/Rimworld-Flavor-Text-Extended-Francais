@@ -121,7 +121,7 @@
 
 	<FlavorTextFR_KunefeDuo.description>{0_coll} frais pris entre deux couches de cheveux d'ange, doré des deux côtés puis arrosé de sirop brûlant. Se mange immédiatement : le fromage doit encore filer.</FlavorTextFR_KunefeDuo.description>
 
-	<FlavorTextFR_MaamoulDuo.description>une semoule travaillée {1_plur} clarifié et reposée une nuit, fourrée {0_plur} et pressée dans un moule de bois gravé. Chaque motif désigne une garniture différente.</FlavorTextFR_MaamoulDuo.description>
+	<FlavorTextFR_MaamoulDuo.description>une pâte de semoule travaillée {1_plur} clarifié et reposée une nuit, fourrée {0_plur} et pressée dans un moule de bois gravé. Chaque motif désigne une garniture différente.</FlavorTextFR_MaamoulDuo.description>
 
 	<FlavorTextFR_OmAliDuo.description>du feuilletage brisé, noyé {0_plur} sucré et couvert {1_adj}, gratiné jusqu'à ce que le dessus croustille sur un dessous détrempé.</FlavorTextFR_OmAliDuo.description>
 
@@ -133,7 +133,7 @@
 
 	<FlavorTextFR_BanhPiaSauRiengDuo.description>un gâteau vietnamien à pâte feuilletée en spirale, fourré de pâte {0_adj} et d'un jaune {1_adj} salé au centre. Les couches se décollent une à une à la découpe.</FlavorTextFR_BanhPiaSauRiengDuo.description>
 
-	<FlavorTextFR_DurianMooncakeDuo.description>une pâte de neige non cuite moulée au sceau, fourrée de chair {0_adj} et d'une pâte {1_adj} sucrés. Se sert glacé, contrairement au gâteau de lune classique.</FlavorTextFR_DurianMooncakeDuo.description>
+	<FlavorTextFR_DurianMooncakeDuo.description>une pâte de neige non cuite moulée au sceau, fourrée de chair {0_adj} et d'une pâte {1_adj} sucrée. Se sert glacé, contrairement au gâteau de lune classique.</FlavorTextFR_DurianMooncakeDuo.description>
 
 	<FlavorTextFR_DurianMilleCrepesDuo.description>vingt crêpes très fines empilées, chacune séparée d'une couche de chair {0_adj} montée {1_plur}. Se tranche net et se mange glacé.</FlavorTextFR_DurianMilleCrepesDuo.description>
 
@@ -191,7 +191,7 @@
 
 	<FlavorTextFR_FarBretonDuo.description>un flan dense {0_plur} et {1_plur}, cuit jusqu'à ce que le dessus brunisse et que le centre tremble encore.</FlavorTextFR_FarBretonDuo.description>
 
-	<FlavorTextFR_ConfitDeVolailleDuo.description>{0_coll} salée un jour, puis cuite très lentement immergée {1_plur}, et conservée dedans. La peau se croustille au dernier moment, à la poêle.</FlavorTextFR_ConfitDeVolailleDuo.description>
+	<FlavorTextFR_ConfitDeVolailleDuo.description>{0_coll} salée un jour, puis cuite très lentement immergée {1_plur}, et conservée dedans. La peau est rendue croustillante au dernier moment, à la poêle.</FlavorTextFR_ConfitDeVolailleDuo.description>
 
 	<FlavorTextFR_BlanquetteDuo.description>{0_coll} cuite sans coloration (c'est toute la difficulté), la sauce montée {1_plur} et acidulée au dernier moment.</FlavorTextFR_BlanquetteDuo.description>
 
@@ -271,7 +271,7 @@
 
 	<FlavorTextFR_MsemenDuo.description>une pâte étirée jusqu'à la transparence sur un plan huilé, badigeonnée {0_plur} et de semoule, pliée en carré et repliée encore, puis cuite à sec. Les feuillets se comptent à la déchirure.</FlavorTextFR_MsemenDuo.description>
 
-	<FlavorTextFR_AamrasDuo.description>la pulpe {0_adj} pressée à la main plutôt que mixée (le fouet oxyde et ternit la couleur), à peine {1_plur} et parfumée au cardamome et au safran.</FlavorTextFR_AamrasDuo.description>
+	<FlavorTextFR_AamrasDuo.description>la pulpe {0_adj} pressée à la main plutôt que mixée (le fouet oxyde et ternit la couleur), à peine {1_plur} et parfumée à la cardamome et au safran.</FlavorTextFR_AamrasDuo.description>
 
 	<FlavorTextFR_AamrasPuriDuo.description>la purée {0_adj} servie avec des puri gonflés brûlants, qu'on déchire pour y tremper. Sucré et salé dans la même bouchée : un repas entier au Gujarat pendant la saison.</FlavorTextFR_AamrasPuriDuo.description>
 
@@ -279,7 +279,7 @@
 
 	<FlavorTextFR_RawMangoCurryDuo.description>{0_coll} verte mijotée dans un lait {1_adj} monté au curcuma et aux graines de moutarde. Le fruit garde sa tenue et son acidité : ce n'est pas un dessert malgré le sucre qu'il contient.</FlavorTextFR_RawMangoCurryDuo.description>
 
-	<FlavorTextFR_MangoChickenCurryDuo.description>{1_coll} mijotée dans une sauce où {0_coll} mûre fond et sucre le curry, tandis que quelques morceaux verts gardés entiers apportent l'acide.</FlavorTextFR_MangoChickenCurryDuo.description>
+	<FlavorTextFR_MangoChickenCurryDuo.description>{1_coll} ~mijoté~ dans une sauce où {0_coll} ~mûr~ fond et sucre le curry, tandis que quelques morceaux verts gardés entiers apportent de l'acidité.</FlavorTextFR_MangoChickenCurryDuo.description>
 
 	<FlavorTextFR_GheeRiceDuo.description>{0_coll} basmati revenu dans {1_coll} clarifié avec des épices entières (cannelle, clou de girofle, cardamome, laurier) puis gonflé à l'eau bouillante. Appelé neychoru au Kerala, où il accompagne les fêtes.</FlavorTextFR_GheeRiceDuo.description>
 
@@ -289,7 +289,7 @@
 
 	<FlavorTextFR_NarsharabDuo.description>la mélasse azérie, montée {1_plur} et parfumée à la cannelle, au clou de girofle et au laurier. Se sert avec de l'esturgeon grillé, et rien d'autre ne la remplace.</FlavorTextFR_NarsharabDuo.description>
 
-	<FlavorTextFR_FattoushGrenadeDuo.description>du pain plat frit et brisé, {1_coll} et des herbes, avec une vinaigrette au sumac et à la mélasse {0_adj}. Le pain doit encore craquer à l'arrivée en table.</FlavorTextFR_FattoushGrenadeDuo.description>
+	<FlavorTextFR_FattoushGrenadeDuo.description>du pain plat frit et brisé, {1_coll} et des herbes, avec une vinaigrette au sumac et à la mélasse {0_adj}. Le pain doit encore craquer à l'arrivée à table.</FlavorTextFR_FattoushGrenadeDuo.description>
 
 	<FlavorTextFR_KisirGrenadeDuo.description>du boulgour fin gonflé à l'eau chaude et travaillé à la main avec du concentré {1_adj}, du piment doux et la mélasse {0_adj}. Se sert dans des feuilles de laitue.</FlavorTextFR_KisirGrenadeDuo.description>
 
@@ -411,7 +411,7 @@
 
 	<FlavorTextFR_KhoreshBehSolo.description>{0_coll} braisée avec des coings en quartiers, dont la chair dure fond en une heure et parfume tout, acidulée au verjus et sucrée d'un peu de miel.</FlavorTextFR_KhoreshBehSolo.description>
 
-	<FlavorTextFR_MaTaiGoSolo.description>une pâte de fécule {0_adj} et de sucre candi, cuite à la vapeur en plaque translucide et ambrée, avec des dés entiers dedans. Se mange tiède, ou retranché et poêlé le lendemain.</FlavorTextFR_MaTaiGoSolo.description>
+	<FlavorTextFR_MaTaiGoSolo.description>une pâte de fécule {0_adj} et de sucre candi, cuite à la vapeur en plaque translucide et ambrée, avec des dés entiers dedans. Se mange tiède, ou découpé puis poêlé le lendemain.</FlavorTextFR_MaTaiGoSolo.description>
 
 	<FlavorTextFR_GateauAuYaourtSolo.description>le pot {0_adj} sert de mesure pour tout le reste. Le premier gâteau que l'on apprend à faire, et le seul dont on n'oublie jamais la recette.</FlavorTextFR_GateauAuYaourtSolo.description>
 
@@ -436,7 +436,7 @@
 	<FlavorTextFR_PoulardeDemiDeuilSolo.description>une volaille sous la peau de laquelle on a glissé des lamelles noires de truffe, pochée entière dans un bouillon d'os. Le noir sur le blanc lui vaut son nom de demi-deuil.</FlavorTextFR_PoulardeDemiDeuilSolo.description>
 	<FlavorTextFR_FocacciaSolo.description>une pâte très hydratée creusée du bout des doigts, noyée d'huile d'olive et salée en gros grains. Les trous retiennent l'huile : ils ne sont pas décoratifs.</FlavorTextFR_FocacciaSolo.description>
 	<FlavorTextFR_UdonSolo.description>des nouilles épaisses et molles, pétries au pied sous une toile, dans un bouillon clair de kombu. La texture compte plus que le goût, et elle est délibérée.</FlavorTextFR_UdonSolo.description>
-	<FlavorTextFR_MsemenSolo.description>une pâte étirée jusqu'à la transparence sur un plan huilé, badigeonnée au beurre et de semoule, pliée en carré et repliée encore, puis cuite à sec. Les feuillets se comptent à la déchirure.</FlavorTextFR_MsemenSolo.description>
+	<FlavorTextFR_MsemenSolo.description>une pâte étirée jusqu'à la transparence sur un plan huilé, badigeonnée de beurre et de semoule, pliée en carré et repliée encore, puis cuite à sec. Les feuillets se comptent à la déchirure.</FlavorTextFR_MsemenSolo.description>
 	<FlavorTextFR_TarteAuRizSolo.description>un riz au lait très épais coulé dans un fond de pâte levée, puis passé au four jusqu'à ce que le dessus se craquelle. La spécialité de Verviers, qu'on y mange depuis des siècles.</FlavorTextFR_TarteAuRizSolo.description>
 	<FlavorTextFR_NarsharabSolo.description>la mélasse azérie, montée au sucre et parfumée à la cannelle, au clou de girofle et au laurier. Se sert avec de l'esturgeon grillé, et rien d'autre ne la remplace.</FlavorTextFR_NarsharabSolo.description>
 	<FlavorTextFR_PongTiaKoonSolo.description>l'œuf de cane à la cambodgienne, grillé sur braises plutôt que bouilli, servi avec une trempette de citron vert, de sel et de poivre de Kampot.</FlavorTextFR_PongTiaKoonSolo.description>
