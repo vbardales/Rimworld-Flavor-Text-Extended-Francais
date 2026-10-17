@@ -38,7 +38,7 @@
 	<FlavorTextFR_SusuBap.label>susu bap</FlavorTextFR_SusuBap.label>
 	<FlavorTextFR_SusuBap.description>{1_coll} cuit avec une poignée {0_adj} et {2_adj}, qui le teintent de rouge sombre. On en servait aux enfants le jour de leur premier anniversaire, pour éloigner le mauvais sort.</FlavorTextFR_SusuBap.description>
 	<FlavorTextFR_SusuBukkumi.label>susu-bukkumi</FlavorTextFR_SusuBukkumi.label>
-	<FlavorTextFR_SusuBukkumi.description>de petites galettes {0_adj} gluant poêlées puis pliées en demi-lune sur une pâte {1_adj} sucrés. Le sorgho leur donne une couleur rouille et un goût de noisette.</FlavorTextFR_SusuBukkumi.description>
+	<FlavorTextFR_SusuBukkumi.description>de petites galettes {0_adj} gluant poêlées puis pliées en demi-lune sur une pâte {1_adj} sucrée. Le sorgho leur donne une couleur rouille et un goût de noisette.</FlavorTextFR_SusuBukkumi.description>
 	<FlavorTextFR_SorghumGrainBowl.label>bol de sorgho</FlavorTextFR_SorghumGrainBowl.label>
 	<FlavorTextFR_SorghumGrainBowl.description>{0_coll} entier bouilli une heure jusqu'à éclater sans se défaire, mêlé {1_plur} rôtis et {2_plur} grillées. Il reste ferme sous la dent, contrairement à toutes les autres céréales.</FlavorTextFR_SorghumGrainBowl.description>
 	<FlavorTextFR_PoppedSorghum.label>sorgho soufflé</FlavorTextFR_PoppedSorghum.label>

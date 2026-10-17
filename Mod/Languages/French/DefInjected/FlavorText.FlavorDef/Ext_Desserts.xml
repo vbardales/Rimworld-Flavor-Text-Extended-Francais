@@ -38,7 +38,7 @@
 	<FlavorTextFR_Profiteroles.label>profiteroles</FlavorTextFR_Profiteroles.label>
 	<FlavorTextFR_Profiteroles.description>de petits choux garnis de glace {2_adj}, noyés sous {1_coll} chaud versé devant les convives. Le contraste des températures est tout le dessert.</FlavorTextFR_Profiteroles.description>
 	<FlavorTextFR_Madeleine.label>madeleines</FlavorTextFR_Madeleine.label>
-	<FlavorTextFR_Madeleine.description>une pâte reposée au froid puis enfournée très chaud : le choc thermique fait la bosse, et une madeleine sans bosse est ratée. Parfumée {2_plur}.</FlavorTextFR_Madeleine.description>
+	<FlavorTextFR_Madeleine.description>une pâte reposée au froid puis enfournée dans un four très chaud : le choc thermique fait la bosse, et une madeleine sans bosse est ratée. Parfumée {2_plur}.</FlavorTextFR_Madeleine.description>
 	<FlavorTextFR_Financier.label>financiers</FlavorTextFR_Financier.label>
 	<FlavorTextFR_Financier.description>de la poudre {0_adj} et des blancs {1_adj}, liés {2_plur} cuit jusqu'à sentir la noisette. Moulé en lingot, et vendu autrefois aux agents de change du quartier de la Bourse.</FlavorTextFR_Financier.description>
 	<FlavorTextFR_Canele.label>canelés</FlavorTextFR_Canele.label>
