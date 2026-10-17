@@ -57,7 +57,7 @@
 	<FlavorText_Teriyaki_MeatRaw.description>{0_coll} ~mariné~ dans une sauce acidulée {1_adj}, puis ~grillé~.</FlavorText_Teriyaki_MeatRaw.description>
 
 	<!-- Ordinaires -->
-	<FlavorText_MudCookies.description>un disque d'argile séchée, qu'on mange dans les moments désespérés pour calmer l'estomac. Si ce texte s'affiche, c'est qu'il y a un problème. Merci de le signaler.</FlavorText_MudCookies.description>
+	<FlavorText_MudCookies.description>un disque d'argile séchée, qu'on mange dans les moments désespérés pour calmer l'estomac. Si ce texte s'affiche, c'est qu'il y a un problème, à signaler.</FlavorText_MudCookies.description>
 	<FlavorText_FondantPotatoes.description>des cylindres épais taillés {0_adj}, colorés puis arrosés de beurre au thym et passés une demi-heure au four. Le résultat est fondant et moelleux, bien au-delà de ce que laissait présager un procédé aussi simple.</FlavorText_FondantPotatoes.description>
 	<FlavorText_FondantPotatoes_2.description>des cylindres épais taillés {0_adj}, colorés puis arrosés d'un fond {1_adj} au thym, et passés une demi-heure au four dans leur bouillon. Le résultat est fondant et moelleux, bien au-delà de ce que laissait présager un procédé aussi simple.</FlavorText_FondantPotatoes_2.description>
 	<FlavorText_Meat_Poultry_AndWaffles.description>{0_coll} ~pané~ et ~frit~, ~posé~ sur d'épaisses gaufres de pâte {1_adj} cuites entre deux plaques gaufrées, ce qui les rend particulièrement croustillantes.</FlavorText_Meat_Poultry_AndWaffles.description>

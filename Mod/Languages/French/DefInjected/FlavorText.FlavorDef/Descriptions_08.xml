@@ -71,7 +71,7 @@
 	<FlavorText_MeatRaw_Nuggets.description>des nuggets de pâte de viande, faits {0_adj} et de tissu conjonctif {1_adj}.</FlavorText_MeatRaw_Nuggets.description>
 	<FlavorText_MeatRaw_Smoothie.description>une boisson crémeuse obtenue en mixant longuement {0_coll} en dés avec {1_coll} et {2_coll}.</FlavorText_MeatRaw_Smoothie.description>
 	<FlavorText_MeatRaw_Surprise.description>{0_coll} ~haché~ et ~mixé~ avec {1_coll}, une tête {2_adj} et divers autres organes.</FlavorText_MeatRaw_Surprise.description>
-	<FlavorText_MeatRaw_CubesAndCream.description>une friandise savoureuse : de la crème fouettée dressée à la poche sur des cubes {0_adj} bouillie.</FlavorText_MeatRaw_CubesAndCream.description>
+	<FlavorText_MeatRaw_CubesAndCream.description>une friandise savoureuse : de la crème fouettée dressée à la poche sur des cubes {0_adj} bouillis.</FlavorText_MeatRaw_CubesAndCream.description>
 	<FlavorText_Denatured_MeatRaw.description>des tranches {0_adj} et {1_coll} fouettés, soumis à un procédé chimique sans chaleur qui dénature les protéines et simule la cuisson. Consomme moins d'énergie qu'une cuisson classique.</FlavorText_Denatured_MeatRaw.description>
 	<FlavorText_HappyAnimalGravy.description>une sauce grumeleuse faite des parures {0_adj} et {1_adj}, dans un liquide {2_adj}.</FlavorText_HappyAnimalGravy.description>
 	<FlavorText_Predigested_MeatRaw.description>{0_coll} ~baigné~ dans une solution enzymatique qui amorce la digestion.</FlavorText_Predigested_MeatRaw.description>
