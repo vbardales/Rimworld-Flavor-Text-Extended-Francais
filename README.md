@@ -21,7 +21,7 @@ This behavior has technical regression coverage, and the in-game suite plays one
 
 ## Coverage
 
-- Names and descriptions for 930 Flavor Text and 901 Flavor Text Extended dishes.
+- Names and descriptions for 930 Flavor Text and 932 Flavor Text Extended dishes.
 - Five Flavor Text setting labels and five tooltips, using the upstream English keys.
 - 186 ingredient entries across all 15 predefined inflection tables in Flavor Text 0.3.6.
 - French sentence templates joining main dishes and side dishes.
