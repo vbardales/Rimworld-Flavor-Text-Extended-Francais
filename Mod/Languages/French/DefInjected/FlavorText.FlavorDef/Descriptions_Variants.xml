@@ -55,7 +55,7 @@
 
 	<FlavorTextFR_PaletteALaDiableDuo.description>{0_coll} fumée pochée, badigeonnée {1_plur} et à la chapelure, puis passée au gril jusqu'à croûter. « À la diable » signifie simplement : moutardé et brûlant.</FlavorTextFR_PaletteALaDiableDuo.description>
 
-	<FlavorTextFR_JambonALOsDuo.description>une pièce entière {0_adj} cuite sur son os et tranchée devant toi. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</FlavorTextFR_JambonALOsDuo.description>
+	<FlavorTextFR_JambonALOsDuo.description>une pièce entière {0_adj} cuite sur son os et tranchée à table. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</FlavorTextFR_JambonALOsDuo.description>
 
 	<FlavorTextFR_SourisDAgneauDuo.description>le petit muscle du jarret, braisé si longtemps qu'il se détache de l'os en glissant. Une souris par convive, jamais moins.</FlavorTextFR_SourisDAgneauDuo.description>
 
@@ -365,7 +365,7 @@
 
 	<FlavorTextFR_AspergesFlamandeSolo.description>{0_coll} blanches servies avec un œuf dur écrasé à la fourchette dans du beurre fondu, du persil et une râpure de muscade. Chacun mélange sa sauce dans son assiette.</FlavorTextFR_AspergesFlamandeSolo.description>
 
-	<FlavorTextFR_JambonALOsSolo.description>une pièce entière {0_adj} cuite sur son os et tranchée devant toi. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</FlavorTextFR_JambonALOsSolo.description>
+	<FlavorTextFR_JambonALOsSolo.description>une pièce entière {0_adj} cuite sur son os et tranchée à table. La chair au contact de l'os est la meilleure, et c'est la dernière servie.</FlavorTextFR_JambonALOsSolo.description>
 
 	<FlavorTextFR_MousseAuChocolatSolo.description>{0_coll} fondu et lié à des jaunes, allégé de blancs montés incorporés en trois fois : le premier tiers pour détendre, les deux autres à la spatule, sans casser l'air.</FlavorTextFR_MousseAuChocolatSolo.description>
 

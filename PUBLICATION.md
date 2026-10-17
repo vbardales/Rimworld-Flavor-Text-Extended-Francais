@@ -189,7 +189,7 @@ Nécessite la dernière version de RimWorld, [url=https://steamcommunity.com/sha
 
 [h2]Réglages[/h2]
 
-Utilise [b]Options → Options de mod → Flavor Text Extended - Français[/b] pour les cinq réglages partagés de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url]. La page d'origine utilise la même configuration. Un raccourci facultatif dans la barre du bas est masqué par défaut et peut être révélé par des mods de personnalisation ; aucun n'est nécessaire pour y accéder. Redémarre le jeu après avoir changé la correspondance des recettes ou la détection dynamique des repas, pour reconstruire les caches.
+Les cinq réglages partagés de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3245374432]Flavor Text[/url] se trouvent dans [b]Options → Options de mod → Flavor Text Extended - Français[/b]. La page d'origine utilise la même configuration. Un raccourci facultatif dans la barre du bas est masqué par défaut et peut être révélé par des mods de personnalisation ; aucun n'est nécessaire pour y accéder. Après un changement de la correspondance des recettes ou de la détection dynamique des repas, un redémarrage du jeu reconstruit les caches.
 
 [h2]Limites connues[/h2]
 
