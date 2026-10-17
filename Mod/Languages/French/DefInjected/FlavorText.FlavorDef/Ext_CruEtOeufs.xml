@@ -20,7 +20,7 @@
 	<FlavorTextFR_PongTiaKoon.label>pong tia koon</FlavorTextFR_PongTiaKoon.label>
 	<FlavorTextFR_PongTiaKoon.description>l'œuf de cane à la cambodgienne, grillé sur braises plutôt que bouilli, servi avec une trempette {1_adj}, de sel et de poivre de Kampot.</FlavorTextFR_PongTiaKoon.description>
 	<FlavorTextFR_CenturyEgg.label>œuf de cent ans</FlavorTextFR_CenturyEgg.label>
-	<FlavorTextFR_CenturyEgg.description>{0_coll} enfoui plusieurs semaines dans un mélange alcalin de cendre, de chaux et de sel : le blanc devient une gelée ambrée translucide, le jaune un cœur vert-noir crémeux. Servi en quartiers {2_plur} mariné.</FlavorTextFR_CenturyEgg.description>
+	<FlavorTextFR_CenturyEgg.description>{0_coll} enfoui plusieurs semaines dans un mélange alcalin de cendre, de chaux et de sel : le blanc devient une gelée ambrée translucide, le jaune un cœur vert-noir crémeux. Servi en quartiers {2_plur} ~mariné~.</FlavorTextFR_CenturyEgg.description>
 	<FlavorTextFR_TeaEggs.label>œufs au thé</FlavorTextFR_TeaEggs.label>
 	<FlavorTextFR_TeaEggs.description>{0_coll} durs dont on fêle la coquille sans la retirer, puis mijotés des heures dans {1_coll} noir, {2_coll} et de la badiane. Le liquide s'infiltre par les fêlures et dessine un marbrage brun.</FlavorTextFR_TeaEggs.description>
 	<FlavorTextFR_EggFooYoung.label>egg foo young</FlavorTextFR_EggFooYoung.label>
@@ -48,7 +48,7 @@
 	<FlavorTextFR_BrochettesViandeTordue.label>brochettes de viande tordue</FlavorTextFR_BrochettesViandeTordue.label>
 	<FlavorTextFR_BrochettesViandeTordue.description>des cubes {0_adj} marinés {1_plur} et {2_plur}, enfilés et grillés à feu vif. La marinade couvre l'essentiel de ce qu'il y a à couvrir.</FlavorTextFR_BrochettesViandeTordue.description>
 	<FlavorTextFR_SaucisseViandeTordue.label>saucisse de viande tordue</FlavorTextFR_SaucisseViandeTordue.label>
-	<FlavorTextFR_SaucisseViandeTordue.description>{0_coll} hachée deux fois, allongée de mie et fortement {2_plur}, embossée puis pochée. Le hachoir règle la question de la texture.</FlavorTextFR_SaucisseViandeTordue.description>
+	<FlavorTextFR_SaucisseViandeTordue.description>{0_coll} hachée deux fois, allongée de mie et fortement assaisonnée {2_plur}, embossée puis pochée. Le hachoir règle la question de la texture.</FlavorTextFR_SaucisseViandeTordue.description>
 	<FlavorTextFR_TourteViandeTordue.label>tourte à la viande tordue</FlavorTextFR_TourteViandeTordue.label>
 	<FlavorTextFR_TourteViandeTordue.description>{0_coll} braisée d'avance et enfermée sous une pâte {2_adj}. Ce qui est sous la croûte ne se voit plus, et c'est en partie l'intérêt.</FlavorTextFR_TourteViandeTordue.description>
 	<FlavorTextFR_CurryViandeTordue.label>curry de viande tordue</FlavorTextFR_CurryViandeTordue.label>

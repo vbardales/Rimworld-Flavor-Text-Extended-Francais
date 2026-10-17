@@ -54,11 +54,11 @@
 	<FlavorTextFR_QuinoaAuLait.label>quinoa au lait</FlavorTextFR_QuinoaAuLait.label>
 	<FlavorTextFR_QuinoaAuLait.description>{0_coll} cuit {1_plur} à la cannelle et à peine {2_adj}, jusqu'à ce que chaque grain déroule son germe. Se mange tiède, au bol, comme on le fait à La Paz au petit jour.</FlavorTextFR_QuinoaAuLait.description>
 	<FlavorTextFR_GalettesDeQuinoa.label>galettes de quinoa</FlavorTextFR_GalettesDeQuinoa.label>
-	<FlavorTextFR_GalettesDeQuinoa.description>{0_coll} cuit puis lié {1_plur} battus et {2_plur} râpées, façonné à la cuillère et saisi des deux côtés. Elles se tiennent mal chaudes : on les laisse reposer avant de retourner.</FlavorTextFR_GalettesDeQuinoa.description>
+	<FlavorTextFR_GalettesDeQuinoa.description>{0_coll} cuit puis lié {1_plur} ~battu~ et {2_plur} ~râpé~, façonné à la cuillère et saisi des deux côtés. Elles se tiennent mal chaudes : on les laisse reposer avant de retourner.</FlavorTextFR_GalettesDeQuinoa.description>
 	<FlavorTextFR_TaboulehDeQuinoa.label>tabbouleh de quinoa</FlavorTextFR_TaboulehDeQuinoa.label>
 	<FlavorTextFR_TaboulehDeQuinoa.description>beaucoup plus de persil que {0_adj}, avec {2_coll} épépinées en tout petits dés et le jus {1_adj}. La céréale est ici l'assaisonnement de l'herbe, jamais l'inverse.</FlavorTextFR_TaboulehDeQuinoa.description>
 	<FlavorTextFR_SaladeQuinoaAvocat.label>salade quinoa-avocat</FlavorTextFR_SaladeQuinoaAvocat.label>
-	<FlavorTextFR_SaladeQuinoaAvocat.description>{0_coll} froid, {1_coll} taillé au dernier moment et une vinaigrette {2_plur} vert et à la coriandre. L'avocat s'écrase un peu contre les grains, et c'est ce qui lie la salade.</FlavorTextFR_SaladeQuinoaAvocat.description>
+	<FlavorTextFR_SaladeQuinoaAvocat.description>{0_coll} froid, {1_coll} taillé au dernier moment et une vinaigrette {2_plur} ~vert~ et à la coriandre. L'avocat s'écrase un peu contre les grains, et c'est ce qui lie la salade.</FlavorTextFR_SaladeQuinoaAvocat.description>
 	<FlavorTextFR_ToSauceGombo.label>tô sauce gombo</FlavorTextFR_ToSauceGombo.label>
 	<FlavorTextFR_ToSauceGombo.description>une pâte ferme {0_adj} travaillée à la spatule contre la paroi de la marmite, trempée dans une sauce {1_adj} filante montée {2_plur}. On mange à la main, en creusant la boule.</FlavorTextFR_ToSauceGombo.description>
 	<FlavorTextFR_ToSauceArachide.label>tô sauce arachide</FlavorTextFR_ToSauceArachide.label>

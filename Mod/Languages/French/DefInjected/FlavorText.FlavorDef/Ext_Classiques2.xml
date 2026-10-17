@@ -52,7 +52,7 @@
 	<FlavorTextFR_CourgettesFarcies.label>courgettes farcies</FlavorTextFR_CourgettesFarcies.label>
 	<FlavorTextFR_CourgettesFarcies.description>{0_coll} fendues et creusées, la chair retirée hachée avec {1_coll} et remise dedans, le tout gratiné {2_plur}.</FlavorTextFR_CourgettesFarcies.description>
 	<FlavorTextFR_PoivronsFarcis.label>poivrons farcis</FlavorTextFR_PoivronsFarcis.label>
-	<FlavorTextFR_PoivronsFarcis.description>{0_coll} décapités et vidés de leurs graines, remplis {1_plur} et {2_plur} à moitié cuit : il gonflera au four et tendra la peau.</FlavorTextFR_PoivronsFarcis.description>
+	<FlavorTextFR_PoivronsFarcis.description>{0_coll} décapités et vidés de leurs graines, farcis {1_plur} et {2_plur} à moitié cuit : il gonflera au four et tendra la peau.</FlavorTextFR_PoivronsFarcis.description>
 	<FlavorTextFR_ChouFarci.label>chou farci</FlavorTextFR_ChouFarci.label>
 	<FlavorTextFR_ChouFarci.description>un chou entier blanchi, ouvert feuille à feuille, garni {1_plur} entre chaque étage puis refermé dans un linge et poché des heures. On le tranche en parts, comme un gâteau.</FlavorTextFR_ChouFarci.description>
 	<FlavorTextFR_PetitsFarcisNicois.label>petits farcis niçois</FlavorTextFR_PetitsFarcisNicois.label>
