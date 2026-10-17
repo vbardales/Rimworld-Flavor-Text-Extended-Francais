@@ -122,6 +122,6 @@
 	<FlavorTextFR_PateChairHumaine.label>pâté de chair humaine</FlavorTextFR_PateChairHumaine.label>
 	<FlavorTextFR_PateChairHumaine.description>{0_coll} et {1_coll} hachées ensemble, macérées {2_plur} une nuit puis cuites en terrine au bain-marie. Se laisse mûrir trois jours au froid avant d'être entamée.</FlavorTextFR_PateChairHumaine.description>
 	<FlavorTextFR_RizSauteChairHumaine.label>riz sauté à la chair humaine</FlavorTextFR_RizSauteChairHumaine.label>
-	<FlavorTextFR_RizSauteChairHumaine.description>{1_coll} de la veille, sec et détaché, sauté très vif avec {0_coll} en petits dés et {2_coll} brouillés. Le riz frais colle et rate le plat : il faut du froid.</FlavorTextFR_RizSauteChairHumaine.description>
+	<FlavorTextFR_RizSauteChairHumaine.description>{1_coll} de la veille, sec et détaché, sauté très vif avec {0_coll} en petits dés et {2_coll} brouillés. Le riz frais colle et gâche le plat : il doit être froid.</FlavorTextFR_RizSauteChairHumaine.description>
 
 </LanguageData>
