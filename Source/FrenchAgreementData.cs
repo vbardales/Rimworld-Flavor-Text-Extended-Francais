@@ -20,16 +20,19 @@ namespace FlavorTextExtendedFR
         private const string DataFile = "Data/ingredient-agreement.txt";
 
         private static IDictionary<string, string> forms;
+        private static bool failed;
 
         public static string Resolve(string text)
         {
             if (string.IsNullOrEmpty(text) || text.IndexOf(FrenchAgreement.Mark) < 0) return text;
+            if (failed) return FrenchAgreement.Resolve(text, null);
             try
             {
                 return FrenchAgreement.Resolve(text, forms ?? (forms = Build()));
             }
             catch (Exception exception)
             {
+                failed = true;
                 Log.Error("[Flavor Text Extended - Français] word agreement failed, the marked words stay in the masculine singular: " + exception);
                 return FrenchAgreement.Resolve(text, null);
             }
