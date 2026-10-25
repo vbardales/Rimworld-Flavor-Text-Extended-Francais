@@ -1,59 +1,39 @@
 {
-  "title": "Flavor Text Extended - Français",
-  "titleSize": 49,
-  "titleParts": [
-    {
-      "text": "Flavor Text",
-      "scale": 1
-    },
-    {
-      "text": " Extended",
-      "scale": 0.65,
-      "font": "ui",
-      "color": "secondary"
-    },
-    {
-      "text": "Français",
-      "scale": 0.65,
-      "font": "ui",
-      "color": "secondary",
-      "breakBefore": true
-    }
-  ],
-  "suffix": "",
-  "tag": "",
-  "copyLines": [
-    "French names, descriptions and ingredient forms for every colony meal."
-  ],
-  "layout": "panel",
-  "panelAnchor": "top-left",
+  "panel": {
+    "title": "Flavor Text Extended - Français",
+    "titleSize": 49,
+    "titleParts": [
+      {
+        "text": "Flavor Text",
+        "scale": 1
+      },
+      {
+        "text": " Extended",
+        "scale": 0.65,
+        "font": "ui",
+        "color": "secondary"
+      },
+      {
+        "text": "Français",
+        "scale": 0.65,
+        "font": "ui",
+        "color": "secondary",
+        "breakBefore": true
+      }
+    ],
+    "copyLines": [
+      "French names, descriptions and ingredient forms for every colony meal."
+    ]
+  },
   "backgroundFile": "Preview-source.png",
-  "backgroundPosition": "center",
-  "backgroundSize": "cover",
-  "modIconSource": "ModIcon-source.png",
   "echo": {
     "file": "echo-concept.png",
-    "preSized": true,
     "color": "var(--accent)",
     "width": 240,
-    "height": 160,
-    "opacity": 1,
-    "veil": false,
-    "panelTop": 18,
-    "panelRight": 1,
-    "panelWidth": 44,
-    "flipX": false
+    "height": 160
   },
-  "iconBadge": {
-    "file": "ModIcon-source.png",
-    "corner": "bottom-left",
-    "width": 180,
-    "translate": "-12.5%, 12.5%",
-    "outline": false,
-    "veil": "radial",
-    "veilSize": 275,
-    "veilLeft": -55,
-    "veilBottom": -61
+  "icon": {
+    "file": "ModIcon-source.png"
   },
   "palette": {
     "veil": "#302317",
