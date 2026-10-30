@@ -214,8 +214,9 @@ namespace FlavorTextExtendedFR.PickleSteps
         {
             var things = Driver.Map(ctx).thingGrid.ThingsListAt(new IntVec3(x, 0, z));
             foreach (var thing in things)
-                if (thing.def == ThingDefOf.MealFine || thing.def.defName == "MealLavish") return thing;
-            ctx.Require(false, $"no fine or lavish meal at ({x}, {z}): the step that puts it there did not run, or it was carried off");
+                if (thing.def == ThingDefOf.MealFine || thing.def.defName == "MealLavish"
+                    || thing.def.defName.StartsWith("FTV_Meal")) return thing;
+            ctx.Require(false, $"no fine, lavish or FTV meal at ({x}, {z}): the step that puts it there did not run, or it was carried off");
             return null;
         }
 
