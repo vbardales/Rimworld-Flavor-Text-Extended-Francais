@@ -43,7 +43,7 @@ What was checked without a game:
 - `dotnet build Source/FlavorTextExtendedFR.PickleSteps.csproj -c Release` succeeds against the shipped
   `FlavorTextExtendedFR.dll` and hekmo's real `FlavorText.dll`, so every type, field and method a step names
   exists today. The result is `Mod/Pickle/Assemblies/FlavorTextExtendedFR.PickleSteps.dll`.
-- `Check-Steps.ps1` compiles the 66 step patterns (this suite's and the shared RIMMSQOL steps it stages) with
+- The shared `scripts/Check-Steps.ps1` (`powershell -File ../scripts/Check-Steps.ps1 -ModRoot .`) compiles the 66 step patterns (this suite's and the shared RIMMSQOL steps it stages) with
   Pickle's own expression engine: all compile, none declared twice. It then matches every feature line against
   them. Lines it leaves for Pickle's own vocabulary were matched against the expressions compiled into
   `RimWorks.Pickle.Vanilla.dll`; five parameterless forms (`no errors were logged`, `the save "..." is loaded`,
