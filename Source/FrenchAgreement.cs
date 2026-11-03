@@ -34,6 +34,7 @@ namespace FlavorTextExtendedFR
             { "sec", new[] { "sèche", "secs", "sèches" } },
             { "long", new[] { "longue", "longs", "longues" } },
             { "cru", new[] { "crue", "crus", "crues" } },
+            { "nouveau", new[] { "nouvelle", "nouveaux", "nouvelles" } },
             { "mi-cuit", new[] { "mi-cuite", "mi-cuits", "mi-cuites" } },
         };
 

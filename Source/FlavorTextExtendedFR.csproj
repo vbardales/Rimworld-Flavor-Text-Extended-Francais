@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>FlavorTextExtendedFR</AssemblyName>
+    <OutputPath>../Mod/Assemblies/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <DebugType>none</DebugType>
+    <Deterministic>true</Deterministic>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4871" ExcludeAssets="runtime" PrivateAssets="all" />
+    <Reference Include="FlavorText"><HintPath>C:/Program Files (x86)/Steam/steamapps/workshop/content/294100/3245374432/1.6/Assemblies/FlavorText.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>C:/Program Files (x86)/Steam/steamapps/workshop/content/294100/2009463077/1.6/Assemblies/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
