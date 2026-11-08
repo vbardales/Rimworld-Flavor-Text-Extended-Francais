@@ -44,7 +44,7 @@ audit_revision: 634066483d44f51201aa8ea0722da4b796864aad
 review_revision: c675e87
 code_review_sha: f3069f6e0884343b4c8a08e008beb06663d86763  # 2026-10-17: range f0ea3fbc..f3069f6e re-read (Source: FrenchAgreement.cs, FrenchAgreementData.cs, one line in FrenchMealPostProcessing.cs; Mod/ French text, About, LoadFolders). One finding fixed (failed table build logged once). Open: add <v1.7> to LoadFolders.xml at the 1.7 move; the 2026-10-08 findings stay open in remaining
 echo_review_sha: 0cd7238612c351e519ed9b4e426d14e008b97e87  # 2026-10-12: Art/echo-concept.png (1536 x 1024, clean outlines) kept with the new Preview-source.png (700 x 500, French flag); concept illustration, no capture shows the meals; flipX false
-social_preview_sha256: 463a5370756be94be5a32f0d6b7b877d9f1fa1c246fffee70f0709cf35185546  # 2026-10-12: Preview.png from the new Preview-source uploaded to GitHub Settings > Social preview; og:image downloaded and hashed: identical
+social_preview_sha256: 219944030ecf80aa0110526b9a4ea0ab4bd4e0bcdd8466a5cd7320cc945242a2  # 2026-11-08: Preview.png (60e2767) uploaded to GitHub Settings > Social preview via Chrome (owner validated); og:image downloaded and hashed: identical
 in_game_validation_owner: user
 workshop:
   id: "3806100488"
