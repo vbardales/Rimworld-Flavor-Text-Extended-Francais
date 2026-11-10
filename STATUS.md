@@ -109,3 +109,25 @@ protocols_read_sha: 233929b7e4e1ca726a088f084c904460b4214219
 # History
 
 Resolved and dated entries and the audit of 2026-10-11 are in `docs/runs/status-history-2026-10-16.md` (2026-10-16). The audits of 2026-10-02, 2026-09-22 and 2026-09-21, the update after the first in-game runs and the 2026-09-13 correction pass are in `docs/runs/status-history-2026-09-10.md` (moved unchanged, 2026-10-15).
+
+# NSB
+
+First sync 2026-11-10 (shootGallery[1.1.0]). Places read: 2026-11-10. Tribe read: 2026-11-10. Steps read: 2026-11-10 (git log of docs/steps.md and catalogues since 2026-10-16 read by title: nothing replaces a setup of feature 22).
+NSB changed nothing the gallery uses (`dining-nook` (176, 108) still there). The mod adds no animal (no PawnKindDef or race in Mod/): rule 5 has nothing to show. Nothing is changed in the shotlist or in 22-gallery.feature before the owner answers.
+
+| Place | Shots | Changes for the gallery | Last read |
+|---|---|---|---|
+| dining-nook (176, 108) | 1, 2, 3 | none (table meals put by the scenario) | 2026-11-10 |
+
+| Colonist | Shots | Outfit per shot | Last read | Exceptions |
+|---|---|---|---|---|
+| Nelim | 1, 2, 3 | vanilla BasicShirt teal + Pants cream on the retextured body (owner 2026-10-07, photographer) | 2026-11-10 | PENDING: scenario sets hairstyle "Ponytails" and hair rgb (70, 46, 32); NSB canon is `Roo_HD_Hair_Highpony`, `Hair_DarkSaturatedReddish` #382412 (rule 3, no quoted validation) |
+| Camille (guest) | 1, 2, 3 | vanilla BasicShirt orange + Pants grey | not in NSB | outside NSB: PENDING (rule 2). NSB lets a gallery create an anonymous colonist, but the owner's rule 2 asks an express validation |
+
+| Animal | Shots | Outfit | Last read | Exceptions |
+|---|---|---|---|---|
+| Hen (Chicken, anonymous) | 3 | none | SANCTUAIRE-LIEUX.md, faune (Poulet 8 in the save) | none: anonymous fauna of the save is decor |
+
+| Animal the mod includes | Shots |
+|---|---|
+| none (food mod) | n/a |
