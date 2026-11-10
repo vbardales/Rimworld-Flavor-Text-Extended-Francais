@@ -66,7 +66,7 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "FTV_CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
-    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
+    And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 108)
     Given Nelim's Pickle Tools: I place the decor "TorchLamp" at (172, 108)
     And Nelim's Pickle Tools: the decor "TorchLamp" at (172, 108) is lit
     And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (180, 108)
@@ -91,7 +91,7 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" mouth is "MouthSmile"
     And Nelim's Pickle Tools: "Nelim" lids are "LidCheerful"
     And Nelim's Pickle Tools: "Nelim" face skin is "SkinRosyCheeks"
-    And Nelim's Pickle Tools: I frame the cell (177, 109) at zoom 5.5
+    And Nelim's Pickle Tools: I frame the cell (180, 109) at zoom 5.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
