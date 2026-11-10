@@ -74,7 +74,6 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: a colonist "Soren" exists
-    And Nelim's Pickle Tools: "Soren" is 30 years old
     And Nelim's Pickle Tools: "Soren" gender is male
     And Nelim's Pickle Tools: "Soren" has the gene "Skin_Melanin5"
     And Nelim's Pickle Tools: "Soren" has the gene "Eyes_DarkGreen"
@@ -118,7 +117,6 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: a colonist "Soren" exists
-    And Nelim's Pickle Tools: "Soren" is 30 years old
     And Nelim's Pickle Tools: "Soren" gender is male
     And Nelim's Pickle Tools: "Soren" has the gene "Skin_Melanin5"
     And Nelim's Pickle Tools: "Soren" has the gene "Eyes_DarkGreen"
@@ -163,7 +161,6 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
     And Nelim's Pickle Tools: a colonist "Soren" exists
-    And Nelim's Pickle Tools: "Soren" is 30 years old
     And Nelim's Pickle Tools: "Soren" gender is male
     And Nelim's Pickle Tools: "Soren" has the gene "Skin_Melanin5"
     And Nelim's Pickle Tools: "Soren" has the gene "Eyes_DarkGreen"
