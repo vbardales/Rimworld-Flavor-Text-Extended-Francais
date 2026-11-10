@@ -28,7 +28,7 @@ translation_en: complete
 translation_fr: complete
 dependencies: verified
 showcase: complete
-workshop_required_items: done, 2026-11-10 (Virginie's word via ACG, not read live on Steam)
+workshop_required_items: done, 2026-11-10 (read on the Steam page)
 build: passed
 automated_tests: passed
 xml_tests: passed
