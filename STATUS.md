@@ -131,3 +131,15 @@ NSB changed nothing the gallery uses (`dining-nook` (176, 108) still there). The
 | Animal the mod includes | Shots |
 |---|---|
 | none (food mod) | n/a |
+
+# Shotlist (shootGallery[1.1.0], 2026-11-10)
+
+No capture yet: rating the plan. Header in `Tests/Pickle/Mod/Pickle/Features/22-gallery.feature`. Story "Lunch is served" (Nelim hosts Soren at the dining-nook, 12:00 to 12:10, table set, served, half eaten, hen in front). Cast all NSB (Soren, Nelim by roster, Chicken of the save): no owner question open. Camille and Nelim's `Ponytails` override dropped. DepMap to add before the first ticket: `rooboid.hdhair.continued` 3559870636.
+
+| shot | a | b | c | d | e | f | g | j | plan | main risk |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1-set, 12:00, zoom 5.5 | 12:00, dining-nook, Clear, 20 deg | TorchLamp lit, Plant_Daylily in PlantPot, nook table and chairs | Plant_Daylily | Nelim teal shirt, cream trousers, Highpony, smile; Soren orange, charcoal, Tidy, smile | meal just put down, Nelim turns to Soren who just arrived, placed by stands-at | wide, lamp behind, plant right, card right | half-set table, host meets guest, card names a French dish | card cropped to right 60 percent, read at 268 px | 5 | Soren doorway cell unverified |
+| 2-served, 12:05, zoom 7 | 12:05, same | same decor | Plant_Daylily | same outfits, smiles | table just filled, pawns face each other, gazes on the two-dish meal | medium, E/W facing | full table, two people, card names main and side | same crop | 5 | none known |
+| 3-farm, 12:10, zoom 9 | 12:10, same | same decor | hen in front of the pawns, facing South | same outfits, smiles | two meals gone, hen stops, pawns laugh down at her | close, low-left, hen foreground | half-cleared table, hen, card names blanquette | same crop | 5 | hen may wander after placement |
+
+k (series): ok. One story, 3 episodes (set, served, eaten), wide / medium / close, opening and closing image, rhythm moves. Not verified: Soren's roster steps (Male body under VTW), `TorchLamp` and `PlantPot` cells in the nook, card crop at 268 px. Verdict per capture: none yet.

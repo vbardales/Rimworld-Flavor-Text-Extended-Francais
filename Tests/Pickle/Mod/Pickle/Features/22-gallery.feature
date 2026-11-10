@@ -1,26 +1,48 @@
-# 2026-10-16 story rewritten after the director's review: the first plan said "Nelim eats" while she only stood, had one expression, no guest and no hair story. 2026-10-12: Nelim's face by the SanctuaryBacklot recipe (kit neutral, then "Nelim has her own face", verified in 56b0), the map held at 20 degrees for 120 ticks (no heat sweat), a closer frame (zoom 4.5). Food Texture Variety meals named in French by this mod (39de421).
-# Workshop pictures of 1.1.0: one staged story, played on Nelim's sanctuary (save Nelims-tribe), the fixture of every mod's gallery (PickleTools docs/GALERIE.md).
-# Reuses the scenes of Flavor Text Extended's own gallery "Lunch is served" (FlavorText/FlavorTextExtended, Features/10-gallery-scenes.feature, run 49d4, owner's
-# word 2026-10-08), played here with THIS mod loaded, so the dish names and descriptions on the cards are the French ones. Pass:
-#   -DepMap wsl-deps.sanctuary.map -Language French -Filter '22-gallery.feature'
-# The map is Extended's gallery map plus its Pickle companion (nelim.flavortextextended.pickletests, which owns the steps "Flavor Text Extended: ...").
-# Its output is CANDIDATES (Art/Gallery/<index>-candidate-<name>, JPEG q90, under 2 MB): the owner accepts or refuses each. Not proof of the mod.
+# SHOTLIST of 1.1.0, rewritten 2026-11-10 at shootGallery[1.1.0] (first job, before any scenario). Director pass (Opus, one call) kept in part, see KEPT/DROPPED below.
+# Played on Nelim's sanctuary (save Nelims-tribe), place `dining-nook` (176, 108). Pass: -DepMap wsl-deps.sanctuary.map -Language French -Filter '22-gallery.feature'
+# Output is CANDIDATES (Art/Gallery/<index>-candidate-<name>, JPEG q90, under 2 MB): the owner accepts or refuses each. Not proof of the mod.
 #
-# THE STORY. "Lunch is served", in French: one midday at the sanctuary. Nelim (the protagonist: dark ponytail, teal shirt, cream trousers) welcomes a GUEST, Camille
-# (short light hair, orange shirt, blue eyes, generated female so no body-type step: she stands out against Nelim's dark hair and the wood). Nelim's face is the Sanctuary's own, then a small smile
-# (mouth, lids, rosy cheeks). Three pictures, 5 game minutes (about 208 ticks) apart, same light, same place (dining-nook).
-# SHOT PLAN (place, time, subject, composition, the living, what it says; the English subtitle of each is in PUBLICATION.md, "Gallery subtitles"):
-# 1. dining-nook, 12:00. The laid table (four meals), the katsudon card at the right. Nelim smiles, facing South; Camille beside her, neutral and curious.
-#    Says: the host shows a table of dishes whose names are French.
-# 2. dining-nook, 12:05. The two-dish meal and its card. Nelim smiles, Camille smiles too. Says: a main dish and its side dish, joined by a French joint.
-# 3. dining-nook, 12:10. The two-meat blanquette; a hen came to see (in front of them, at (177, 112), facing South). Nelim and Camille smile. Says: a French dish named from the colony's own ingredients.
-# NOT claimed by the pictures: nobody is seated and nobody eats (no seat or eating step exists, to ask of Pickle Tools); both stand at the table. The scenario names
-# say what is staged, not a job. Camille's hairstyle (vanilla "Bob") and her cell (177, 110) are to be read on the first run; an unknown name fails with the valid list.
-# Camille's mouth and lids need the VTE faces, which VEFA resolves (both in the map). The garden picture of Extended is not taken. The settings page is a menu: the
-# approved 4-settings-page-in-french.jpg of 1.0.x stays, without a subtitle.
-# Order imposed by NPT: waits, paused, dress, stands at LAST, frame, capture, no wait after. After the run every picture is opened and read against this plan;
-# anomalies go to Pickle Tools (through the Ticket Manager if unreachable). Review note: a green run proves the path ran, never that the picture is right.
-# Nelim and Camille are dressed by the photographer: vanilla garments on the retextured body of Venus Touch Waistlines (owner, 2026-10-07), as in Extended's gallery.
+# STORY. "Lunch is served", in French: one midday at the sanctuary, 12:00 to 12:10 (5 game minutes, about 208 ticks, between pictures). Nelim, the host, sets a table of dishes
+# whose names are French; her guest Soren (NSB colonist) arrives, sits nowhere (no seat step), the table goes from half set, to full, to half cleared; a hen from the colony's own
+# fauna comes to see. The table state carries the passing of time (set, served, eaten). Hour never leaves midday, clear sky, map held at 20 degrees.
+# CAST (rule 1 NSB: free). Nelim: played as the roster (own face, hair `Roo_HD_Hair_Highpony` from the save, NO hair or colour override; body Female as validated 2026-10-07 for the VTW retextured body),
+#   smile (MouthSmile, LidCheerful, SkinRosyCheeks: expression, not a roster property). Outfit (free): vanilla `Apparel_BasicShirt` teal rgb (46, 102, 112) + `Apparel_Pants` cream rgb (222, 210, 184).
+#   Soren (NSB, validated look: `Roo_HD_Hair_Tidy`, `Eyes_DarkGreen`, `MouthClassicSmile`, `MonoScarredBrows`, `Male_AverageNormal`): created by the scenario as `a colonist "Soren" of kind "Colonist"`,
+#   appearance by NSB-ROSTER; outfit (free) vanilla `Apparel_BasicShirt` orange rgb (214, 120, 48) + `Apparel_Pants` charcoal rgb (60, 60, 72), chosen to stand out from Nelim's teal.
+#   Camille (the 2026-10-16 guest, outside NSB, never validated) and Nelim's "Ponytails" override are DROPPED: no question to the owner left open.
+#   Hen: anonymous Chicken of the save (Poulet 8 in the fauna, decor, no validation). The mod adds no animal (rule 5: nothing to show).
+# DEPMAP: Sanctuary base + `rooboid.hdhair.continued` 3559870636 (NSB dependency, so Nelim's own hairstyle loads; to add to wsl-deps.sanctuary.map before the first ticket).
+# CARD: the info card is a UI window, its size does not follow the camera zoom: the French title stays readable at 268 px in every shot. It sits at the right of the screen.
+#
+# SHOT 1  index 1, `1-set`. dining-nook, 12:00, Clear, 20 degrees. Subject: the table being set. Zoom 5.5 on cell (177, 109), wide: table (175..176, 108..109) and chairs, 
+#   `TorchLamp` lit at (172, 108) behind (warm light at noon, GALLERY-PROPS), `Plant_Daylily` in `PlantPot` at (180, 108) in the background right; two meals on the table (the other places empty).
+#   Nelim at (175, 111) facing East, holding nothing (no carry step used), smile; Soren at (178, 111) facing West, just arrived, smile. Card: katsudon (FTV simple meal), right.
+#   Says: the host sets a table of dishes with French names. Subtitle: "Nelim sets the table: the dishes already speak French."
+# SHOT 2  index 2, `2-served`. Same place, 12:05. Subject: a meal of two dishes at once. Zoom 7 on (177, 109), medium: the table full (four meals), pawns face each other across the table
+#   (Nelim (175, 110) facing East, Soren (178, 110) facing West), both smile. Card of the 2-dish meal (main + side joined by the French joint), right. Decor of shot 1 stays (same hall).
+#   Says: a main dish and its side dish, named with a French joint. Subtitle: "A main dish and its side, joined by a French word."
+# SHOT 3  index 3, `3-farm`. Same place, 12:10. Subject: a French dish named after the colony's own ingredients (blanquette). Zoom 9 on (177, 111), close, low-left framing: the hen in the
+#   foreground bottom-left at (177, 112) facing South (seen from the FRONT), two of the four meals removed (half eaten), Nelim and Soren behind her, partly cropped, smiling, facing South.
+#   Card: the two-meat blanquette, right. Says: the blanquette is named after the colony's own animals. Subtitle: "From the colony's own farm: the blanquette."
+# WINDOW  index 4: the French settings page (interface window, taken on `window-backdrop-for-height`, cropped, no subtitle). The approved 4-settings-page-in-french.jpg of 1.0.x stays until replaced.
+# INSTANT AND HOW IT IS OBTAINED (criterion e: game paused mid-play). The game is paused; the meals are put by the cooking step just before the pause, the pawns are placed LAST by `stands at ... facing`
+#   (no job, held in place), the face by the face-part steps.
+#   1: just after the cook step put the second meal down, Nelim (facing East) turns toward Soren, who has just stepped into the nook (facing West), both gazes on the table; next: they sit down to the meal.
+#   2: the table has just been filled, Nelim and Soren face each other across it, gazes on the two-dish meal; next: the first bite.
+#   3: the first meals are gone (two removed after the cook step), the hen has just wandered in and stops, looking at the camera (placed facing South, gaze front); Nelim and Soren, behind, look down at her and laugh (smile); next: the hen is shooed.
+# SUBJECT READ IN THE IMAGE (criterion g): 1 = a table half set, a host and a guest just meeting over it, a card naming a French dish; 2 = a full table, two people facing it, a card naming a main dish and its side;
+#   3 = a half-cleared table, a hen in front, two smiling people, a card naming a dish from the colony's animals. Every shot has its card in frame: the dish name is what says "French".
+# THUMBNAIL (criterion j): the card sits at the right of the screen; the director crops each accepted capture to the table-and-card region (the right 60 percent, 16:9) so the dish title is about twice as large; each
+#   capture is shrunk to 268 px with ffmpeg and read at rate-gallery: if the French title is not identifiable, the shot is REDO (tighter frame, card larger). Nothing asked of NPT beyond the steps already used.
+# DECOR (criterion b): `TorchLamp` (lit), `PlantPot` with `Plant_Daylily` placed fully grown, the nook's own table, two chairs, desk, wardrobes and flowerpot stay (SANCTUAIRE-CASES.md, dining-nook): grouped around the table,
+#   ground covered by the room; the placed decor is removed at the end of each scenario (`I place the decor` remembers it for removal, steps.md) so each scenario starts clean.
+#
+# KEPT from the director pass: table state as the clock (two, four, two meals); a different zoom per shot (5.5, 7, 9); pawns face each other (facing steps exist); lamp and daylily in the background
+#   (shots 1 and 2, kept in 3); hen in the foreground. DROPPED: no card in shot 1 (a UI card does not shrink with camera zoom); held meal (no carry step used); clock times 12:20 and 12:45
+#   (light does not change at noon, 5 minutes stays). RISKS: hen may wander after being placed (re-shoot), doorway cell for Soren unverified (cells read on the first run), `TorchLamp` and `PlantPot`
+#   placement cells in the nook may be refused (the step names the cell), Soren's roster steps (`Male` body under VTW) unplayed.
+# NOT claimed: nobody sits and nobody eats (no seat step); the story says "stands at the table".
+# Order imposed by NPT: waits, paused, dress, stands at LAST, frame, capture, no wait after. After the run every picture is opened and read against this plan; anomalies go to Pickle Tools.
 @review @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.screenshotmode @requires:nelim.pickletools.stagedecor
 Feature: Lunch is served, in French
 
