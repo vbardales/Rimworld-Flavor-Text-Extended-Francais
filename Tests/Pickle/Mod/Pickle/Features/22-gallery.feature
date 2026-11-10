@@ -15,17 +15,17 @@
 # CARD: the info card is a UI window, its size does not follow the camera zoom: the French title stays readable at 268 px in every shot. It sits at the right of the screen.
 #
 #   1. 1-set, noon, dining-nook, Clear, 20 degrees. The table being set. Zoom 5.5 on the cell (177, 109), wide.
-        Decor: TorchLamp at (172, 108) lit, PlantPot holding Plant_Daylily fully grown at (180, 108); two meals on the table (175, 108) to (176, 109).
-        Nelim at (175, 111) facing East, Apparel_BasicShirt rgb (46, 102, 112), Apparel_Pants rgb (222, 210, 184), MouthSmile.
-        Soren at (178, 111) facing West, Apparel_BasicShirt rgb (214, 120, 48), Apparel_Pants rgb (60, 60, 72), Roo_HD_Hair_Tidy, MouthClassicSmile.
-        Card: the katsudon (FlavorTextFR_Katsudon) at the right. Says: the host sets a table of dishes with French names. Subtitle: "Nelim sets the table: the dishes already speak French."
+#      Decor: TorchLamp at (172, 108) lit, PlantPot holding Plant_Daylily fully grown at (180, 108); two meals on the table (175, 108) to (176, 109).
+#      Nelim at (175, 111) facing East, Apparel_BasicShirt rgb (46, 102, 112), Apparel_Pants rgb (222, 210, 184), MouthSmile.
+#      Soren at (178, 111) facing West, Apparel_BasicShirt rgb (214, 120, 48), Apparel_Pants rgb (60, 60, 72), Roo_HD_Hair_Tidy, MouthClassicSmile.
+#      Card: the katsudon (FlavorTextFR_Katsudon) at the right. Says: the host sets a table of dishes with French names. Subtitle: "Nelim sets the table: the dishes already speak French."
 #   2. 2-served, noon plus 5 minutes (268 ticks), same place and decor. The meal of two dishes at once. Zoom 7 on the cell (177, 109), medium.
-        Four meals on the table (175, 108) to (176, 109). Nelim at (175, 110) facing East, Soren at (178, 110) facing West, same outfits (rgb (46, 102, 112), rgb (214, 120, 48)), both smile (MouthSmile, MouthClassicSmile).
-        Card: the meal named after 2 dishes at once, right. Says: a main dish and its side dish, joined by a French joint. Subtitle: "A main dish and its side, joined by a French word."
+#      Four meals on the table (175, 108) to (176, 109). Nelim at (175, 110) facing East, Soren at (178, 110) facing West, same outfits (rgb (46, 102, 112), rgb (214, 120, 48)), both smile (MouthSmile, MouthClassicSmile).
+#      Card: the meal named after 2 dishes at once, right. Says: a main dish and its side dish, joined by a French joint. Subtitle: "A main dish and its side, joined by a French word."
 #   3. 3-farm, noon plus 10 minutes (477 ticks), same place and decor. The blanquette and a hen. Zoom 9 on the cell (177, 111), close, low-left.
-        Two meals on the table (175, 108) to (176, 109) (the others eaten). A hen (Chicken, "Poule") at (177, 112) facing South, seen from the front.
-        Nelim at (176, 110) and Soren at (178, 110), both facing South, same outfits, smile. Card: FlavorTextExtended_TwoMeatBlanquette, right.
-        Says: the blanquette is named after the colony's own animals. Subtitle: "From the colony's own farm: the blanquette."
+#      Two meals on the table (175, 108) to (176, 109) (the others eaten). A hen (Chicken, "Poule") at (177, 112) facing South, seen from the front.
+#      Nelim at (176, 110) and Soren at (178, 110), both facing South, same outfits, smile. Card: FlavorTextExtended_TwoMeatBlanquette, right.
+#      Says: the blanquette is named after the colony's own animals. Subtitle: "From the colony's own farm: the blanquette."
 # WINDOW  index 4: the French settings page (interface window, taken on `window-backdrop-for-height`, cropped, no subtitle). The approved 4-settings-page-in-french.jpg of 1.0.x stays until replaced.
 # INSTANT AND HOW IT IS OBTAINED (criterion e: game paused mid-play). The game is paused; the meals are put by the cooking step just before the pause, the pawns are placed LAST by `stands at ... facing`
 #   (no job, held in place), the face by the face-part steps.
