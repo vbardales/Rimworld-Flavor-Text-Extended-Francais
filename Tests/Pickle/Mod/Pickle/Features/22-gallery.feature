@@ -14,16 +14,18 @@
 # DEPMAP: Sanctuary base + `rooboid.hdhair.continued` 3559870636 (NSB dependency, so Nelim's own hairstyle loads; to add to wsl-deps.sanctuary.map before the first ticket).
 # CARD: the info card is a UI window, its size does not follow the camera zoom: the French title stays readable at 268 px in every shot. It sits at the right of the screen.
 #
-# SHOT 1  index 1, `1-set`. dining-nook, 12:00, Clear, 20 degrees. Subject: the table being set. Zoom 5.5 on cell (177, 109), wide: table (175..176, 108..109) and chairs, 
-#   `TorchLamp` lit at (172, 108) behind (warm light at noon, GALLERY-PROPS), `Plant_Daylily` in `PlantPot` at (180, 108) in the background right; two meals on the table (the other places empty).
-#   Nelim at (175, 111) facing East, holding nothing (no carry step used), smile; Soren at (178, 111) facing West, just arrived, smile. Card: katsudon (FTV simple meal), right.
-#   Says: the host sets a table of dishes with French names. Subtitle: "Nelim sets the table: the dishes already speak French."
-# SHOT 2  index 2, `2-served`. Same place, 12:05. Subject: a meal of two dishes at once. Zoom 7 on (177, 109), medium: the table full (four meals), pawns face each other across the table
-#   (Nelim (175, 110) facing East, Soren (178, 110) facing West), both smile. Card of the 2-dish meal (main + side joined by the French joint), right. Decor of shot 1 stays (same hall).
-#   Says: a main dish and its side dish, named with a French joint. Subtitle: "A main dish and its side, joined by a French word."
-# SHOT 3  index 3, `3-farm`. Same place, 12:10. Subject: a French dish named after the colony's own ingredients (blanquette). Zoom 9 on (177, 111), close, low-left framing: the hen in the
-#   foreground bottom-left at (177, 112) facing South (seen from the FRONT), two of the four meals removed (half eaten), Nelim and Soren behind her, partly cropped, smiling, facing South.
-#   Card: the two-meat blanquette, right. Says: the blanquette is named after the colony's own animals. Subtitle: "From the colony's own farm: the blanquette."
+#   1. 1-set, noon, dining-nook, Clear, 20 degrees. The table being set. Zoom 5.5 on the cell (177, 109), wide.
+        Decor: TorchLamp at (172, 108) lit, PlantPot holding Plant_Daylily fully grown at (180, 108); two meals on the table (175, 108) to (176, 109).
+        Nelim at (175, 111) facing East, Apparel_BasicShirt rgb (46, 102, 112), Apparel_Pants rgb (222, 210, 184), MouthSmile.
+        Soren at (178, 111) facing West, Apparel_BasicShirt rgb (214, 120, 48), Apparel_Pants rgb (60, 60, 72), Roo_HD_Hair_Tidy, MouthClassicSmile.
+        Card: the katsudon (FlavorTextFR_Katsudon) at the right. Says: the host sets a table of dishes with French names. Subtitle: "Nelim sets the table: the dishes already speak French."
+#   2. 2-served, noon plus 5 minutes (268 ticks), same place and decor. The meal of two dishes at once. Zoom 7 on the cell (177, 109), medium.
+        Four meals on the table (175, 108) to (176, 109). Nelim at (175, 110) facing East, Soren at (178, 110) facing West, same outfits (rgb (46, 102, 112), rgb (214, 120, 48)), both smile (MouthSmile, MouthClassicSmile).
+        Card: the meal named after 2 dishes at once, right. Says: a main dish and its side dish, joined by a French joint. Subtitle: "A main dish and its side, joined by a French word."
+#   3. 3-farm, noon plus 10 minutes (477 ticks), same place and decor. The blanquette and a hen. Zoom 9 on the cell (177, 111), close, low-left.
+        Two meals on the table (175, 108) to (176, 109) (the others eaten). A hen (Chicken, "Poule") at (177, 112) facing South, seen from the front.
+        Nelim at (176, 110) and Soren at (178, 110), both facing South, same outfits, smile. Card: FlavorTextExtended_TwoMeatBlanquette, right.
+        Says: the blanquette is named after the colony's own animals. Subtitle: "From the colony's own farm: the blanquette."
 # WINDOW  index 4: the French settings page (interface window, taken on `window-backdrop-for-height`, cropped, no subtitle). The approved 4-settings-page-in-french.jpg of 1.0.x stays until replaced.
 # INSTANT AND HOW IT IS OBTAINED (criterion e: game paused mid-play). The game is paused; the meals are put by the cooking step just before the pause, the pawns are placed LAST by `stands at ... facing`
 #   (no job, held in place), the face by the face-part steps.
@@ -55,51 +57,53 @@ Feature: Lunch is served, in French
     And I set the weather to "Clear"
     And Nelim's Pickle Tools: all animals are removed
 
-  # ORDER OF EVERY SCENARIO (NPT, 2026-10-07): the waits first, then the game paused, then the dressing, then "stands at" LAST, then the framing and the
-  # capture with no wait after. A pawn is held only while the game is paused and without a job: a wait after "stands at" lets her go back to her job.
-  # 1. 12:00. Four different meals on the table, the katsudon's card beside them, Nelim smiling, Camille curious.
-  Scenario: Nelim shows the laid table to her guest
+  # ORDER OF EVERY SCENARIO (NPT): the waits first, then the game paused, then the dressing, then "stands at" LAST, then the framing and the capture with no wait after.
+  # 1. Noon. The table being set: two meals, the katsudon card, wide frame, Nelim turns to Soren who has just arrived.
+  Scenario: Nelim sets the table for her guest Soren
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 60 ticks
     And game speed is paused
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "FTV_CookMealSimple" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized", 100 times
-    And Flavor Text Extended: a colonist also cooks "FTV_CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
-    And Flavor Text Extended: a colonist also cooks "FTV_CookMealSimple" at the "FueledStove" from "EggChickenUnfertilized", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
-    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    Given Nelim's Pickle Tools: I place the decor "TorchLamp" at (172, 108)
+    And Nelim's Pickle Tools: the decor "TorchLamp" at (172, 108) is lit
+    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (180, 108)
+    And Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
-    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
-    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    And Nelim's Pickle Tools: a colonist "Camille" of kind "Colonist" exists
-    And Nelim's Pickle Tools: "Camille" has the gene "Eyes_Blue"
-    And Nelim's Pickle Tools: "Camille" wears "Apparel_BasicShirt" dyed rgb (214, 120, 48)
-    And Nelim's Pickle Tools: "Camille" wears "Apparel_Pants" dyed rgb (60, 60, 72)
-    And Nelim's Pickle Tools: "Camille" hairstyle is "Bob"
-    And Nelim's Pickle Tools: "Camille" hair colour is rgb (214, 196, 150)
-    And Nelim's Pickle Tools: "Camille" mouth is "MouthNormal"
-    And Nelim's Pickle Tools: "Camille" lids are "LidNormal"
+    And Nelim's Pickle Tools: a colonist "Soren" exists
+    And Nelim's Pickle Tools: "Soren" is 30 years old
+    And Nelim's Pickle Tools: "Soren" gender is male
+    And Nelim's Pickle Tools: "Soren" has the gene "Skin_Melanin5"
+    And Nelim's Pickle Tools: "Soren" has the gene "Eyes_DarkGreen"
+    And Nelim's Pickle Tools: "Soren" hairstyle is "Roo_HD_Hair_Tidy"
+    And Nelim's Pickle Tools: "Soren" hair colour is rgb (64, 51, 38)
+    And Nelim's Pickle Tools: "Soren" wears "Apparel_BasicShirt" dyed rgb (214, 120, 48)
+    And Nelim's Pickle Tools: "Soren" wears "Apparel_Pants" dyed rgb (60, 60, 72)
+    And Nelim's Pickle Tools: "Soren" mouth is "MouthClassicSmile"
+    And Nelim's Pickle Tools: "Soren" lids are "LidSimple"
     And Nelim's Pickle Tools: the other colonists are out of frame
-    Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    And Nelim's Pickle Tools: "Camille" stands at (178, 110) facing South
+    Given Nelim's Pickle Tools: "Nelim" stands at (175, 111) facing East
+    And Nelim's Pickle Tools: "Soren" stands at (178, 111) facing West
     And Nelim's Pickle Tools: "Nelim" face kit is "neutral"
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" mouth is "MouthSmile"
     And Nelim's Pickle Tools: "Nelim" lids are "LidCheerful"
     And Nelim's Pickle Tools: "Nelim" face skin is "SkinRosyCheeks"
-    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 7
+    And Nelim's Pickle Tools: I frame the cell (177, 109) at zoom 5.5
     And Flavor Text Extended: the info card of a meal named after "FlavorTextFR_Katsudon" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then Flavor Text Extended: "Nelim" is logged
-    And I take a screenshot "lunch 12:00 - Nelim and Camille at the laid table, the katsudon card beside"
+    And I take a screenshot "lunch noon - Nelim sets the table, Soren just arrived, the katsudon card"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
+    And Nelim's Pickle Tools: the decor is removed
 
-  # 2. 12:05. The meal of two dishes at once and its card; both smile.
-  Scenario: Nelim and Camille at the meal with two dishes at once
+  # 2. Noon plus 5 minutes. The table full, the pawns face each other, the two-dish meal card.
+  Scenario: Nelim and Soren at the meal with two dishes at once
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 268 ticks
     And game speed is paused
@@ -107,37 +111,42 @@ Feature: Lunch is served, in French
     And Nelim's Pickle Tools: I let 120 ticks pass
     When Flavor Text Extended: a colonist cooks "FTV_CookMealFine" at the "FueledStove" from "RawRice, Meat_Pig, EggChickenUnfertilized, RawPotatoes", 50 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
-    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    Given Nelim's Pickle Tools: I place the decor "TorchLamp" at (172, 108)
+    And Nelim's Pickle Tools: the decor "TorchLamp" at (172, 108) is lit
+    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (180, 108)
+    And Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
-    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
-    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    And Nelim's Pickle Tools: a colonist "Camille" of kind "Colonist" exists
-    And Nelim's Pickle Tools: "Camille" has the gene "Eyes_Blue"
-    And Nelim's Pickle Tools: "Camille" wears "Apparel_BasicShirt" dyed rgb (214, 120, 48)
-    And Nelim's Pickle Tools: "Camille" wears "Apparel_Pants" dyed rgb (60, 60, 72)
-    And Nelim's Pickle Tools: "Camille" hairstyle is "Bob"
-    And Nelim's Pickle Tools: "Camille" hair colour is rgb (214, 196, 150)
-    And Nelim's Pickle Tools: "Camille" mouth is "MouthSmile"
-    And Nelim's Pickle Tools: "Camille" lids are "LidCheerful"
+    And Nelim's Pickle Tools: a colonist "Soren" exists
+    And Nelim's Pickle Tools: "Soren" is 30 years old
+    And Nelim's Pickle Tools: "Soren" gender is male
+    And Nelim's Pickle Tools: "Soren" has the gene "Skin_Melanin5"
+    And Nelim's Pickle Tools: "Soren" has the gene "Eyes_DarkGreen"
+    And Nelim's Pickle Tools: "Soren" hairstyle is "Roo_HD_Hair_Tidy"
+    And Nelim's Pickle Tools: "Soren" hair colour is rgb (64, 51, 38)
+    And Nelim's Pickle Tools: "Soren" wears "Apparel_BasicShirt" dyed rgb (214, 120, 48)
+    And Nelim's Pickle Tools: "Soren" wears "Apparel_Pants" dyed rgb (60, 60, 72)
+    And Nelim's Pickle Tools: "Soren" mouth is "MouthClassicSmile"
+    And Nelim's Pickle Tools: "Soren" lids are "LidSimple"
     And Nelim's Pickle Tools: the other colonists are out of frame
-    Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    And Nelim's Pickle Tools: "Camille" stands at (177, 110) facing South
+    Given Nelim's Pickle Tools: "Nelim" stands at (175, 110) facing East
+    And Nelim's Pickle Tools: "Soren" stands at (178, 110) facing West
     And Nelim's Pickle Tools: "Nelim" face kit is "neutral"
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" mouth is "MouthSmile"
     And Nelim's Pickle Tools: "Nelim" lids are "LidCheerful"
     And Nelim's Pickle Tools: "Nelim" face skin is "SkinRosyCheeks"
-    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 7
+    And Nelim's Pickle Tools: I frame the cell (177, 109) at zoom 7
     And Flavor Text Extended: the info card of a meal named after 2 dishes at once is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then Flavor Text Extended: "Nelim" is logged
-    And I take a screenshot "lunch 12:05 - Nelim and Camille, the meal with two dishes at once and its card"
+    And I take a screenshot "lunch noon+5 - Nelim and Soren face each other, the meal with two dishes at once and its card"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
+    And Nelim's Pickle Tools: the decor is removed
 
-  # 3. 12:10. The blanquette (meat and milk), a hen posed after the wait, both pawns smiling.
+  # 3. Noon plus 10 minutes. The blanquette, two meals left, a hen in the foreground, both pawns smiling at her.
   Scenario: the blanquette, the guest and a hen that came to see
     Given Nelim's Sanctuary: I am at the sanctuary "dining-nook"
     And I wait 477 ticks
@@ -147,33 +156,38 @@ Feature: Lunch is served, in French
     When Flavor Text Extended: a colonist cooks "FTV_CookMealSimple" at the "FueledStove" from "Meat_Cow, Meat_Pig, Milk", 300 times
     And Flavor Text Extended: the meals are put on the table from (175, 108) to (176, 109)
     Given Nelim's Pickle Tools: an adult animal of kind "Chicken" named "Poule" is spawned at (177, 112)
-    Given Nelim's Pickle Tools: "Nelim" body type is Female
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" at (172, 108)
+    And Nelim's Pickle Tools: the decor "TorchLamp" at (172, 108) is lit
+    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (180, 108)
+    And Nelim's Pickle Tools: "Nelim" body type is Female
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_BasicShirt" dyed rgb (46, 102, 112)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_Pants" dyed rgb (222, 210, 184)
-    And Nelim's Pickle Tools: "Nelim" hairstyle is "Ponytails"
-    And Nelim's Pickle Tools: "Nelim" hair colour is rgb (70, 46, 32)
-    And Nelim's Pickle Tools: a colonist "Camille" of kind "Colonist" exists
-    And Nelim's Pickle Tools: "Camille" has the gene "Eyes_Blue"
-    And Nelim's Pickle Tools: "Camille" wears "Apparel_BasicShirt" dyed rgb (214, 120, 48)
-    And Nelim's Pickle Tools: "Camille" wears "Apparel_Pants" dyed rgb (60, 60, 72)
-    And Nelim's Pickle Tools: "Camille" hairstyle is "Bob"
-    And Nelim's Pickle Tools: "Camille" hair colour is rgb (214, 196, 150)
-    And Nelim's Pickle Tools: "Camille" mouth is "MouthSmile"
-    And Nelim's Pickle Tools: "Camille" lids are "LidCheerful"
+    And Nelim's Pickle Tools: a colonist "Soren" exists
+    And Nelim's Pickle Tools: "Soren" is 30 years old
+    And Nelim's Pickle Tools: "Soren" gender is male
+    And Nelim's Pickle Tools: "Soren" has the gene "Skin_Melanin5"
+    And Nelim's Pickle Tools: "Soren" has the gene "Eyes_DarkGreen"
+    And Nelim's Pickle Tools: "Soren" hairstyle is "Roo_HD_Hair_Tidy"
+    And Nelim's Pickle Tools: "Soren" hair colour is rgb (64, 51, 38)
+    And Nelim's Pickle Tools: "Soren" wears "Apparel_BasicShirt" dyed rgb (214, 120, 48)
+    And Nelim's Pickle Tools: "Soren" wears "Apparel_Pants" dyed rgb (60, 60, 72)
+    And Nelim's Pickle Tools: "Soren" mouth is "MouthClassicSmile"
+    And Nelim's Pickle Tools: "Soren" lids are "LidSimple"
     And Nelim's Pickle Tools: the other colonists are out of frame
     Given Nelim's Pickle Tools: "Nelim" stands at (176, 110) facing South
-    And Nelim's Pickle Tools: "Camille" stands at (177, 110) facing South
+    And Nelim's Pickle Tools: "Soren" stands at (178, 110) facing South
     And Nelim's Pickle Tools: the animal "Poule" stands at (177, 112) facing South
     And Nelim's Pickle Tools: "Nelim" face kit is "neutral"
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" mouth is "MouthSmile"
     And Nelim's Pickle Tools: "Nelim" lids are "LidCheerful"
     And Nelim's Pickle Tools: "Nelim" face skin is "SkinRosyCheeks"
-    And Nelim's Pickle Tools: I frame the cell (178, 109) at zoom 7
+    And Nelim's Pickle Tools: I frame the cell (177, 111) at zoom 9
     And Flavor Text Extended: the info card of a meal named after "FlavorTextExtended_TwoMeatBlanquette" is opened
     And Flavor Text Extended: the info card is placed at the "right" of the screen
     And Nelim's Pickle Tools: screenshot mode is enabled around the open windows
     Then Flavor Text Extended: "Nelim" is logged
-    And I take a screenshot "lunch 12:10 - the blanquette, Nelim, Camille and a hen at the table"
+    And I take a screenshot "lunch noon+10 - the blanquette, Nelim, Soren and a hen at the table"
     When Nelim's Pickle Tools: screenshot mode is disabled
     And I close all dialogs
+    And Nelim's Pickle Tools: the decor is removed
