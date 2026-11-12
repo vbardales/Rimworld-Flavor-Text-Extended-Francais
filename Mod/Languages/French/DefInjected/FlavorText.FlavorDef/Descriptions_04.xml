@@ -62,7 +62,7 @@
 	<FlavorText_Ingredients_Burek.description>une pâtisserie de la cuisine ottomane : une pâte {2_adj} fine et feuilletée, garnie {1_adj} et {0_adj}.</FlavorText_Ingredients_Burek.description>
 	<FlavorText_Ingredients_Enchiladas.description>une tortilla {1_adj} enroulée sur une garniture {0_adj} ~revenu~, servie sous une sauce salée {2_plur}. Née de la cuisine de rue mexicaine, elle est aujourd'hui répandue partout.</FlavorText_Ingredients_Enchiladas.description>
 	<FlavorText_ArepasConQueso.description>un pain sans levain mangé en Amérique du Sud depuis les temps précolombiens : une pâte de semoule de maïs précuite, façonnée en disques épais, farcie de fromage et {0_adj}, puis cuite à la poêle.</FlavorText_ArepasConQueso.description>
-	<FlavorText_MeatRaw_Tamales.description>{0_coll} ~épicé~ et ~effiloché~, enveloppée d'une pâte de masa {1_adj} et cuite à la vapeur dans une spathe de maïs.</FlavorText_MeatRaw_Tamales.description>
+	<FlavorText_MeatRaw_Tamales.description>{0_coll} ~épicé~ et ~effiloché~, ~enveloppé~ d'une pâte de masa {1_adj} et cuite à la vapeur dans une spathe de maïs.</FlavorText_MeatRaw_Tamales.description>
 	<FlavorText_Cholera.description>une tourte {2_adj} garnie {1_adj} en tranches et de fromage, originaire de Suisse.</FlavorText_Cholera.description>
 	<FlavorText_GuanimesConBacalao.description>des quenelles de semoule de maïs servies avec un ragoût {0_adj} ~salé~ et {1_adj}.</FlavorText_GuanimesConBacalao.description>
 	<FlavorText_MeatRaw_SoupDumplings.description>de gros raviolis vapeur chinois, remplis de bouillon, dont il existe mille variantes. On enferme une farce {1_adj} et une gelée {0_adj} dans une pâte {2_adj} ; à la vapeur, la gelée fond et devient soupe.</FlavorText_MeatRaw_SoupDumplings.description>

@@ -71,7 +71,7 @@
 	<FlavorText_ReubenSandwich.description>{0_coll} ~salé~ ~empilé~ haut entre deux tranches de pain {1_adj}, servie chaude avec du gruyère fondu, une sauce russe et de la choucroute.</FlavorText_ReubenSandwich.description>
 	<FlavorText_MeatRaw_Burritos.description>{0_coll} ~épicé~ et {2_coll}, servis dans une tortilla {1_adj}.</FlavorText_MeatRaw_Burritos.description>
 	<FlavorText_MeatRaw_HuitlacocheTacos.description>le charbon qui pousse sur les épis {1_adj}, poêlé avec {0_coll} et servi dans une tortilla {1_adj}.</FlavorText_MeatRaw_HuitlacocheTacos.description>
-	<FlavorText_MeatRaw_PicadilloTacos.description>{0_coll} ~haché~ ~revenu~ avec {2_coll} ~taillé~ très fin, servie dans une tortilla {1_adj}.</FlavorText_MeatRaw_PicadilloTacos.description>
+	<FlavorText_MeatRaw_PicadilloTacos.description>{0_coll} ~haché~ ~revenu~ avec {2_coll} ~taillé~ très fin, ~servi~ dans une tortilla {1_adj}.</FlavorText_MeatRaw_PicadilloTacos.description>
 	<FlavorText_Burger.description>une galette {1_adj} hachée dans un pain {2_adj} fendu, avec {0_coll} en condiment.</FlavorText_Burger.description>
 	<FlavorText_Croissant_Ingredients_Sandwich.description>un sandwich monté sur un croissant feuilleté plutôt que sur du pain. Celui-ci prend un croissant {0_adj} et {2_coll} pour garniture.</FlavorText_Croissant_Ingredients_Sandwich.description>
 	<FlavorText_Flautas.description>des tacos {0_adj} roulés en forme de cigare, farcis {1_adj} ~haché~ et ~épicé~. On les frit ou on les passe au four, et on les sert avec du guacamole, de la crème aigre ou de la salsa.</FlavorText_Flautas.description>

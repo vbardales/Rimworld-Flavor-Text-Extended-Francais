@@ -6,7 +6,7 @@
 <LanguageData>
 
 	<!-- Condiments, féculents -->
-	<FlavorText_ChiliPaste.description>une pâte épaisse {0_adj} pur. À ne pas manger telle quelle.</FlavorText_ChiliPaste.description>
+	<FlavorText_ChiliPaste.description>une pâte épaisse {0_adj} ~pur~. À ne pas manger telle quelle.</FlavorText_ChiliPaste.description>
 	<FlavorText_Pikliz.description>un condiment mariné de la cuisine haïtienne, servi en accompagnement d'un autre plat : un émincé {0_adj}, {1_adj} et d'autres légumes, conservé au vinaigre.</FlavorText_Pikliz.description>
 	<FlavorText_Corn_Pones.description>un pain de maïs élémentaire de la cuisine américaine : une pâte {0_adj} cuite à la poêle.</FlavorText_Corn_Pones.description>
 	<FlavorText_Irio.description>un plat kényan {2_adj}, {0_adj} et {1_adj} écrasés ensemble.</FlavorText_Irio.description>
@@ -65,7 +65,7 @@
 	<FlavorText_Corned_Meat_Cow_And_Cabbage.description>la version irlando-américaine du lard {1_plur}, où le lard cède la place à {0_coll} ~salé~, moins chère.</FlavorText_Corned_Meat_Cow_And_Cabbage.description>
 	<FlavorText_Estrogonoffe.description>une variante du stroganoff dans sa version brésilienne, reconnaissable à la présence {1_adj}. {0_coll} en cubes est saisie à la poêle pendant que l'oignon et l'ail reviennent à côté. On réunit le tout, puis on mijote avec une pâte {1_adj} et {2_coll} jusqu'à obtenir une sauce épaisse.</FlavorText_Estrogonoffe.description>
 	<FlavorText_JiggsDinner.description>{0_coll} ~salé~ ~bouilli~ avec {1_coll} et un assortiment de légumes-racines. On la mangeait le dimanche à midi dans certaines régions du Canada.</FlavorText_JiggsDinner.description>
-	<FlavorText_SteakTartare.description>{0_coll} ~cru~ de première qualité, ~haché~ à la minute et mêlée d'oignon, d'épices et de sauce Worcestershire, présentée sous un jaune {1_adj} cru.</FlavorText_SteakTartare.description>
+	<FlavorText_SteakTartare.description>{0_coll} ~cru~ de première qualité, ~haché~ à la minute et ~mêlé~ d'oignon, d'épices et de sauce Worcestershire, ~présenté~ sous un jaune {1_adj} cru.</FlavorText_SteakTartare.description>
 	<FlavorText_Gefilte_Meat_Fish.description>un plat fait d'un appareil poché {0_adj} ~désarêté~ et ~haché~, garni d'une rondelle {1_adj} cuite.</FlavorText_Gefilte_Meat_Fish.description>
 	<FlavorText_Bobotie.description>un gratin sud-africain : {0_coll} ~haché~ au fond du plat, montée en curry avec du concentré de tomate, {2_coll} et un acide (citron ou vinaigre). On verse par-dessus une omelette {1_adj} et on passe au four jusqu'à ce qu'une croûte brune se forme.</FlavorText_Bobotie.description>
 	<FlavorText_Yukhoe.description>un plat coréen raffiné : {0_coll} ~cru~ ~taillé~ en fines lanières, ~assaisonné~ de sel, de sucre, d'huile de sésame, de poivre et d'ail, servie avec {1_coll} en garniture.</FlavorText_Yukhoe.description>
