@@ -104,7 +104,7 @@ remaining:
   - "defect (not a stage-chain transition): Mod/About/ModIcon.png is 1254 x 1254 and 1,444,880 bytes and ships with Mod/ (Steam publishes it unfiltered); PUBLISHING.md says about 128 px is enough. Legibility at 32 px is fine (checked 2026-10-02), the defect is the weight. Only the owner generates or resizes a ModIcon: asked, not touched."
   - "unverified (done -> tested): feature 07 (lavish meals) must be replayed on the current DLL: the last French pass (2026-09-28 15:45 to 15:58) predates 44a8cbc (bounded LowerSideDishes search, 2026-09-28 22:40). Pass 3 folders (mtime 2026-09-29) do not record their tree SHA. Order: 07 alone first (small ticket), then every non-regression pass together at the end on the final revision (AUDIT.md, 2026-10-02)."
   - "unverified (done -> tested): every conditional scenario had its pass, on older builds (table in TESTING.md, Conditions of tested); no scenario is @wip; no manual test is left (FUNCTIONAL-SCENARIOS.md mapped to the Pickle features)."
-protocols_read_sha: 233929b7e4e1ca726a088f084c904460b4214219
+protocols_read_sha: 90239b994a52093920b440fb20d0b67c552a9693
 ---
 
 # History
@@ -156,3 +156,5 @@ Ticket c04d (14:27): scenario parsed and ran, exit 1, 0/1: undefined step `"Sore
 Ticket 958e 14:32: exit 0, 1/1 passed (Tests/Pickle/Inbox/2026-11-10-gallery-1-set-3). New steps (TorchLamp, PlantPot daylily, roster hair, facing) all ran. Capture read, shot 1 verdict REDO: Soren not in frame (only Nelim, above the table); table shows 4 meals not the 2 planned; Nelim faces away, not toward Soren; the katsudon card is ~950 px wide and covers the right half (not 268 px). Fix in the scenario: Soren cell/frame (zoom 5.5 on (177,109) cuts him off), meal count, card size/placement, then replay as one small ticket. Not yet scored with score-gallery.
 
 Shot 1 redo 14:37 (f7a1350): meals cells (175,108)-(176,108) = 2 meals; frame (180,109) so Nelim (175,111) and Soren (178,111) sit left of the right-side card (y grows north; the old frame (177,109) hid Soren behind the card). Ticket 20261110-143711-887-1cbf, evidence Tests/Pickle/Inbox/2026-11-10-gallery-1-set-4, tree frozen at f7a1350. Shots 2 and 3 use the same frame/card: apply the same shift once shot 1 reads right.
+
+Shot 1 verdict 2026-11-12 (ticket 1cbf, set-4, opened): REDO. Nelim stands behind the chairs facing south, Soren 3 cells east looks left, they do not face each other; 2 meals ok; faces too small for the smile; floor bare (rug, torches only). Image 3.5, adequacy 3.5, understanding 3, decoration 3. Capture folders deleted. Next: recompose shot 1 (pawns face each other beside the table, tighter frame, more decor), refile as one small ticket. NSB and NPT sync owed (Check-Status warns: changes of 2026-11-12).
