@@ -22,7 +22,7 @@
 	<FlavorText_Raggmunkar.description>{2_coll} râpés et cuits à la poêle en crêpe mince, servis avec une confiture {1_adj}.</FlavorText_Raggmunkar.description>
 	<FlavorText_Savillum.description>l'ancêtre romain du cheesecake : une croûte {2_adj} garnie de n'importe quel fromage et sucrée {0_plur}. Une bonne pincée de graines de pavot achève le tout.</FlavorText_Savillum.description>
 	<FlavorText_Tembleque.description>un entremets portoricain, obtenu en cuisant une crème {1_adj}, un lait {1_adj}, du sel, de la fécule de maïs et {0_coll}, puis garni de cannelle moulue.</FlavorText_Tembleque.description>
-	<FlavorText_Fruitcake.description>un gâteau dense {1_adj} confits, {2_adj} et d'épices, éventuellement imbibé d'alcool.</FlavorText_Fruitcake.description>
+	<FlavorText_Fruitcake.description>un gâteau dense {1_adj} ~confit~, {2_adj} et d'épices, éventuellement imbibé d'alcool.</FlavorText_Fruitcake.description>
 	<FlavorText_Knafeh.description>un dessert arabe : de fins vermicelles de pâte {0_adj} frits, alternés avec du fromage et imbibés d'un sirop {1_adj}.</FlavorText_Knafeh.description>
 	<FlavorText_Asida.description>un plat arabe : une farine {0_adj} versée dans l'eau bouillante et travaillée en boule de pâte, servie avec du beurre clarifié et {2_coll}.</FlavorText_Asida.description>
 
@@ -68,7 +68,7 @@
 	<FlavorText_MeatRaw_SoupDumplings.description>de gros raviolis vapeur chinois, remplis de bouillon, dont il existe mille variantes. On enferme une farce {1_adj} et une gelée {0_adj} dans une pâte {2_adj} ; à la vapeur, la gelée fond et devient soupe.</FlavorText_MeatRaw_SoupDumplings.description>
 	<FlavorText_PasutsTolma.description>des feuilles {0_adj} en saumure, farcies {1_adj}, {2_adj}, d'herbes et d'épices. Elles ont une place à part dans les maisons arméniennes, surtout à Noël et au nouvel an, où on les prépare pendant le jeûne qui précède les fêtes.</FlavorText_PasutsTolma.description>
 	<FlavorText_Banana_Fufu.description>{0_coll} ~bouilli~ et ~pilé~, ~sucré~ {1_plur}, travaillées en une boule de pâte lisse et élastique. Répandu dans toute l'Afrique de l'Ouest, où il accompagne le plus souvent une soupe.</FlavorText_Banana_Fufu.description>
-	<FlavorText_Fufu.description>{0_coll} bouillies et pilées, travaillées en une boule de pâte lisse et élastique. Répandu dans toute l'Afrique de l'Ouest, où il accompagne le plus souvent une soupe.</FlavorText_Fufu.description>
+	<FlavorText_Fufu.description>{0_coll} ~bouilli~ et ~pilé~, travaillées en une boule de pâte lisse et élastique. Répandu dans toute l'Afrique de l'Ouest, où il accompagne le plus souvent une soupe.</FlavorText_Fufu.description>
 	<FlavorText_Paniyaram.description>un plat indien : une pâte fermentée {2_adj} ~étuvé~ et {1_adj}, cuite à la vapeur dans un moule à alvéoles. Cette version gagne beaucoup à l'ajout {0_adj}.</FlavorText_Paniyaram.description>
 	<FlavorText_Latke.description>une galette {2_adj} et {1_adj}, d'origine juive, préparée traditionnellement pour Hanoucca.</FlavorText_Latke.description>
 	<FlavorText_PierogiLeniwe.description>les raviolis « paresseux » polonais : du fromage blanc, {0_coll} et une farine {2_adj}, pochés à l'eau légèrement salée. Se servent le plus souvent avec de la crème épaisse ou de la crème aigre.</FlavorText_PierogiLeniwe.description>

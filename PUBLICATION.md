@@ -368,12 +368,3 @@ bash Rimworld-Release-Admin/scripts/generate-publish-workflow.sh FlavorText/Flav
 - 1.0.0: SHA `43dd52da70c3ffbdb3ab55c7301e877be88040e9`, dry-run 36122774168, publish run 36124437186 approved by the owner
   on 2026-09-25. 1.0.1 (side dish in lower case after a French joint) was published the same day as its own publication: SHA `ab2e37e0d514f0c82b716e80bb942fd6b951d277` (tag `v1.0.1`), dry-run 36149832678, publish run 36150171081, 2026-09-25.
 - **1.1.0 and the Preview (owner, 2026-10-08):** the Preview and the ModIcon were regenerated (new ModIcon source, `Art/Preview.config.json`). When 1.1.0 is deployed, `update_preview` must be on, at the dry-run and at the publish, or the Steam page keeps the old image; the gallery stays a manual upload.
-
-## After the next Workshop update — do not forget
-
-- Commit `About/PublishedFileId.txt` immediately once it exists; losing it before that commit makes
-  the next upload create a second Workshop item.
-- The item id is already committed. Subscribe to that item, test for real, then confirm its public
-  visibility by hand — RimWorld never calls `SetItemVisibility`.
-- Post the thank-you messages above only after the item is public: a link to a private item opens
-  for no one.
