@@ -10,7 +10,7 @@
 	<FlavorText_Ingredients_Salad_2.description>une salade froide de la cuisine américaine : {1_coll} râpés, remués dans une sauce à la mayonnaise avec {0_coll}.</FlavorText_Ingredients_Salad_2.description>
 	<FlavorText_Ingredients_Szalot.description>une salade nourrissante {2_adj}, avec {1_coll} et {0_coll}, née de la Silésie polonaise.</FlavorText_Ingredients_Szalot.description>
 	<FlavorText_Fleischsalat.description>une salade froide allemande : des lanières {1_adj} remuées avec {0_coll} en dés et une sauce crémeuse à la mayonnaise.</FlavorText_Fleischsalat.description>
-	<FlavorText_NourishBowl.description>une salade montée sur une base {0_adj} froid, servie dans un bol à haut bord rempli à ras de morceaux {1_adj} et de légumes variés, sous une sauce crémeuse et relevée à base {2_adj}.</FlavorText_NourishBowl.description>
+	<FlavorText_NourishBowl.description>une salade montée sur une base froide {0_adj}, servie dans un bol à haut bord rempli à ras de morceaux {1_adj} et de légumes variés, sous une sauce crémeuse et relevée à base {2_adj}.</FlavorText_NourishBowl.description>
 	<FlavorText_Pickled_Ingredients.description>{0_coll} ~entier~, rapidement ~mis~ au vinaigre dans une saumure épicée.</FlavorText_Pickled_Ingredients.description>
 	<FlavorText_Kelp_Salad.description>une salade japonaise {0_adj} ~taillé~ en lanières et ~mariné~ dans une sauce {1_adj}.</FlavorText_Kelp_Salad.description>
 	<FlavorText_Esqueixada.description>une salade froide de la cuisine catalane, faite {0_adj} ~salé~ et {1_adj} en dés, servie froide dans une marinade au vinaigre et à l'huile d'olive, garnie d'éclats {2_adj}.</FlavorText_Esqueixada.description>

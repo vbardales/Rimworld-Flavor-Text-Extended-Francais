@@ -47,7 +47,7 @@
 	<!-- Pâtes -->
 	<FlavorText_Champorado.description>un pouding philippin sucré {1_adj}, fait de riz gluant {0_adj}. Il tient lieu de repas ou d'en-cas, et se garnit volontiers de lait concentré sucré ou de petits poissons séchés et salés, les « tuyo ».</FlavorText_Champorado.description>
 	<FlavorText_LeafyVeg_Ravioli.description>une pâte farcie italienne : des coussins de pâte plate garnis de ricotta et {0_adj}.</FlavorText_LeafyVeg_Ravioli.description>
-	<FlavorText_BuddhaBowl.description>une salade montée sur une base {0_adj} froid, servie dans un bol à haut bord rempli à ras de morceaux {1_adj} et de légumes variés, sous une sauce crémeuse et relevée à base {2_adj}.</FlavorText_BuddhaBowl.description>
+	<FlavorText_BuddhaBowl.description>une salade montée sur une base froide {0_adj}, servie dans un bol à haut bord rempli à ras de morceaux {1_adj} et de légumes variés, sous une sauce crémeuse et relevée à base {2_adj}.</FlavorText_BuddhaBowl.description>
 	<FlavorText_FideoSoup.description>une soupe mexicaine rapide et savoureuse, à base de vermicelles {0_adj} torréfiés, mijotés dans une sauce {1_adj}, à l'ail et à l'oignon.</FlavorText_FideoSoup.description>
 	<FlavorText_Ingredients_PancitCanton.description>un terme général qui recouvre plusieurs plats de nouilles traditionnels des Philippines, faits de grosses nouilles {1_adj}. Celui-ci réunit {0_coll} ~sauté~ avec des légumes variés. Une sauce acidulée {2_adj} lui donne le profil aigre qui le caractérise.</FlavorText_Ingredients_PancitCanton.description>
 	<FlavorText_Succotash.description>un plat de légumes amérindien, fait pour l'essentiel {1_adj} doux et {0_adj}.</FlavorText_Succotash.description>
