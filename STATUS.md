@@ -8,6 +8,7 @@ visibility_verified_at: 2026-09-21
 visibility_evidence: "gh api repos/vbardales/Rimworld-Flavor-Text-Extended-Francais: private=false; git ls-remote HEAD = b62253a"
 mod_visibility: GitHub public; Workshop item 3806100488 public (owner, 2026-09-25, after 1.0.1; not checked by a session)
 detached: yes
+translation_mod: yes
 workflow_stage: localize[1.1.0]
 stage_meaning: "2026-11-10: shootGallery[1.1.0] (Virginie agreed after 8.m closed, ticket 4bb5 green). History: 2026-10-13 playTests[1.1.0] (backward audit, AUDIT.md 8.a and 8.m: a commit of Mod/ after code_review_sha reopens the code review and playTests). Cause: a311b88 added Food Texture Variety French (Mod/FoodTextureVariety DefInjected, LoadFolders, loadAfter in About.xml), a feature of the owner. The rest of 1.1.0 stands: feature 07 green, settings and French passes green, French review of 2026-10-11 (b8327f3). Reopened and owed: (1) 8.b Virginie reads the new FTV French strings (3 ThingDef, 6 RecipeDef; now in FRENCH_REVIEW.md, regenerated 2026-10-15 with FTV in -ExtraDefs, sections FoodTextureVariety/DefInjected); (2) 8.f the FTV pass (wsl-deps map declared in TESTING.md, scenario asserting the French name; the ticket 779f proved the cards by eye, 3/3, not as a declared pass); (3) 8.m code review of f0ea3fbc..HEAD (Mod/ only, no Source/ change), then code_review_sha. Then shootGallery[1.1.0] again (gallery to recompose, see remaining)."
 licence: silent
