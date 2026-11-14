@@ -10,3 +10,8 @@ One line per refusal: key or text, proposal, reason, date.
 - `PUBLICATION.md`, English description, `none applies` to `none apply`; refused, `none` takes a singular verb, a matter of taste; 2026-11-14.
 - `PUBLICATION.md`, Screenshots section, `come from the 1.0.1 run`: proposed text is identical to the current one, nothing to change; 2026-11-14.
 - `PUBLICATION.md`, French description, mod names in sentences to `English (French title)`: refused again, same reason as the 2026-11-14 line above; 2026-11-14.
+- `FlavorText_Yachaejeon.description` (Descriptions_07.xml): `émincés fin` to `finement émincés`; refused, `émincés fin` is the usual culinary adverbial use, a matter of taste (same as Rice_Crackers); 2026-11-14.
+- `FlavorText_Foods_CharcuterieBoard.description` (Descriptions_08.xml): `taillés fin` to `taillés fins`; refused, adverbial use, a matter of taste; 2026-11-14.
+- `FlavorText_Ingredients_Salad.description` (Descriptions_09.xml): `un saladier` to `une salade`; refused, `un saladier {0_adj}` is the bowl-of idiom and `taillés` agrees with the two ingredients; `une salade ... taillés` would break the agreement; 2026-11-14.
+- `PUBLICATION.md`, French description, apply `Docs/review-names.md` mod titles in the thanks list: refused, third time, the Steam description is English only and the English mod name stands alone (TRANSLATIONS.md section 0, owner 2026-11-13); the titles stay in the registry; 2026-11-14.
+- `TRANSLATION_REVIEW.md` empty Original/English columns: not a mod defect; the plugin command regenerates the file without `-ExtraDefs`; reported to Audit; 2026-11-14.
