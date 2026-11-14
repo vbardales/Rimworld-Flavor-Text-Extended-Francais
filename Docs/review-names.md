@@ -5,7 +5,7 @@
 | Izmir | kept as is (`Izmir`) | Title of the French Wikipedia article, official form for a French text; decided by Virginie | 2026-11-14 |
 | thrumbo | kept as is (`thrumbo`) | RimWorld creature name, same form as the game; decided by Virginie | 2026-11-14 |
 | Flavor Text, Flavor Text Extended, Flavor Text Extended - Français | kept as is (English alone) | no French title registered by Audit, Steam title and About.xml stay English; Virginie named no French form | 2026-11-14 |
-| Harmony | kept as is (`Harmony`) | library name, Virginie named no French form | 2026-11-14 |
+| Harmony (2009463077) | `Harmony (Harmonie)` where cited in a French sentence | registry docs/MOD-TITLES.tsv holds this decided form since 2026-11-12 (Audit) | 2026-11-14 |
 | VGP Vegetable Garden (2007061826) | translated to `PJP Jardin Potager` | VGP Vegetable Garden Project becomes PJP Projet Jardin Potager; decided by Virginie | 2026-11-14 |
 | VGP Garden Gourmet (2007062982) | translated to `PJP Jardin gourmand` | same sigle rule; decided by Virginie | 2026-11-14 |
 | Food Texture Variety (3354456321) | translated to `Textures culinaires variées` | decided by Virginie | 2026-11-14 |
