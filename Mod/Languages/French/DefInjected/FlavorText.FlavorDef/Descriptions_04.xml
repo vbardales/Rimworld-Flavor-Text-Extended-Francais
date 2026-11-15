@@ -29,7 +29,7 @@
 	<!-- Boissons -->
 	<FlavorText_MuzluSut.description>une boisson turque crémeuse et rafraîchissante, obtenue en mixant {0_coll} avec {1_coll} et du sucre.</FlavorText_MuzluSut.description>
 	<FlavorText_Boza.description>une boisson turque à base {0_adj} ~fermenté~ et {1_adj}, mixés avec du sucre. Souvent poudrée de cannelle.</FlavorText_Boza.description>
-	<FlavorText_ChichaMorada.description>une boisson péruvienne : {0_coll} violet bouilli dans l'eau avec des écorces {2_adj} et des morceaux {1_adj}, une pincée de cannelle et quelques clous de girofle.</FlavorText_ChichaMorada.description>
+	<FlavorText_ChichaMorada.description>une boisson péruvienne : {0_coll} ~violet~ ~bouilli~ dans l'eau avec des écorces {2_adj} et des morceaux {1_adj}, une pincée de cannelle et quelques clous de girofle.</FlavorText_ChichaMorada.description>
 	<FlavorText_Salep.description>une boisson d'hiver turque {0_adj}, épaissie d'un amidon {1_adj}. Souvent poudrée de sucre glace et de cannelle.</FlavorText_Salep.description>
 	<FlavorText_Eggnog.description>{0_coll} ~cru~ ~fouetté~ et ~incorporé~ à de la crème épaisse, ~relevé~ {2_plur}. À l'origine un moyen d'écouler le surplus {0_adj} ; aujourd'hui une boisson de fête.</FlavorText_Eggnog.description>
 	<FlavorText_Atole.description>une boisson chaude traditionnelle d'origine mexicaine, à base d'une farine de masa {1_adj}. L'atole se parfume de vanille, de cannelle ou de goyave.</FlavorText_Atole.description>
@@ -76,8 +76,8 @@
 	<FlavorText_ImamBayildi.description>un plat ottoman : une {0_sing} entière farcie {1_adj}, d'ail et {2_plur}, puis mijotée à l'huile d'olive.</FlavorText_ImamBayildi.description>
 	<FlavorText_EnglishMuffins.description>un petit pain plat {0_adj}, levé à la levure et cuit sur plaque. Le beurre lui donne du moelleux et cette mie très ouverte, pleine de creux et d'alvéoles quand on le fend en deux.</FlavorText_EnglishMuffins.description>
 	<FlavorText_Khinkali.description>des raviolis géorgiens reconnaissables à leur nœud torsadé, en pâte {0_adj}. Ceux-ci sont farcis {1_adj} grossièrement hachée. Le nœud sert de poignée et se jette après avoir mangé le corps du ravioli.</FlavorText_Khinkali.description>
-	<FlavorText_Potetball.description>une quenelle norvégienne traditionnelle {1_adj} râpés, mêlés à une farine {0_adj}.</FlavorText_Potetball.description>
-	<FlavorText_Puto.description>un gâteau vapeur philippin {0_adj}, fait {0_adj} légèrement fermenté au préalable, ce qui lui donne son goût de levain.</FlavorText_Puto.description>
+	<FlavorText_Potetball.description>une quenelle norvégienne traditionnelle {1_adj} ~râpé~, mêlés à une farine {0_adj}.</FlavorText_Potetball.description>
+	<FlavorText_Puto.description>un gâteau vapeur philippin {0_adj}, fait {0_adj} légèrement ~fermenté~ au préalable, ce qui lui donne son goût de levain.</FlavorText_Puto.description>
 	<FlavorText_Takoyaki.description>un en-cas japonais : des boules de pâte à la farine {0_adj} fourrées de morceaux {1_adj}, de gingembre mariné et de ciboule. On les cuit dans une plaque spéciale et on les nappe volontiers de sauce, de mayonnaise et de copeaux de bonite.</FlavorText_Takoyaki.description>
 	<FlavorText_Ingredients_Baozi.description>une brioche vapeur levée {1_adj}, courante dans plusieurs cuisines chinoises. Les garnitures et les préparations sont innombrables ; celles-ci sont fourrées {0_adj}.</FlavorText_Ingredients_Baozi.description>
 	<FlavorText_Ingredients_ChorMuang.description>les raviolis-fleurs thaïlandais : une pâte {2_adj} cuite à la vapeur, pincée en corolle, garnie {0_adj} et {1_adj}.</FlavorText_Ingredients_ChorMuang.description>
@@ -88,7 +88,7 @@
 	<FlavorText_Ingredients_Zongzi.description>un ravioli chinois traditionnel : {1_coll} gluant enroulé autour d'une garniture {0_adj}.</FlavorText_Ingredients_Zongzi.description>
 	<FlavorText_MeatRaw_Croquettes.description>une farce {0_adj} et {1_adj}, liée d'une purée {2_adj}, panée puis frite dans un grand chaudron d'huile jusqu'au croustillant.</FlavorText_MeatRaw_Croquettes.description>
 	<FlavorText_MeatRaw_Jiaozi.description>des raviolis de farine {2_adj} repliés sur une farce {1_adj} hachée et {0_adj}. Traditionnellement cuits à la vapeur en panier.</FlavorText_MeatRaw_Jiaozi.description>
-	<FlavorText_Gimbap.description>un plat coréen proche du sushi : une garniture {0_adj} frais et {1_adj} en saumure, roulée dans {2_coll}, puis dans une feuille de « gim » séchée et grillée. On tranche le rouleau en bouchées pour le service.</FlavorText_Gimbap.description>
+	<FlavorText_Gimbap.description>un plat coréen proche du sushi : une garniture {0_adj} ~frais~ et {1_adj} en saumure, roulée dans {2_coll}, puis dans une feuille de « gim » séchée et grillée. On tranche le rouleau en bouchées pour le service.</FlavorText_Gimbap.description>
 	<FlavorText_MercimekKoftesi.description>l'un des nombreux petits plats froids turcs que l'on appelle meze : une purée {0_adj} ~bouilli~, mêlée à des grains {2_adj} concassés et précuits. On roule le tout à la main avec des oignons rôtis à l'huile d'olive, une pâte {1_adj}, du persil et des épices.</FlavorText_MercimekKoftesi.description>
 	<FlavorText_Manti.description>un ravioli turc {0_adj} ~haché~ dans une pâte {1_adj}, servi sous une sauce au yaourt.</FlavorText_Manti.description>
 	<FlavorText_Meat_Pig_Gefillde.description>des quenelles norvégiennes {2_adj} et de farine {1_adj}, farcies d'un mélange de chair à saucisse {0_adj} et de foie.</FlavorText_Meat_Pig_Gefillde.description>
