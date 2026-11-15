@@ -15,7 +15,7 @@
 	<FlavorText_Mashed_Potato.description>{1_coll} bien écrasés et travaillés au beurre et à la crème.</FlavorText_Mashed_Potato.description>
 
 	<!-- Œufs -->
-	<FlavorText_Scrambled_Egg.description>{1_coll} battus avec {0_coll} ou de la crème jusqu'à consistance lisse, puis cuits dans une poêle basse.</FlavorText_Scrambled_Egg.description>
+	<FlavorText_Scrambled_Egg.description>{1_plur} battus avec {0_coll} ou de la crème jusqu'à consistance lisse, puis cuits dans une poêle basse.</FlavorText_Scrambled_Egg.description>
 	<FlavorText_Egg_Bhurji.description>un plat de rue indien très répandu : {0_coll} brouillés avec tout un jeu d'aromates, dont {1_coll}.</FlavorText_Egg_Bhurji.description>
 	<FlavorText_Egg_InABasket.description>un {0_sing} cassé dans le trou découpé au centre d'une tranche de pain {1_adj}, cuit à la poêle jusqu'à ce que le jaune soit encore coulant.</FlavorText_Egg_InABasket.description>
 	<FlavorText_PlantFoodRaw_Kuku.description>un plat iranien {0_adj} fouettés, dans lesquels on incorpore {1_coll} et {2_coll}, cuit à la poêle en une grande galette.</FlavorText_PlantFoodRaw_Kuku.description>

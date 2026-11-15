@@ -31,7 +31,7 @@
 	<FlavorText_Misir.description>des épis {0_adj} frais, grillés entiers dans leur spathe.</FlavorText_Misir.description>
 	<FlavorText_Elote.description>{2_coll} ~grillé~, généreusement ~enduit~ de mayonnaise et d'une crème aigre acidulée. Se mange au mieux avec du piment.</FlavorText_Elote.description>
 	<FlavorText_Ingredients_Roast.description>une pièce {0_adj} couverte {1_adj} et de morceaux {2_adj}, grillée à la flamme vive jusqu'à ce qu'elle soit tendre.</FlavorText_Ingredients_Roast.description>
-	<FlavorText_MeatRaw_KoreanBBQ.description>des morceaux {2_adj} et {1_adj} cuits à même une grande plaque de métal bombée, avec {0_coll}. La plaque descend d'un usage de l'armée mongole, qui cuisait sur ses grands boucliers ronds.</FlavorText_MeatRaw_KoreanBBQ.description>
+	<FlavorText_MeatRaw_KoreanBBQ.description>des morceaux {2_adj} et {1_adj} cuits à même une grande plaque de métal bombée, avec {0_coll}. Cette plaque vient d'une pratique de l'armée mongole, qui cuisait sur ses grands boucliers ronds.</FlavorText_MeatRaw_KoreanBBQ.description>
 	<FlavorText_Barbecued_Ingredients.description>une pièce {0_adj} entière, grillée à la flamme vive du barbecue jusqu'à prendre un peu de noir.</FlavorText_Barbecued_Ingredients.description>
 	<FlavorText_Roasted_Ingredients_And_Ingredients.description>un mélange {0_adj} ~entier~ et {1_adj}, rangé dans une barquette d'aluminium jetable et grillé au barbecue jusqu'à caraméliser.</FlavorText_Roasted_Ingredients_And_Ingredients.description>
 	<FlavorText_Cevapi.description>une saucisse de rue balkanique, faite d'un mélange {0_adj} et {1_adj} ~haché~, relevé de sel, de poivre, de paprika et d'ail.</FlavorText_Cevapi.description>
@@ -44,11 +44,11 @@
 	<FlavorText_TurkishKofte.description>des boulettes grillées et aplaties {0_adj} ~haché~, {1_adj}, d'ail et de persil.</FlavorText_TurkishKofte.description>
 	<FlavorText_Meat_Insect_EggsOnAStick.description>des œufs prélevés dans les ovaires {0_adj} adultes, enfilés sur une brochette et rôtis à la flamme. L'extérieur est fibreux, mais le cœur reste souple, d'une texture proche du fromage frais.</FlavorText_Meat_Insect_EggsOnAStick.description>
 	<FlavorText_GrubsOnAStick.description>des larves {0_adj} au stade nymphal, enfilées sur une brochette et rôties à la flamme jusqu'à ce que l'exosquelette chitineux craque sous la dent.</FlavorText_GrubsOnAStick.description>
-	<FlavorText_Bacon.description>{0_coll} grasse taillée en tranches très fines et cuite à la poêle jusqu'à ce qu'elle croustille.</FlavorText_Bacon.description>
+	<FlavorText_Bacon.description>{0_coll} ~gras~ ~taillé~ en tranches très fines et ~cuit~ à la poêle jusqu'à devenir ~croustillant~.</FlavorText_Bacon.description>
 	<FlavorText_Meat_Pig_Chorizo.description>une saucisse {0_adj} relevée {1_plur}. La version ibérique d'origine est fermentée, fumée et séchée ; d'autres se font fraîches.</FlavorText_Meat_Pig_Chorizo.description>
 	<FlavorText_Buldak.description>littéralement « poulet de feu » : un poulet grillé coréen très répandu, défini par sa sauce complexe et brûlante : pâte {1_adj} fermentée, {1_coll} ~moulu~, piments coréens, ail, gingembre, fond {0_adj}, sirop de riz et sauce soja. On trempe les cuisses {0_adj} dans la sauce avant de les griller à feu vif.</FlavorText_Buldak.description>
 	<FlavorText_Yakitori.description>des brochettes japonaises {0_adj}, laquées d'une sauce au soja et au poisson, cuites au charbon de bois. On alterne volontiers les morceaux {0_adj} avec de la ciboule.</FlavorText_Yakitori.description>
-	<FlavorText_Grilled_Meat_Seafood.description>{0_coll} entière cuite à la plancha avec du romarin et du thym.</FlavorText_Grilled_Meat_Seafood.description>
+	<FlavorText_Grilled_Meat_Seafood.description>{0_coll} ~entier~ ~cuit~ à la plancha avec du romarin et du thym.</FlavorText_Grilled_Meat_Seafood.description>
 	<FlavorText_Smoked_Meat_Seafood.description>des morceaux {0_adj} cuits longuement au-dessus d'un bois qui se consume lentement, pour qu'ils prennent le goût de l'essence employée.</FlavorText_Smoked_Meat_Seafood.description>
 	<FlavorText_MeatRaw_Vegetable_ShishKebab.description>des morceaux {0_adj} ~mariné~ alternés avec des tranches {1_adj} sur des brochettes, grillés à la flamme vive.</FlavorText_MeatRaw_Vegetable_ShishKebab.description>
 	<FlavorText_Barbecued_MeatRaw.description>{0_coll} ~trempé~ dans une marinade {1_adj} et ~cuit~ à la flamme vive, pour une croûte croustillante et parfumée sur un intérieur resté juteux.</FlavorText_Barbecued_MeatRaw.description>

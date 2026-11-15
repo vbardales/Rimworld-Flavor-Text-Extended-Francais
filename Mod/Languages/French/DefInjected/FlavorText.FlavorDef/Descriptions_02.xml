@@ -46,7 +46,7 @@
 	<FlavorText_Meat_Fish_Fillets.description>des filets {0_adj} passés à la chapelure et frits jusqu'à ce qu'ils croustillent.</FlavorText_Meat_Fish_Fillets.description>
 	<FlavorText_FishAndChips.description>un plat britannique {0_adj} en panure, frit à l'huile, servi avec des frites {1_adj}.</FlavorText_FishAndChips.description>
 	<FlavorText_Tonkatsu.description>des côtelettes {0_adj} panées au panko et frites en pleine huile.</FlavorText_Tonkatsu.description>
-	<FlavorText_PoulFri.description>{0_coll} frite à la haïtienne : pilons ou cuisses marinés dans du jus de citron et un mélange d'oignon, de poivron, de persil, d'ail et de vinaigre de cidre.</FlavorText_PoulFri.description>
+	<FlavorText_PoulFri.description>{0_coll} ~frit~ à la haïtienne : pilons ou cuisses marinés dans du jus de citron et un mélange d'oignon, de poivron, de persil, d'ail et de vinaigre de cidre.</FlavorText_PoulFri.description>
 	<FlavorText_MeatRaw_ScotchEgg.description>un {2_sing} dur enfermé dans une chair à saucisse {1_adj} et {0_adj}, puis pané et frit.</FlavorText_MeatRaw_ScotchEgg.description>
 
 	<!-- MeatRaw donne toujours « viande de X », féminin singulier : l'accord est sûr. -->
