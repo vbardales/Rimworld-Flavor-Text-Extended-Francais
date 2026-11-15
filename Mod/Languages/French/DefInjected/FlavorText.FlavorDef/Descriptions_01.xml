@@ -36,7 +36,7 @@
 	<FlavorText_ThreeKingsCake.description>un gâteau servi pour l'Épiphanie, fait d'une pâte à brioche {0_adj} avec {1_coll} et {2_coll}. Une petite figurine y est cachée, et celui qui la trouve dans sa part est roi.</FlavorText_ThreeKingsCake.description>
 	<FlavorText_Ingredients_Pie.description>une tourte à la garniture {0_adj} sucrée, sous une croûte de pâte {1_adj}.</FlavorText_Ingredients_Pie.description>
 	<FlavorText_Ingredients_Tart.description>un fond de pâte sablée laissé à découvert, garni {0_adj} et passé au four.</FlavorText_Ingredients_Tart.description>
-	<FlavorText_BostonBun.description>aussi appelée Sally Lunn, la brioche de Boston vient de l'ancienne Australie et de la Nouvelle-Zélande, et accompagne le thé. La pâte associe {1_coll} et une purée {0_adj} passée au tamis, épicée de coriandre, cannelle, piment de la Jamaïque, gingembre, casse, muscade et girofle, puis couverte d'un épais glaçage {2_adj}.</FlavorText_BostonBun.description>
+	<FlavorText_BostonBun.description>aussi appelée Sally Lunn ou solilemme, la brioche de Boston vient de l'ancienne Australie et de la Nouvelle-Zélande, et accompagne le thé. La pâte associe {1_coll} et une purée {0_adj} passée au tamis, épicée de coriandre, cannelle, piment de la Jamaïque, gingembre, casse, muscade et girofle, puis couverte d'un épais glaçage {2_adj}.</FlavorText_BostonBun.description>
 
 	<!-- Chaussons, tourtes fourrées, pizzas -->
 	<FlavorText_Ingredients_Empanadas.description>un chausson mexicain, fait d'une farce {0_adj} enfermée dans une pâte au beurre et passée au four.</FlavorText_Ingredients_Empanadas.description>

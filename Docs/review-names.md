@@ -18,3 +18,4 @@
 | Optimization: Meats - C# Edition (2542931556) | translated to `Optimisation : viandes - édition C#` | decided by Virginie | 2026-11-14 |
 | mondes du Bord | translated to `mondes de la Bordure (aussi appelés « RimWorlds »)` | Rim becomes Bordure, tied to the game name RimWorld; decided by Virginie | 2026-11-15 |
 | Fédération canado-américaine | translated to `Fédération américano-canadienne` | Canadian-American Federation, order of the English kept; decided by Virginie | 2026-11-15 |
+| Sally Lunn | kept, with the French alias added: `Sally Lunn ou solilemme` | brioche name kept as is, solilemme is the French name; decided by Virginie | 2026-11-16 |
