@@ -38,7 +38,7 @@
 
 	<!-- Légumes et céréales -->
 	<FlavorText_BabaGhanoush.description>un dip levantin fait pour l'essentiel {0_adj}, souvent servi en entrée.</FlavorText_BabaGhanoush.description>
-	<FlavorText_Nasaump.description>un plat {1_adj} séchés et {0_adj} sauvages, mijoté dans un pot de terre sur un feu de bois et mangé comme une bouillie.</FlavorText_Nasaump.description>
+	<FlavorText_Nasaump.description>un plat {1_adj} ~séché~ et {0_adj} ~sauvage~, mijoté dans un pot de terre sur un feu de bois et mangé comme une bouillie.</FlavorText_Nasaump.description>
 	<FlavorText_JellyFungus.description>un cœur {0_adj} gélatineux qui retient un assemblage artistique de bras {1_adj}. A tendance à laisser tomber des morceaux de gelée {0_adj} par terre pendant qu'on mange.</FlavorText_JellyFungus.description>
 	<FlavorText_Black_Garlic.description>des gousses {0_adj} entières, caramélisées très lentement à basse température pendant plusieurs jours, jusqu'à devenir entièrement noires. Elles semblent brûlées, mais leur goût est doux et leur texture élastique.</FlavorText_Black_Garlic.description>
 	<FlavorText_BaconPancakes.description>on fait des pancakes au bacon. On prend du bacon, et on le met dans un pancake.</FlavorText_BaconPancakes.description>

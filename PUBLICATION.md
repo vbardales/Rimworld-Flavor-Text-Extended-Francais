@@ -181,7 +181,7 @@ Les noms et les descriptions de 930 plats de [url=https://steamcommunity.com/sha
 
 [h2]Langues[/h2]
 
-Les formes françaises des ingrédients portent leurs propres articles et prépositions, par exemple « aux baies » et « de bœuf ». Un petit correctif sensible à la langue applique ces formes et la grammaire des plats d'accompagnement uniquement quand le français est sélectionné. En anglais, le texte et les tables de formes des mods d'origine restent inchangés. Changer la langue du jeu le redémarre : le tout a donc été vérifié avec un démarrage propre dans chaque langue.
+Les formes françaises des ingrédients portent leurs propres articles et prépositions, par exemple « aux baies » et « de bœuf ». Un petit correctif sensible à la langue applique ces formes et la grammaire des plats d'accompagnement uniquement quand le français est sélectionné. En anglais, le texte et les tables de formes des mods d'origine restent inchangés. Changer la langue du jeu entraîne son redémarrage : le tout a donc été vérifié avec un démarrage propre dans chaque langue.
 
 [h2]Compatibilité[/h2]
 

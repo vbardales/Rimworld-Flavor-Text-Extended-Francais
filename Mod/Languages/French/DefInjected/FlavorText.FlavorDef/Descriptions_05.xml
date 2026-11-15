@@ -26,7 +26,7 @@
 
 	<!-- Grillades -->
 	<FlavorText_Currywurst.description>un plat germanique : une saucisse {0_adj} grillée, tranchée en bouchées et noyée sous un ketchup {1_adj} relevé d'un mélange d'épices à curry.</FlavorText_Currywurst.description>
-	<FlavorText_Kastane.description>{0_coll} tout juste grillés sur le gril.</FlavorText_Kastane.description>
+	<FlavorText_Kastane.description>{0_coll} tout juste ~grillé~ sur le gril.</FlavorText_Kastane.description>
 	<FlavorText_CigKofte.description>une entrée crue de Turquie et d'Arménie, faite {0_adj} ~moulu~, {1_adj} et d'une pâte {2_adj}, serrée dans la main pour former un boudin marqué de l'empreinte des doigts. On la faisait à la viande crue ; depuis une loi sanitaire, les versions végétariennes et véganes dominent.</FlavorText_CigKofte.description>
 	<FlavorText_Misir.description>des épis {0_adj} frais, grillés entiers dans leur spathe.</FlavorText_Misir.description>
 	<FlavorText_Elote.description>{2_coll} ~grillé~, généreusement ~enduit~ de mayonnaise et d'une crème aigre acidulée. Se mange au mieux avec du piment.</FlavorText_Elote.description>
