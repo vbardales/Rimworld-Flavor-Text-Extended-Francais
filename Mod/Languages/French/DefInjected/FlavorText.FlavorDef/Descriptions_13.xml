@@ -39,7 +39,7 @@
 
 	<!-- Douceurs -->
 	<FlavorText_Sugar-Coated_Fruit.description>{0_coll} ~entier~, ~enrobé~ d'une coque sucrée {1_adj}.</FlavorText_Sugar-Coated_Fruit.description>
-	<FlavorText_Fruit_Kool-AidPickles.description>un en-cas d'enfance né aux États-Unis de la Vieille Terre : on reprend {0_coll} déjà mis au vinaigre et on les remet à mariner dans un soda très sucré parfumé {1_plur}.</FlavorText_Fruit_Kool-AidPickles.description>
+	<FlavorText_Fruit_Kool-AidPickles.description>un en-cas d'enfance né aux États-Unis de la vieille Terre : on reprend {0_coll} déjà mis au vinaigre et on les remet à mariner dans un soda très sucré parfumé {1_plur}.</FlavorText_Fruit_Kool-AidPickles.description>
 	<FlavorText_Halo-Halo.description>un dessert philippin monté d'un grand assortiment de garnitures : ici {1_coll} et {2_coll}. La glace pilée en forme la base, sur laquelle on verse un lait concentré {0_adj}.</FlavorText_Halo-Halo.description>
 	<FlavorText_Chocolate-CoatedMarshmallowTreats.description>des guimauves souples trempées {1_plur} fondu et laissées refroidir.</FlavorText_Chocolate-CoatedMarshmallowTreats.description>
 	<FlavorText_Condiment-Condiment_Stick.description>une paille moulée dans une poudre {0_adj} et {1_adj}, liée d'une purée {2_adj}. Quand on aspire la pâte nutritive au travers, chaque gorgée se charge des deux goûts à la fois.</FlavorText_Condiment-Condiment_Stick.description>

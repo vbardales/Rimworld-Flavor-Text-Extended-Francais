@@ -41,7 +41,7 @@
 
 	<!-- Sandwichs froids -->
 	<FlavorText_MarmaladeSandwich.description>un sandwich simple mais réconfortant : une marmelade {0_adj} entre deux tranches de pain frais {1_adj}. Mieux vaut en garder un sur soi, en cas d'urgence.</FlavorText_MarmaladeSandwich.description>
-	<FlavorText_Taquitos.description>un plat mexicain exporté dans toute la Vieille Terre : des tacos {0_adj} roulés serré en forme de cigare, farcis {1_adj} ~haché~ et ~épicé~. On les frit ou on les passe au four, et on les sert avec du guacamole, de la crème aigre ou de la salsa.</FlavorText_Taquitos.description>
+	<FlavorText_Taquitos.description>un plat mexicain exporté dans toute la vieille Terre : des tacos {0_adj} roulés serré en forme de cigare, farcis {1_adj} ~haché~ et ~épicé~. On les frit ou on les passe au four, et on les sert avec du guacamole, de la crème aigre ou de la salsa.</FlavorText_Taquitos.description>
 	<FlavorText_HuitlacocheQuesadillas.description>une tortilla {1_adj} repliée sur du fromage et du charbon du maïs. Le tout est poêlé jusqu'à ce qu'il croustille.</FlavorText_HuitlacocheQuesadillas.description>
 	<FlavorText_Egg_SaladSandwich.description>un sandwich garni {0_adj} en salade : {0_coll} durs grossièrement hachés et mêlés de mayonnaise, de moutarde et d'aneth. Servi sur du pain {2_adj}.</FlavorText_Egg_SaladSandwich.description>
 	<FlavorText_Egg_SaladSandwich_2.description>un sandwich garni {0_adj} en salade : {0_coll} durs grossièrement hachés et mêlés de mayonnaise, de moutarde et d'aneth. Servi sur du pain {1_adj}.</FlavorText_Egg_SaladSandwich_2.description>

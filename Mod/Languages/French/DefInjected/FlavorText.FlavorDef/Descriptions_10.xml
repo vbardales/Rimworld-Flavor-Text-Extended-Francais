@@ -20,7 +20,7 @@
 	<FlavorText_Dried_Ingredients.description>{0_coll} ~passé~ au déshydrateur, pour un en-cas léger et transportable qu'on mange en marchant.</FlavorText_Dried_Ingredients.description>
 	<FlavorText_Instant_Ingredients_Ramen.description>des nouilles japonaises {1_adj} pochées à l'eau alcaline, puis lyophilisées pour être réhydratées plus tard. Celui-ci vient avec un sachet de poudre {0_adj} pour le goût.</FlavorText_Instant_Ingredients_Ramen.description>
 	<FlavorText_MeatRaw_Jerky.description>{0_coll} largement frottée d'épices et séchée au fumoir.</FlavorText_MeatRaw_Jerky.description>
-	<FlavorText_DinoNuggets.description>des morceaux panés de viandes effilochées d'origine incertaine, moulés en caricatures de reptiles disparus de la Vieille Terre.</FlavorText_DinoNuggets.description>
+	<FlavorText_DinoNuggets.description>des morceaux panés de viandes effilochées d'origine incertaine, moulés en caricatures de reptiles disparus de la vieille Terre.</FlavorText_DinoNuggets.description>
 	<FlavorText_GranolaBar.description>{0_coll} aplatis et grillés, mêlés {1_plur} et pressés en barre transportable.</FlavorText_GranolaBar.description>
 	<FlavorText_PlantFoodRaw_Chips.description>des tranches très fines {0_adj}, frites en pleine huile jusqu'à devenir légères et cassantes.</FlavorText_PlantFoodRaw_Chips.description>
 	<FlavorText_ProteinBar.description>une barre énergétique dense, faite {0_adj} et {1_adj} finement moulus. On peut y ajouter du sucre pour la rendre mangeable.</FlavorText_ProteinBar.description>

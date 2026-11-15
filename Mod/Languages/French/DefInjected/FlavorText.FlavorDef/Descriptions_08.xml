@@ -101,7 +101,7 @@
 	<FlavorText_Fungus_SaladWith_PlantFoodRaw.description>un mélange {2_adj} ~taillé~, ~remué~ avec {1_coll} en fines tranches et une sauce crémeuse à la ranch.</FlavorText_Fungus_SaladWith_PlantFoodRaw.description>
 	<FlavorText_Potato_SaladWith_PlantFoodRaw.description>{2_coll} ~bouilli~ et ~taillé~ en dés, ~mêlé~ {1_adj} ~haché~ et d'une sauce à la mayonnaise.</FlavorText_Potato_SaladWith_PlantFoodRaw.description>
 	<FlavorText_RusticSalad.description>{0_coll} ~haché~ et {1_coll} de plusieurs sortes, réunis dans un grand saladier avec une vinaigrette fruitée.</FlavorText_RusticSalad.description>
-	<FlavorText_WaldorfSalad.description>une salade fraîche née à New York sur la Vieille Terre : {0_coll} en dés, {1_coll} ~coupé~ en deux et {2_coll} en dés, le tout remué dans une sauce à la mayonnaise ou à la crème aigre.</FlavorText_WaldorfSalad.description>
+	<FlavorText_WaldorfSalad.description>une salade fraîche née à New York sur la vieille Terre : {0_coll} en dés, {1_coll} ~coupé~ en deux et {2_coll} en dés, le tout remué dans une sauce à la mayonnaise ou à la crème aigre.</FlavorText_WaldorfSalad.description>
 	<FlavorText_ColdNoodleSalad.description>un incontournable vietnamien : des nouilles froides {0_adj} remuées avec {1_coll} et {2_coll} taillés en lanières, dans une sauce au soja, au vinaigre {0_adj} et à l'huile de sésame.</FlavorText_ColdNoodleSalad.description>
 	<FlavorText_Ingredients_PokeBowl.description>{0_coll} et {1_coll} taillés en dés, remués avec {2_coll}. Né au Japon et fait de poisson cru, le poke s'est répandu dans le monde entier et a pris mille formes.</FlavorText_Ingredients_PokeBowl.description>
 

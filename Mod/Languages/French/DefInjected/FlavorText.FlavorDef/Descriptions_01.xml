@@ -44,7 +44,7 @@
 	<FlavorText_Calzone.description>un grand disque de pâte {2_adj} replié sur une garniture de fromage et {0_adj} en dés, puis cuit à four vif.</FlavorText_Calzone.description>
 	<FlavorText_CornishPasty.description>un chausson britannique traditionnel, garni de bavette {0_adj} et de dés {0_adj}.</FlavorText_CornishPasty.description>
 	<FlavorText_Dairy_Lasagna.description>un plat de pâtes au four venu d'Italie. De très larges bandes de pâte {0_adj} alternent avec une sauce {1_adj} et {2_coll}. Après cuisson, on le découpe en parts individuelles, presque comme un gâteau.</FlavorText_Dairy_Lasagna.description>
-	<FlavorText_Casabe.description>une grande galette très fine, sans levain, faite de racine amère {0_adj}. Les peuples arawak et caraïbe d'Amérique du Sud et des Antilles la préparaient à l'origine.</FlavorText_Casabe.description>
+	<FlavorText_Casabe.description>une grande galette très fine, sans levain, faite de racine amère {0_adj}. Les Arawaks et les Caraïbes (aussi appelés Kalinagos) d'Amérique du Sud et des Antilles la préparaient à l'origine.</FlavorText_Casabe.description>
 	<FlavorText_Boyoz.description>une pâtisserie turque née à Izmir, faite d'une farine {0_adj}, d'huile et d'une pâte {1_adj}, imbibée d'huile {1_adj} avant cuisson.</FlavorText_Boyoz.description>
 	<FlavorText_Gozleme.description>une galette turque de farine {0_adj} et de yaourt, fourrée {2_adj} et cuite sur une plaque bombée.</FlavorText_Gozleme.description>
 	<FlavorText_ToastWithJam.description>une tranche de pain {0_adj} grillée des deux côtés, largement tartinée d'une confiture {1_adj}.</FlavorText_ToastWithJam.description>
@@ -71,7 +71,7 @@
 	<FlavorText_Bean_OnToast.description>un classique britannique : une tranche de pain {0_adj} grillée, couverte {1_adj} en sauce tomate.</FlavorText_Bean_OnToast.description>
 	<FlavorText_Bean_OnToast_2.description>un classique britannique : une tranche de pain {0_adj} grillée, couverte d'une garniture {1_adj} longuement mijotée dans une sauce sucrée {2_adj}.</FlavorText_Bean_OnToast_2.description>
 	<FlavorText_Egg_Benedict.description>un muffin anglais {0_adj} coupé en deux, chaque moitié garnie d'une tranche de bacon et d'~+un~ {1_sing} ~poché~, le tout nappé d'une hollandaise montée {1_plur}.</FlavorText_Egg_Benedict.description>
-	<FlavorText_Bagels.description>un pain en anneau à la mie élastique, né dans les communautés juives de Pologne sur la Vieille Terre avant de gagner toute la planète. Une farine {0_adj} fermente au froid douze heures ou plus, la pâte est brièvement pochée dans une eau au sirop de malt, puis cuite. D'où la croûte brune et l'intérieur dense.</FlavorText_Bagels.description>
+	<FlavorText_Bagels.description>un pain en anneau à la mie élastique, né dans les communautés juives de Pologne sur la vieille Terre avant de gagner toute la planète. Une farine {0_adj} fermente au froid douze heures ou plus, la pâte est brièvement pochée dans une eau au sirop de malt, puis cuite. D'où la croûte brune et l'intérieur dense.</FlavorText_Bagels.description>
 	<FlavorText_ButteredToast.description>du pain {0_adj} grillé, nappé de beurre fondu.</FlavorText_ButteredToast.description>
 	<FlavorText_Challah.description>une tresse de pain {0_adj} enrichie {1_adj}. On la sert aux fêtes juives.</FlavorText_Challah.description>
 	<FlavorText_CinnamonRaisinToast.description>du pain {0_adj} cuit avec une spirale de cannelle et de raisins secs, grillé puis nappé de beurre fondu.</FlavorText_CinnamonRaisinToast.description>

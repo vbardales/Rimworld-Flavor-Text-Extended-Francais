@@ -9,7 +9,7 @@
 	<FlavorText_Sugar_Candy.description>un sirop {0_adj} cuit jusqu'à pouvoir être façonné en confiseries tendres ou dures. Sans doute pas très bon pour la santé.</FlavorText_Sugar_Candy.description>
 	<FlavorText_Dairy_Candy.description>un caramel tendre fait d'un sucre {0_adj} et {1_adj}. On le porte à ébullition dans un grand chaudron jusqu'au stade où le sucre, en refroidissant, devient ferme mais reste souple sous la dent.</FlavorText_Dairy_Candy.description>
 	<FlavorText_Fruit_Jam.description>{1_coll} ~mêlé~ à un sucre {0_adj} et ~cuit~ jusqu'à prendre en gelée. À l'origine, un procédé de conservation.</FlavorText_Fruit_Jam.description>
-	<FlavorText_Fruit_Tanghulu.description>des morceaux {1_adj} enfilés sur une brochette de bambou, trempée dans un sirop {0_adj} bouillant. {0_coll} refroidit d'un coup et forme une coque claire et dure, qui casse comme du verre sous la dent. Ce dessert vient de la Chine de la Vieille Terre.</FlavorText_Fruit_Tanghulu.description>
+	<FlavorText_Fruit_Tanghulu.description>des morceaux {1_adj} enfilés sur une brochette de bambou, trempée dans un sirop {0_adj} bouillant. {0_coll} refroidit d'un coup et forme une coque claire et dure, qui casse comme du verre sous la dent. Ce dessert vient de la Chine de la vieille Terre.</FlavorText_Fruit_Tanghulu.description>
 	<FlavorText_Citrus_TurkishDelight.description>aussi appelé lokum, une famille de confiseries turques obtenue en ajoutant {1_coll} à un gel {0_adj} et d'amidon.</FlavorText_Citrus_TurkishDelight.description>
 
 	<!-- « ambroisie » seul serait confondu avec la boisson du jeu du même nom -->

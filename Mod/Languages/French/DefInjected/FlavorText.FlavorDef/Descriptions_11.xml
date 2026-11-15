@@ -16,7 +16,7 @@
 	<FlavorText_Chairo.description>un plat traditionnel du peuple aymara, mangé surtout en Bolivie et dans les autres pays andins. Une soupe de chuño (un tubercule {2_adj} déshydraté à l'ancienne) et {0_adj}, servie avec {1_coll}.</FlavorText_Chairo.description>
 	<FlavorText_Gomguk.description>une soupe traditionnelle coréenne faite de plusieurs morceaux {0_adj}, d'abats et d'os.</FlavorText_Gomguk.description>
 	<FlavorText_Hulatang.description>une soupe chinoise {0_adj}, très fortement assaisonnée {1_plur}.</FlavorText_Hulatang.description>
-	<FlavorText_RawonSoup.description>une soupe {0_adj} de l'île de Java, sur la Vieille Terre, enrichie d'une pâte {1_adj} qui lui donne sa couleur sombre. On y ajoute couramment du sucre, de l'ail, des échalotes et des noix de bancoul.</FlavorText_RawonSoup.description>
+	<FlavorText_RawonSoup.description>une soupe {0_adj} de l'île de Java, sur la vieille Terre, enrichie d'une pâte {1_adj} qui lui donne sa couleur sombre. On y ajoute couramment du sucre, de l'ail, des échalotes et des noix de bancoul.</FlavorText_RawonSoup.description>
 
 	<!-- « carbonade flamande » est réservé au plat que le mod ajoute, avec sa bière -->
 	<FlavorText_Flemish_Plum_Stew.description>un ragoût flamand {0_adj} et {2_adj}, épaissi aux pruneaux.</FlavorText_Flemish_Plum_Stew.description>
@@ -32,7 +32,7 @@
 
 	<!-- Ragoûts -->
 	<FlavorText_Daube.description>un ragoût provençal cuit au vin {2_adj}. {0_coll}, ~taillé~ en cubes, se met au fond, puis viennent des couches {1_adj} et d'autres légumes. L'assaisonnement habituel réunit cannelle, girofle, thym, romarin, persil, ail et concentré de tomate.</FlavorText_Daube.description>
-	<FlavorText_IrishStew.description>un ragoût de l'Irlande de la Vieille Terre, fait de morceaux {0_adj} et {1_adj}, de légumes variés et de persil. Il mijote lentement jusqu'à deux heures, traditionnellement sur un feu ouvert.</FlavorText_IrishStew.description>
+	<FlavorText_IrishStew.description>un ragoût de l'Irlande de la vieille Terre, fait de morceaux {0_adj} et {1_adj}, de légumes variés et de persil. Il mijote lentement jusqu'à deux heures, traditionnellement sur un feu ouvert.</FlavorText_IrishStew.description>
 	<FlavorText_Pichelsteiner.description>un ragoût allemand qui réunit {0_coll} et {1_coll}, saisies puis mijotées avec {2_coll} et des légumes variés.</FlavorText_Pichelsteiner.description>
 	<FlavorText_Maafe.description>un ragoût de base en Afrique de l'Ouest. Les recettes varient énormément ; celle-ci réunit {0_coll} et {1_coll} dans une sauce {2_adj}.</FlavorText_Maafe.description>
 	<FlavorText_Wat.description>un ragoût éthiopien et érythréen préparé avec {0_coll}, {2_coll} et du niter kibbeh, un beurre clarifié aux épices.</FlavorText_Wat.description>
@@ -69,7 +69,7 @@
 	<FlavorText_MeatRaw_RopaVieja.description>{0_coll} ~effiloché~, ~mijoté~ avec {1_coll} et des épices. Souvent préparée avec les restes d'autres repas.</FlavorText_MeatRaw_RopaVieja.description>
 	<FlavorText_MeatRaw_Sinigang.description>une soupe philippine reconnaissable à son goût acide et salé, faite {0_adj} cuite avec {1_coll} dans un bouillon acidulé {2_adj}.</FlavorText_MeatRaw_Sinigang.description>
 	<FlavorText_MeatRaw_Tagine.description>un ragoût maghrébin {0_adj} en tranches, cuit avec {1_coll} dans un plat spécial coiffé d'un couvercle conique, le tajine. Les épices habituelles sont le gingembre, le cumin, le curcuma, la cannelle, le safran, le paprika et le piment.</FlavorText_MeatRaw_Tagine.description>
-	<FlavorText_BoilUp.description>venu de la culture maorie de la Vieille Terre, le boil up est une soupe de bouillon qui équilibre une viande et des os {0_adj} bouillis avec de gros morceaux {1_adj} et des quenelles {2_adj} appelées « doughboys ».</FlavorText_BoilUp.description>
+	<FlavorText_BoilUp.description>venu de la culture maorie de la vieille Terre, le boil up est une soupe de bouillon qui équilibre une viande et des os {0_adj} bouillis avec de gros morceaux {1_adj} et des quenelles {2_adj} appelées « doughboys ».</FlavorText_BoilUp.description>
 	<FlavorText_Booyah.description>un ragoût épais, qu'on croit né en Belgique et apporté dans le nord-est du Wisconsin par les Wallons. Le booyah peut demander deux jours et plusieurs cuisiniers ; on le fait dans des chaudrons spéciaux, et il nourrit couramment des centaines, voire des milliers de personnes. Celui-ci part d'un fond d'os {0_adj}, auquel on a ajouté {1_coll} et {2_coll}.</FlavorText_Booyah.description>
 	<FlavorText_CantoneseSeafoodSoup.description>une soupe {1_adj} et d'autres fruits de mer cuits dans un bouillon {0_adj}, avec {2_coll} en dés.</FlavorText_CantoneseSeafoodSoup.description>
 	<FlavorText_Cassoulet.description>un ragoût français monté sur {0_coll} et {2_coll}, avec des saucisses {1_adj}. Il braise des heures dans un plat de terre appelé cassole, et se mange volontiers l'hiver. L'ail y est de règle, avec le céleri, le girofle, le persil, le thym et le laurier.</FlavorText_Cassoulet.description>
@@ -79,8 +79,8 @@
 	<FlavorText_Goulash.description>une soupe hongroise {0_adj}, {1_adj} et {2_adj}, très fortement relevée de paprika et d'autres épices.</FlavorText_Goulash.description>
 	<FlavorText_Gumbo.description>un ragoût d'origine amérindienne devenu un classique de la côte du Golfe aux États-Unis : un fond {0_adj} lié {2_plur}, sur une base {1_adj}.</FlavorText_Gumbo.description>
 	<FlavorText_Hachee.description>un ragoût néerlandais traditionnel : des cubes {0_adj} roulés dans la farine et colorés à la poêle, réunis à {1_coll} longuement fondus et à un acide (du vinaigre de vin, en général). Celui-ci est servi sur un gratin {2_adj}.</FlavorText_Hachee.description>
-	<FlavorText_Kalops.description>un ragoût nourrissant {0_adj}, venu de la Suède de la Vieille Terre, parfumé au laurier et au piment de la Jamaïque, mijoté avec {1_coll} jusqu'à devenir épais et riche.</FlavorText_Kalops.description>
-	<FlavorText_Kalops_2.description>un ragoût nourrissant {0_adj}, venu de la Suède de la Vieille Terre, parfumé au laurier et au piment de la Jamaïque, mijoté avec {1_coll} et {2_coll} jusqu'à devenir épais et riche.</FlavorText_Kalops_2.description>
+	<FlavorText_Kalops.description>un ragoût nourrissant {0_adj}, venu de la Suède de la vieille Terre, parfumé au laurier et au piment de la Jamaïque, mijoté avec {1_coll} jusqu'à devenir épais et riche.</FlavorText_Kalops.description>
+	<FlavorText_Kalops_2.description>un ragoût nourrissant {0_adj}, venu de la Suède de la vieille Terre, parfumé au laurier et au piment de la Jamaïque, mijoté avec {1_coll} et {2_coll} jusqu'à devenir épais et riche.</FlavorText_Kalops_2.description>
 	<FlavorText_KigHaFarz.description>un plat où plusieurs viandes mijotent dans un bouillon avec un pudding de farine {2_adj}.</FlavorText_KigHaFarz.description>
 	<FlavorText_PalaverSauce.description>un ragoût très répandu en Afrique de l'Ouest (Ghana, Liberia, Sierra Leone, Nigeria). Il connaît des variantes régionales ; celle-ci contient {0_coll} et {2_coll}, et se sert avec {1_coll} bouillis.</FlavorText_PalaverSauce.description>
 	<FlavorText_Peppersoup.description>une soupe du Nigeria, faite pour l'essentiel {0_adj} variés, {1_adj}, de sel, de feuilles odorantes et de muscade de calebasse. Elle est relevée, de texture légère et liquide. Malgré son nom, elle ne se définit pas par le poivre : ses arômes sont plus complexes, avec des notes de noisette, d'amertume, de sous-bois et de fleur, et une chaleur de fond.</FlavorText_Peppersoup.description>

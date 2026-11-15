@@ -7,7 +7,7 @@
 
 	<!-- Suite des desserts au four -->
 	<FlavorText_Lapsi.description>un entremets indien fait d'une farine {0_adj} et de beurre clarifié, avec {1_coll}, {2_coll} et d'autres fruits secs.</FlavorText_Lapsi.description>
-	<FlavorText_FrogInThePond.description>un dessert australien de la Vieille Terre : une gelée {1_adj} rouge et verte, au centre de laquelle on a enfoncé une grenouille {0_adj} dont seuls les yeux dépassent.</FlavorText_FrogInThePond.description>
+	<FlavorText_FrogInThePond.description>un dessert australien de la vieille Terre : une gelée {1_adj} rouge et verte, au centre de laquelle on a enfoncé une grenouille {0_adj} dont seuls les yeux dépassent.</FlavorText_FrogInThePond.description>
 	<FlavorText_Fruit_Newtons.description>un biscuit de goûter classique en Amérique du Nord : une pâte {1_adj} enroulée autour d'une garniture dense {0_adj}. On les faisait aux figues à l'origine ; on les fait aujourd'hui à peu près à tous les fruits.</FlavorText_Fruit_Newtons.description>
 	<FlavorText_Twinkies.description>un antique gâteau jaune fourré d'une crème légère, en forme de bûchette, assez petit pour se manger à la main.</FlavorText_Twinkies.description>
 	<FlavorText_Ingredients_Fondue.description>de petits morceaux {0_adj}, trempés un à un dans un caquelon de fromage fondu au vin {2_adj}.</FlavorText_Ingredients_Fondue.description>
@@ -45,7 +45,7 @@
 	<FlavorText_HuitlacocheIceCream.description>une glace sombre et déroutante, parfumée au champignon qui pousse sur les épis de maïs.</FlavorText_HuitlacocheIceCream.description>
 	<FlavorText_IceCream.description>une crème grasse sucrée {2_plur}, glacée en tournant pour obtenir une texture lisse.</FlavorText_IceCream.description>
 	<FlavorText_Kheer.description>un pouding obtenu en faisant bouillir {2_coll} dans {0_coll} ~sucré~.</FlavorText_Kheer.description>
-	<FlavorText_Kvfjordkake.description>un gâteau norvégien souvent tenu pour le gâteau national du pays, et connu dans tous les pays nordiques de la Vieille Terre. Une génoise légère, une crème fouettée {0_adj}, une seconde génoise, puis une meringue par-dessus. Le tout est semé d'amandes effilées, et s'accompagne volontiers de fraises, de myrtilles ou de framboises.</FlavorText_Kvfjordkake.description>
+	<FlavorText_Kvfjordkake.description>un gâteau norvégien souvent tenu pour le gâteau national du pays, et connu dans tous les pays nordiques de la vieille Terre. Une génoise légère, une crème fouettée {0_adj}, une seconde génoise, puis une meringue par-dessus. Le tout est semé d'amandes effilées, et s'accompagne volontiers de fraises, de myrtilles ou de framboises.</FlavorText_Kvfjordkake.description>
 	<FlavorText_MississippiMudPie.description>une tarte dense {1_adj}, garnie d'une crème {1_adj} et de crème fouettée, sur un fond de biscuits {1_adj} écrasés.</FlavorText_MississippiMudPie.description>
 	<FlavorText_SutiPolo.description>un pouding {2_adj} ~bouilli~ dans {0_coll}, couvert {1_adj} ~séché~.</FlavorText_SutiPolo.description>
 	<FlavorText_Tartufo.description>un dessert italien : un gelato à la vanille et un gelato {2_adj} enroulés autour d'un cœur {1_adj}, le tout enfermé dans une coque {1_adj}.</FlavorText_Tartufo.description>
@@ -75,7 +75,7 @@
 	<FlavorText_JammyDodgers.description>un biscuit britannique classique : deux sablés {0_adj} assemblés autour d'une confiture {1_adj}.</FlavorText_JammyDodgers.description>
 	<FlavorText_Mersu.description>un dessert royal de l'antique Mésopotamie : une pâte {0_adj} fourrée {1_adj} et {2_adj} hachés.</FlavorText_Mersu.description>
 	<FlavorText_Pancakes.description>de petites crêpes épaisses et sucrées, de farine {0_adj}, cuites à la grande poêle ou sur une plaque.</FlavorText_Pancakes.description>
-	<FlavorText_PoudingChmeur.description>littéralement le pouding du chômeur : il naît au Québec, sur la Vieille Terre, dans les années de vaches maigres. Une pâte à gâteau toute simple, à la farine {0_adj}, noyée sous une sauce {1_adj} juste avant de servir.</FlavorText_PoudingChmeur.description>
+	<FlavorText_PoudingChmeur.description>littéralement le pouding du chômeur : il naît au Québec, sur la vieille Terre, dans les années de vaches maigres. Une pâte à gâteau toute simple, à la farine {0_adj}, noyée sous une sauce {1_adj} juste avant de servir.</FlavorText_PoudingChmeur.description>
 	<FlavorText_ThumbprintCookies.description>des sablés au sucre {0_adj}, creusés d'un puits au pouce dans chaque boule de pâte crue, rempli d'une bonne cuillerée de confiture {1_adj} avant cuisson.</FlavorText_ThumbprintCookies.description>
 	<FlavorText_Ashure.description>un pouding sucré répandu au Proche-Orient, en Arménie et dans les Balkans, qui demande traditionnellement au moins sept ingrédients. Ici la base est faite {0_adj}, ~bouilli~ avec du sucre, {2_adj} ~séché~ et un mélange d'épices, en ajoutant {1_coll} ~entier~ pour la texture. Un zeste de citron, d'orange ou de lime réveille l'ensemble, et l'on sert couvert de fruits secs, de fruits à coque et d'épices.</FlavorText_Ashure.description>
 	<FlavorText_Churchkhela.description>{1_coll} concassés, enfilés sur un fil qu'on trempe et retrempe dans un moût {0_adj} épaissi, jusqu'à former une gaine souple comme une confiserie.</FlavorText_Churchkhela.description>
@@ -95,6 +95,6 @@
 	<FlavorText_PlantFoodRaw_Sticky_Rice.description>{0_coll} gluant et sucré, cuit dans une sauce {1_adj} et couvert {2_adj} frais.</FlavorText_PlantFoodRaw_Sticky_Rice.description>
 	<FlavorText_MochiPancakes.description>des pancakes souples et élastiques, faits d'une farine gluante {0_adj} et {1_adj} : le mochi japonais croisé avec le pancake américain.</FlavorText_MochiPancakes.description>
 	<FlavorText_MyanmarFloatingRiceBalls.description>un dessert traditionnel du nouvel an birman. Une farine gluante {0_adj} est fourrée de morceaux de sucre {1_adj} puis pochée à l'eau, avant d'être garnie de copeaux frais {2_adj}.</FlavorText_MyanmarFloatingRiceBalls.description>
-	<FlavorText_KabakTatlisi.description>un dessert d'origine turque, sur la Vieille Terre : on cuit {0_coll} au four avec {1_coll} jusqu'à ce qu'ils fondent dans leur propre jus. On couvre ensuite {2_adj} et de bâtons de cannelle ou de clous de girofle.</FlavorText_KabakTatlisi.description>
+	<FlavorText_KabakTatlisi.description>un dessert d'origine turque, sur la vieille Terre : on cuit {0_coll} au four avec {1_coll} jusqu'à ce qu'ils fondent dans leur propre jus. On couvre ensuite {2_adj} et de bâtons de cannelle ou de clous de girofle.</FlavorText_KabakTatlisi.description>
 
 </LanguageData>

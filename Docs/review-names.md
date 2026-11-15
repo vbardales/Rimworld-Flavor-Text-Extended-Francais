@@ -19,3 +19,7 @@
 | mondes du Bord | translated to `mondes de la Bordure (aussi appelés « RimWorlds »)` | Rim becomes Bordure, tied to the game name RimWorld; decided by Virginie | 2026-11-15 |
 | Fédération canado-américaine | translated to `Fédération américano-canadienne` | Canadian-American Federation, order of the English kept; decided by Virginie | 2026-11-15 |
 | Sally Lunn | kept, with the French alias added: `Sally Lunn ou solilemme` | brioche name kept as is, solilemme is the French name; decided by Virginie | 2026-11-16 |
+| Vieille Terre | translated to `vieille Terre` | same form as the French game (lowercase v); decided by Virginie | 2026-11-16 |
+| Arawak, Carib | translated to `les Arawaks et les Caraïbes (aussi appelés Kalinagos)` | names of peoples take a capital; decided by Virginie | 2026-11-16 |
+| Yoruba | kept as is (`Yoruba`) | name of a people, capital; decided by Virginie | 2026-11-16 |
+| Ewe Eran | kept as is (`ewe eran`, lowercase) | common noun of a leaf, no botanical name added; decided by Virginie | 2026-11-16 |
