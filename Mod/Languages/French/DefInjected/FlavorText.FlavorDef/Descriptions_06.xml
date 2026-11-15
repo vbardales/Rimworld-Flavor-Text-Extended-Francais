@@ -19,7 +19,7 @@
 	<FlavorText_Egg_Bhurji.description>un plat de rue indien très répandu : {0_coll} brouillés avec tout un jeu d'aromates, dont {1_coll}.</FlavorText_Egg_Bhurji.description>
 	<FlavorText_Egg_InABasket.description>un {0_sing} cassé dans le trou découpé au centre d'une tranche de pain {1_adj}, cuit à la poêle jusqu'à ce que le jaune soit encore coulant.</FlavorText_Egg_InABasket.description>
 	<FlavorText_PlantFoodRaw_Kuku.description>un plat iranien {0_adj} ~fouetté~, dans lesquels on incorpore {1_coll} et {2_coll}, cuit à la poêle en une grande galette.</FlavorText_PlantFoodRaw_Kuku.description>
-	<FlavorText_AmericanOmlette.description>{0_coll} ~brouillé~ et ~cuit~ jusqu'à prise, puis repliés sur une garniture {1_adj} ~haché~.</FlavorText_AmericanOmlette.description>
+	<FlavorText_AmericanOmlette.description>{0_coll} ~brouillé~ et ~cuit~ jusqu'à prise, puis ~replié~ sur une garniture {1_adj} ~haché~.</FlavorText_AmericanOmlette.description>
 	<FlavorText_Basted_Egg.description>{0_coll} entiers cuits à la poêle et arrosés de beurre à la cuillère.</FlavorText_Basted_Egg.description>
 	<FlavorText_BrooklynRicottaScramble.description>{0_coll} cuits en brouillade souple avec de la ricotta, souvent servis sur une tranche de pain au levain.</FlavorText_BrooklynRicottaScramble.description>
 
@@ -51,7 +51,7 @@
 	<FlavorText_Ingredients_Buchimgae.description>une galette coréenne, faite d'une pâte {0_adj} et {1_adj} détrempés {2_plur}.</FlavorText_Ingredients_Buchimgae.description>
 	<FlavorText_Ingredients_Esquites.description>une cassolette {1_adj} couverte {0_adj}.</FlavorText_Ingredients_Esquites.description>
 	<FlavorText_Ingredients_Frittata.description>une omelette au four {2_adj} battus, enrichie {0_adj} et {1_adj} ~frais~, cuite à la grande poêle puis finie au four.</FlavorText_Ingredients_Frittata.description>
-	<FlavorText_Ingredients_Omlette.description>{1_coll} ~cuit~ en disque mince à la poêle, puis repliés sur une garniture {0_adj}.</FlavorText_Ingredients_Omlette.description>
+	<FlavorText_Ingredients_Omlette.description>{1_plur} ~cuit~ en disque mince à la poêle, puis ~replié~ sur une garniture {0_adj}.</FlavorText_Ingredients_Omlette.description>
 	<FlavorText_Ingredients_Stuffed_Fungus.description>de gros {1_coll} dont on a retiré le pied, les chapeaux farcis {0_adj}.</FlavorText_Ingredients_Stuffed_Fungus.description>
 	<FlavorText_Ingredients_With_Fruit_Chutney.description>{0_coll} frais servis avec un bol de chutney {1_adj} pour tremper.</FlavorText_Ingredients_With_Fruit_Chutney.description>
 	<FlavorText_Ingredients_Patina.description>un terme fourre-tout pour toutes sortes de plats romains cuits à la grande poêle. Celui-ci réunit {2_coll} ~cuit~ avec {1_coll} dans leur propre jus, liés d'un appareil {0_adj}.</FlavorText_Ingredients_Patina.description>

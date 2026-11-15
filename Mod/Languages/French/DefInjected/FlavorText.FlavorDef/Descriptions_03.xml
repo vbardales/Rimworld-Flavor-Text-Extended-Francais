@@ -67,7 +67,7 @@
 	<FlavorText_Fruit_Pudding.description>un pouding épais fait {1_adj}, généreusement parfumé {0_plur}.</FlavorText_Fruit_Pudding.description>
 
 	<!-- Gâteaux et biscuits -->
-	<FlavorText_Fruit_Cake.description>un gâteau à longue histoire et à mille variantes. Celui-ci est parfumé {2_plur}, ~mêlé~ à une pâte de farine {0_adj} et {1_adj}. On verse l'appareil dans un moule et on cuit jusqu'à ce que le cœur soit pris.</FlavorText_Fruit_Cake.description>
+	<FlavorText_Fruit_Cake.description>un gâteau à longue histoire et à mille variantes. Celui-ci se compose d'une pâte de farine {0_adj} et {1_coll}, mêlée à {2_coll}. On verse l'appareil dans un moule et on cuit jusqu'à ce que le cœur soit pris.</FlavorText_Fruit_Cake.description>
 	<FlavorText_Nut_Halva.description>une confiserie du Proche-Orient qui se fait d'à peu près tout, mais repose en général sur une pâte épaisse {0_adj} et de beurre, cuite en bloc pour une texture allant du mousseux au fondant. Celle-ci est parfumée {2_plur}.</FlavorText_Nut_Halva.description>
 	<FlavorText_Nut_Pismaniye.description>un dessert turc : une farine {0_adj} torréfiée au beurre, étirée en fils aussi fins que de la barbe à papa, et couverte d'une poudre {2_adj}.</FlavorText_Nut_Pismaniye.description>
 	<FlavorText_CantoneseCustardBuns.description>des brioches {0_adj} cuites à la vapeur, fourrées d'une crème épaisse {1_adj}. On les trouve au dim sum, parmi les petits plats.</FlavorText_CantoneseCustardBuns.description>
