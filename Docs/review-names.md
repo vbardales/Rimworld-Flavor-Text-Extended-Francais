@@ -16,5 +16,5 @@
 | RH2 Faction: V.O.I.D. (2883208829) | translated to `Faction RH2 : V.O.I.D.` | decided by Virginie | 2026-11-14 |
 | Medieval Overhaul (3219596926) | translated to `Refonte médiévale` | decided by Virginie | 2026-11-14 |
 | Optimization: Meats - C# Edition (2542931556) | translated to `Optimisation : viandes - édition C#` | decided by Virginie | 2026-11-14 |
-| mondes du Bord | kept as is (`mondes du Bord`) | Rim becomes Bord, the name stays tied to the game name RimWorld; decided by Virginie | 2026-11-15 |
+| mondes du Bord | translated to `mondes de la Bordure (aussi appelés « RimWorlds »)` | Rim becomes Bordure, tied to the game name RimWorld; decided by Virginie | 2026-11-15 |
 | Fédération canado-américaine | translated to `Fédération américano-canadienne` | Canadian-American Federation, order of the English kept; decided by Virginie | 2026-11-15 |
