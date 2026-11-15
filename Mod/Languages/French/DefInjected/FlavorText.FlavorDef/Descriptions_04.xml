@@ -13,7 +13,7 @@
 	<FlavorText_Citrus_TurkishDelight.description>aussi appelé lokum, une famille de confiseries turques obtenue en ajoutant {1_coll} à un gel {0_adj} et d'amidon.</FlavorText_Citrus_TurkishDelight.description>
 
 	<!-- « ambroisie » seul serait confondu avec la boisson du jeu du même nom -->
-	<FlavorText_Ambrosia.description>une salade sucrée née dans le sud-ouest de la Fédération canado-américaine. Les mini-marshmallows en sont l'élément clé, avec {1_coll}, le tout lié par une crème fouettée à base {1_adj}.</FlavorText_Ambrosia.description>
+	<FlavorText_Ambrosia.description>une salade sucrée née dans le sud-ouest de la Fédération américano-canadienne. Les mini-marshmallows en sont l'élément clé, avec {1_coll}, le tout lié par une crème fouettée à base {1_adj}.</FlavorText_Ambrosia.description>
 	<FlavorText_Candied_Citrus_Peel.description>de fines lanières d'écorce {1_adj} pochées dans un sirop {0_adj} jusqu'à saturation. On les laisse sécher, puis on les roule dans un sucre {0_adj}.</FlavorText_Candied_Citrus_Peel.description>
 	<FlavorText_Candied_Nut.description>{1_coll} ~roulé~ dans un caramel {0_adj}, puis ~refroidi~ jusqu'à ce qu'une coque craquante se forme.</FlavorText_Candied_Nut.description>
 	<FlavorText_DragonsBeardCandy.description>une confiserie chinoise : un sucre {0_adj} étiré à la main en écheveaux fins comme des cheveux, enroulés autour d'une garniture {1_adj}.</FlavorText_DragonsBeardCandy.description>
