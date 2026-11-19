@@ -50,3 +50,4 @@
 | Vanilla Plants Expanded - More Plants (2748889667) | translated to `Extension Vanilla Plantes - Plus de plantes` | decided by Virginie | 2026-11-19 |
 | Kit's Brazilian Crops (Continued) (2886512401) | translated to `Cultures Brésiliennes, par Kit, reprises` | same « par X » pattern as `Nouvelle récolte, par VV`; capitals as typed by Virginie; decided by Virginie | 2026-11-19 |
 | Brazilian, Japan, English, Mexico, Europe, Turkish, India, French, Cantonese | kept as is, French forms (brésilien, Japon, anglais, Mexique, Europe, turc, Inde, français, cantonais) | usual French forms; same standing rule as the places: « garder au cas par cas » (Virginie, 2026-11-19) | 2026-11-19 |
+| Froot Loops | kept as a brand, capitalised (`Froot Loops`) | brand name; decided by Virginie | 2026-11-19 |
