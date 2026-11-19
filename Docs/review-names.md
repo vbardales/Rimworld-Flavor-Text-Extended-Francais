@@ -46,3 +46,6 @@
 | Scotch Bonnet | translated to `piment Scotch Bonnet` (Achu: « du piment Scotch Bonnet ») | the cultivar name, more exact than « piments antillais »; decided by Virginie | 2026-11-19 |
 | Spice bag | translated to `Spice Bag irlandais` | name of an Irish takeaway dish kept with its origin; decided by Virginie | 2026-11-19 |
 | Verviers, Kampot, Ghana, Texas, Constantinople, Laos, Bihar, Philippines, Caen, Dijon, Marengo, Espelette, La Paz, Offenbach, Bourse, American, Thai, Roman | kept as is, case by case | usual French forms; decided by Virginie (« garder au cas par cas ») | 2026-11-19 |
+| Vanilla Cooking Expanded (2134308519) | translated to `Extension Vanilla Cuisine` | decided by Virginie | 2026-11-19 |
+| Vanilla Plants Expanded - More Plants (2748889667) | translated to `Extension Vanilla Plantes - Plus de plantes` | decided by Virginie | 2026-11-19 |
+| Kit's Brazilian Crops (Continued) (2886512401) | translated to `Cultures Brésiliennes, par Kit, reprises` | same « par X » pattern as `Nouvelle récolte, par VV`; capitals as typed by Virginie; decided by Virginie | 2026-11-19 |
