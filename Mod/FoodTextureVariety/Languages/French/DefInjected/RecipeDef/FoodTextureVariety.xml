@@ -11,15 +11,15 @@
   <FTV_CookMealFine.ingredients.0.filter.customSummary>protéine</FTV_CookMealFine.ingredients.0.filter.customSummary>
   <FTV_CookMealFine.jobString>Cuisine un plat raffiné.</FTV_CookMealFine.jobString>
   <FTV_CookMealFineBulk.label>cuisiner des plats raffinés x4 (variété)</FTV_CookMealFineBulk.label>
-  <FTV_CookMealFineBulk.description>Prépare quatre plats assez élaborés en combinant de la viande et des végétaux. Certains ingrédients sont gaspillés afin de créer une bonne expérience culinaire.</FTV_CookMealFineBulk.description>
+  <FTV_CookMealFineBulk.description>Prépare quatre plats assez élaborés en combinant de la viande et des végétaux. Certains ingrédients sont gaspillés afin d'offrir une expérience gustative agréable.</FTV_CookMealFineBulk.description>
   <FTV_CookMealFineBulk.ingredients.0.filter.customSummary>protéine</FTV_CookMealFineBulk.ingredients.0.filter.customSummary>
   <FTV_CookMealFineBulk.jobString>Cuisine quatre plats raffinés.</FTV_CookMealFineBulk.jobString>
   <FTV_CookMealLavish.label>cuisiner un plat gastronomique (variété)</FTV_CookMealLavish.label>
-  <FTV_CookMealLavish.description>Prépare un plat très élaboré en combinant de la viande et des végétaux. La majorité des ingrédients sont gaspillés afin de créer la meilleure expérience culinaire.</FTV_CookMealLavish.description>
+  <FTV_CookMealLavish.description>Prépare un plat très élaboré en combinant de la viande et des végétaux. La majorité des ingrédients sont gaspillés afin d'offrir une expérience gustative optimale.</FTV_CookMealLavish.description>
   <FTV_CookMealLavish.ingredients.0.filter.customSummary>protéine</FTV_CookMealLavish.ingredients.0.filter.customSummary>
   <FTV_CookMealLavish.jobString>Cuisine un plat gastronomique.</FTV_CookMealLavish.jobString>
   <FTV_CookMealLavishBulk.label>cuisiner des plats gastronomiques x4 (variété)</FTV_CookMealLavishBulk.label>
-  <FTV_CookMealLavishBulk.description>Prépare quatre plats très élaborés en combinant de la viande et des végétaux. La majorité des ingrédients sont gaspillés afin de créer la meilleure expérience culinaire.</FTV_CookMealLavishBulk.description>
+  <FTV_CookMealLavishBulk.description>Prépare quatre plats très élaborés en combinant de la viande et des végétaux. La majorité des ingrédients sont gaspillés afin d'offrir une expérience gustative optimale.</FTV_CookMealLavishBulk.description>
   <FTV_CookMealLavishBulk.ingredients.0.filter.customSummary>protéine</FTV_CookMealLavishBulk.ingredients.0.filter.customSummary>
   <FTV_CookMealLavishBulk.jobString>Cuisine quatre plats gastronomiques.</FTV_CookMealLavishBulk.jobString>
 </LanguageData>

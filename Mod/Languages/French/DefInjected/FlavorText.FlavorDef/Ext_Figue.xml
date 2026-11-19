@@ -14,7 +14,7 @@
 	<FlavorTextFR_CrostataDiFichi.label>crostata di fichi</FlavorTextFR_CrostataDiFichi.label>
 	<FlavorTextFR_CrostataDiFichi.description>une pâte sablée {2_plur} croisée en treillis sur une couche épaisse de confiture {0_adj}. Se mange froide, le lendemain, quand la pâte a bu un peu du fruit.</FlavorTextFR_CrostataDiFichi.description>
 	<FlavorTextFR_FiguesRotiesAuMiel.label>figues rôties au miel</FlavorTextFR_FiguesRotiesAuMiel.label>
-	<FlavorTextFR_FiguesRotiesAuMiel.description>{0_coll} entaillées en croix, une noix {2_adj} et une cuillerée {1_adj} au creux, passées dix minutes à four brûlant jusqu'à ce qu'elles s'ouvrent comme des fleurs.</FlavorTextFR_FiguesRotiesAuMiel.description>
+	<FlavorTextFR_FiguesRotiesAuMiel.description>{0_coll} entaillées en croix, une noix {2_adj} et une cuillerée {1_adj} au creux, passées dix minutes dans un four brûlant jusqu'à ce qu'elles s'ouvrent comme des fleurs.</FlavorTextFR_FiguesRotiesAuMiel.description>
 	<FlavorTextFR_FiguesPocheesVinRouge.label>figues pochées au vin rouge</FlavorTextFR_FiguesPocheesVinRouge.label>
 	<FlavorTextFR_FiguesPocheesVinRouge.description>{0_coll} frémies dans {1_coll} rouge sucré {2_plur} et à la badiane, puis laissées refroidir dedans une nuit : c'est en refroidissant qu'elles prennent la couleur jusqu'au cœur.</FlavorTextFR_FiguesPocheesVinRouge.description>
 	<FlavorTextFR_ConfitureDeFigues.label>confiture de figues</FlavorTextFR_ConfitureDeFigues.label>

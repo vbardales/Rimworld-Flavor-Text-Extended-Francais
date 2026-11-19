@@ -68,3 +68,8 @@ One line per refusal: key or text, proposal, reason, date.
 - `FlavorText_KhanumKrok.label` (page 7): English `khanom krok`; not applied, hekmo's Workshop mod has no GitHub repository, no pull request possible, the mod ships no English; 2026-11-19.
 - `FlavorTextFR_JeyukBokkeum.description`, `FlavorTextFR_Japchae.description` (page 4, third round): `tranchée finement`, `chaque élément cuit séparément`; refused, `fin` is the usual culinary adverbial (same ruling as `abaissée très fin`) and `cuits chacun séparément` agrees with the collective token; 2026-11-19.
 - `FlavorTextFR_DoroWat.description` (page 4, third round): refused again, see the earlier line; 2026-11-19.
+- `FlavorTextFR_DoroWat.description` (page 4, fourth round): refused again, `{2_adj}` carries its own preposition; 2026-11-19.
+- English `that has been` before plural tokens, `Selesian`, `onomotopeia` (page 2): not applied, hekmo's Workshop mod has no GitHub repository, no pull request possible, the mod ships no English; 2026-11-19.
+- `FlavorText_EmaDatshi.description`, `FlavorText_Fungus_Burger.description` (page 2): `fait de {2_adj}`, `cède la place`; refused, `{2_adj}` and `{1_plur}` carry their own preposition (`de`, `à des`), adding one would double it; 2026-11-19.
+- `FlavorTextExtended_ForestStew.description` (page 6): reworded last sentence; refused, a matter of taste; 2026-11-19.
+- `FlavorTextFR_SambalMangga.description` (page 5): coordination between `{1_plur}` and `{2_plur}`; refused, tokens carry their own preposition; 2026-11-19.

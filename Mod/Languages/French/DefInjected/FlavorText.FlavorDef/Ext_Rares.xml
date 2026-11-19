@@ -52,7 +52,7 @@
 	<FlavorTextFR_PureeDeMarrons.label>purée de marrons</FlavorTextFR_PureeDeMarrons.label>
 	<FlavorTextFR_PureeDeMarrons.description>{0_coll} pochés {1_plur} avec une branche de céleri, passés au tamis puis montés {2_plur}. Le céleri ne se sent pas mais empêche la purée d'être écœurante.</FlavorTextFR_PureeDeMarrons.description>
 	<FlavorTextFR_SoupeChataignesPotiron.label>soupe châtaignes-potiron</FlavorTextFR_SoupeChataignesPotiron.label>
-	<FlavorTextFR_SoupeChataignesPotiron.description>{0_coll} et {1_coll} rôtis séparément avant d'être mixés ensemble, liés {2_plur}. Deux douceurs qui se ressemblent trop : il faut beaucoup de poivre pour les séparer.</FlavorTextFR_SoupeChataignesPotiron.description>
+	<FlavorTextFR_SoupeChataignesPotiron.description>{0_coll} et {1_coll} rôtis séparément avant d'être mixés ensemble, liés {2_plur}. Deux douceurs qui se ressemblent trop : il faut beaucoup de poivre pour les distinguer.</FlavorTextFR_SoupeChataignesPotiron.description>
 	<FlavorTextFR_Castagnaccio.label>castagnaccio</FlavorTextFR_Castagnaccio.label>
 	<FlavorTextFR_Castagnaccio.description>une farine {0_adj} délayée à l'eau (ni œuf, ni sucre, ni levure) étalée très mince, arrosée d'une huile {1_adj} et semée {2_adj} secs et de romarin. Elle craquelle en cuisant, et c'est voulu.</FlavorTextFR_Castagnaccio.description>
 	<FlavorTextFR_MontBlanc.label>mont-blanc</FlavorTextFR_MontBlanc.label>

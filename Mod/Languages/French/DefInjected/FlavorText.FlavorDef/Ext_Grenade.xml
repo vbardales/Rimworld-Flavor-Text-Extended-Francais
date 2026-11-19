@@ -28,9 +28,9 @@
 	<FlavorTextFR_SaladeGrenadeNoix.label>salade de grenade aux noix</FlavorTextFR_SaladeGrenadeNoix.label>
 	<FlavorTextFR_SaladeGrenadeNoix.description>des graines {0_adj}, {1_coll} concassées et {2_coll} rouge finement émincé, avec une masse d'herbes fraîches. Arménienne, et servie à toutes les tables de la région.</FlavorTextFR_SaladeGrenadeNoix.description>
 	<FlavorTextFR_FattoushGrenade.label>fattoush à la grenade</FlavorTextFR_FattoushGrenade.label>
-	<FlavorTextFR_FattoushGrenade.description>du pain plat frit et brisé, {2_coll} et des herbes, avec une vinaigrette au sumac et à la mélasse {0_adj}. Le pain doit encore craquer à l'arrivée en table.</FlavorTextFR_FattoushGrenade.description>
+	<FlavorTextFR_FattoushGrenade.description>du pain plat frit et brisé, {2_coll} et des herbes, avec une vinaigrette au sumac et à la mélasse {0_adj}. Le pain doit encore craquer à l'arrivée à table.</FlavorTextFR_FattoushGrenade.description>
 	<FlavorTextFR_GavurdagiSalatasi.label>gavurdağı salatası</FlavorTextFR_GavurdagiSalatasi.label>
-	<FlavorTextFR_GavurdagiSalatasi.description>{1_coll} et oignon taillés très petit et réguliers, {2_coll} concassées, le tout lié à la mélasse {0_adj} et à l'huile. La taille des dés fait la réputation du cuisinier.</FlavorTextFR_GavurdagiSalatasi.description>
+	<FlavorTextFR_GavurdagiSalatasi.description>{1_coll} et oignon finement taillés, en dés réguliers, {2_coll} concassées, le tout lié à la mélasse {0_adj} et à l'huile. La taille des dés fait la réputation du cuisinier.</FlavorTextFR_GavurdagiSalatasi.description>
 	<FlavorTextFR_KisirGrenade.label>kısır à la grenade</FlavorTextFR_KisirGrenade.label>
 	<FlavorTextFR_KisirGrenade.description>du boulgour fin gonflé à l'eau chaude et travaillé à la main avec du concentré {2_adj}, du piment doux et la mélasse {0_adj}. Se sert dans des feuilles de laitue.</FlavorTextFR_KisirGrenade.description>
 	<FlavorTextFR_AuberginesTahiniGrenade.label>aubergines au tahini et à la grenade</FlavorTextFR_AuberginesTahiniGrenade.label>
