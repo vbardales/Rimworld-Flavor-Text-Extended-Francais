@@ -99,7 +99,7 @@
 
 	<FlavorTextFR_ApfelstrudelDuo.description>une pâte étirée à la main sur une nappe jusqu'à lire le journal au travers, garnie {0_adj} et {1_adj} secs, puis roulée. Un trou dans la pâte et tout est à recommencer.</FlavorTextFR_ApfelstrudelDuo.description>
 
-	<FlavorTextFR_KaiserschmarrnDuo.description>une crêpe épaisse {0_adj} déchirée en morceaux à la spatule pendant qu'elle cuit, caramélisée au sucre avec {1_coll} secs. « La bouillie de l'Empereur » : le nom dit son peu de manières.</FlavorTextFR_KaiserschmarrnDuo.description>
+	<FlavorTextFR_KaiserschmarrnDuo.description>une crêpe épaisse {0_adj} déchirée en morceaux à la spatule pendant qu'elle cuit, caramélisée au sucre avec {1_coll} secs. « Le désordre de l'Empereur » : le nom dit son peu de manières.</FlavorTextFR_KaiserschmarrnDuo.description>
 
 	<FlavorTextFR_MakowiecDuo.description>une brioche roulée sur une masse de graines de pavot moulues et cuites {1_plur}. La spirale noire et blanche apparaît à la coupe.</FlavorTextFR_MakowiecDuo.description>
 
@@ -213,7 +213,7 @@
 
 	<FlavorTextFR_PalourdesFarciesDuo.description>{0_coll} ouverte et recouverte d'un beurre travaillé {1_plur} et au persil, passée au four jusqu'à ce que le beurre bouillonne et déborde.</FlavorTextFR_PalourdesFarciesDuo.description>
 
-	<FlavorTextFR_AraigneeDeMerFarcieDuo.description>{0_coll} décortiquée patiemment, mêlée à son corail et à des jaunes {1_adj} durs, puis remise dans le coffre vidé. Une heure de travail pour dix minutes de repas.</FlavorTextFR_AraigneeDeMerFarcieDuo.description>
+	<FlavorTextFR_AraigneeDeMerFarcieDuo.description>{0_coll} décortiquée patiemment, mêlée à son corail et à des jaunes {1_adj} durs, puis remise dans la carapace vidée. Une heure de travail pour dix minutes de repas.</FlavorTextFR_AraigneeDeMerFarcieDuo.description>
 
 	<FlavorTextFR_RillettesDuo.description>{0_coll} cuite cinq heures dans {1_coll} jusqu'à se défaire, effilochée à la fourchette et non broyée, puis serrée en pot sous une couche de gras qui la conserve.</FlavorTextFR_RillettesDuo.description>
 
@@ -229,7 +229,7 @@
 
 	<FlavorTextFR_PalakPaneerDuo.description>{0_coll} blanchies puis broyées en une purée verte tenue courte pour ne pas brunir, où l'on pose des cubes {1_adj} frais qui ne fondent pas.</FlavorTextFR_PalakPaneerDuo.description>
 
-	<FlavorTextFR_GulabJamunDuo.description>{0_coll} réduit des heures jusqu'à devenir une pâte solide, roulé en boules, frit très doucement, et laissé s'imbiber d'un sirop {1_adj} parfumé à la rose. Il faut qu'elles coulent quand on mord.</FlavorTextFR_GulabJamunDuo.description>
+	<FlavorTextFR_GulabJamunDuo.description>{0_coll} réduit des heures jusqu'à devenir une pâte solide, roulé en boules, frit très doucement, et laissé s'imbiber d'un sirop {1_adj} parfumé à la rose. Il faut qu'elles coulent quand on les croque.</FlavorTextFR_GulabJamunDuo.description>
 
 	<FlavorTextFR_RisiEBisiDuo.description>{0_coll} et {1_coll} cuits ensemble, entre la soupe et le risotto : assez liquide pour la cuillère, trop épais pour le bol. Les cosses servent au bouillon, rien ne se perd.</FlavorTextFR_RisiEBisiDuo.description>
 
@@ -309,7 +309,7 @@
 
 	<FlavorTextFR_TourteViandeTordueDuo.description>{0_coll} braisée d'avance et enfermée sous une pâte {1_adj}. Ce qui est sous la croûte ne se voit plus, et c'est en partie l'intérêt.</FlavorTextFR_TourteViandeTordueDuo.description>
 
-	<FlavorTextFR_PorcAuSodaDuo.description>un jambon cuit lentement dans {0_coll} sucré, dont le sucre caramélise et l'acide attendrit. Une recette de cuisine de bidon, et personne n'a jamais expliqué pourquoi elle fonctionne.</FlavorTextFR_PorcAuSodaDuo.description>
+	<FlavorTextFR_PorcAuSodaDuo.description>un jambon cuit lentement dans {0_coll} sucré, dont le sucre caramélise et l'acide attendrit. Une recette de cuisine de conserve, et personne n'a jamais expliqué pourquoi elle fonctionne.</FlavorTextFR_PorcAuSodaDuo.description>
 
 	<FlavorTextFR_AlligatorSaucePiquanteDuo.description>{0_coll} de queue en dés, mijotée dans un roux et {1_coll} avec du poivre de Cayenne. Le plat cajun de l'alligator, celui qu'on sert aux fêtes de paroisse.</FlavorTextFR_AlligatorSaucePiquanteDuo.description>
 

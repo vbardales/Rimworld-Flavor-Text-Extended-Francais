@@ -34,9 +34,9 @@
 	<FlavorTextFR_CouscousRoyal.label>couscous royal</FlavorTextFR_CouscousRoyal.label>
 	<FlavorTextFR_CouscousRoyal.description>de la semoule roulée à la main et cuite trois fois à la vapeur du bouillon, servie {1_plur} et {2_plur}. La graine ne touche jamais l'eau.</FlavorTextFR_CouscousRoyal.description>
 	<FlavorTextFR_Loubia.label>loubia</FlavorTextFR_Loubia.label>
-	<FlavorTextFR_Loubia.description>{0_coll} blancs mijotés {1_plur}, {2_plur} et beaucoup d'huile, jusqu'à ce que la sauce épaississe d'elle-même. Un plat de rue, mangé debout au bol.</FlavorTextFR_Loubia.description>
+	<FlavorTextFR_Loubia.description>{0_coll} blancs mijotés {1_plur}, {2_plur} et beaucoup d'huile, jusqu'à ce que la sauce épaississe d'elle-même. Un plat de rue, mangé debout à même le bol.</FlavorTextFR_Loubia.description>
 	<FlavorTextFR_KeftaMkaouara.label>kefta mkaouara</FlavorTextFR_KeftaMkaouara.label>
-	<FlavorTextFR_KeftaMkaouara.description>des boulettes {0_adj} hachée pochées dans une sauce {1_adj}, avec {2_coll} cassés dessus à la fin. Arrive au tajine, encore en train de cuire.</FlavorTextFR_KeftaMkaouara.description>
+	<FlavorTextFR_KeftaMkaouara.description>des boulettes {0_adj} hachée pochées dans une sauce {1_adj}, avec {2_coll} cassés dessus à la fin. Il arrive dans le tajine, encore en train de cuire.</FlavorTextFR_KeftaMkaouara.description>
 	<FlavorTextFR_Seffa.label>seffa</FlavorTextFR_Seffa.label>
 	<FlavorTextFR_Seffa.description>de la semoule vapeur montée en cône, striée de cannelle et de sucre glace, couronnée {1_plur} frites, {2_plur} servi à part et froid.</FlavorTextFR_Seffa.description>
 	<FlavorTextFR_Maakouda.label>maâkouda</FlavorTextFR_Maakouda.label>

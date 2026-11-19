@@ -30,7 +30,7 @@
 	<FlavorTextFR_Chawanmushi.label>chawanmushi</FlavorTextFR_Chawanmushi.label>
 	<FlavorTextFR_Chawanmushi.description>un flan salé {0_adj} cuit à la vapeur douce, si peu pris qu'on le mange à la cuillère, avec {1_coll} et {2_coll} cachés au fond. Trop chaud, il se crible de bulles et se gâche.</FlavorTextFR_Chawanmushi.description>
 	<FlavorTextFR_Nikujaga.label>nikujaga</FlavorTextFR_Nikujaga.label>
-	<FlavorTextFR_Nikujaga.description>{0_coll} et {1_coll} mijotées {2_plur} et au sucre, à couvert tombant, jusqu'à ce qu'il ne reste presque plus de liquide. Le plat qu'on cite quand on parle de cuisine de mère.</FlavorTextFR_Nikujaga.description>
+	<FlavorTextFR_Nikujaga.description>{0_coll} et {1_coll} mijotées {2_plur} et au sucre, à couvert tombant, jusqu'à ce qu'il ne reste presque plus de liquide. Le plat qu'on cite quand on parle de la cuisine de sa mère.</FlavorTextFR_Nikujaga.description>
 	<FlavorTextFR_Chikuzenni.label>chikuzenni</FlavorTextFR_Chikuzenni.label>
 	<FlavorTextFR_Chikuzenni.description>{0_coll} et {1_coll} taillées en biseau, saisies à l'huile puis mijotées à sec avec {2_coll}, jusqu'à ce que le liquide ait entièrement disparu dans les légumes.</FlavorTextFR_Chikuzenni.description>
 	<FlavorTextFR_Nanbanzuke.label>nanbanzuke</FlavorTextFR_Nanbanzuke.label>

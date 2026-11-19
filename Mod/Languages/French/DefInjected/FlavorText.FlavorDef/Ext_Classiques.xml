@@ -46,7 +46,7 @@
 	<FlavorTextFR_JambonChablisienne.label>jambon à la chablisienne</FlavorTextFR_JambonChablisienne.label>
 	<FlavorTextFR_JambonChablisienne.description>des tranches épaisses {0_adj} nappées d'une réduction {1_adj} blanc et d'échalote, montée {2_plur}, puis glacées sous le gril.</FlavorTextFR_JambonChablisienne.description>
 	<FlavorTextFR_PouletRoti.label>poulet rôti</FlavorTextFR_PouletRoti.label>
-	<FlavorTextFR_PouletRoti.description>une bête entière frottée {1_plur} et {2_plur}, rôtie en la retournant sur chaque cuisse avant de finir sur le dos. Le jus qui coule de la carcasse à la découpe vaut n'importe quelle sauce.</FlavorTextFR_PouletRoti.description>
+	<FlavorTextFR_PouletRoti.description>une volaille entière frottée {1_plur} et {2_plur}, rôtie en la retournant sur chaque cuisse avant de finir sur le dos. Le jus qui coule de la carcasse à la découpe vaut n'importe quelle sauce.</FlavorTextFR_PouletRoti.description>
 	<FlavorTextFR_PouletBasquaise.label>poulet basquaise</FlavorTextFR_PouletBasquaise.label>
 	<FlavorTextFR_PouletBasquaise.description>{0_coll} dorée puis mijotée dans une fondue {1_adj} et {2_adj} relevée au piment d'Espelette, qui pique juste assez pour qu'on le remarque.</FlavorTextFR_PouletBasquaise.description>
 	<FlavorTextFR_PouletChasseur.label>poulet chasseur</FlavorTextFR_PouletChasseur.label>

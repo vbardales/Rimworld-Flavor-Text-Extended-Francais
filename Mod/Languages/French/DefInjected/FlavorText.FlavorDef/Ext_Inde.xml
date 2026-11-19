@@ -32,7 +32,7 @@
 	<FlavorTextFR_Pakora.label>pakora</FlavorTextFR_Pakora.label>
 	<FlavorTextFR_Pakora.description>{1_coll} enrobés d'une pâte {0_adj} relevée {2_plur} et frits en amas irréguliers. Sans gluten par accident, croustillants par construction.</FlavorTextFR_Pakora.description>
 	<FlavorTextFR_GulabJamun.label>gulab jamun</FlavorTextFR_GulabJamun.label>
-	<FlavorTextFR_GulabJamun.description>{0_coll} réduit des heures jusqu'à devenir une pâte solide, roulé en boules, frit très doucement, et laissé s'imbiber d'un sirop {1_adj} parfumé à la rose. Il faut qu'elles coulent quand on mord.</FlavorTextFR_GulabJamun.description>
+	<FlavorTextFR_GulabJamun.description>{0_coll} réduit des heures jusqu'à devenir une pâte solide, roulé en boules, frit très doucement, et laissé s'imbiber d'un sirop {1_adj} parfumé à la rose. Il faut qu'elles coulent quand on les croque.</FlavorTextFR_GulabJamun.description>
 	<FlavorTextFR_Chutney.label>chutney {0_adj}</FlavorTextFR_Chutney.label>
 	<FlavorTextFR_Chutney.description>{0_coll} cuits {1_plur}, au vinaigre et {2_plur} jusqu'à confire. Se garde des mois et s'améliore les premières semaines.</FlavorTextFR_Chutney.description>
 

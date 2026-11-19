@@ -35,7 +35,7 @@
 	<FlavorText_Callaloo.description>un ragoût de feuilles {1_adj} et {0_adj}, répandu dans beaucoup de pays des Caraïbes.</FlavorText_Callaloo.description>
 	<FlavorText_Chakalaka.description>un condiment de légumes sud-africain monté sur {1_coll} et {2_coll}, avec {0_coll} et d'autres légumes. En général relevé.</FlavorText_Chakalaka.description>
 	<FlavorText_GroundnutSoup.description>une soupe faite {1_adj} et {0_adj}. C'est un incontournable de la cuisine africaine, mais on la mange aussi en Asie de l'Est, aux États-Unis et ailleurs dans le monde.</FlavorText_GroundnutSoup.description>
-	<FlavorText_FreekehSoup.description>un plat de céréales souple d'emploi, fait de grains verts {0_adj} grillés puis frottés, ce qui leur donne un goût fumé, une note de noisette et une mâche prononcée. On les ajoute à une soupe avec {1_coll}, {2_coll} en dés et le mélange libanais « baharat » : piment de la Jamaïque, poivre noir, cannelle, girofle, coriandre, cumin et muscade.</FlavorText_FreekehSoup.description>
+	<FlavorText_FreekehSoup.description>un plat de céréales polyvalent, fait de grains verts {0_adj} grillés puis frottés, ce qui leur donne un goût fumé, une note de noisette et une mâche prononcée. On les ajoute à une soupe avec {1_coll}, {2_coll} en dés et le mélange libanais « baharat » : piment de la Jamaïque, poivre noir, cannelle, girofle, coriandre, cumin et muscade.</FlavorText_FreekehSoup.description>
 
 	<!-- Sautés -->
 	<FlavorText_TempehOrek.description>un sauté indonésien de galettes fermentées {0_adj}, {1_adj} et {2_adj}.</FlavorText_TempehOrek.description>
@@ -50,11 +50,11 @@
 	<!-- « sauté » est déjà pris par Ingredients_MeatRaw_Sautee : on prend « wok » ici -->
 	<FlavorText_Ingredients_PlantFoodRaw_StirFry.description>un mélange {0_adj} et {1_adj}, jetés au wok à feu vif dans l'ordre de leur temps de cuisson. Le procédé préserve les vitamines et concentre les saveurs, mais il faut remuer sans arrêt pour ne rien brûler.</FlavorText_Ingredients_PlantFoodRaw_StirFry.description>
 	<FlavorText_Ingredients_Ingredients_StirFry.description>un mélange {0_adj} et {1_adj}, jetés au wok à feu vif dans l'ordre de leur temps de cuisson. Le procédé préserve les vitamines et concentre les saveurs, mais il faut remuer sans arrêt pour ne rien brûler.</FlavorText_Ingredients_Ingredients_StirFry.description>
-	<FlavorText_Ingredients_ChowMein.description>un plat chinois souple d'emploi : {0_coll} ~sauté~ avec des nouilles rondes {1_adj}. On y met peu de sauce, si bien que le résultat reste sec et un peu croustillant.</FlavorText_Ingredients_ChowMein.description>
+	<FlavorText_Ingredients_ChowMein.description>un plat chinois polyvalent : {0_coll} ~sauté~ avec des nouilles rondes {1_adj}. On y met peu de sauce, si bien que le résultat reste sec et un peu croustillant.</FlavorText_Ingredients_ChowMein.description>
 	<FlavorText_Ingredients_Fried_Rice.description>{0_coll} et {1_coll} sautés au wok avec {2_coll}.</FlavorText_Ingredients_Fried_Rice.description>
 	<FlavorText_Ingredients_DrunkenNoodles.description>aussi appelées pad kee mao, venues de la cuisine thaïlandaise : {1_coll} et {0_coll} sautés à la sauce soja, servis sur de larges nouilles {2_adj}.</FlavorText_Ingredients_DrunkenNoodles.description>
 	<FlavorText_Fried_Ingredients_2.description>un sauté rapide de morceaux {0_adj} croustillants. Le feu vif préserve les vitamines et concentre les saveurs, mais il faut remuer sans arrêt pour ne rien brûler.</FlavorText_Fried_Ingredients_2.description>
-	<FlavorText_LoMein.description>un plat chinois souple d'emploi : des nouilles {2_adj} cuites à la vapeur ou à l'eau, remuées avec {0_coll} et {1_coll} sautés et une sauce soja épaisse.</FlavorText_LoMein.description>
+	<FlavorText_LoMein.description>un plat chinois polyvalent : des nouilles {2_adj} cuites à la vapeur ou à l'eau, remuées avec {0_coll} et {1_coll} sautés et une sauce soja épaisse.</FlavorText_LoMein.description>
 	<FlavorText_Meat_Cow_ChowFun.description>un plat chinois reconnaissable à ses larges nouilles {2_adj}, remuées avec de fines tranches {0_adj} et {1_adj} sautées et une sauce soja.</FlavorText_Meat_Cow_ChowFun.description>
 	<FlavorText_KhuaKling.description>un curry sec thaïlandais {0_adj} ~haché~, ~sauté~ aux épices.</FlavorText_KhuaKling.description>
 	<FlavorText_PadPrikKing.description>un curry sec thaïlandais de jeunes gousses {1_adj} sautées avec des morceaux {0_adj} et {2_adj}.</FlavorText_PadPrikKing.description>

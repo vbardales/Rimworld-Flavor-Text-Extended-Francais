@@ -60,7 +60,7 @@
 	<FlavorTextFR_SoupeViandeTordue.label>soupe de viande tordue</FlavorTextFR_SoupeViandeTordue.label>
 	<FlavorTextFR_SoupeViandeTordue.description>{0_coll} et ses os mis à l'eau froide et montés doucement, avec {1_coll}. On écume beaucoup pendant la première heure.</FlavorTextFR_SoupeViandeTordue.description>
 	<FlavorTextFR_PorcAuSoda.label>porc laqué au soda</FlavorTextFR_PorcAuSoda.label>
-	<FlavorTextFR_PorcAuSoda.description>un jambon cuit lentement dans {0_coll} sucré, dont le sucre caramélise et l'acide attendrit. Une recette de cuisine de bidon, et personne n'a jamais expliqué pourquoi elle fonctionne.</FlavorTextFR_PorcAuSoda.description>
+	<FlavorTextFR_PorcAuSoda.description>un jambon cuit lentement dans {0_coll} sucré, dont le sucre caramélise et l'acide attendrit. Une recette de cuisine de conserve, et personne n'a jamais expliqué pourquoi elle fonctionne.</FlavorTextFR_PorcAuSoda.description>
 	<FlavorTextFR_SorbetALaLimonade.label>sorbet à la limonade</FlavorTextFR_SorbetALaLimonade.label>
 	<FlavorTextFR_SorbetALaLimonade.description>{0_coll} turbiné avec {2_coll} pressé et un sirop {1_adj}, jusqu'à une glace granuleuse et mordante. Le plus simple des desserts d'une colonie qui n'a pas de vache.</FlavorTextFR_SorbetALaLimonade.description>
 

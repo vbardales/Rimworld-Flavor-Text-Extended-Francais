@@ -10,7 +10,7 @@
 <LanguageData>
 
 	<FlavorTextFR_Fesenjan.label>fesenjan</FlavorTextFR_Fesenjan.label>
-	<FlavorTextFR_Fesenjan.description>{1_coll} broyées si finement qu'elles rendent leur huile, mijotées des heures {0_plur} jusqu'à ce que la sauce devienne presque noire. {2_coll} y cuit lentement. Le plat le plus ancien encore servi de la table persane.</FlavorTextFR_Fesenjan.description>
+	<FlavorTextFR_Fesenjan.description>{1_coll} broyées si finement qu'elles rendent leur huile, mijotées des heures {0_plur} jusqu'à ce que la sauce devienne presque noire. {2_coll} y cuit lentement. Le plus ancien plat encore servi à la table persane.</FlavorTextFR_Fesenjan.description>
 	<FlavorTextFR_AsheAnar.label>ash-e anar</FlavorTextFR_AsheAnar.label>
 	<FlavorTextFR_AsheAnar.description>une soupe épaisse d'herbes hachées, {1_coll} et {2_coll}, acidulée au jus {0_adj} et parsemée de graines fraîches. Se prépare pour la nuit du solstice d'hiver.</FlavorTextFR_AsheAnar.description>
 	<FlavorTextFR_AnarBij.label>anar bij</FlavorTextFR_AnarBij.label>

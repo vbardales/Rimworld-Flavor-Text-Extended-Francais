@@ -46,7 +46,7 @@
 	<FlavorTextFR_SaladeQuinoaGrenade.label>salade quinoa-grenade</FlavorTextFR_SaladeQuinoaGrenade.label>
 	<FlavorTextFR_SaladeQuinoaGrenade.description>{0_coll} refroidi à plat, mêlé aux graines {1_adj} et {2_plur} ciselées, avec un filet de mélasse acidulée. Les grains éclatent au milieu de quelque chose qui ne croque pas : c'est tout l'intérêt.</FlavorTextFR_SaladeQuinoaGrenade.description>
 	<FlavorTextFR_QuinoaChaufa.label>quinoa chaufa</FlavorTextFR_QuinoaChaufa.label>
-	<FlavorTextFR_QuinoaChaufa.description>{0_coll} sauté au wok très chaud avec une omelette {1_adj} taillée en lanières, du gingembre et {2_coll}. Le riz sauté cantonais passé aux Andes, avec la céréale du lieu.</FlavorTextFR_QuinoaChaufa.description>
+	<FlavorTextFR_QuinoaChaufa.description>{0_coll} sauté au wok très chaud avec une omelette {1_adj} taillée en lanières, du gingembre et {2_coll}. Le riz sauté cantonais porté jusque dans les Andes, avec la céréale du lieu.</FlavorTextFR_QuinoaChaufa.description>
 	<FlavorTextFR_ChiliQuinoaHaricots.label>chili quinoa-haricots</FlavorTextFR_ChiliQuinoaHaricots.label>
 	<FlavorTextFR_ChiliQuinoaHaricots.description>{1_coll} noirs et {0_coll} mijotés ensemble une heure {2_plur} et au cumin. Le quinoa épaissit le jus sans qu'on ait besoin de farine ni de réduction.</FlavorTextFR_ChiliQuinoaHaricots.description>
 	<FlavorTextFR_PoivronsFarcisQuinoa.label>poivrons farcis au quinoa</FlavorTextFR_PoivronsFarcisQuinoa.label>

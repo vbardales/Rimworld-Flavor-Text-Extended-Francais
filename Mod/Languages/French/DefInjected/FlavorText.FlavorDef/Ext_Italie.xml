@@ -39,10 +39,10 @@
 	<FlavorTextFR_VitelloTonnato.description>{0_coll} pochée, refroidie, tranchée au plus fin, et nappée d'une sauce froide {1_adj} montée {2_plur}. L'accord paraît absurde jusqu'à la première bouchée.</FlavorTextFR_VitelloTonnato.description>
 	<FlavorTextFR_Panzanella.label>panzanella</FlavorTextFR_Panzanella.label>
 	<FlavorTextFR_Panzanella.description>du pain dur trempé puis pressé, mêlé {1_plur} et {2_plur}. Un plat inventé pour ne rien jeter, devenu un plat qu'on réclame.</FlavorTextFR_Panzanella.description>
-	<FlavorTextFR_BagnaCauda.label>bagna cauda</FlavorTextFR_BagnaCauda.label>
+	<FlavorTextFR_BagnaCauda.label>bagna càuda</FlavorTextFR_BagnaCauda.label>
 	<FlavorTextFR_BagnaCauda.description>{0_coll} fondus {2_plur} avec beaucoup {1_adj}, tenus tièdes sur une flamme. On y trempe les légumes crus ; l'odeur tient trois jours dans la pièce.</FlavorTextFR_BagnaCauda.description>
 	<FlavorTextFR_FrittoMisto.label>fritto misto</FlavorTextFR_FrittoMisto.label>
-	<FlavorTextFR_FrittoMisto.description>{0_coll} roulée dans la farine, jetée dans l'huile brûlante et sortie aussitôt, servie {2_plur}. Se mange debout, dans du papier, avant d'avoir refroidi.</FlavorTextFR_FrittoMisto.description>
+	<FlavorTextFR_FrittoMisto.description>{0_coll} roulée dans la farine, jetée dans l'huile brûlante et sortie aussitôt, servie {2_plur}. Se mange debout, dans un cornet de papier, avant d'avoir refroidi.</FlavorTextFR_FrittoMisto.description>
 	<FlavorTextFR_Polpette.label>polpette</FlavorTextFR_Polpette.label>
 	<FlavorTextFR_Polpette.description>{0_coll} hachée et allégée de mie trempée, roulée en boulettes et finie de cuire dans une sauce {2_adj}.</FlavorTextFR_Polpette.description>
 	<FlavorTextFR_CotolettaMilanese.label>cotoletta alla milanese</FlavorTextFR_CotolettaMilanese.label>

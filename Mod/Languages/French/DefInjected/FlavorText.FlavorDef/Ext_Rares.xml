@@ -104,7 +104,7 @@
 	<FlavorTextFR_RagoutChairHumaine.label>ragoût de chair humaine</FlavorTextFR_RagoutChairHumaine.label>
 	<FlavorTextFR_RagoutChairHumaine.description>{0_coll} en cubes saisie puis mouillée {2_plur}, mijotée à couvert avec {1_coll} en gros morceaux. Cuisson longue, comme pour toute viande d'animal adulte et musclé.</FlavorTextFR_RagoutChairHumaine.description>
 	<FlavorTextFR_RotiChairHumaine.label>rôti de chair humaine</FlavorTextFR_RotiChairHumaine.label>
-	<FlavorTextFR_RotiChairHumaine.description>une pièce {0_adj} bardée {1_plur}, piquée {2_plur} et rôtie à four moyen. Elle est maigre et sèche vite : la barde n'est pas facultative.</FlavorTextFR_RotiChairHumaine.description>
+	<FlavorTextFR_RotiChairHumaine.description>une pièce {0_adj} bardée {1_plur}, piquée {2_plur} et rôtie à four moyen. Elle est maigre et sèche vite : le bardage n'est pas facultatif.</FlavorTextFR_RotiChairHumaine.description>
 	<FlavorTextFR_BrochettesChairHumaine.label>brochettes de chair humaine</FlavorTextFR_BrochettesChairHumaine.label>
 	<FlavorTextFR_BrochettesChairHumaine.description>des cubes {0_adj} alternés avec {1_coll} et {2_coll} sur des tiges de métal, grillés à feu vif et retournés souvent. Cuisson courte, sinon la viande durcit.</FlavorTextFR_BrochettesChairHumaine.description>
 	<FlavorTextFR_SaucisseChairHumaine.label>saucisse de chair humaine</FlavorTextFR_SaucisseChairHumaine.label>

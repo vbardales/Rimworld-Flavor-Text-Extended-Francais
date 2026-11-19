@@ -44,7 +44,7 @@
 	<FlavorTextFR_Moilee.label>moilee</FlavorTextFR_Moilee.label>
 	<FlavorTextFR_Moilee.description>un curry blanc du Kerala : {1_coll} ~poché~ dans un lait {0_adj} au curcuma, avec {2_coll} ~ajouté~ en fin de cuisson pour ne pas se défaire. Doux, presque pâle : le piment y est vert et discret.</FlavorTextFR_Moilee.description>
 	<FlavorTextFR_BoeufLaitDeCoco.label>bœuf au lait de coco</FlavorTextFR_BoeufLaitDeCoco.label>
-	<FlavorTextFR_BoeufLaitDeCoco.description>{1_coll} braisée très lentement dans un lait {0_adj} et une pâte {2_adj}, jusqu'à ce que le lait se casse et que l'huile remonte. À partir de là, la viande frit dans sa propre sauce.</FlavorTextFR_BoeufLaitDeCoco.description>
+	<FlavorTextFR_BoeufLaitDeCoco.description>{1_coll} braisée très lentement dans un lait {0_adj} et une pâte {2_adj}, jusqu'à ce que le lait tranche et que l'huile remonte. À partir de là, la viande se met à frire dans sa propre sauce.</FlavorTextFR_BoeufLaitDeCoco.description>
 	<FlavorTextFR_Haupia.label>haupia</FlavorTextFR_Haupia.label>
 	<FlavorTextFR_Haupia.description>un lait {0_adj} sucré {1_plur} et lié d'un amidon {2_adj}, versé en plaque et laissé prendre au froid, puis découpé en carrés qui se mangent à la main. Le dessert des lūʻau hawaïens.</FlavorTextFR_Haupia.description>
 	<FlavorTextFR_Cocada.label>cocada</FlavorTextFR_Cocada.label>

@@ -54,7 +54,7 @@
 	<FlavorTextFR_Garbure.label>garbure</FlavorTextFR_Garbure.label>
 	<FlavorTextFR_Garbure.description>une soupe si épaisse {0_adj}, {1_adj} et {2_adj} que la cuillère y tient debout. C'est le critère, et il n'est pas négociable.</FlavorTextFR_Garbure.description>
 	<FlavorTextFR_ConfitDeVolaille.label>confit {0_adj}</FlavorTextFR_ConfitDeVolaille.label>
-	<FlavorTextFR_ConfitDeVolaille.description>{0_coll} salée un jour, puis cuite très lentement immergée {1_plur}, et conservée dedans. La peau se croustille au dernier moment, à la poêle.</FlavorTextFR_ConfitDeVolaille.description>
+	<FlavorTextFR_ConfitDeVolaille.description>{0_coll} salée un jour, puis cuite très lentement immergée {1_plur}, et conservée dedans. La peau croustille au dernier moment, à la poêle.</FlavorTextFR_ConfitDeVolaille.description>
 	<FlavorTextFR_PouleAuPot.label>poule au pot</FlavorTextFR_PouleAuPot.label>
 	<FlavorTextFR_PouleAuPot.description>{0_coll} pochée entière avec {1_coll} et {2_coll}. Henri IV en promettait une par semaine à chaque famille ; l'histoire ne dit pas s'il a tenu.</FlavorTextFR_PouleAuPot.description>
 	<FlavorTextFR_Blanquette.label>blanquette {0_adj}</FlavorTextFR_Blanquette.label>
