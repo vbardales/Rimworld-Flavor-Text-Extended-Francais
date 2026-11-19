@@ -9,7 +9,7 @@ root for the general workflow; this file is the mod-specific record it asks for.
 
 The gallery images are in `Art/Gallery/` (committed, outside `Mod/`, so they are not uploaded with the mod; it is the `--gallery-dir` of the
 publication workflow, and holds only the numbered images). **Steam's gallery is a manual upload**: SteamCMD has one image field, so the CI
-does not send them; the dry-run only lists this folder as a reminder. Upload them in the order of their file names. Each one was taken by a
+does not upload them; the dry-run only lists this folder as a reminder. Upload them in the order of their file names. Each one was taken by a
 Pickle pass, cropped to the dialog (the scenarios' captures are full frames; the crop is done by hand, a 950 x 440 rectangle at
 485, 160), re-encoded as JPEG, and **opened and looked at**; none is a mock-up. All four come from the generic test colony, not the
 presentation colony; the owner accepted them on 2026-09-25 (the meals of 01 and 03 come from the 1.0.1 run, so the side dishes read in lower case).
