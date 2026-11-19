@@ -67,7 +67,7 @@
 	<FlavorText_Baklava.label>baklava</FlavorText_Baklava.label>
 	<FlavorText_CreamPuffs.label>choux à la crème</FlavorText_CreamPuffs.label>
 	<FlavorText_Croissant.label>croissant</FlavorText_Croissant.label>
-	<FlavorText_Fruit_BrownBetty.label>Brown Betty {0_plur}</FlavorText_Fruit_BrownBetty.label>
+	<FlavorText_Fruit_BrownBetty.label>croustillant {0_plur}</FlavorText_Fruit_BrownBetty.label>
 	<FlavorText_Fruit_Buckle.label>gâteau fondant {0_plur}</FlavorText_Fruit_Buckle.label>
 	<FlavorText_Fruit_Cobbler.label>croustade {0_plur}</FlavorText_Fruit_Cobbler.label>
 	<FlavorText_Fruit_Crisp.label>croustillant {0_plur}</FlavorText_Fruit_Crisp.label>

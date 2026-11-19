@@ -37,3 +37,9 @@
 | Aymara | kept as is (`aymara`, lowercase after « peuple ») | adjective of « peuple »; decided by Virginie | 2026-11-19 |
 | Maori | kept as is (`maorie`) | French adjective, no macron; decided by Virginie | 2026-11-19 |
 | Gaston Gérard | kept as is (`poulet Gaston Gérard`) | eponymous dish name, mayor of Dijon; decided by Virginie | 2026-11-19 |
+| Brunede Kartofler | translated to `pommes de terre caramélisées` | Danish dish name, described in French; decided by Virginie | 2026-11-19 |
+| Pichelsteiner | translated to `potée bavaroise` | German stew of Pichelstein, Bavaria; decided by Virginie | 2026-11-19 |
+| Trinidad (mango chow) | label translated to `mangue verte marinée à la trinidadienne` | descriptive French name; the text keeps « à Trinidad »; decided by Virginie | 2026-11-19 |
+| Brown Betty | translated to `croustillant {0_plur}` | French dessert name, the token keeps the fruit (Virginie wrote « Croustillant aux pommes »); decided by Virginie | 2026-11-19 |
+| Mont Blanc, Mont d'Or | kept lowercase (`mont d'or chaud`) | common nouns of a dessert and a cheese; decided by Virginie | 2026-11-19 |
+| Places and people (Lyon, Saint-Étienne, Sussex, Queensland, Pahang, Jambi, Porto, Goa, Iran, Carême, Andes, Tijuana, Sichuan, Sainte-Menehould, Louis XVI, Mère Poulard, Vendée, Jura, Nantua, Oaxaca, Michoacán, Honduras, Botswana, Kentucky, Tennessee, Vichy, Tokyo, New York, Rocky Mountains) | kept as is, case by case | usual French forms; decided by Virginie (« à garder au cas par cas ») | 2026-11-19 |
