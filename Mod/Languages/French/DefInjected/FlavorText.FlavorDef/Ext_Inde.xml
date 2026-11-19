@@ -10,7 +10,7 @@
 <LanguageData>
 
 	<FlavorTextFR_Dal.label>dal</FlavorTextFR_Dal.label>
-	<FlavorTextFR_Dal.description>{0_coll} cuits jusqu'à se défaire, puis réveillés d'un tempérage : {1_coll} et {2_coll} frits une poignée de secondes dans le beurre brûlant et versés dessus, encore grésillants.</FlavorTextFR_Dal.description>
+	<FlavorTextFR_Dal.description>{0_coll} cuits jusqu'à se défaire, puis réveillés par un tempérage : {1_coll} et {2_coll} frits une poignée de secondes dans le beurre brûlant et versés dessus, encore grésillants.</FlavorTextFR_Dal.description>
 	<FlavorTextFR_Biryani.label>biryani</FlavorTextFR_Biryani.label>
 	<FlavorTextFR_Biryani.description>{0_coll} à moitié cuit et {1_coll} marinée montés en couches, scellés sous un couvercle luté à la pâte, et finis à l'étouffée. On ne remue jamais : chaque couche doit rester distincte à l'ouverture.</FlavorTextFR_Biryani.description>
 	<FlavorTextFR_ButterChicken.label>butter chicken</FlavorTextFR_ButterChicken.label>

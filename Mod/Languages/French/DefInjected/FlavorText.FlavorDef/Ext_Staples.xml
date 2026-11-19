@@ -38,7 +38,7 @@
 	<FlavorTextExtended_MeatAndPotatoTortilla.description>{2_coll} et {1_coll} mêlés {0_plur} et cuits épais des deux côtés dans une poêle lourde. Servie tiède plutôt que chaude, en parts, encore le lendemain.</FlavorTextExtended_MeatAndPotatoTortilla.description>
 
 	<FlavorTextExtended_MeatballsWithBerryJam.label>boulettes de viande à la confiture de baies</FlavorTextExtended_MeatballsWithBerryJam.label>
-	<FlavorTextExtended_MeatballsWithBerryJam.description>{0_coll} roulées petites, dorées, et nappées d'une sauce {1_adj}, servies avec une cuillerée de confiture {2_adj}. Le sucré contre le salé, et personne à table ne trouve ça étrange.</FlavorTextExtended_MeatballsWithBerryJam.description>
+	<FlavorTextExtended_MeatballsWithBerryJam.description>{0_coll} façonnées en petites boulettes, dorées, et nappées d'une sauce {1_adj}, servies avec une cuillerée de confiture {2_adj}. Le sucré contre le salé, et personne à table ne trouve ça étrange.</FlavorTextExtended_MeatballsWithBerryJam.description>
 
 	<FlavorTextExtended_MeatHotpot.label>hotpot de viande</FlavorTextExtended_MeatHotpot.label>
 	<FlavorTextExtended_MeatHotpot.description>{0_coll} et {1_coll} disposés en couches sous {2_coll} tranchées, et cuits des heures au four dans un plat couvert, jusqu'à ce que le dessus soit doré et que le fond ait fondu dans le jus.</FlavorTextExtended_MeatHotpot.description>

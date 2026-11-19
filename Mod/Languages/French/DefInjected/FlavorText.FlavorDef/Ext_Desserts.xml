@@ -44,7 +44,7 @@
 	<FlavorTextFR_Canele.label>canelés</FlavorTextFR_Canele.label>
 	<FlavorTextFR_Canele.description>une pâte liquide reposée deux jours, cuite dans des moules cuivrés enduits de cire, jusqu'à obtenir une croûte presque noire autour d'un cœur mou {1_adj} et {2_adj}.</FlavorTextFR_Canele.description>
 	<FlavorTextFR_Dacquoise.label>dacquoise</FlavorTextFR_Dacquoise.label>
-	<FlavorTextFR_Dacquoise.description>des disques de meringue {1_adj} chargée de poudre {0_adj}, séchés au four doux et montés avec une crème au beurre. Le biscuit doit rester croquant sous la crème pendant des heures.</FlavorTextFR_Dacquoise.description>
+	<FlavorTextFR_Dacquoise.description>des disques de meringue {1_adj} chargés de poudre {0_adj}, séchés au four doux et montés avec une crème au beurre. Le biscuit doit rester croquant sous la crème pendant des heures.</FlavorTextFR_Dacquoise.description>
 	<FlavorTextFR_SableBreton.label>sablés bretons</FlavorTextFR_SableBreton.label>
 	<FlavorTextFR_SableBreton.description>presque autant {1_adj} demi-sel que de farine, à peine travaillés pour rester sablonneux. Le sel n'est pas un assaisonnement ici : c'est l'ingrédient principal après le beurre.</FlavorTextFR_SableBreton.description>
 	<FlavorTextFR_Teurgoule.label>teurgoule</FlavorTextFR_Teurgoule.label>
@@ -64,7 +64,7 @@
 	<FlavorTextFR_Sernik.label>sernik</FlavorTextFR_Sernik.label>
 	<FlavorTextFR_Sernik.description>un fromage blanc polonais passé trois fois au tamis, monté {1_plur} et cuit lentement. Plus dense et moins sucré que ses cousins occidentaux.</FlavorTextFR_Sernik.description>
 	<FlavorTextFR_Makowiec.label>makowiec</FlavorTextFR_Makowiec.label>
-	<FlavorTextFR_Makowiec.description>une brioche roulée sur une masse de graines de pavot moulues et cuites {2_plur}. La spirale noire et blanche apparaît à la coupe.</FlavorTextFR_Makowiec.description>
+	<FlavorTextFR_Makowiec.description>une brioche roulée autour d'une masse de graines de pavot moulues et cuites {2_plur}. La spirale noire et blanche apparaît à la coupe.</FlavorTextFR_Makowiec.description>
 	<FlavorTextFR_Medovik.label>medovik</FlavorTextFR_Medovik.label>
 	<FlavorTextFR_Medovik.description>une douzaine de disques de pâte {1_adj} cuits un par un, empilés avec une crème acidulée, et laissés une nuit pour que tout s'attendrisse et devienne moelleux.</FlavorTextFR_Medovik.description>
 	<FlavorTextFR_Syrniki.label>syrniki</FlavorTextFR_Syrniki.label>

@@ -24,7 +24,7 @@
 	<FlavorTextFR_PouletCajouChataigneDEau.label>poulet aux noix de cajou et châtaignes d'eau</FlavorTextFR_PouletCajouChataigneDEau.label>
 	<FlavorTextFR_PouletCajouChataigneDEau.description>{1_coll} en dés sautée à feu maximal avec {2_coll} grillées à part et {0_coll}. Trois croquants de dureté différente dans la même bouchée.</FlavorTextFR_PouletCajouChataigneDEau.description>
 	<FlavorTextFR_BoeufChataigneDEau.label>bœuf aux châtaignes d'eau</FlavorTextFR_BoeufChataigneDEau.label>
-	<FlavorTextFR_BoeufChataigneDEau.description>{1_coll} tranchée contre le fil et attendrie à la fécule, sautée {2_plur} blanchi et {0_plur} dans une sauce aux huîtres.</FlavorTextFR_BoeufChataigneDEau.description>
+	<FlavorTextFR_BoeufChataigneDEau.description>{1_coll} tranchée contre le fil et attendrie à la fécule, sautée {2_plur} ~blanchi~ et {0_plur} dans une sauce aux huîtres.</FlavorTextFR_BoeufChataigneDEau.description>
 	<FlavorTextFR_CrevettesChataigneDEau.label>crevettes aux châtaignes d'eau</FlavorTextFR_CrevettesChataigneDEau.label>
 	<FlavorTextFR_CrevettesChataigneDEau.description>{1_coll} saumurée au bicarbonate pour rester ferme, sautée quelques secondes {2_plur} et {0_plur}, dans une sauce à peine liée.</FlavorTextFR_CrevettesChataigneDEau.description>
 	<FlavorTextFR_LegumesSautesChataigneDEau.label>légumes sautés aux châtaignes d'eau</FlavorTextFR_LegumesSautesChataigneDEau.label>

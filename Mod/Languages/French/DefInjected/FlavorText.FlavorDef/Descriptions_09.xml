@@ -15,7 +15,7 @@
 	<FlavorText_Kelp_Salad.description>une salade japonaise {0_adj} ~taillé~ en lanières et ~mariné~ dans une sauce {1_adj}.</FlavorText_Kelp_Salad.description>
 	<FlavorText_Esqueixada.description>une salade froide de la cuisine catalane, faite {0_adj} ~salé~ et {1_adj} en dés, servie froide dans une marinade au vinaigre et à l'huile d'olive, garnie d'éclats {2_adj}.</FlavorText_Esqueixada.description>
 	<FlavorText_MeatRaw_Salad.description>une garniture froide et grumeleuse {0_adj} effilochée, liée à la mayonnaise. On la trouve le plus souvent dans un sandwich, mais elle se mange aussi telle quelle. L'aneth et la moutarde en sont les épices principales.</FlavorText_MeatRaw_Salad.description>
-	<FlavorText_CandleSalad.description>une salade de fruits américaine d'autrefois, qui imite une bougie allumée : on plante {1_coll} entière au centre d'une rondelle {0_adj}. Le tout est dressé sur un lit de laitue, et se garnit d'une cerise et de mayonnaise, de fromage blanc ou de crème fouettée.</FlavorText_CandleSalad.description>
+	<FlavorText_CandleSalad.description>une salade de fruits américaine d'autrefois, qui imite une bougie allumée : on plante {1_coll} entière au centre d'une rondelle {0_adj}. Le tout est dressé sur un lit de laitue, et se garnit d'une cerise et de mayonnaise, de cottage cheese ou de crème fouettée.</FlavorText_CandleSalad.description>
 	<FlavorText_PlantFoodRaw_Salad.description>un saladier {0_adj} hachés et {1_adj} râpés, remués dans une vinaigrette.</FlavorText_PlantFoodRaw_Salad.description>
 	<FlavorText_Sweet_Corn_Salad.description>{2_coll} dans une sauce sucrée {0_adj}, couvert {1_adj}.</FlavorText_Sweet_Corn_Salad.description>
 	<FlavorText_Sweet_Fungus_Salad.description>{2_coll} ~haché~ dans une sauce sucrée, ~couvert~ {1_adj}.</FlavorText_Sweet_Fungus_Salad.description>
@@ -68,7 +68,7 @@
 	<!-- Calembour sur les Beatles dans l'original ; on en prend un autre, plus lisible en français -->
 	<FlavorText_BabyYouCanChiveMyCar.description>un burger {0_adj} fourré à la feta, glissé entre deux pains {1_adj} et généreusement nappé d'une sauce à la crème aigre et à la ciboulette. Des cornichons à l'aneth frits font les roues de ce burger-mobile.</FlavorText_BabyYouCanChiveMyCar.description>
 	<FlavorText_HotDogs.description>une purée {0_adj} liée puis façonnée en saucisses, pochées et fumées. Servies dans un petit pain {1_adj} fendu.</FlavorText_HotDogs.description>
-	<FlavorText_ReubenSandwich.description>{0_coll} ~salé~ ~empilé~ haut entre deux tranches de pain {1_adj}, servie chaude avec du gruyère fondu, une sauce russe et de la choucroute.</FlavorText_ReubenSandwich.description>
+	<FlavorText_ReubenSandwich.description>{0_coll} ~salé~ ~empilé~ haut entre deux tranches de pain {1_adj}, servie chaude avec du fromage suisse fondu, une sauce russe et de la choucroute.</FlavorText_ReubenSandwich.description>
 	<FlavorText_MeatRaw_Burritos.description>{0_coll} ~épicé~ et {2_coll}, servis dans une tortilla {1_adj}.</FlavorText_MeatRaw_Burritos.description>
 	<FlavorText_MeatRaw_HuitlacocheTacos.description>le charbon qui pousse sur les épis {1_adj}, poêlé avec {0_coll} et servi dans une tortilla {1_adj}.</FlavorText_MeatRaw_HuitlacocheTacos.description>
 	<FlavorText_MeatRaw_PicadilloTacos.description>{0_coll} ~haché~ ~revenu~ avec {2_coll} ~taillé~ très fin, ~servi~ dans une tortilla {1_adj}.</FlavorText_MeatRaw_PicadilloTacos.description>

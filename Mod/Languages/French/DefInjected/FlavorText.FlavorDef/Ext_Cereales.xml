@@ -72,7 +72,7 @@
 	<FlavorTextFR_BajraKhichdi.label>bajra khichdi</FlavorTextFR_BajraKhichdi.label>
 	<FlavorTextFR_BajraKhichdi.description>{0_coll} concassé au mortier et cuit à l'étouffée avec {1_coll} fendues, arrosé {2_plur} clarifié au service. Plat d'hiver du désert, où l'on mange gras parce qu'il gèle la nuit.</FlavorTextFR_BajraKhichdi.description>
 	<FlavorTextFR_XiaomiZhou.label>xiaomi zhou</FlavorTextFR_XiaomiZhou.label>
-	<FlavorTextFR_XiaomiZhou.description>{0_coll} crevé une heure dans beaucoup d'eau avec {1_coll} en cubes qui se défait, et {2_coll} rouges entières. Une pellicule jaune se forme en surface : c'est la partie qu'on donne aux malades.</FlavorTextFR_XiaomiZhou.description>
+	<FlavorTextFR_XiaomiZhou.description>{0_coll} crevé une heure dans beaucoup d'eau avec {1_coll} en cubes qui se défont, et {2_coll} rouges entières. Une pellicule jaune se forme en surface : c'est la partie qu'on donne aux malades.</FlavorTextFR_XiaomiZhou.description>
 	<FlavorTextFR_BajraRoti.label>bajra roti</FlavorTextFR_BajraRoti.label>
 	<FlavorTextFR_BajraRoti.description>une galette épaisse {0_adj}, pétrie à l'eau chaude avec {1_coll} hachées, tapotée entre les paumes faute de pouvoir la rouler, et cuite à même la braise avant d'être frottée {2_plur}.</FlavorTextFR_BajraRoti.description>
 	<FlavorTextFR_PilafDeMil.label>pilaf de mil aux légumes</FlavorTextFR_PilafDeMil.label>

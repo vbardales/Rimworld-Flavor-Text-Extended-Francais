@@ -20,9 +20,9 @@
 	<FlavorTextFR_SoupeDeToxipatate.label>soupe {0_adj} aux poireaux</FlavorTextFR_SoupeDeToxipatate.label>
 	<FlavorTextFR_SoupeDeToxipatate.description>{0_coll} blanchies dans une première eau qu'on jette, puis remises à cuire avec {1_coll} dans un bouillon propre, et liées {2_plur} hors du feu. Deux eaux : la règle ne souffre pas d'exception.</FlavorTextFR_SoupeDeToxipatate.description>
 	<FlavorTextFR_CurryDeToxipatate.label>curry {0_adj} aux pois chiches</FlavorTextFR_CurryDeToxipatate.label>
-	<FlavorTextFR_CurryDeToxipatate.description>{0_coll} en cubes précuites à part, ajoutées en fin de course à {1_coll} mijotés dans un masala grillé {2_plur} entières. Elles boivent la sauce et tiennent à la cuillère.</FlavorTextFR_CurryDeToxipatate.description>
+	<FlavorTextFR_CurryDeToxipatate.description>{0_coll} en cubes précuites à part, ajoutées en fin de cuisson à {1_coll} mijotés dans un masala grillé {2_plur} entières. Elles boivent la sauce et tiennent à la cuillère.</FlavorTextFR_CurryDeToxipatate.description>
 	<FlavorTextFR_ToxipatateAigreDouce.label>{0_coll} aigres-douces</FlavorTextFR_ToxipatateAigreDouce.label>
-	<FlavorTextFR_ToxipatateAigreDouce.description>des rondelles {0_adj} dégorgées au sel, sautées vif puis laquées d'un vinaigre {1_adj} {2_plur} séché. L'acide fait double office : il assainit et il réveille.</FlavorTextFR_ToxipatateAigreDouce.description>
+	<FlavorTextFR_ToxipatateAigreDouce.description>des rondelles {0_adj} dégorgées au sel, saisies à feu vif puis laquées d'un vinaigre {1_adj} {2_plur} séché. L'acide fait double office : il assainit et il réveille.</FlavorTextFR_ToxipatateAigreDouce.description>
 	<FlavorTextFR_HachisDeToxipatate.label>parmentier {0_adj}</FlavorTextFR_HachisDeToxipatate.label>
 	<FlavorTextFR_HachisDeToxipatate.description>{1_coll} hachée étalée au fond du plat, couverte d'une purée {0_adj} montée {2_plur} et gratinée. Le plat des colonies qui n'ont que ça à planter, et qui s'en accommodent très bien.</FlavorTextFR_HachisDeToxipatate.description>
 

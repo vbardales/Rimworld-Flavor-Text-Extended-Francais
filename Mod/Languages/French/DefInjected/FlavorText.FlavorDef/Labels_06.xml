@@ -36,7 +36,7 @@
 	<FlavorText_Poached_Egg.label>{0_coll} pochés</FlavorText_Poached_Egg.label>
 	<FlavorText_Scrambled_Egg_3.label>{0_coll} brouillés</FlavorText_Scrambled_Egg_3.label>
 	<FlavorText_SteamedEggs.label>œufs à la vapeur</FlavorText_SteamedEggs.label>
-	<FlavorText_Strapatsada.label>strapatsáda</FlavorText_Strapatsada.label>
+	<FlavorText_Strapatsada.label>strapatsada</FlavorText_Strapatsada.label>
 	<FlavorText_Sunny-Side-Up_Egg.label>{0_coll} au plat</FlavorText_Sunny-Side-Up_Egg.label>
 	<FlavorText_Zarangollo.label>zarangollo</FlavorText_Zarangollo.label>
 	<FlavorText_Zarangollo_2.label>zarangollo</FlavorText_Zarangollo_2.label>
@@ -48,7 +48,7 @@
 	<FlavorText_Black_Garlic.label>{0_coll} noir</FlavorText_Black_Garlic.label>
 	<FlavorText_BaconPancakes.label>pancakes au bacon</FlavorText_BaconPancakes.label>
 	<FlavorText_Gachas.label>gachas</FlavorText_Gachas.label>
-	<FlavorText_Skordalia_2.label>skordaliá</FlavorText_Skordalia_2.label>
+	<FlavorText_Skordalia_2.label>skordalia</FlavorText_Skordalia_2.label>
 
 	<!-- Plats composés -->
 	<FlavorText_Ingredients_MeatRaw_Sautee.label>sauté {0_adj} et {1_adj}</FlavorText_Ingredients_MeatRaw_Sautee.label>

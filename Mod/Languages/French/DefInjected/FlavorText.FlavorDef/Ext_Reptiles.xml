@@ -50,7 +50,7 @@
 	<FlavorTextFR_VaranAuCoco.label>varan au lait de coco</FlavorTextFR_VaranAuCoco.label>
 	<FlavorTextFR_VaranAuCoco.description>{0_coll} découpée et mijotée longuement dans un lait {1_adj} épicé : sa chair est ferme et maigre, et ne s'attendrit qu'à petit feu.</FlavorTextFR_VaranAuCoco.description>
 	<FlavorTextFR_VaranGrille.label>varan grillé aux épices</FlavorTextFR_VaranGrille.label>
-	<FlavorTextFR_VaranGrille.description>{0_coll} frottée {1_plur} pilés et badigeonnée {2_plur}, grillée sur braises. Une viande de brousse, plus proche du poulet que du poisson malgré les apparences.</FlavorTextFR_VaranGrille.description>
+	<FlavorTextFR_VaranGrille.description>{0_coll} frottée {1_plur} pilés et badigeonnée {2_plur}, grillée sur des braises. Une viande de brousse, plus proche du poulet que du poisson malgré les apparences.</FlavorTextFR_VaranGrille.description>
 	<FlavorTextFR_SoupeDeSerpent.label>soupe de serpent cantonaise</FlavorTextFR_SoupeDeSerpent.label>
 	<FlavorTextFR_SoupeDeSerpent.description>{0_coll} effilochée en fils très fins, mijotée avec {1_coll} noirs, {2_coll} et des écorces d'agrumes, liée à la fécule. Un plat d'hiver, réputé réchauffer le sang.</FlavorTextFR_SoupeDeSerpent.description>
 	<FlavorTextFR_RattlesnakeChili.label>chili de crotale</FlavorTextFR_RattlesnakeChili.label>
