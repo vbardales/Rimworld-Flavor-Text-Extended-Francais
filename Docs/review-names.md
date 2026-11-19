@@ -43,3 +43,6 @@
 | Brown Betty | translated to `croustillant {0_plur}` | French dessert name, the token keeps the fruit (Virginie wrote « Croustillant aux pommes »); decided by Virginie | 2026-11-19 |
 | Mont Blanc, Mont d'Or | kept lowercase (`mont d'or chaud`) | common nouns of a dessert and a cheese; decided by Virginie | 2026-11-19 |
 | Places and people (Lyon, Saint-Étienne, Sussex, Queensland, Pahang, Jambi, Porto, Goa, Iran, Carême, Andes, Tijuana, Sichuan, Sainte-Menehould, Louis XVI, Mère Poulard, Vendée, Jura, Nantua, Oaxaca, Michoacán, Honduras, Botswana, Kentucky, Tennessee, Vichy, Tokyo, New York, Rocky Mountains) | kept as is, case by case | usual French forms; decided by Virginie (« à garder au cas par cas ») | 2026-11-19 |
+| Scotch Bonnet | translated to `piment Scotch Bonnet` (Achu: « du piment Scotch Bonnet ») | the cultivar name, more exact than « piments antillais »; decided by Virginie | 2026-11-19 |
+| Spice bag | translated to `Spice Bag irlandais` | name of an Irish takeaway dish kept with its origin; decided by Virginie | 2026-11-19 |
+| Verviers, Kampot, Ghana, Texas, Constantinople, Laos, Bihar, Philippines, Caen, Dijon, Marengo, Espelette, La Paz, Offenbach, Bourse, American, Thai, Roman | kept as is, case by case | usual French forms; decided by Virginie (« garder au cas par cas ») | 2026-11-19 |

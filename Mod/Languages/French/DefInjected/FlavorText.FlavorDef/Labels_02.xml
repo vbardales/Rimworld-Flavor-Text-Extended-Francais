@@ -57,7 +57,7 @@
 	<FlavorText_Fried_MeatRaw.label>{0_coll} panée et frite</FlavorText_Fried_MeatRaw.label>
 	<FlavorText_Fried_MeatRaw_2.label>{0_coll} frite</FlavorText_Fried_MeatRaw_2.label>
 	<FlavorText_Poutine.label>poutine</FlavorText_Poutine.label>
-	<FlavorText_SpiceBag.label>spice bag</FlavorText_SpiceBag.label>
+	<FlavorText_SpiceBag.label>Spice Bag irlandais</FlavorText_SpiceBag.label>
 
 	<!-- Desserts au four -->
 	<FlavorText_PanDeRegla.label>pan de regla</FlavorText_PanDeRegla.label>
