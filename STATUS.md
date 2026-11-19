@@ -74,7 +74,7 @@ remaining:
   - "credits to correct on the Steam page (owner remark, 2026-09-25): RimCuisine 2 Core (Continued) is Mlie's update of Crustypeanut's mod, Kit's Brazilian Crops (Continued) is Zaljerem's update of a mod by Kitsune; the published 1.0.1 description credits Crustypeanut and Zaljerem only. Fixed in Mod/About/About.xml and PUBLICATION.md (6564 bytes), not yet on Steam: it goes out grouped with the next publication (owner, 2026-09-25: update_description on, dry-run first). The thank-you comment already posted on the Kit's page names Zaljerem only; a comment on Kitsune's original page (2388898158) is the owner's call."
   - "unverified: RIMMSQOL revealing FTFR_Settings is covered by pass 7 (played, four launches, all exitReason passed, TESTING.md row 7; PickleTools/RimmsqolSteps/README.md). Other customization mods are not covered."
   - "defect (not a stage-chain transition): Mod/About/ModIcon.png is 1254 x 1254 and 1,444,880 bytes and ships with Mod/ (Steam publishes it unfiltered); PUBLISHING.md says about 128 px is enough. Legibility at 32 px is fine (checked 2026-10-02), the defect is the weight. Only the owner generates or resizes a ModIcon: asked, not touched."
-protocols_read_sha: 71a58c94f32f6f37133e437e3693fd025c29b48c
+protocols_read_sha: 9341172cc59e21a3271b32e9a434888782693a97
 ---
 
 # History
