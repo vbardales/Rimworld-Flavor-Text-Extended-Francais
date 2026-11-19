@@ -34,3 +34,6 @@
 | ramadan | kept as is (`ramadan`, lowercase) | common noun; decided by Virginie | 2026-11-19 |
 | Soylent (green, red, yellow) | kept as is (`soleil vert`, `soleil rouge`, `soleil jaune`) | French title of the film Soleil vert; decided by Virginie | 2026-11-19 |
 | Belle-Hélène, Rossini, Orloff, Melba | kept as is | eponymous dish names, already right; decided by Virginie | 2026-11-19 |
+| Aymara | kept as is (`aymara`, lowercase after « peuple ») | adjective of « peuple »; decided by Virginie | 2026-11-19 |
+| Maori | kept as is (`maorie`) | French adjective, no macron; decided by Virginie | 2026-11-19 |
+| Gaston Gérard | kept as is (`poulet Gaston Gérard`) | eponymous dish name, mayor of Dijon; decided by Virginie | 2026-11-19 |
