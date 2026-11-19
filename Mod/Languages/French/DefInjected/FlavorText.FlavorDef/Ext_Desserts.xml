@@ -75,9 +75,9 @@
 	<FlavorTextFR_StickyToffeePudding.description>{0_coll} cuites et écrasées dans la pâte, qui la rendent presque noire, sous un caramel {2_adj} versé chaud et absorbé par le gâteau.</FlavorTextFR_StickyToffeePudding.description>
 	<FlavorTextFR_BanoffeePie.label>banoffee pie</FlavorTextFR_BanoffeePie.label>
 	<FlavorTextFR_BanoffeePie.description>un fond de biscuits écrasés, une couche de lait concentré cuit jusqu'au caramel, {0_coll} en rondelles, et {2_coll} fouettée. Inventé dans un pub du Sussex en 1971.</FlavorTextFR_BanoffeePie.description>
-	<FlavorTextFR_EtonMess.label>eton mess</FlavorTextFR_EtonMess.label>
+	<FlavorTextFR_EtonMess.label>Eton mess</FlavorTextFR_EtonMess.label>
 	<FlavorTextFR_EtonMess.description>de la meringue {1_adj} brisée, {2_coll} fouettée et {0_coll} écrasées, mêlées sans soin. Le désordre est le principe, pas l'accident.</FlavorTextFR_EtonMess.description>
-	<FlavorTextFR_BakewellTart.label>bakewell tart</FlavorTextFR_BakewellTart.label>
+	<FlavorTextFR_BakewellTart.label>Bakewell tart</FlavorTextFR_BakewellTart.label>
 	<FlavorTextFR_BakewellTart.description>une pâte sablée, une couche de confiture {1_adj}, et une frangipane {0_adj} par-dessus qui gonfle et dore au four.</FlavorTextFR_BakewellTart.description>
 	<FlavorTextFR_TresLeches.label>tres leches</FlavorTextFR_TresLeches.label>
 	<FlavorTextFR_TresLeches.description>un biscuit sec exprès, percé de trous et noyé de trois laits différents jusqu'à saturation. Il doit être détrempé sans s'effondrer : tout l'exercice est là.</FlavorTextFR_TresLeches.description>
@@ -95,7 +95,7 @@
 	<FlavorTextFR_Cheesecake.description>un fond de biscuits beurrés sous un appareil {0_adj} et {1_adj}, cuit au bain-marie et refroidi lentement : un choc de température le fend en deux.</FlavorTextFR_Cheesecake.description>
 	<FlavorTextFR_Lamington.label>lamington</FlavorTextFR_Lamington.label>
 	<FlavorTextFR_Lamington.description>des cubes de génoise trempés dans un glaçage {1_adj} liquide puis roulés {2_plur} râpée. Australien, et nommé d'après un gouverneur du Queensland qui n'y était pour rien.</FlavorTextFR_Lamington.description>
-	<FlavorTextFR_AnzacBiscuits.label>anzac biscuits</FlavorTextFR_AnzacBiscuits.label>
+	<FlavorTextFR_AnzacBiscuits.label>ANZAC biscuits</FlavorTextFR_AnzacBiscuits.label>
 	<FlavorTextFR_AnzacBiscuits.description>{0_coll} et {1_coll} liés au sirop doré, sans œuf : ils devaient survivre à des semaines de mer avant d'atteindre les tranchées.</FlavorTextFR_AnzacBiscuits.description>
 	<FlavorTextFR_MalvaPudding.label>malva pudding</FlavorTextFR_MalvaPudding.label>
 	<FlavorTextFR_MalvaPudding.description>un gâteau sud-africain {1_adj} et à l'abricot, percé à la sortie du four et noyé d'une sauce {2_adj} chaude qu'il absorbe entièrement.</FlavorTextFR_MalvaPudding.description>

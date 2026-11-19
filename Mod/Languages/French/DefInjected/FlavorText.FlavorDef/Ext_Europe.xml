@@ -75,15 +75,15 @@
 	<FlavorTextFR_Kjotsupa.description>{0_coll} sur l'os bouillie avec {1_coll} et {2_coll}, sans autre assaisonnement que le sel. La soupe islandaise de tous les jours, depuis mille ans.</FlavorTextFR_Kjotsupa.description>
 	<FlavorTextFR_SteakAndAlePie.label>steak and ale pie</FlavorTextFR_SteakAndAlePie.label>
 	<FlavorTextFR_SteakAndAlePie.description>{0_coll} braisée {1_plur} brune jusqu'à s'effilocher, enfermée sous un couvercle de pâte qui gonfle et brunit au four.</FlavorTextFR_SteakAndAlePie.description>
-	<FlavorTextFR_LancashireHotpot.label>lancashire hotpot</FlavorTextFR_LancashireHotpot.label>
+	<FlavorTextFR_LancashireHotpot.label>Lancashire hotpot</FlavorTextFR_LancashireHotpot.label>
 	<FlavorTextFR_LancashireHotpot.description>{0_coll} et {2_coll} en couches sous un toit de fines rondelles {1_adj} qui dorent et croustillent pendant que le dessous mijote.</FlavorTextFR_LancashireHotpot.description>
-	<FlavorTextFR_CullenSkink.label>cullen skink</FlavorTextFR_CullenSkink.label>
+	<FlavorTextFR_CullenSkink.label>Cullen skink</FlavorTextFR_CullenSkink.label>
 	<FlavorTextFR_CullenSkink.description>de l'églefin fumé poché {2_plur}, effeuillé, remis dans son lait avec {1_coll} écrasées. Épais au point de tenir la cuillère debout.</FlavorTextFR_CullenSkink.description>
 	<FlavorTextFR_HaggisNeepsTatties.label>haggis, neeps and tatties</FlavorTextFR_HaggisNeepsTatties.label>
 	<FlavorTextFR_HaggisNeepsTatties.description>{0_coll} hachée avec {1_coll} et beaucoup de poivre, cuite dans une panse, servie avec des navets et des pommes de terre écrasés séparément. On le tranche d'un coup de couteau devant les convives.</FlavorTextFR_HaggisNeepsTatties.description>
 	<FlavorTextFR_CockALeekie.label>cock-a-leekie</FlavorTextFR_CockALeekie.label>
 	<FlavorTextFR_CockALeekie.description>une soupe écossaise {0_adj} et {1_adj}, avec des pruneaux entiers dedans. L'accord surprend, mais il est attesté depuis le XVIe siècle.</FlavorTextFR_CockALeekie.description>
-	<FlavorTextFR_FullEnglishBreakfast.label>full english breakfast</FlavorTextFR_FullEnglishBreakfast.label>
+	<FlavorTextFR_FullEnglishBreakfast.label>full English breakfast</FlavorTextFR_FullEnglishBreakfast.label>
 	<FlavorTextFR_FullEnglishBreakfast.description>{0_coll}, {1_coll} sous toutes ses formes, {2_coll} à la tomate, champignons et pain frit, tout dans la même assiette. Un petit-déjeuner qui tient lieu de deux repas.</FlavorTextFR_FullEnglishBreakfast.description>
 	<FlavorTextFR_Kedgeree.label>kedgeree</FlavorTextFR_Kedgeree.label>
 	<FlavorTextFR_Kedgeree.description>{0_coll} au curry mêlé de poisson fumé effeuillé et d'œufs durs. Un khichdi indien rapporté par les Britanniques, devenu chez eux un plat de petit-déjeuner.</FlavorTextFR_Kedgeree.description>

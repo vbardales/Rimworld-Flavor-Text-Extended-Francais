@@ -11,9 +11,9 @@
 	<flavorTextForStacksTooltip>Activé : les piles de repas reçoivent un nom de plat.\n\nDésactivé : les piles de repas conservent leur nom d'origine.</flavorTextForStacksTooltip>
 
 	<laxRecipeMatching>Correspondance souple des recettes</laxRecipeMatching>
-	<laxRecipeMatchingTooltip>Les noms de plats issus de mods pourront aussi apparaître sur les repas de base. Par exemple, si un mod de soupes est actif, « soupe aux œufs filés » pourra servir de nom à un simple repas simple.\n\nPREND EFFET AU REDÉMARRAGE DU JEU</laxRecipeMatchingTooltip>
+	<laxRecipeMatchingTooltip>Les noms de plats issus de mods pourront aussi apparaître sur les repas de base. Par exemple, si un mod de soupes est actif, « soupe aux œufs filés » pourra servir de nom à un repas simple de base.\n\nPREND EFFET AU REDÉMARRAGE DU JEU</laxRecipeMatchingTooltip>
 
 	<dynamicMealIncorporation>Détection dynamique des repas</dynamicMealIncorporation>
-	<dynamicMealIncorporationTooltip>Flavor Text cherchera d'autres types de repas à nommer, au-delà de ceux explicitement définis pour le jeu de base et les mods connus. Peut attraper des repas inadaptés.\n\nPREND EFFET AU REDÉMARRAGE DU JEU</dynamicMealIncorporationTooltip>
+	<dynamicMealIncorporationTooltip>Flavor Text cherchera d'autres types de repas à nommer, au-delà de ceux explicitement définis pour le jeu de base et les mods connus. Peut inclure des repas inadaptés.\n\nPREND EFFET AU REDÉMARRAGE DU JEU</dynamicMealIncorporationTooltip>
 
 </LanguageData>

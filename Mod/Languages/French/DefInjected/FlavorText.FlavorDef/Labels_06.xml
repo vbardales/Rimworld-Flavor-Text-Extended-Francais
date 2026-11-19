@@ -25,7 +25,7 @@
 	<FlavorText_PlantFoodRaw_Kuku.label>kuku {1_plur}</FlavorText_PlantFoodRaw_Kuku.label>
 	<FlavorText_AmericanOmlette.label>omelette américaine</FlavorText_AmericanOmlette.label>
 	<FlavorText_Basted_Egg.label>{0_coll} arrosés au beurre</FlavorText_Basted_Egg.label>
-	<FlavorText_BrooklynRicottaScramble.label>brouillade à la ricotta</FlavorText_BrooklynRicottaScramble.label>
+	<FlavorText_BrooklynRicottaScramble.label>brouillade de ricotta façon Brooklyn</FlavorText_BrooklynRicottaScramble.label>
 	<!-- « deviled eggs » a un équivalent français exact -->
 	<FlavorText_Deviled_Egg.label>{0_coll} mimosa</FlavorText_Deviled_Egg.label>
 	<FlavorText_EnqulalFirfir.label>enqulal firfir</FlavorText_EnqulalFirfir.label>

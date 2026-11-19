@@ -40,7 +40,7 @@
 	<FlavorTextFR_SambalTempoyak.label>sambal tempoyak</FlavorTextFR_SambalTempoyak.label>
 	<FlavorTextFR_SambalTempoyak.description>{0_coll} fermenté pilé {1_plur} et {2_plur} au mortier, puis frit brièvement. L'acidité de la fermentation remplace le tamarin qu'on mettrait ailleurs.</FlavorTextFR_SambalTempoyak.description>
 	<FlavorTextFR_GulaiTempoyak.label>gulai tempoyak</FlavorTextFR_GulaiTempoyak.label>
-	<FlavorTextFR_GulaiTempoyak.description>un curry jaune monté sur lait {1_adj} et curcuma, acidifié {0_plur} fermenté plutôt qu'au tamarin. La sauce prend une texture épaisse qu'aucun autre acide ne donne.</FlavorTextFR_GulaiTempoyak.description>
+	<FlavorTextFR_GulaiTempoyak.description>un curry jaune à base de lait {1_adj} et de curcuma, acidifié {0_plur} fermenté plutôt qu'au tamarin. La sauce prend une texture épaisse qu'aucun autre acide ne donne.</FlavorTextFR_GulaiTempoyak.description>
 	<FlavorTextFR_IkanPatinTempoyak.label>ikan patin tempoyak</FlavorTextFR_IkanPatinTempoyak.label>
 	<FlavorTextFR_IkanPatinTempoyak.description>{1_coll} de rivière mijotée dans {0_coll} fermenté et {2_coll}, sans lait de coco. Le plat emblématique de Pahang et de Jambi, et la meilleure démonstration que ce fruit n'est pas qu'un dessert.</FlavorTextFR_IkanPatinTempoyak.description>
 

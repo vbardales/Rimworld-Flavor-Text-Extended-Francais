@@ -22,7 +22,7 @@
 	<FlavorTextFR_SopaDeLima.label>sopa de lima</FlavorTextFR_SopaDeLima.label>
 	<FlavorTextFR_SopaDeLima.description>un bouillon {0_adj} acidulé {1_plur}, garni de lanières {2_adj} frites qui ramollissent à mesure qu'on mange. Il faut donc manger vite.</FlavorTextFR_SopaDeLima.description>
 	<FlavorTextFR_Birria.label>birria</FlavorTextFR_Birria.label>
-	<FlavorTextFR_Birria.description>{0_coll} cuite à l'étouffée dans un adobo {1_adj} et {2_adj} jusqu'à se défiler. Le jus rendu se garde à part : on y trempe tout le reste.</FlavorTextFR_Birria.description>
+	<FlavorTextFR_Birria.description>{0_coll} cuite à l'étouffée dans un adobo {1_adj} et {2_adj} jusqu'à s'effilocher. Le jus rendu se garde à part : on y trempe tout le reste.</FlavorTextFR_Birria.description>
 	<FlavorTextFR_Chilaquiles.label>chilaquiles</FlavorTextFR_Chilaquiles.label>
 	<FlavorTextFR_Chilaquiles.description>des galettes {0_adj} de la veille, coupées, frites, puis noyées de sauce {1_adj} juste assez longtemps pour s'attendrir sans se dissoudre, avec {2_coll} par-dessus. Le petit-déjeuner des lendemains difficiles.</FlavorTextFR_Chilaquiles.description>
 	<FlavorTextFR_Carnitas.label>carnitas</FlavorTextFR_Carnitas.label>
