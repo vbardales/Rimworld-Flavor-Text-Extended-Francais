@@ -23,3 +23,14 @@
 | Arawak, Carib | translated to `les Arawaks et les Caraïbes (aussi appelés Kalinagos)` | names of peoples take a capital; decided by Virginie | 2026-11-16 |
 | Yoruba | kept as is (`Yoruba`) | name of a people, capital; decided by Virginie | 2026-11-16 |
 | Ewe Eran | kept as is (`ewe eran`, lowercase) | common noun of a leaf, no botanical name added; decided by Virginie | 2026-11-16 |
+| Hoppin' John | translated to `riz aux cornilles à la carolinienne` | no French name exists; the name comes from « pois pigeons », so a description of the dish; decided by Virginie | 2026-11-19 |
+| Kool-Aid | translated to `cornichons au sirop {1_plur}` | no French equivalent of the powder; the sirop is the French counterpart; decided by Virginie | 2026-11-19 |
+| Baby You Can Chive My Car | translated to `En voiture, ciboulette !` | pun on the Beatles « Drive My Car », rendered with « En voiture, Simone ! »; decided by Virginie | 2026-11-19 |
+| Buddha bowl | kept as is (`Buddha bowl`) | usual form in French; decided by Virginie | 2026-11-19 |
+| Twinkies | translated to `mini-génoises fourrées à la crème` | brand with no French equivalent, generic description; label in lowercase like the other labels; decided by Virginie | 2026-11-19 |
+| Jammy Dodgers | translated to `lunettes de Romans` | French biscuit of the same form (two shortbreads and jam), the description drops « britannique »; decided by Virginie | 2026-11-19 |
+| canard laqué | kept as is (`canard laqué`) | usual French name, Pékin optional; decided by Virginie | 2026-11-19 |
+| paris-brest | kept as is (`paris-brest`, lowercase) | common noun in Universalis, La langue française and OQLF, capital only for the race; decided by Virginie | 2026-11-19 |
+| ramadan | kept as is (`ramadan`, lowercase) | common noun; decided by Virginie | 2026-11-19 |
+| Soylent (green, red, yellow) | kept as is (`soleil vert`, `soleil rouge`, `soleil jaune`) | French title of the film Soleil vert; decided by Virginie | 2026-11-19 |
+| Belle-Hélène, Rossini, Orloff, Melba | kept as is | eponymous dish names, already right; decided by Virginie | 2026-11-19 |

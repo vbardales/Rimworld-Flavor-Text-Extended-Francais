@@ -66,7 +66,7 @@
 	<FlavorText_BreakfastSandwich.label>sandwich du petit-déjeuner</FlavorText_BreakfastSandwich.label>
 	<FlavorText_CheeseSandwich.label>sandwich au fromage</FlavorText_CheeseSandwich.label>
 	<!-- Calembour sur les Beatles dans l'original ; on en prend un autre, plus lisible en français -->
-	<FlavorText_BabyYouCanChiveMyCar.label>Ciboulette, ma jolie</FlavorText_BabyYouCanChiveMyCar.label>
+	<FlavorText_BabyYouCanChiveMyCar.label>En voiture, ciboulette !</FlavorText_BabyYouCanChiveMyCar.label>
 	<FlavorText_HotDogs.label>hot-dogs</FlavorText_HotDogs.label>
 	<FlavorText_ReubenSandwich.label>sandwich Reuben</FlavorText_ReubenSandwich.label>
 	<FlavorText_MeatRaw_Burritos.label>burritos {0_plur}</FlavorText_MeatRaw_Burritos.label>
@@ -78,7 +78,7 @@
 
 	<!-- En-cas -->
 	<FlavorText_Milkshake.label>milkshake</FlavorText_Milkshake.label>
-	<FlavorText_Fruit_Kool-AidPickles.label>cornichons kool-aid {1_plur}</FlavorText_Fruit_Kool-AidPickles.label>
+	<FlavorText_Fruit_Kool-AidPickles.label>cornichons au sirop {1_plur}</FlavorText_Fruit_Kool-AidPickles.label>
 	<FlavorText_Fruit_CrackSeed.label>crack seed {0_plur}</FlavorText_Fruit_CrackSeed.label>
 	<FlavorText_Fruit_Pops.label>esquimaux {0_plur}</FlavorText_Fruit_Pops.label>
 	<FlavorText_CrackerJacks.label>cracker jacks</FlavorText_CrackerJacks.label>

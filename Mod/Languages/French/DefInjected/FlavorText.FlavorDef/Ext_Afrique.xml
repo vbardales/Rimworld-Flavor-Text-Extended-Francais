@@ -31,7 +31,7 @@
 	<FlavorTextFR_ClamChowder.description>{0_coll} ouverte à la vapeur, son eau filtrée et gardée, avec {1_coll} et {2_coll}. Se sert dans une miche creusée, dont on mange les parois à la fin.</FlavorTextFR_ClamChowder.description>
 	<FlavorTextFR_BoudinCajun.label>boudin cajun</FlavorTextFR_BoudinCajun.label>
 	<FlavorTextFR_BoudinCajun.description>{0_coll} et abats cuits puis hachés {1_plur} et {2_plur}, embossés dans un boyau et réchauffés à la vapeur. Se mange en pressant le boyau pour en faire sortir la farce, qu'on ne mâche presque pas.</FlavorTextFR_BoudinCajun.description>
-	<FlavorTextFR_HoppinJohn.label>hoppin' john</FlavorTextFR_HoppinJohn.label>
+	<FlavorTextFR_HoppinJohn.label>riz aux cornilles à la carolinienne</FlavorTextFR_HoppinJohn.label>
 	<FlavorTextFR_HoppinJohn.description>{0_coll} et {1_coll} cuits dans une eau parfumée {2_plur} fumée. Se mange le premier jour de l'an : chaque grain compte pour une pièce de l'année à venir.</FlavorTextFR_HoppinJohn.description>
 
 </LanguageData>
