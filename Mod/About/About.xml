@@ -89,6 +89,7 @@ No explicit upstream permission has been established; see ATTRIBUTION.md and LIC
   <loadAfter>
     <li>brrainz.harmony</li>
     <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Biotech</li>
     <li>hekmo.FlavorText</li>
     <li>nelim.flavortextextended</li>
     <li>Goat.Food.Texture.Variety.Core</li>
