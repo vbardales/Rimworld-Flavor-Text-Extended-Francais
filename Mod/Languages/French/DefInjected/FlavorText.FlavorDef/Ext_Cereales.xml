@@ -54,7 +54,7 @@
 	<FlavorTextFR_QuinoaAuLait.label>quinoa au lait</FlavorTextFR_QuinoaAuLait.label>
 	<FlavorTextFR_QuinoaAuLait.description>{0_coll} cuit {1_plur} à la cannelle et à peine {2_adj}, jusqu'à ce que chaque grain déroule son germe. Se mange tiède, au bol, comme on le fait à La Paz au petit jour.</FlavorTextFR_QuinoaAuLait.description>
 	<FlavorTextFR_GalettesDeQuinoa.label>galettes de quinoa</FlavorTextFR_GalettesDeQuinoa.label>
-	<FlavorTextFR_GalettesDeQuinoa.description>{0_coll} cuit puis lié {1_plur} ~battu~ et {2_plur} ~râpé~, façonné à la cuillère et saisi des deux côtés. Elles se tiennent mal chaudes : on les laisse reposer avant de retourner.</FlavorTextFR_GalettesDeQuinoa.description>
+	<FlavorTextFR_GalettesDeQuinoa.description>{0_coll} cuit puis lié {1_plur} ~battu~ et {2_plur} ~râpé~, façonné à la cuillère et saisi des deux côtés. Elles se tiennent mal chaudes : on les laisse reposer avant de les retourner.</FlavorTextFR_GalettesDeQuinoa.description>
 	<FlavorTextFR_TaboulehDeQuinoa.label>tabbouleh de quinoa</FlavorTextFR_TaboulehDeQuinoa.label>
 	<FlavorTextFR_TaboulehDeQuinoa.description>beaucoup plus de persil que {0_adj}, avec {2_coll} épépinées en tout petits dés et le jus {1_adj}. La céréale est ici l'assaisonnement de l'herbe, jamais l'inverse.</FlavorTextFR_TaboulehDeQuinoa.description>
 	<FlavorTextFR_SaladeQuinoaAvocat.label>salade quinoa-avocat</FlavorTextFR_SaladeQuinoaAvocat.label>

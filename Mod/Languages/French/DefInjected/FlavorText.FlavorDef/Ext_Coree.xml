@@ -18,7 +18,7 @@
 	<FlavorTextFR_Galbi.label>galbi</FlavorTextFR_Galbi.label>
 	<FlavorTextFR_Galbi.description>des côtes {0_adj} taillées en accordéon pour mariner plus vite {1_plur} et {2_plur}, grillées sur la table même. La poire râpée de la marinade attendrit la viande.</FlavorTextFR_Galbi.description>
 	<FlavorTextFR_DoenjangJjigae.label>doenjang jjigae</FlavorTextFR_DoenjangJjigae.label>
-	<FlavorTextFR_DoenjangJjigae.description>un ragoût bouillonnant de pâte {0_adj} fermentée, avec {1_coll} et {2_coll}. Arrive encore en train de cuire dans son pot de terre, et continue dix minutes.</FlavorTextFR_DoenjangJjigae.description>
+	<FlavorTextFR_DoenjangJjigae.description>un ragoût bouillonnant de pâte {0_adj} fermentée, avec {1_coll} et {2_coll}. Il arrive encore en train de cuire dans son pot de terre, et continue dix minutes.</FlavorTextFR_DoenjangJjigae.description>
 	<FlavorTextFR_Pajeon.label>pajeon</FlavorTextFR_Pajeon.label>
 	<FlavorTextFR_Pajeon.description>une crêpe épaisse où {2_coll} tiennent debout dans la pâte, dorée des deux côtés à l'huile généreuse. Se mange les jours de pluie : le bruit de la friture rappelle celui des gouttes.</FlavorTextFR_Pajeon.description>
 	<FlavorTextFR_Kimbap.label>kimbap</FlavorTextFR_Kimbap.label>
@@ -26,7 +26,7 @@
 	<FlavorTextFR_SundubuJjigae.label>sundubu jjigae</FlavorTextFR_SundubuJjigae.label>
 	<FlavorTextFR_SundubuJjigae.description>du tofu si peu pressé qu'il se défait à la cuillère, dans un bouillon rouge {1_adj}, avec {2_coll} cassés dedans au dernier moment.</FlavorTextFR_SundubuJjigae.description>
 	<FlavorTextFR_Dakgangjeong.label>dakgangjeong</FlavorTextFR_Dakgangjeong.label>
-	<FlavorTextFR_Dakgangjeong.description>{0_coll} frite deux fois (la seconde chasse l'eau restée sous la croûte) puis laquée {1_plur} et {2_plur}. Reste croustillante sous la sauce, ce qui est tout l'exploit.</FlavorTextFR_Dakgangjeong.description>
+	<FlavorTextFR_Dakgangjeong.description>{0_coll} frite deux fois (la seconde chasse l'eau restée sous la croûte) puis laquée {1_plur} et {2_plur}. Elle reste croustillante sous la sauce, ce qui est tout l'exploit.</FlavorTextFR_Dakgangjeong.description>
 	<FlavorTextFR_Naengmyeon.label>naengmyeon</FlavorTextFR_Naengmyeon.label>
 	<FlavorTextFR_Naengmyeon.description>des nouilles {0_adj} servies dans un bouillon glacé, parfois à moitié pris en glace, avec {1_coll} et un demi-œuf. On les coupe aux ciseaux à table : elles sont trop élastiques pour les dents.</FlavorTextFR_Naengmyeon.description>
 	<FlavorTextFR_Japchae.label>japchae</FlavorTextFR_Japchae.label>
@@ -34,7 +34,7 @@
 	<FlavorTextFR_JeyukBokkeum.label>jeyuk bokkeum</FlavorTextFR_JeyukBokkeum.label>
 	<FlavorTextFR_JeyukBokkeum.description>{0_coll} tranchée fin et sautée à feu vif dans une pâte {1_adj}, avec {2_coll}. Le sucre de la marinade caramélise et attache : c'est le but.</FlavorTextFR_JeyukBokkeum.description>
 	<FlavorTextFR_Gyeranjjim.label>gyeranjjim</FlavorTextFR_Gyeranjjim.label>
-	<FlavorTextFR_Gyeranjjim.description>{0_coll} battus avec autant d'eau qu'ils pèsent, cuits à la vapeur jusqu'à gonfler par-dessus le bol, parsemés {1_plur} et {2_plur}. Retombe en une minute.</FlavorTextFR_Gyeranjjim.description>
+	<FlavorTextFR_Gyeranjjim.description>{0_coll} battus avec autant d'eau qu'ils pèsent, cuits à la vapeur jusqu'à gonfler par-dessus le bol, parsemés {1_plur} et {2_plur}. Il retombe en une minute.</FlavorTextFR_Gyeranjjim.description>
 	<FlavorTextFR_Bossam.label>bossam</FlavorTextFR_Bossam.label>
 	<FlavorTextFR_Bossam.description>{0_coll} bouillie longuement puis tranchée tiède, à envelopper soi-même dans des feuilles {1_adj} avec une gousse crue {2_adj}. Chaque bouchée se construit à la main.</FlavorTextFR_Bossam.description>
 

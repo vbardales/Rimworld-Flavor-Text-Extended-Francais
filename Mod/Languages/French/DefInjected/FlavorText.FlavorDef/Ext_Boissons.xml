@@ -18,7 +18,7 @@
 	<FlavorTextFR_BoissonHaricotMungo.label>boisson au haricot mungo</FlavorTextFR_BoissonHaricotMungo.label>
 	<FlavorTextFR_BoissonHaricotMungo.description>{0_coll} mungo cuits à l'excès puis passés, allongés {1_plur} et parfumés {2_plur} frais. On la boit glacée pendant les canicules, pour ses vertus rafraîchissantes autant que pour son goût.</FlavorTextFR_BoissonHaricotMungo.description>
 	<FlavorTextFR_PoCha.label>po cha</FlavorTextFR_PoCha.label>
-	<FlavorTextFR_PoCha.description>une brique {1_adj} bouillie des heures {2_plur}, puis barattée dans un tube de bois avec {0_coll} de yak et beaucoup de sel. Ce n'est pas une infusion mais un bouillon gras : à quatre mille mètres, c'est ce qui tient debout.</FlavorTextFR_PoCha.description>
+	<FlavorTextFR_PoCha.description>une brique {1_adj} bouillie des heures {2_plur}, puis barattée dans un tube de bois avec {0_coll} de yak et beaucoup de sel. Ce n'est pas une infusion mais un bouillon gras : à quatre mille mètres, c'est ce qui permet de tenir debout.</FlavorTextFR_PoCha.description>
 	<FlavorTextFR_CafeAuBeurre.label>café au beurre</FlavorTextFR_CafeAuBeurre.label>
 	<FlavorTextFR_CafeAuBeurre.description>{1_coll} serré allongé {2_plur} chaude, dans lequel on fait fondre une noix {0_adj} en fouettant jusqu'à l'émulsion. Sans le fouet, le gras remonte en flaque et la boisson est immonde.</FlavorTextFR_CafeAuBeurre.description>
 	<FlavorTextFR_GrogAuBeurre.label>grog au beurre</FlavorTextFR_GrogAuBeurre.label>

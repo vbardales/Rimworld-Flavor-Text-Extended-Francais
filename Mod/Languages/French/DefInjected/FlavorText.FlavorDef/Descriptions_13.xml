@@ -45,7 +45,7 @@
 	<FlavorText_Condiment-Condiment_Stick.description>une paille moulée dans une poudre {0_adj} et {1_adj}, liée d'une purée {2_adj}. Quand on aspire la pâte nutritive au travers, chaque gorgée se charge des deux goûts à la fois.</FlavorText_Condiment-Condiment_Stick.description>
 
 	<!-- Œufs : les cuissons américaines, rendues par les termes français correspondants -->
-	<FlavorText_Soft-Boiled_Egg.description>trois minutes dans l'eau bouillante, pas une de plus : le blanc prend à peine, le jaune reste entièrement liquide. On décalotte {0_coll} et on les mange à la petite cuillère, dans le coquetier, avec des mouillettes.</FlavorText_Soft-Boiled_Egg.description>
+	<FlavorText_Soft-Boiled_Egg.description>trois minutes dans l'eau bouillante, pas une de plus : le blanc prend, le jaune est à peine pris. On décalotte {0_coll} et on les mange à la petite cuillère, dans le coquetier, avec des mouillettes.</FlavorText_Soft-Boiled_Egg.description>
 	<FlavorText_Hard-Boiled_Egg.description>neuf minutes dans l'eau bouillante, puis un passage à l'eau glacée pour arrêter la cuisson et décoller la coquille. Le jaune est entièrement pris. Se mangent entiers, poudrés d'épices, ou hachés en salade {0_adj}.</FlavorText_Hard-Boiled_Egg.description>
 	<FlavorText_Egg_Over-Easy.description>{0_coll} cassés dans la poêle et cuits d'un côté, puis retournés et à peine saisis de l'autre, juste le temps que l'extérieur du jaune prenne.</FlavorText_Egg_Over-Easy.description>
 	<FlavorText_Egg_Over-Medium.description>{0_coll} cassés dans la poêle et cuits d'un côté, puis retournés et cuits de l'autre jusqu'à ce que le jaune soit à peine pris, encore crémeux.</FlavorText_Egg_Over-Medium.description>
